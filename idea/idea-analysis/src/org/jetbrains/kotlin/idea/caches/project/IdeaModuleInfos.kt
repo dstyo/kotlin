@@ -282,7 +282,7 @@ class LibraryInfo(val project: Project, val library: Library) : IdeaModuleInfo, 
     }
 
     override val platform: TargetPlatform
-        get() = getLibraryPlatform(library)
+        get() = getLibraryPlatform(project, library)
 
     override val sourcesModuleInfo: SourceForBinaryModuleInfo
         get() = LibrarySourceInfo(project, library)
