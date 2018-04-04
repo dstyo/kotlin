@@ -21,12 +21,11 @@ import com.intellij.util.containers.MultiMap
 import org.jetbrains.jps.builders.DirtyFilesHolder
 import org.jetbrains.jps.builders.java.JavaSourceRootDescriptor
 import org.jetbrains.jps.incremental.ModuleBuildTarget
-import org.jetbrains.jps.model.java.JavaSourceRootProperties
 import org.jetbrains.jps.model.java.JavaSourceRootType
 import org.jetbrains.jps.model.java.JpsJavaExtensionService
 import org.jetbrains.jps.model.module.JpsModuleSourceRoot
 import org.jetbrains.jps.util.JpsPathUtil
-
+import org.jetbrains.kotlin.config.KotlinSourceRootType
 import java.io.File
 
 object KotlinSourceFileCollector {
@@ -69,8 +68,12 @@ object KotlinSourceFileCollector {
     }
 
     private fun getRelevantSourceRoots(target: ModuleBuildTarget): Iterable<JpsModuleSourceRoot> {
-        val sourceRootType = if (target.isTests) JavaSourceRootType.TEST_SOURCE else JavaSourceRootType.SOURCE
-        return target.module.getSourceRoots<JavaSourceRootProperties>(sourceRootType)
+        val module = target.module
+        return if (target.isTests) {
+            module.getSourceRoots(JavaSourceRootType.TEST_SOURCE) + module.getSourceRoots(KotlinSourceRootType.TestSource)
+        } else {
+            module.getSourceRoots(JavaSourceRootType.SOURCE) + module.getSourceRoots(KotlinSourceRootType.Source)
+        }
     }
 
     internal fun isKotlinSourceFile(file: File): Boolean {

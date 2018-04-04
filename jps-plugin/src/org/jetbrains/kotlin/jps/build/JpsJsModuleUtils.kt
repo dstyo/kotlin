@@ -24,6 +24,7 @@ import org.jetbrains.jps.model.java.JpsJavaModuleType
 import org.jetbrains.jps.model.library.JpsOrderRootType
 import org.jetbrains.jps.model.module.JpsModule
 import org.jetbrains.jps.util.JpsPathUtil
+import org.jetbrains.kotlin.config.KotlinSourceRootType
 import org.jetbrains.kotlin.utils.KotlinJavascriptMetadataUtils
 import java.io.File
 import java.util.*
@@ -88,7 +89,7 @@ object JpsJsModuleUtils {
 }
 
 val JpsModule.hasProductionSourceRoot
-    get() = sourceRoots.any { it.rootType == JavaSourceRootType.SOURCE }
+    get() = sourceRoots.any { it.rootType == KotlinSourceRootType.Source }
 
 val JpsModule.hasTestSourceRoot
-    get() = sourceRoots.any { it.rootType == JavaSourceRootType.TEST_SOURCE }
+    get() = sourceRoots.any { it.rootType == KotlinSourceRootType.TestSource }
