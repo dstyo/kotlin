@@ -233,7 +233,7 @@ public final class InTextDirectivesUtils {
     }
 
     public static boolean isIgnoredTarget(TargetBackend targetBackend, File file) {
-        if (!isAllowedByWhitelist(targetBackend, file)) return true;
+        //if (!isAllowedByWhitelist(targetBackend, file)) return true;
 
         return isIgnoredTargetByPrefix(targetBackend, file, "// IGNORE_BACKEND: ");
     }

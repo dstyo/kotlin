@@ -49,6 +49,7 @@ public class SingleClassTestModel implements TestClassModel {
     private Collection<MethodModel> methods;
 
     private final boolean skipIgnored;
+    private final boolean useAnnotatedRunner;
 
     public SingleClassTestModel(
             @NotNull File rootFile,
@@ -57,7 +58,8 @@ public class SingleClassTestModel implements TestClassModel {
             @NotNull String doTestMethodName,
             @NotNull String testClassName,
             @NotNull TargetBackend targetBackend,
-            boolean skipIgnored
+            boolean skipIgnored,
+            boolean useAnnotatedRunner
     ) {
         this.rootFile = rootFile;
         this.filenamePattern = filenamePattern;
@@ -66,6 +68,7 @@ public class SingleClassTestModel implements TestClassModel {
         this.testClassName = testClassName;
         this.targetBackend = targetBackend;
         this.skipIgnored = skipIgnored;
+        this.useAnnotatedRunner = useAnnotatedRunner;
     }
 
     @NotNull
@@ -99,7 +102,7 @@ public class SingleClassTestModel implements TestClassModel {
     @NotNull
     private Collection<TestMethodModel> getTestMethodsFromFile(File file) {
         return Collections.singletonList(new SimpleTestMethodModel(
-                rootFile, file, doTestMethodName, filenamePattern, checkFilenameStartsLowerCase, targetBackend, skipIgnored
+                rootFile, file, doTestMethodName, filenamePattern, checkFilenameStartsLowerCase, targetBackend, skipIgnored, useAnnotatedRunner
         ));
     }
 
