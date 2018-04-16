@@ -27,91 +27,91 @@ public class KotlinFileStructureTestGenerated extends AbstractKotlinFileStructur
 
     @TestMetadata("AnonymousObjectMembers.kt")
     public void testAnonymousObjectMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/AnonymousObjectMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/AnonymousObjectMembers.kt");
     }
 
     @TestMetadata("CheckLocationForKotlin.kt")
     public void testCheckLocationForKotlin() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/CheckLocationForKotlin.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/CheckLocationForKotlin.kt");
     }
 
     @TestMetadata("CheckMemberLocationForJava.kt")
     public void testCheckMemberLocationForJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/CheckMemberLocationForJava.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/CheckMemberLocationForJava.kt");
     }
 
     @TestMetadata("DoNotShowParentsInLocationJava.kt")
     public void testDoNotShowParentsInLocationJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/DoNotShowParentsInLocationJava.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/DoNotShowParentsInLocationJava.kt");
     }
 
     @TestMetadata("EmptyFile.kt")
     public void testEmptyFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/EmptyFile.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/EmptyFile.kt");
     }
 
     @TestMetadata("InheritedDelegationMethods.kt")
     public void testInheritedDelegationMethods() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedDelegationMethods.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedDelegationMethods.kt");
     }
 
     @TestMetadata("InheritedInnerClasses.kt")
     public void testInheritedInnerClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedInnerClasses.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedInnerClasses.kt");
     }
 
     @TestMetadata("InheritedJavaMembers.kt")
     public void testInheritedJavaMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedJavaMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedJavaMembers.kt");
     }
 
     @TestMetadata("InheritedLocalKotlin.kt")
     public void testInheritedLocalKotlin() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedLocalKotlin.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedLocalKotlin.kt");
     }
 
     @TestMetadata("InheritedMembers.kt")
     public void testInheritedMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedMembers.kt");
     }
 
     @TestMetadata("InheritedMembersOfEnum.kt")
     public void testInheritedMembersOfEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedMembersOfEnum.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedMembersOfEnum.kt");
     }
 
     @TestMetadata("InheritedMembersWithSubstitutedTypes.kt")
     public void testInheritedMembersWithSubstitutedTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedMembersWithSubstitutedTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedMembersWithSubstitutedTypes.kt");
     }
 
     @TestMetadata("InheritedSAMConversion.kt")
     public void testInheritedSAMConversion() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedSAMConversion.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedSAMConversion.kt");
     }
 
     @TestMetadata("InheritedSynthesizedFromDataClass.kt")
     public void testInheritedSynthesizedFromDataClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/InheritedSynthesizedFromDataClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/InheritedSynthesizedFromDataClass.kt");
     }
 
     @TestMetadata("LocalElements.kt")
     public void testLocalElements() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/LocalElements.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/LocalElements.kt");
     }
 
     @TestMetadata("Render.kt")
     public void testRender() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/Render.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/Render.kt");
     }
 
     @TestMetadata("SeveralClasses.kt")
     public void testSeveralClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/SeveralClasses.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/SeveralClasses.kt");
     }
 
     @TestMetadata("Simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/structureView/fileStructure/Simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/structureView/fileStructure/Simple.kt");
     }
 }

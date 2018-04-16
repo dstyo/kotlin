@@ -27,42 +27,42 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
     @TestMetadata("explicitReceiverIsDispatchReceiver.kt")
     public void testExplicitReceiverIsDispatchReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/explicitReceiverIsDispatchReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/explicitReceiverIsDispatchReceiver.kt");
     }
 
     @TestMetadata("explicitReceiverIsExtensionReceiver.kt")
     public void testExplicitReceiverIsExtensionReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/explicitReceiverIsExtensionReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/explicitReceiverIsExtensionReceiver.kt");
     }
 
     @TestMetadata("hasBothDispatchAndExtensionReceivers.kt")
     public void testHasBothDispatchAndExtensionReceivers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/hasBothDispatchAndExtensionReceivers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/hasBothDispatchAndExtensionReceivers.kt");
     }
 
     @TestMetadata("hasBothDispatchAndExtensionReceiversWithoutExplicitReceiver.kt")
     public void testHasBothDispatchAndExtensionReceiversWithoutExplicitReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/hasBothDispatchAndExtensionReceiversWithoutExplicitReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/hasBothDispatchAndExtensionReceiversWithoutExplicitReceiver.kt");
     }
 
     @TestMetadata("implicitReceiverIsDispatchReceiver.kt")
     public void testImplicitReceiverIsDispatchReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/implicitReceiverIsDispatchReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/implicitReceiverIsDispatchReceiver.kt");
     }
 
     @TestMetadata("implicitReceiverIsExtensionReceiver.kt")
     public void testImplicitReceiverIsExtensionReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/implicitReceiverIsExtensionReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/implicitReceiverIsExtensionReceiver.kt");
     }
 
     @TestMetadata("impliedThisNoExplicitReceiver.kt")
     public void testImpliedThisNoExplicitReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/impliedThisNoExplicitReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/impliedThisNoExplicitReceiver.kt");
     }
 
     @TestMetadata("simpleCall.kt")
     public void testSimpleCall() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolvedCalls/simpleCall.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/simpleCall.kt");
     }
 
     @TestMetadata("compiler/testData/resolvedCalls/arguments")
@@ -83,32 +83,32 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
             @TestMetadata("chainedLambdas.kt")
             public void testChainedLambdas() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/functionLiterals/chainedLambdas.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/functionLiterals/chainedLambdas.kt");
             }
 
             @TestMetadata("notInferredLambdaReturnType.kt")
             public void testNotInferredLambdaReturnType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/functionLiterals/notInferredLambdaReturnType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/functionLiterals/notInferredLambdaReturnType.kt");
             }
 
             @TestMetadata("notInferredLambdaType.kt")
             public void testNotInferredLambdaType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/functionLiterals/notInferredLambdaType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/functionLiterals/notInferredLambdaType.kt");
             }
 
             @TestMetadata("simpleGenericLambda.kt")
             public void testSimpleGenericLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/functionLiterals/simpleGenericLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/functionLiterals/simpleGenericLambda.kt");
             }
 
             @TestMetadata("simpleLambda.kt")
             public void testSimpleLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/functionLiterals/simpleLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/functionLiterals/simpleLambda.kt");
             }
 
             @TestMetadata("unmappedLambda.kt")
             public void testUnmappedLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/functionLiterals/unmappedLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/functionLiterals/unmappedLambda.kt");
             }
         }
 
@@ -122,22 +122,22 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
             @TestMetadata("inferredParameter.kt")
             public void testInferredParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/genericCalls/inferredParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/genericCalls/inferredParameter.kt");
             }
 
             @TestMetadata("simpleGeneric.kt")
             public void testSimpleGeneric() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/genericCalls/simpleGeneric.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/genericCalls/simpleGeneric.kt");
             }
 
             @TestMetadata("uninferredParameter.kt")
             public void testUninferredParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/genericCalls/uninferredParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/genericCalls/uninferredParameter.kt");
             }
 
             @TestMetadata("uninferredParameterTypeMismatch.kt")
             public void testUninferredParameterTypeMismatch() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/genericCalls/uninferredParameterTypeMismatch.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/genericCalls/uninferredParameterTypeMismatch.kt");
             }
         }
 
@@ -151,12 +151,12 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
             @TestMetadata("positionedAfterNamed.kt")
             public void testPositionedAfterNamed() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/namedArguments/positionedAfterNamed.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/namedArguments/positionedAfterNamed.kt");
             }
 
             @TestMetadata("shiftedArgsMatch.kt")
             public void testShiftedArgsMatch() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/namedArguments/shiftedArgsMatch.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/namedArguments/shiftedArgsMatch.kt");
             }
         }
 
@@ -170,22 +170,22 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
             @TestMetadata("argumentHasNoType.kt")
             public void testArgumentHasNoType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/oneArgument/argumentHasNoType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/oneArgument/argumentHasNoType.kt");
             }
 
             @TestMetadata("simpleMatch.kt")
             public void testSimpleMatch() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/oneArgument/simpleMatch.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/oneArgument/simpleMatch.kt");
             }
 
             @TestMetadata("typeMismatch.kt")
             public void testTypeMismatch() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/oneArgument/typeMismatch.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/oneArgument/typeMismatch.kt");
             }
 
             @TestMetadata("unmappedArgument.kt")
             public void testUnmappedArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/oneArgument/unmappedArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/oneArgument/unmappedArgument.kt");
             }
         }
 
@@ -199,12 +199,12 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
             @TestMetadata("emptyList.kt")
             public void testEmptyList() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/realExamples/emptyList.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/realExamples/emptyList.kt");
             }
 
             @TestMetadata("emptyMutableList.kt")
             public void testEmptyMutableList() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/realExamples/emptyMutableList.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/realExamples/emptyMutableList.kt");
             }
         }
 
@@ -218,7 +218,7 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
             @TestMetadata("mostSpecific.kt")
             public void testMostSpecific() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/resolvedCalls/arguments/severalCandidates/mostSpecific.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/arguments/severalCandidates/mostSpecific.kt");
             }
         }
     }
@@ -233,17 +233,17 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("annotationCall.kt")
         public void testAnnotationCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/differentCallElements/annotationCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/differentCallElements/annotationCall.kt");
         }
 
         @TestMetadata("delegatorToSuperCall.kt")
         public void testDelegatorToSuperCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/differentCallElements/delegatorToSuperCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/differentCallElements/delegatorToSuperCall.kt");
         }
 
         @TestMetadata("simpleArrayAccess.kt")
         public void testSimpleArrayAccess() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/differentCallElements/simpleArrayAccess.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/differentCallElements/simpleArrayAccess.kt");
         }
     }
 
@@ -257,32 +257,32 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("explicitReceiverIsDispatchReceiver.kt")
         public void testExplicitReceiverIsDispatchReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/dynamic/explicitReceiverIsDispatchReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/dynamic/explicitReceiverIsDispatchReceiver.kt");
         }
 
         @TestMetadata("explicitReceiverIsExtensionReceiver.kt")
         public void testExplicitReceiverIsExtensionReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/dynamic/explicitReceiverIsExtensionReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/dynamic/explicitReceiverIsExtensionReceiver.kt");
         }
 
         @TestMetadata("hasBothDispatchAndExtensionReceivers.kt")
         public void testHasBothDispatchAndExtensionReceivers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/dynamic/hasBothDispatchAndExtensionReceivers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/dynamic/hasBothDispatchAndExtensionReceivers.kt");
         }
 
         @TestMetadata("hasBothDispatchAndExtensionReceiversWithoutExplicitReceiver.kt")
         public void testHasBothDispatchAndExtensionReceiversWithoutExplicitReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/dynamic/hasBothDispatchAndExtensionReceiversWithoutExplicitReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/dynamic/hasBothDispatchAndExtensionReceiversWithoutExplicitReceiver.kt");
         }
 
         @TestMetadata("implicitReceiverIsDispatchReceiver.kt")
         public void testImplicitReceiverIsDispatchReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/dynamic/implicitReceiverIsDispatchReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/dynamic/implicitReceiverIsDispatchReceiver.kt");
         }
 
         @TestMetadata("implicitReceiverIsExtensionReceiver.kt")
         public void testImplicitReceiverIsExtensionReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/dynamic/implicitReceiverIsExtensionReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/dynamic/implicitReceiverIsExtensionReceiver.kt");
         }
     }
 
@@ -296,32 +296,32 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("invokeForExtensionFunctionType.kt")
         public void testInvokeForExtensionFunctionType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/functionTypes/invokeForExtensionFunctionType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/functionTypes/invokeForExtensionFunctionType.kt");
         }
 
         @TestMetadata("invokeForFunctionType.kt")
         public void testInvokeForFunctionType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/functionTypes/invokeForFunctionType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/functionTypes/invokeForFunctionType.kt");
         }
 
         @TestMetadata("valOfExtensionFunctionType.kt")
         public void testValOfExtensionFunctionType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/functionTypes/valOfExtensionFunctionType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/functionTypes/valOfExtensionFunctionType.kt");
         }
 
         @TestMetadata("valOfExtensionFunctionTypeInvoke.kt")
         public void testValOfExtensionFunctionTypeInvoke() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/functionTypes/valOfExtensionFunctionTypeInvoke.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/functionTypes/valOfExtensionFunctionTypeInvoke.kt");
         }
 
         @TestMetadata("valOfFunctionType.kt")
         public void testValOfFunctionType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/functionTypes/valOfFunctionType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/functionTypes/valOfFunctionType.kt");
         }
 
         @TestMetadata("valOfFunctionTypeInvoke.kt")
         public void testValOfFunctionTypeInvoke() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/functionTypes/valOfFunctionTypeInvoke.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/functionTypes/valOfFunctionTypeInvoke.kt");
         }
     }
 
@@ -335,52 +335,52 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("bothReceivers.kt")
         public void testBothReceivers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/bothReceivers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/bothReceivers.kt");
         }
 
         @TestMetadata("dispatchReceiverAsReceiverForInvoke.kt")
         public void testDispatchReceiverAsReceiverForInvoke() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/dispatchReceiverAsReceiverForInvoke.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/dispatchReceiverAsReceiverForInvoke.kt");
         }
 
         @TestMetadata("extensionReceiverAsReceiverForInvoke.kt")
         public void testExtensionReceiverAsReceiverForInvoke() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/extensionReceiverAsReceiverForInvoke.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/extensionReceiverAsReceiverForInvoke.kt");
         }
 
         @TestMetadata("implicitReceiverForInvoke.kt")
         public void testImplicitReceiverForInvoke() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/implicitReceiverForInvoke.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/implicitReceiverForInvoke.kt");
         }
 
         @TestMetadata("invokeOnClassObject1.kt")
         public void testInvokeOnClassObject1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/invokeOnClassObject1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/invokeOnClassObject1.kt");
         }
 
         @TestMetadata("invokeOnClassObject2.kt")
         public void testInvokeOnClassObject2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/invokeOnClassObject2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/invokeOnClassObject2.kt");
         }
 
         @TestMetadata("invokeOnEnumEntry1.kt")
         public void testInvokeOnEnumEntry1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/invokeOnEnumEntry1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/invokeOnEnumEntry1.kt");
         }
 
         @TestMetadata("invokeOnEnumEntry2.kt")
         public void testInvokeOnEnumEntry2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/invokeOnEnumEntry2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/invokeOnEnumEntry2.kt");
         }
 
         @TestMetadata("invokeOnObject1.kt")
         public void testInvokeOnObject1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/invokeOnObject1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/invokeOnObject1.kt");
         }
 
         @TestMetadata("invokeOnObject2.kt")
         public void testInvokeOnObject2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/invoke/invokeOnObject2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/invoke/invokeOnObject2.kt");
         }
     }
 
@@ -394,17 +394,17 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("classObject.kt")
         public void testClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/objectsAndClassObjects/classObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/objectsAndClassObjects/classObject.kt");
         }
 
         @TestMetadata("kt5308IntRangeConstant.kt")
         public void testKt5308IntRangeConstant() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/objectsAndClassObjects/kt5308IntRangeConstant.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/objectsAndClassObjects/kt5308IntRangeConstant.kt");
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/objectsAndClassObjects/object.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/objectsAndClassObjects/object.kt");
         }
     }
 
@@ -418,7 +418,7 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("stringPlusInBuilders.kt")
         public void testStringPlusInBuilders() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/realExamples/stringPlusInBuilders.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/realExamples/stringPlusInBuilders.kt");
         }
     }
 
@@ -432,12 +432,12 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("mostSpecificUninferredParam.kt")
         public void testMostSpecificUninferredParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/resolve/mostSpecificUninferredParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/resolve/mostSpecificUninferredParam.kt");
         }
 
         @TestMetadata("mostSpecificWithLambda.kt")
         public void testMostSpecificWithLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/resolve/mostSpecificWithLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/resolve/mostSpecificWithLambda.kt");
         }
     }
 
@@ -451,72 +451,72 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("classWithGenerics.kt")
         public void testClassWithGenerics() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/classWithGenerics.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/classWithGenerics.kt");
         }
 
         @TestMetadata("classWithGenerics2.kt")
         public void testClassWithGenerics2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/classWithGenerics2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/classWithGenerics2.kt");
         }
 
         @TestMetadata("classWithGenerics3.kt")
         public void testClassWithGenerics3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/classWithGenerics3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/classWithGenerics3.kt");
         }
 
         @TestMetadata("explicitPrimaryArgs.kt")
         public void testExplicitPrimaryArgs() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/explicitPrimaryArgs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/explicitPrimaryArgs.kt");
         }
 
         @TestMetadata("explicitPrimaryCallSecondary.kt")
         public void testExplicitPrimaryCallSecondary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/explicitPrimaryCallSecondary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/explicitPrimaryCallSecondary.kt");
         }
 
         @TestMetadata("explicitPrimaryNoArgs.kt")
         public void testExplicitPrimaryNoArgs() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/explicitPrimaryNoArgs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/explicitPrimaryNoArgs.kt");
         }
 
         @TestMetadata("implicitPrimary.kt")
         public void testImplicitPrimary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/implicitPrimary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/implicitPrimary.kt");
         }
 
         @TestMetadata("overload1.kt")
         public void testOverload1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/overload1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/overload1.kt");
         }
 
         @TestMetadata("overload2.kt")
         public void testOverload2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/overload2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/overload2.kt");
         }
 
         @TestMetadata("overload3.kt")
         public void testOverload3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/overload3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/overload3.kt");
         }
 
         @TestMetadata("overloadDefault.kt")
         public void testOverloadDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/overloadDefault.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/overloadDefault.kt");
         }
 
         @TestMetadata("overloadNamed.kt")
         public void testOverloadNamed() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/overloadNamed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/overloadNamed.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/simple.kt");
         }
 
         @TestMetadata("varargs.kt")
         public void testVarargs() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/secondaryConstructors/varargs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/secondaryConstructors/varargs.kt");
         }
     }
 
@@ -530,27 +530,27 @@ public class ResolvedCallsTestGenerated extends AbstractResolvedCallsTest {
 
         @TestMetadata("labeledSuper.kt")
         public void testLabeledSuper() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/thisOrSuper/labeledSuper.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/thisOrSuper/labeledSuper.kt");
         }
 
         @TestMetadata("labeledThis.kt")
         public void testLabeledThis() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/thisOrSuper/labeledThis.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/thisOrSuper/labeledThis.kt");
         }
 
         @TestMetadata("simpleSuper.kt")
         public void testSimpleSuper() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/thisOrSuper/simpleSuper.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/thisOrSuper/simpleSuper.kt");
         }
 
         @TestMetadata("simpleThis.kt")
         public void testSimpleThis() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/thisOrSuper/simpleThis.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/thisOrSuper/simpleThis.kt");
         }
 
         @TestMetadata("thisInExtensionFunction.kt")
         public void testThisInExtensionFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/thisOrSuper/thisInExtensionFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/thisOrSuper/thisInExtensionFunction.kt");
         }
     }
 }

@@ -27,46 +27,46 @@ public class SamWithReceiverTestGenerated extends AbstractSamWithReceiverTest {
 
     @TestMetadata("noParameters.kt")
     public void testNoParameters() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noParameters.kt");
     }
 
     @TestMetadata("noReturnType.kt")
     public void testNoReturnType() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noReturnType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noReturnType.kt");
     }
 
     @TestMetadata("samConversionNoParameters.kt")
     public void testSamConversionNoParameters() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionNoParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionNoParameters.kt");
     }
 
     @TestMetadata("samConversionSimple.kt")
     public void testSamConversionSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimple.kt");
     }
 
     @TestMetadata("samConversionSimpleWithoutAnnotation.kt")
     public void testSamConversionSimpleWithoutAnnotation() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimpleWithoutAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimpleWithoutAnnotation.kt");
     }
 
     @TestMetadata("samWithAnnotation.kt")
     public void testSamWithAnnotation() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithAnnotation.kt");
     }
 
     @TestMetadata("samWithoutAnnotation.kt")
     public void testSamWithoutAnnotation() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithoutAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithoutAnnotation.kt");
     }
 
     @TestMetadata("singleParameter.kt")
     public void testSingleParameter() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameter.kt");
     }
 
     @TestMetadata("singleParameterWithoutAnnotation.kt")
     public void testSingleParameterWithoutAnnotation() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameterWithoutAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameterWithoutAnnotation.kt");
     }
 }

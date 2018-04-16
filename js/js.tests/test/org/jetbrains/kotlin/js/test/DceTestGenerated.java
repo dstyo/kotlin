@@ -27,31 +27,31 @@ public class DceTestGenerated extends AbstractDceTest {
 
     @TestMetadata("amd.js")
     public void testAmd() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/dce/amd.js", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/dce/amd.js");
     }
 
     @TestMetadata("arrayAccess.js")
     public void testArrayAccess() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/dce/arrayAccess.js", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/dce/arrayAccess.js");
     }
 
     @TestMetadata("commonjs.js")
     public void testCommonjs() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/dce/commonjs.js", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/dce/commonjs.js");
     }
 
     @TestMetadata("cycle.js")
     public void testCycle() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/dce/cycle.js", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/dce/cycle.js");
     }
 
     @TestMetadata("localVarAndFunction.js")
     public void testLocalVarAndFunction() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/dce/localVarAndFunction.js", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/dce/localVarAndFunction.js");
     }
 
     @TestMetadata("typeOf.js")
     public void testTypeOf() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/dce/typeOf.js", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/dce/typeOf.js");
     }
 }

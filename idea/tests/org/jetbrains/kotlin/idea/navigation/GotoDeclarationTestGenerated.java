@@ -27,51 +27,51 @@ public class GotoDeclarationTestGenerated extends AbstractGotoDeclarationTest {
 
     @TestMetadata("itExtensionLambda.test")
     public void testItExtensionLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itExtensionLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/itExtensionLambda.test");
     }
 
     @TestMetadata("itExtensionLambdaInBrackets.test")
     public void testItExtensionLambdaInBrackets() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itExtensionLambdaInBrackets.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/itExtensionLambdaInBrackets.test");
     }
 
     @TestMetadata("itInLambdaAsDefaultArgument.test")
     public void testItInLambdaAsDefaultArgument() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itInLambdaAsDefaultArgument.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/itInLambdaAsDefaultArgument.test");
     }
 
     @TestMetadata("itInLambdaWithoutCall.test")
     public void testItInLambdaWithoutCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itInLambdaWithoutCall.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/itInLambdaWithoutCall.test");
     }
 
     @TestMetadata("itParameterInLambda.test")
     public void testItParameterInLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itParameterInLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/itParameterInLambda.test");
     }
 
     @TestMetadata("labeledThisToClass.test")
     public void testLabeledThisToClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/labeledThisToClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/labeledThisToClass.test");
     }
 
     @TestMetadata("labeledThisToMemberExtension.test")
     public void testLabeledThisToMemberExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/labeledThisToMemberExtension.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/labeledThisToMemberExtension.test");
     }
 
     @TestMetadata("thisExtensionFunction.test")
     public void testThisExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/thisExtensionFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/thisExtensionFunction.test");
     }
 
     @TestMetadata("thisExtensionLambda.test")
     public void testThisExtensionLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/thisExtensionLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/thisExtensionLambda.test");
     }
 
     @TestMetadata("thisInExtensionPropertyAccessor.test")
     public void testThisInExtensionPropertyAccessor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/thisInExtensionPropertyAccessor.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoDeclaration/thisInExtensionPropertyAccessor.test");
     }
 }

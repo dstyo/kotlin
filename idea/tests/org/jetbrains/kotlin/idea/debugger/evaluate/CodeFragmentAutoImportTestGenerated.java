@@ -27,6 +27,6 @@ public class CodeFragmentAutoImportTestGenerated extends AbstractCodeFragmentAut
 
     @TestMetadata("ExtensionFun.kt")
     public void testExtensionFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/quickfix.special/codeFragmentAutoImport/ExtensionFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/quickfix.special/codeFragmentAutoImport/ExtensionFun.kt");
     }
 }

@@ -35,22 +35,22 @@ public class DiagnosticsTestWithJsStdLibAndBackendCompilationGenerated extends A
 
         @TestMetadata("recursionCycle.kt")
         public void testRecursionCycle() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycle.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycle.kt");
         }
 
         @TestMetadata("recursionCycleLambda.kt")
         public void testRecursionCycleLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycleLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycleLambda.kt");
         }
 
         @TestMetadata("recursionCycleWithPublicFun.kt")
         public void testRecursionCycleWithPublicFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycleWithPublicFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycleWithPublicFun.kt");
         }
 
         @TestMetadata("recursionCycleWithStdlibCall.kt")
         public void testRecursionCycleWithStdlibCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycleWithStdlibCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/inline/recursionCycleWithStdlibCall.kt");
         }
     }
 
@@ -64,7 +64,7 @@ public class DiagnosticsTestWithJsStdLibAndBackendCompilationGenerated extends A
 
         @TestMetadata("annotations.kt")
         public void testAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/unsupportedFeatures/annotations.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/diagnostics/testsWithJsStdLibAndBackendCompilation/unsupportedFeatures/annotations.kt");
         }
     }
 }

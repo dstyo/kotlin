@@ -27,36 +27,36 @@ public class LocalClassProtoTestGenerated extends AbstractLocalClassProtoTest {
 
     @TestMetadata("annotationsInLocalClass.kt")
     public void testAnnotationsInLocalClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/annotationsInLocalClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/annotationsInLocalClass.kt");
     }
 
     @TestMetadata("anonymousObject.kt")
     public void testAnonymousObject() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/anonymousObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/anonymousObject.kt");
     }
 
     @TestMetadata("deepInnerChain.kt")
     public void testDeepInnerChain() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/deepInnerChain.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/deepInnerChain.kt");
     }
 
     @TestMetadata("innerOfLocal.kt")
     public void testInnerOfLocal() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/innerOfLocal.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/innerOfLocal.kt");
     }
 
     @TestMetadata("localClassInSignature.kt")
     public void testLocalClassInSignature() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/localClassInSignature.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/localClassInSignature.kt");
     }
 
     @TestMetadata("simpleInMemberFunction.kt")
     public void testSimpleInMemberFunction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/simpleInMemberFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/simpleInMemberFunction.kt");
     }
 
     @TestMetadata("simpleInTopLevelFunction.kt")
     public void testSimpleInTopLevelFunction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/serialization/local/simpleInTopLevelFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/serialization/local/simpleInTopLevelFunction.kt");
     }
 }

@@ -35,42 +35,42 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("javaAnnotationArrayValueDefault.kt")
         public void testJavaAnnotationArrayValueDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationArrayValueDefault.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationArrayValueDefault.kt");
         }
 
         @TestMetadata("javaAnnotationArrayValueNoDefault.kt")
         public void testJavaAnnotationArrayValueNoDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationArrayValueNoDefault.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationArrayValueNoDefault.kt");
         }
 
         @TestMetadata("javaAnnotationCall.kt")
         public void testJavaAnnotationCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationCall.kt");
         }
 
         @TestMetadata("javaAnnotationDefault.kt")
         public void testJavaAnnotationDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationDefault.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaAnnotationDefault.kt");
         }
 
         @TestMetadata("javaNegativePropertyAsAnnotationParameter.kt")
         public void testJavaNegativePropertyAsAnnotationParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaNegativePropertyAsAnnotationParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaNegativePropertyAsAnnotationParameter.kt");
         }
 
         @TestMetadata("javaPropertyAsAnnotationParameter.kt")
         public void testJavaPropertyAsAnnotationParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaPropertyAsAnnotationParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaPropertyAsAnnotationParameter.kt");
         }
 
         @TestMetadata("javaPropertyWithIntInitializer.kt")
         public void testJavaPropertyWithIntInitializer() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/javaPropertyWithIntInitializer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/javaPropertyWithIntInitializer.kt");
         }
 
         @TestMetadata("retentionInJava.kt")
         public void testRetentionInJava() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/retentionInJava.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/retentionInJava.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping")
@@ -83,32 +83,32 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("arrayClassParameter.kt")
             public void testArrayClassParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/arrayClassParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/arrayClassParameter.kt");
             }
 
             @TestMetadata("arrayClassParameterOnJavaClass.kt")
             public void testArrayClassParameterOnJavaClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/arrayClassParameterOnJavaClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/arrayClassParameterOnJavaClass.kt");
             }
 
             @TestMetadata("classParameter.kt")
             public void testClassParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/classParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/classParameter.kt");
             }
 
             @TestMetadata("classParameterOnJavaClass.kt")
             public void testClassParameterOnJavaClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/classParameterOnJavaClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/classParameterOnJavaClass.kt");
             }
 
             @TestMetadata("varargClassParameter.kt")
             public void testVarargClassParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/varargClassParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/varargClassParameter.kt");
             }
 
             @TestMetadata("varargClassParameterOnJavaClass.kt")
             public void testVarargClassParameterOnJavaClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/varargClassParameterOnJavaClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/annotations/kClassMapping/varargClassParameterOnJavaClass.kt");
             }
         }
     }
@@ -123,27 +123,27 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("constructor.kt")
         public void testConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/callableReference/constructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/callableReference/constructor.kt");
         }
 
         @TestMetadata("kt16412.kt")
         public void testKt16412() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/callableReference/kt16412.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/callableReference/kt16412.kt");
         }
 
         @TestMetadata("publicFinalField.kt")
         public void testPublicFinalField() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/callableReference/publicFinalField.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/callableReference/publicFinalField.kt");
         }
 
         @TestMetadata("publicMutableField.kt")
         public void testPublicMutableField() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/callableReference/publicMutableField.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/callableReference/publicMutableField.kt");
         }
 
         @TestMetadata("staticMethod.kt")
         public void testStaticMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/callableReference/staticMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/callableReference/staticMethod.kt");
         }
     }
 
@@ -157,12 +157,12 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("genericConstructor.kt")
         public void testGenericConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/constructor/genericConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/constructor/genericConstructor.kt");
         }
 
         @TestMetadata("secondaryConstructor.kt")
         public void testSecondaryConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/constructor/secondaryConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/constructor/secondaryConstructor.kt");
         }
     }
 
@@ -176,7 +176,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("delegationAndInheritanceFromJava.kt")
         public void testDelegationAndInheritanceFromJava() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/delegation/delegationAndInheritanceFromJava.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/delegation/delegationAndInheritanceFromJava.kt");
         }
     }
 
@@ -190,32 +190,32 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("simpleJavaEnum.kt")
         public void testSimpleJavaEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/enum/simpleJavaEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/enum/simpleJavaEnum.kt");
         }
 
         @TestMetadata("simpleJavaEnumWithFunction.kt")
         public void testSimpleJavaEnumWithFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/enum/simpleJavaEnumWithFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/enum/simpleJavaEnumWithFunction.kt");
         }
 
         @TestMetadata("simpleJavaEnumWithStaticImport.kt")
         public void testSimpleJavaEnumWithStaticImport() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/enum/simpleJavaEnumWithStaticImport.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/enum/simpleJavaEnumWithStaticImport.kt");
         }
 
         @TestMetadata("simpleJavaInnerEnum.kt")
         public void testSimpleJavaInnerEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/enum/simpleJavaInnerEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/enum/simpleJavaInnerEnum.kt");
         }
 
         @TestMetadata("staticField.kt")
         public void testStaticField() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/enum/staticField.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/enum/staticField.kt");
         }
 
         @TestMetadata("staticMethod.kt")
         public void testStaticMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/enum/staticMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/enum/staticMethod.kt");
         }
     }
 
@@ -229,27 +229,27 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("constructor.kt")
         public void testConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/functions/constructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/functions/constructor.kt");
         }
 
         @TestMetadata("max.kt")
         public void testMax() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/functions/max.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/functions/max.kt");
         }
 
         @TestMetadata("referencesStaticInnerClassMethod.kt")
         public void testReferencesStaticInnerClassMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/functions/referencesStaticInnerClassMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/functions/referencesStaticInnerClassMethod.kt");
         }
 
         @TestMetadata("referencesStaticInnerClassMethodL2.kt")
         public void testReferencesStaticInnerClassMethodL2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/functions/referencesStaticInnerClassMethodL2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/functions/referencesStaticInnerClassMethodL2.kt");
         }
 
         @TestMetadata("unrelatedUpperBounds.kt")
         public void testUnrelatedUpperBounds() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/functions/unrelatedUpperBounds.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/functions/unrelatedUpperBounds.kt");
         }
     }
 
@@ -263,47 +263,47 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("anyToReal.kt")
         public void testAnyToReal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/anyToReal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/anyToReal.kt");
         }
 
         @TestMetadata("comparableTypeCast.kt")
         public void testComparableTypeCast() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/comparableTypeCast.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/comparableTypeCast.kt");
         }
 
         @TestMetadata("double.kt")
         public void testDouble() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/double.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/double.kt");
         }
 
         @TestMetadata("explicitCompareCall.kt")
         public void testExplicitCompareCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/explicitCompareCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/explicitCompareCall.kt");
         }
 
         @TestMetadata("explicitEqualsCall.kt")
         public void testExplicitEqualsCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/explicitEqualsCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/explicitEqualsCall.kt");
         }
 
         @TestMetadata("explicitEqualsCall_lv12.kt")
         public void testExplicitEqualsCall_lv12() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/explicitEqualsCall_lv12.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/explicitEqualsCall_lv12.kt");
         }
 
         @TestMetadata("float.kt")
         public void testFloat() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/float.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/float.kt");
         }
 
         @TestMetadata("generic.kt")
         public void testGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/generic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/generic.kt");
         }
 
         @TestMetadata("nullableAnyToReal.kt")
         public void testNullableAnyToReal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/ieee754/nullableAnyToReal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/ieee754/nullableAnyToReal.kt");
         }
     }
 
@@ -317,7 +317,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("kt19910.kt")
         public void testKt19910() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/inline/kt19910.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/inline/kt19910.kt");
         }
     }
 
@@ -331,17 +331,17 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("kt3532.kt")
         public void testKt3532() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/innerClass/kt3532.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/innerClass/kt3532.kt");
         }
 
         @TestMetadata("kt3812.kt")
         public void testKt3812() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/innerClass/kt3812.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/innerClass/kt3812.kt");
         }
 
         @TestMetadata("kt4036.kt")
         public void testKt4036() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/innerClass/kt4036.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/innerClass/kt4036.kt");
         }
     }
 
@@ -355,7 +355,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("inheritJavaInterface.kt")
         public void testInheritJavaInterface() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/interfaces/inheritJavaInterface.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/interfaces/inheritJavaInterface.kt");
         }
     }
 
@@ -369,12 +369,12 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("delegation.kt")
         public void testDelegation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/notNullAssertions/delegation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/notNullAssertions/delegation.kt");
         }
 
         @TestMetadata("rightElvisOperand.kt")
         public void testRightElvisOperand() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/notNullAssertions/rightElvisOperand.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/notNullAssertions/rightElvisOperand.kt");
         }
     }
 
@@ -388,22 +388,22 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("genericUnit.kt")
         public void testGenericUnit() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/platformTypes/genericUnit.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/platformTypes/genericUnit.kt");
         }
 
         @TestMetadata("kt14989.kt")
         public void testKt14989() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/platformTypes/kt14989.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/platformTypes/kt14989.kt");
         }
 
         @TestMetadata("specializedMapFull.kt")
         public void testSpecializedMapFull() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/platformTypes/specializedMapFull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/platformTypes/specializedMapFull.kt");
         }
 
         @TestMetadata("specializedMapPut.kt")
         public void testSpecializedMapPut() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/platformTypes/specializedMapPut.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/platformTypes/specializedMapPut.kt");
         }
     }
 
@@ -417,17 +417,17 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("fieldAccessFromExtensionInTraitImpl.kt")
         public void testFieldAccessFromExtensionInTraitImpl() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/property/fieldAccessFromExtensionInTraitImpl.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/property/fieldAccessFromExtensionInTraitImpl.kt");
         }
 
         @TestMetadata("fieldAccessViaSubclass.kt")
         public void testFieldAccessViaSubclass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/property/fieldAccessViaSubclass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/property/fieldAccessViaSubclass.kt");
         }
 
         @TestMetadata("referenceToJavaFieldViaBridge.kt")
         public void testReferenceToJavaFieldViaBridge() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/property/referenceToJavaFieldViaBridge.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/property/referenceToJavaFieldViaBridge.kt");
         }
     }
 
@@ -441,12 +441,12 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("kt16528.kt")
         public void testKt16528() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/recursiveRawTypes/kt16528.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/recursiveRawTypes/kt16528.kt");
         }
 
         @TestMetadata("kt16639.kt")
         public void testKt16639() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/recursiveRawTypes/kt16639.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/recursiveRawTypes/kt16639.kt");
         }
     }
 
@@ -468,7 +468,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("javaClassLiteral.kt")
             public void testJavaClassLiteral() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/reflection/classLiterals/javaClassLiteral.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/reflection/classLiterals/javaClassLiteral.kt");
             }
         }
 
@@ -482,22 +482,22 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("jClass2kClass.kt")
             public void testJClass2kClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/reflection/mapping/jClass2kClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/reflection/mapping/jClass2kClass.kt");
             }
 
             @TestMetadata("javaConstructor.kt")
             public void testJavaConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/reflection/mapping/javaConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/reflection/mapping/javaConstructor.kt");
             }
 
             @TestMetadata("javaFields.kt")
             public void testJavaFields() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/reflection/mapping/javaFields.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/reflection/mapping/javaFields.kt");
             }
 
             @TestMetadata("javaMethods.kt")
             public void testJavaMethods() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/reflection/mapping/javaMethods.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/reflection/mapping/javaMethods.kt");
             }
         }
 
@@ -511,7 +511,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("equalsHashCodeToString.kt")
             public void testEqualsHashCodeToString() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/reflection/properties/equalsHashCodeToString.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/reflection/properties/equalsHashCodeToString.kt");
             }
         }
     }
@@ -526,37 +526,37 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("differentFqNames.kt")
         public void testDifferentFqNames() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/differentFqNames.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/differentFqNames.kt");
         }
 
         @TestMetadata("kt11519.kt")
         public void testKt11519() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/kt11519.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/kt11519.kt");
         }
 
         @TestMetadata("kt11519Constructor.kt")
         public void testKt11519Constructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/kt11519Constructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/kt11519Constructor.kt");
         }
 
         @TestMetadata("kt11696.kt")
         public void testKt11696() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/kt11696.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/kt11696.kt");
         }
 
         @TestMetadata("kt4753.kt")
         public void testKt4753() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/kt4753.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/kt4753.kt");
         }
 
         @TestMetadata("kt4753_2.kt")
         public void testKt4753_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/kt4753_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/kt4753_2.kt");
         }
 
         @TestMetadata("samConstructorGenericSignature.kt")
         public void testSamConstructorGenericSignature() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/samConstructorGenericSignature.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/samConstructorGenericSignature.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxAgainstJava/sam/adapters")
@@ -569,147 +569,147 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("bridgesForOverridden.kt")
             public void testBridgesForOverridden() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/bridgesForOverridden.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/bridgesForOverridden.kt");
             }
 
             @TestMetadata("bridgesForOverriddenComplex.kt")
             public void testBridgesForOverriddenComplex() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/bridgesForOverriddenComplex.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/bridgesForOverriddenComplex.kt");
             }
 
             @TestMetadata("callAbstractAdapter.kt")
             public void testCallAbstractAdapter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/callAbstractAdapter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/callAbstractAdapter.kt");
             }
 
             @TestMetadata("comparator.kt")
             public void testComparator() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/comparator.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/comparator.kt");
             }
 
             @TestMetadata("constructor.kt")
             public void testConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/constructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/constructor.kt");
             }
 
             @TestMetadata("doubleLongParameters.kt")
             public void testDoubleLongParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/doubleLongParameters.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/doubleLongParameters.kt");
             }
 
             @TestMetadata("fileFilter.kt")
             public void testFileFilter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/fileFilter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/fileFilter.kt");
             }
 
             @TestMetadata("genericSignature.kt")
             public void testGenericSignature() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/genericSignature.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/genericSignature.kt");
             }
 
             @TestMetadata("implementAdapter.kt")
             public void testImplementAdapter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/implementAdapter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/implementAdapter.kt");
             }
 
             @TestMetadata("inheritedInKotlin.kt")
             public void testInheritedInKotlin() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/inheritedInKotlin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/inheritedInKotlin.kt");
             }
 
             @TestMetadata("inheritedOverriddenAdapter.kt")
             public void testInheritedOverriddenAdapter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/inheritedOverriddenAdapter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/inheritedOverriddenAdapter.kt");
             }
 
             @TestMetadata("inheritedSimple.kt")
             public void testInheritedSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/inheritedSimple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/inheritedSimple.kt");
             }
 
             @TestMetadata("localClass.kt")
             public void testLocalClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/localClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/localClass.kt");
             }
 
             @TestMetadata("localObjectConstructor.kt")
             public void testLocalObjectConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/localObjectConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/localObjectConstructor.kt");
             }
 
             @TestMetadata("localObjectConstructorWithFnValue.kt")
             public void testLocalObjectConstructorWithFnValue() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/localObjectConstructorWithFnValue.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/localObjectConstructorWithFnValue.kt");
             }
 
             @TestMetadata("nonLiteralAndLiteralRunnable.kt")
             public void testNonLiteralAndLiteralRunnable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralAndLiteralRunnable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralAndLiteralRunnable.kt");
             }
 
             @TestMetadata("nonLiteralComparator.kt")
             public void testNonLiteralComparator() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralComparator.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralComparator.kt");
             }
 
             @TestMetadata("nonLiteralInConstructor.kt")
             public void testNonLiteralInConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralInConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralInConstructor.kt");
             }
 
             @TestMetadata("nonLiteralNull.kt")
             public void testNonLiteralNull() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralNull.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralNull.kt");
             }
 
             @TestMetadata("nonLiteralRunnable.kt")
             public void testNonLiteralRunnable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralRunnable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/nonLiteralRunnable.kt");
             }
 
             @TestMetadata("protectedFromBase.kt")
             public void testProtectedFromBase() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/protectedFromBase.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/protectedFromBase.kt");
             }
 
             @TestMetadata("severalSamParameters.kt")
             public void testSeveralSamParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/severalSamParameters.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/severalSamParameters.kt");
             }
 
             @TestMetadata("simplest.kt")
             public void testSimplest() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/simplest.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/simplest.kt");
             }
 
             @TestMetadata("superInSecondaryConstructor.kt")
             public void testSuperInSecondaryConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/superInSecondaryConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/superInSecondaryConstructor.kt");
             }
 
             @TestMetadata("superconstructor.kt")
             public void testSuperconstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/superconstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/superconstructor.kt");
             }
 
             @TestMetadata("superconstructorWithClosure.kt")
             public void testSuperconstructorWithClosure() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/superconstructorWithClosure.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/superconstructorWithClosure.kt");
             }
 
             @TestMetadata("typeParameterOfClass.kt")
             public void testTypeParameterOfClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/typeParameterOfClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/typeParameterOfClass.kt");
             }
 
             @TestMetadata("typeParameterOfMethod.kt")
             public void testTypeParameterOfMethod() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/typeParameterOfMethod.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/typeParameterOfMethod.kt");
             }
 
             @TestMetadata("typeParameterOfOuterClass.kt")
             public void testTypeParameterOfOuterClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/typeParameterOfOuterClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/typeParameterOfOuterClass.kt");
             }
 
             @TestMetadata("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators")
@@ -722,52 +722,52 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
                 @TestMetadata("augmentedAssignmentPure.kt")
                 public void testAugmentedAssignmentPure() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/augmentedAssignmentPure.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/augmentedAssignmentPure.kt");
                 }
 
                 @TestMetadata("augmentedAssignmentViaSimpleBinary.kt")
                 public void testAugmentedAssignmentViaSimpleBinary() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/augmentedAssignmentViaSimpleBinary.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/augmentedAssignmentViaSimpleBinary.kt");
                 }
 
                 @TestMetadata("binary.kt")
                 public void testBinary() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/binary.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/binary.kt");
                 }
 
                 @TestMetadata("compareTo.kt")
                 public void testCompareTo() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/compareTo.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/compareTo.kt");
                 }
 
                 @TestMetadata("contains.kt")
                 public void testContains() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/contains.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/contains.kt");
                 }
 
                 @TestMetadata("get.kt")
                 public void testGet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/get.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/get.kt");
                 }
 
                 @TestMetadata("invoke.kt")
                 public void testInvoke() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/invoke.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/invoke.kt");
                 }
 
                 @TestMetadata("multiGetSet.kt")
                 public void testMultiGetSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/multiGetSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/multiGetSet.kt");
                 }
 
                 @TestMetadata("multiInvoke.kt")
                 public void testMultiInvoke() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/multiInvoke.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/multiInvoke.kt");
                 }
 
                 @TestMetadata("set.kt")
                 public void testSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/set.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/sam/adapters/operators/set.kt");
                 }
             }
         }
@@ -783,7 +783,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("charBuffer.kt")
         public void testCharBuffer() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/specialBuiltins/charBuffer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/specialBuiltins/charBuffer.kt");
         }
     }
 
@@ -797,7 +797,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("classWithNestedEnum.kt")
         public void testClassWithNestedEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/staticFun/classWithNestedEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/staticFun/classWithNestedEnum.kt");
         }
     }
 
@@ -811,52 +811,52 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("fromTwoBases.kt")
         public void testFromTwoBases() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/fromTwoBases.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/fromTwoBases.kt");
         }
 
         @TestMetadata("getter.kt")
         public void testGetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/getter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/getter.kt");
         }
 
         @TestMetadata("implicitReceiver.kt")
         public void testImplicitReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/implicitReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/implicitReceiver.kt");
         }
 
         @TestMetadata("overrideOnlyGetter.kt")
         public void testOverrideOnlyGetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/overrideOnlyGetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/overrideOnlyGetter.kt");
         }
 
         @TestMetadata("plusPlus.kt")
         public void testPlusPlus() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/plusPlus.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/plusPlus.kt");
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/protected.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/protected.kt");
         }
 
         @TestMetadata("protectedSetter.kt")
         public void testProtectedSetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/protectedSetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/protectedSetter.kt");
         }
 
         @TestMetadata("setter.kt")
         public void testSetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/setter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/setter.kt");
         }
 
         @TestMetadata("setterNonVoid1.kt")
         public void testSetterNonVoid1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/setterNonVoid1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/setterNonVoid1.kt");
         }
 
         @TestMetadata("setterNonVoid2.kt")
         public void testSetterNonVoid2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/syntheticExtensions/setterNonVoid2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/syntheticExtensions/setterNonVoid2.kt");
         }
     }
 
@@ -870,7 +870,7 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
         @TestMetadata("javaStaticMembersViaTypeAlias.kt")
         public void testJavaStaticMembersViaTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/typealias/javaStaticMembersViaTypeAlias.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/typealias/javaStaticMembersViaTypeAlias.kt");
         }
     }
 
@@ -892,22 +892,22 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("kt2781.kt")
             public void testKt2781() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/package/kt2781.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/package/kt2781.kt");
             }
 
             @TestMetadata("packageClass.kt")
             public void testPackageClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/package/packageClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/package/packageClass.kt");
             }
 
             @TestMetadata("packageFun.kt")
             public void testPackageFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/package/packageFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/package/packageFun.kt");
             }
 
             @TestMetadata("packageProperty.kt")
             public void testPackageProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/package/packageProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/package/packageProperty.kt");
             }
         }
 
@@ -921,27 +921,27 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("overrideProtectedFunInPackage.kt")
             public void testOverrideProtectedFunInPackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/overrideProtectedFunInPackage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/overrideProtectedFunInPackage.kt");
             }
 
             @TestMetadata("protectedFunInPackage.kt")
             public void testProtectedFunInPackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedFunInPackage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedFunInPackage.kt");
             }
 
             @TestMetadata("protectedPropertyInPackage.kt")
             public void testProtectedPropertyInPackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedPropertyInPackage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedPropertyInPackage.kt");
             }
 
             @TestMetadata("protectedStaticClass.kt")
             public void testProtectedStaticClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedStaticClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedStaticClass.kt");
             }
 
             @TestMetadata("protectedSuperMethod.kt")
             public void testProtectedSuperMethod() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedSuperMethod.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedAndPackage/protectedSuperMethod.kt");
             }
         }
 
@@ -955,62 +955,62 @@ public class BlackBoxAgainstJavaCodegenTestGenerated extends AbstractBlackBoxAga
 
             @TestMetadata("funCallInConstructor.kt")
             public void testFunCallInConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funCallInConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funCallInConstructor.kt");
             }
 
             @TestMetadata("funClassObject.kt")
             public void testFunClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funClassObject.kt");
             }
 
             @TestMetadata("funGenericClass.kt")
             public void testFunGenericClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funGenericClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funGenericClass.kt");
             }
 
             @TestMetadata("funNestedStaticClass.kt")
             public void testFunNestedStaticClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNestedStaticClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNestedStaticClass.kt");
             }
 
             @TestMetadata("funNestedStaticClass2.kt")
             public void testFunNestedStaticClass2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNestedStaticClass2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNestedStaticClass2.kt");
             }
 
             @TestMetadata("funNestedStaticGenericClass.kt")
             public void testFunNestedStaticGenericClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNestedStaticGenericClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNestedStaticGenericClass.kt");
             }
 
             @TestMetadata("funNotDirectSuperClass.kt")
             public void testFunNotDirectSuperClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNotDirectSuperClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funNotDirectSuperClass.kt");
             }
 
             @TestMetadata("funObject.kt")
             public void testFunObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/funObject.kt");
             }
 
             @TestMetadata("simpleClass.kt")
             public void testSimpleClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleClass.kt");
             }
 
             @TestMetadata("simpleClass2.kt")
             public void testSimpleClass2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleClass2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleClass2.kt");
             }
 
             @TestMetadata("simpleFun.kt")
             public void testSimpleFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleFun.kt");
             }
 
             @TestMetadata("simpleProperty.kt")
             public void testSimpleProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxAgainstJava/visibility/protectedStatic/simpleProperty.kt");
             }
         }
     }

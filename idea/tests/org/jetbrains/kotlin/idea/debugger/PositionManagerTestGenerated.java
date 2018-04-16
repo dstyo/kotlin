@@ -29,102 +29,102 @@ public class PositionManagerTestGenerated extends AbstractPositionManagerTest {
 
         @TestMetadata("anonymousFunction.kt")
         public void testAnonymousFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/anonymousFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/anonymousFunction.kt");
         }
 
         @TestMetadata("anonymousNamedFunction.kt")
         public void testAnonymousNamedFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/anonymousNamedFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/anonymousNamedFunction.kt");
         }
 
         @TestMetadata("class.kt")
         public void testClass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/class.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/class.kt");
         }
 
         @TestMetadata("classObject.kt")
         public void testClassObject() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/classObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/classObject.kt");
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/enum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/enum.kt");
         }
 
         @TestMetadata("extensionFunction.kt")
         public void testExtensionFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/extensionFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/extensionFunction.kt");
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/functionLiteral.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/functionLiteral.kt");
         }
 
         @TestMetadata("functionLiteralInVal.kt")
         public void testFunctionLiteralInVal() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/functionLiteralInVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/functionLiteralInVal.kt");
         }
 
         @TestMetadata("innerClass.kt")
         public void testInnerClass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/innerClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/innerClass.kt");
         }
 
         @TestMetadata("JvmNameAnnotation.kt")
         public void testJvmNameAnnotation() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/JvmNameAnnotation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/JvmNameAnnotation.kt");
         }
 
         @TestMetadata("localFunction.kt")
         public void testLocalFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/localFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/localFunction.kt");
         }
 
         @TestMetadata("objectDeclaration.kt")
         public void testObjectDeclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/objectDeclaration.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/objectDeclaration.kt");
         }
 
         @TestMetadata("objectExpression.kt")
         public void testObjectExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/objectExpression.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/objectExpression.kt");
         }
 
         @TestMetadata("package.kt")
         public void testPackage() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/package.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/package.kt");
         }
 
         @TestMetadata("propertyAccessor.kt")
         public void testPropertyAccessor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/propertyAccessor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/propertyAccessor.kt");
         }
 
         @TestMetadata("propertyInitializer.kt")
         public void testPropertyInitializer() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/propertyInitializer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/propertyInitializer.kt");
         }
 
         @TestMetadata("topLevelPropertyInitializer.kt")
         public void testTopLevelPropertyInitializer() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/topLevelPropertyInitializer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/topLevelPropertyInitializer.kt");
         }
 
         @TestMetadata("trait.kt")
         public void testTrait() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/trait.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/trait.kt");
         }
 
         @TestMetadata("twoClasses.kt")
         public void testTwoClasses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/twoClasses.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/twoClasses.kt");
         }
 
         @TestMetadata("_DefaultPackage.kt")
         public void test_DefaultPackage() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/_DefaultPackage.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/_DefaultPackage.kt");
         }
     }
 
@@ -138,12 +138,12 @@ public class PositionManagerTestGenerated extends AbstractPositionManagerTest {
 
         @TestMetadata("multiFilePackage")
         public void testMultiFilePackage() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/multiFilePackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/multiFilePackage/");
         }
 
         @TestMetadata("multiFileSameName")
         public void testMultiFileSameName() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/multiFileSameName/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/positionManager/multiFileSameName/");
         }
     }
 }

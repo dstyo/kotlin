@@ -27,36 +27,36 @@ public class Kapt3BuilderModeBytecodeShapeTestGenerated extends AbstractKapt3Bui
 
     @TestMetadata("dataClass.kt")
     public void testDataClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/dataClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/dataClass.kt");
     }
 
     @TestMetadata("errorTypes.kt")
     public void testErrorTypes() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/errorTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/errorTypes.kt");
     }
 
     @TestMetadata("innerClasses.kt")
     public void testInnerClasses() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/innerClasses.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/innerClasses.kt");
     }
 
     @TestMetadata("interfaceImpls.kt")
     public void testInterfaceImpls() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/interfaceImpls.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/interfaceImpls.kt");
     }
 
     @TestMetadata("jvmOverloads.kt")
     public void testJvmOverloads() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/jvmOverloads.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/jvmOverloads.kt");
     }
 
     @TestMetadata("lambdas.kt")
     public void testLambdas() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/lambdas.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/lambdas.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/codegen/kapt/simple.kt");
     }
 }

@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public class KotlinLintTestGenerated extends AbstractKotlinLintTest {
     @TestMetadata("alarm.kt")
     public void testAlarm() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/alarm.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/alarm.kt");
     }
 
     public void testAllFilesPresentInLint() throws Exception {
@@ -32,136 +32,136 @@ public class KotlinLintTestGenerated extends AbstractKotlinLintTest {
 
     @TestMetadata("apiCheck.kt")
     public void testApiCheck() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/apiCheck.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/apiCheck.kt");
     }
 
     @TestMetadata("callSuper.kt")
     public void testCallSuper() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/callSuper.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/callSuper.kt");
     }
 
     @TestMetadata("closeCursor.kt")
     public void testCloseCursor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/closeCursor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/closeCursor.kt");
     }
 
     @TestMetadata("commitFragment.kt")
     public void testCommitFragment() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/commitFragment.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/commitFragment.kt");
     }
 
     @TestMetadata("findViewById.kt")
     public void testFindViewById() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/findViewById.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/findViewById.kt");
     }
 
     @TestMetadata("javaPerformance.kt")
     public void testJavaPerformance() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/javaPerformance.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/javaPerformance.kt");
     }
 
     @TestMetadata("javaScriptInterface.kt")
     public void testJavaScriptInterface() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/javaScriptInterface.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/javaScriptInterface.kt");
     }
 
     @TestMetadata("layoutInflation.kt")
     public void testLayoutInflation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/layoutInflation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/layoutInflation.kt");
     }
 
     @TestMetadata("log.kt")
     public void testLog() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/log.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/log.kt");
     }
 
     @TestMetadata("noInternationalSms.kt")
     public void testNoInternationalSms() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/noInternationalSms.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/noInternationalSms.kt");
     }
 
     @TestMetadata("overrideConcrete.kt")
     public void testOverrideConcrete() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/overrideConcrete.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/overrideConcrete.kt");
     }
 
     @TestMetadata("parcel.kt")
     public void testParcel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/parcel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/parcel.kt");
     }
 
     @TestMetadata("sdCardTest.kt")
     public void testSdCardTest() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/sdCardTest.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/sdCardTest.kt");
     }
 
     @TestMetadata("setJavaScriptEnabled.kt")
     public void testSetJavaScriptEnabled() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/setJavaScriptEnabled.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/setJavaScriptEnabled.kt");
     }
 
     @TestMetadata("sharedPrefs.kt")
     public void testSharedPrefs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/sharedPrefs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/sharedPrefs.kt");
     }
 
     @TestMetadata("showDiagnosticsWhenFileIsRed.kt")
     public void testShowDiagnosticsWhenFileIsRed() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/showDiagnosticsWhenFileIsRed.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/showDiagnosticsWhenFileIsRed.kt");
     }
 
     @TestMetadata("sqlite.kt")
     public void testSqlite() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/sqlite.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/sqlite.kt");
     }
 
     @TestMetadata("supportAnnotation.kt")
     public void testSupportAnnotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/supportAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/supportAnnotation.kt");
     }
 
     @TestMetadata("systemServices.kt")
     public void testSystemServices() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/systemServices.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/systemServices.kt");
     }
 
     @TestMetadata("toast.kt")
     public void testToast() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/toast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/toast.kt");
     }
 
     @TestMetadata("valueOf.kt")
     public void testValueOf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/valueOf.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/valueOf.kt");
     }
 
     @TestMetadata("velocityTrackerRecycle.kt")
     public void testVelocityTrackerRecycle() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/velocityTrackerRecycle.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/velocityTrackerRecycle.kt");
     }
 
     @TestMetadata("viewConstructor.kt")
     public void testViewConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/viewConstructor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/viewConstructor.kt");
     }
 
     @TestMetadata("viewHolder.kt")
     public void testViewHolder() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/viewHolder.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/viewHolder.kt");
     }
 
     @TestMetadata("wrongAnnotation.kt")
     public void testWrongAnnotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/wrongAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/wrongAnnotation.kt");
     }
 
     @TestMetadata("wrongImport.kt")
     public void testWrongImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/wrongImport.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/wrongImport.kt");
     }
 
     @TestMetadata("wrongViewCall.kt")
     public void testWrongViewCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/lint/wrongViewCall.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/lint/wrongViewCall.kt");
     }
 }

@@ -27,6 +27,6 @@ public class AndroidJpsTestCaseGenerated extends AbstractAndroidJpsTestCase {
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-jps/testData/android/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-jps/testData/android/simple/");
     }
 }

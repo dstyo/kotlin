@@ -27,36 +27,36 @@ public class BytecodeListingTestForNoArgGenerated extends AbstractBytecodeListin
 
     @TestMetadata("annoOnNotClass.kt")
     public void testAnnoOnNotClass() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/annoOnNotClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/annoOnNotClass.kt");
     }
 
     @TestMetadata("defaultParameters.kt")
     public void testDefaultParameters() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/defaultParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/defaultParameters.kt");
     }
 
     @TestMetadata("inherited.kt")
     public void testInherited() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/inherited.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/inherited.kt");
     }
 
     @TestMetadata("noNoArg.kt")
     public void testNoNoArg() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/noNoArg.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/noNoArg.kt");
     }
 
     @TestMetadata("severalNoArg.kt")
     public void testSeveralNoArg() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/severalNoArg.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/severalNoArg.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/simple.kt");
     }
 
     @TestMetadata("superTypes.kt")
     public void testSuperTypes() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/bytecodeListing/superTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/noarg/noarg-cli/testData/bytecodeListing/superTypes.kt");
     }
 }

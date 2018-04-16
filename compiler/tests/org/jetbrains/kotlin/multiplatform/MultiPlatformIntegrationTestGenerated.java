@@ -27,87 +27,87 @@ public class MultiPlatformIntegrationTestGenerated extends AbstractMultiPlatform
 
     @TestMetadata("compatibleProperties")
     public void testCompatibleProperties() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/compatibleProperties/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/compatibleProperties/");
     }
 
     @TestMetadata("compilerArguments")
     public void testCompilerArguments() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/compilerArguments/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/compilerArguments/");
     }
 
     @TestMetadata("createImplClassInPlatformModule")
     public void testCreateImplClassInPlatformModule() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/createImplClassInPlatformModule/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/createImplClassInPlatformModule/");
     }
 
     @TestMetadata("explicitActualOnOverrideOfAbstractMethod")
     public void testExplicitActualOnOverrideOfAbstractMethod() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/explicitActualOnOverrideOfAbstractMethod/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/explicitActualOnOverrideOfAbstractMethod/");
     }
 
     @TestMetadata("genericDeclarations")
     public void testGenericDeclarations() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/genericDeclarations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/genericDeclarations/");
     }
 
     @TestMetadata("incompatibleCallables")
     public void testIncompatibleCallables() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/incompatibleCallables/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/incompatibleCallables/");
     }
 
     @TestMetadata("incompatibleClasses")
     public void testIncompatibleClasses() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/incompatibleClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/incompatibleClasses/");
     }
 
     @TestMetadata("incompatibleFunctions")
     public void testIncompatibleFunctions() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/incompatibleFunctions/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/incompatibleFunctions/");
     }
 
     @TestMetadata("incompatibleNestedClasses")
     public void testIncompatibleNestedClasses() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/incompatibleNestedClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/incompatibleNestedClasses/");
     }
 
     @TestMetadata("incompatibleProperties")
     public void testIncompatibleProperties() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/incompatibleProperties/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/incompatibleProperties/");
     }
 
     @TestMetadata("incorrectImplInClass")
     public void testIncorrectImplInClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/incorrectImplInClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/incorrectImplInClass/");
     }
 
     @TestMetadata("jsNameClash")
     public void testJsNameClash() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/jsNameClash/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/jsNameClash/");
     }
 
     @TestMetadata("jvmMultifileClass")
     public void testJvmMultifileClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/jvmMultifileClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/jvmMultifileClass/");
     }
 
     @TestMetadata("missingOverload")
     public void testMissingOverload() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/missingOverload/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/missingOverload/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/simple/");
     }
 
     @TestMetadata("simpleNoImplKeywordOnTopLevelFunction")
     public void testSimpleNoImplKeywordOnTopLevelFunction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/simpleNoImplKeywordOnTopLevelFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/simpleNoImplKeywordOnTopLevelFunction/");
     }
 
     @TestMetadata("weakIncompatibilityWithoutActualModifier")
     public void testWeakIncompatibilityWithoutActualModifier() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/multiplatform/weakIncompatibilityWithoutActualModifier/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/weakIncompatibilityWithoutActualModifier/");
     }
 
     @TestMetadata("compiler/testData/multiplatform/classScopes")
@@ -120,47 +120,47 @@ public class MultiPlatformIntegrationTestGenerated extends AbstractMultiPlatform
 
         @TestMetadata("constructorIncorrectSignature")
         public void testConstructorIncorrectSignature() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/constructorIncorrectSignature/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/constructorIncorrectSignature/");
         }
 
         @TestMetadata("enumsWithDifferentEntries")
         public void testEnumsWithDifferentEntries() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/enumsWithDifferentEntries/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/enumsWithDifferentEntries/");
         }
 
         @TestMetadata("fakeOverrides")
         public void testFakeOverrides() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/fakeOverrides/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/fakeOverrides/");
         }
 
         @TestMetadata("functionAndPropertyWithSameName")
         public void testFunctionAndPropertyWithSameName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/functionAndPropertyWithSameName/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/functionAndPropertyWithSameName/");
         }
 
         @TestMetadata("functionIncorrectSignature")
         public void testFunctionIncorrectSignature() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/functionIncorrectSignature/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/functionIncorrectSignature/");
         }
 
         @TestMetadata("functionIncorrectSignatureFromSuperclass")
         public void testFunctionIncorrectSignatureFromSuperclass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/functionIncorrectSignatureFromSuperclass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/functionIncorrectSignatureFromSuperclass/");
         }
 
         @TestMetadata("missingConstructor")
         public void testMissingConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/missingConstructor/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/missingConstructor/");
         }
 
         @TestMetadata("missingFunction")
         public void testMissingFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/missingFunction/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/missingFunction/");
         }
 
         @TestMetadata("simple")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/classScopes/simple/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/classScopes/simple/");
         }
     }
 
@@ -174,7 +174,7 @@ public class MultiPlatformIntegrationTestGenerated extends AbstractMultiPlatform
 
         @TestMetadata("useDefaultArgumentsInDependency")
         public void testUseDefaultArgumentsInDependency() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/defaultArguments/useDefaultArgumentsInDependency/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/defaultArguments/useDefaultArgumentsInDependency/");
         }
     }
 
@@ -188,17 +188,17 @@ public class MultiPlatformIntegrationTestGenerated extends AbstractMultiPlatform
 
         @TestMetadata("discriminateHeaderClassInFavorOfTypeAlias")
         public void testDiscriminateHeaderClassInFavorOfTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/implTypeAlias/discriminateHeaderClassInFavorOfTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/implTypeAlias/discriminateHeaderClassInFavorOfTypeAlias/");
         }
 
         @TestMetadata("generic")
         public void testGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/implTypeAlias/generic/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/implTypeAlias/generic/");
         }
 
         @TestMetadata("nestedClassesViaTypeAlias")
         public void testNestedClassesViaTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/implTypeAlias/nestedClassesViaTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/implTypeAlias/nestedClassesViaTypeAlias/");
         }
     }
 
@@ -212,12 +212,12 @@ public class MultiPlatformIntegrationTestGenerated extends AbstractMultiPlatform
 
         @TestMetadata("incompatibleClassScopesWithImplTypeAlias")
         public void testIncompatibleClassScopesWithImplTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/regressions/incompatibleClassScopesWithImplTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/regressions/incompatibleClassScopesWithImplTypeAlias/");
         }
 
         @TestMetadata("kt17001")
         public void testKt17001() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/multiplatform/regressions/kt17001/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/multiplatform/regressions/kt17001/");
         }
     }
 }

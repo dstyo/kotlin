@@ -25,37 +25,37 @@ public class IncrementalJsCompilerRunnerTestGenerated extends AbstractIncrementa
     public static class PureKotlin extends AbstractIncrementalJsCompilerRunnerTest {
         @TestMetadata("accessingFunctionsViaPackagePart")
         public void testAccessingFunctionsViaPackagePart() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/accessingFunctionsViaPackagePart/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/accessingFunctionsViaPackagePart/");
         }
 
         @TestMetadata("accessingPropertiesViaField")
         public void testAccessingPropertiesViaField() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/accessingPropertiesViaField/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/accessingPropertiesViaField/");
         }
 
         @TestMetadata("addClass")
         public void testAddClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/addClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/addClass/");
         }
 
         @TestMetadata("addFileWithFunctionOverload")
         public void testAddFileWithFunctionOverload() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/addFileWithFunctionOverload/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/addFileWithFunctionOverload/");
         }
 
         @TestMetadata("addMemberTypeAlias")
         public void testAddMemberTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/addMemberTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/addMemberTypeAlias/");
         }
 
         @TestMetadata("addTopLevelTypeAlias")
         public void testAddTopLevelTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/addTopLevelTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/addTopLevelTypeAlias/");
         }
 
         @TestMetadata("allConstants")
         public void testAllConstants() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/allConstants/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/allConstants/");
         }
 
         public void testAllFilesPresentInPureKotlin() throws Exception {
@@ -64,537 +64,537 @@ public class IncrementalJsCompilerRunnerTestGenerated extends AbstractIncrementa
 
         @TestMetadata("annotations")
         public void testAnnotations() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/annotations/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/annotations/");
         }
 
         @TestMetadata("anonymousObjectChanged")
         public void testAnonymousObjectChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/anonymousObjectChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/anonymousObjectChanged/");
         }
 
         @TestMetadata("changeTypeImplicitlyWithCircularDependency")
         public void testChangeTypeImplicitlyWithCircularDependency() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/changeTypeImplicitlyWithCircularDependency/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/changeTypeImplicitlyWithCircularDependency/");
         }
 
         @TestMetadata("changeWithRemovingUsage")
         public void testChangeWithRemovingUsage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/changeWithRemovingUsage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/changeWithRemovingUsage/");
         }
 
         @TestMetadata("classInlineFunctionChanged")
         public void testClassInlineFunctionChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/classInlineFunctionChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/classInlineFunctionChanged/");
         }
 
         @TestMetadata("classObjectConstantChanged")
         public void testClassObjectConstantChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/classObjectConstantChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/classObjectConstantChanged/");
         }
 
         @TestMetadata("classRecreated")
         public void testClassRecreated() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/classRecreated/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/classRecreated/");
         }
 
         @TestMetadata("classSignatureChanged")
         public void testClassSignatureChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/classSignatureChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/classSignatureChanged/");
         }
 
         @TestMetadata("classSignatureUnchanged")
         public void testClassSignatureUnchanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/classSignatureUnchanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/classSignatureUnchanged/");
         }
 
         @TestMetadata("compilationErrorThenFixedOtherPackage")
         public void testCompilationErrorThenFixedOtherPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedOtherPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedOtherPackage/");
         }
 
         @TestMetadata("compilationErrorThenFixedSamePackage")
         public void testCompilationErrorThenFixedSamePackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedSamePackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedSamePackage/");
         }
 
         @TestMetadata("compilationErrorThenFixedWithPhantomPart")
         public void testCompilationErrorThenFixedWithPhantomPart() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedWithPhantomPart/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedWithPhantomPart/");
         }
 
         @TestMetadata("compilationErrorThenFixedWithPhantomPart2")
         public void testCompilationErrorThenFixedWithPhantomPart2() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedWithPhantomPart2/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedWithPhantomPart2/");
         }
 
         @TestMetadata("compilationErrorThenFixedWithPhantomPart3")
         public void testCompilationErrorThenFixedWithPhantomPart3() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedWithPhantomPart3/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/compilationErrorThenFixedWithPhantomPart3/");
         }
 
         @TestMetadata("constantRemoved")
         public void testConstantRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/constantRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/constantRemoved/");
         }
 
         @TestMetadata("constantValueChanged")
         public void testConstantValueChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/constantValueChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/constantValueChanged/");
         }
 
         @TestMetadata("constantsUnchanged")
         public void testConstantsUnchanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/constantsUnchanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/constantsUnchanged/");
         }
 
         @TestMetadata("defaultArgumentInConstructorAdded")
         public void testDefaultArgumentInConstructorAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultArgumentInConstructorAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultArgumentInConstructorAdded/");
         }
 
         @TestMetadata("defaultArgumentInConstructorRemoved")
         public void testDefaultArgumentInConstructorRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultArgumentInConstructorRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultArgumentInConstructorRemoved/");
         }
 
         @TestMetadata("defaultValueAdded")
         public void testDefaultValueAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultValueAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultValueAdded/");
         }
 
         @TestMetadata("defaultValueChanged")
         public void testDefaultValueChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultValueChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultValueChanged/");
         }
 
         @TestMetadata("defaultValueInConstructorChanged")
         public void testDefaultValueInConstructorChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultValueInConstructorChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultValueInConstructorChanged/");
         }
 
         @TestMetadata("defaultValueInConstructorRemoved")
         public void testDefaultValueInConstructorRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultValueInConstructorRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultValueInConstructorRemoved/");
         }
 
         @TestMetadata("defaultValueRemoved1")
         public void testDefaultValueRemoved1() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultValueRemoved1/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultValueRemoved1/");
         }
 
         @TestMetadata("defaultValueRemoved2")
         public void testDefaultValueRemoved2() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/defaultValueRemoved2/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/defaultValueRemoved2/");
         }
 
         @TestMetadata("delegatedPropertyInlineExtensionAccessor")
         public void testDelegatedPropertyInlineExtensionAccessor() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/delegatedPropertyInlineExtensionAccessor/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/delegatedPropertyInlineExtensionAccessor/");
         }
 
         @TestMetadata("delegatedPropertyInlineMethodAccessor")
         public void testDelegatedPropertyInlineMethodAccessor() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/delegatedPropertyInlineMethodAccessor/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/delegatedPropertyInlineMethodAccessor/");
         }
 
         @TestMetadata("dependencyClassReferenced")
         public void testDependencyClassReferenced() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/dependencyClassReferenced/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/dependencyClassReferenced/");
         }
 
         @TestMetadata("fileWithConstantRemoved")
         public void testFileWithConstantRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/fileWithConstantRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/fileWithConstantRemoved/");
         }
 
         @TestMetadata("fileWithInlineFunctionRemoved")
         public void testFileWithInlineFunctionRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/fileWithInlineFunctionRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/fileWithInlineFunctionRemoved/");
         }
 
         @TestMetadata("filesExchangePackages")
         public void testFilesExchangePackages() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/filesExchangePackages/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/filesExchangePackages/");
         }
 
         @TestMetadata("funRedeclaration")
         public void testFunRedeclaration() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/funRedeclaration/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/funRedeclaration/");
         }
 
         @TestMetadata("funVsConstructorOverloadConflict")
         public void testFunVsConstructorOverloadConflict() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/funVsConstructorOverloadConflict/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/funVsConstructorOverloadConflict/");
         }
 
         @TestMetadata("functionBecameInline")
         public void testFunctionBecameInline() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/functionBecameInline/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/functionBecameInline/");
         }
 
         @TestMetadata("functionReferencingClass")
         public void testFunctionReferencingClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/functionReferencingClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/functionReferencingClass/");
         }
 
         @TestMetadata("independentClasses")
         public void testIndependentClasses() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/independentClasses/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/independentClasses/");
         }
 
         @TestMetadata("inlineFunctionBecomesNonInline")
         public void testInlineFunctionBecomesNonInline() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineFunctionBecomesNonInline/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineFunctionBecomesNonInline/");
         }
 
         @TestMetadata("inlineFunctionUsageAdded")
         public void testInlineFunctionUsageAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineFunctionUsageAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineFunctionUsageAdded/");
         }
 
         @TestMetadata("inlineFunctionsCircularDependency")
         public void testInlineFunctionsCircularDependency() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineFunctionsCircularDependency/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineFunctionsCircularDependency/");
         }
 
         @TestMetadata("inlineFunctionsUnchanged")
         public void testInlineFunctionsUnchanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineFunctionsUnchanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineFunctionsUnchanged/");
         }
 
         @TestMetadata("inlineLinesChanged")
         public void testInlineLinesChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineLinesChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineLinesChanged/");
         }
 
         @TestMetadata("inlineModifiedWithUsage")
         public void testInlineModifiedWithUsage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineModifiedWithUsage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineModifiedWithUsage/");
         }
 
         @TestMetadata("inlinePrivateFunctionAdded")
         public void testInlinePrivateFunctionAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlinePrivateFunctionAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlinePrivateFunctionAdded/");
         }
 
         @TestMetadata("inlinePropertyInClass")
         public void testInlinePropertyInClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlinePropertyInClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlinePropertyInClass/");
         }
 
         @TestMetadata("inlinePropertyOnTopLevel")
         public void testInlinePropertyOnTopLevel() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlinePropertyOnTopLevel/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlinePropertyOnTopLevel/");
         }
 
         @TestMetadata("inlineTwoFunctionsOneChanged")
         public void testInlineTwoFunctionsOneChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineTwoFunctionsOneChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineTwoFunctionsOneChanged/");
         }
 
         @TestMetadata("inlineUsedWhereDeclared")
         public void testInlineUsedWhereDeclared() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/inlineUsedWhereDeclared/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/inlineUsedWhereDeclared/");
         }
 
         @TestMetadata("internalClassChanged")
         public void testInternalClassChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/internalClassChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/internalClassChanged/");
         }
 
         @TestMetadata("internalMemberInClassChanged")
         public void testInternalMemberInClassChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/internalMemberInClassChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/internalMemberInClassChanged/");
         }
 
         @TestMetadata("internalTypealias")
         public void testInternalTypealias() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/internalTypealias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/internalTypealias/");
         }
 
         @TestMetadata("internalTypealiasConstructor")
         public void testInternalTypealiasConstructor() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/internalTypealiasConstructor/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/internalTypealiasConstructor/");
         }
 
         @TestMetadata("internalTypealiasObject")
         public void testInternalTypealiasObject() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/internalTypealiasObject/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/internalTypealiasObject/");
         }
 
         @TestMetadata("localClassChanged")
         public void testLocalClassChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/localClassChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/localClassChanged/");
         }
 
         @TestMetadata("moveClass")
         public void testMoveClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/moveClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/moveClass/");
         }
 
         @TestMetadata("moveFileWithChangingPackage")
         public void testMoveFileWithChangingPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/moveFileWithChangingPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/moveFileWithChangingPackage/");
         }
 
         @TestMetadata("moveFileWithoutChangingPackage")
         public void testMoveFileWithoutChangingPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/moveFileWithoutChangingPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/moveFileWithoutChangingPackage/");
         }
 
         @TestMetadata("multiplePackagesModified")
         public void testMultiplePackagesModified() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/multiplePackagesModified/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/multiplePackagesModified/");
         }
 
         @TestMetadata("objectConstantChanged")
         public void testObjectConstantChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/objectConstantChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/objectConstantChanged/");
         }
 
         @TestMetadata("ourClassReferenced")
         public void testOurClassReferenced() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/ourClassReferenced/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/ourClassReferenced/");
         }
 
         @TestMetadata("packageConstantChanged")
         public void testPackageConstantChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageConstantChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageConstantChanged/");
         }
 
         @TestMetadata("packageFileAdded")
         public void testPackageFileAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageFileAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageFileAdded/");
         }
 
         @TestMetadata("packageFileChangedPackage")
         public void testPackageFileChangedPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageFileChangedPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageFileChangedPackage/");
         }
 
         @TestMetadata("packageFileChangedThenOtherRemoved")
         public void testPackageFileChangedThenOtherRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageFileChangedThenOtherRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageFileChangedThenOtherRemoved/");
         }
 
         @TestMetadata("packageFileRemoved")
         public void testPackageFileRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageFileRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageFileRemoved/");
         }
 
         @TestMetadata("packageFilesChangedInTurn")
         public void testPackageFilesChangedInTurn() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageFilesChangedInTurn/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageFilesChangedInTurn/");
         }
 
         @TestMetadata("packageInlineFunctionAccessingField")
         public void testPackageInlineFunctionAccessingField() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageInlineFunctionAccessingField/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageInlineFunctionAccessingField/");
         }
 
         @TestMetadata("packageInlineFunctionFromOurPackage")
         public void testPackageInlineFunctionFromOurPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageInlineFunctionFromOurPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageInlineFunctionFromOurPackage/");
         }
 
         @TestMetadata("packagePrivateOnlyChanged")
         public void testPackagePrivateOnlyChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packagePrivateOnlyChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packagePrivateOnlyChanged/");
         }
 
         @TestMetadata("packageRecreated")
         public void testPackageRecreated() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageRecreated/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageRecreated/");
         }
 
         @TestMetadata("packageRecreatedAfterRenaming")
         public void testPackageRecreatedAfterRenaming() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageRecreatedAfterRenaming/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageRecreatedAfterRenaming/");
         }
 
         @TestMetadata("packageRemoved")
         public void testPackageRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/packageRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/packageRemoved/");
         }
 
         @TestMetadata("privateConstantsChanged")
         public void testPrivateConstantsChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateConstantsChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateConstantsChanged/");
         }
 
         @TestMetadata("privateMethodAdded")
         public void testPrivateMethodAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateMethodAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateMethodAdded/");
         }
 
         @TestMetadata("privateMethodDeleted")
         public void testPrivateMethodDeleted() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateMethodDeleted/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateMethodDeleted/");
         }
 
         @TestMetadata("privateMethodSignatureChanged")
         public void testPrivateMethodSignatureChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateMethodSignatureChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateMethodSignatureChanged/");
         }
 
         @TestMetadata("privateSecondaryConstructorAdded")
         public void testPrivateSecondaryConstructorAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateSecondaryConstructorAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateSecondaryConstructorAdded/");
         }
 
         @TestMetadata("privateSecondaryConstructorDeleted")
         public void testPrivateSecondaryConstructorDeleted() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateSecondaryConstructorDeleted/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateSecondaryConstructorDeleted/");
         }
 
         @TestMetadata("privateValAccessorChanged")
         public void testPrivateValAccessorChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateValAccessorChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateValAccessorChanged/");
         }
 
         @TestMetadata("privateValAdded")
         public void testPrivateValAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateValAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateValAdded/");
         }
 
         @TestMetadata("privateValDeleted")
         public void testPrivateValDeleted() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateValDeleted/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateValDeleted/");
         }
 
         @TestMetadata("privateValSignatureChanged")
         public void testPrivateValSignatureChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateValSignatureChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateValSignatureChanged/");
         }
 
         @TestMetadata("privateVarAdded")
         public void testPrivateVarAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateVarAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateVarAdded/");
         }
 
         @TestMetadata("privateVarDeleted")
         public void testPrivateVarDeleted() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateVarDeleted/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateVarDeleted/");
         }
 
         @TestMetadata("privateVarSignatureChanged")
         public void testPrivateVarSignatureChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/privateVarSignatureChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/privateVarSignatureChanged/");
         }
 
         @TestMetadata("propertyRedeclaration")
         public void testPropertyRedeclaration() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/propertyRedeclaration/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/propertyRedeclaration/");
         }
 
         @TestMetadata("publicPropertyWithPrivateSetter")
         public void testPublicPropertyWithPrivateSetter() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/publicPropertyWithPrivateSetter/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/publicPropertyWithPrivateSetter/");
         }
 
         @TestMetadata("removeAndRestoreCompanion")
         public void testRemoveAndRestoreCompanion() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeAndRestoreCompanion/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeAndRestoreCompanion/");
         }
 
         @TestMetadata("removeAndRestoreCompanionWithImplicitUsages")
         public void testRemoveAndRestoreCompanionWithImplicitUsages() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeAndRestoreCompanionWithImplicitUsages/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeAndRestoreCompanionWithImplicitUsages/");
         }
 
         @TestMetadata("removeClass")
         public void testRemoveClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeClass/");
         }
 
         @TestMetadata("removeClassInDefaultPackage")
         public void testRemoveClassInDefaultPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeClassInDefaultPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeClassInDefaultPackage/");
         }
 
         @TestMetadata("removeFileWithFunctionOverload")
         public void testRemoveFileWithFunctionOverload() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeFileWithFunctionOverload/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeFileWithFunctionOverload/");
         }
 
         @TestMetadata("removeMemberTypeAlias")
         public void testRemoveMemberTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeMemberTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeMemberTypeAlias/");
         }
 
         @TestMetadata("removeTopLevelTypeAlias")
         public void testRemoveTopLevelTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeTopLevelTypeAlias/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeTopLevelTypeAlias/");
         }
 
         @TestMetadata("removeUnusedFile")
         public void testRemoveUnusedFile() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/removeUnusedFile/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/removeUnusedFile/");
         }
 
         @TestMetadata("renameClass")
         public void testRenameClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/renameClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/renameClass/");
         }
 
         @TestMetadata("renameFileWithFunctionOverload")
         public void testRenameFileWithFunctionOverload() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/renameFileWithFunctionOverload/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/renameFileWithFunctionOverload/");
         }
 
         @TestMetadata("returnTypeChanged")
         public void testReturnTypeChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/returnTypeChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/returnTypeChanged/");
         }
 
         @TestMetadata("simpleClassDependency")
         public void testSimpleClassDependency() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/simpleClassDependency/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/simpleClassDependency/");
         }
 
         @TestMetadata("soleFileChangesPackage")
         public void testSoleFileChangesPackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/soleFileChangesPackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/soleFileChangesPackage/");
         }
 
         @TestMetadata("subpackage")
         public void testSubpackage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/subpackage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/subpackage/");
         }
 
         @TestMetadata("suspendWithStateMachine")
         public void testSuspendWithStateMachine() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/suspendWithStateMachine/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/suspendWithStateMachine/");
         }
 
         @TestMetadata("topLevelFunctionSameSignature")
         public void testTopLevelFunctionSameSignature() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/topLevelFunctionSameSignature/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/topLevelFunctionSameSignature/");
         }
 
         @TestMetadata("topLevelMembersInTwoFiles")
         public void testTopLevelMembersInTwoFiles() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/topLevelMembersInTwoFiles/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/topLevelMembersInTwoFiles/");
         }
 
         @TestMetadata("topLevelPrivateValUsageAdded")
         public void testTopLevelPrivateValUsageAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/topLevelPrivateValUsageAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/topLevelPrivateValUsageAdded/");
         }
 
         @TestMetadata("traitClassObjectConstantChanged")
         public void testTraitClassObjectConstantChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/traitClassObjectConstantChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/traitClassObjectConstantChanged/");
         }
 
         @TestMetadata("valAddCustomAccessor")
         public void testValAddCustomAccessor() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/valAddCustomAccessor/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/valAddCustomAccessor/");
         }
 
         @TestMetadata("valRemoveCustomAccessor")
         public void testValRemoveCustomAccessor() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/pureKotlin/valRemoveCustomAccessor/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/pureKotlin/valRemoveCustomAccessor/");
         }
     }
 
@@ -608,197 +608,197 @@ public class IncrementalJsCompilerRunnerTestGenerated extends AbstractIncrementa
 
         @TestMetadata("annotationFlagRemoved")
         public void testAnnotationFlagRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/annotationFlagRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/annotationFlagRemoved/");
         }
 
         @TestMetadata("annotationListChanged")
         public void testAnnotationListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/annotationListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/annotationListChanged/");
         }
 
         @TestMetadata("bridgeGenerated")
         public void testBridgeGenerated() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/bridgeGenerated/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/bridgeGenerated/");
         }
 
         @TestMetadata("classBecameFinal")
         public void testClassBecameFinal() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/classBecameFinal/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/classBecameFinal/");
         }
 
         @TestMetadata("classBecameInterface")
         public void testClassBecameInterface() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/classBecameInterface/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/classBecameInterface/");
         }
 
         @TestMetadata("classBecamePrivate")
         public void testClassBecamePrivate() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/classBecamePrivate/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/classBecamePrivate/");
         }
 
         @TestMetadata("classMovedIntoOtherClass")
         public void testClassMovedIntoOtherClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/classMovedIntoOtherClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/classMovedIntoOtherClass/");
         }
 
         @TestMetadata("classRemoved")
         public void testClassRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/classRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/classRemoved/");
         }
 
         @TestMetadata("classRemovedAndRestored")
         public void testClassRemovedAndRestored() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/classRemovedAndRestored/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/classRemovedAndRestored/");
         }
 
         @TestMetadata("companionObjectInheritedMemberChanged")
         public void testCompanionObjectInheritedMemberChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/companionObjectInheritedMemberChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/companionObjectInheritedMemberChanged/");
         }
 
         @TestMetadata("companionObjectMemberChanged")
         public void testCompanionObjectMemberChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/companionObjectMemberChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/companionObjectMemberChanged/");
         }
 
         @TestMetadata("companionObjectNameChanged")
         public void testCompanionObjectNameChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/companionObjectNameChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/companionObjectNameChanged/");
         }
 
         @TestMetadata("companionObjectToSimpleObject")
         public void testCompanionObjectToSimpleObject() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/companionObjectToSimpleObject/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/companionObjectToSimpleObject/");
         }
 
         @TestMetadata("constructorVisibilityChanged")
         public void testConstructorVisibilityChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/constructorVisibilityChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/constructorVisibilityChanged/");
         }
 
         @TestMetadata("enumEntryAdded")
         public void testEnumEntryAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/enumEntryAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/enumEntryAdded/");
         }
 
         @TestMetadata("enumEntryRemoved")
         public void testEnumEntryRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/enumEntryRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/enumEntryRemoved/");
         }
 
         @TestMetadata("enumMemberChanged")
         public void testEnumMemberChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/enumMemberChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/enumMemberChanged/");
         }
 
         @TestMetadata("flagsAndMemberInDifferentClassesChanged")
         public void testFlagsAndMemberInDifferentClassesChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/flagsAndMemberInDifferentClassesChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/flagsAndMemberInDifferentClassesChanged/");
         }
 
         @TestMetadata("flagsAndMemberInSameClassChanged")
         public void testFlagsAndMemberInSameClassChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/flagsAndMemberInSameClassChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/flagsAndMemberInSameClassChanged/");
         }
 
         @TestMetadata("implcitUpcast")
         public void testImplcitUpcast() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/implcitUpcast/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/implcitUpcast/");
         }
 
         @TestMetadata("inferredTypeArgumentChanged")
         public void testInferredTypeArgumentChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/inferredTypeArgumentChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/inferredTypeArgumentChanged/");
         }
 
         @TestMetadata("inferredTypeChanged")
         public void testInferredTypeChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/inferredTypeChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/inferredTypeChanged/");
         }
 
         @TestMetadata("lambdaParameterAffected")
         public void testLambdaParameterAffected() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/lambdaParameterAffected/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/lambdaParameterAffected/");
         }
 
         @TestMetadata("methodAdded")
         public void testMethodAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/methodAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/methodAdded/");
         }
 
         @TestMetadata("methodAnnotationAdded")
         public void testMethodAnnotationAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/methodAnnotationAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/methodAnnotationAdded/");
         }
 
         @TestMetadata("methodNullabilityChanged")
         public void testMethodNullabilityChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/methodNullabilityChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/methodNullabilityChanged/");
         }
 
         @TestMetadata("methodParameterWithDefaultValueAdded")
         public void testMethodParameterWithDefaultValueAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/methodParameterWithDefaultValueAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/methodParameterWithDefaultValueAdded/");
         }
 
         @TestMetadata("methodRemoved")
         public void testMethodRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/methodRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/methodRemoved/");
         }
 
         @TestMetadata("overrideExplicit")
         public void testOverrideExplicit() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/overrideExplicit/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/overrideExplicit/");
         }
 
         @TestMetadata("overrideImplicit")
         public void testOverrideImplicit() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/overrideImplicit/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/overrideImplicit/");
         }
 
         @TestMetadata("propertyNullabilityChanged")
         public void testPropertyNullabilityChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/propertyNullabilityChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/propertyNullabilityChanged/");
         }
 
         @TestMetadata("sealedClassImplAdded")
         public void testSealedClassImplAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/sealedClassImplAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/sealedClassImplAdded/");
         }
 
         @TestMetadata("sealedClassIndirectImplAdded")
         public void testSealedClassIndirectImplAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/sealedClassIndirectImplAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/sealedClassIndirectImplAdded/");
         }
 
         @TestMetadata("sealedClassNestedImplAdded")
         public void testSealedClassNestedImplAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/sealedClassNestedImplAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/sealedClassNestedImplAdded/");
         }
 
         @TestMetadata("secondaryConstructorAdded")
         public void testSecondaryConstructorAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/secondaryConstructorAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/secondaryConstructorAdded/");
         }
 
         @TestMetadata("starProjectionUpperBoundChanged")
         public void testStarProjectionUpperBoundChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/starProjectionUpperBoundChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/starProjectionUpperBoundChanged/");
         }
 
         @TestMetadata("supertypesListChanged")
         public void testSupertypesListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/supertypesListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/supertypesListChanged/");
         }
 
         @TestMetadata("typeParameterListChanged")
         public void testTypeParameterListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/typeParameterListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/typeParameterListChanged/");
         }
 
         @TestMetadata("varianceChanged")
         public void testVarianceChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/classHierarchyAffected/varianceChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/classHierarchyAffected/varianceChanged/");
         }
     }
 
@@ -820,7 +820,7 @@ public class IncrementalJsCompilerRunnerTestGenerated extends AbstractIncrementa
 
             @TestMetadata("internalInlineFunctionIsChanged")
             public void testInternalInlineFunctionIsChanged() throws Exception {
-                KotlinTestUtils.runTest("jps-plugin/testData/incremental/js/friendsModuleDisabled/internalInlineFunctionIsChanged/", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/js/friendsModuleDisabled/internalInlineFunctionIsChanged/");
             }
         }
     }

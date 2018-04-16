@@ -27,86 +27,86 @@ public class TextJavaToKotlinCopyPasteConversionTestGenerated extends AbstractTe
 
     @TestMetadata("AsExpression.txt")
     public void testAsExpression() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/AsExpression.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/AsExpression.txt");
     }
 
     @TestMetadata("AsExpressionBody.txt")
     public void testAsExpressionBody() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/AsExpressionBody.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/AsExpressionBody.txt");
     }
 
     @TestMetadata("ImportFromTarget.txt")
     public void testImportFromTarget() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/ImportFromTarget.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/ImportFromTarget.txt");
     }
 
     @TestMetadata("ImportResolve.txt")
     public void testImportResolve() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/ImportResolve.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/ImportResolve.txt");
     }
 
     @TestMetadata("InsideIdentifier.txt")
     public void testInsideIdentifier() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/InsideIdentifier.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/InsideIdentifier.txt");
     }
 
     @TestMetadata("IntoComment.txt")
     public void testIntoComment() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/IntoComment.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/IntoComment.txt");
     }
 
     @TestMetadata("IntoRawStringLiteral.txt")
     public void testIntoRawStringLiteral() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/IntoRawStringLiteral.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/IntoRawStringLiteral.txt");
     }
 
     @TestMetadata("IntoStringLiteral.txt")
     public void testIntoStringLiteral() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/IntoStringLiteral.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/IntoStringLiteral.txt");
     }
 
     @TestMetadata("KT13529.txt")
     public void testKT13529() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/KT13529.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/KT13529.txt");
     }
 
     @TestMetadata("KT13529_1.txt")
     public void testKT13529_1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/KT13529_1.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/KT13529_1.txt");
     }
 
     @TestMetadata("MembersIntoClass.txt")
     public void testMembersIntoClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/MembersIntoClass.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/MembersIntoClass.txt");
     }
 
     @TestMetadata("MembersToTopLevel.txt")
     public void testMembersToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/MembersToTopLevel.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/MembersToTopLevel.txt");
     }
 
     @TestMetadata("Override.txt")
     public void testOverride() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/Override.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/Override.txt");
     }
 
     @TestMetadata("OverrideInterface.txt")
     public void testOverrideInterface() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/OverrideInterface.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/OverrideInterface.txt");
     }
 
     @TestMetadata("PostProcessing.txt")
     public void testPostProcessing() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/PostProcessing.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/PostProcessing.txt");
     }
 
     @TestMetadata("StatementsIntoFunction.txt")
     public void testStatementsIntoFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/StatementsIntoFunction.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/StatementsIntoFunction.txt");
     }
 
     @TestMetadata("WholeFile.txt")
     public void testWholeFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextConversion/WholeFile.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextConversion/WholeFile.txt");
     }
 }

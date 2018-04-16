@@ -27,32 +27,32 @@ public class IrCfgTestCaseGenerated extends AbstractIrCfgTestCase {
 
     @TestMetadata("expressionFun.kt")
     public void testExpressionFun() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/expressionFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/expressionFun.kt");
     }
 
     @TestMetadata("expressionUnit.kt")
     public void testExpressionUnit() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/expressionUnit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/expressionUnit.kt");
     }
 
     @TestMetadata("returnUnit.kt")
     public void testReturnUnit() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/returnUnit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/returnUnit.kt");
     }
 
     @TestMetadata("sequentialFun.kt")
     public void testSequentialFun() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/sequentialFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/sequentialFun.kt");
     }
 
     @TestMetadata("simpleFun.kt")
     public void testSimpleFun() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/simpleFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/simpleFun.kt");
     }
 
     @TestMetadata("simpleReturn.kt")
     public void testSimpleReturn() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/simpleReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/simpleReturn.kt");
     }
 
     @TestMetadata("compiler/testData/ir/irCfg/loop")
@@ -65,17 +65,17 @@ public class IrCfgTestCaseGenerated extends AbstractIrCfgTestCase {
 
         @TestMetadata("digitCount.kt")
         public void testDigitCount() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/loop/digitCount.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/loop/digitCount.kt");
         }
 
         @TestMetadata("factorial.kt")
         public void testFactorial() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/loop/factorial.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/loop/factorial.kt");
         }
 
         @TestMetadata("isPerfect.kt")
         public void testIsPerfect() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/loop/isPerfect.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/loop/isPerfect.kt");
         }
     }
 
@@ -89,27 +89,27 @@ public class IrCfgTestCaseGenerated extends AbstractIrCfgTestCase {
 
         @TestMetadata("cascadeIf.kt")
         public void testCascadeIf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/cascadeIf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/when/cascadeIf.kt");
         }
 
         @TestMetadata("emptyWhen.kt")
         public void testEmptyWhen() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/emptyWhen.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/when/emptyWhen.kt");
         }
 
         @TestMetadata("expressionIf.kt")
         public void testExpressionIf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/expressionIf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/when/expressionIf.kt");
         }
 
         @TestMetadata("ifChain.kt")
         public void testIfChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/ifChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/when/ifChain.kt");
         }
 
         @TestMetadata("whenReturn.kt")
         public void testWhenReturn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/whenReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/irCfg/when/whenReturn.kt");
         }
     }
 }

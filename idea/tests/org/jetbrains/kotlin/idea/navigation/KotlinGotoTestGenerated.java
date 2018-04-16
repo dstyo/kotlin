@@ -29,57 +29,57 @@ public class KotlinGotoTestGenerated extends AbstractKotlinGotoTest {
 
         @TestMetadata("builtInAny.kt")
         public void testBuiltInAny() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/builtInAny.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/builtInAny.kt");
         }
 
         @TestMetadata("builtInInt.kt")
         public void testBuiltInInt() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/builtInInt.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/builtInInt.kt");
         }
 
         @TestMetadata("enumEntries.kt")
         public void testEnumEntries() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/enumEntries.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/enumEntries.kt");
         }
 
         @TestMetadata("inClassObject.kt")
         public void testInClassObject() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/inClassObject.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/inClassObject.kt");
         }
 
         @TestMetadata("innerClass.kt")
         public void testInnerClass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/innerClass.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/innerClass.kt");
         }
 
         @TestMetadata("localDeclarations.kt")
         public void testLocalDeclarations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/localDeclarations.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/localDeclarations.kt");
         }
 
         @TestMetadata("noImplementationTrait.kt")
         public void testNoImplementationTrait() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/noImplementationTrait.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/noImplementationTrait.kt");
         }
 
         @TestMetadata("simpleClass.kt")
         public void testSimpleClass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/simpleClass.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/simpleClass.kt");
         }
 
         @TestMetadata("simpleObject.kt")
         public void testSimpleObject() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/simpleObject.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/simpleObject.kt");
         }
 
         @TestMetadata("traitWithFunImplement.kt")
         public void testTraitWithFunImplement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/traitWithFunImplement.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/traitWithFunImplement.kt");
         }
 
         @TestMetadata("typealias.kt")
         public void testTypealias() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoClass/typealias.kt", this::doClassTest);
+            KotlinTestUtils.runTest(this::doClassTest,TargetBackend.ANY, "idea/testData/navigation/gotoClass/typealias.kt");
         }
     }
 
@@ -93,62 +93,62 @@ public class KotlinGotoTestGenerated extends AbstractKotlinGotoTest {
 
         @TestMetadata("builtInArrayOfNulls.kt")
         public void testBuiltInArrayOfNulls() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/builtInArrayOfNulls.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/builtInArrayOfNulls.kt");
         }
 
         @TestMetadata("builtInInt.kt")
         public void testBuiltInInt() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/builtInInt.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/builtInInt.kt");
         }
 
         @TestMetadata("enumConstants.kt")
         public void testEnumConstants() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/enumConstants.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/enumConstants.kt");
         }
 
         @TestMetadata("functions.kt")
         public void testFunctions() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/functions.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/functions.kt");
         }
 
         @TestMetadata("javaMethods.kt")
         public void testJavaMethods() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/javaMethods.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/javaMethods.kt");
         }
 
         @TestMetadata("localFunction.kt")
         public void testLocalFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/localFunction.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/localFunction.kt");
         }
 
         @TestMetadata("privateTopLevelDeclarations.kt")
         public void testPrivateTopLevelDeclarations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/privateTopLevelDeclarations.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/privateTopLevelDeclarations.kt");
         }
 
         @TestMetadata("properties.kt")
         public void testProperties() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/properties.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/properties.kt");
         }
 
         @TestMetadata("stdLibArrayListOf.kt")
         public void testStdLibArrayListOf() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/stdLibArrayListOf.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/stdLibArrayListOf.kt");
         }
 
         @TestMetadata("stdLibArrayListOfNoSources.kt")
         public void testStdLibArrayListOfNoSources() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/stdLibArrayListOfNoSources.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/stdLibArrayListOfNoSources.kt");
         }
 
         @TestMetadata("stdLibJoinToString.kt")
         public void testStdLibJoinToString() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/stdLibJoinToString.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/stdLibJoinToString.kt");
         }
 
         @TestMetadata("typealias.kt")
         public void testTypealias() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/navigation/gotoSymbol/typealias.kt", this::doSymbolTest);
+            KotlinTestUtils.runTest(this::doSymbolTest,TargetBackend.ANY, "idea/testData/navigation/gotoSymbol/typealias.kt");
         }
     }
 }

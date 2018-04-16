@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public class DiagnosticMessageTestGenerated extends AbstractDiagnosticMessageTest {
     @TestMetadata("abstractBaseClassMemberNotImplemented.kt")
     public void testAbstractBaseClassMemberNotImplemented() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/abstractBaseClassMemberNotImplemented.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/abstractBaseClassMemberNotImplemented.kt");
     }
 
     public void testAllFilesPresentInDiagnosticMessage() throws Exception {
@@ -32,246 +32,246 @@ public class DiagnosticMessageTestGenerated extends AbstractDiagnosticMessageTes
 
     @TestMetadata("annotationsForResolve.kt")
     public void testAnnotationsForResolve() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/annotationsForResolve.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/annotationsForResolve.kt");
     }
 
     @TestMetadata("assignedButNeverAccessedVariable.kt")
     public void testAssignedButNeverAccessedVariable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/assignedButNeverAccessedVariable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/assignedButNeverAccessedVariable.kt");
     }
 
     @TestMetadata("cannotInferVisibility.kt")
     public void testCannotInferVisibility() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/cannotInferVisibility.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/cannotInferVisibility.kt");
     }
 
     @TestMetadata("cannotOverrideInvisibleMember.kt")
     public void testCannotOverrideInvisibleMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/cannotOverrideInvisibleMember.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/cannotOverrideInvisibleMember.kt");
     }
 
     @TestMetadata("complexTypeMismatchWithTypeParameters.kt")
     public void testComplexTypeMismatchWithTypeParameters() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParameters.kt");
     }
 
     @TestMetadata("complexTypeMismatchWithTypeParametersAndTypeAlias.kt")
     public void testComplexTypeMismatchWithTypeParametersAndTypeAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParametersAndTypeAlias.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParametersAndTypeAlias.kt");
     }
 
     @TestMetadata("conflictingOverloadsClass.kt")
     public void testConflictingOverloadsClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/conflictingOverloadsClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/conflictingOverloadsClass.kt");
     }
 
     @TestMetadata("conflictingOverloadsDefaultPackage.kt")
     public void testConflictingOverloadsDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/conflictingOverloadsDefaultPackage.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/conflictingOverloadsDefaultPackage.kt");
     }
 
     @TestMetadata("conflictingSubstitutions.kt")
     public void testConflictingSubstitutions() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/conflictingSubstitutions.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/conflictingSubstitutions.kt");
     }
 
     @TestMetadata("constructorsRedeclaration.kt")
     public void testConstructorsRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/constructorsRedeclaration.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/constructorsRedeclaration.kt");
     }
 
     @TestMetadata("constructorsRedeclarationTopLevel.kt")
     public void testConstructorsRedeclarationTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/constructorsRedeclarationTopLevel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/constructorsRedeclarationTopLevel.kt");
     }
 
     @TestMetadata("differentNamesForSameParameter.kt")
     public void testDifferentNamesForSameParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/differentNamesForSameParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/differentNamesForSameParameter.kt");
     }
 
     @TestMetadata("expectedNothingDueToProjections.kt")
     public void testExpectedNothingDueToProjections() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/expectedNothingDueToProjections.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/expectedNothingDueToProjections.kt");
     }
 
     @TestMetadata("extensionInClassReference.kt")
     public void testExtensionInClassReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/extensionInClassReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/extensionInClassReference.kt");
     }
 
     @TestMetadata("functionPlaceholder.kt")
     public void testFunctionPlaceholder() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/functionPlaceholder.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/functionPlaceholder.kt");
     }
 
     @TestMetadata("illegalSuspendCall.kt")
     public void testIllegalSuspendCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/illegalSuspendCall.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/illegalSuspendCall.kt");
     }
 
     @TestMetadata("invisibleMember.kt")
     public void testInvisibleMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/invisibleMember.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/invisibleMember.kt");
     }
 
     @TestMetadata("multipleDefaultsFromSupertypes.kt")
     public void testMultipleDefaultsFromSupertypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/multipleDefaultsFromSupertypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/multipleDefaultsFromSupertypes.kt");
     }
 
     @TestMetadata("nameInConstraintIsNotATypeParameter.kt")
     public void testNameInConstraintIsNotATypeParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/nameInConstraintIsNotATypeParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/nameInConstraintIsNotATypeParameter.kt");
     }
 
     @TestMetadata("nestedClassAcessedViaInstanceReference.kt")
     public void testNestedClassAcessedViaInstanceReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/nestedClassAcessedViaInstanceReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/nestedClassAcessedViaInstanceReference.kt");
     }
 
     @TestMetadata("nestedClassShouldBeQualified.kt")
     public void testNestedClassShouldBeQualified() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/nestedClassShouldBeQualified.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/nestedClassShouldBeQualified.kt");
     }
 
     @TestMetadata("noneApplicable.kt")
     public void testNoneApplicable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/noneApplicable.kt");
     }
 
     @TestMetadata("noneApplicableCallableReference.kt")
     public void testNoneApplicableCallableReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableCallableReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/noneApplicableCallableReference.kt");
     }
 
     @TestMetadata("noneApplicableConstructor.kt")
     public void testNoneApplicableConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableConstructor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/noneApplicableConstructor.kt");
     }
 
     @TestMetadata("noneApplicableGeneric.kt")
     public void testNoneApplicableGeneric() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableGeneric.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/noneApplicableGeneric.kt");
     }
 
     @TestMetadata("noneApplicableHtml.kt")
     public void testNoneApplicableHtml() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableHtml.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/noneApplicableHtml.kt");
     }
 
     @TestMetadata("noneApplicableTxt.kt")
     public void testNoneApplicableTxt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableTxt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/noneApplicableTxt.kt");
     }
 
     @TestMetadata("numberValueTypes.kt")
     public void testNumberValueTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/numberValueTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/numberValueTypes.kt");
     }
 
     @TestMetadata("overloadResolutionAmbiguityHtml.kt")
     public void testOverloadResolutionAmbiguityHtml() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/overloadResolutionAmbiguityHtml.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/overloadResolutionAmbiguityHtml.kt");
     }
 
     @TestMetadata("overloadResolutionAmbiguityTxt.kt")
     public void testOverloadResolutionAmbiguityTxt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/overloadResolutionAmbiguityTxt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/overloadResolutionAmbiguityTxt.kt");
     }
 
     @TestMetadata("renderCollectionOfTypes.kt")
     public void testRenderCollectionOfTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/renderCollectionOfTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/renderCollectionOfTypes.kt");
     }
 
     @TestMetadata("returnTypeMismatchOnOverride.kt")
     public void testReturnTypeMismatchOnOverride() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/returnTypeMismatchOnOverride.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/returnTypeMismatchOnOverride.kt");
     }
 
     @TestMetadata("typeInferenceCannotCaptureTypes.kt")
     public void testTypeInferenceCannotCaptureTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeInferenceCannotCaptureTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeInferenceCannotCaptureTypes.kt");
     }
 
     @TestMetadata("typeInferenceExpectedTypeMismatch.kt")
     public void testTypeInferenceExpectedTypeMismatch() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeInferenceExpectedTypeMismatch.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeInferenceExpectedTypeMismatch.kt");
     }
 
     @TestMetadata("typeMismatchDueToProjections.kt")
     public void testTypeMismatchDueToProjections() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchDueToProjections.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeMismatchDueToProjections.kt");
     }
 
     @TestMetadata("typeMismatchDueToProjectionsIn.kt")
     public void testTypeMismatchDueToProjectionsIn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchDueToProjectionsIn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeMismatchDueToProjectionsIn.kt");
     }
 
     @TestMetadata("typeMismatchDueToProjectionsTxt.kt")
     public void testTypeMismatchDueToProjectionsTxt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchDueToProjectionsTxt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeMismatchDueToProjectionsTxt.kt");
     }
 
     @TestMetadata("typeMismatchWithFunctionalType.kt")
     public void testTypeMismatchWithFunctionalType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchWithFunctionalType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeMismatchWithFunctionalType.kt");
     }
 
     @TestMetadata("typeMismatchWithNothing.kt")
     public void testTypeMismatchWithNothing() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchWithNothing.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeMismatchWithNothing.kt");
     }
 
     @TestMetadata("typeMismatchWithTypeParameters.kt")
     public void testTypeMismatchWithTypeParameters() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchWithTypeParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeMismatchWithTypeParameters.kt");
     }
 
     @TestMetadata("typeParameterAsReified.kt")
     public void testTypeParameterAsReified() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeParameterAsReified.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeParameterAsReified.kt");
     }
 
     @TestMetadata("typeVarianceConflictInTypeAliasExpansion.kt")
     public void testTypeVarianceConflictInTypeAliasExpansion() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeVarianceConflictInTypeAliasExpansion.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/typeVarianceConflictInTypeAliasExpansion.kt");
     }
 
     @TestMetadata("unsupportedFeature.kt")
     public void testUnsupportedFeature() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unsupportedFeature.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/unsupportedFeature.kt");
     }
 
     @TestMetadata("unusedParameter.kt")
     public void testUnusedParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unusedParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/unusedParameter.kt");
     }
 
     @TestMetadata("unusedValue.kt")
     public void testUnusedValue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unusedValue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/unusedValue.kt");
     }
 
     @TestMetadata("unusedVariable.kt")
     public void testUnusedVariable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unusedVariable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/unusedVariable.kt");
     }
 
     @TestMetadata("upperBoundViolated.kt")
     public void testUpperBoundViolated() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/upperBoundViolated.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/upperBoundViolated.kt");
     }
 
     @TestMetadata("upperBoundViolatedInTypeAliasConstructorCall.kt")
     public void testUpperBoundViolatedInTypeAliasConstructorCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/upperBoundViolatedInTypeAliasConstructorCall.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/upperBoundViolatedInTypeAliasConstructorCall.kt");
     }
 
     @TestMetadata("urlRender.kt")
     public void testUrlRender() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/urlRender.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/diagnosticMessage/urlRender.kt");
     }
 }

@@ -27,1131 +27,1131 @@ public class RenameTestGenerated extends AbstractRenameTest {
 
     @TestMetadata("ambiguousClassFunImportRenameClass/ambiguousClassFunImportRenameClass.test")
     public void testAmbiguousClassFunImportRenameClass_AmbiguousClassFunImportRenameClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/ambiguousClassFunImportRenameClass/ambiguousClassFunImportRenameClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/ambiguousClassFunImportRenameClass/ambiguousClassFunImportRenameClass.test");
     }
 
     @TestMetadata("ambiguousClassFunImportRenameFun/ambiguousClassFunImportRenameFun.test")
     public void testAmbiguousClassFunImportRenameFun_AmbiguousClassFunImportRenameFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/ambiguousClassFunImportRenameFun/ambiguousClassFunImportRenameFun.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/ambiguousClassFunImportRenameFun/ambiguousClassFunImportRenameFun.test");
     }
 
     @TestMetadata("automaticRenamer/simple.test")
     public void testAutomaticRenamer_Simple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamer/simple.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamer/simple.test");
     }
 
     @TestMetadata("automaticRenamerForJavaClass/javaClass.test")
     public void testAutomaticRenamerForJavaClass_JavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerForJavaClass/javaClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerForJavaClass/javaClass.test");
     }
 
     @TestMetadata("automaticRenamerJavaParameter/parameter.test")
     public void testAutomaticRenamerJavaParameter_Parameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerJavaParameter/parameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerJavaParameter/parameter.test");
     }
 
     @TestMetadata("automaticRenamerKotlinTestClass/automaticRenamerKotlinTestClass.test")
     public void testAutomaticRenamerKotlinTestClass_AutomaticRenamerKotlinTestClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerKotlinTestClass/automaticRenamerKotlinTestClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerKotlinTestClass/automaticRenamerKotlinTestClass.test");
     }
 
     @TestMetadata("automaticRenamerKotlinTestClassForFacade/automaticRenamerKotlinTestClassForFacade.test")
     public void testAutomaticRenamerKotlinTestClassForFacade_AutomaticRenamerKotlinTestClassForFacade() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerKotlinTestClassForFacade/automaticRenamerKotlinTestClassForFacade.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerKotlinTestClassForFacade/automaticRenamerKotlinTestClassForFacade.test");
     }
 
     @TestMetadata("automaticRenamerOverloads/package.test")
     public void testAutomaticRenamerOverloads_Package() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloads/package.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloads/package.test");
     }
 
     @TestMetadata("automaticRenamerOverloadsAmbiguousImport/automaticRenamerOverloadsAmbiguousImport.test")
     public void testAutomaticRenamerOverloadsAmbiguousImport_AutomaticRenamerOverloadsAmbiguousImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloadsAmbiguousImport/automaticRenamerOverloadsAmbiguousImport.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloadsAmbiguousImport/automaticRenamerOverloadsAmbiguousImport.test");
     }
 
     @TestMetadata("automaticRenamerOverloadsClass/class.test")
     public void testAutomaticRenamerOverloadsClass_Class() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloadsClass/class.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloadsClass/class.test");
     }
 
     @TestMetadata("automaticRenamerOverloadsExtensionAndMember/automaticRenamerOverloadsExtensionAndMember.test")
     public void testAutomaticRenamerOverloadsExtensionAndMember_AutomaticRenamerOverloadsExtensionAndMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloadsExtensionAndMember/automaticRenamerOverloadsExtensionAndMember.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloadsExtensionAndMember/automaticRenamerOverloadsExtensionAndMember.test");
     }
 
     @TestMetadata("automaticRenamerOverloadsJavaClass/overloads.test")
     public void testAutomaticRenamerOverloadsJavaClass_Overloads() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloadsJavaClass/overloads.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloadsJavaClass/overloads.test");
     }
 
     @TestMetadata("automaticRenamerOverloadsMemberAndExtension/automaticRenamerOverloadsMemberAndExtension.test")
     public void testAutomaticRenamerOverloadsMemberAndExtension_AutomaticRenamerOverloadsMemberAndExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloadsMemberAndExtension/automaticRenamerOverloadsMemberAndExtension.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloadsMemberAndExtension/automaticRenamerOverloadsMemberAndExtension.test");
     }
 
     @TestMetadata("automaticRenamerOverloadsObject/object.test")
     public void testAutomaticRenamerOverloadsObject_Object() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerOverloadsObject/object.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerOverloadsObject/object.test");
     }
 
     @TestMetadata("automaticRenamerParameter/parameter.test")
     public void testAutomaticRenamerParameter_Parameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerParameter/parameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerParameter/parameter.test");
     }
 
     @TestMetadata("automaticRenamerParameterInExtension/parameter.test")
     public void testAutomaticRenamerParameterInExtension_Parameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticRenamerParameterInExtension/parameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticRenamerParameterInExtension/parameter.test");
     }
 
     @TestMetadata("automaticVariableRenamerWithQuotation/automaticVariableRenamerWithQuotation.test")
     public void testAutomaticVariableRenamerWithQuotation_AutomaticVariableRenamerWithQuotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/automaticVariableRenamerWithQuotation/automaticVariableRenamerWithQuotation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/automaticVariableRenamerWithQuotation/automaticVariableRenamerWithQuotation.test");
     }
 
     @TestMetadata("clashOfNestedWithOuterClass/clashOfNestedWithOuterClass.test")
     public void testClashOfNestedWithOuterClass_ClashOfNestedWithOuterClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/clashOfNestedWithOuterClass/clashOfNestedWithOuterClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/clashOfNestedWithOuterClass/clashOfNestedWithOuterClass.test");
     }
 
     @TestMetadata("clashParameterWithProperty/clashParameterWithProperty.test")
     public void testClashParameterWithProperty_ClashParameterWithProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/clashParameterWithProperty/clashParameterWithProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/clashParameterWithProperty/clashParameterWithProperty.test");
     }
 
     @TestMetadata("clashWithInnerClass/clashWithInnerClass.test")
     public void testClashWithInnerClass_ClashWithInnerClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/clashWithInnerClass/clashWithInnerClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/clashWithInnerClass/clashWithInnerClass.test");
     }
 
     @TestMetadata("clashWithNestedClass/clashWithNestedClass.test")
     public void testClashWithNestedClass_ClashWithNestedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/clashWithNestedClass/clashWithNestedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/clashWithNestedClass/clashWithNestedClass.test");
     }
 
     @TestMetadata("clashWithOuterClass/clashWithOuterClass.test")
     public void testClashWithOuterClass_ClashWithOuterClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/clashWithOuterClass/clashWithOuterClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/clashWithOuterClass/clashWithOuterClass.test");
     }
 
     @TestMetadata("classAndTypeAliasRedeclaration/classAndTypeAliasRedeclaration.test")
     public void testClassAndTypeAliasRedeclaration_ClassAndTypeAliasRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/classAndTypeAliasRedeclaration/classAndTypeAliasRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/classAndTypeAliasRedeclaration/classAndTypeAliasRedeclaration.test");
     }
 
     @TestMetadata("classByPrimaryConstructor/classByPrimaryConstructor.test")
     public void testClassByPrimaryConstructor_ClassByPrimaryConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/classByPrimaryConstructor/classByPrimaryConstructor.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/classByPrimaryConstructor/classByPrimaryConstructor.test");
     }
 
     @TestMetadata("classByPrimaryConstructorWithSpace/classByPrimaryConstructorWithSpace.test")
     public void testClassByPrimaryConstructorWithSpace_ClassByPrimaryConstructorWithSpace() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/classByPrimaryConstructorWithSpace/classByPrimaryConstructorWithSpace.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/classByPrimaryConstructorWithSpace/classByPrimaryConstructorWithSpace.test");
     }
 
     @TestMetadata("classUsagesInTextFiles/classUsagesInTextFiles.test")
     public void testClassUsagesInTextFiles_ClassUsagesInTextFiles() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/classUsagesInTextFiles/classUsagesInTextFiles.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/classUsagesInTextFiles/classUsagesInTextFiles.test");
     }
 
     @TestMetadata("companionObject/companionObject.test")
     public void testCompanionObject_CompanionObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/companionObject/companionObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/companionObject/companionObject.test");
     }
 
     @TestMetadata("companionObjectWithDefaultName/companionObject.test")
     public void testCompanionObjectWithDefaultName_CompanionObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/companionObjectWithDefaultName/companionObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/companionObjectWithDefaultName/companionObject.test");
     }
 
     @TestMetadata("companionObjectWithNameMatchingClass/companionObject.test")
     public void testCompanionObjectWithNameMatchingClass_CompanionObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/companionObjectWithNameMatchingClass/companionObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/companionObjectWithNameMatchingClass/companionObject.test");
     }
 
     @TestMetadata("companionShortRef/companionShortRef.test")
     public void testCompanionShortRef_CompanionShortRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/companionShortRef/companionShortRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/companionShortRef/companionShortRef.test");
     }
 
     @TestMetadata("dataClassComponentN/dataClassComponentN.test")
     public void testDataClassComponentN_DataClassComponentN() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/dataClassComponentN/dataClassComponentN.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/dataClassComponentN/dataClassComponentN.test");
     }
 
     @TestMetadata("dataClassCopy/dataClassCopy.test")
     public void testDataClassCopy_DataClassCopy() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/dataClassCopy/dataClassCopy.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/dataClassCopy/dataClassCopy.test");
     }
 
     @TestMetadata("enumValueOf/enumValueOf.test")
     public void testEnumValueOf_EnumValueOf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/enumValueOf/enumValueOf.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/enumValueOf/enumValueOf.test");
     }
 
     @TestMetadata("funTextOccurrences/funTextOccurrences.test")
     public void testFunTextOccurrences_FunTextOccurrences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/funTextOccurrences/funTextOccurrences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/funTextOccurrences/funTextOccurrences.test");
     }
 
     @TestMetadata("funWithLabeledReturns/funWithLabeledReturns.test")
     public void testFunWithLabeledReturns_FunWithLabeledReturns() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/funWithLabeledReturns/funWithLabeledReturns.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/funWithLabeledReturns/funWithLabeledReturns.test");
     }
 
     @TestMetadata("importAlias/importAlias.test")
     public void testImportAlias_ImportAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/importAlias/importAlias.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/importAlias/importAlias.test");
     }
 
     @TestMetadata("importAliasByRef/importAliasByRef.test")
     public void testImportAliasByRef_ImportAliasByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/importAliasByRef/importAliasByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/importAliasByRef/importAliasByRef.test");
     }
 
     @TestMetadata("javaClassImportAliasByRef/javaClassImportAliasByRef.test")
     public void testJavaClassImportAliasByRef_JavaClassImportAliasByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/javaClassImportAliasByRef/javaClassImportAliasByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/javaClassImportAliasByRef/javaClassImportAliasByRef.test");
     }
 
     @TestMetadata("javaEnumValueOf/javaEnumValueOf.test")
     public void testJavaEnumValueOf_JavaEnumValueOf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/javaEnumValueOf/javaEnumValueOf.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/javaEnumValueOf/javaEnumValueOf.test");
     }
 
     @TestMetadata("labeledAnonymousFunByLabel/labeledLambdaByLabel.test")
     public void testLabeledAnonymousFunByLabel_LabeledLambdaByLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledAnonymousFunByLabel/labeledLambdaByLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledAnonymousFunByLabel/labeledLambdaByLabel.test");
     }
 
     @TestMetadata("labeledLambdaByLabel/labeledLambdaByLabel.test")
     public void testLabeledLambdaByLabel_LabeledLambdaByLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaByLabel/labeledLambdaByLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaByLabel/labeledLambdaByLabel.test");
     }
 
     @TestMetadata("labeledLambdaByLabelRef/labeledLambdaByLabelRef.test")
     public void testLabeledLambdaByLabelRef_LabeledLambdaByLabelRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaByLabelRef/labeledLambdaByLabelRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaByLabelRef/labeledLambdaByLabelRef.test");
     }
 
     @TestMetadata("labeledLambdaByLabelRefAfterLabel/labeledLambdaByLabelRefAfterLabel.test")
     public void testLabeledLambdaByLabelRefAfterLabel_LabeledLambdaByLabelRefAfterLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaByLabelRefAfterLabel/labeledLambdaByLabelRefAfterLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaByLabelRefAfterLabel/labeledLambdaByLabelRefAfterLabel.test");
     }
 
     @TestMetadata("labeledLambdaByLabelRefBeforeLabel/labeledLambdaByLabelRefBeforeLabel.test")
     public void testLabeledLambdaByLabelRefBeforeLabel_LabeledLambdaByLabelRefBeforeLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaByLabelRefBeforeLabel/labeledLambdaByLabelRefBeforeLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaByLabelRefBeforeLabel/labeledLambdaByLabelRefBeforeLabel.test");
     }
 
     @TestMetadata("labeledLambdaByLabelWithParens/labeledLambdaByLabelWithParens.test")
     public void testLabeledLambdaByLabelWithParens_LabeledLambdaByLabelWithParens() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaByLabelWithParens/labeledLambdaByLabelWithParens.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaByLabelWithParens/labeledLambdaByLabelWithParens.test");
     }
 
     @TestMetadata("labeledLambdaByLabelWithSameName/labeledLambdaByLabelWithSameName.test")
     public void testLabeledLambdaByLabelWithSameName_LabeledLambdaByLabelWithSameName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaByLabelWithSameName/labeledLambdaByLabelWithSameName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaByLabelWithSameName/labeledLambdaByLabelWithSameName.test");
     }
 
     @TestMetadata("labeledLambdaWithMultipleLabels/labeledLambdaWithMultipleLabels.test")
     public void testLabeledLambdaWithMultipleLabels_LabeledLambdaWithMultipleLabels() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLambdaWithMultipleLabels/labeledLambdaWithMultipleLabels.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLambdaWithMultipleLabels/labeledLambdaWithMultipleLabels.test");
     }
 
     @TestMetadata("labeledLoopByLabel/labeledLoopByLabel.test")
     public void testLabeledLoopByLabel_LabeledLoopByLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLoopByLabel/labeledLoopByLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLoopByLabel/labeledLoopByLabel.test");
     }
 
     @TestMetadata("labeledLoopByLabelRefInBreak/labeledLoopByLabelRefInBreak.test")
     public void testLabeledLoopByLabelRefInBreak_LabeledLoopByLabelRefInBreak() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLoopByLabelRefInBreak/labeledLoopByLabelRefInBreak.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLoopByLabelRefInBreak/labeledLoopByLabelRefInBreak.test");
     }
 
     @TestMetadata("labeledLoopByLabelRefInContinue/labeledLoopByLabelRefInContinue.test")
     public void testLabeledLoopByLabelRefInContinue_LabeledLoopByLabelRefInContinue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledLoopByLabelRefInContinue/labeledLoopByLabelRefInContinue.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledLoopByLabelRefInContinue/labeledLoopByLabelRefInContinue.test");
     }
 
     @TestMetadata("labeledReturnInAnonymousFun/labeledReturnInAnonymousFun.test")
     public void testLabeledReturnInAnonymousFun_LabeledReturnInAnonymousFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledReturnInAnonymousFun/labeledReturnInAnonymousFun.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledReturnInAnonymousFun/labeledReturnInAnonymousFun.test");
     }
 
     @TestMetadata("labeledReturnInAnonymousFunBeforeWhitespace/labeledReturnInAnonymousFunBeforeWhitespace.test")
     public void testLabeledReturnInAnonymousFunBeforeWhitespace_LabeledReturnInAnonymousFunBeforeWhitespace() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledReturnInAnonymousFunBeforeWhitespace/labeledReturnInAnonymousFunBeforeWhitespace.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledReturnInAnonymousFunBeforeWhitespace/labeledReturnInAnonymousFunBeforeWhitespace.test");
     }
 
     @TestMetadata("labeledReturnInLambda/labeledReturnInLambda.test")
     public void testLabeledReturnInLambda_LabeledReturnInLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledReturnInLambda/labeledReturnInLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledReturnInLambda/labeledReturnInLambda.test");
     }
 
     @TestMetadata("labeledReturnInLambdaAfterLabel/labeledReturnInLambdaAfterLabel.test")
     public void testLabeledReturnInLambdaAfterLabel_LabeledReturnInLambdaAfterLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledReturnInLambdaAfterLabel/labeledReturnInLambdaAfterLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledReturnInLambdaAfterLabel/labeledReturnInLambdaAfterLabel.test");
     }
 
     @TestMetadata("labeledReturnInLambdaBeforeLabel/labeledReturnInLambdaBeforeLabel.test")
     public void testLabeledReturnInLambdaBeforeLabel_LabeledReturnInLambdaBeforeLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/labeledReturnInLambdaBeforeLabel/labeledReturnInLambdaBeforeLabel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/labeledReturnInLambdaBeforeLabel/labeledReturnInLambdaBeforeLabel.test");
     }
 
     @TestMetadata("lambdaParameterRedeclaration/lambdaParameterRedeclaration.test")
     public void testLambdaParameterRedeclaration_LambdaParameterRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/lambdaParameterRedeclaration/lambdaParameterRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/lambdaParameterRedeclaration/lambdaParameterRedeclaration.test");
     }
 
     @TestMetadata("memberFunctionRedeclaration/memberFunctionRedeclaration.test")
     public void testMemberFunctionRedeclaration_MemberFunctionRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/memberFunctionRedeclaration/memberFunctionRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/memberFunctionRedeclaration/memberFunctionRedeclaration.test");
     }
 
     @TestMetadata("memberPropertyRedeclaration/memberPropertyRedeclaration.test")
     public void testMemberPropertyRedeclaration_MemberPropertyRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/memberPropertyRedeclaration/memberPropertyRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/memberPropertyRedeclaration/memberPropertyRedeclaration.test");
     }
 
     @TestMetadata("memberPropertyShadowedByLocalVar/memberPropertyShadowedByLocalVar.test")
     public void testMemberPropertyShadowedByLocalVar_MemberPropertyShadowedByLocalVar() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/memberPropertyShadowedByLocalVar/memberPropertyShadowedByLocalVar.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/memberPropertyShadowedByLocalVar/memberPropertyShadowedByLocalVar.test");
     }
 
     @TestMetadata("memberPropertyWithInnerInstanceProperty/memberPropertyWithInnerInstanceProperty.test")
     public void testMemberPropertyWithInnerInstanceProperty_MemberPropertyWithInnerInstanceProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/memberPropertyWithInnerInstanceProperty/memberPropertyWithInnerInstanceProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/memberPropertyWithInnerInstanceProperty/memberPropertyWithInnerInstanceProperty.test");
     }
 
     @TestMetadata("memberPropertyWithOuterInstanceProperty/memberPropertyWithOuterInstanceProperty.test")
     public void testMemberPropertyWithOuterInstanceProperty_MemberPropertyWithOuterInstanceProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/memberPropertyWithOuterInstanceProperty/memberPropertyWithOuterInstanceProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/memberPropertyWithOuterInstanceProperty/memberPropertyWithOuterInstanceProperty.test");
     }
 
     @TestMetadata("nestedClassRedeclaration/nestedClassRedeclaration.test")
     public void testNestedClassRedeclaration_NestedClassRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/nestedClassRedeclaration/nestedClassRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/nestedClassRedeclaration/nestedClassRedeclaration.test");
     }
 
     @TestMetadata("nonCodePropertyAccessorUsages/nonCodePropertyAccessorUsages.test")
     public void testNonCodePropertyAccessorUsages_NonCodePropertyAccessorUsages() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/nonCodePropertyAccessorUsages/nonCodePropertyAccessorUsages.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/nonCodePropertyAccessorUsages/nonCodePropertyAccessorUsages.test");
     }
 
     @TestMetadata("nonPrivateTopLevelDeclarationsConflict/nonPrivateTopLevelDeclarationsNoConflict.test")
     public void testNonPrivateTopLevelDeclarationsConflict_NonPrivateTopLevelDeclarationsNoConflict() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/nonPrivateTopLevelDeclarationsConflict/nonPrivateTopLevelDeclarationsNoConflict.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/nonPrivateTopLevelDeclarationsConflict/nonPrivateTopLevelDeclarationsNoConflict.test");
     }
 
     @TestMetadata("nonQuotedToQuoted/nonQuotedToQuoted.test")
     public void testNonQuotedToQuoted_NonQuotedToQuoted() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/nonQuotedToQuoted/nonQuotedToQuoted.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/nonQuotedToQuoted/nonQuotedToQuoted.test");
     }
 
     @TestMetadata("noShadowingConflictForSiblingDeclarations/noShadowingConflictForSiblingDeclarations.test")
     public void testNoShadowingConflictForSiblingDeclarations_NoShadowingConflictForSiblingDeclarations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/noShadowingConflictForSiblingDeclarations/noShadowingConflictForSiblingDeclarations.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/noShadowingConflictForSiblingDeclarations/noShadowingConflictForSiblingDeclarations.test");
     }
 
     @TestMetadata("objectAlias/objectAlias.test")
     public void testObjectAlias_ObjectAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/objectAlias/objectAlias.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/objectAlias/objectAlias.test");
     }
 
     @TestMetadata("objectAliasByRef/objectAliasByRef.test")
     public void testObjectAliasByRef_ObjectAliasByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/objectAliasByRef/objectAliasByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/objectAliasByRef/objectAliasByRef.test");
     }
 
     @TestMetadata("objectFunctionImportAliasByRef/objectFunctionImportAliasByRef.test")
     public void testObjectFunctionImportAliasByRef_ObjectFunctionImportAliasByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/objectFunctionImportAliasByRef/objectFunctionImportAliasByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/objectFunctionImportAliasByRef/objectFunctionImportAliasByRef.test");
     }
 
     @TestMetadata("objectPropertyImportAliasByRef/objectPropertyImportAliasByRef.test")
     public void testObjectPropertyImportAliasByRef_ObjectPropertyImportAliasByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/objectPropertyImportAliasByRef/objectPropertyImportAliasByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/objectPropertyImportAliasByRef/objectPropertyImportAliasByRef.test");
     }
 
     @TestMetadata("overloadsWithDifferentOrigins/overloadsWithDifferentOrigins.test")
     public void testOverloadsWithDifferentOrigins_OverloadsWithDifferentOrigins() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/overloadsWithDifferentOrigins/overloadsWithDifferentOrigins.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/overloadsWithDifferentOrigins/overloadsWithDifferentOrigins.test");
     }
 
     @TestMetadata("overloadsWithSameOrigin/overloadsWithSameOrigin.test")
     public void testOverloadsWithSameOrigin_OverloadsWithSameOrigin() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/overloadsWithSameOrigin/overloadsWithSameOrigin.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/overloadsWithSameOrigin/overloadsWithSameOrigin.test");
     }
 
     @TestMetadata("paramererAsReceiverWithNewNameAsSelector/parameterAsReceiverWithNewNameAsSelector.test")
     public void testParamererAsReceiverWithNewNameAsSelector_ParameterAsReceiverWithNewNameAsSelector() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/paramererAsReceiverWithNewNameAsSelector/parameterAsReceiverWithNewNameAsSelector.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/paramererAsReceiverWithNewNameAsSelector/parameterAsReceiverWithNewNameAsSelector.test");
     }
 
     @TestMetadata("parameterHierarchyLeaf/parameterHierarchyLeaf.test")
     public void testParameterHierarchyLeaf_ParameterHierarchyLeaf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/parameterHierarchyLeaf/parameterHierarchyLeaf.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/parameterHierarchyLeaf/parameterHierarchyLeaf.test");
     }
 
     @TestMetadata("parameterHierarchyMiddle/parameterHierarchyMiddle.test")
     public void testParameterHierarchyMiddle_ParameterHierarchyMiddle() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/parameterHierarchyMiddle/parameterHierarchyMiddle.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/parameterHierarchyMiddle/parameterHierarchyMiddle.test");
     }
 
     @TestMetadata("parameterHierarchyRoot/parameterHierarchyRoot.test")
     public void testParameterHierarchyRoot_ParameterHierarchyRoot() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/parameterHierarchyRoot/parameterHierarchyRoot.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/parameterHierarchyRoot/parameterHierarchyRoot.test");
     }
 
     @TestMetadata("parameterRedeclaration/parameterRedeclaration.test")
     public void testParameterRedeclaration_ParameterRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/parameterRedeclaration/parameterRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/parameterRedeclaration/parameterRedeclaration.test");
     }
 
     @TestMetadata("parameterTextOccurrences/parameterTextOccurrences.test")
     public void testParameterTextOccurrences_ParameterTextOccurrences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/parameterTextOccurrences/parameterTextOccurrences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/parameterTextOccurrences/parameterTextOccurrences.test");
     }
 
     @TestMetadata("parameterWithQuotation/parameterWithQuotation.test")
     public void testParameterWithQuotation_ParameterWithQuotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/parameterWithQuotation/parameterWithQuotation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/parameterWithQuotation/parameterWithQuotation.test");
     }
 
     @TestMetadata("primaryConstructorParameterRedeclaration/primaryConstructorParameterRedeclaration.test")
     public void testPrimaryConstructorParameterRedeclaration_PrimaryConstructorParameterRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/primaryConstructorParameterRedeclaration/primaryConstructorParameterRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/primaryConstructorParameterRedeclaration/primaryConstructorParameterRedeclaration.test");
     }
 
     @TestMetadata("privateAndNonPrivateTopLevelDeclarationsNoConflict/privateAndNonPrivateTopLevelDeclarationsNoConflict.test")
     public void testPrivateAndNonPrivateTopLevelDeclarationsNoConflict_PrivateAndNonPrivateTopLevelDeclarationsNoConflict() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/privateAndNonPrivateTopLevelDeclarationsNoConflict/privateAndNonPrivateTopLevelDeclarationsNoConflict.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/privateAndNonPrivateTopLevelDeclarationsNoConflict/privateAndNonPrivateTopLevelDeclarationsNoConflict.test");
     }
 
     @TestMetadata("privateFunInMultifileFacade/privateFunInMultifileFacade.test")
     public void testPrivateFunInMultifileFacade_PrivateFunInMultifileFacade() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/privateFunInMultifileFacade/privateFunInMultifileFacade.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/privateFunInMultifileFacade/privateFunInMultifileFacade.test");
     }
 
     @TestMetadata("privateTopLevelDeclarationsNoConflict/privateTopLevelDeclarationsNoConflict.test")
     public void testPrivateTopLevelDeclarationsNoConflict_PrivateTopLevelDeclarationsNoConflict() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/privateTopLevelDeclarationsNoConflict/privateTopLevelDeclarationsNoConflict.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/privateTopLevelDeclarationsNoConflict/privateTopLevelDeclarationsNoConflict.test");
     }
 
     @TestMetadata("propertyAccidentalOverrideSubclass/propertyAccidentalOverrideSubclass.test")
     public void testPropertyAccidentalOverrideSubclass_PropertyAccidentalOverrideSubclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/propertyAccidentalOverrideSubclass/propertyAccidentalOverrideSubclass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/propertyAccidentalOverrideSubclass/propertyAccidentalOverrideSubclass.test");
     }
 
     @TestMetadata("propertyAccidentalOverrideSuperclass/propertyAccidentalOverrideSuperclass.test")
     public void testPropertyAccidentalOverrideSuperclass_PropertyAccidentalOverrideSuperclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/propertyAccidentalOverrideSuperclass/propertyAccidentalOverrideSuperclass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/propertyAccidentalOverrideSuperclass/propertyAccidentalOverrideSuperclass.test");
     }
 
     @TestMetadata("propertyParameterAccidentalOverrideSubclass/propertyParameterAccidentalOverrideSubclass.test")
     public void testPropertyParameterAccidentalOverrideSubclass_PropertyParameterAccidentalOverrideSubclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/propertyParameterAccidentalOverrideSubclass/propertyParameterAccidentalOverrideSubclass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/propertyParameterAccidentalOverrideSubclass/propertyParameterAccidentalOverrideSubclass.test");
     }
 
     @TestMetadata("propertyParameterAccidentalOverrideSuperclass/propertyParameterAccidentalOverrideSuperclass.test")
     public void testPropertyParameterAccidentalOverrideSuperclass_PropertyParameterAccidentalOverrideSuperclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/propertyParameterAccidentalOverrideSuperclass/propertyParameterAccidentalOverrideSuperclass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/propertyParameterAccidentalOverrideSuperclass/propertyParameterAccidentalOverrideSuperclass.test");
     }
 
     @TestMetadata("propertyParameterRedeclaredByProperty/propertyParameterRedeclaredByProperty.test")
     public void testPropertyParameterRedeclaredByProperty_PropertyParameterRedeclaredByProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/propertyParameterRedeclaredByProperty/propertyParameterRedeclaredByProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/propertyParameterRedeclaredByProperty/propertyParameterRedeclaredByProperty.test");
     }
 
     @TestMetadata("propertyRedeclaredByPropertyParameter/propertyRedeclaredByPropertyParameter.test")
     public void testPropertyRedeclaredByPropertyParameter_PropertyRedeclaredByPropertyParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/propertyRedeclaredByPropertyParameter/propertyRedeclaredByPropertyParameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/propertyRedeclaredByPropertyParameter/propertyRedeclaredByPropertyParameter.test");
     }
 
     @TestMetadata("quotedToNonQuoted/quotedToNonQuoted.test")
     public void testQuotedToNonQuoted_QuotedToNonQuoted() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/quotedToNonQuoted/quotedToNonQuoted.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/quotedToNonQuoted/quotedToNonQuoted.test");
     }
 
     @TestMetadata("quotedToNonQuotedCaretAtTheEnd/quotedToNonQuotedCaretAtTheEnd.test")
     public void testQuotedToNonQuotedCaretAtTheEnd_QuotedToNonQuotedCaretAtTheEnd() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/quotedToNonQuotedCaretAtTheEnd/quotedToNonQuotedCaretAtTheEnd.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/quotedToNonQuotedCaretAtTheEnd/quotedToNonQuotedCaretAtTheEnd.test");
     }
 
     @TestMetadata("renameArgumentsWhenParameterRenamed/parameter.test")
     public void testRenameArgumentsWhenParameterRenamed_Parameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameArgumentsWhenParameterRenamed/parameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameArgumentsWhenParameterRenamed/parameter.test");
     }
 
     @TestMetadata("renameBundle/renameBundle.test")
     public void testRenameBundle_RenameBundle() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameBundle/renameBundle.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameBundle/renameBundle.test");
     }
 
     @TestMetadata("renameBundleProperty/renameBundleProperty.test")
     public void testRenameBundleProperty_RenameBundleProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameBundleProperty/renameBundleProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameBundleProperty/renameBundleProperty.test");
     }
 
     @TestMetadata("renameClassByRefInConstructorDelegationCall/renameClassByRefInConstructorDelegationCall.test")
     public void testRenameClassByRefInConstructorDelegationCall_RenameClassByRefInConstructorDelegationCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameClassByRefInConstructorDelegationCall/renameClassByRefInConstructorDelegationCall.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameClassByRefInConstructorDelegationCall/renameClassByRefInConstructorDelegationCall.test");
     }
 
     @TestMetadata("renameClassTypeParameterRedeclaration/renameClassTypeParameterRedeclaration.test")
     public void testRenameClassTypeParameterRedeclaration_RenameClassTypeParameterRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameClassTypeParameterRedeclaration/renameClassTypeParameterRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameClassTypeParameterRedeclaration/renameClassTypeParameterRedeclaration.test");
     }
 
     @TestMetadata("renameClassTypeParameterRedeclarationWithOuterScope/renameClassTypeParameterRedeclarationWithOuterScope.test")
     public void testRenameClassTypeParameterRedeclarationWithOuterScope_RenameClassTypeParameterRedeclarationWithOuterScope() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameClassTypeParameterRedeclarationWithOuterScope/renameClassTypeParameterRedeclarationWithOuterScope.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameClassTypeParameterRedeclarationWithOuterScope/renameClassTypeParameterRedeclarationWithOuterScope.test");
     }
 
     @TestMetadata("renameClassWithAutoVarConventions/renameClassWithAutoVarConventions.test")
     public void testRenameClassWithAutoVarConventions_RenameClassWithAutoVarConventions() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameClassWithAutoVarConventions/renameClassWithAutoVarConventions.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameClassWithAutoVarConventions/renameClassWithAutoVarConventions.test");
     }
 
     @TestMetadata("renameCompareTo/compareTo.test")
     public void testRenameCompareTo_CompareTo() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameCompareTo/compareTo.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameCompareTo/compareTo.test");
     }
 
     @TestMetadata("renameContains/contains.test")
     public void testRenameContains_Contains() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameContains/contains.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameContains/contains.test");
     }
 
     @TestMetadata("renameContainsWithConflicts/containsWithConflicts.test")
     public void testRenameContainsWithConflicts_ContainsWithConflicts() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameContainsWithConflicts/containsWithConflicts.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameContainsWithConflicts/containsWithConflicts.test");
     }
 
     @TestMetadata("renamedClassShadowingImplicitlyImportedClassUsage/renamedClassShadowingImplicitlyImportedClassUsage.test")
     public void testRenamedClassShadowingImplicitlyImportedClassUsage_RenamedClassShadowingImplicitlyImportedClassUsage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamedClassShadowingImplicitlyImportedClassUsage/renamedClassShadowingImplicitlyImportedClassUsage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamedClassShadowingImplicitlyImportedClassUsage/renamedClassShadowingImplicitlyImportedClassUsage.test");
     }
 
     @TestMetadata("renamedClassShadowingImportedClassUsage/renamedClassShadowingImportedClassUsage.test")
     public void testRenamedClassShadowingImportedClassUsage_RenamedClassShadowingImportedClassUsage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamedClassShadowingImportedClassUsage/renamedClassShadowingImportedClassUsage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamedClassShadowingImportedClassUsage/renamedClassShadowingImportedClassUsage.test");
     }
 
     @TestMetadata("renameDefaultJavaAnnotationMethod/renameDefaultJavaAnnotationMethod.test")
     public void testRenameDefaultJavaAnnotationMethod_RenameDefaultJavaAnnotationMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameDefaultJavaAnnotationMethod/renameDefaultJavaAnnotationMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameDefaultJavaAnnotationMethod/renameDefaultJavaAnnotationMethod.test");
     }
 
     @TestMetadata("renameDefaultKotlinAnnotationMethod/renameDefaultKotlinAnnotationMethod.test")
     public void testRenameDefaultKotlinAnnotationMethod_RenameDefaultKotlinAnnotationMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameDefaultKotlinAnnotationMethod/renameDefaultKotlinAnnotationMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameDefaultKotlinAnnotationMethod/renameDefaultKotlinAnnotationMethod.test");
     }
 
     @TestMetadata("renameEmptyKotlinFile/renameFile.test")
     public void testRenameEmptyKotlinFile_RenameFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameEmptyKotlinFile/renameFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameEmptyKotlinFile/renameFile.test");
     }
 
     @TestMetadata("renameEquals/equals.test")
     public void testRenameEquals_Equals() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameEquals/equals.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameEquals/equals.test");
     }
 
     @TestMetadata("renameExplicitComponentFunction/explicitComponentFunction.test")
     public void testRenameExplicitComponentFunction_ExplicitComponentFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameExplicitComponentFunction/explicitComponentFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameExplicitComponentFunction/explicitComponentFunction.test");
     }
 
     @TestMetadata("renameFieldIdentifier/fieldIdentifier.test")
     public void testRenameFieldIdentifier_FieldIdentifier() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameFieldIdentifier/fieldIdentifier.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameFieldIdentifier/fieldIdentifier.test");
     }
 
     @TestMetadata("renameFunctionTypeParameterRedeclaration/renameFunctionTypeParameterRedeclaration.test")
     public void testRenameFunctionTypeParameterRedeclaration_RenameFunctionTypeParameterRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameFunctionTypeParameterRedeclaration/renameFunctionTypeParameterRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameFunctionTypeParameterRedeclaration/renameFunctionTypeParameterRedeclaration.test");
     }
 
     @TestMetadata("renameFunctionTypeParameterRedeclarationWithOuterScope/renameFunctionTypeParameterRedeclarationWithOuterScope.test")
     public void testRenameFunctionTypeParameterRedeclarationWithOuterScope_RenameFunctionTypeParameterRedeclarationWithOuterScope() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameFunctionTypeParameterRedeclarationWithOuterScope/renameFunctionTypeParameterRedeclarationWithOuterScope.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameFunctionTypeParameterRedeclarationWithOuterScope/renameFunctionTypeParameterRedeclarationWithOuterScope.test");
     }
 
     @TestMetadata("renameGet/get.test")
     public void testRenameGet_Get() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameGet/get.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameGet/get.test");
     }
 
     @TestMetadata("renameInc/inc.test")
     public void testRenameInc_Inc() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameInc/inc.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameInc/inc.test");
     }
 
     @TestMetadata("renameInvoke/invoke.test")
     public void testRenameInvoke_Invoke() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameInvoke/invoke.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameInvoke/invoke.test");
     }
 
     @TestMetadata("renameIterator/iterator.test")
     public void testRenameIterator_Iterator() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameIterator/iterator.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameIterator/iterator.test");
     }
 
     @TestMetadata("renameJavaClass/renameJavaClass.test")
     public void testRenameJavaClass_RenameJavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaClass/renameJavaClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaClass/renameJavaClass.test");
     }
 
     @TestMetadata("renameJavaClassWithKtConstructorDelegation/renameJavaClassWithKtConstructorDelegation.test")
     public void testRenameJavaClassWithKtConstructorDelegation_RenameJavaClassWithKtConstructorDelegation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaClassWithKtConstructorDelegation/renameJavaClassWithKtConstructorDelegation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaClassWithKtConstructorDelegation/renameJavaClassWithKtConstructorDelegation.test");
     }
 
     @TestMetadata("renameJavaInterface/renameJavaInterface.test")
     public void testRenameJavaInterface_RenameJavaInterface() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaInterface/renameJavaInterface.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaInterface/renameJavaInterface.test");
     }
 
     @TestMetadata("renameJavaMethod/javaBaseMethod.test")
     public void testRenameJavaMethod_JavaBaseMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaMethod/javaBaseMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaMethod/javaBaseMethod.test");
     }
 
     @TestMetadata("renameJavaMethod/kotlinOverridenMethod.test")
     public void testRenameJavaMethod_KotlinOverridenMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaMethod/kotlinOverridenMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaMethod/kotlinOverridenMethod.test");
     }
 
     @TestMetadata("renameJavaMethodToKtKeyword/renameJavaMethodToKtKeyword.test")
     public void testRenameJavaMethodToKtKeyword_RenameJavaMethodToKtKeyword() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaMethodToKtKeyword/renameJavaMethodToKtKeyword.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaMethodToKtKeyword/renameJavaMethodToKtKeyword.test");
     }
 
     @TestMetadata("renameJavaSyntheticIsPropertyByGetterRef/renameJavaSyntheticIsPropertyByGetterRef.test")
     public void testRenameJavaSyntheticIsPropertyByGetterRef_RenameJavaSyntheticIsPropertyByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaSyntheticIsPropertyByGetterRef/renameJavaSyntheticIsPropertyByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaSyntheticIsPropertyByGetterRef/renameJavaSyntheticIsPropertyByGetterRef.test");
     }
 
     @TestMetadata("renameJavaSyntheticPropertyByGetterRef/renameJavaSyntheticPropertyByGetterRef.test")
     public void testRenameJavaSyntheticPropertyByGetterRef_RenameJavaSyntheticPropertyByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaSyntheticPropertyByGetterRef/renameJavaSyntheticPropertyByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaSyntheticPropertyByGetterRef/renameJavaSyntheticPropertyByGetterRef.test");
     }
 
     @TestMetadata("renameJavaSyntheticPropertyByGetterSetterRef/renameJavaSyntheticPropertyByGetterSetterRef.test")
     public void testRenameJavaSyntheticPropertyByGetterSetterRef_RenameJavaSyntheticPropertyByGetterSetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaSyntheticPropertyByGetterSetterRef/renameJavaSyntheticPropertyByGetterSetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaSyntheticPropertyByGetterSetterRef/renameJavaSyntheticPropertyByGetterSetterRef.test");
     }
 
     @TestMetadata("renameJavaSyntheticPropertyBySetterRef/renameJavaSyntheticPropertyBySetterRef.test")
     public void testRenameJavaSyntheticPropertyBySetterRef_RenameJavaSyntheticPropertyBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameJavaSyntheticPropertyBySetterRef/renameJavaSyntheticPropertyBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameJavaSyntheticPropertyBySetterRef/renameJavaSyntheticPropertyBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinBaseMethod/javaWrapperForBaseFunction.test")
     public void testRenameKotlinBaseMethod_JavaWrapperForBaseFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinBaseMethod/javaWrapperForBaseFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinBaseMethod/javaWrapperForBaseFunction.test");
     }
 
     @TestMetadata("renameKotlinBaseMethod/javaWrapperForOverridenFunctionWithKotlinBase.test")
     public void testRenameKotlinBaseMethod_JavaWrapperForOverridenFunctionWithKotlinBase() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinBaseMethod/javaWrapperForOverridenFunctionWithKotlinBase.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinBaseMethod/javaWrapperForOverridenFunctionWithKotlinBase.test");
     }
 
     @TestMetadata("renameKotlinBaseMethod/kotlinBaseFunction.test")
     public void testRenameKotlinBaseMethod_KotlinBaseFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinBaseMethod/kotlinBaseFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinBaseMethod/kotlinBaseFunction.test");
     }
 
     @TestMetadata("renameKotlinClass/javaWrapperForKotlinClass.test")
     public void testRenameKotlinClass_JavaWrapperForKotlinClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClass/javaWrapperForKotlinClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClass/javaWrapperForKotlinClass.test");
     }
 
     @TestMetadata("renameKotlinClass/kotlinClass.test")
     public void testRenameKotlinClass_KotlinClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClass/kotlinClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClass/kotlinClass.test");
     }
 
     @TestMetadata("renameKotlinClassByConstructorRef/kotlinClass.test")
     public void testRenameKotlinClassByConstructorRef_KotlinClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClassByConstructorRef/kotlinClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClassByConstructorRef/kotlinClass.test");
     }
 
     @TestMetadata("renameKotlinClassConstructor/renameKotlinConstructor.test")
     public void testRenameKotlinClassConstructor_RenameKotlinConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClassConstructor/renameKotlinConstructor.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClassConstructor/renameKotlinConstructor.test");
     }
 
     @TestMetadata("renameKotlinClassSecondaryConstructor/renameKotlinSecondaryConstructor.test")
     public void testRenameKotlinClassSecondaryConstructor_RenameKotlinSecondaryConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClassSecondaryConstructor/renameKotlinSecondaryConstructor.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClassSecondaryConstructor/renameKotlinSecondaryConstructor.test");
     }
 
     @TestMetadata("renameKotlinClassWithFile/javaClassWrapper.test")
     public void testRenameKotlinClassWithFile_JavaClassWrapper() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClassWithFile/javaClassWrapper.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClassWithFile/javaClassWrapper.test");
     }
 
     @TestMetadata("renameKotlinClassWithFile/kotlinClass.test")
     public void testRenameKotlinClassWithFile_KotlinClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinClassWithFile/kotlinClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinClassWithFile/kotlinClass.test");
     }
 
     @TestMetadata("renameKotlinDataClassParameter/renameKotlinDataClassParameter.test")
     public void testRenameKotlinDataClassParameter_RenameKotlinDataClassParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinDataClassParameter/renameKotlinDataClassParameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinDataClassParameter/renameKotlinDataClassParameter.test");
     }
 
     @TestMetadata("renameKotlinEnum/renameKotlinEnum.test")
     public void testRenameKotlinEnum_RenameKotlinEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinEnum/renameKotlinEnum.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinEnum/renameKotlinEnum.test");
     }
 
     @TestMetadata("renameKotlinEnumConstByJavaRef/renameKotlinEnumConstByJavaRef.test")
     public void testRenameKotlinEnumConstByJavaRef_RenameKotlinEnumConstByJavaRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinEnumConstByJavaRef/renameKotlinEnumConstByJavaRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinEnumConstByJavaRef/renameKotlinEnumConstByJavaRef.test");
     }
 
     @TestMetadata("renameKotlinEnumEntry/renameKotlinEnumEntry.test")
     public void testRenameKotlinEnumEntry_RenameKotlinEnumEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinEnumEntry/renameKotlinEnumEntry.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinEnumEntry/renameKotlinEnumEntry.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassViaTopLevelClass/renameKotlinFacadeClassViaTopLevelClass.test")
     public void testRenameKotlinFacadeClassViaTopLevelClass_RenameKotlinFacadeClassViaTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassViaTopLevelClass/renameKotlinFacadeClassViaTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassViaTopLevelClass/renameKotlinFacadeClassViaTopLevelClass.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassWithDefaultNameAndCommentsByRef/renameKotlinFacadeClassWithDefaultNameByRef.test")
     public void testRenameKotlinFacadeClassWithDefaultNameAndCommentsByRef_RenameKotlinFacadeClassWithDefaultNameByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameAndCommentsByRef/renameKotlinFacadeClassWithDefaultNameByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameAndCommentsByRef/renameKotlinFacadeClassWithDefaultNameByRef.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassWithDefaultNameAndJvmMultifileClassByRef/renameKotlinFacadeClassWithDefaultNameByRef.test")
     public void testRenameKotlinFacadeClassWithDefaultNameAndJvmMultifileClassByRef_RenameKotlinFacadeClassWithDefaultNameByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameAndJvmMultifileClassByRef/renameKotlinFacadeClassWithDefaultNameByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameAndJvmMultifileClassByRef/renameKotlinFacadeClassWithDefaultNameByRef.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassWithDefaultNameByRef/renameKotlinFacadeClassWithDefaultNameByRef.test")
     public void testRenameKotlinFacadeClassWithDefaultNameByRef_RenameKotlinFacadeClassWithDefaultNameByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameByRef/renameKotlinFacadeClassWithDefaultNameByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameByRef/renameKotlinFacadeClassWithDefaultNameByRef.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassWithDefaultNameViaFileNameByRef/renameKotlinFacadeClassWithDefaultNameByRef.test")
     public void testRenameKotlinFacadeClassWithDefaultNameViaFileNameByRef_RenameKotlinFacadeClassWithDefaultNameByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameViaFileNameByRef/renameKotlinFacadeClassWithDefaultNameByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassWithDefaultNameViaFileNameByRef/renameKotlinFacadeClassWithDefaultNameByRef.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassWithJvmNameByRef/renameKotlinFacadeClassWithJvmNameByRef.test")
     public void testRenameKotlinFacadeClassWithJvmNameByRef_RenameKotlinFacadeClassWithJvmNameByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassWithJvmNameByRef/renameKotlinFacadeClassWithJvmNameByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassWithJvmNameByRef/renameKotlinFacadeClassWithJvmNameByRef.test");
     }
 
     @TestMetadata("renameKotlinFacadeClassWithJvmNameToDefaultByRef/renameKotlinFacadeClassWithJvmNameByRef.test")
     public void testRenameKotlinFacadeClassWithJvmNameToDefaultByRef_RenameKotlinFacadeClassWithJvmNameByRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFacadeClassWithJvmNameToDefaultByRef/renameKotlinFacadeClassWithJvmNameByRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFacadeClassWithJvmNameToDefaultByRef/renameKotlinFacadeClassWithJvmNameByRef.test");
     }
 
     @TestMetadata("renameKotlinFile/renameFile.test")
     public void testRenameKotlinFile_RenameFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFile/renameFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFile/renameFile.test");
     }
 
     @TestMetadata("renameKotlinFunctionInEnum/renameKotlinFunctionInEnum.test")
     public void testRenameKotlinFunctionInEnum_RenameKotlinFunctionInEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFunctionInEnum/renameKotlinFunctionInEnum.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFunctionInEnum/renameKotlinFunctionInEnum.test");
     }
 
     @TestMetadata("renameKotlinFunctionInEnum/renameKotlinFunctionInEnumFromSubclass.test")
     public void testRenameKotlinFunctionInEnum_RenameKotlinFunctionInEnumFromSubclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFunctionInEnum/renameKotlinFunctionInEnumFromSubclass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFunctionInEnum/renameKotlinFunctionInEnumFromSubclass.test");
     }
 
     @TestMetadata("renameKotlinFunWithJvmName/renameKotlinFunWithJvmName.test")
     public void testRenameKotlinFunWithJvmName_RenameKotlinFunWithJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFunWithJvmName/renameKotlinFunWithJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFunWithJvmName/renameKotlinFunWithJvmName.test");
     }
 
     @TestMetadata("renameKotlinFunWithJvmNameByJavaRef/renameKotlinFunWithJvmNameByJavaRef.test")
     public void testRenameKotlinFunWithJvmNameByJavaRef_RenameKotlinFunWithJvmNameByJavaRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFunWithJvmNameByJavaRef/renameKotlinFunWithJvmNameByJavaRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFunWithJvmNameByJavaRef/renameKotlinFunWithJvmNameByJavaRef.test");
     }
 
     @TestMetadata("renameKotlinFunWithJvmNameToDefaultByJavaRef/renameKotlinFunWithJvmNameToDefaultByJavaRef.test")
     public void testRenameKotlinFunWithJvmNameToDefaultByJavaRef_RenameKotlinFunWithJvmNameToDefaultByJavaRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinFunWithJvmNameToDefaultByJavaRef/renameKotlinFunWithJvmNameToDefaultByJavaRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinFunWithJvmNameToDefaultByJavaRef/renameKotlinFunWithJvmNameToDefaultByJavaRef.test");
     }
 
     @TestMetadata("renameKotlinMethod/javaWrapperForKotlinMethod.test")
     public void testRenameKotlinMethod_JavaWrapperForKotlinMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinMethod/javaWrapperForKotlinMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinMethod/javaWrapperForKotlinMethod.test");
     }
 
     @TestMetadata("renameKotlinMethod/renameKotlinMethod.test")
     public void testRenameKotlinMethod_RenameKotlinMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinMethod/renameKotlinMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinMethod/renameKotlinMethod.test");
     }
 
     @TestMetadata("renameKotlinMethodWithEscapedName/renameKotlinMethodWithEscapedName.test")
     public void testRenameKotlinMethodWithEscapedName_RenameKotlinMethodWithEscapedName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinMethodWithEscapedName/renameKotlinMethodWithEscapedName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinMethodWithEscapedName/renameKotlinMethodWithEscapedName.test");
     }
 
     @TestMetadata("renameKotlinMultifileFacadeClassWithJvmNameByRef/renameKotlinMultifileFacadeClassWithJvmName.test")
     public void testRenameKotlinMultifileFacadeClassWithJvmNameByRef_RenameKotlinMultifileFacadeClassWithJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinMultifileFacadeClassWithJvmNameByRef/renameKotlinMultifileFacadeClassWithJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinMultifileFacadeClassWithJvmNameByRef/renameKotlinMultifileFacadeClassWithJvmName.test");
     }
 
     @TestMetadata("renameKotlinPackage/renameInOtherFile.test")
     public void testRenameKotlinPackage_RenameInOtherFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPackage/renameInOtherFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPackage/renameInOtherFile.test");
     }
 
     @TestMetadata("renameKotlinPackage/renameKotlinPackage.test")
     public void testRenameKotlinPackage_RenameKotlinPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPackage/renameKotlinPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPackage/renameKotlinPackage.test");
     }
 
     @TestMetadata("renameKotlinPackageFunctionFromJava/renameKotlinPackageFunctionFromJava.test")
     public void testRenameKotlinPackageFunctionFromJava_RenameKotlinPackageFunctionFromJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPackageFunctionFromJava/renameKotlinPackageFunctionFromJava.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPackageFunctionFromJava/renameKotlinPackageFunctionFromJava.test");
     }
 
     @TestMetadata("renameKotlinPackageFunctionFromJavaNewFacade/renameKotlinPackageFunctionFromJava.test")
     public void testRenameKotlinPackageFunctionFromJavaNewFacade_RenameKotlinPackageFunctionFromJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPackageFunctionFromJavaNewFacade/renameKotlinPackageFunctionFromJava.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPackageFunctionFromJavaNewFacade/renameKotlinPackageFunctionFromJava.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterJvmName/renameKotlinParameterWithGetterJvmName.test")
     public void testRenameKotlinParameterWithGetterJvmName_RenameKotlinParameterWithGetterJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmName/renameKotlinParameterWithGetterJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmName/renameKotlinParameterWithGetterJvmName.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterJvmNameByGetterRef/renameKotlinParameterWithGetterJvmNameByGetterRef.test")
     public void testRenameKotlinParameterWithGetterJvmNameByGetterRef_RenameKotlinParameterWithGetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmNameByGetterRef/renameKotlinParameterWithGetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmNameByGetterRef/renameKotlinParameterWithGetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterJvmNameBySetterRef/renameKotlinParameterWithGetterJvmNameBySetterRef.test")
     public void testRenameKotlinParameterWithGetterJvmNameBySetterRef_RenameKotlinParameterWithGetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmNameBySetterRef/renameKotlinParameterWithGetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmNameBySetterRef/renameKotlinParameterWithGetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterJvmNameToDefaultByGetterRef/renameKotlinParameterWithGetterJvmNameByGetterRef.test")
     public void testRenameKotlinParameterWithGetterJvmNameToDefaultByGetterRef_RenameKotlinParameterWithGetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmNameToDefaultByGetterRef/renameKotlinParameterWithGetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterJvmNameToDefaultByGetterRef/renameKotlinParameterWithGetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterSetterJvmName/renameKotlinParameterWithGetterSetterJvmName.test")
     public void testRenameKotlinParameterWithGetterSetterJvmName_RenameKotlinParameterWithGetterSetterJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmName/renameKotlinParameterWithGetterSetterJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmName/renameKotlinParameterWithGetterSetterJvmName.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterSetterJvmNameByGetterRef/renameKotlinParameterWithGetterSetterJvmNameByGetterRef.test")
     public void testRenameKotlinParameterWithGetterSetterJvmNameByGetterRef_RenameKotlinParameterWithGetterSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameByGetterRef/renameKotlinParameterWithGetterSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameByGetterRef/renameKotlinParameterWithGetterSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterSetterJvmNameBySetterRef/renameKotlinParameterWithGetterSetterJvmNameBySetterRef.test")
     public void testRenameKotlinParameterWithGetterSetterJvmNameBySetterRef_RenameKotlinParameterWithGetterSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameBySetterRef/renameKotlinParameterWithGetterSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameBySetterRef/renameKotlinParameterWithGetterSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterSetterJvmNameToDefaultByGetterRef/renameKotlinParameterWithGetterSetterJvmNameByGetterRef.test")
     public void testRenameKotlinParameterWithGetterSetterJvmNameToDefaultByGetterRef_RenameKotlinParameterWithGetterSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameToDefaultByGetterRef/renameKotlinParameterWithGetterSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameToDefaultByGetterRef/renameKotlinParameterWithGetterSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithGetterSetterJvmNameToDefaultBySetterRef/renameKotlinParameterWithGetterSetterJvmNameBySetterRef.test")
     public void testRenameKotlinParameterWithGetterSetterJvmNameToDefaultBySetterRef_RenameKotlinParameterWithGetterSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameToDefaultBySetterRef/renameKotlinParameterWithGetterSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithGetterSetterJvmNameToDefaultBySetterRef/renameKotlinParameterWithGetterSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithSetterJvmName/renameKotlinParameterWithSetterJvmName.test")
     public void testRenameKotlinParameterWithSetterJvmName_RenameKotlinParameterWithSetterJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmName/renameKotlinParameterWithSetterJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmName/renameKotlinParameterWithSetterJvmName.test");
     }
 
     @TestMetadata("renameKotlinParameterWithSetterJvmNameByGetterRef/renameKotlinParameterWithSetterJvmNameByGetterRef.test")
     public void testRenameKotlinParameterWithSetterJvmNameByGetterRef_RenameKotlinParameterWithSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmNameByGetterRef/renameKotlinParameterWithSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmNameByGetterRef/renameKotlinParameterWithSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithSetterJvmNameBySetterRef/renameKotlinParameterWithSetterJvmNameBySetterRef.test")
     public void testRenameKotlinParameterWithSetterJvmNameBySetterRef_RenameKotlinParameterWithSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmNameBySetterRef/renameKotlinParameterWithSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmNameBySetterRef/renameKotlinParameterWithSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinParameterWithSetterJvmNameToDefaultBySetterRef/renameKotlinParameterWithSetterJvmNameBySetterRef.test")
     public void testRenameKotlinParameterWithSetterJvmNameToDefaultBySetterRef_RenameKotlinParameterWithSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmNameToDefaultBySetterRef/renameKotlinParameterWithSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinParameterWithSetterJvmNameToDefaultBySetterRef/renameKotlinParameterWithSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPrimaryConstructorProperty/renameKotlinPrimaryConstructorProperty.test")
     public void testRenameKotlinPrimaryConstructorProperty_RenameKotlinPrimaryConstructorProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPrimaryConstructorProperty/renameKotlinPrimaryConstructorProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPrimaryConstructorProperty/renameKotlinPrimaryConstructorProperty.test");
     }
 
     @TestMetadata("renameKotlinPrimaryConstructorPropertyFromOverride/renameKotlinPrimaryConstructorPropertyFromOverride.test")
     public void testRenameKotlinPrimaryConstructorPropertyFromOverride_RenameKotlinPrimaryConstructorPropertyFromOverride() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPrimaryConstructorPropertyFromOverride/renameKotlinPrimaryConstructorPropertyFromOverride.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPrimaryConstructorPropertyFromOverride/renameKotlinPrimaryConstructorPropertyFromOverride.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef_RenameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithCustomGetterSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef_RenameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithCustomGetterSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterJvmName/renameKotlinPropertyWithGetterJvmName.test")
     public void testRenameKotlinPropertyWithGetterJvmName_RenameKotlinPropertyWithGetterJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmName/renameKotlinPropertyWithGetterJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmName/renameKotlinPropertyWithGetterJvmName.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterJvmNameByGetterRef/renameKotlinPropertyWithGetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithGetterJvmNameByGetterRef_RenameKotlinPropertyWithGetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmNameByGetterRef/renameKotlinPropertyWithGetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmNameByGetterRef/renameKotlinPropertyWithGetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterJvmNameBySetterRef/renameKotlinPropertyWithGetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithGetterJvmNameBySetterRef_RenameKotlinPropertyWithGetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmNameBySetterRef/renameKotlinPropertyWithGetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmNameBySetterRef/renameKotlinPropertyWithGetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterJvmNameToDefaultByGetterRef/renameKotlinPropertyWithGetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithGetterJvmNameToDefaultByGetterRef_RenameKotlinPropertyWithGetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmNameToDefaultByGetterRef/renameKotlinPropertyWithGetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterJvmNameToDefaultByGetterRef/renameKotlinPropertyWithGetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterSetterJvmName/renameKotlinPropertyWithGetterSetterJvmName.test")
     public void testRenameKotlinPropertyWithGetterSetterJvmName_RenameKotlinPropertyWithGetterSetterJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmName/renameKotlinPropertyWithGetterSetterJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmName/renameKotlinPropertyWithGetterSetterJvmName.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithGetterSetterJvmNameByGetterRef_RenameKotlinPropertyWithGetterSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithGetterSetterJvmNameBySetterRef_RenameKotlinPropertyWithGetterSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterSetterJvmNameToDefaultByGetterRef/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithGetterSetterJvmNameToDefaultByGetterRef_RenameKotlinPropertyWithGetterSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameToDefaultByGetterRef/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameToDefaultByGetterRef/renameKotlinPropertyWithGetterSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithGetterSetterJvmNameToDefaultBySetterRef/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithGetterSetterJvmNameToDefaultBySetterRef_RenameKotlinPropertyWithGetterSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameToDefaultBySetterRef/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithGetterSetterJvmNameToDefaultBySetterRef/renameKotlinPropertyWithGetterSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithJvmField/renameKotlinPropertyWithJvmField.test")
     public void testRenameKotlinPropertyWithJvmField_RenameKotlinPropertyWithJvmField() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithJvmField/renameKotlinPropertyWithJvmField.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithJvmField/renameKotlinPropertyWithJvmField.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef_RenameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef/renameKotlinPropertyWithMatchingGetterSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef_RenameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef/renameKotlinPropertyWithMatchingGetterSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithSetterJvmName/renameKotlinPropertyWithSetterJvmName.test")
     public void testRenameKotlinPropertyWithSetterJvmName_RenameKotlinPropertyWithSetterJvmName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmName/renameKotlinPropertyWithSetterJvmName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmName/renameKotlinPropertyWithSetterJvmName.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithSetterJvmNameByGetterRef/renameKotlinPropertyWithSetterJvmNameByGetterRef.test")
     public void testRenameKotlinPropertyWithSetterJvmNameByGetterRef_RenameKotlinPropertyWithSetterJvmNameByGetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmNameByGetterRef/renameKotlinPropertyWithSetterJvmNameByGetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmNameByGetterRef/renameKotlinPropertyWithSetterJvmNameByGetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithSetterJvmNameBySetterRef/renameKotlinPropertyWithSetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithSetterJvmNameBySetterRef_RenameKotlinPropertyWithSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmNameBySetterRef/renameKotlinPropertyWithSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmNameBySetterRef/renameKotlinPropertyWithSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinPropertyWithSetterJvmNameToDefaultBySetterRef/renameKotlinPropertyWithSetterJvmNameBySetterRef.test")
     public void testRenameKotlinPropertyWithSetterJvmNameToDefaultBySetterRef_RenameKotlinPropertyWithSetterJvmNameBySetterRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmNameToDefaultBySetterRef/renameKotlinPropertyWithSetterJvmNameBySetterRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinPropertyWithSetterJvmNameToDefaultBySetterRef/renameKotlinPropertyWithSetterJvmNameBySetterRef.test");
     }
 
     @TestMetadata("renameKotlinStaticMethod/renameKotlinStaticMethod.test")
     public void testRenameKotlinStaticMethod_RenameKotlinStaticMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinStaticMethod/renameKotlinStaticMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinStaticMethod/renameKotlinStaticMethod.test");
     }
 
     @TestMetadata("renameKotlinStaticMethodWithJvmOverloads/renameKotlinStaticMethodWithJvmOverloads.test")
     public void testRenameKotlinStaticMethodWithJvmOverloads_RenameKotlinStaticMethodWithJvmOverloads() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinStaticMethodWithJvmOverloads/renameKotlinStaticMethodWithJvmOverloads.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinStaticMethodWithJvmOverloads/renameKotlinStaticMethodWithJvmOverloads.test");
     }
 
     @TestMetadata("renameKotlinStaticProperty/renameKotlinStaticProperty.test")
     public void testRenameKotlinStaticProperty_RenameKotlinStaticProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinStaticProperty/renameKotlinStaticProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinStaticProperty/renameKotlinStaticProperty.test");
     }
 
     @TestMetadata("renameKotlinTopLevelVarProperty/renameTopLevelVarProperty.test")
     public void testRenameKotlinTopLevelVarProperty_RenameTopLevelVarProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinTopLevelVarProperty/renameTopLevelVarProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinTopLevelVarProperty/renameTopLevelVarProperty.test");
     }
 
     @TestMetadata("renameKotlinValProperty/renameAsJavaGetterForExplicitGetter.test")
     public void testRenameKotlinValProperty_RenameAsJavaGetterForExplicitGetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinValProperty/renameAsJavaGetterForExplicitGetter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinValProperty/renameAsJavaGetterForExplicitGetter.test");
     }
 
     @TestMetadata("renameKotlinValProperty/renameBase.test")
     public void testRenameKotlinValProperty_RenameBase() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinValProperty/renameBase.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinValProperty/renameBase.test");
     }
 
     @TestMetadata("renameKotlinValProperty/renameOverriden.test")
     public void testRenameKotlinValProperty_RenameOverriden() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinValProperty/renameOverriden.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinValProperty/renameOverriden.test");
     }
 
     @TestMetadata("renameKotlinValPropertyInCompanionObject/renameKotlinValPropertyInCompanionObject.test")
     public void testRenameKotlinValPropertyInCompanionObject_RenameKotlinValPropertyInCompanionObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinValPropertyInCompanionObject/renameKotlinValPropertyInCompanionObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinValPropertyInCompanionObject/renameKotlinValPropertyInCompanionObject.test");
     }
 
     @TestMetadata("renameKotlinValPropertyInObject/renameKotlinValPropertyInObject.test")
     public void testRenameKotlinValPropertyInObject_RenameKotlinValPropertyInObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinValPropertyInObject/renameKotlinValPropertyInObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinValPropertyInObject/renameKotlinValPropertyInObject.test");
     }
 
     @TestMetadata("renameKotlinVarProperty/renameAsJavaGetter.test")
     public void testRenameKotlinVarProperty_RenameAsJavaGetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinVarProperty/renameAsJavaGetter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinVarProperty/renameAsJavaGetter.test");
     }
 
     @TestMetadata("renameKotlinVarProperty/renameAsJavaSetter.test")
     public void testRenameKotlinVarProperty_RenameAsJavaSetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinVarProperty/renameAsJavaSetter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinVarProperty/renameAsJavaSetter.test");
     }
 
     @TestMetadata("renameKotlinVarProperty/renameBase.test")
     public void testRenameKotlinVarProperty_RenameBase() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinVarProperty/renameBase.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinVarProperty/renameBase.test");
     }
 
     @TestMetadata("renameKotlinVarProperty/renameOverriden.test")
     public void testRenameKotlinVarProperty_RenameOverriden() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameKotlinVarProperty/renameOverriden.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameKotlinVarProperty/renameOverriden.test");
     }
 
     @TestMetadata("renameOverriddenPropertyViaJavaGetter/renameOverriddenPropertyViaJavaGetter.test")
     public void testRenameOverriddenPropertyViaJavaGetter_RenameOverriddenPropertyViaJavaGetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameOverriddenPropertyViaJavaGetter/renameOverriddenPropertyViaJavaGetter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameOverriddenPropertyViaJavaGetter/renameOverriddenPropertyViaJavaGetter.test");
     }
 
     @TestMetadata("renameOverriddenPropertyViaJavaSetter/renameOverriddenPropertyViaJavaSetter.test")
     public void testRenameOverriddenPropertyViaJavaSetter_RenameOverriddenPropertyViaJavaSetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameOverriddenPropertyViaJavaSetter/renameOverriddenPropertyViaJavaSetter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameOverriddenPropertyViaJavaSetter/renameOverriddenPropertyViaJavaSetter.test");
     }
 
     @TestMetadata("renamePackageFqNameStarImport/renamePackageFqNameStarImport.test")
     public void testRenamePackageFqNameStarImport_RenamePackageFqNameStarImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamePackageFqNameStarImport/renamePackageFqNameStarImport.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamePackageFqNameStarImport/renamePackageFqNameStarImport.test");
     }
 
     @TestMetadata("renamePackageWithQuotation/renamePackageWithQuotation.test")
     public void testRenamePackageWithQuotation_RenamePackageWithQuotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamePackageWithQuotation/renamePackageWithQuotation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamePackageWithQuotation/renamePackageWithQuotation.test");
     }
 
     @TestMetadata("renamePlus/plus.test")
     public void testRenamePlus_Plus() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamePlus/plus.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamePlus/plus.test");
     }
 
     @TestMetadata("renamePlusAssign/plusAssign.test")
     public void testRenamePlusAssign_PlusAssign() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamePlusAssign/plusAssign.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamePlusAssign/plusAssign.test");
     }
 
     @TestMetadata("renamePropertyInEnumCompanionWithEntryConflict/renameKotlinPropertyInEnumCompanionWithEntryConflict.test")
     public void testRenamePropertyInEnumCompanionWithEntryConflict_RenameKotlinPropertyInEnumCompanionWithEntryConflict() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renamePropertyInEnumCompanionWithEntryConflict/renameKotlinPropertyInEnumCompanionWithEntryConflict.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renamePropertyInEnumCompanionWithEntryConflict/renameKotlinPropertyInEnumCompanionWithEntryConflict.test");
     }
 
     @TestMetadata("renameSet/set.test")
     public void testRenameSet_Set() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameSet/set.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameSet/set.test");
     }
 
     @TestMetadata("renameSynthesizedComponentFunction/synthesizedComponentFunction.test")
     public void testRenameSynthesizedComponentFunction_SynthesizedComponentFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameSynthesizedComponentFunction/synthesizedComponentFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameSynthesizedComponentFunction/synthesizedComponentFunction.test");
     }
 
     @TestMetadata("renameUnaryMinus/unaryMinus.test")
     public void testRenameUnaryMinus_UnaryMinus() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/renameUnaryMinus/unaryMinus.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/renameUnaryMinus/unaryMinus.test");
     }
 
     @TestMetadata("samConstructorTypeAlias/samConstructorTypeAlias.test")
     public void testSamConstructorTypeAlias_SamConstructorTypeAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/samConstructorTypeAlias/samConstructorTypeAlias.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/samConstructorTypeAlias/samConstructorTypeAlias.test");
     }
 
     @TestMetadata("secondaryCnstructorParameterRedeclaration/secondaryConstructorParameterRedeclaration.test")
     public void testSecondaryCnstructorParameterRedeclaration_SecondaryConstructorParameterRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/secondaryCnstructorParameterRedeclaration/secondaryConstructorParameterRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/secondaryCnstructorParameterRedeclaration/secondaryConstructorParameterRedeclaration.test");
     }
 
     @TestMetadata("syntheticPropertyUsages1/renameGetMethod.test")
     public void testSyntheticPropertyUsages1_RenameGetMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/syntheticPropertyUsages1/renameGetMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/syntheticPropertyUsages1/renameGetMethod.test");
     }
 
     @TestMetadata("syntheticPropertyUsages2/renameSetMethod.test")
     public void testSyntheticPropertyUsages2_RenameSetMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/syntheticPropertyUsages2/renameSetMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/syntheticPropertyUsages2/renameSetMethod.test");
     }
 
     @TestMetadata("syntheticPropertyUsages3/renameSetMethod.test")
     public void testSyntheticPropertyUsages3_RenameSetMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/syntheticPropertyUsages3/renameSetMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/syntheticPropertyUsages3/renameSetMethod.test");
     }
 
     @TestMetadata("topLevelClassRedeclaration/topLevelClassRedeclaration.test")
     public void testTopLevelClassRedeclaration_TopLevelClassRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/topLevelClassRedeclaration/topLevelClassRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/topLevelClassRedeclaration/topLevelClassRedeclaration.test");
     }
 
     @TestMetadata("topLevelFunctionRedeclaration/topLevelFunctionRedeclaration.test")
     public void testTopLevelFunctionRedeclaration_TopLevelFunctionRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/topLevelFunctionRedeclaration/topLevelFunctionRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/topLevelFunctionRedeclaration/topLevelFunctionRedeclaration.test");
     }
 
     @TestMetadata("topLevelPropertyRedeclaration/topLevelPropertyRedeclaration.test")
     public void testTopLevelPropertyRedeclaration_TopLevelPropertyRedeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/topLevelPropertyRedeclaration/topLevelPropertyRedeclaration.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/topLevelPropertyRedeclaration/topLevelPropertyRedeclaration.test");
     }
 
     @TestMetadata("valTextOccurrences/valTextOccurrences.test")
     public void testValTextOccurrences_ValTextOccurrences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/valTextOccurrences/valTextOccurrences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/valTextOccurrences/valTextOccurrences.test");
     }
 
     @TestMetadata("varInDoWhile/varInDoWhile.test")
     public void testVarInDoWhile_VarInDoWhile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/rename/varInDoWhile/varInDoWhile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/rename/varInDoWhile/varInDoWhile.test");
     }
 }

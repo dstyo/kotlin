@@ -35,187 +35,187 @@ public class MultiLineStringIndentTestGenerated extends AbstractMultiLineStringI
 
         @TestMetadata("dontAddMarginCharWhenMultilineWithoutMargins.kt")
         public void testDontAddMarginCharWhenMultilineWithoutMargins() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontAddMarginCharWhenMultilineWithoutMargins.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontAddMarginCharWhenMultilineWithoutMargins.kt");
         }
 
         @TestMetadata("dontAddMarginWhenItIsUnused.kt")
         public void testDontAddMarginWhenItIsUnused() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontAddMarginWhenItIsUnused.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontAddMarginWhenItIsUnused.kt");
         }
 
         @TestMetadata("dontAddMarginWhenItIsUnusedWithEmptyPrevious.kt")
         public void testDontAddMarginWhenItIsUnusedWithEmptyPrevious() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontAddMarginWhenItIsUnusedWithEmptyPrevious.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontAddMarginWhenItIsUnusedWithEmptyPrevious.kt");
         }
 
         @TestMetadata("dontAddTrimCallWhenAlreadyMultiline.kt")
         public void testDontAddTrimCallWhenAlreadyMultiline() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontAddTrimCallWhenAlreadyMultiline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontAddTrimCallWhenAlreadyMultiline.kt");
         }
 
         @TestMetadata("dontAddTrimCallWhenAlreadyMultilineFirstLine.kt")
         public void testDontAddTrimCallWhenAlreadyMultilineFirstLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontAddTrimCallWhenAlreadyMultilineFirstLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontAddTrimCallWhenAlreadyMultilineFirstLine.kt");
         }
 
         @TestMetadata("dontInsertTrimMargin1.kt")
         public void testDontInsertTrimMargin1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin1.kt");
         }
 
         @TestMetadata("dontInsertTrimMargin2.kt")
         public void testDontInsertTrimMargin2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin2.kt");
         }
 
         @TestMetadata("dontInsertTrimMargin3.kt")
         public void testDontInsertTrimMargin3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin3.kt");
         }
 
         @TestMetadata("dontInsertTrimMargin4.kt")
         public void testDontInsertTrimMargin4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/dontInsertTrimMargin4.kt");
         }
 
         @TestMetadata("enterAfterOpenningBrace.kt")
         public void testEnterAfterOpenningBrace() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterAfterOpenningBrace.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterAfterOpenningBrace.kt");
         }
 
         @TestMetadata("enterBeforeLongEntryOneLine.kt")
         public void testEnterBeforeLongEntryOneLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterBeforeLongEntryOneLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterBeforeLongEntryOneLine.kt");
         }
 
         @TestMetadata("enterBeforeMarginChar.kt")
         public void testEnterBeforeMarginChar() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterBeforeMarginChar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterBeforeMarginChar.kt");
         }
 
         @TestMetadata("enterBeforeShortEntryOneLine.kt")
         public void testEnterBeforeShortEntryOneLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterBeforeShortEntryOneLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterBeforeShortEntryOneLine.kt");
         }
 
         @TestMetadata("enterInInfixMargin.kt")
         public void testEnterInInfixMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInInfixMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInInfixMargin.kt");
         }
 
         @TestMetadata("enterInInjectedFragment.kt")
         public void testEnterInInjectedFragment() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInInjectedFragment.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInInjectedFragment.kt");
         }
 
         @TestMetadata("enterInLineWithMarginOnNotMargedLine.kt")
         public void testEnterInLineWithMarginOnNotMargedLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInLineWithMarginOnNotMargedLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInLineWithMarginOnNotMargedLine.kt");
         }
 
         @TestMetadata("enterInMethodCallMargin.kt")
         public void testEnterInMethodCallMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInMethodCallMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInMethodCallMargin.kt");
         }
 
         @TestMetadata("enterInOneLineAfterSpaces.kt")
         public void testEnterInOneLineAfterSpaces() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInOneLineAfterSpaces.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInOneLineAfterSpaces.kt");
         }
 
         @TestMetadata("enterInTwoLinesNoMarginCall.kt")
         public void testEnterInTwoLinesNoMarginCall() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInTwoLinesNoMarginCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInTwoLinesNoMarginCall.kt");
         }
 
         @TestMetadata("enterInsideBraces.kt")
         public void testEnterInsideBraces() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInsideBraces.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInsideBraces.kt");
         }
 
         @TestMetadata("enterInsideBraces1.kt")
         public void testEnterInsideBraces1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInsideBraces1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInsideBraces1.kt");
         }
 
         @TestMetadata("enterInsideBraces2.kt")
         public void testEnterInsideBraces2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInsideBraces2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInsideBraces2.kt");
         }
 
         @TestMetadata("enterInsideTextMargin.kt")
         public void testEnterInsideTextMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterInsideTextMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterInsideTextMargin.kt");
         }
 
         @TestMetadata("enterMLSimpleMargin.kt")
         public void testEnterMLSimpleMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterMLSimpleMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterMLSimpleMargin.kt");
         }
 
         @TestMetadata("enterMLStartOnSameLineMargin.kt")
         public void testEnterMLStartOnSameLineMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterMLStartOnSameLineMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterMLStartOnSameLineMargin.kt");
         }
 
         @TestMetadata("enterOnFirstLineWithPresentTrimMargin.kt")
         public void testEnterOnFirstLineWithPresentTrimMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterOnFirstLineWithPresentTrimMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterOnFirstLineWithPresentTrimMargin.kt");
         }
 
         @TestMetadata("enterOnFirstLineWithPresentTrimMarginAndLine.kt")
         public void testEnterOnFirstLineWithPresentTrimMarginAndLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterOnFirstLineWithPresentTrimMarginAndLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterOnFirstLineWithPresentTrimMarginAndLine.kt");
         }
 
         @TestMetadata("enterOnFirstNonEmptyLineWithPresentTrimMargin.kt")
         public void testEnterOnFirstNonEmptyLineWithPresentTrimMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterOnFirstNonEmptyLineWithPresentTrimMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterOnFirstNonEmptyLineWithPresentTrimMargin.kt");
         }
 
         @TestMetadata("enterOnNewLine.kt")
         public void testEnterOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterOnNewLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterOnNewLine.kt");
         }
 
         @TestMetadata("enterSimple.kt")
         public void testEnterSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterSimple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterSimple.kt");
         }
 
         @TestMetadata("enterWithTextMargin.kt")
         public void testEnterWithTextMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterWithTextMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterWithTextMargin.kt");
         }
 
         @TestMetadata("enterWithTextOnNewLineMargin.kt")
         public void testEnterWithTextOnNewLineMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/enterWithTextOnNewLineMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/enterWithTextOnNewLineMargin.kt");
         }
 
         @TestMetadata("insertCustomMargin.kt")
         public void testInsertCustomMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/insertCustomMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/insertCustomMargin.kt");
         }
 
         @TestMetadata("insertCustomMarginInLineStart.kt")
         public void testInsertCustomMarginInLineStart() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/insertCustomMarginInLineStart.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/insertCustomMarginInLineStart.kt");
         }
 
         @TestMetadata("insertDefaultMargin.kt")
         public void testInsertDefaultMargin() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/insertDefaultMargin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/insertDefaultMargin.kt");
         }
 
         @TestMetadata("noTrimIndentInAnnotations.kt")
         public void testNoTrimIndentInAnnotations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/noTrimIndentInAnnotations.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/noTrimIndentInAnnotations.kt");
         }
 
         @TestMetadata("restoreIndentFromEmptyLine.kt")
         public void testRestoreIndentFromEmptyLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/spaces/restoreIndentFromEmptyLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/spaces/restoreIndentFromEmptyLine.kt");
         }
     }
 
@@ -237,57 +237,57 @@ public class MultiLineStringIndentTestGenerated extends AbstractMultiLineStringI
 
             @TestMetadata("dontInsertTrimMarginCall.kt")
             public void testDontInsertTrimMarginCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/dontInsertTrimMarginCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/dontInsertTrimMarginCall.kt");
             }
 
             @TestMetadata("enterInMethodCallMargin.kt")
             public void testEnterInMethodCallMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInMethodCallMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInMethodCallMargin.kt");
             }
 
             @TestMetadata("enterInTwoLinesNoMarginCall.kt")
             public void testEnterInTwoLinesNoMarginCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInTwoLinesNoMarginCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInTwoLinesNoMarginCall.kt");
             }
 
             @TestMetadata("enterInsideBraces.kt")
             public void testEnterInsideBraces() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInsideBraces.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInsideBraces.kt");
             }
 
             @TestMetadata("enterInsideText.kt")
             public void testEnterInsideText() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInsideText.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterInsideText.kt");
             }
 
             @TestMetadata("enterMLSimpleMargin.kt")
             public void testEnterMLSimpleMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterMLSimpleMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterMLSimpleMargin.kt");
             }
 
             @TestMetadata("enterMLStartOnSameLineMargin.kt")
             public void testEnterMLStartOnSameLineMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterMLStartOnSameLineMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterMLStartOnSameLineMargin.kt");
             }
 
             @TestMetadata("enterOnNewLineMargin.kt")
             public void testEnterOnNewLineMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterOnNewLineMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterOnNewLineMargin.kt");
             }
 
             @TestMetadata("enterSimpleMargin.kt")
             public void testEnterSimpleMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterSimpleMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterSimpleMargin.kt");
             }
 
             @TestMetadata("enterWithTextMargin.kt")
             public void testEnterWithTextMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterWithTextMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterWithTextMargin.kt");
             }
 
             @TestMetadata("enterWithTextOnNewLineMargin.kt")
             public void testEnterWithTextOnNewLineMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterWithTextOnNewLineMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs2/enterWithTextOnNewLineMargin.kt");
             }
         }
 
@@ -301,57 +301,57 @@ public class MultiLineStringIndentTestGenerated extends AbstractMultiLineStringI
 
             @TestMetadata("dontInsertTrimMarginCall.kt")
             public void testDontInsertTrimMarginCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/dontInsertTrimMarginCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/dontInsertTrimMarginCall.kt");
             }
 
             @TestMetadata("enterInMethodCallMargin.kt")
             public void testEnterInMethodCallMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterInMethodCallMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterInMethodCallMargin.kt");
             }
 
             @TestMetadata("enterInsideBraces.kt")
             public void testEnterInsideBraces() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterInsideBraces.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterInsideBraces.kt");
             }
 
             @TestMetadata("enterInsideText.kt")
             public void testEnterInsideText() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterInsideText.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterInsideText.kt");
             }
 
             @TestMetadata("enterMLSimpleMargin.kt")
             public void testEnterMLSimpleMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterMLSimpleMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterMLSimpleMargin.kt");
             }
 
             @TestMetadata("enterMLStartOnSameLineMargin.kt")
             public void testEnterMLStartOnSameLineMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterMLStartOnSameLineMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterMLStartOnSameLineMargin.kt");
             }
 
             @TestMetadata("enterOnNewLineMargin.kt")
             public void testEnterOnNewLineMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterOnNewLineMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterOnNewLineMargin.kt");
             }
 
             @TestMetadata("enterSimpleMargin.kt")
             public void testEnterSimpleMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterSimpleMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterSimpleMargin.kt");
             }
 
             @TestMetadata("enterWithTabsAfterMarginChar.kt")
             public void testEnterWithTabsAfterMarginChar() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterWithTabsAfterMarginChar.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterWithTabsAfterMarginChar.kt");
             }
 
             @TestMetadata("enterWithTextMargin.kt")
             public void testEnterWithTextMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterWithTextMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterWithTextMargin.kt");
             }
 
             @TestMetadata("enterWithTextOnNewLineMargin.kt")
             public void testEnterWithTextOnNewLineMargin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterWithTextOnNewLineMargin.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/enterHandler/multilineString/withTabs/tabs4/enterWithTextOnNewLineMargin.kt");
             }
         }
     }

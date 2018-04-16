@@ -27,51 +27,51 @@ public class CompletionIncrementalResolveTestGenerated extends AbstractCompletio
 
     @TestMetadata("codeAboveChanged.kt")
     public void testCodeAboveChanged() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/codeAboveChanged.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/codeAboveChanged.kt");
     }
 
     @TestMetadata("codeAboveChanged2.kt")
     public void testCodeAboveChanged2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/codeAboveChanged2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/codeAboveChanged2.kt");
     }
 
     @TestMetadata("dataFlowInfoFromPrevStatement.kt")
     public void testDataFlowInfoFromPrevStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromPrevStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromPrevStatement.kt");
     }
 
     @TestMetadata("dataFlowInfoFromSameStatement.kt")
     public void testDataFlowInfoFromSameStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromSameStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromSameStatement.kt");
     }
 
     @TestMetadata("doNotAnalyzeComplexStatement.kt")
     public void testDoNotAnalyzeComplexStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/doNotAnalyzeComplexStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/doNotAnalyzeComplexStatement.kt");
     }
 
     @TestMetadata("noDataFlowFromOldStatement.kt")
     public void testNoDataFlowFromOldStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/noDataFlowFromOldStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/noDataFlowFromOldStatement.kt");
     }
 
     @TestMetadata("noPrevStatement.kt")
     public void testNoPrevStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/noPrevStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/noPrevStatement.kt");
     }
 
     @TestMetadata("outOfBlockModification.kt")
     public void testOutOfBlockModification() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/outOfBlockModification.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/outOfBlockModification.kt");
     }
 
     @TestMetadata("prevStatementNotResolved.kt")
     public void testPrevStatementNotResolved() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/prevStatementNotResolved.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/prevStatementNotResolved.kt");
     }
 
     @TestMetadata("sameStatement.kt")
     public void testSameStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/sameStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/incrementalResolve/sameStatement.kt");
     }
 }

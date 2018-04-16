@@ -27,6 +27,6 @@ public class SamWithReceiverScriptTestGenerated extends AbstractSamWithReceiverS
 
     @TestMetadata("samConversionSimple.kts")
     public void testSamConversionSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/script/samConversionSimple.kts", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/sam-with-receiver/sam-with-receiver-cli/testData/script/samConversionSimple.kts");
     }
 }

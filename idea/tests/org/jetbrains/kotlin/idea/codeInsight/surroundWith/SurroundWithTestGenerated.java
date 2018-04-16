@@ -29,37 +29,37 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("block.kt")
         public void testBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/block.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/block.kt");
         }
 
         @TestMetadata("emptyLine.kt")
         public void testEmptyLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/emptyLine.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/emptyLine.kt");
         }
 
         @TestMetadata("severalStatements.kt")
         public void testSeveralStatements() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/severalStatements.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/severalStatements.kt");
         }
 
         @TestMetadata("singleStatement.kt")
         public void testSingleStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/singleStatement.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/singleStatement.kt");
         }
 
         @TestMetadata("singleStatementAtCaret.kt")
         public void testSingleStatementAtCaret() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/singleStatementAtCaret.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/singleStatementAtCaret.kt");
         }
 
         @TestMetadata("usedAsExpression.kt")
         public void testUsedAsExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/usedAsExpression.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/usedAsExpression.kt");
         }
 
         @TestMetadata("variable.kt")
         public void testVariable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/variable.kt", this::doTestWithIfSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/variable.kt");
         }
 
         @TestMetadata("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut")
@@ -80,12 +80,12 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                 @TestMetadata("classInType.kt")
                 public void testClassInType() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/class/classInType.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/class/classInType.kt");
                 }
 
                 @TestMetadata("localClass.kt")
                 public void testLocalClass() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/class/localClass.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/class/localClass.kt");
                 }
             }
 
@@ -99,17 +99,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                 @TestMetadata("firstChildLocalFun.kt")
                 public void testFirstChildLocalFun() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/function/firstChildLocalFun.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/function/firstChildLocalFun.kt");
                 }
 
                 @TestMetadata("localFun.kt")
                 public void testLocalFun() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/function/localFun.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/function/localFun.kt");
                 }
 
                 @TestMetadata("unusedLocalFun.kt")
                 public void testUnusedLocalFun() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/function/unusedLocalFun.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/function/unusedLocalFun.kt");
                 }
             }
 
@@ -123,7 +123,7 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                 @TestMetadata("localObject.kt")
                 public void testLocalObject() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/object/localObject.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/object/localObject.kt");
                 }
             }
 
@@ -137,17 +137,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                 @TestMetadata("twoClasses.kt")
                 public void testTwoClasses() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/order/twoClasses.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/order/twoClasses.kt");
                 }
 
                 @TestMetadata("valAndClass.kt")
                 public void testValAndClass() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/order/valAndClass.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/order/valAndClass.kt");
                 }
 
                 @TestMetadata("valOrder.kt")
                 public void testValOrder() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/order/valOrder.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/order/valOrder.kt");
                 }
             }
 
@@ -161,27 +161,27 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                 @TestMetadata("fullQualifiedType.kt")
                 public void testFullQualifiedType() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/fullQualifiedType.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/fullQualifiedType.kt");
                 }
 
                 @TestMetadata("fullQualifiedTypeWithoutTypeRef.kt")
                 public void testFullQualifiedTypeWithoutTypeRef() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/fullQualifiedTypeWithoutTypeRef.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/fullQualifiedTypeWithoutTypeRef.kt");
                 }
 
                 @TestMetadata("valWithTypeWithInitializer.kt")
                 public void testValWithTypeWithInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/valWithTypeWithInitializer.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/valWithTypeWithInitializer.kt");
                 }
 
                 @TestMetadata("valWithTypeWoInitializer.kt")
                 public void testValWithTypeWoInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/valWithTypeWoInitializer.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/valWithTypeWoInitializer.kt");
                 }
 
                 @TestMetadata("valWoTypeWithInitializer.kt")
                 public void testValWoTypeWithInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/valWoTypeWithInitializer.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/val/valWoTypeWithInitializer.kt");
                 }
             }
 
@@ -195,17 +195,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                 @TestMetadata("varWithNotNullableTypeWithInitializer.kt")
                 public void testVarWithNotNullableTypeWithInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/varWithNotNullableTypeWithInitializer.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/varWithNotNullableTypeWithInitializer.kt");
                 }
 
                 @TestMetadata("varWithTypeWoInitializer.kt")
                 public void testVarWithTypeWoInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/varWithTypeWoInitializer.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/varWithTypeWoInitializer.kt");
                 }
 
                 @TestMetadata("varWoTypeWithInitializer.kt")
                 public void testVarWoTypeWithInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/varWoTypeWithInitializer.kt", this::doTestWithIfSurrounder);
+                    KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/varWoTypeWithInitializer.kt");
                 }
 
                 @TestMetadata("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue")
@@ -218,17 +218,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
                     @TestMetadata("boolean.kt")
                     public void testBoolean() throws Exception {
-                        KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue/boolean.kt", this::doTestWithIfSurrounder);
+                        KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue/boolean.kt");
                     }
 
                     @TestMetadata("nullable.kt")
                     public void testNullable() throws Exception {
-                        KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue/nullable.kt", this::doTestWithIfSurrounder);
+                        KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue/nullable.kt");
                     }
 
                     @TestMetadata("primitiveNumbers.kt")
                     public void testPrimitiveNumbers() throws Exception {
-                        KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue/primitiveNumbers.kt", this::doTestWithIfSurrounder);
+                        KotlinTestUtils.runTest(this::doTestWithIfSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/if/moveDeclarationsOut/var/defaultValue/primitiveNumbers.kt");
                     }
                 }
             }
@@ -245,42 +245,42 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("block.kt")
         public void testBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/block.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/block.kt");
         }
 
         @TestMetadata("moveDeclarationsOutVal.kt")
         public void testMoveDeclarationsOutVal() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/moveDeclarationsOutVal.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/moveDeclarationsOutVal.kt");
         }
 
         @TestMetadata("moveDeclarationsOutVar.kt")
         public void testMoveDeclarationsOutVar() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/moveDeclarationsOutVar.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/moveDeclarationsOutVar.kt");
         }
 
         @TestMetadata("severalStatements.kt")
         public void testSeveralStatements() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/severalStatements.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/severalStatements.kt");
         }
 
         @TestMetadata("singleStatement.kt")
         public void testSingleStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/singleStatement.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/singleStatement.kt");
         }
 
         @TestMetadata("singleStatementAtCaret.kt")
         public void testSingleStatementAtCaret() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/singleStatementAtCaret.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/singleStatementAtCaret.kt");
         }
 
         @TestMetadata("usedAsExpression.kt")
         public void testUsedAsExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/usedAsExpression.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/usedAsExpression.kt");
         }
 
         @TestMetadata("variable.kt")
         public void testVariable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElse/variable.kt", this::doTestWithIfElseSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElse/variable.kt");
         }
     }
 
@@ -294,17 +294,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("asStatement.kt")
         public void testAsStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElseExpression/asStatement.kt", this::doTestWithIfElseExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElseExpression/asStatement.kt");
         }
 
         @TestMetadata("paranthesized.kt")
         public void testParanthesized() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElseExpression/paranthesized.kt", this::doTestWithIfElseExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElseExpression/paranthesized.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElseExpression/singleExpression.kt", this::doTestWithIfElseExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElseExpression/singleExpression.kt");
         }
     }
 
@@ -318,12 +318,12 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("asStatement.kt")
         public void testAsStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElseExpressionBraces/asStatement.kt", this::doTestWithIfElseExpressionBracesSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseExpressionBracesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElseExpressionBraces/asStatement.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/ifElseExpressionBraces/singleExpression.kt", this::doTestWithIfElseExpressionBracesSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithIfElseExpressionBracesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/ifElseExpressionBraces/singleExpression.kt");
         }
     }
 
@@ -337,37 +337,37 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("booleanExpr.kt")
         public void testBooleanExpr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/booleanExpr.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/booleanExpr.kt");
         }
 
         @TestMetadata("booleanExprAtCaret.kt")
         public void testBooleanExprAtCaret() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/booleanExprAtCaret.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/booleanExprAtCaret.kt");
         }
 
         @TestMetadata("expressionInIf.kt")
         public void testExpressionInIf() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/expressionInIf.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/expressionInIf.kt");
         }
 
         @TestMetadata("notExpression.kt")
         public void testNotExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/notExpression.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/notExpression.kt");
         }
 
         @TestMetadata("severalExpr.kt")
         public void testSeveralExpr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/severalExpr.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/severalExpr.kt");
         }
 
         @TestMetadata("severalExprAtCaret.kt")
         public void testSeveralExprAtCaret() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/severalExprAtCaret.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/severalExprAtCaret.kt");
         }
 
         @TestMetadata("variable.kt")
         public void testVariable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/not/variable.kt", this::doTestWithNotSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithNotSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/not/variable.kt");
         }
     }
 
@@ -381,17 +381,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("expr.kt")
         public void testExpr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/expr.kt", this::doTestWithParenthesesSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/expr.kt");
         }
 
         @TestMetadata("inIf.kt")
         public void testInIf() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/inIf.kt", this::doTestWithParenthesesSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/inIf.kt");
         }
 
         @TestMetadata("partOfExpr.kt")
         public void testPartOfExpr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/partOfExpr.kt", this::doTestWithParenthesesSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/partOfExpr.kt");
         }
 
         @TestMetadata("idea/testData/codeInsight/surroundWith/parentheses/notApplicable")
@@ -404,47 +404,47 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
             @TestMetadata("if.kt")
             public void testIf() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/if.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/if.kt");
             }
 
             @TestMetadata("import.kt")
             public void testImport() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/import.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/import.kt");
             }
 
             @TestMetadata("importQualifiedFirst.kt")
             public void testImportQualifiedFirst() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/importQualifiedFirst.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/importQualifiedFirst.kt");
             }
 
             @TestMetadata("importQualifiedSecond.kt")
             public void testImportQualifiedSecond() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/importQualifiedSecond.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/importQualifiedSecond.kt");
             }
 
             @TestMetadata("packageName.kt")
             public void testPackageName() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/packageName.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/packageName.kt");
             }
 
             @TestMetadata("parameterName.kt")
             public void testParameterName() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/parameterName.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/parameterName.kt");
             }
 
             @TestMetadata("parameterWithType.kt")
             public void testParameterWithType() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/parameterWithType.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/parameterWithType.kt");
             }
 
             @TestMetadata("qualifiedExpressionSecond.kt")
             public void testQualifiedExpressionSecond() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/qualifiedExpressionSecond.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/qualifiedExpressionSecond.kt");
             }
 
             @TestMetadata("qualifiedExpressionSecondWithBracket.kt")
             public void testQualifiedExpressionSecondWithBracket() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/parentheses/notApplicable/qualifiedExpressionSecondWithBracket.kt", this::doTestWithParenthesesSurrounder);
+                KotlinTestUtils.runTest(this::doTestWithParenthesesSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/parentheses/notApplicable/qualifiedExpressionSecondWithBracket.kt");
             }
         }
     }
@@ -459,22 +459,22 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("multiExpression.kt")
         public void testMultiExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/stringTemplate/multiExpression.kt", this::doTestWithStringTemplateSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithStringTemplateSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/stringTemplate/multiExpression.kt");
         }
 
         @TestMetadata("multiExpressionConstant.kt")
         public void testMultiExpressionConstant() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/stringTemplate/multiExpressionConstant.kt", this::doTestWithStringTemplateSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithStringTemplateSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/stringTemplate/multiExpressionConstant.kt");
         }
 
         @TestMetadata("singleConstant.kt")
         public void testSingleConstant() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/stringTemplate/singleConstant.kt", this::doTestWithStringTemplateSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithStringTemplateSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/stringTemplate/singleConstant.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/stringTemplate/singleExpression.kt", this::doTestWithStringTemplateSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithStringTemplateSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/stringTemplate/singleExpression.kt");
         }
     }
 
@@ -488,17 +488,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/when/enum.kt", this::doTestWithWhenSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithWhenSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/when/enum.kt");
         }
 
         @TestMetadata("multiExpression.kt")
         public void testMultiExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/when/multiExpression.kt", this::doTestWithWhenSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithWhenSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/when/multiExpression.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/when/singleExpression.kt", this::doTestWithWhenSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithWhenSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/when/singleExpression.kt");
         }
     }
 
@@ -512,22 +512,22 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("moveDeclarationsOut.kt")
         public void testMoveDeclarationsOut() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatch/moveDeclarationsOut.kt", this::doTestWithTryCatchSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatch/moveDeclarationsOut.kt");
         }
 
         @TestMetadata("multiExpression.kt")
         public void testMultiExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatch/multiExpression.kt", this::doTestWithTryCatchSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatch/multiExpression.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatch/singleExpression.kt", this::doTestWithTryCatchSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatch/singleExpression.kt");
         }
 
         @TestMetadata("usedAsExpression.kt")
         public void testUsedAsExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatch/usedAsExpression.kt", this::doTestWithTryCatchSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatch/usedAsExpression.kt");
         }
     }
 
@@ -541,12 +541,12 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("asStatement.kt")
         public void testAsStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchExpression/asStatement.kt", this::doTestWithTryCatchExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchExpression/asStatement.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchExpression/singleExpression.kt", this::doTestWithTryCatchExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchExpression/singleExpression.kt");
         }
     }
 
@@ -560,17 +560,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("multiExpression.kt")
         public void testMultiExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchFinally/multiExpression.kt", this::doTestWithTryCatchFinallySurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchFinallySurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchFinally/multiExpression.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchFinally/singleExpression.kt", this::doTestWithTryCatchFinallySurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchFinallySurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchFinally/singleExpression.kt");
         }
 
         @TestMetadata("usedAsExpression.kt")
         public void testUsedAsExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchFinally/usedAsExpression.kt", this::doTestWithTryCatchFinallySurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchFinallySurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchFinally/usedAsExpression.kt");
         }
     }
 
@@ -584,12 +584,12 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("asStatement.kt")
         public void testAsStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchFinallyExpression/asStatement.kt", this::doTestWithTryCatchFinallyExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchFinallyExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchFinallyExpression/asStatement.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryCatchFinallyExpression/singleExpression.kt", this::doTestWithTryCatchFinallyExpressionSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryCatchFinallyExpressionSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryCatchFinallyExpression/singleExpression.kt");
         }
     }
 
@@ -603,17 +603,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("multiExpression.kt")
         public void testMultiExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryFinally/multiExpression.kt", this::doTestWithTryFinallySurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryFinallySurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryFinally/multiExpression.kt");
         }
 
         @TestMetadata("singleExpression.kt")
         public void testSingleExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryFinally/singleExpression.kt", this::doTestWithTryFinallySurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryFinallySurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryFinally/singleExpression.kt");
         }
 
         @TestMetadata("usedAsExpression.kt")
         public void testUsedAsExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/tryFinally/usedAsExpression.kt", this::doTestWithTryFinallySurrounder);
+            KotlinTestUtils.runTest(this::doTestWithTryFinallySurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/tryFinally/usedAsExpression.kt");
         }
     }
 
@@ -627,17 +627,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("moveDeclarationsOut.kt")
         public void testMoveDeclarationsOut() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/functionLiteral/moveDeclarationsOut.kt", this::doTestWithFunctionLiteralSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithFunctionLiteralSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/functionLiteral/moveDeclarationsOut.kt");
         }
 
         @TestMetadata("multiStatement.kt")
         public void testMultiStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/functionLiteral/multiStatement.kt", this::doTestWithFunctionLiteralSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithFunctionLiteralSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/functionLiteral/multiStatement.kt");
         }
 
         @TestMetadata("singleStatement.kt")
         public void testSingleStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/functionLiteral/singleStatement.kt", this::doTestWithFunctionLiteralSurrounder);
+            KotlinTestUtils.runTest(this::doTestWithFunctionLiteralSurrounder,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/functionLiteral/singleStatement.kt");
         }
     }
 
@@ -651,12 +651,12 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("complexBoolean.kt")
         public void testComplexBoolean() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/withIfExpression/complexBoolean.kt", this::doTestWithSurroundWithIfExpression);
+            KotlinTestUtils.runTest(this::doTestWithSurroundWithIfExpression,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/withIfExpression/complexBoolean.kt");
         }
 
         @TestMetadata("variable.kt")
         public void testVariable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/withIfExpression/variable.kt", this::doTestWithSurroundWithIfExpression);
+            KotlinTestUtils.runTest(this::doTestWithSurroundWithIfExpression,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/withIfExpression/variable.kt");
         }
     }
 
@@ -670,17 +670,17 @@ public class SurroundWithTestGenerated extends AbstractSurroundWithTest {
 
         @TestMetadata("complexBoolean.kt")
         public void testComplexBoolean() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/withIfElseExpression/complexBoolean.kt", this::doTestWithSurroundWithIfElseExpression);
+            KotlinTestUtils.runTest(this::doTestWithSurroundWithIfElseExpression,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/withIfElseExpression/complexBoolean.kt");
         }
 
         @TestMetadata("replaceWithParenthesized.kt")
         public void testReplaceWithParenthesized() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/withIfElseExpression/replaceWithParenthesized.kt", this::doTestWithSurroundWithIfElseExpression);
+            KotlinTestUtils.runTest(this::doTestWithSurroundWithIfElseExpression,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/withIfElseExpression/replaceWithParenthesized.kt");
         }
 
         @TestMetadata("variable.kt")
         public void testVariable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/surroundWith/withIfElseExpression/variable.kt", this::doTestWithSurroundWithIfElseExpression);
+            KotlinTestUtils.runTest(this::doTestWithSurroundWithIfElseExpression,TargetBackend.ANY, "idea/testData/codeInsight/surroundWith/withIfElseExpression/variable.kt");
         }
     }
 }

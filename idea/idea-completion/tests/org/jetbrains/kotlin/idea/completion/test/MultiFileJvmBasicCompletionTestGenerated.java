@@ -27,351 +27,351 @@ public class MultiFileJvmBasicCompletionTestGenerated extends AbstractMultiFileJ
 
     @TestMetadata("CallableReferenceNotImported")
     public void testCallableReferenceNotImported() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CallableReferenceNotImported/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CallableReferenceNotImported/");
     }
 
     @TestMetadata("CallableReferenceNotImportedExtension")
     public void testCallableReferenceNotImportedExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CallableReferenceNotImportedExtension/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CallableReferenceNotImportedExtension/");
     }
 
     @TestMetadata("CallableReferenceNotImportedExtension2")
     public void testCallableReferenceNotImportedExtension2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CallableReferenceNotImportedExtension2/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CallableReferenceNotImportedExtension2/");
     }
 
     @TestMetadata("CallablesInExcludedPackage")
     public void testCallablesInExcludedPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CallablesInExcludedPackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CallablesInExcludedPackage/");
     }
 
     @TestMetadata("ClassInExcludedPackage")
     public void testClassInExcludedPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ClassInExcludedPackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ClassInExcludedPackage/");
     }
 
     @TestMetadata("CompleteFunctionWithNoSpecifiedType")
     public void testCompleteFunctionWithNoSpecifiedType() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CompleteFunctionWithNoSpecifiedType/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CompleteFunctionWithNoSpecifiedType/");
     }
 
     @TestMetadata("CompleteImportedFunction")
     public void testCompleteImportedFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CompleteImportedFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CompleteImportedFunction/");
     }
 
     @TestMetadata("CompletionOnImportedFunction")
     public void testCompletionOnImportedFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/CompletionOnImportedFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/CompletionOnImportedFunction/");
     }
 
     @TestMetadata("DoNotCompleteWithConstraints")
     public void testDoNotCompleteWithConstraints() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/DoNotCompleteWithConstraints/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/DoNotCompleteWithConstraints/");
     }
 
     @TestMetadata("EntriesOfNotImportedEnumFromKotlin")
     public void testEntriesOfNotImportedEnumFromKotlin() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/EntriesOfNotImportedEnumFromKotlin/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/EntriesOfNotImportedEnumFromKotlin/");
     }
 
     @TestMetadata("EnumEntry")
     public void testEnumEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/EnumEntry/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/EnumEntry/");
     }
 
     @TestMetadata("ExactMatchPreferImported")
     public void testExactMatchPreferImported() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExactMatchPreferImported/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExactMatchPreferImported/");
     }
 
     @TestMetadata("ExcludedClass")
     public void testExcludedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExcludedClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExcludedClass/");
     }
 
     @TestMetadata("ExcludedJavaClass")
     public void testExcludedJavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExcludedJavaClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExcludedJavaClass/");
     }
 
     @TestMetadata("ExtensionFunction")
     public void testExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExtensionFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExtensionFunction/");
     }
 
     @TestMetadata("ExtensionFunctionOnImportedFunction")
     public void testExtensionFunctionOnImportedFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExtensionFunctionOnImportedFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExtensionFunctionOnImportedFunction/");
     }
 
     @TestMetadata("ExtensionOnNullable")
     public void testExtensionOnNullable() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExtensionOnNullable/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExtensionOnNullable/");
     }
 
     @TestMetadata("ExtensionsAndGetPrefix")
     public void testExtensionsAndGetPrefix() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExtensionsAndGetPrefix/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExtensionsAndGetPrefix/");
     }
 
     @TestMetadata("ExtensionsForSmartCast")
     public void testExtensionsForSmartCast() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ExtensionsForSmartCast/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ExtensionsForSmartCast/");
     }
 
     @TestMetadata("FileRefInStringLiteral")
     public void testFileRefInStringLiteral() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/FileRefInStringLiteral/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/FileRefInStringLiteral/");
     }
 
     @TestMetadata("FileRefInStringLiteralNoPrefix")
     public void testFileRefInStringLiteralNoPrefix() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/FileRefInStringLiteralNoPrefix/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/FileRefInStringLiteralNoPrefix/");
     }
 
     @TestMetadata("GroovyClassNameCompletionFromDefaultPackage")
     public void testGroovyClassNameCompletionFromDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/GroovyClassNameCompletionFromDefaultPackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/GroovyClassNameCompletionFromDefaultPackage/");
     }
 
     @TestMetadata("GroovyClassNameCompletionFromNonDefaultPackage")
     public void testGroovyClassNameCompletionFromNonDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/GroovyClassNameCompletionFromNonDefaultPackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/GroovyClassNameCompletionFromNonDefaultPackage/");
     }
 
     @TestMetadata("HiddenDeclarations")
     public void testHiddenDeclarations() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/HiddenDeclarations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/HiddenDeclarations/");
     }
 
     @TestMetadata("InImport")
     public void testInImport() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/InImport/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/InImport/");
     }
 
     @TestMetadata("InImportedFunctionLiteralParameter")
     public void testInImportedFunctionLiteralParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/InImportedFunctionLiteralParameter/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/InImportedFunctionLiteralParameter/");
     }
 
     @TestMetadata("IncorrectGetters")
     public void testIncorrectGetters() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/IncorrectGetters/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/IncorrectGetters/");
     }
 
     @TestMetadata("JavaCallableReference")
     public void testJavaCallableReference() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/JavaCallableReference/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/JavaCallableReference/");
     }
 
     @TestMetadata("JavaInnerClasses")
     public void testJavaInnerClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/JavaInnerClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/JavaInnerClasses/");
     }
 
     @TestMetadata("KT12124")
     public void testKT12124() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/KT12124/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/KT12124/");
     }
 
     @TestMetadata("KT9835")
     public void testKT9835() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/KT9835/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/KT9835/");
     }
 
     @TestMetadata("MoreSpecificExtensionGeneric")
     public void testMoreSpecificExtensionGeneric() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/MoreSpecificExtensionGeneric/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/MoreSpecificExtensionGeneric/");
     }
 
     @TestMetadata("MoreSpecificExtensionInDifferentPackage")
     public void testMoreSpecificExtensionInDifferentPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/MoreSpecificExtensionInDifferentPackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/MoreSpecificExtensionInDifferentPackage/");
     }
 
     @TestMetadata("MoreSpecificExtensionIsPrivate")
     public void testMoreSpecificExtensionIsPrivate() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/MoreSpecificExtensionIsPrivate/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/MoreSpecificExtensionIsPrivate/");
     }
 
     @TestMetadata("NoAutoInsertionOfNotImported")
     public void testNoAutoInsertionOfNotImported() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NoAutoInsertionOfNotImported/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NoAutoInsertionOfNotImported/");
     }
 
     @TestMetadata("NoExtForOuterFromNested")
     public void testNoExtForOuterFromNested() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NoExtForOuterFromNested/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NoExtForOuterFromNested/");
     }
 
     @TestMetadata("NoExtensionMethodDuplication")
     public void testNoExtensionMethodDuplication() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NoExtensionMethodDuplication/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NoExtensionMethodDuplication/");
     }
 
     @TestMetadata("NoGenericFunDuplication")
     public void testNoGenericFunDuplication() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NoGenericFunDuplication/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NoGenericFunDuplication/");
     }
 
     @TestMetadata("NotImportedExtensionForImplicitReceiver")
     public void testNotImportedExtensionForImplicitReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedExtensionForImplicitReceiver/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedExtensionForImplicitReceiver/");
     }
 
     @TestMetadata("NotImportedExtensionFunction")
     public void testNotImportedExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunction/");
     }
 
     @TestMetadata("NotImportedExtensionFunction2")
     public void testNotImportedExtensionFunction2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunction2/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunction2/");
     }
 
     @TestMetadata("NotImportedExtensionFunction3")
     public void testNotImportedExtensionFunction3() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunction3/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunction3/");
     }
 
     @TestMetadata("NotImportedExtensionFunctionAndAlias")
     public void testNotImportedExtensionFunctionAndAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunctionAndAlias/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedExtensionFunctionAndAlias/");
     }
 
     @TestMetadata("NotImportedExtensionProperty")
     public void testNotImportedExtensionProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedExtensionProperty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedExtensionProperty/");
     }
 
     @TestMetadata("NotImportedFunction")
     public void testNotImportedFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedFunction/");
     }
 
     @TestMetadata("NotImportedInfixExtension")
     public void testNotImportedInfixExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedInfixExtension/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedInfixExtension/");
     }
 
     @TestMetadata("NotImportedJavaClass")
     public void testNotImportedJavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedJavaClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedJavaClass/");
     }
 
     @TestMetadata("NotImportedObject")
     public void testNotImportedObject() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedObject/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedObject/");
     }
 
     @TestMetadata("NotImportedProperty")
     public void testNotImportedProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/NotImportedProperty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/NotImportedProperty/");
     }
 
     @TestMetadata("ObjectInTypePosition")
     public void testObjectInTypePosition() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ObjectInTypePosition/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ObjectInTypePosition/");
     }
 
     @TestMetadata("ObjectMembers")
     public void testObjectMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ObjectMembers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ObjectMembers/");
     }
 
     @TestMetadata("ParameterNameAndTypeForNotImportedAlias")
     public void testParameterNameAndTypeForNotImportedAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ParameterNameAndTypeForNotImportedAlias/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ParameterNameAndTypeForNotImportedAlias/");
     }
 
     @TestMetadata("ParameterNameAndTypeNestedClasses")
     public void testParameterNameAndTypeNestedClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/ParameterNameAndTypeNestedClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/ParameterNameAndTypeNestedClasses/");
     }
 
     @TestMetadata("PreferMemberToExtension")
     public void testPreferMemberToExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PreferMemberToExtension/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PreferMemberToExtension/");
     }
 
     @TestMetadata("PreferMemberToGlobal")
     public void testPreferMemberToGlobal() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PreferMemberToGlobal/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PreferMemberToGlobal/");
     }
 
     @TestMetadata("PreferMoreSpecificExtension1")
     public void testPreferMoreSpecificExtension1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PreferMoreSpecificExtension1/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PreferMoreSpecificExtension1/");
     }
 
     @TestMetadata("PreferMoreSpecificExtension2")
     public void testPreferMoreSpecificExtension2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PreferMoreSpecificExtension2/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PreferMoreSpecificExtension2/");
     }
 
     @TestMetadata("PreferMoreSpecificExtension3")
     public void testPreferMoreSpecificExtension3() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PreferMoreSpecificExtension3/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PreferMoreSpecificExtension3/");
     }
 
     @TestMetadata("PropertyKeysEmptyString")
     public void testPropertyKeysEmptyString() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PropertyKeysEmptyString/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PropertyKeysEmptyString/");
     }
 
     @TestMetadata("PropertyKeysNoPrefix")
     public void testPropertyKeysNoPrefix() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PropertyKeysNoPrefix/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PropertyKeysNoPrefix/");
     }
 
     @TestMetadata("PropertyKeysWithPrefix")
     public void testPropertyKeysWithPrefix() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/PropertyKeysWithPrefix/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/PropertyKeysWithPrefix/");
     }
 
     @TestMetadata("StaticMembersOfNotImportedClassFromJava")
     public void testStaticMembersOfNotImportedClassFromJava() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassFromJava/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassFromJava/");
     }
 
     @TestMetadata("StaticMembersOfNotImportedClassFromKotlin")
     public void testStaticMembersOfNotImportedClassFromKotlin() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassFromKotlin/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassFromKotlin/");
     }
 
     @TestMetadata("StaticMembersOfNotImportedClassFromKotlinObject")
     public void testStaticMembersOfNotImportedClassFromKotlinObject() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassFromKotlinObject/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassFromKotlinObject/");
     }
 
     @TestMetadata("StaticMembersOfNotImportedClassNameConflict")
     public void testStaticMembersOfNotImportedClassNameConflict() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassNameConflict/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/StaticMembersOfNotImportedClassNameConflict/");
     }
 
     @TestMetadata("SyntheticExtensionDeprecated")
     public void testSyntheticExtensionDeprecated() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/SyntheticExtensionDeprecated/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/SyntheticExtensionDeprecated/");
     }
 
     @TestMetadata("SyntheticExtensionForGenericClass")
     public void testSyntheticExtensionForGenericClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/SyntheticExtensionForGenericClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/SyntheticExtensionForGenericClass/");
     }
 
     @TestMetadata("SyntheticExtensionNonVoidSetter")
     public void testSyntheticExtensionNonVoidSetter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/SyntheticExtensionNonVoidSetter/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/SyntheticExtensionNonVoidSetter/");
     }
 
     @TestMetadata("TopLevelFunction")
     public void testTopLevelFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/TopLevelFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/TopLevelFunction/");
     }
 
     @TestMetadata("TypeAliases")
     public void testTypeAliases() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/multifile/TypeAliases/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/multifile/TypeAliases/");
     }
 }

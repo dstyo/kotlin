@@ -27,6 +27,6 @@ public class IncrementalJsCompilerRunnerWithFriendModulesDisabledTestGenerated e
 
     @TestMetadata("internalInlineFunctionIsChanged")
     public void testInternalInlineFunctionIsChanged() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/js/friendsModuleDisabled/internalInlineFunctionIsChanged/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/js/friendsModuleDisabled/internalInlineFunctionIsChanged/");
     }
 }

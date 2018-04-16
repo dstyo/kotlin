@@ -29,27 +29,27 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("ifInBlock.kt")
         public void testIfInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeExpression/ifInBlock.kt", this::doTestExpressionRemover);
+            KotlinTestUtils.runTest(this::doTestExpressionRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeExpression/ifInBlock.kt");
         }
 
         @TestMetadata("ifInExpressionInReturn.kt")
         public void testIfInExpressionInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeExpression/ifInExpressionInReturn.kt", this::doTestExpressionRemover);
+            KotlinTestUtils.runTest(this::doTestExpressionRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeExpression/ifInExpressionInReturn.kt");
         }
 
         @TestMetadata("ifInReturn.kt")
         public void testIfInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeExpression/ifInReturn.kt", this::doTestExpressionRemover);
+            KotlinTestUtils.runTest(this::doTestExpressionRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeExpression/ifInReturn.kt");
         }
 
         @TestMetadata("tryInBlock.kt")
         public void testTryInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeExpression/tryInBlock.kt", this::doTestExpressionRemover);
+            KotlinTestUtils.runTest(this::doTestExpressionRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeExpression/tryInBlock.kt");
         }
 
         @TestMetadata("tryInReturn.kt")
         public void testTryInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeExpression/tryInReturn.kt", this::doTestExpressionRemover);
+            KotlinTestUtils.runTest(this::doTestExpressionRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeExpression/tryInReturn.kt");
         }
     }
 
@@ -63,17 +63,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("thenCompoundInBlock.kt")
         public void testThenCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapThen/thenCompoundInBlock.kt", this::doTestThenUnwrapper);
+            KotlinTestUtils.runTest(this::doTestThenUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapThen/thenCompoundInBlock.kt");
         }
 
         @TestMetadata("thenCompoundInReturn.kt")
         public void testThenCompoundInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapThen/thenCompoundInReturn.kt", this::doTestThenUnwrapper);
+            KotlinTestUtils.runTest(this::doTestThenUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapThen/thenCompoundInReturn.kt");
         }
 
         @TestMetadata("thenSimpleInReturn.kt")
         public void testThenSimpleInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapThen/thenSimpleInReturn.kt", this::doTestThenUnwrapper);
+            KotlinTestUtils.runTest(this::doTestThenUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapThen/thenSimpleInReturn.kt");
         }
     }
 
@@ -87,17 +87,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("elseCompoundInBlock.kt")
         public void testElseCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapElse/elseCompoundInBlock.kt", this::doTestElseUnwrapper);
+            KotlinTestUtils.runTest(this::doTestElseUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapElse/elseCompoundInBlock.kt");
         }
 
         @TestMetadata("elseCompoundInReturn.kt")
         public void testElseCompoundInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapElse/elseCompoundInReturn.kt", this::doTestElseUnwrapper);
+            KotlinTestUtils.runTest(this::doTestElseUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapElse/elseCompoundInReturn.kt");
         }
 
         @TestMetadata("elseSimpleInReturn.kt")
         public void testElseSimpleInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapElse/elseSimpleInReturn.kt", this::doTestElseUnwrapper);
+            KotlinTestUtils.runTest(this::doTestElseUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapElse/elseSimpleInReturn.kt");
         }
     }
 
@@ -111,7 +111,7 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("else.kt")
         public void testElse() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeElse/else.kt", this::doTestElseRemover);
+            KotlinTestUtils.runTest(this::doTestElseRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeElse/else.kt");
         }
     }
 
@@ -125,17 +125,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("doWhile.kt")
         public void testDoWhile() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLoop/doWhile.kt", this::doTestLoopUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLoopUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLoop/doWhile.kt");
         }
 
         @TestMetadata("for.kt")
         public void testFor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLoop/for.kt", this::doTestLoopUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLoopUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLoop/for.kt");
         }
 
         @TestMetadata("while.kt")
         public void testWhile() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLoop/while.kt", this::doTestLoopUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLoopUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLoop/while.kt");
         }
     }
 
@@ -149,17 +149,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("tryCompoundInBlock.kt")
         public void testTryCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapTry/tryCompoundInBlock.kt", this::doTestTryUnwrapper);
+            KotlinTestUtils.runTest(this::doTestTryUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapTry/tryCompoundInBlock.kt");
         }
 
         @TestMetadata("tryCompoundInReturn.kt")
         public void testTryCompoundInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapTry/tryCompoundInReturn.kt", this::doTestTryUnwrapper);
+            KotlinTestUtils.runTest(this::doTestTryUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapTry/tryCompoundInReturn.kt");
         }
 
         @TestMetadata("trySimpleInReturn.kt")
         public void testTrySimpleInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapTry/trySimpleInReturn.kt", this::doTestTryUnwrapper);
+            KotlinTestUtils.runTest(this::doTestTryUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapTry/trySimpleInReturn.kt");
         }
     }
 
@@ -173,17 +173,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("catchCompoundInBlock.kt")
         public void testCatchCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapCatch/catchCompoundInBlock.kt", this::doTestCatchUnwrapper);
+            KotlinTestUtils.runTest(this::doTestCatchUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapCatch/catchCompoundInBlock.kt");
         }
 
         @TestMetadata("catchCompoundInReturn.kt")
         public void testCatchCompoundInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapCatch/catchCompoundInReturn.kt", this::doTestCatchUnwrapper);
+            KotlinTestUtils.runTest(this::doTestCatchUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapCatch/catchCompoundInReturn.kt");
         }
 
         @TestMetadata("catchSimpleInReturn.kt")
         public void testCatchSimpleInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapCatch/catchSimpleInReturn.kt", this::doTestCatchUnwrapper);
+            KotlinTestUtils.runTest(this::doTestCatchUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapCatch/catchSimpleInReturn.kt");
         }
     }
 
@@ -197,7 +197,7 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("catch.kt")
         public void testCatch() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeCatch/catch.kt", this::doTestCatchRemover);
+            KotlinTestUtils.runTest(this::doTestCatchRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeCatch/catch.kt");
         }
     }
 
@@ -211,17 +211,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("finallyCompoundInBlock.kt")
         public void testFinallyCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapFinally/finallyCompoundInBlock.kt", this::doTestFinallyUnwrapper);
+            KotlinTestUtils.runTest(this::doTestFinallyUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapFinally/finallyCompoundInBlock.kt");
         }
 
         @TestMetadata("finallyCompoundInReturn.kt")
         public void testFinallyCompoundInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapFinally/finallyCompoundInReturn.kt", this::doTestFinallyUnwrapper);
+            KotlinTestUtils.runTest(this::doTestFinallyUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapFinally/finallyCompoundInReturn.kt");
         }
 
         @TestMetadata("finallySimpleInReturn.kt")
         public void testFinallySimpleInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapFinally/finallySimpleInReturn.kt", this::doTestFinallyUnwrapper);
+            KotlinTestUtils.runTest(this::doTestFinallyUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapFinally/finallySimpleInReturn.kt");
         }
     }
 
@@ -235,12 +235,12 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("finallyInBlock.kt")
         public void testFinallyInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeFinally/finallyInBlock.kt", this::doTestFinallyRemover);
+            KotlinTestUtils.runTest(this::doTestFinallyRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeFinally/finallyInBlock.kt");
         }
 
         @TestMetadata("finallyInReturn.kt")
         public void testFinallyInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/removeFinally/finallyInReturn.kt", this::doTestFinallyRemover);
+            KotlinTestUtils.runTest(this::doTestFinallyRemover,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/removeFinally/finallyInReturn.kt");
         }
     }
 
@@ -254,52 +254,52 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("lambdaCallCompoundInBlock.kt")
         public void testLambdaCallCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallCompoundInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallCompoundInBlock.kt");
         }
 
         @TestMetadata("lambdaCallCompoundInReturn.kt")
         public void testLambdaCallCompoundInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallCompoundInReturn.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallCompoundInReturn.kt");
         }
 
         @TestMetadata("lambdaCallInBlock.kt")
         public void testLambdaCallInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallInBlock.kt");
         }
 
         @TestMetadata("lambdaCallInBlock2.kt")
         public void testLambdaCallInBlock2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallInBlock2.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallInBlock2.kt");
         }
 
         @TestMetadata("lambdaCallSimpleInReturn.kt")
         public void testLambdaCallSimpleInReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallSimpleInReturn.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaCallSimpleInReturn.kt");
         }
 
         @TestMetadata("lambdaInBlock.kt")
         public void testLambdaInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaInBlock.kt");
         }
 
         @TestMetadata("lambdaNonLocalPropertyCompoundInBlock.kt")
         public void testLambdaNonLocalPropertyCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaNonLocalPropertyCompoundInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaNonLocalPropertyCompoundInBlock.kt");
         }
 
         @TestMetadata("lambdaNonLocalPropertyInBlock.kt")
         public void testLambdaNonLocalPropertyInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaNonLocalPropertyInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaNonLocalPropertyInBlock.kt");
         }
 
         @TestMetadata("lambdaPropertyCompoundInBlock.kt")
         public void testLambdaPropertyCompoundInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaPropertyCompoundInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaPropertyCompoundInBlock.kt");
         }
 
         @TestMetadata("lambdaPropertyInBlock.kt")
         public void testLambdaPropertyInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaPropertyInBlock.kt", this::doTestLambdaUnwrapper);
+            KotlinTestUtils.runTest(this::doTestLambdaUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapLambda/lambdaPropertyInBlock.kt");
         }
     }
 
@@ -313,17 +313,17 @@ public class UnwrapRemoveTestGenerated extends AbstractUnwrapRemoveTest {
 
         @TestMetadata("functionHasMultiParam.kt")
         public void testFunctionHasMultiParam() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapFunctionParameter/functionHasMultiParam.kt", this::doTestFunctionParameterUnwrapper);
+            KotlinTestUtils.runTest(this::doTestFunctionParameterUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapFunctionParameter/functionHasMultiParam.kt");
         }
 
         @TestMetadata("functionHasSingleParam.kt")
         public void testFunctionHasSingleParam() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapFunctionParameter/functionHasSingleParam.kt", this::doTestFunctionParameterUnwrapper);
+            KotlinTestUtils.runTest(this::doTestFunctionParameterUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapFunctionParameter/functionHasSingleParam.kt");
         }
 
         @TestMetadata("functionWithReceiver.kt")
         public void testFunctionWithReceiver() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/codeInsight/unwrapAndRemove/unwrapFunctionParameter/functionWithReceiver.kt", this::doTestFunctionParameterUnwrapper);
+            KotlinTestUtils.runTest(this::doTestFunctionParameterUnwrapper,TargetBackend.ANY, "idea/testData/codeInsight/unwrapAndRemove/unwrapFunctionParameter/functionWithReceiver.kt");
         }
     }
 }

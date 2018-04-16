@@ -27,6 +27,6 @@ public class KotlinStdLibInJavaCompletionTestGenerated extends AbstractKotlinStd
 
     @TestMetadata("List.java")
     public void testList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/stdlib/List.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/stdlib/List.java");
     }
 }

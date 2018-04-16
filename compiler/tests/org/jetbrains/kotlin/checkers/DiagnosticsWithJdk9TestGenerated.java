@@ -27,6 +27,6 @@ public class DiagnosticsWithJdk9TestGenerated extends AbstractDiagnosticsWithJdk
 
     @TestMetadata("kt11167.kt")
     public void testKt11167() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJava9/kt11167.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/diagnostics/testsWithJava9/kt11167.kt");
     }
 }

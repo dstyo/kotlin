@@ -27,81 +27,81 @@ public class AndroidSyntheticPropertyDescriptorTestGenerated extends AbstractAnd
 
     @TestMetadata("escapedLayoutName")
     public void testEscapedLayoutName() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/escapedLayoutName/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/escapedLayoutName/");
     }
 
     @TestMetadata("fqNameInAttr")
     public void testFqNameInAttr() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/fqNameInAttr/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/fqNameInAttr/");
     }
 
     @TestMetadata("fqNameInTag")
     public void testFqNameInTag() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/fqNameInTag/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/fqNameInTag/");
     }
 
     @TestMetadata("layoutVariants")
     public void testLayoutVariants() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/layoutVariants/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/layoutVariants/");
     }
 
     @TestMetadata("multiFile")
     public void testMultiFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/multiFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/multiFile/");
     }
 
     @TestMetadata("noIds")
     public void testNoIds() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/noIds/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/noIds/");
     }
 
     @TestMetadata("nonLatinNames")
     public void testNonLatinNames() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/nonLatinNames/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/nonLatinNames/");
     }
 
     @TestMetadata("sameIds")
     public void testSameIds() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/sameIds/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/sameIds/");
     }
 
     @TestMetadata("severalResDirs")
     public void testSeveralResDirs() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/severalResDirs/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/severalResDirs/");
     }
 
     @TestMetadata("singleFile")
     public void testSingleFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/singleFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/singleFile/");
     }
 
     @TestMetadata("specialTags")
     public void testSpecialTags() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/specialTags/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/specialTags/");
     }
 
     @TestMetadata("supportSingleFile")
     public void testSupportSingleFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/supportSingleFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/supportSingleFile/");
     }
 
     @TestMetadata("supportSpecialTags")
     public void testSupportSpecialTags() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/supportSpecialTags/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/supportSpecialTags/");
     }
 
     @TestMetadata("unresolvedFqName")
     public void testUnresolvedFqName() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/unresolvedFqName/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/unresolvedFqName/");
     }
 
     @TestMetadata("unresolvedWidget")
     public void testUnresolvedWidget() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/unresolvedWidget/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/unresolvedWidget/");
     }
 
     @TestMetadata("viewStub")
     public void testViewStub() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/descriptors/viewStub/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/descriptors/viewStub/");
     }
 }

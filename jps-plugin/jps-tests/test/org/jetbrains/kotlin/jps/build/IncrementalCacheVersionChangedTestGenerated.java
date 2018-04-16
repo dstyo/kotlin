@@ -27,56 +27,56 @@ public class IncrementalCacheVersionChangedTestGenerated extends AbstractIncreme
 
     @TestMetadata("clearedHasKotlin")
     public void testClearedHasKotlin() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/clearedHasKotlin/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/clearedHasKotlin/");
     }
 
     @TestMetadata("exportedModule")
     public void testExportedModule() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/exportedModule/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/exportedModule/");
     }
 
     @TestMetadata("javaOnlyModulesAreNotAffected")
     public void testJavaOnlyModulesAreNotAffected() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/javaOnlyModulesAreNotAffected/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/javaOnlyModulesAreNotAffected/");
     }
 
     @TestMetadata("module1Modified")
     public void testModule1Modified() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/module1Modified/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/module1Modified/");
     }
 
     @TestMetadata("module2Modified")
     public void testModule2Modified() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/module2Modified/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/module2Modified/");
     }
 
     @TestMetadata("moduleWithConstantModified")
     public void testModuleWithConstantModified() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/moduleWithConstantModified/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/moduleWithConstantModified/");
     }
 
     @TestMetadata("moduleWithInlineModified")
     public void testModuleWithInlineModified() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/moduleWithInlineModified/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/moduleWithInlineModified/");
     }
 
     @TestMetadata("touchedFile")
     public void testTouchedFile() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/touchedFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/touchedFile/");
     }
 
     @TestMetadata("touchedOnlyJavaFile")
     public void testTouchedOnlyJavaFile() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/touchedOnlyJavaFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/touchedOnlyJavaFile/");
     }
 
     @TestMetadata("untouchedFiles")
     public void testUntouchedFiles() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/untouchedFiles/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/untouchedFiles/");
     }
 
     @TestMetadata("withError")
     public void testWithError() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/cacheVersionChanged/withError/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/cacheVersionChanged/withError/");
     }
 }

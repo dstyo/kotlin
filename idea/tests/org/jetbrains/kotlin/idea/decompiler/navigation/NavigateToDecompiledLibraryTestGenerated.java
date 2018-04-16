@@ -27,76 +27,76 @@ public class NavigateToDecompiledLibraryTestGenerated extends AbstractNavigateTo
 
     @TestMetadata("ClassObject.kt")
     public void testClassObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/ClassObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/ClassObject.kt");
     }
 
     @TestMetadata("Constructor.kt")
     public void testConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/Constructor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/Constructor.kt");
     }
 
     @TestMetadata("Enum.kt")
     public void testEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/Enum.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/Enum.kt");
     }
 
     @TestMetadata("ExtensionFunction.kt")
     public void testExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/ExtensionFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/ExtensionFunction.kt");
     }
 
     @TestMetadata("ExtensionProperty.kt")
     public void testExtensionProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/ExtensionProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/ExtensionProperty.kt");
     }
 
     @TestMetadata("GenericFunctionWithExplicitlyDeclaredTypeArguments.kt")
     public void testGenericFunctionWithExplicitlyDeclaredTypeArguments() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/GenericFunctionWithExplicitlyDeclaredTypeArguments.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/GenericFunctionWithExplicitlyDeclaredTypeArguments.kt");
     }
 
     @TestMetadata("GenericFunctionWithInferredTypeArguments.kt")
     public void testGenericFunctionWithInferredTypeArguments() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/GenericFunctionWithInferredTypeArguments.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/GenericFunctionWithInferredTypeArguments.kt");
     }
 
     @TestMetadata("GlobalFunction.kt")
     public void testGlobalFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/GlobalFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/GlobalFunction.kt");
     }
 
     @TestMetadata("GlobalProperty.kt")
     public void testGlobalProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/GlobalProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/GlobalProperty.kt");
     }
 
     @TestMetadata("NamedObject.kt")
     public void testNamedObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/NamedObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/NamedObject.kt");
     }
 
     @TestMetadata("OverloadedFunWithTypeParam.kt")
     public void testOverloadedFunWithTypeParam() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/OverloadedFunWithTypeParam.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/OverloadedFunWithTypeParam.kt");
     }
 
     @TestMetadata("Property.kt")
     public void testProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/Property.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/Property.kt");
     }
 
     @TestMetadata("SameNameInDifferentSources.kt")
     public void testSameNameInDifferentSources() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/SameNameInDifferentSources.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/SameNameInDifferentSources.kt");
     }
 
     @TestMetadata("TypeAlias.kt")
     public void testTypeAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/TypeAlias.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/TypeAlias.kt");
     }
 
     @TestMetadata("TypeWithSameShortName.kt")
     public void testTypeWithSameShortName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/navigation/usercode/TypeWithSameShortName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/navigation/usercode/TypeWithSameShortName.kt");
     }
 }

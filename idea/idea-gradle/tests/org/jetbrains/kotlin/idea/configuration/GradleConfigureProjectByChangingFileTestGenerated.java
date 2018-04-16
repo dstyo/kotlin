@@ -29,47 +29,47 @@ public class GradleConfigureProjectByChangingFileTestGenerated extends AbstractG
 
         @TestMetadata("default")
         public void testDefault() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/default/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/default/");
         }
 
         @TestMetadata("eapVersion")
         public void testEapVersion() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/eapVersion/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/eapVersion/");
         }
 
         @TestMetadata("jreLib")
         public void testJreLib() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/jreLib/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/jreLib/");
         }
 
         @TestMetadata("js")
         public void testJs() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/js/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/js/");
         }
 
         @TestMetadata("m04Version")
         public void testM04Version() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/m04Version/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/m04Version/");
         }
 
         @TestMetadata("missedLibrary")
         public void testMissedLibrary() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/missedLibrary/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/missedLibrary/");
         }
 
         @TestMetadata("plugin_present")
         public void testPlugin_present() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/plugin_present/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/plugin_present/");
         }
 
         @TestMetadata("rcVersion")
         public void testRcVersion() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/rcVersion/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/rcVersion/");
         }
 
         @TestMetadata("withJava9ModuleInfo")
         public void testWithJava9ModuleInfo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gradle/withJava9ModuleInfo/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gradle/withJava9ModuleInfo/");
         }
     }
 
@@ -83,27 +83,27 @@ public class GradleConfigureProjectByChangingFileTestGenerated extends AbstractG
 
         @TestMetadata("eap11Version")
         public void testEap11Version() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gsk/eap11Version/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gsk/eap11Version/");
         }
 
         @TestMetadata("eapVersion")
         public void testEapVersion() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gsk/eapVersion/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gsk/eapVersion/");
         }
 
         @TestMetadata("helloWorld")
         public void testHelloWorld() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gsk/helloWorld/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gsk/helloWorld/");
         }
 
         @TestMetadata("missedLibrary")
         public void testMissedLibrary() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gsk/missedLibrary/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gsk/missedLibrary/");
         }
 
         @TestMetadata("pluginPresent")
         public void testPluginPresent() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/gsk/pluginPresent/", this::doTestGradle);
+            KotlinTestUtils.runTest(this::doTestGradle,TargetBackend.ANY, "idea/testData/configuration/gsk/pluginPresent/");
         }
     }
 }

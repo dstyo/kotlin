@@ -25,7 +25,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
     public static class Psi extends AbstractParsingTest {
         @TestMetadata("AbsentInnerType.kt")
         public void testAbsentInnerType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/AbsentInnerType.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/AbsentInnerType.kt");
         }
 
         public void testAllFilesPresentInPsi() throws Exception {
@@ -34,677 +34,677 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
         @TestMetadata("AnonymousInitializer.kt")
         public void testAnonymousInitializer() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/AnonymousInitializer.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/AnonymousInitializer.kt");
         }
 
         @TestMetadata("AssertNotNull.kt")
         public void testAssertNotNull() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/AssertNotNull.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/AssertNotNull.kt");
         }
 
         @TestMetadata("BabySteps.kt")
         public void testBabySteps() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BabySteps.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BabySteps.kt");
         }
 
         @TestMetadata("BabySteps_ERR.kt")
         public void testBabySteps_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BabySteps_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BabySteps_ERR.kt");
         }
 
         @TestMetadata("BackslashInString.kt")
         public void testBackslashInString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BackslashInString.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BackslashInString.kt");
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile1.kt")
         public void testBlockCommentAtBeginningOfFile1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile1.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BlockCommentAtBeginningOfFile1.kt");
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile2.kt")
         public void testBlockCommentAtBeginningOfFile2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile2.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BlockCommentAtBeginningOfFile2.kt");
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile3.kt")
         public void testBlockCommentAtBeginningOfFile3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile3.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BlockCommentAtBeginningOfFile3.kt");
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile4.kt")
         public void testBlockCommentAtBeginningOfFile4() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile4.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BlockCommentAtBeginningOfFile4.kt");
         }
 
         @TestMetadata("BlockCommentUnmatchedClosing_ERR.kt")
         public void testBlockCommentUnmatchedClosing_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentUnmatchedClosing_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/BlockCommentUnmatchedClosing_ERR.kt");
         }
 
         @TestMetadata("ByClauses.kt")
         public void testByClauses() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ByClauses.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ByClauses.kt");
         }
 
         @TestMetadata("CallWithManyClosures.kt")
         public void testCallWithManyClosures() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CallWithManyClosures.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CallWithManyClosures.kt");
         }
 
         @TestMetadata("CallsInWhen.kt")
         public void testCallsInWhen() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CallsInWhen.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CallsInWhen.kt");
         }
 
         @TestMetadata("CollectionLiterals.kt")
         public void testCollectionLiterals() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CollectionLiterals.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CollectionLiterals.kt");
         }
 
         @TestMetadata("CollectionLiterals_ERR.kt")
         public void testCollectionLiterals_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CollectionLiterals_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CollectionLiterals_ERR.kt");
         }
 
         @TestMetadata("CommentsBinding.kt")
         public void testCommentsBinding() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CommentsBinding.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CommentsBinding.kt");
         }
 
         @TestMetadata("CommentsBindingInLambda.kt")
         public void testCommentsBindingInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CommentsBindingInLambda.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CommentsBindingInLambda.kt");
         }
 
         @TestMetadata("CommentsBindingInStatementBlock.kt")
         public void testCommentsBindingInStatementBlock() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/CommentsBindingInStatementBlock.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/CommentsBindingInStatementBlock.kt");
         }
 
         @TestMetadata("Constructors.kt")
         public void testConstructors() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Constructors.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Constructors.kt");
         }
 
         @TestMetadata("ControlStructures.kt")
         public void testControlStructures() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ControlStructures.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ControlStructures.kt");
         }
 
         @TestMetadata("DefaultKeyword.kt")
         public void testDefaultKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DefaultKeyword.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DefaultKeyword.kt");
         }
 
         @TestMetadata("destructuringInLambdas.kt")
         public void testDestructuringInLambdas() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/destructuringInLambdas.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/destructuringInLambdas.kt");
         }
 
         @TestMetadata("destructuringInLambdas_ERR.kt")
         public void testDestructuringInLambdas_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/destructuringInLambdas_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/destructuringInLambdas_ERR.kt");
         }
 
         @TestMetadata("DocCommentAfterFileAnnotations.kt")
         public void testDocCommentAfterFileAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentAfterFileAnnotations.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DocCommentAfterFileAnnotations.kt");
         }
 
         @TestMetadata("DocCommentForFirstDeclaration.kt")
         public void testDocCommentForFirstDeclaration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentForFirstDeclaration.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DocCommentForFirstDeclaration.kt");
         }
 
         @TestMetadata("DocCommentOnPackageDirectiveLine.kt")
         public void testDocCommentOnPackageDirectiveLine() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentOnPackageDirectiveLine.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DocCommentOnPackageDirectiveLine.kt");
         }
 
         @TestMetadata("DocCommentsBinding.kt")
         public void testDocCommentsBinding() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentsBinding.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DocCommentsBinding.kt");
         }
 
         @TestMetadata("DoubleColon.kt")
         public void testDoubleColon() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DoubleColon.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DoubleColon.kt");
         }
 
         @TestMetadata("DoubleColonWhitespaces.kt")
         public void testDoubleColonWhitespaces() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DoubleColonWhitespaces.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DoubleColonWhitespaces.kt");
         }
 
         @TestMetadata("DoubleColon_ERR.kt")
         public void testDoubleColon_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DoubleColon_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DoubleColon_ERR.kt");
         }
 
         @TestMetadata("DuplicateAccessor.kt")
         public void testDuplicateAccessor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DuplicateAccessor.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DuplicateAccessor.kt");
         }
 
         @TestMetadata("DynamicReceiver.kt")
         public void testDynamicReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DynamicReceiver.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DynamicReceiver.kt");
         }
 
         @TestMetadata("DynamicSoftKeyword.kt")
         public void testDynamicSoftKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DynamicSoftKeyword.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DynamicSoftKeyword.kt");
         }
 
         @TestMetadata("DynamicTypes.kt")
         public void testDynamicTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/DynamicTypes.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/DynamicTypes.kt");
         }
 
         @TestMetadata("EOLsInComments.kt")
         public void testEOLsInComments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EOLsInComments.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EOLsInComments.kt");
         }
 
         @TestMetadata("EOLsOnRollback.kt")
         public void testEOLsOnRollback() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EOLsOnRollback.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EOLsOnRollback.kt");
         }
 
         @TestMetadata("EmptyFile.kt")
         public void testEmptyFile() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EmptyFile.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EmptyFile.kt");
         }
 
         @TestMetadata("EmptyName.kt")
         public void testEmptyName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EmptyName.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EmptyName.kt");
         }
 
         @TestMetadata("EnumCommas.kt")
         public void testEnumCommas() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumCommas.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumCommas.kt");
         }
 
         @TestMetadata("EnumEntryCommaAnnotatedMember.kt")
         public void testEnumEntryCommaAnnotatedMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaAnnotatedMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntryCommaAnnotatedMember.kt");
         }
 
         @TestMetadata("EnumEntryCommaInlineMember.kt")
         public void testEnumEntryCommaInlineMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaInlineMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntryCommaInlineMember.kt");
         }
 
         @TestMetadata("EnumEntryCommaMember.kt")
         public void testEnumEntryCommaMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntryCommaMember.kt");
         }
 
         @TestMetadata("EnumEntryCommaPublicMember.kt")
         public void testEnumEntryCommaPublicMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaPublicMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntryCommaPublicMember.kt");
         }
 
         @TestMetadata("EnumEntrySemicolonInlineMember.kt")
         public void testEnumEntrySemicolonInlineMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySemicolonInlineMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntrySemicolonInlineMember.kt");
         }
 
         @TestMetadata("EnumEntrySemicolonMember.kt")
         public void testEnumEntrySemicolonMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySemicolonMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntrySemicolonMember.kt");
         }
 
         @TestMetadata("EnumEntrySpaceInlineMember.kt")
         public void testEnumEntrySpaceInlineMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySpaceInlineMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntrySpaceInlineMember.kt");
         }
 
         @TestMetadata("EnumEntrySpaceMember.kt")
         public void testEnumEntrySpaceMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySpaceMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntrySpaceMember.kt");
         }
 
         @TestMetadata("EnumEntryTwoCommas.kt")
         public void testEnumEntryTwoCommas() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryTwoCommas.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumEntryTwoCommas.kt");
         }
 
         @TestMetadata("EnumIn.kt")
         public void testEnumIn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumIn.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumIn.kt");
         }
 
         @TestMetadata("EnumInline.kt")
         public void testEnumInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumInline.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumInline.kt");
         }
 
         @TestMetadata("EnumInlinePublic.kt")
         public void testEnumInlinePublic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumInlinePublic.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumInlinePublic.kt");
         }
 
         @TestMetadata("EnumMissingName.kt")
         public void testEnumMissingName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumMissingName.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumMissingName.kt");
         }
 
         @TestMetadata("EnumOldConstructorSyntax.kt")
         public void testEnumOldConstructorSyntax() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumOldConstructorSyntax.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumOldConstructorSyntax.kt");
         }
 
         @TestMetadata("EnumShortCommas.kt")
         public void testEnumShortCommas() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumShortCommas.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumShortCommas.kt");
         }
 
         @TestMetadata("EnumShortWithOverload.kt")
         public void testEnumShortWithOverload() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumShortWithOverload.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumShortWithOverload.kt");
         }
 
         @TestMetadata("EnumWithAnnotationKeyword.kt")
         public void testEnumWithAnnotationKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/EnumWithAnnotationKeyword.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/EnumWithAnnotationKeyword.kt");
         }
 
         @TestMetadata("Enums.kt")
         public void testEnums() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Enums.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Enums.kt");
         }
 
         @TestMetadata("Expressions_ERR.kt")
         public void testExpressions_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Expressions_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Expressions_ERR.kt");
         }
 
         @TestMetadata("ExtensionsWithQNReceiver.kt")
         public void testExtensionsWithQNReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ExtensionsWithQNReceiver.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ExtensionsWithQNReceiver.kt");
         }
 
         @TestMetadata("FileStart_ERR.kt")
         public void testFileStart_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FileStart_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FileStart_ERR.kt");
         }
 
         @TestMetadata("FloatingPointLiteral.kt")
         public void testFloatingPointLiteral() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FloatingPointLiteral.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FloatingPointLiteral.kt");
         }
 
         @TestMetadata("ForWithMultiDecl.kt")
         public void testForWithMultiDecl() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ForWithMultiDecl.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ForWithMultiDecl.kt");
         }
 
         @TestMetadata("FunctionCalls.kt")
         public void testFunctionCalls() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionCalls.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionCalls.kt");
         }
 
         @TestMetadata("FunctionExpressions.kt")
         public void testFunctionExpressions() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionExpressions.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionExpressions.kt");
         }
 
         @TestMetadata("FunctionExpressions_ERR.kt")
         public void testFunctionExpressions_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionExpressions_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionExpressions_ERR.kt");
         }
 
         @TestMetadata("FunctionLiterals.kt")
         public void testFunctionLiterals() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionLiterals.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionLiterals.kt");
         }
 
         @TestMetadata("FunctionLiterals_ERR.kt")
         public void testFunctionLiterals_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionLiterals_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionLiterals_ERR.kt");
         }
 
         @TestMetadata("FunctionNoParameterList.kt")
         public void testFunctionNoParameterList() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionNoParameterList.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionNoParameterList.kt");
         }
 
         @TestMetadata("FunctionTypes.kt")
         public void testFunctionTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionTypes.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionTypes.kt");
         }
 
         @TestMetadata("FunctionTypes_ERR.kt")
         public void testFunctionTypes_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionTypes_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionTypes_ERR.kt");
         }
 
         @TestMetadata("Functions.kt")
         public void testFunctions() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Functions.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Functions.kt");
         }
 
         @TestMetadata("FunctionsWithoutName.kt")
         public void testFunctionsWithoutName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionsWithoutName.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionsWithoutName.kt");
         }
 
         @TestMetadata("FunctionsWithoutName_ERR.kt")
         public void testFunctionsWithoutName_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/FunctionsWithoutName_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/FunctionsWithoutName_ERR.kt");
         }
 
         @TestMetadata("Functions_ERR.kt")
         public void testFunctions_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Functions_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Functions_ERR.kt");
         }
 
         @TestMetadata("HangOnLonelyModifier.kt")
         public void testHangOnLonelyModifier() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/HangOnLonelyModifier.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/HangOnLonelyModifier.kt");
         }
 
         @TestMetadata("IfWithPropery.kt")
         public void testIfWithPropery() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/IfWithPropery.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/IfWithPropery.kt");
         }
 
         @TestMetadata("ImportSoftKW.kt")
         public void testImportSoftKW() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ImportSoftKW.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ImportSoftKW.kt");
         }
 
         @TestMetadata("Imports.kt")
         public void testImports() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Imports.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Imports.kt");
         }
 
         @TestMetadata("Imports_ERR.kt")
         public void testImports_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Imports_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Imports_ERR.kt");
         }
 
         @TestMetadata("IncompleteFunctionLiteral.kt")
         public void testIncompleteFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/IncompleteFunctionLiteral.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/IncompleteFunctionLiteral.kt");
         }
 
         @TestMetadata("Inner.kt")
         public void testInner() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Inner.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Inner.kt");
         }
 
         @TestMetadata("IntegerLiteral.kt")
         public void testIntegerLiteral() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/IntegerLiteral.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/IntegerLiteral.kt");
         }
 
         @TestMetadata("Interface.kt")
         public void testInterface() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Interface.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Interface.kt");
         }
 
         @TestMetadata("InterfaceWithEnumKeyword.kt")
         public void testInterfaceWithEnumKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/InterfaceWithEnumKeyword.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/InterfaceWithEnumKeyword.kt");
         }
 
         @TestMetadata("Labels.kt")
         public void testLabels() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Labels.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Labels.kt");
         }
 
         @TestMetadata("LineCommentAfterFileAnnotations.kt")
         public void testLineCommentAfterFileAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/LineCommentAfterFileAnnotations.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/LineCommentAfterFileAnnotations.kt");
         }
 
         @TestMetadata("LineCommentForFirstDeclaration.kt")
         public void testLineCommentForFirstDeclaration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/LineCommentForFirstDeclaration.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/LineCommentForFirstDeclaration.kt");
         }
 
         @TestMetadata("LineCommentsInBlock.kt")
         public void testLineCommentsInBlock() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/LineCommentsInBlock.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/LineCommentsInBlock.kt");
         }
 
         @TestMetadata("LocalDeclarations.kt")
         public void testLocalDeclarations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/LocalDeclarations.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/LocalDeclarations.kt");
         }
 
         @TestMetadata("LongPackageName.kt")
         public void testLongPackageName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/LongPackageName.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/LongPackageName.kt");
         }
 
         @TestMetadata("ModifierAsSelector.kt")
         public void testModifierAsSelector() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ModifierAsSelector.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ModifierAsSelector.kt");
         }
 
         @TestMetadata("MultiVariableDeclarations.kt")
         public void testMultiVariableDeclarations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/MultiVariableDeclarations.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/MultiVariableDeclarations.kt");
         }
 
         @TestMetadata("NamedClassObject.kt")
         public void testNamedClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/NamedClassObject.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/NamedClassObject.kt");
         }
 
         @TestMetadata("namelessObjectAsEnumMember.kt")
         public void testNamelessObjectAsEnumMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/namelessObjectAsEnumMember.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/namelessObjectAsEnumMember.kt");
         }
 
         @TestMetadata("NestedComments.kt")
         public void testNestedComments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/NestedComments.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/NestedComments.kt");
         }
 
         @TestMetadata("NewLinesValidOperations.kt")
         public void testNewLinesValidOperations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/NewLinesValidOperations.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/NewLinesValidOperations.kt");
         }
 
         @TestMetadata("NewlinesInParentheses.kt")
         public void testNewlinesInParentheses() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/NewlinesInParentheses.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/NewlinesInParentheses.kt");
         }
 
         @TestMetadata("NonTypeBeforeDotInBaseClass.kt")
         public void testNonTypeBeforeDotInBaseClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/NonTypeBeforeDotInBaseClass.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/NonTypeBeforeDotInBaseClass.kt");
         }
 
         @TestMetadata("NotIsAndNotIn.kt")
         public void testNotIsAndNotIn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/NotIsAndNotIn.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/NotIsAndNotIn.kt");
         }
 
         @TestMetadata("ObjectLiteralAsStatement.kt")
         public void testObjectLiteralAsStatement() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ObjectLiteralAsStatement.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ObjectLiteralAsStatement.kt");
         }
 
         @TestMetadata("ParameterNameMising.kt")
         public void testParameterNameMising() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ParameterNameMising.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ParameterNameMising.kt");
         }
 
         @TestMetadata("ParameterType.kt")
         public void testParameterType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ParameterType.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ParameterType.kt");
         }
 
         @TestMetadata("ParameterType_ERR.kt")
         public void testParameterType_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/ParameterType_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/ParameterType_ERR.kt");
         }
 
         @TestMetadata("Precedence.kt")
         public void testPrecedence() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Precedence.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Precedence.kt");
         }
 
         @TestMetadata("PrimaryConstructorModifiers_ERR.kt")
         public void testPrimaryConstructorModifiers_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/PrimaryConstructorModifiers_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/PrimaryConstructorModifiers_ERR.kt");
         }
 
         @TestMetadata("Properties.kt")
         public void testProperties() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Properties.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Properties.kt");
         }
 
         @TestMetadata("PropertiesFollowedByInitializers.kt")
         public void testPropertiesFollowedByInitializers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/PropertiesFollowedByInitializers.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/PropertiesFollowedByInitializers.kt");
         }
 
         @TestMetadata("Properties_ERR.kt")
         public void testProperties_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Properties_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Properties_ERR.kt");
         }
 
         @TestMetadata("PropertyInvokes.kt")
         public void testPropertyInvokes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/PropertyInvokes.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/PropertyInvokes.kt");
         }
 
         @TestMetadata("QuotedIdentifiers.kt")
         public void testQuotedIdentifiers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/QuotedIdentifiers.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/QuotedIdentifiers.kt");
         }
 
         @TestMetadata("Reserved.kt")
         public void testReserved() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Reserved.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Reserved.kt");
         }
 
         @TestMetadata("SemicolonAfterIf.kt")
         public void testSemicolonAfterIf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SemicolonAfterIf.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SemicolonAfterIf.kt");
         }
 
         @TestMetadata("semicolonBetweenDeclarations.kt")
         public void testSemicolonBetweenDeclarations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/semicolonBetweenDeclarations.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/semicolonBetweenDeclarations.kt");
         }
 
         @TestMetadata("SimpleClassMembers.kt")
         public void testSimpleClassMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SimpleClassMembers.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SimpleClassMembers.kt");
         }
 
         @TestMetadata("SimpleClassMembers_ERR.kt")
         public void testSimpleClassMembers_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SimpleClassMembers_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SimpleClassMembers_ERR.kt");
         }
 
         @TestMetadata("SimpleExpressions.kt")
         public void testSimpleExpressions() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SimpleExpressions.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SimpleExpressions.kt");
         }
 
         @TestMetadata("SimpleModifiers.kt")
         public void testSimpleModifiers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SimpleModifiers.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SimpleModifiers.kt");
         }
 
         @TestMetadata("SoftKeywords.kt")
         public void testSoftKeywords() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SoftKeywords.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SoftKeywords.kt");
         }
 
         @TestMetadata("SoftKeywordsInTypeArguments.kt")
         public void testSoftKeywordsInTypeArguments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/SoftKeywordsInTypeArguments.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/SoftKeywordsInTypeArguments.kt");
         }
 
         @TestMetadata("StringTemplates.kt")
         public void testStringTemplates() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/StringTemplates.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/StringTemplates.kt");
         }
 
         @TestMetadata("Super.kt")
         public void testSuper() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/Super.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/Super.kt");
         }
 
         @TestMetadata("TraitConstructor.kt")
         public void testTraitConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TraitConstructor.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TraitConstructor.kt");
         }
 
         @TestMetadata("TripleDot.kt")
         public void testTripleDot() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TripleDot.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TripleDot.kt");
         }
 
         @TestMetadata("TryRecovery.kt")
         public void testTryRecovery() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TryRecovery.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TryRecovery.kt");
         }
 
         @TestMetadata("TypeAlias.kt")
         public void testTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeAlias.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeAlias.kt");
         }
 
         @TestMetadata("TypeAlias_ERR.kt")
         public void testTypeAlias_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeAlias_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeAlias_ERR.kt");
         }
 
         @TestMetadata("TypeConstraints.kt")
         public void testTypeConstraints() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeConstraints.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeConstraints.kt");
         }
 
         @TestMetadata("TypeExpressionAmbiguities_ERR.kt")
         public void testTypeExpressionAmbiguities_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeExpressionAmbiguities_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeExpressionAmbiguities_ERR.kt");
         }
 
         @TestMetadata("TypeModifiers.kt")
         public void testTypeModifiers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeModifiers.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeModifiers.kt");
         }
 
         @TestMetadata("TypeModifiersParenthesized.kt")
         public void testTypeModifiersParenthesized() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeModifiersParenthesized.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeModifiersParenthesized.kt");
         }
 
         @TestMetadata("TypeModifiers_ERR.kt")
         public void testTypeModifiers_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeModifiers_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeModifiers_ERR.kt");
         }
 
         @TestMetadata("TypeParametersBeforeName.kt")
         public void testTypeParametersBeforeName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypeParametersBeforeName.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypeParametersBeforeName.kt");
         }
 
         @TestMetadata("TypealiasIsKeyword.kt")
         public void testTypealiasIsKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/TypealiasIsKeyword.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/TypealiasIsKeyword.kt");
         }
 
         @TestMetadata("When.kt")
         public void testWhen() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/When.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/When.kt");
         }
 
         @TestMetadata("When_ERR.kt")
         public void testWhen_ERR() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/psi/When_ERR.kt", this::doParsingTest);
+            KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/When_ERR.kt");
         }
 
         @TestMetadata("compiler/testData/psi/annotation")
@@ -717,67 +717,67 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("AnnotatedExpressions.kt")
             public void testAnnotatedExpressions() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/AnnotatedExpressions.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/AnnotatedExpressions.kt");
             }
 
             @TestMetadata("Annotations.kt")
             public void testAnnotations() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/Annotations.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/Annotations.kt");
             }
 
             @TestMetadata("annotationsOnNullableTypes.kt")
             public void testAnnotationsOnNullableTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/annotationsOnNullableTypes.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/annotationsOnNullableTypes.kt");
             }
 
             @TestMetadata("annotationsOnParenthesizedTypes.kt")
             public void testAnnotationsOnParenthesizedTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/annotationsOnParenthesizedTypes.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/annotationsOnParenthesizedTypes.kt");
             }
 
             @TestMetadata("AnnotationsOnPatterns.kt")
             public void testAnnotationsOnPatterns() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/AnnotationsOnPatterns.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/AnnotationsOnPatterns.kt");
             }
 
             @TestMetadata("Annotations_ERR.kt")
             public void testAnnotations_ERR() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/Annotations_ERR.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/Annotations_ERR.kt");
             }
 
             @TestMetadata("forParameters.kt")
             public void testForParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/forParameters.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/forParameters.kt");
             }
 
             @TestMetadata("lambda.kt")
             public void testLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/lambda.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/lambda.kt");
             }
 
             @TestMetadata("lambdaRecovery.kt")
             public void testLambdaRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/lambdaRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/lambdaRecovery.kt");
             }
 
             @TestMetadata("multiDeclaration.kt")
             public void testMultiDeclaration() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/multiDeclaration.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/multiDeclaration.kt");
             }
 
             @TestMetadata("noParameterYet.kt")
             public void testNoParameterYet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/noParameterYet.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/noParameterYet.kt");
             }
 
             @TestMetadata("oldAnnotationsRecovery.kt")
             public void testOldAnnotationsRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/oldAnnotationsRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/oldAnnotationsRecovery.kt");
             }
 
             @TestMetadata("ShortAnnotations.kt")
             public void testShortAnnotations() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/annotation/ShortAnnotations.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/ShortAnnotations.kt");
             }
 
             @TestMetadata("compiler/testData/psi/annotation/at")
@@ -790,62 +790,62 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("annotationAtFileStart.kt")
                 public void testAnnotationAtFileStart() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/annotationAtFileStart.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/annotationAtFileStart.kt");
                 }
 
                 @TestMetadata("annotationValueArgumentsAmbiguity.kt")
                 public void testAnnotationValueArgumentsAmbiguity() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/annotationValueArgumentsAmbiguity.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/annotationValueArgumentsAmbiguity.kt");
                 }
 
                 @TestMetadata("blockLevelExpressions.kt")
                 public void testBlockLevelExpressions() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/blockLevelExpressions.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/blockLevelExpressions.kt");
                 }
 
                 @TestMetadata("blockLevelExpressionsNoNewLine.kt")
                 public void testBlockLevelExpressionsNoNewLine() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/blockLevelExpressionsNoNewLine.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/blockLevelExpressionsNoNewLine.kt");
                 }
 
                 @TestMetadata("danglingBlockLevelAnnotations.kt")
                 public void testDanglingBlockLevelAnnotations() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/danglingBlockLevelAnnotations.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/danglingBlockLevelAnnotations.kt");
                 }
 
                 @TestMetadata("declarationsJustAtTyped.kt")
                 public void testDeclarationsJustAtTyped() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/declarationsJustAtTyped.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/declarationsJustAtTyped.kt");
                 }
 
                 @TestMetadata("enumEntries.kt")
                 public void testEnumEntries() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/enumEntries.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/enumEntries.kt");
                 }
 
                 @TestMetadata("expressionJustAtTyped.kt")
                 public void testExpressionJustAtTyped() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/expressionJustAtTyped.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/expressionJustAtTyped.kt");
                 }
 
                 @TestMetadata("modifierAtFileStart.kt")
                 public void testModifierAtFileStart() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/modifierAtFileStart.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/modifierAtFileStart.kt");
                 }
 
                 @TestMetadata("primaryConstructor.kt")
                 public void testPrimaryConstructor() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/primaryConstructor.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/primaryConstructor.kt");
                 }
 
                 @TestMetadata("validDeclarations.kt")
                 public void testValidDeclarations() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/validDeclarations.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/validDeclarations.kt");
                 }
 
                 @TestMetadata("validExpressions.kt")
                 public void testValidExpressions() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/validExpressions.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/at/validExpressions.kt");
                 }
             }
 
@@ -859,12 +859,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("basic.kt")
                 public void testBasic() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/list/basic.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/list/basic.kt");
                 }
 
                 @TestMetadata("recovery.kt")
                 public void testRecovery() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/list/recovery.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/list/recovery.kt");
                 }
             }
 
@@ -878,12 +878,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("newModifiers.kt")
                 public void testNewModifiers() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/modifiersMigration/newModifiers.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/modifiersMigration/newModifiers.kt");
                 }
 
                 @TestMetadata("oldUsages.kt")
                 public void testOldUsages() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/modifiersMigration/oldUsages.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/modifiersMigration/oldUsages.kt");
                 }
             }
 
@@ -897,22 +897,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("annotationAsArg.kt")
                 public void testAnnotationAsArg() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/annotationAsArg.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/options/annotationAsArg.kt");
                 }
 
                 @TestMetadata("annotationAsArgComplex.kt")
                 public void testAnnotationAsArgComplex() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/annotationAsArgComplex.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/options/annotationAsArgComplex.kt");
                 }
 
                 @TestMetadata("java.kt")
                 public void testJava() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/java.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/options/java.kt");
                 }
 
                 @TestMetadata("local.kt")
                 public void testLocal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/local.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/options/local.kt");
                 }
             }
 
@@ -934,27 +934,27 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("delegate.kt")
                     public void testDelegate() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/delegate.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onField/delegate.kt");
                     }
 
                     @TestMetadata("fqName.kt")
                     public void testFqName() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/fqName.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onField/fqName.kt");
                     }
 
                     @TestMetadata("inWrongPlace.kt")
                     public void testInWrongPlace() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/inWrongPlace.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onField/inWrongPlace.kt");
                     }
 
                     @TestMetadata("manyInOneAnnotationBlock.kt")
                     public void testManyInOneAnnotationBlock() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/manyInOneAnnotationBlock.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onField/manyInOneAnnotationBlock.kt");
                     }
 
                     @TestMetadata("simpleFieldAnnotation.kt")
                     public void testSimpleFieldAnnotation() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/simpleFieldAnnotation.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onField/simpleFieldAnnotation.kt");
                     }
                 }
 
@@ -968,42 +968,42 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("fileAnnotationInWrongPlace.kt")
                     public void testFileAnnotationInWrongPlace() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/fileAnnotationInWrongPlace.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/fileAnnotationInWrongPlace.kt");
                     }
 
                     @TestMetadata("manyAnnotationBlocks.kt")
                     public void testManyAnnotationBlocks() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/manyAnnotationBlocks.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/manyAnnotationBlocks.kt");
                     }
 
                     @TestMetadata("manyInOneAnnotationBlock.kt")
                     public void testManyInOneAnnotationBlock() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/manyInOneAnnotationBlock.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/manyInOneAnnotationBlock.kt");
                     }
 
                     @TestMetadata("nonFIleAnnotationBeforePackage.kt")
                     public void testNonFIleAnnotationBeforePackage() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/nonFIleAnnotationBeforePackage.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/nonFIleAnnotationBeforePackage.kt");
                     }
 
                     @TestMetadata("single.kt")
                     public void testSingle() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/single.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/single.kt");
                     }
 
                     @TestMetadata("withoutFileAnnotationAndPackageDeclaration.kt")
                     public void testWithoutFileAnnotationAndPackageDeclaration() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/withoutFileAnnotationAndPackageDeclaration.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/withoutFileAnnotationAndPackageDeclaration.kt");
                     }
 
                     @TestMetadata("withoutPackage.kt")
                     public void testWithoutPackage() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/withoutPackage.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/withoutPackage.kt");
                     }
 
                     @TestMetadata("withoutPackageWithSimpleAnnotation.kt")
                     public void testWithoutPackageWithSimpleAnnotation() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/withoutPackageWithSimpleAnnotation.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onFile/withoutPackageWithSimpleAnnotation.kt");
                     }
                 }
 
@@ -1017,17 +1017,17 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("inWrongPlace.kt")
                     public void testInWrongPlace() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onGetSetSparam/inWrongPlace.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onGetSetSparam/inWrongPlace.kt");
                     }
 
                     @TestMetadata("simple.kt")
                     public void testSimple() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onGetSetSparam/simple.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onGetSetSparam/simple.kt");
                     }
 
                     @TestMetadata("twoAnnotationLists.kt")
                     public void testTwoAnnotationLists() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onGetSetSparam/twoAnnotationLists.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onGetSetSparam/twoAnnotationLists.kt");
                     }
                 }
 
@@ -1041,22 +1041,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("modifiers.kt")
                     public void testModifiers() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/modifiers.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onParam/modifiers.kt");
                     }
 
                     @TestMetadata("recovery.kt")
                     public void testRecovery() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/recovery.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onParam/recovery.kt");
                     }
 
                     @TestMetadata("simple.kt")
                     public void testSimple() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/simple.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onParam/simple.kt");
                     }
 
                     @TestMetadata("targetExpected.kt")
                     public void testTargetExpected() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/targetExpected.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/annotation/targeted/onParam/targetExpected.kt");
                     }
                 }
             }
@@ -1072,72 +1072,72 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("AnonymousObjects.kt")
             public void testAnonymousObjects() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/AnonymousObjects.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/AnonymousObjects.kt");
             }
 
             @TestMetadata("BinaryTree.kt")
             public void testBinaryTree() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/BinaryTree.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/BinaryTree.kt");
             }
 
             @TestMetadata("BitArith.kt")
             public void testBitArith() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/BitArith.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/BitArith.kt");
             }
 
             @TestMetadata("Builder.kt")
             public void testBuilder() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/Builder.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/Builder.kt");
             }
 
             @TestMetadata("Color.kt")
             public void testColor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/Color.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/Color.kt");
             }
 
             @TestMetadata("FunctionsAndTypes.kt")
             public void testFunctionsAndTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/FunctionsAndTypes.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/FunctionsAndTypes.kt");
             }
 
             @TestMetadata("Graph.kt")
             public void testGraph() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/Graph.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/Graph.kt");
             }
 
             @TestMetadata("IPushPop.kt")
             public void testIPushPop() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/IPushPop.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/IPushPop.kt");
             }
 
             @TestMetadata("LINQ.kt")
             public void testLINQ() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/LINQ.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/LINQ.kt");
             }
 
             @TestMetadata("Queue.kt")
             public void testQueue() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/Queue.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/Queue.kt");
             }
 
             @TestMetadata("Stack.kt")
             public void testStack() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/Stack.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/Stack.kt");
             }
 
             @TestMetadata("UnionFind.kt")
             public void testUnionFind() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/UnionFind.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/UnionFind.kt");
             }
 
             @TestMetadata("UpdateOperation.kt")
             public void testUpdateOperation() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/UpdateOperation.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/UpdateOperation.kt");
             }
 
             @TestMetadata("With.kt")
             public void testWith() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/examples/With.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/With.kt");
             }
 
             @TestMetadata("compiler/testData/psi/examples/array")
@@ -1150,7 +1150,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("MutableArray.kt")
                 public void testMutableArray() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/array/MutableArray.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/array/MutableArray.kt");
                 }
             }
 
@@ -1164,62 +1164,62 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("ArrayList.kt")
                 public void testArrayList() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/ArrayList.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/ArrayList.kt");
                 }
 
                 @TestMetadata("HashMap.kt")
                 public void testHashMap() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/HashMap.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/HashMap.kt");
                 }
 
                 @TestMetadata("IIterable.kt")
                 public void testIIterable() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IIterable.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IIterable.kt");
                 }
 
                 @TestMetadata("IIterator.kt")
                 public void testIIterator() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IIterator.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IIterator.kt");
                 }
 
                 @TestMetadata("IList.kt")
                 public void testIList() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IList.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IList.kt");
                 }
 
                 @TestMetadata("IMutableIterable.kt")
                 public void testIMutableIterable() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableIterable.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IMutableIterable.kt");
                 }
 
                 @TestMetadata("IMutableIterator.kt")
                 public void testIMutableIterator() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableIterator.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IMutableIterator.kt");
                 }
 
                 @TestMetadata("IMutableList.kt")
                 public void testIMutableList() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableList.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IMutableList.kt");
                 }
 
                 @TestMetadata("IMutableSet.kt")
                 public void testIMutableSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableSet.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/IMutableSet.kt");
                 }
 
                 @TestMetadata("ISet.kt")
                 public void testISet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/ISet.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/ISet.kt");
                 }
 
                 @TestMetadata("ISized.kt")
                 public void testISized() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/ISized.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/ISized.kt");
                 }
 
                 @TestMetadata("LinkedList.kt")
                 public void testLinkedList() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/LinkedList.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/collections/LinkedList.kt");
                 }
             }
 
@@ -1233,7 +1233,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("IOSamples.kt")
                 public void testIOSamples() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/io/IOSamples.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/io/IOSamples.kt");
                 }
             }
 
@@ -1247,7 +1247,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("IMap.kt")
                 public void testIMap() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/map/IMap.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/map/IMap.kt");
                 }
             }
 
@@ -1261,17 +1261,17 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("BinaryHeap.kt")
                 public void testBinaryHeap() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/priorityqueues/BinaryHeap.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/priorityqueues/BinaryHeap.kt");
                 }
 
                 @TestMetadata("IPriorityQueue.kt")
                 public void testIPriorityQueue() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/priorityqueues/IPriorityQueue.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/priorityqueues/IPriorityQueue.kt");
                 }
 
                 @TestMetadata("PriorityQueueAsPushPop.kt")
                 public void testPriorityQueueAsPushPop() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/priorityqueues/PriorityQueueAsPushPop.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/priorityqueues/PriorityQueueAsPushPop.kt");
                 }
             }
 
@@ -1285,12 +1285,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("Comparison.kt")
                 public void testComparison() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/util/Comparison.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/util/Comparison.kt");
                 }
 
                 @TestMetadata("IComparable.kt")
                 public void testIComparable() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/examples/util/IComparable.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/examples/util/IComparable.kt");
                 }
             }
         }
@@ -1305,37 +1305,37 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("FunctionTypesWithFunctionReceivers.kt")
             public void testFunctionTypesWithFunctionReceivers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionTypesWithFunctionReceivers.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/FunctionTypesWithFunctionReceivers.kt");
             }
 
             @TestMetadata("FunctionsWithFunctionReceivers.kt")
             public void testFunctionsWithFunctionReceivers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceivers.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceivers.kt");
             }
 
             @TestMetadata("FunctionsWithFunctionReceiversAnnotations.kt")
             public void testFunctionsWithFunctionReceiversAnnotations() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversAnnotations.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversAnnotations.kt");
             }
 
             @TestMetadata("FunctionsWithFunctionReceiversRecovery.kt")
             public void testFunctionsWithFunctionReceiversRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversRecovery.kt");
             }
 
             @TestMetadata("PropertiesWithFunctionReceivers.kt")
             public void testPropertiesWithFunctionReceivers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceivers.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceivers.kt");
             }
 
             @TestMetadata("PropertiesWithFunctionReceiversAnnotations.kt")
             public void testPropertiesWithFunctionReceiversAnnotations() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversAnnotations.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversAnnotations.kt");
             }
 
             @TestMetadata("PropertiesWithFunctionReceiversRecovery.kt")
             public void testPropertiesWithFunctionReceiversRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversRecovery.kt");
             }
         }
 
@@ -1349,22 +1349,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("functionLiterals.kt")
             public void testFunctionLiterals() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/functionLiterals.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/greatSyntacticShift/functionLiterals.kt");
             }
 
             @TestMetadata("functionTypes.kt")
             public void testFunctionTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/functionTypes.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/greatSyntacticShift/functionTypes.kt");
             }
 
             @TestMetadata("FunctionTypesAsArguments.kt")
             public void testFunctionTypesAsArguments() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/FunctionTypesAsArguments.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/greatSyntacticShift/FunctionTypesAsArguments.kt");
             }
 
             @TestMetadata("nullableTypes.kt")
             public void testNullableTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/nullableTypes.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/greatSyntacticShift/nullableTypes.kt");
             }
         }
 
@@ -1378,112 +1378,112 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("AtTags.kt")
             public void testAtTags() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/AtTags.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/AtTags.kt");
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile1.kt")
             public void testDocCommentAtBeginningOfFile1() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile1.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile1.kt");
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile2.kt")
             public void testDocCommentAtBeginningOfFile2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile2.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile2.kt");
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile3.kt")
             public void testDocCommentAtBeginningOfFile3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile3.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile3.kt");
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile4.kt")
             public void testDocCommentAtBeginningOfFile4() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile4.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile4.kt");
             }
 
             @TestMetadata("EndOnLeadingAsterisks.kt")
             public void testEndOnLeadingAsterisks() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/EndOnLeadingAsterisks.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/EndOnLeadingAsterisks.kt");
             }
 
             @TestMetadata("EndRightAfterText.kt")
             public void testEndRightAfterText() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/EndRightAfterText.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/EndRightAfterText.kt");
             }
 
             @TestMetadata("HttpLink.kt")
             public void testHttpLink() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/HttpLink.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/HttpLink.kt");
             }
 
             @TestMetadata("Incomplete.kt")
             public void testIncomplete() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Incomplete.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/Incomplete.kt");
             }
 
             @TestMetadata("Markdown.kt")
             public void testMarkdown() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Markdown.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/Markdown.kt");
             }
 
             @TestMetadata("MarkdownLinkWithError.kt")
             public void testMarkdownLinkWithError() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/MarkdownLinkWithError.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/MarkdownLinkWithError.kt");
             }
 
             @TestMetadata("MarkdownLinkWithLabel.kt")
             public void testMarkdownLinkWithLabel() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/MarkdownLinkWithLabel.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/MarkdownLinkWithLabel.kt");
             }
 
             @TestMetadata("MarkdownQualifiedName.kt")
             public void testMarkdownQualifiedName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/MarkdownQualifiedName.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/MarkdownQualifiedName.kt");
             }
 
             @TestMetadata("ParamTag.kt")
             public void testParamTag() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/ParamTag.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/ParamTag.kt");
             }
 
             @TestMetadata("ParamTagAtStart.kt")
             public void testParamTagAtStart() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/ParamTagAtStart.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/ParamTagAtStart.kt");
             }
 
             @TestMetadata("ReturnWithBrackets.kt")
             public void testReturnWithBrackets() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/ReturnWithBrackets.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/ReturnWithBrackets.kt");
             }
 
             @TestMetadata("Sections.kt")
             public void testSections() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Sections.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/Sections.kt");
             }
 
             @TestMetadata("SeeEmpty.kt")
             public void testSeeEmpty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/SeeEmpty.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/SeeEmpty.kt");
             }
 
             @TestMetadata("SeeLink.kt")
             public void testSeeLink() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/SeeLink.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/SeeLink.kt");
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Simple.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/Simple.kt");
             }
 
             @TestMetadata("TextRightAfterLeadAsterisks.kt")
             public void testTextRightAfterLeadAsterisks() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/TextRightAfterLeadAsterisks.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/TextRightAfterLeadAsterisks.kt");
             }
 
             @TestMetadata("TwoTags.kt")
             public void testTwoTags() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/TwoTags.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/kdoc/TwoTags.kt");
             }
         }
 
@@ -1497,22 +1497,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/basic.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/newLabels/basic.kt");
             }
 
             @TestMetadata("oldSyntaxExpressions.kt")
             public void testOldSyntaxExpressions() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/oldSyntaxExpressions.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/newLabels/oldSyntaxExpressions.kt");
             }
 
             @TestMetadata("recovery.kt")
             public void testRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/recovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/newLabels/recovery.kt");
             }
 
             @TestMetadata("spaceBeforeLabelReference.kt")
             public void testSpaceBeforeLabelReference() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/spaceBeforeLabelReference.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/newLabels/spaceBeforeLabelReference.kt");
             }
         }
 
@@ -1526,57 +1526,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("PackageBlockFirst.kt")
             public void testPackageBlockFirst() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageBlockFirst.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageBlockFirst.kt");
             }
 
             @TestMetadata("PackageLeadingDotDoubleID.kt")
             public void testPackageLeadingDotDoubleID() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLeadingDotDoubleID.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageLeadingDotDoubleID.kt");
             }
 
             @TestMetadata("PackageLongNameBetweenDots.kt")
             public void testPackageLongNameBetweenDots() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameBetweenDots.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageLongNameBetweenDots.kt");
             }
 
             @TestMetadata("PackageLongNameDoubleID.kt")
             public void testPackageLongNameDoubleID() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameDoubleID.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageLongNameDoubleID.kt");
             }
 
             @TestMetadata("PackageLongNameLeadingDot.kt")
             public void testPackageLongNameLeadingDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameLeadingDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageLongNameLeadingDot.kt");
             }
 
             @TestMetadata("PackageLongNameLeadingDoubleDot.kt")
             public void testPackageLongNameLeadingDoubleDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameLeadingDoubleDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageLongNameLeadingDoubleDot.kt");
             }
 
             @TestMetadata("PackageModifiers.kt")
             public void testPackageModifiers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageModifiers.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageModifiers.kt");
             }
 
             @TestMetadata("PackageNameDoubleDot.kt")
             public void testPackageNameDoubleDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageNameDoubleDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageNameDoubleDot.kt");
             }
 
             @TestMetadata("PackageNameJustDot.kt")
             public void testPackageNameJustDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageNameJustDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageNameJustDot.kt");
             }
 
             @TestMetadata("PackageSimpleNameLeadingDot.kt")
             public void testPackageSimpleNameLeadingDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageSimpleNameLeadingDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageSimpleNameLeadingDot.kt");
             }
 
             @TestMetadata("PackageSimpleNameLeadingDoubleDot.kt")
             public void testPackageSimpleNameLeadingDoubleDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageSimpleNameLeadingDoubleDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/packages/PackageSimpleNameLeadingDoubleDot.kt");
             }
         }
 
@@ -1590,52 +1590,52 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("Array.kt")
             public void testArray() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Array.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/Array.kt");
             }
 
             @TestMetadata("BeforeDot.kt")
             public void testBeforeDot() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/BeforeDot.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/BeforeDot.kt");
             }
 
             @TestMetadata("Collections.kt")
             public void testCollections() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Collections.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/Collections.kt");
             }
 
             @TestMetadata("FunctionsNotPlatform.kt")
             public void testFunctionsNotPlatform() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/FunctionsNotPlatform.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/FunctionsNotPlatform.kt");
             }
 
             @TestMetadata("MapEntry.kt")
             public void testMapEntry() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/MapEntry.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/MapEntry.kt");
             }
 
             @TestMetadata("ParenthesizedNotPlatform.kt")
             public void testParenthesizedNotPlatform() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/ParenthesizedNotPlatform.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/ParenthesizedNotPlatform.kt");
             }
 
             @TestMetadata("Qualified.kt")
             public void testQualified() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Qualified.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/Qualified.kt");
             }
 
             @TestMetadata("QualifiedCollections.kt")
             public void testQualifiedCollections() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/QualifiedCollections.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/QualifiedCollections.kt");
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Simple.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/Simple.kt");
             }
 
             @TestMetadata("WrongWordInParentheses.kt")
             public void testWrongWordInParentheses() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/WrongWordInParentheses.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/platformTypesRecovery/WrongWordInParentheses.kt");
             }
         }
 
@@ -1649,27 +1649,27 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("local.kt")
             public void testLocal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/local.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/primaryConstructor/local.kt");
             }
 
             @TestMetadata("nestedClassAmbiguity.kt")
             public void testNestedClassAmbiguity() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/nestedClassAmbiguity.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/primaryConstructor/nestedClassAmbiguity.kt");
             }
 
             @TestMetadata("recovery.kt")
             public void testRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/recovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/primaryConstructor/recovery.kt");
             }
 
             @TestMetadata("recoveryNestedClassAmbiguity.kt")
             public void testRecoveryNestedClassAmbiguity() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/recoveryNestedClassAmbiguity.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/primaryConstructor/recoveryNestedClassAmbiguity.kt");
             }
 
             @TestMetadata("valid.kt")
             public void testValid() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/valid.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/primaryConstructor/valid.kt");
             }
         }
 
@@ -1683,57 +1683,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("BracketsInDelegate.kt")
             public void testBracketsInDelegate() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/BracketsInDelegate.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/BracketsInDelegate.kt");
             }
 
             @TestMetadata("DelegateAndInitializer.kt")
             public void testDelegateAndInitializer() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/DelegateAndInitializer.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/DelegateAndInitializer.kt");
             }
 
             @TestMetadata("GetterInSameLine.kt")
             public void testGetterInSameLine() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/GetterInSameLine.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/GetterInSameLine.kt");
             }
 
             @TestMetadata("LocalProperty.kt")
             public void testLocalProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/LocalProperty.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/LocalProperty.kt");
             }
 
             @TestMetadata("OnlyBy.kt")
             public void testOnlyBy() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/OnlyBy.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/OnlyBy.kt");
             }
 
             @TestMetadata("PropertyInClass.kt")
             public void testPropertyInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyInClass.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/PropertyInClass.kt");
             }
 
             @TestMetadata("PropertyWithGetter.kt")
             public void testPropertyWithGetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyWithGetter.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/PropertyWithGetter.kt");
             }
 
             @TestMetadata("PropertyWithInitializer.kt")
             public void testPropertyWithInitializer() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyWithInitializer.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/PropertyWithInitializer.kt");
             }
 
             @TestMetadata("PropertyWithoutTypeRef.kt")
             public void testPropertyWithoutTypeRef() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyWithoutTypeRef.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/PropertyWithoutTypeRef.kt");
             }
 
             @TestMetadata("TopLevelProperty.kt")
             public void testTopLevelProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/TopLevelProperty.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/TopLevelProperty.kt");
             }
 
             @TestMetadata("TwoProperties.kt")
             public void testTwoProperties() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/TwoProperties.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/propertyDelegate/TwoProperties.kt");
             }
         }
 
@@ -1743,7 +1743,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
         public static class Recovery extends AbstractParsingTest {
             @TestMetadata("AbsentLeftHandSide.kt")
             public void testAbsentLeftHandSide() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/AbsentLeftHandSide.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/AbsentLeftHandSide.kt");
             }
 
             public void testAllFilesPresentInRecovery() throws Exception {
@@ -1752,307 +1752,307 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("BareVal.kt")
             public void testBareVal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/BareVal.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/BareVal.kt");
             }
 
             @TestMetadata("BrokenFunctionSuperType.kt")
             public void testBrokenFunctionSuperType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/BrokenFunctionSuperType.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/BrokenFunctionSuperType.kt");
             }
 
             @TestMetadata("CatchKeywordRBrace.kt")
             public void testCatchKeywordRBrace() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/CatchKeywordRBrace.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/CatchKeywordRBrace.kt");
             }
 
             @TestMetadata("CloseBraceAtTopLevel.kt")
             public void testCloseBraceAtTopLevel() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/CloseBraceAtTopLevel.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/CloseBraceAtTopLevel.kt");
             }
 
             @TestMetadata("DeclarationAfterDotSelectorExpected.kt")
             public void testDeclarationAfterDotSelectorExpected() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DeclarationAfterDotSelectorExpected.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/DeclarationAfterDotSelectorExpected.kt");
             }
 
             @TestMetadata("DeclarationAfterIncompleteElvis.kt")
             public void testDeclarationAfterIncompleteElvis() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DeclarationAfterIncompleteElvis.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/DeclarationAfterIncompleteElvis.kt");
             }
 
             @TestMetadata("DoWhileWithEmptyCondition.kt")
             public void testDoWhileWithEmptyCondition() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DoWhileWithEmptyCondition.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/DoWhileWithEmptyCondition.kt");
             }
 
             @TestMetadata("DoWhileWithoutLPar.kt")
             public void testDoWhileWithoutLPar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DoWhileWithoutLPar.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/DoWhileWithoutLPar.kt");
             }
 
             @TestMetadata("ForEmptyParentheses.kt")
             public void testForEmptyParentheses() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForEmptyParentheses.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForEmptyParentheses.kt");
             }
 
             @TestMetadata("ForEmptyWithoutBody.kt")
             public void testForEmptyWithoutBody() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForEmptyWithoutBody.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForEmptyWithoutBody.kt");
             }
 
             @TestMetadata("ForNoBodyBeforeRBrace.kt")
             public void testForNoBodyBeforeRBrace() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForNoBodyBeforeRBrace.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForNoBodyBeforeRBrace.kt");
             }
 
             @TestMetadata("ForRecovery.kt")
             public void testForRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForRecovery.kt");
             }
 
             @TestMetadata("ForWithOnlyOneLParInEOF.kt")
             public void testForWithOnlyOneLParInEOF() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithOnlyOneLParInEOF.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForWithOnlyOneLParInEOF.kt");
             }
 
             @TestMetadata("ForWithoutBodyInEOF.kt")
             public void testForWithoutBodyInEOF() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutBodyInEOF.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForWithoutBodyInEOF.kt");
             }
 
             @TestMetadata("ForWithoutLPar.kt")
             public void testForWithoutLPar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutLPar.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForWithoutLPar.kt");
             }
 
             @TestMetadata("ForWithoutLParInEOF.kt")
             public void testForWithoutLParInEOF() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutLParInEOF.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForWithoutLParInEOF.kt");
             }
 
             @TestMetadata("ForWithoutParamButWithRange.kt")
             public void testForWithoutParamButWithRange() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutParamButWithRange.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForWithoutParamButWithRange.kt");
             }
 
             @TestMetadata("ForWithoutRange.kt")
             public void testForWithoutRange() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutRange.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ForWithoutRange.kt");
             }
 
             @TestMetadata("FunFun.kt")
             public void testFunFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/FunFun.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/FunFun.kt");
             }
 
             @TestMetadata("IfKeywordRBrace.kt")
             public void testIfKeywordRBrace() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IfKeywordRBrace.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IfKeywordRBrace.kt");
             }
 
             @TestMetadata("IfWithEmptyCondition.kt")
             public void testIfWithEmptyCondition() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IfWithEmptyCondition.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IfWithEmptyCondition.kt");
             }
 
             @TestMetadata("IfWithoutLPar.kt")
             public void testIfWithoutLPar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IfWithoutLPar.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IfWithoutLPar.kt");
             }
 
             @TestMetadata("ImportRecovery.kt")
             public void testImportRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ImportRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ImportRecovery.kt");
             }
 
             @TestMetadata("IncompleteAccessor1.kt")
             public void testIncompleteAccessor1() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteAccessor1.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteAccessor1.kt");
             }
 
             @TestMetadata("IncompleteAccessor2.kt")
             public void testIncompleteAccessor2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteAccessor2.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteAccessor2.kt");
             }
 
             @TestMetadata("IncompleteClassDeclaration.kt")
             public void testIncompleteClassDeclaration() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteClassDeclaration.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteClassDeclaration.kt");
             }
 
             @TestMetadata("IncompleteClassTypeParameters.kt")
             public void testIncompleteClassTypeParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteClassTypeParameters.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteClassTypeParameters.kt");
             }
 
             @TestMetadata("IncompleteForRBrace.kt")
             public void testIncompleteForRBrace() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteForRBrace.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteForRBrace.kt");
             }
 
             @TestMetadata("IncompleteFun.kt")
             public void testIncompleteFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteFun.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteFun.kt");
             }
 
             @TestMetadata("IncompleteFunDeclaration.kt")
             public void testIncompleteFunDeclaration() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteFunDeclaration.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteFunDeclaration.kt");
             }
 
             @TestMetadata("IncompleteFunTypeParameters.kt")
             public void testIncompleteFunTypeParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteFunTypeParameters.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteFunTypeParameters.kt");
             }
 
             @TestMetadata("IncompleteTypeParameters.kt")
             public void testIncompleteTypeParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteTypeParameters.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteTypeParameters.kt");
             }
 
             @TestMetadata("IncompleteTypeRefWithPackageKeyword.kt")
             public void testIncompleteTypeRefWithPackageKeyword() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteTypeRefWithPackageKeyword.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteTypeRefWithPackageKeyword.kt");
             }
 
             @TestMetadata("IncompleteValTypeParameters.kt")
             public void testIncompleteValTypeParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteValTypeParameters.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteValTypeParameters.kt");
             }
 
             @TestMetadata("IncompleteWhenElse.kt")
             public void testIncompleteWhenElse() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteWhenElse.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteWhenElse.kt");
             }
 
             @TestMetadata("IncompleteWhere.kt")
             public void testIncompleteWhere() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteWhere.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteWhere.kt");
             }
 
             @TestMetadata("IncompleteWhere2.kt")
             public void testIncompleteWhere2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteWhere2.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/IncompleteWhere2.kt");
             }
 
             @TestMetadata("initRecovery.kt")
             public void testInitRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/initRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/initRecovery.kt");
             }
 
             @TestMetadata("InterfaceInExpressionPosition.kt")
             public void testInterfaceInExpressionPosition() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/InterfaceInExpressionPosition.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/InterfaceInExpressionPosition.kt");
             }
 
             @TestMetadata("InvalidCharAfterPropertyName.kt")
             public void testInvalidCharAfterPropertyName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/InvalidCharAfterPropertyName.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/InvalidCharAfterPropertyName.kt");
             }
 
             @TestMetadata("InvalidCharInSingleLineLambda.kt")
             public void testInvalidCharInSingleLineLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/InvalidCharInSingleLineLambda.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/InvalidCharInSingleLineLambda.kt");
             }
 
             @TestMetadata("kt2172.kt")
             public void testKt2172() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/kt2172.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/kt2172.kt");
             }
 
             @TestMetadata("kt5102.kt")
             public void testKt5102() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/kt5102.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/kt5102.kt");
             }
 
             @TestMetadata("lambdaExpressionInString_1.kt")
             public void testLambdaExpressionInString_1() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/lambdaExpressionInString_1.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/lambdaExpressionInString_1.kt");
             }
 
             @TestMetadata("lambdaExpressionInString_2.kt")
             public void testLambdaExpressionInString_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/lambdaExpressionInString_2.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/lambdaExpressionInString_2.kt");
             }
 
             @TestMetadata("MissingCommaInConstructorValueParameterList.kt")
             public void testMissingCommaInConstructorValueParameterList() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInConstructorValueParameterList.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/MissingCommaInConstructorValueParameterList.kt");
             }
 
             @TestMetadata("MissingCommaInValueArgumentList.kt")
             public void testMissingCommaInValueArgumentList() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInValueArgumentList.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/MissingCommaInValueArgumentList.kt");
             }
 
             @TestMetadata("MissingCommaInValueParameterList.kt")
             public void testMissingCommaInValueParameterList() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInValueParameterList.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/MissingCommaInValueParameterList.kt");
             }
 
             @TestMetadata("MissingCommaInValueParameterListWithValOrVar.kt")
             public void testMissingCommaInValueParameterListWithValOrVar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInValueParameterListWithValOrVar.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/MissingCommaInValueParameterListWithValOrVar.kt");
             }
 
             @TestMetadata("NoArrowInWhen.kt")
             public void testNoArrowInWhen() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/NoArrowInWhen.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/NoArrowInWhen.kt");
             }
 
             @TestMetadata("PackageNewLineRecovery.kt")
             public void testPackageNewLineRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/PackageNewLineRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/PackageNewLineRecovery.kt");
             }
 
             @TestMetadata("PackageRecovery.kt")
             public void testPackageRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/PackageRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/PackageRecovery.kt");
             }
 
             @TestMetadata("SameLineStatementRecovery.kt")
             public void testSameLineStatementRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/SameLineStatementRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/SameLineStatementRecovery.kt");
             }
 
             @TestMetadata("ValNoName.kt")
             public void testValNoName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValNoName.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ValNoName.kt");
             }
 
             @TestMetadata("ValWithNoNameBeforeNextDeclarationWithModifiers.kt")
             public void testValWithNoNameBeforeNextDeclarationWithModifiers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValWithNoNameBeforeNextDeclarationWithModifiers.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ValWithNoNameBeforeNextDeclarationWithModifiers.kt");
             }
 
             @TestMetadata("ValWithNoNameInBlock.kt")
             public void testValWithNoNameInBlock() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValWithNoNameInBlock.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ValWithNoNameInBlock.kt");
             }
 
             @TestMetadata("ValueParameterNoTypeRecovery.kt")
             public void testValueParameterNoTypeRecovery() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValueParameterNoTypeRecovery.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/ValueParameterNoTypeRecovery.kt");
             }
 
             @TestMetadata("WhenWithoutBraces.kt")
             public void testWhenWithoutBraces() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WhenWithoutBraces.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/WhenWithoutBraces.kt");
             }
 
             @TestMetadata("WhileWithEmptyCondition.kt")
             public void testWhileWithEmptyCondition() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WhileWithEmptyCondition.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/WhileWithEmptyCondition.kt");
             }
 
             @TestMetadata("WhileWithoutLPar.kt")
             public void testWhileWithoutLPar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WhileWithoutLPar.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/WhileWithoutLPar.kt");
             }
 
             @TestMetadata("WithWithoutInAndMultideclaration.kt")
             public void testWithWithoutInAndMultideclaration() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WithWithoutInAndMultideclaration.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/WithWithoutInAndMultideclaration.kt");
             }
 
             @TestMetadata("compiler/testData/psi/recovery/objects")
@@ -2073,42 +2073,42 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("ConstructorModifiers.kt")
                     public void testConstructorModifiers() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/ConstructorModifiers.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/ConstructorModifiers.kt");
                     }
 
                     @TestMetadata("EmptyParentheses.kt")
                     public void testEmptyParentheses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/EmptyParentheses.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/EmptyParentheses.kt");
                     }
 
                     @TestMetadata("Everything.kt")
                     public void testEverything() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/Everything.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/Everything.kt");
                     }
 
                     @TestMetadata("FollowedByModifiers.kt")
                     public void testFollowedByModifiers() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/FollowedByModifiers.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/FollowedByModifiers.kt");
                     }
 
                     @TestMetadata("ParametersInParentheses.kt")
                     public void testParametersInParentheses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/ParametersInParentheses.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/ParametersInParentheses.kt");
                     }
 
                     @TestMetadata("TypeParametersAndParentheses.kt")
                     public void testTypeParametersAndParentheses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/TypeParametersAndParentheses.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/TypeParametersAndParentheses.kt");
                     }
 
                     @TestMetadata("TypeParameterss.kt")
                     public void testTypeParameterss() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/TypeParameterss.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/TypeParameterss.kt");
                     }
 
                     @TestMetadata("Where.kt")
                     public void testWhere() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/Where.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/declarations/Where.kt");
                     }
                 }
 
@@ -2122,47 +2122,47 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("ConstructorModifiers.kt")
                     public void testConstructorModifiers() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/ConstructorModifiers.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/ConstructorModifiers.kt");
                     }
 
                     @TestMetadata("ConstructorModifiersAndName.kt")
                     public void testConstructorModifiersAndName() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/ConstructorModifiersAndName.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/ConstructorModifiersAndName.kt");
                     }
 
                     @TestMetadata("EmptyParentheses.kt")
                     public void testEmptyParentheses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/EmptyParentheses.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/EmptyParentheses.kt");
                     }
 
                     @TestMetadata("Everything.kt")
                     public void testEverything() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/Everything.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/Everything.kt");
                     }
 
                     @TestMetadata("InFunction.kt")
                     public void testInFunction() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/InFunction.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/InFunction.kt");
                     }
 
                     @TestMetadata("ParametersInParentheses.kt")
                     public void testParametersInParentheses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/ParametersInParentheses.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/ParametersInParentheses.kt");
                     }
 
                     @TestMetadata("TypeParametersAndParentheses.kt")
                     public void testTypeParametersAndParentheses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/TypeParametersAndParentheses.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/TypeParametersAndParentheses.kt");
                     }
 
                     @TestMetadata("TypeParameterss.kt")
                     public void testTypeParameterss() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/TypeParameterss.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/TypeParameterss.kt");
                     }
 
                     @TestMetadata("Where.kt")
                     public void testWhere() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/Where.kt", this::doParsingTest);
+                        KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/objects/expressions/Where.kt");
                     }
                 }
             }
@@ -2177,32 +2177,32 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("noQualifiedExpression.kt")
                 public void testNoQualifiedExpression() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/noQualifiedExpression.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/qualifiedExpression/noQualifiedExpression.kt");
                 }
 
                 @TestMetadata("noSafeQualifiedExpression.kt")
                 public void testNoSafeQualifiedExpression() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/noSafeQualifiedExpression.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/qualifiedExpression/noSafeQualifiedExpression.kt");
                 }
 
                 @TestMetadata("qualifiedExpressionWithSelector.kt")
                 public void testQualifiedExpressionWithSelector() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithSelector.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithSelector.kt");
                 }
 
                 @TestMetadata("qualifiedExpressionWithoutSelector.kt")
                 public void testQualifiedExpressionWithoutSelector() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithoutSelector.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithoutSelector.kt");
                 }
 
                 @TestMetadata("safeQualifiedExpressionWithSelector.kt")
                 public void testSafeQualifiedExpressionWithSelector() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithSelector.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithSelector.kt");
                 }
 
                 @TestMetadata("safeQualifiedExpressionWithoutSelector.kt")
                 public void testSafeQualifiedExpressionWithoutSelector() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithoutSelector.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithoutSelector.kt");
                 }
             }
 
@@ -2216,57 +2216,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("firstInFunction.kt")
                 public void testFirstInFunction() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInFunction.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/firstInFunction.kt");
                 }
 
                 @TestMetadata("firstInFunctionalType.kt")
                 public void testFirstInFunctionalType() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInFunctionalType.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/firstInFunctionalType.kt");
                 }
 
                 @TestMetadata("firstInLambda.kt")
                 public void testFirstInLambda() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInLambda.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/firstInLambda.kt");
                 }
 
                 @TestMetadata("firstInPrimaryConstructor.kt")
                 public void testFirstInPrimaryConstructor() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInPrimaryConstructor.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/firstInPrimaryConstructor.kt");
                 }
 
                 @TestMetadata("firstInSecondaryConstructor.kt")
                 public void testFirstInSecondaryConstructor() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInSecondaryConstructor.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/firstInSecondaryConstructor.kt");
                 }
 
                 @TestMetadata("firstInSetter.kt")
                 public void testFirstInSetter() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInSetter.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/firstInSetter.kt");
                 }
 
                 @TestMetadata("secondInFunction.kt")
                 public void testSecondInFunction() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInFunction.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/secondInFunction.kt");
                 }
 
                 @TestMetadata("secondInFunctionalType.kt")
                 public void testSecondInFunctionalType() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInFunctionalType.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/secondInFunctionalType.kt");
                 }
 
                 @TestMetadata("secondInLambda.kt")
                 public void testSecondInLambda() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInLambda.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/secondInLambda.kt");
                 }
 
                 @TestMetadata("secondInPrimaryConstructor.kt")
                 public void testSecondInPrimaryConstructor() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInPrimaryConstructor.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/secondInPrimaryConstructor.kt");
                 }
 
                 @TestMetadata("secondInSecondaryConstructor.kt")
                 public void testSecondInSecondaryConstructor() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInSecondaryConstructor.kt", this::doParsingTest);
+                    KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/recovery/unnamedParameter/secondInSecondaryConstructor.kt");
                 }
             }
         }
@@ -2281,57 +2281,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("ComplexScript.kts")
             public void testComplexScript() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/ComplexScript.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/ComplexScript.kts");
             }
 
             @TestMetadata("FunctionComment.kts")
             public void testFunctionComment() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/FunctionComment.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/FunctionComment.kts");
             }
 
             @TestMetadata("Import.kts")
             public void testImport() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/Import.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/Import.kts");
             }
 
             @TestMetadata("manyAnnotationsOnFile.kts")
             public void testManyAnnotationsOnFile() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/manyAnnotationsOnFile.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/manyAnnotationsOnFile.kts");
             }
 
             @TestMetadata("Shebang.kts")
             public void testShebang() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/Shebang.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/Shebang.kts");
             }
 
             @TestMetadata("ShebangIncorrect.kts")
             public void testShebangIncorrect() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/ShebangIncorrect.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/ShebangIncorrect.kts");
             }
 
             @TestMetadata("ShebangWithImports.kts")
             public void testShebangWithImports() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/ShebangWithImports.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/ShebangWithImports.kts");
             }
 
             @TestMetadata("ShebangWithPackage.kts")
             public void testShebangWithPackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/ShebangWithPackage.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/ShebangWithPackage.kts");
             }
 
             @TestMetadata("SimpleScript.kts")
             public void testSimpleScript() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/SimpleScript.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/SimpleScript.kts");
             }
 
             @TestMetadata("topLevelPropertiesWithGetSet.kts")
             public void testTopLevelPropertiesWithGetSet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/topLevelPropertiesWithGetSet.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/topLevelPropertiesWithGetSet.kts");
             }
 
             @TestMetadata("unexpectedSymbol.kts")
             public void testUnexpectedSymbol() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/script/unexpectedSymbol.kts", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/script/unexpectedSymbol.kts");
             }
         }
 
@@ -2345,57 +2345,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("anonymousInitializer.kt")
             public void testAnonymousInitializer() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/anonymousInitializer.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/anonymousInitializer.kt");
             }
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/basic.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/basic.kt");
             }
 
             @TestMetadata("emptyBody.kt")
             public void testEmptyBody() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/emptyBody.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/emptyBody.kt");
             }
 
             @TestMetadata("enumParsing.kt")
             public void testEnumParsing() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/enumParsing.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/enumParsing.kt");
             }
 
             @TestMetadata("recoveryEmptyDelegationType.kt")
             public void testRecoveryEmptyDelegationType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryEmptyDelegationType.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryEmptyDelegationType.kt");
             }
 
             @TestMetadata("recoveryJustConstructorKeyword.kt")
             public void testRecoveryJustConstructorKeyword() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeyword.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeyword.kt");
             }
 
             @TestMetadata("recoveryJustConstructorKeywordSameLineBrace.kt")
             public void testRecoveryJustConstructorKeywordSameLineBrace() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeywordSameLineBrace.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeywordSameLineBrace.kt");
             }
 
             @TestMetadata("recoveryNoDelegationCallAfterColon.kt")
             public void testRecoveryNoDelegationCallAfterColon() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryNoDelegationCallAfterColon.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryNoDelegationCallAfterColon.kt");
             }
 
             @TestMetadata("recoveryWithoutBodyWrongDelegationName.kt")
             public void testRecoveryWithoutBodyWrongDelegationName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryWithoutBodyWrongDelegationName.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryWithoutBodyWrongDelegationName.kt");
             }
 
             @TestMetadata("recoveryWithoutParameterList.kt")
             public void testRecoveryWithoutParameterList() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryWithoutParameterList.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryWithoutParameterList.kt");
             }
 
             @TestMetadata("recoveryWrongDelegationName.kt")
             public void testRecoveryWrongDelegationName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryWrongDelegationName.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/secondaryConstructors/recoveryWrongDelegationName.kt");
             }
         }
 
@@ -2409,7 +2409,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("RawStringsWithManyQuotes.kt")
             public void testRawStringsWithManyQuotes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/psi/stringTemplates/RawStringsWithManyQuotes.kt", this::doParsingTest);
+                KotlinTestUtils.runTest(this::doParsingTest,TargetBackend.ANY, "compiler/testData/psi/stringTemplates/RawStringsWithManyQuotes.kt");
             }
         }
     }
@@ -2424,12 +2424,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
         @TestMetadata("error.kt")
         public void testError() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/expression/error.kt", this::doExpressionCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doExpressionCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/expression/error.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/expression/simple.kt", this::doExpressionCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doExpressionCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/expression/simple.kt");
         }
     }
 
@@ -2443,52 +2443,52 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
         @TestMetadata("expressionOnTopLevel.kt")
         public void testExpressionOnTopLevel() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/expressionOnTopLevel.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/expressionOnTopLevel.kt");
         }
 
         @TestMetadata("imports.kt")
         public void testImports() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/imports.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/imports.kt");
         }
 
         @TestMetadata("localFun.kt")
         public void testLocalFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/localFun.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/localFun.kt");
         }
 
         @TestMetadata("oneLine.kt")
         public void testOneLine() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/oneLine.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/oneLine.kt");
         }
 
         @TestMetadata("oneStatement.kt")
         public void testOneStatement() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/oneStatement.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/oneStatement.kt");
         }
 
         @TestMetadata("packageAndImport.kt")
         public void testPackageAndImport() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/packageAndImport.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/packageAndImport.kt");
         }
 
         @TestMetadata("packageDirective.kt")
         public void testPackageDirective() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/packageDirective.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/packageDirective.kt");
         }
 
         @TestMetadata("severalExpressions.kt")
         public void testSeveralExpressions() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/severalExpressions.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/severalExpressions.kt");
         }
 
         @TestMetadata("severalStatements.kt")
         public void testSeveralStatements() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/severalStatements.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/severalStatements.kt");
         }
 
         @TestMetadata("unexpectedSymbol.kt")
         public void testUnexpectedSymbol() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/unexpectedSymbol.kt", this::doBlockCodeFragmentParsingTest);
+            KotlinTestUtils.runTest(this::doBlockCodeFragmentParsingTest,TargetBackend.ANY, "compiler/testData/parseCodeFragment/block/unexpectedSymbol.kt");
         }
     }
 }

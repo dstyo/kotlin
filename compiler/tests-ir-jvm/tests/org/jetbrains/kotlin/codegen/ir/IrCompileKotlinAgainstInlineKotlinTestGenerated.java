@@ -35,217 +35,217 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("anonymousObjectOnCallSite.kt")
         public void testAnonymousObjectOnCallSite() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnCallSite.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnCallSite.kt");
         }
 
         @TestMetadata("anonymousObjectOnCallSiteSuperParams.kt")
         public void testAnonymousObjectOnCallSiteSuperParams() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnCallSiteSuperParams.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnCallSiteSuperParams.kt");
         }
 
         @TestMetadata("anonymousObjectOnDeclarationSite.kt")
         public void testAnonymousObjectOnDeclarationSite() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnDeclarationSite.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnDeclarationSite.kt");
         }
 
         @TestMetadata("anonymousObjectOnDeclarationSiteSuperParams.kt")
         public void testAnonymousObjectOnDeclarationSiteSuperParams() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnDeclarationSiteSuperParams.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/anonymousObjectOnDeclarationSiteSuperParams.kt");
         }
 
         @TestMetadata("capturedLambdaInInline.kt")
         public void testCapturedLambdaInInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInline.kt");
         }
 
         @TestMetadata("capturedLambdaInInline2.kt")
         public void testCapturedLambdaInInline2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInline2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInline2.kt");
         }
 
         @TestMetadata("capturedLambdaInInline3.kt")
         public void testCapturedLambdaInInline3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInline3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInline3.kt");
         }
 
         @TestMetadata("capturedLambdaInInlineObject.kt")
         public void testCapturedLambdaInInlineObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInlineObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/capturedLambdaInInlineObject.kt");
         }
 
         @TestMetadata("changingReturnType.kt")
         public void testChangingReturnType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/changingReturnType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/changingReturnType.kt");
         }
 
         @TestMetadata("constructorVisibility.kt")
         public void testConstructorVisibility() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/constructorVisibility.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/constructorVisibility.kt");
         }
 
         @TestMetadata("constructorVisibilityInConstLambda.kt")
         public void testConstructorVisibilityInConstLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/constructorVisibilityInConstLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/constructorVisibilityInConstLambda.kt");
         }
 
         @TestMetadata("constructorVisibilityInLambda.kt")
         public void testConstructorVisibilityInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/constructorVisibilityInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/constructorVisibilityInLambda.kt");
         }
 
         @TestMetadata("defineClass.kt")
         public void testDefineClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/defineClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/defineClass.kt");
         }
 
         @TestMetadata("kt13133.kt")
         public void testKt13133() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt13133.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt13133.kt");
         }
 
         @TestMetadata("kt13182.kt")
         public void testKt13182() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt13182.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt13182.kt");
         }
 
         @TestMetadata("kt13374.kt")
         public void testKt13374() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt13374.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt13374.kt");
         }
 
         @TestMetadata("kt14011.kt")
         public void testKt14011() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt14011.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt14011.kt");
         }
 
         @TestMetadata("kt14011_2.kt")
         public void testKt14011_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt14011_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt14011_2.kt");
         }
 
         @TestMetadata("kt14011_3.kt")
         public void testKt14011_3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt14011_3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt14011_3.kt");
         }
 
         @TestMetadata("kt16193.kt")
         public void testKt16193() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt16193.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt16193.kt");
         }
 
         @TestMetadata("kt17972.kt")
         public void testKt17972() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972.kt");
         }
 
         @TestMetadata("kt17972_2.kt")
         public void testKt17972_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_2.kt");
         }
 
         @TestMetadata("kt17972_3.kt")
         public void testKt17972_3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_3.kt");
         }
 
         @TestMetadata("kt17972_4.kt")
         public void testKt17972_4() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_4.kt");
         }
 
         @TestMetadata("kt17972_5.kt")
         public void testKt17972_5() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_5.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_5.kt");
         }
 
         @TestMetadata("kt17972_super.kt")
         public void testKt17972_super() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_super.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_super.kt");
         }
 
         @TestMetadata("kt17972_super2.kt")
         public void testKt17972_super2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_super2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_super2.kt");
         }
 
         @TestMetadata("kt17972_super3.kt")
         public void testKt17972_super3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt17972_super3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt17972_super3.kt");
         }
 
         @TestMetadata("kt19399.kt")
         public void testKt19399() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt19399.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt19399.kt");
         }
 
         @TestMetadata("kt19434.kt")
         public void testKt19434() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt19434.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt19434.kt");
         }
 
         @TestMetadata("kt19434_2.kt")
         public void testKt19434_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt19434_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt19434_2.kt");
         }
 
         @TestMetadata("kt19723.kt")
         public void testKt19723() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt19723.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt19723.kt");
         }
 
         @TestMetadata("kt6552.kt")
         public void testKt6552() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt6552.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt6552.kt");
         }
 
         @TestMetadata("kt8133.kt")
         public void testKt8133() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt8133.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt8133.kt");
         }
 
         @TestMetadata("kt9064.kt")
         public void testKt9064() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt9064.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt9064.kt");
         }
 
         @TestMetadata("kt9064v2.kt")
         public void testKt9064v2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt9064v2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt9064v2.kt");
         }
 
         @TestMetadata("kt9591.kt")
         public void testKt9591() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt9591.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt9591.kt");
         }
 
         @TestMetadata("kt9877.kt")
         public void testKt9877() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt9877.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt9877.kt");
         }
 
         @TestMetadata("kt9877_2.kt")
         public void testKt9877_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/kt9877_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/kt9877_2.kt");
         }
 
         @TestMetadata("objectInLambdaCapturesAnotherObject.kt")
         public void testObjectInLambdaCapturesAnotherObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/objectInLambdaCapturesAnotherObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/objectInLambdaCapturesAnotherObject.kt");
         }
 
         @TestMetadata("safeCall.kt")
         public void testSafeCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/safeCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/safeCall.kt");
         }
 
         @TestMetadata("safeCall_2.kt")
         public void testSafeCall_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/safeCall_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/safeCall_2.kt");
         }
 
         @TestMetadata("sam.kt")
         public void testSam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/anonymousObject/enumWhen")
@@ -258,22 +258,22 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("callSite.kt")
             public void testCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/enumWhen/callSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/enumWhen/callSite.kt");
             }
 
             @TestMetadata("declSite.kt")
             public void testDeclSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/enumWhen/declSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/enumWhen/declSite.kt");
             }
 
             @TestMetadata("declSiteSeveralMappings.kt")
             public void testDeclSiteSeveralMappings() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/enumWhen/declSiteSeveralMappings.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/enumWhen/declSiteSeveralMappings.kt");
             }
 
             @TestMetadata("declSiteSeveralMappingsDifOrder.kt")
             public void testDeclSiteSeveralMappingsDifOrder() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/enumWhen/declSiteSeveralMappingsDifOrder.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/enumWhen/declSiteSeveralMappingsDifOrder.kt");
             }
         }
 
@@ -287,32 +287,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("inlineChain.kt")
             public void testInlineChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/inlineChain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/inlineChain.kt");
             }
 
             @TestMetadata("lambdaChain.kt")
             public void testLambdaChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChain.kt");
             }
 
             @TestMetadata("lambdaChainSimple.kt")
             public void testLambdaChainSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChainSimple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChainSimple.kt");
             }
 
             @TestMetadata("lambdaChain_2.kt")
             public void testLambdaChain_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChain_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChain_2.kt");
             }
 
             @TestMetadata("lambdaChain_3.kt")
             public void testLambdaChain_3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChain_3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/lambdaChain_3.kt");
             }
 
             @TestMetadata("noInlineLambda.kt")
             public void testNoInlineLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/noInlineLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturing/noInlineLambda.kt");
             }
         }
 
@@ -326,62 +326,62 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("inlineChain.kt")
             public void testInlineChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/inlineChain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/inlineChain.kt");
             }
 
             @TestMetadata("inlinelambdaChain.kt")
             public void testInlinelambdaChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/inlinelambdaChain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/inlinelambdaChain.kt");
             }
 
             @TestMetadata("lambdaChain.kt")
             public void testLambdaChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChain.kt");
             }
 
             @TestMetadata("lambdaChainSimple.kt")
             public void testLambdaChainSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChainSimple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChainSimple.kt");
             }
 
             @TestMetadata("lambdaChainSimple_2.kt")
             public void testLambdaChainSimple_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChainSimple_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChainSimple_2.kt");
             }
 
             @TestMetadata("lambdaChain_2.kt")
             public void testLambdaChain_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChain_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChain_2.kt");
             }
 
             @TestMetadata("lambdaChain_3.kt")
             public void testLambdaChain_3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChain_3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/lambdaChain_3.kt");
             }
 
             @TestMetadata("noCapturedThisOnCallSite.kt")
             public void testNoCapturedThisOnCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/noCapturedThisOnCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/noCapturedThisOnCallSite.kt");
             }
 
             @TestMetadata("noInlineLambda.kt")
             public void testNoInlineLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/noInlineLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/noInlineLambda.kt");
             }
 
             @TestMetadata("twoInlineLambda.kt")
             public void testTwoInlineLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/twoInlineLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/twoInlineLambda.kt");
             }
 
             @TestMetadata("twoInlineLambdaComplex.kt")
             public void testTwoInlineLambdaComplex() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/twoInlineLambdaComplex.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/twoInlineLambdaComplex.kt");
             }
 
             @TestMetadata("twoInlineLambdaComplex_2.kt")
             public void testTwoInlineLambdaComplex_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/twoInlineLambdaComplex_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/properRecapturingInClass/twoInlineLambdaComplex_2.kt");
             }
         }
 
@@ -395,32 +395,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("kt17091.kt")
             public void testKt17091() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam/kt17091.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam/kt17091.kt");
             }
 
             @TestMetadata("kt21671.kt")
             public void testKt21671() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam/kt21671.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam/kt21671.kt");
             }
 
             @TestMetadata("kt21671_2.kt")
             public void testKt21671_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam/kt21671_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam/kt21671_2.kt");
             }
 
             @TestMetadata("kt21671_3.kt")
             public void testKt21671_3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam/kt21671_3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam/kt21671_3.kt");
             }
 
             @TestMetadata("kt22304.kt")
             public void testKt22304() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam/kt22304.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam/kt22304.kt");
             }
 
             @TestMetadata("samOnCallSite.kt")
             public void testSamOnCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/sam/samOnCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/sam/samOnCallSite.kt");
             }
         }
 
@@ -434,27 +434,27 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("kt8668.kt")
             public void testKt8668() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/kt8668.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/kt8668.kt");
             }
 
             @TestMetadata("kt8668_2.kt")
             public void testKt8668_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/kt8668_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/kt8668_2.kt");
             }
 
             @TestMetadata("kt8668_3.kt")
             public void testKt8668_3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/kt8668_3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/kt8668_3.kt");
             }
 
             @TestMetadata("twoDifferentDispatchReceivers.kt")
             public void testTwoDifferentDispatchReceivers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/twoDifferentDispatchReceivers.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/twoDifferentDispatchReceivers.kt");
             }
 
             @TestMetadata("twoExtensionReceivers.kt")
             public void testTwoExtensionReceivers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/twoExtensionReceivers.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/anonymousObject/twoCapturedReceivers/twoExtensionReceivers.kt");
             }
         }
     }
@@ -469,62 +469,62 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("boundFunctionReference.kt")
         public void testBoundFunctionReference() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/boundFunctionReference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/boundFunctionReference.kt");
         }
 
         @TestMetadata("boundFunctionReference2.kt")
         public void testBoundFunctionReference2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/boundFunctionReference2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/boundFunctionReference2.kt");
         }
 
         @TestMetadata("captured.kt")
         public void testCaptured() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/captured.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/captured.kt");
         }
 
         @TestMetadata("capturedInExtension.kt")
         public void testCapturedInExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/capturedInExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/capturedInExtension.kt");
         }
 
         @TestMetadata("defaultParametersAndLastVararg.kt")
         public void testDefaultParametersAndLastVararg() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/defaultParametersAndLastVararg.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/defaultParametersAndLastVararg.kt");
         }
 
         @TestMetadata("extension.kt")
         public void testExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/extension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/extension.kt");
         }
 
         @TestMetadata("extensionInClass.kt")
         public void testExtensionInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/extensionInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/extensionInClass.kt");
         }
 
         @TestMetadata("lambdaMigration.kt")
         public void testLambdaMigration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/lambdaMigration.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/lambdaMigration.kt");
         }
 
         @TestMetadata("lambdaMigrationInClass.kt")
         public void testLambdaMigrationInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/lambdaMigrationInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/lambdaMigrationInClass.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/simple.kt");
         }
 
         @TestMetadata("simpleInClass.kt")
         public void testSimpleInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/simpleInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/simpleInClass.kt");
         }
 
         @TestMetadata("varargAndDefaultParameters.kt")
         public void testVarargAndDefaultParameters() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/argumentOrder/varargAndDefaultParameters.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/argumentOrder/varargAndDefaultParameters.kt");
         }
     }
 
@@ -538,32 +538,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("simpleAccess.kt")
         public void testSimpleAccess() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/arrayConvention/simpleAccess.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/arrayConvention/simpleAccess.kt");
         }
 
         @TestMetadata("simpleAccessInClass.kt")
         public void testSimpleAccessInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/arrayConvention/simpleAccessInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/arrayConvention/simpleAccessInClass.kt");
         }
 
         @TestMetadata("simpleAccessWithDefault.kt")
         public void testSimpleAccessWithDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithDefault.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithDefault.kt");
         }
 
         @TestMetadata("simpleAccessWithDefaultInClass.kt")
         public void testSimpleAccessWithDefaultInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithDefaultInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithDefaultInClass.kt");
         }
 
         @TestMetadata("simpleAccessWithLambda.kt")
         public void testSimpleAccessWithLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithLambda.kt");
         }
 
         @TestMetadata("simpleAccessWithLambdaInClass.kt")
         public void testSimpleAccessWithLambdaInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithLambdaInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/arrayConvention/simpleAccessWithLambdaInClass.kt");
         }
     }
 
@@ -577,12 +577,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("builders.kt")
         public void testBuilders() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/builders/builders.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/builders/builders.kt");
         }
 
         @TestMetadata("buildersAndLambdaCapturing.kt")
         public void testBuildersAndLambdaCapturing() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/builders/buildersAndLambdaCapturing.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/builders/buildersAndLambdaCapturing.kt");
         }
     }
 
@@ -596,7 +596,7 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("apiVersionAtLeast1.kt")
         public void testApiVersionAtLeast1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/bytecodePreprocessing/apiVersionAtLeast1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/bytecodePreprocessing/apiVersionAtLeast1.kt");
         }
     }
 
@@ -610,57 +610,57 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("classLevel.kt")
         public void testClassLevel() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/classLevel.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/classLevel.kt");
         }
 
         @TestMetadata("classLevel2.kt")
         public void testClassLevel2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/classLevel2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/classLevel2.kt");
         }
 
         @TestMetadata("constructor.kt")
         public void testConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/constructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/constructor.kt");
         }
 
         @TestMetadata("intrinsic.kt")
         public void testIntrinsic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/intrinsic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/intrinsic.kt");
         }
 
         @TestMetadata("kt15449.kt")
         public void testKt15449() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/kt15449.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/kt15449.kt");
         }
 
         @TestMetadata("kt16411.kt")
         public void testKt16411() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/kt16411.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/kt16411.kt");
         }
 
         @TestMetadata("propertyIntrinsic.kt")
         public void testPropertyIntrinsic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/propertyIntrinsic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/propertyIntrinsic.kt");
         }
 
         @TestMetadata("propertyReference.kt")
         public void testPropertyReference() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/propertyReference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/propertyReference.kt");
         }
 
         @TestMetadata("topLevel.kt")
         public void testTopLevel() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/topLevel.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/topLevel.kt");
         }
 
         @TestMetadata("topLevelExtension.kt")
         public void testTopLevelExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/topLevelExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/topLevelExtension.kt");
         }
 
         @TestMetadata("topLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/topLevelProperty.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/topLevelProperty.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/callableReference/bound")
@@ -673,82 +673,82 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("classProperty.kt")
             public void testClassProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/classProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/classProperty.kt");
             }
 
             @TestMetadata("emptyLhsFunction.kt")
             public void testEmptyLhsFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/emptyLhsFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/emptyLhsFunction.kt");
             }
 
             @TestMetadata("expression.kt")
             public void testExpression() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/expression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/expression.kt");
             }
 
             @TestMetadata("extensionReceiver.kt")
             public void testExtensionReceiver() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/extensionReceiver.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/extensionReceiver.kt");
             }
 
             @TestMetadata("filter.kt")
             public void testFilter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/filter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/filter.kt");
             }
 
             @TestMetadata("intrinsic.kt")
             public void testIntrinsic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/intrinsic.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/intrinsic.kt");
             }
 
             @TestMetadata("kt18728.kt")
             public void testKt18728() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/kt18728.kt");
             }
 
             @TestMetadata("kt18728_2.kt")
             public void testKt18728_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/kt18728_2.kt");
             }
 
             @TestMetadata("kt18728_3.kt")
             public void testKt18728_3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/kt18728_3.kt");
             }
 
             @TestMetadata("kt18728_4.kt")
             public void testKt18728_4() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_4.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/kt18728_4.kt");
             }
 
             @TestMetadata("map.kt")
             public void testMap() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/map.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/map.kt");
             }
 
             @TestMetadata("mixed.kt")
             public void testMixed() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/mixed.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/mixed.kt");
             }
 
             @TestMetadata("objectProperty.kt")
             public void testObjectProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/objectProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/objectProperty.kt");
             }
 
             @TestMetadata("propertyImportedFromObject.kt")
             public void testPropertyImportedFromObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/propertyImportedFromObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/propertyImportedFromObject.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/simple.kt");
             }
 
             @TestMetadata("topLevelExtensionProperty.kt")
             public void testTopLevelExtensionProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/topLevelExtensionProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/callableReference/bound/topLevelExtensionProperty.kt");
             }
         }
     }
@@ -763,32 +763,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("captureInlinable.kt")
         public void testCaptureInlinable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/capture/captureInlinable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/capture/captureInlinable.kt");
         }
 
         @TestMetadata("captureInlinableAndOther.kt")
         public void testCaptureInlinableAndOther() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/capture/captureInlinableAndOther.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/capture/captureInlinableAndOther.kt");
         }
 
         @TestMetadata("captureThisAndReceiver.kt")
         public void testCaptureThisAndReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/capture/captureThisAndReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/capture/captureThisAndReceiver.kt");
         }
 
         @TestMetadata("generics.kt")
         public void testGenerics() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/capture/generics.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/capture/generics.kt");
         }
 
         @TestMetadata("simpleCapturingInClass.kt")
         public void testSimpleCapturingInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/capture/simpleCapturingInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/capture/simpleCapturingInClass.kt");
         }
 
         @TestMetadata("simpleCapturingInPackage.kt")
         public void testSimpleCapturingInPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/capture/simpleCapturingInPackage.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/capture/simpleCapturingInPackage.kt");
         }
     }
 
@@ -802,37 +802,37 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("closureChain.kt")
         public void testClosureChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/closureChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/closureChain.kt");
         }
 
         @TestMetadata("forEachLine.kt")
         public void testForEachLine() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/forEachLine.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/forEachLine.kt");
         }
 
         @TestMetadata("lambdaInLambda.kt")
         public void testLambdaInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/lambdaInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/lambdaInLambda.kt");
         }
 
         @TestMetadata("swapAndWith.kt")
         public void testSwapAndWith() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/swapAndWith.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/swapAndWith.kt");
         }
 
         @TestMetadata("swapAndWith2.kt")
         public void testSwapAndWith2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/swapAndWith2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/swapAndWith2.kt");
         }
 
         @TestMetadata("use.kt")
         public void testUse() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/use.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/use.kt");
         }
 
         @TestMetadata("with.kt")
         public void testWith() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complex/with.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complex/with.kt");
         }
     }
 
@@ -846,37 +846,37 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("asCheck.kt")
         public void testAsCheck() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/asCheck.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/asCheck.kt");
         }
 
         @TestMetadata("asCheck2.kt")
         public void testAsCheck2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/asCheck2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/asCheck2.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/simple.kt");
         }
 
         @TestMetadata("simple2.kt")
         public void testSimple2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/simple2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/simple2.kt");
         }
 
         @TestMetadata("simple3.kt")
         public void testSimple3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/simple3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/simple3.kt");
         }
 
         @TestMetadata("simple4.kt")
         public void testSimple4() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/simple4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/simple4.kt");
         }
 
         @TestMetadata("simpleExtension.kt")
         public void testSimpleExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/complexStack/simpleExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/complexStack/simpleExtension.kt");
         }
     }
 
@@ -890,47 +890,47 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("complexInitializer.kt")
         public void testComplexInitializer() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/complexInitializer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/complexInitializer.kt");
         }
 
         @TestMetadata("complexInitializerWithStackTransformation.kt")
         public void testComplexInitializerWithStackTransformation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/complexInitializerWithStackTransformation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/complexInitializerWithStackTransformation.kt");
         }
 
         @TestMetadata("definiteLongValInitialization.kt")
         public void testDefiniteLongValInitialization() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/definiteLongValInitialization.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/definiteLongValInitialization.kt");
         }
 
         @TestMetadata("definiteNestedValInitialization.kt")
         public void testDefiniteNestedValInitialization() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/definiteNestedValInitialization.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/definiteNestedValInitialization.kt");
         }
 
         @TestMetadata("definiteValInitialization.kt")
         public void testDefiniteValInitialization() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/definiteValInitialization.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/definiteValInitialization.kt");
         }
 
         @TestMetadata("nonLocalReturn.kt")
         public void testNonLocalReturn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/nonLocalReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/nonLocalReturn.kt");
         }
 
         @TestMetadata("nonLocalReturnWithCycle.kt")
         public void testNonLocalReturnWithCycle() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/nonLocalReturnWithCycle.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/nonLocalReturnWithCycle.kt");
         }
 
         @TestMetadata("propertyInitialization.kt")
         public void testPropertyInitialization() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/propertyInitialization.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/propertyInitialization.kt");
         }
 
         @TestMetadata("valInitializationAndUsageInNestedLambda.kt")
         public void testValInitializationAndUsageInNestedLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/contracts/valInitializationAndUsageInNestedLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/contracts/valInitializationAndUsageInNestedLambda.kt");
         }
     }
 
@@ -940,12 +940,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
     public static class DefaultValues extends AbstractIrCompileKotlinAgainstInlineKotlinTest {
         @TestMetadata("33Parameters.kt")
         public void test33Parameters() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/33Parameters.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/33Parameters.kt");
         }
 
         @TestMetadata("33ParametersInConstructor.kt")
         public void test33ParametersInConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/33ParametersInConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/33ParametersInConstructor.kt");
         }
 
         public void testAllFilesPresentInDefaultValues() throws Exception {
@@ -954,87 +954,87 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("defaultInExtension.kt")
         public void testDefaultInExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/defaultInExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/defaultInExtension.kt");
         }
 
         @TestMetadata("defaultMethod.kt")
         public void testDefaultMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/defaultMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/defaultMethod.kt");
         }
 
         @TestMetadata("defaultMethodInClass.kt")
         public void testDefaultMethodInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/defaultMethodInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/defaultMethodInClass.kt");
         }
 
         @TestMetadata("defaultParamRemapping.kt")
         public void testDefaultParamRemapping() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/defaultParamRemapping.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/defaultParamRemapping.kt");
         }
 
         @TestMetadata("inlineInDefaultParameter.kt")
         public void testInlineInDefaultParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/inlineInDefaultParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/inlineInDefaultParameter.kt");
         }
 
         @TestMetadata("inlineLambdaInNoInlineDefault.kt")
         public void testInlineLambdaInNoInlineDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/inlineLambdaInNoInlineDefault.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/inlineLambdaInNoInlineDefault.kt");
         }
 
         @TestMetadata("kt11479.kt")
         public void testKt11479() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt11479.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt11479.kt");
         }
 
         @TestMetadata("kt11479InlinedDefaultParameter.kt")
         public void testKt11479InlinedDefaultParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt11479InlinedDefaultParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt11479InlinedDefaultParameter.kt");
         }
 
         @TestMetadata("kt14564.kt")
         public void testKt14564() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt14564.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt14564.kt");
         }
 
         @TestMetadata("kt14564_2.kt")
         public void testKt14564_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt14564_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt14564_2.kt");
         }
 
         @TestMetadata("kt18689.kt")
         public void testKt18689() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt18689.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt18689.kt");
         }
 
         @TestMetadata("kt18689_2.kt")
         public void testKt18689_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt18689_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt18689_2.kt");
         }
 
         @TestMetadata("kt18689_3.kt")
         public void testKt18689_3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt18689_3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt18689_3.kt");
         }
 
         @TestMetadata("kt18689_4.kt")
         public void testKt18689_4() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt18689_4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt18689_4.kt");
         }
 
         @TestMetadata("kt5685.kt")
         public void testKt5685() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/kt5685.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/kt5685.kt");
         }
 
         @TestMetadata("simpleDefaultMethod.kt")
         public void testSimpleDefaultMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/simpleDefaultMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/simpleDefaultMethod.kt");
         }
 
         @TestMetadata("varArgNoInline.kt")
         public void testVarArgNoInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/varArgNoInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/varArgNoInline.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining")
@@ -1047,137 +1047,137 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("checkLambdaClassIsPresent.kt")
             public void testCheckLambdaClassIsPresent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkLambdaClassIsPresent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkLambdaClassIsPresent.kt");
             }
 
             @TestMetadata("checkLambdaClassesArePresent.kt")
             public void testCheckLambdaClassesArePresent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkLambdaClassesArePresent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkLambdaClassesArePresent.kt");
             }
 
             @TestMetadata("checkObjectClassIsPresent.kt")
             public void testCheckObjectClassIsPresent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkObjectClassIsPresent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkObjectClassIsPresent.kt");
             }
 
             @TestMetadata("checkStaticLambdaClassIsPresent.kt")
             public void testCheckStaticLambdaClassIsPresent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkStaticLambdaClassIsPresent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkStaticLambdaClassIsPresent.kt");
             }
 
             @TestMetadata("checkStaticLambdaClassesArePresent.kt")
             public void testCheckStaticLambdaClassesArePresent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkStaticLambdaClassesArePresent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkStaticLambdaClassesArePresent.kt");
             }
 
             @TestMetadata("checkStaticObjectClassIsPresent.kt")
             public void testCheckStaticObjectClassIsPresent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkStaticObjectClassIsPresent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/checkStaticObjectClassIsPresent.kt");
             }
 
             @TestMetadata("defaultCallInDefaultLambda.kt")
             public void testDefaultCallInDefaultLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/defaultCallInDefaultLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/defaultCallInDefaultLambda.kt");
             }
 
             @TestMetadata("defaultLambdaInNoInline.kt")
             public void testDefaultLambdaInNoInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/defaultLambdaInNoInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/defaultLambdaInNoInline.kt");
             }
 
             @TestMetadata("genericLambda.kt")
             public void testGenericLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/genericLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/genericLambda.kt");
             }
 
             @TestMetadata("instanceCapuredInClass.kt")
             public void testInstanceCapuredInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/instanceCapuredInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/instanceCapuredInClass.kt");
             }
 
             @TestMetadata("instanceCapuredInInterface.kt")
             public void testInstanceCapuredInInterface() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/instanceCapuredInInterface.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/instanceCapuredInInterface.kt");
             }
 
             @TestMetadata("jvmStaticDefault.kt")
             public void testJvmStaticDefault() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/jvmStaticDefault.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/jvmStaticDefault.kt");
             }
 
             @TestMetadata("kt21827.kt")
             public void testKt21827() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/kt21827.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/kt21827.kt");
             }
 
             @TestMetadata("noInline.kt")
             public void testNoInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/noInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/noInline.kt");
             }
 
             @TestMetadata("nonDefaultInlineInNoInline.kt")
             public void testNonDefaultInlineInNoInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/nonDefaultInlineInNoInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/nonDefaultInlineInNoInline.kt");
             }
 
             @TestMetadata("receiverClash.kt")
             public void testReceiverClash() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClash.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClash.kt");
             }
 
             @TestMetadata("receiverClash2.kt")
             public void testReceiverClash2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClash2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClash2.kt");
             }
 
             @TestMetadata("receiverClashInClass.kt")
             public void testReceiverClashInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClashInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClashInClass.kt");
             }
 
             @TestMetadata("receiverClashInClass2.kt")
             public void testReceiverClashInClass2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClashInClass2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/receiverClashInClass2.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simple.kt");
             }
 
             @TestMetadata("simpleErased.kt")
             public void testSimpleErased() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleErased.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleErased.kt");
             }
 
             @TestMetadata("simpleErasedStaticInstance.kt")
             public void testSimpleErasedStaticInstance() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleErasedStaticInstance.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleErasedStaticInstance.kt");
             }
 
             @TestMetadata("simpleExtension.kt")
             public void testSimpleExtension() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleExtension.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleExtension.kt");
             }
 
             @TestMetadata("simpleGeneric.kt")
             public void testSimpleGeneric() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleGeneric.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleGeneric.kt");
             }
 
             @TestMetadata("simpleStaticInstance.kt")
             public void testSimpleStaticInstance() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleStaticInstance.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/simpleStaticInstance.kt");
             }
 
             @TestMetadata("thisClash.kt")
             public void testThisClash() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/thisClash.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/thisClash.kt");
             }
 
             @TestMetadata("thisClashInClass.kt")
             public void testThisClashInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/thisClashInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/thisClashInClass.kt");
             }
 
             @TestMetadata("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences")
@@ -1190,92 +1190,92 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
                 @TestMetadata("boundFunctionReference.kt")
                 public void testBoundFunctionReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundFunctionReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundFunctionReference.kt");
                 }
 
                 @TestMetadata("boundFunctionReferenceOnInt.kt")
                 public void testBoundFunctionReferenceOnInt() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundFunctionReferenceOnInt.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundFunctionReferenceOnInt.kt");
                 }
 
                 @TestMetadata("boundFunctionReferenceOnLong.kt")
                 public void testBoundFunctionReferenceOnLong() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundFunctionReferenceOnLong.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundFunctionReferenceOnLong.kt");
                 }
 
                 @TestMetadata("boundPropertyReference.kt")
                 public void testBoundPropertyReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundPropertyReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundPropertyReference.kt");
                 }
 
                 @TestMetadata("boundPropertyReferenceOnInt.kt")
                 public void testBoundPropertyReferenceOnInt() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundPropertyReferenceOnInt.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundPropertyReferenceOnInt.kt");
                 }
 
                 @TestMetadata("boundPropertyReferenceOnLong.kt")
                 public void testBoundPropertyReferenceOnLong() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundPropertyReferenceOnLong.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/boundPropertyReferenceOnLong.kt");
                 }
 
                 @TestMetadata("constuctorReference.kt")
                 public void testConstuctorReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/constuctorReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/constuctorReference.kt");
                 }
 
                 @TestMetadata("functionImportedFromObject.kt")
                 public void testFunctionImportedFromObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionImportedFromObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionImportedFromObject.kt");
                 }
 
                 @TestMetadata("functionReference.kt")
                 public void testFunctionReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionReference.kt");
                 }
 
                 @TestMetadata("functionReferenceFromClass.kt")
                 public void testFunctionReferenceFromClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionReferenceFromClass.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionReferenceFromClass.kt");
                 }
 
                 @TestMetadata("functionReferenceFromObject.kt")
                 public void testFunctionReferenceFromObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionReferenceFromObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/functionReferenceFromObject.kt");
                 }
 
                 @TestMetadata("innerClassConstuctorReference.kt")
                 public void testInnerClassConstuctorReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/innerClassConstuctorReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/innerClassConstuctorReference.kt");
                 }
 
                 @TestMetadata("privateFunctionReference.kt")
                 public void testPrivateFunctionReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/privateFunctionReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/privateFunctionReference.kt");
                 }
 
                 @TestMetadata("privatePropertyReference.kt")
                 public void testPrivatePropertyReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/privatePropertyReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/privatePropertyReference.kt");
                 }
 
                 @TestMetadata("propertyImportedFromObject.kt")
                 public void testPropertyImportedFromObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyImportedFromObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyImportedFromObject.kt");
                 }
 
                 @TestMetadata("propertyReference.kt")
                 public void testPropertyReference() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyReference.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyReference.kt");
                 }
 
                 @TestMetadata("propertyReferenceFromClass.kt")
                 public void testPropertyReferenceFromClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyReferenceFromClass.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyReferenceFromClass.kt");
                 }
 
                 @TestMetadata("propertyReferenceFromObject.kt")
                 public void testPropertyReferenceFromObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyReferenceFromObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/lambdaInlining/callableReferences/propertyReferenceFromObject.kt");
                 }
             }
         }
@@ -1286,12 +1286,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
         public static class MaskElimination extends AbstractIrCompileKotlinAgainstInlineKotlinTest {
             @TestMetadata("32Parameters.kt")
             public void test32Parameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/32Parameters.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/32Parameters.kt");
             }
 
             @TestMetadata("33Parameters.kt")
             public void test33Parameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/33Parameters.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/33Parameters.kt");
             }
 
             public void testAllFilesPresentInMaskElimination() throws Exception {
@@ -1300,27 +1300,27 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("kt18792.kt")
             public void testKt18792() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt18792.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt18792.kt");
             }
 
             @TestMetadata("kt19679.kt")
             public void testKt19679() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt19679.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt19679.kt");
             }
 
             @TestMetadata("kt19679_2.kt")
             public void testKt19679_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt19679_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt19679_2.kt");
             }
 
             @TestMetadata("kt19679_3.kt")
             public void testKt19679_3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt19679_3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/kt19679_3.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/defaultValues/maskElimination/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/defaultValues/maskElimination/simple.kt");
             }
         }
     }
@@ -1335,22 +1335,22 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("kt16864.kt")
         public void testKt16864() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/delegatedProperty/kt16864.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/delegatedProperty/kt16864.kt");
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/delegatedProperty/local.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/delegatedProperty/local.kt");
         }
 
         @TestMetadata("localInAnonymousObject.kt")
         public void testLocalInAnonymousObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/delegatedProperty/localInAnonymousObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/delegatedProperty/localInAnonymousObject.kt");
         }
 
         @TestMetadata("localInLambda.kt")
         public void testLocalInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/delegatedProperty/localInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/delegatedProperty/localInLambda.kt");
         }
     }
 
@@ -1364,37 +1364,37 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("anonymousInLambda.kt")
         public void testAnonymousInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/anonymousInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/anonymousInLambda.kt");
         }
 
         @TestMetadata("inlineChain.kt")
         public void testInlineChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/inlineChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/inlineChain.kt");
         }
 
         @TestMetadata("inlineChain2.kt")
         public void testInlineChain2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/inlineChain2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/inlineChain2.kt");
         }
 
         @TestMetadata("objectInInlineFun.kt")
         public void testObjectInInlineFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/objectInInlineFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/objectInInlineFun.kt");
         }
 
         @TestMetadata("transformedConstructor.kt")
         public void testTransformedConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/transformedConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/transformedConstructor.kt");
         }
 
         @TestMetadata("transformedConstructorWithAdditionalObject.kt")
         public void testTransformedConstructorWithAdditionalObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/transformedConstructorWithAdditionalObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/transformedConstructorWithAdditionalObject.kt");
         }
 
         @TestMetadata("transformedConstructorWithNestedInline.kt")
         public void testTransformedConstructorWithNestedInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enclosingInfo/transformedConstructorWithNestedInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enclosingInfo/transformedConstructorWithNestedInline.kt");
         }
     }
 
@@ -1408,67 +1408,67 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("kt10569.kt")
         public void testKt10569() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/kt10569.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/kt10569.kt");
         }
 
         @TestMetadata("kt18254.kt")
         public void testKt18254() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/kt18254.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/kt18254.kt");
         }
 
         @TestMetadata("valueOf.kt")
         public void testValueOf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valueOf.kt");
         }
 
         @TestMetadata("valueOfCapturedType.kt")
         public void testValueOfCapturedType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfCapturedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valueOfCapturedType.kt");
         }
 
         @TestMetadata("valueOfChain.kt")
         public void testValueOfChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valueOfChain.kt");
         }
 
         @TestMetadata("valueOfChainCapturedType.kt")
         public void testValueOfChainCapturedType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfChainCapturedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valueOfChainCapturedType.kt");
         }
 
         @TestMetadata("valueOfNonReified.kt")
         public void testValueOfNonReified() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfNonReified.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valueOfNonReified.kt");
         }
 
         @TestMetadata("values.kt")
         public void testValues() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/values.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/values.kt");
         }
 
         @TestMetadata("valuesAsArray.kt")
         public void testValuesAsArray() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesAsArray.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valuesAsArray.kt");
         }
 
         @TestMetadata("valuesCapturedType.kt")
         public void testValuesCapturedType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesCapturedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valuesCapturedType.kt");
         }
 
         @TestMetadata("valuesChain.kt")
         public void testValuesChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valuesChain.kt");
         }
 
         @TestMetadata("valuesChainCapturedType.kt")
         public void testValuesChainCapturedType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesChainCapturedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valuesChainCapturedType.kt");
         }
 
         @TestMetadata("valuesNonReified.kt")
         public void testValuesNonReified() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesNonReified.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/enum/valuesNonReified.kt");
         }
     }
 
@@ -1482,7 +1482,7 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("extension.kt")
         public void testExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/functionExpression/extension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/functionExpression/extension.kt");
         }
     }
 
@@ -1496,12 +1496,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("innerLambda.kt")
         public void testInnerLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/innerClasses/innerLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/innerClasses/innerLambda.kt");
         }
 
         @TestMetadata("kt10259.kt")
         public void testKt10259() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/innerClasses/kt10259.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/innerClasses/kt10259.kt");
         }
     }
 
@@ -1515,7 +1515,7 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/jvmPackageName/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/jvmPackageName/simple.kt");
         }
     }
 
@@ -1529,12 +1529,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("lambdaClassClash.kt")
         public void testLambdaClassClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaClassClash/lambdaClassClash.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaClassClash/lambdaClassClash.kt");
         }
 
         @TestMetadata("noInlineLambdaX2.kt")
         public void testNoInlineLambdaX2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaClassClash/noInlineLambdaX2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaClassClash/noInlineLambdaX2.kt");
         }
     }
 
@@ -1548,27 +1548,27 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("lambdaCloning.kt")
         public void testLambdaCloning() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaTransformation/lambdaCloning.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaTransformation/lambdaCloning.kt");
         }
 
         @TestMetadata("lambdaInLambda2.kt")
         public void testLambdaInLambda2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaTransformation/lambdaInLambda2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaTransformation/lambdaInLambda2.kt");
         }
 
         @TestMetadata("lambdaInLambdaNoInline.kt")
         public void testLambdaInLambdaNoInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaTransformation/lambdaInLambdaNoInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaTransformation/lambdaInLambdaNoInline.kt");
         }
 
         @TestMetadata("regeneratedLambdaName.kt")
         public void testRegeneratedLambdaName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaTransformation/regeneratedLambdaName.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaTransformation/regeneratedLambdaName.kt");
         }
 
         @TestMetadata("sameCaptured.kt")
         public void testSameCaptured() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/lambdaTransformation/sameCaptured.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/lambdaTransformation/sameCaptured.kt");
         }
     }
 
@@ -1582,17 +1582,17 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("lambdaInLambdaCapturesAnotherFun.kt")
         public void testLambdaInLambdaCapturesAnotherFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/localFunInLambda/lambdaInLambdaCapturesAnotherFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/localFunInLambda/lambdaInLambdaCapturesAnotherFun.kt");
         }
 
         @TestMetadata("localFunInLambda.kt")
         public void testLocalFunInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/localFunInLambda/localFunInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/localFunInLambda/localFunInLambda.kt");
         }
 
         @TestMetadata("localFunInLambdaCapturesAnotherFun.kt")
         public void testLocalFunInLambdaCapturesAnotherFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/localFunInLambda/localFunInLambdaCapturesAnotherFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/localFunInLambda/localFunInLambdaCapturesAnotherFun.kt");
         }
     }
 
@@ -1606,12 +1606,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("inlineFromOptimizedMultifileClass.kt")
         public void testInlineFromOptimizedMultifileClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/multifileClasses/inlineFromOptimizedMultifileClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/multifileClasses/inlineFromOptimizedMultifileClass.kt");
         }
 
         @TestMetadata("inlineFromOtherPackage.kt")
         public void testInlineFromOtherPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/multifileClasses/inlineFromOtherPackage.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/multifileClasses/inlineFromOtherPackage.kt");
         }
     }
 
@@ -1625,37 +1625,37 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("extensionReceiver.kt")
         public void testExtensionReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/extensionReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/extensionReceiver.kt");
         }
 
         @TestMetadata("lambdaAsGeneric.kt")
         public void testLambdaAsGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/lambdaAsGeneric.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/lambdaAsGeneric.kt");
         }
 
         @TestMetadata("lambdaAsNonFunction.kt")
         public void testLambdaAsNonFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/lambdaAsNonFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/lambdaAsNonFunction.kt");
         }
 
         @TestMetadata("noInline.kt")
         public void testNoInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/noInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/noInline.kt");
         }
 
         @TestMetadata("noInlineLambdaChain.kt")
         public void testNoInlineLambdaChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/noInlineLambdaChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/noInlineLambdaChain.kt");
         }
 
         @TestMetadata("noInlineLambdaChainWithCapturedInline.kt")
         public void testNoInlineLambdaChainWithCapturedInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/noInlineLambdaChainWithCapturedInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/noInlineLambdaChainWithCapturedInline.kt");
         }
 
         @TestMetadata("withoutInline.kt")
         public void testWithoutInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/withoutInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/noInline/withoutInline.kt");
         }
     }
 
@@ -1669,67 +1669,67 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("explicitLocalReturn.kt")
         public void testExplicitLocalReturn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/explicitLocalReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/explicitLocalReturn.kt");
         }
 
         @TestMetadata("justReturnInLambda.kt")
         public void testJustReturnInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/justReturnInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/justReturnInLambda.kt");
         }
 
         @TestMetadata("kt5199.kt")
         public void testKt5199() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/kt5199.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/kt5199.kt");
         }
 
         @TestMetadata("kt8948.kt")
         public void testKt8948() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/kt8948.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/kt8948.kt");
         }
 
         @TestMetadata("kt8948v2.kt")
         public void testKt8948v2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/kt8948v2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/kt8948v2.kt");
         }
 
         @TestMetadata("nestedNonLocals.kt")
         public void testNestedNonLocals() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/nestedNonLocals.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/nestedNonLocals.kt");
         }
 
         @TestMetadata("noInlineLocalReturn.kt")
         public void testNoInlineLocalReturn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/noInlineLocalReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/noInlineLocalReturn.kt");
         }
 
         @TestMetadata("nonLocalReturnFromOuterLambda.kt")
         public void testNonLocalReturnFromOuterLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/nonLocalReturnFromOuterLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/nonLocalReturnFromOuterLambda.kt");
         }
 
         @TestMetadata("propertyAccessors.kt")
         public void testPropertyAccessors() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/propertyAccessors.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/propertyAccessors.kt");
         }
 
         @TestMetadata("returnFromFunctionExpr.kt")
         public void testReturnFromFunctionExpr() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/returnFromFunctionExpr.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/returnFromFunctionExpr.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/simple.kt");
         }
 
         @TestMetadata("simpleFunctional.kt")
         public void testSimpleFunctional() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/simpleFunctional.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/simpleFunctional.kt");
         }
 
         @TestMetadata("simpleVoid.kt")
         public void testSimpleVoid() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/simpleVoid.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/simpleVoid.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/nonLocalReturns/deparenthesize")
@@ -1742,12 +1742,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("bracket.kt")
             public void testBracket() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/deparenthesize/bracket.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/deparenthesize/bracket.kt");
             }
 
             @TestMetadata("labeled.kt")
             public void testLabeled() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/deparenthesize/labeled.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/deparenthesize/labeled.kt");
             }
         }
 
@@ -1761,47 +1761,47 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("kt20433.kt")
             public void testKt20433() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433.kt");
             }
 
             @TestMetadata("kt20433_2.kt")
             public void testKt20433_2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433_2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433_2.kt");
             }
 
             @TestMetadata("kt20433_2_void.kt")
             public void testKt20433_2_void() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433_2_void.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433_2_void.kt");
             }
 
             @TestMetadata("kt20433_void.kt")
             public void testKt20433_void() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433_void.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt20433_void.kt");
             }
 
             @TestMetadata("kt6956.kt")
             public void testKt6956() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt6956.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt6956.kt");
             }
 
             @TestMetadata("kt7273.kt")
             public void testKt7273() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt7273.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/kt7273.kt");
             }
 
             @TestMetadata("nonLocalReturnFromCatchBlock.kt")
             public void testNonLocalReturnFromCatchBlock() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/nonLocalReturnFromCatchBlock.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/nonLocalReturnFromCatchBlock.kt");
             }
 
             @TestMetadata("nonLocalReturnFromOuterLambda.kt")
             public void testNonLocalReturnFromOuterLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/nonLocalReturnFromOuterLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/nonLocalReturnFromOuterLambda.kt");
             }
 
             @TestMetadata("nonLocalReturnToCatchBlock.kt")
             public void testNonLocalReturnToCatchBlock() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/nonLocalReturnToCatchBlock.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/nonLocalReturnToCatchBlock.kt");
             }
 
             @TestMetadata("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite")
@@ -1814,32 +1814,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
                 @TestMetadata("callSite.kt")
                 public void testCallSite() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/callSite.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/callSite.kt");
                 }
 
                 @TestMetadata("callSiteComplex.kt")
                 public void testCallSiteComplex() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/callSiteComplex.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/callSiteComplex.kt");
                 }
 
                 @TestMetadata("exceptionTableSplit.kt")
                 public void testExceptionTableSplit() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/exceptionTableSplit.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/exceptionTableSplit.kt");
                 }
 
                 @TestMetadata("exceptionTableSplitNoReturn.kt")
                 public void testExceptionTableSplitNoReturn() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/exceptionTableSplitNoReturn.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/exceptionTableSplitNoReturn.kt");
                 }
 
                 @TestMetadata("finallyInFinally.kt")
                 public void testFinallyInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/finallyInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/finallyInFinally.kt");
                 }
 
                 @TestMetadata("wrongVarInterval.kt")
                 public void testWrongVarInterval() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/wrongVarInterval.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/callSite/wrongVarInterval.kt");
                 }
             }
 
@@ -1853,42 +1853,42 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
                 @TestMetadata("finallyInFinally.kt")
                 public void testFinallyInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/finallyInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/finallyInFinally.kt");
                 }
 
                 @TestMetadata("finallyInFinally2.kt")
                 public void testFinallyInFinally2() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/finallyInFinally2.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/finallyInFinally2.kt");
                 }
 
                 @TestMetadata("intReturn.kt")
                 public void testIntReturn() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturn.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturn.kt");
                 }
 
                 @TestMetadata("intReturnComplex.kt")
                 public void testIntReturnComplex() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex.kt");
                 }
 
                 @TestMetadata("intReturnComplex2.kt")
                 public void testIntReturnComplex2() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex2.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex2.kt");
                 }
 
                 @TestMetadata("intReturnComplex3.kt")
                 public void testIntReturnComplex3() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex3.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex3.kt");
                 }
 
                 @TestMetadata("intReturnComplex4.kt")
                 public void testIntReturnComplex4() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex4.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/intReturnComplex4.kt");
                 }
 
                 @TestMetadata("nestedLambda.kt")
                 public void testNestedLambda() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/nestedLambda.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/chained/nestedLambda.kt");
                 }
             }
 
@@ -1902,62 +1902,62 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
                 @TestMetadata("complex.kt")
                 public void testComplex() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/complex.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/complex.kt");
                 }
 
                 @TestMetadata("intReturn.kt")
                 public void testIntReturn() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/intReturn.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/intReturn.kt");
                 }
 
                 @TestMetadata("intReturnComplex.kt")
                 public void testIntReturnComplex() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/intReturnComplex.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/intReturnComplex.kt");
                 }
 
                 @TestMetadata("longReturn.kt")
                 public void testLongReturn() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/longReturn.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/longReturn.kt");
                 }
 
                 @TestMetadata("nested.kt")
                 public void testNested() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/nested.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/nested.kt");
                 }
 
                 @TestMetadata("returnInFinally.kt")
                 public void testReturnInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/returnInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/returnInFinally.kt");
                 }
 
                 @TestMetadata("returnInTry.kt")
                 public void testReturnInTry() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/returnInTry.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/returnInTry.kt");
                 }
 
                 @TestMetadata("returnInTryAndFinally.kt")
                 public void testReturnInTryAndFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/returnInTryAndFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/returnInTryAndFinally.kt");
                 }
 
                 @TestMetadata("severalInTry.kt")
                 public void testSeveralInTry() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/severalInTry.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/severalInTry.kt");
                 }
 
                 @TestMetadata("severalInTryComplex.kt")
                 public void testSeveralInTryComplex() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/severalInTryComplex.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/severalInTryComplex.kt");
                 }
 
                 @TestMetadata("voidInlineFun.kt")
                 public void testVoidInlineFun() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/voidInlineFun.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/voidInlineFun.kt");
                 }
 
                 @TestMetadata("voidNonLocal.kt")
                 public void testVoidNonLocal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/voidNonLocal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/declSite/voidNonLocal.kt");
                 }
             }
 
@@ -1971,82 +1971,82 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
                 @TestMetadata("break.kt")
                 public void testBreak() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/break.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/break.kt");
                 }
 
                 @TestMetadata("continue.kt")
                 public void testContinue() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/continue.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/continue.kt");
                 }
 
                 @TestMetadata("exceptionInFinally.kt")
                 public void testExceptionInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/exceptionInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/exceptionInFinally.kt");
                 }
 
                 @TestMetadata("forInFinally.kt")
                 public void testForInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/forInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/forInFinally.kt");
                 }
 
                 @TestMetadata("innerAndExternal.kt")
                 public void testInnerAndExternal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternal.kt");
                 }
 
                 @TestMetadata("innerAndExternalNested.kt")
                 public void testInnerAndExternalNested() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternalNested.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternalNested.kt");
                 }
 
                 @TestMetadata("innerAndExternalSimple.kt")
                 public void testInnerAndExternalSimple() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternalSimple.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/innerAndExternalSimple.kt");
                 }
 
                 @TestMetadata("nested.kt")
                 public void testNested() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nested.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nested.kt");
                 }
 
                 @TestMetadata("nestedWithReturns.kt")
                 public void testNestedWithReturns() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nestedWithReturns.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nestedWithReturns.kt");
                 }
 
                 @TestMetadata("nestedWithReturnsSimple.kt")
                 public void testNestedWithReturnsSimple() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nestedWithReturnsSimple.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/nestedWithReturnsSimple.kt");
                 }
 
                 @TestMetadata("noFinally.kt")
                 public void testNoFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/noFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/noFinally.kt");
                 }
 
                 @TestMetadata("severalCatchClause.kt")
                 public void testSeveralCatchClause() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/severalCatchClause.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/severalCatchClause.kt");
                 }
 
                 @TestMetadata("simpleThrow.kt")
                 public void testSimpleThrow() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/simpleThrow.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/simpleThrow.kt");
                 }
 
                 @TestMetadata("synchonized.kt")
                 public void testSynchonized() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/synchonized.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/synchonized.kt");
                 }
 
                 @TestMetadata("throwInFinally.kt")
                 public void testThrowInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/throwInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/throwInFinally.kt");
                 }
 
                 @TestMetadata("tryCatchInFinally.kt")
                 public void testTryCatchInFinally() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/tryCatchInFinally.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/exceptionTable/tryCatchInFinally.kt");
                 }
             }
 
@@ -2060,7 +2060,7 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
                 @TestMetadata("kt7792.kt")
                 public void testKt7792() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/variables/kt7792.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/nonLocalReturns/tryFinally/variables/kt7792.kt");
                 }
             }
         }
@@ -2076,7 +2076,7 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("kt20844.kt")
         public void testKt20844() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/optimizations/kt20844.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/optimizations/kt20844.kt");
         }
     }
 
@@ -2086,17 +2086,17 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
     public static class Private extends AbstractIrCompileKotlinAgainstInlineKotlinTest {
         @TestMetadata("accessorForConst.kt")
         public void testAccessorForConst() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/accessorForConst.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/accessorForConst.kt");
         }
 
         @TestMetadata("accessorStability.kt")
         public void testAccessorStability() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/accessorStability.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/accessorStability.kt");
         }
 
         @TestMetadata("accessorStabilityInClass.kt")
         public void testAccessorStabilityInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/accessorStabilityInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/accessorStabilityInClass.kt");
         }
 
         public void testAllFilesPresentInPrivate() throws Exception {
@@ -2105,47 +2105,47 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("effectivePrivate.kt")
         public void testEffectivePrivate() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/effectivePrivate.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/effectivePrivate.kt");
         }
 
         @TestMetadata("kt6453.kt")
         public void testKt6453() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/kt6453.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/kt6453.kt");
         }
 
         @TestMetadata("kt8094.kt")
         public void testKt8094() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/kt8094.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/kt8094.kt");
         }
 
         @TestMetadata("kt8095.kt")
         public void testKt8095() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/kt8095.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/kt8095.kt");
         }
 
         @TestMetadata("nestedInPrivateClass.kt")
         public void testNestedInPrivateClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/nestedInPrivateClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/nestedInPrivateClass.kt");
         }
 
         @TestMetadata("privateClass.kt")
         public void testPrivateClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/privateClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/privateClass.kt");
         }
 
         @TestMetadata("privateClassExtensionLambda.kt")
         public void testPrivateClassExtensionLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/privateClassExtensionLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/privateClassExtensionLambda.kt");
         }
 
         @TestMetadata("privateInInlineInMultiFileFacade.kt")
         public void testPrivateInInlineInMultiFileFacade() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/privateInInlineInMultiFileFacade.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/privateInInlineInMultiFileFacade.kt");
         }
 
         @TestMetadata("privateInline.kt")
         public void testPrivateInline() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/private/privateInline.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/private/privateInline.kt");
         }
     }
 
@@ -2159,57 +2159,57 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("augAssignmentAndInc.kt")
         public void testAugAssignmentAndInc() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndInc.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/augAssignmentAndInc.kt");
         }
 
         @TestMetadata("augAssignmentAndIncInClass.kt")
         public void testAugAssignmentAndIncInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClass.kt");
         }
 
         @TestMetadata("augAssignmentAndIncInClassViaConvention.kt")
         public void testAugAssignmentAndIncInClassViaConvention() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClassViaConvention.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClassViaConvention.kt");
         }
 
         @TestMetadata("augAssignmentAndIncOnExtension.kt")
         public void testAugAssignmentAndIncOnExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtension.kt");
         }
 
         @TestMetadata("augAssignmentAndIncOnExtensionInClass.kt")
         public void testAugAssignmentAndIncOnExtensionInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtensionInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtensionInClass.kt");
         }
 
         @TestMetadata("augAssignmentAndIncViaConvention.kt")
         public void testAugAssignmentAndIncViaConvention() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncViaConvention.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncViaConvention.kt");
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/property.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/property.kt");
         }
 
         @TestMetadata("reifiedVal.kt")
         public void testReifiedVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/reifiedVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/reifiedVal.kt");
         }
 
         @TestMetadata("reifiedVar.kt")
         public void testReifiedVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/reifiedVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/reifiedVar.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/simple.kt");
         }
 
         @TestMetadata("simpleExtension.kt")
         public void testSimpleExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/simpleExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/property/simpleExtension.kt");
         }
     }
 
@@ -2223,72 +2223,72 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("capturedLambda.kt")
         public void testCapturedLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/capturedLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/capturedLambda.kt");
         }
 
         @TestMetadata("capturedLambda2.kt")
         public void testCapturedLambda2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/capturedLambda2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/capturedLambda2.kt");
         }
 
         @TestMetadata("kt11081.kt")
         public void testKt11081() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt11081.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt11081.kt");
         }
 
         @TestMetadata("kt11677.kt")
         public void testKt11677() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt11677.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt11677.kt");
         }
 
         @TestMetadata("kt15997.kt")
         public void testKt15997() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt15997.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt15997.kt");
         }
 
         @TestMetadata("kt15997_2.kt")
         public void testKt15997_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt15997_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt15997_2.kt");
         }
 
         @TestMetadata("kt6988.kt")
         public void testKt6988() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt6988.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt6988.kt");
         }
 
         @TestMetadata("kt6988_2.kt")
         public void testKt6988_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt6988_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt6988_2.kt");
         }
 
         @TestMetadata("kt6990.kt")
         public void testKt6990() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt6990.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt6990.kt");
         }
 
         @TestMetadata("kt7017.kt")
         public void testKt7017() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt7017.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt7017.kt");
         }
 
         @TestMetadata("kt8047.kt")
         public void testKt8047() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt8047.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt8047.kt");
         }
 
         @TestMetadata("kt9637.kt")
         public void testKt9637() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt9637.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt9637.kt");
         }
 
         @TestMetadata("kt9637_2.kt")
         public void testKt9637_2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/kt9637_2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/kt9637_2.kt");
         }
 
         @TestMetadata("packages.kt")
         public void testPackages() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/packages.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/packages.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/reified/checkCast")
@@ -2301,32 +2301,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("chain.kt")
             public void testChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/checkCast/chain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/checkCast/chain.kt");
             }
 
             @TestMetadata("kt8043.kt")
             public void testKt8043() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/checkCast/kt8043.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/checkCast/kt8043.kt");
             }
 
             @TestMetadata("maxStack.kt")
             public void testMaxStack() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/checkCast/maxStack.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/checkCast/maxStack.kt");
             }
 
             @TestMetadata("nullable.kt")
             public void testNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/checkCast/nullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/checkCast/nullable.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/checkCast/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/checkCast/simple.kt");
             }
 
             @TestMetadata("simpleSafe.kt")
             public void testSimpleSafe() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/checkCast/simpleSafe.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/checkCast/simpleSafe.kt");
             }
         }
 
@@ -2340,42 +2340,42 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("chain.kt")
             public void testChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/chain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/chain.kt");
             }
 
             @TestMetadata("nested.kt")
             public void testNested() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/nested.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/nested.kt");
             }
 
             @TestMetadata("nested2.kt")
             public void testNested2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/nested2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/nested2.kt");
             }
 
             @TestMetadata("nested2Static.kt")
             public void testNested2Static() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/nested2Static.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/nested2Static.kt");
             }
 
             @TestMetadata("nestedStatic.kt")
             public void testNestedStatic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/nestedStatic.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/nestedStatic.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/simple.kt");
             }
 
             @TestMetadata("transitiveChain.kt")
             public void testTransitiveChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/transitiveChain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/transitiveChain.kt");
             }
 
             @TestMetadata("transitiveChainStatic.kt")
             public void testTransitiveChainStatic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/defaultLambda/transitiveChainStatic.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/defaultLambda/transitiveChainStatic.kt");
             }
         }
 
@@ -2389,17 +2389,17 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("chain.kt")
             public void testChain() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/isCheck/chain.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/isCheck/chain.kt");
             }
 
             @TestMetadata("nullable.kt")
             public void testNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/isCheck/nullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/isCheck/nullable.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/reified/isCheck/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/reified/isCheck/simple.kt");
             }
         }
     }
@@ -2414,47 +2414,47 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("inProjectionSubstitution.kt")
         public void testInProjectionSubstitution() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/inProjectionSubstitution.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/inProjectionSubstitution.kt");
         }
 
         @TestMetadata("outProjectionSubstitution.kt")
         public void testOutProjectionSubstitution() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/outProjectionSubstitution.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/outProjectionSubstitution.kt");
         }
 
         @TestMetadata("recursion.kt")
         public void testRecursion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/recursion.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/recursion.kt");
         }
 
         @TestMetadata("sameFormalParameterName.kt")
         public void testSameFormalParameterName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/sameFormalParameterName.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/sameFormalParameterName.kt");
         }
 
         @TestMetadata("sameReifiedFormalParameterName.kt")
         public void testSameReifiedFormalParameterName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/sameReifiedFormalParameterName.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/sameReifiedFormalParameterName.kt");
         }
 
         @TestMetadata("starProjectionSubstitution.kt")
         public void testStarProjectionSubstitution() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/starProjectionSubstitution.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/starProjectionSubstitution.kt");
         }
 
         @TestMetadata("typeParameterInLambda.kt")
         public void testTypeParameterInLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/typeParameterInLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/typeParameterInLambda.kt");
         }
 
         @TestMetadata("typeParametersSubstitution.kt")
         public void testTypeParametersSubstitution() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/typeParametersSubstitution.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/typeParametersSubstitution.kt");
         }
 
         @TestMetadata("typeParametersSubstitution2.kt")
         public void testTypeParametersSubstitution2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/signature/typeParametersSubstitution2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/signature/typeParametersSubstitution2.kt");
         }
     }
 
@@ -2468,97 +2468,97 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("classObject.kt")
         public void testClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/classObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/classObject.kt");
         }
 
         @TestMetadata("destructuring.kt")
         public void testDestructuring() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/destructuring.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/destructuring.kt");
         }
 
         @TestMetadata("destructuringIndexClash.kt")
         public void testDestructuringIndexClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/destructuringIndexClash.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/destructuringIndexClash.kt");
         }
 
         @TestMetadata("extension.kt")
         public void testExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/extension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/extension.kt");
         }
 
         @TestMetadata("extensionLambda.kt")
         public void testExtensionLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/extensionLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/extensionLambda.kt");
         }
 
         @TestMetadata("funImportedFromObject.kt")
         public void testFunImportedFromObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/funImportedFromObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/funImportedFromObject.kt");
         }
 
         @TestMetadata("params.kt")
         public void testParams() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/params.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/params.kt");
         }
 
         @TestMetadata("propImportedFromObject.kt")
         public void testPropImportedFromObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/propImportedFromObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/propImportedFromObject.kt");
         }
 
         @TestMetadata("rootConstructor.kt")
         public void testRootConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/rootConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/rootConstructor.kt");
         }
 
         @TestMetadata("safeCall.kt")
         public void testSafeCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/safeCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/safeCall.kt");
         }
 
         @TestMetadata("severalClosures.kt")
         public void testSeveralClosures() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/severalClosures.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/severalClosures.kt");
         }
 
         @TestMetadata("severalUsage.kt")
         public void testSeveralUsage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/severalUsage.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/severalUsage.kt");
         }
 
         @TestMetadata("simpleDouble.kt")
         public void testSimpleDouble() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/simpleDouble.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/simpleDouble.kt");
         }
 
         @TestMetadata("simpleEnum.kt")
         public void testSimpleEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/simpleEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/simpleEnum.kt");
         }
 
         @TestMetadata("simpleGenerics.kt")
         public void testSimpleGenerics() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/simpleGenerics.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/simpleGenerics.kt");
         }
 
         @TestMetadata("simpleInt.kt")
         public void testSimpleInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/simpleInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/simpleInt.kt");
         }
 
         @TestMetadata("simpleLambda.kt")
         public void testSimpleLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/simpleLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/simpleLambda.kt");
         }
 
         @TestMetadata("simpleObject.kt")
         public void testSimpleObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/simpleObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/simpleObject.kt");
         }
 
         @TestMetadata("vararg.kt")
         public void testVararg() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/simple/vararg.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/simple/vararg.kt");
         }
     }
 
@@ -2572,27 +2572,27 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("assertion.kt")
         public void testAssertion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/assertion.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/assertion.kt");
         }
 
         @TestMetadata("classFromDefaultPackage.kt")
         public void testClassFromDefaultPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/classFromDefaultPackage.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/classFromDefaultPackage.kt");
         }
 
         @TestMetadata("defaultFunction.kt")
         public void testDefaultFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultFunction.kt");
         }
 
         @TestMetadata("oneFile.kt")
         public void testOneFile() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/oneFile.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/oneFile.kt");
         }
 
         @TestMetadata("smap.kt")
         public void testSmap() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/smap.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/smap.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/smap/anonymous")
@@ -2605,52 +2605,52 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("kt19175.kt")
             public void testKt19175() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/kt19175.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/kt19175.kt");
             }
 
             @TestMetadata("lambda.kt")
             public void testLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/lambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/lambda.kt");
             }
 
             @TestMetadata("lambdaOnCallSite.kt")
             public void testLambdaOnCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/lambdaOnCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/lambdaOnCallSite.kt");
             }
 
             @TestMetadata("lambdaOnInlineCallSite.kt")
             public void testLambdaOnInlineCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/lambdaOnInlineCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/lambdaOnInlineCallSite.kt");
             }
 
             @TestMetadata("object.kt")
             public void testObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/object.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/object.kt");
             }
 
             @TestMetadata("objectOnCallSite.kt")
             public void testObjectOnCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/objectOnCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/objectOnCallSite.kt");
             }
 
             @TestMetadata("objectOnInlineCallSite.kt")
             public void testObjectOnInlineCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/objectOnInlineCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/objectOnInlineCallSite.kt");
             }
 
             @TestMetadata("objectOnInlineCallSite2.kt")
             public void testObjectOnInlineCallSite2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/objectOnInlineCallSite2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/objectOnInlineCallSite2.kt");
             }
 
             @TestMetadata("objectOnInlineCallSiteWithCapture.kt")
             public void testObjectOnInlineCallSiteWithCapture() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/objectOnInlineCallSiteWithCapture.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/objectOnInlineCallSiteWithCapture.kt");
             }
 
             @TestMetadata("severalMappingsForDefaultFile.kt")
             public void testSeveralMappingsForDefaultFile() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/anonymous/severalMappingsForDefaultFile.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/anonymous/severalMappingsForDefaultFile.kt");
             }
         }
 
@@ -2664,47 +2664,47 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("defaultLambdaInAnonymous.kt")
             public void testDefaultLambdaInAnonymous() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/defaultLambdaInAnonymous.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/defaultLambdaInAnonymous.kt");
             }
 
             @TestMetadata("inlinInDefault.kt")
             public void testInlinInDefault() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/inlinInDefault.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/inlinInDefault.kt");
             }
 
             @TestMetadata("inlinInDefault2.kt")
             public void testInlinInDefault2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/inlinInDefault2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/inlinInDefault2.kt");
             }
 
             @TestMetadata("inlineAnonymousInDefault.kt")
             public void testInlineAnonymousInDefault() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/inlineAnonymousInDefault.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/inlineAnonymousInDefault.kt");
             }
 
             @TestMetadata("inlineAnonymousInDefault2.kt")
             public void testInlineAnonymousInDefault2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/inlineAnonymousInDefault2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/inlineAnonymousInDefault2.kt");
             }
 
             @TestMetadata("kt21827.kt")
             public void testKt21827() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/kt21827.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/kt21827.kt");
             }
 
             @TestMetadata("nested.kt")
             public void testNested() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/nested.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/nested.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/simple.kt");
             }
 
             @TestMetadata("simple2.kt")
             public void testSimple2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/defaultLambda/simple2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/defaultLambda/simple2.kt");
             }
         }
 
@@ -2718,22 +2718,22 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("noSmap.kt")
             public void testNoSmap() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/inlineOnly/noSmap.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/inlineOnly/noSmap.kt");
             }
 
             @TestMetadata("noSmapWithProperty.kt")
             public void testNoSmapWithProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/inlineOnly/noSmapWithProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/inlineOnly/noSmapWithProperty.kt");
             }
 
             @TestMetadata("reified.kt")
             public void testReified() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/inlineOnly/reified.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/inlineOnly/reified.kt");
             }
 
             @TestMetadata("reifiedProperty.kt")
             public void testReifiedProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/inlineOnly/reifiedProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/inlineOnly/reifiedProperty.kt");
             }
         }
 
@@ -2747,22 +2747,22 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("differentMapping.kt")
             public void testDifferentMapping() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/newsmap/differentMapping.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/newsmap/differentMapping.kt");
             }
 
             @TestMetadata("mappingInInlineFunLambda.kt")
             public void testMappingInInlineFunLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/newsmap/mappingInInlineFunLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/newsmap/mappingInInlineFunLambda.kt");
             }
 
             @TestMetadata("mappingInSubInlineLambda.kt")
             public void testMappingInSubInlineLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/newsmap/mappingInSubInlineLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/newsmap/mappingInSubInlineLambda.kt");
             }
 
             @TestMetadata("mappingInSubInlineLambdaSameFileInline.kt")
             public void testMappingInSubInlineLambdaSameFileInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/newsmap/mappingInSubInlineLambdaSameFileInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/newsmap/mappingInSubInlineLambdaSameFileInline.kt");
             }
         }
 
@@ -2776,12 +2776,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("inlineComponent.kt")
             public void testInlineComponent() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/resolve/inlineComponent.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/resolve/inlineComponent.kt");
             }
 
             @TestMetadata("inlineIterator.kt")
             public void testInlineIterator() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/smap/resolve/inlineIterator.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/smap/resolve/inlineIterator.kt");
             }
         }
     }
@@ -2796,42 +2796,42 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("identityCheck.kt")
         public void testIdentityCheck() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/identityCheck.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/identityCheck.kt");
         }
 
         @TestMetadata("ifBranches.kt")
         public void testIfBranches() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/ifBranches.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/ifBranches.kt");
         }
 
         @TestMetadata("iinc.kt")
         public void testIinc() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/iinc.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/iinc.kt");
         }
 
         @TestMetadata("inlineChain.kt")
         public void testInlineChain() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/inlineChain.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/inlineChain.kt");
         }
 
         @TestMetadata("loopInStoreLoadChains.kt")
         public void testLoopInStoreLoadChains() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/loopInStoreLoadChains.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/loopInStoreLoadChains.kt");
         }
 
         @TestMetadata("loopInStoreLoadChains2.kt")
         public void testLoopInStoreLoadChains2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/loopInStoreLoadChains2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/loopInStoreLoadChains2.kt");
         }
 
         @TestMetadata("plusAssign.kt")
         public void testPlusAssign() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/plusAssign.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/plusAssign.kt");
         }
 
         @TestMetadata("stackHeightBug.kt")
         public void testStackHeightBug() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/special/stackHeightBug.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/special/stackHeightBug.kt");
         }
     }
 
@@ -2845,72 +2845,72 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("elvis.kt")
         public void testElvis() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/elvis.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/elvis.kt");
         }
 
         @TestMetadata("ifThenElse.kt")
         public void testIfThenElse() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/ifThenElse.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/ifThenElse.kt");
         }
 
         @TestMetadata("kt11499.kt")
         public void testKt11499() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/kt11499.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/kt11499.kt");
         }
 
         @TestMetadata("kt17591.kt")
         public void testKt17591() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/kt17591.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/kt17591.kt");
         }
 
         @TestMetadata("kt17591a.kt")
         public void testKt17591a() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/kt17591a.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/kt17591a.kt");
         }
 
         @TestMetadata("kt17591b.kt")
         public void testKt17591b() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/kt17591b.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/kt17591b.kt");
         }
 
         @TestMetadata("mixedTypesOnStack1.kt")
         public void testMixedTypesOnStack1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/mixedTypesOnStack1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/mixedTypesOnStack1.kt");
         }
 
         @TestMetadata("mixedTypesOnStack2.kt")
         public void testMixedTypesOnStack2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/mixedTypesOnStack2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/mixedTypesOnStack2.kt");
         }
 
         @TestMetadata("mixedTypesOnStack3.kt")
         public void testMixedTypesOnStack3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/mixedTypesOnStack3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/mixedTypesOnStack3.kt");
         }
 
         @TestMetadata("nonLocalReturn1.kt")
         public void testNonLocalReturn1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/nonLocalReturn1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/nonLocalReturn1.kt");
         }
 
         @TestMetadata("nonLocalReturn2.kt")
         public void testNonLocalReturn2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/nonLocalReturn2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/nonLocalReturn2.kt");
         }
 
         @TestMetadata("nonLocalReturn3.kt")
         public void testNonLocalReturn3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/nonLocalReturn3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/nonLocalReturn3.kt");
         }
 
         @TestMetadata("returnLong.kt")
         public void testReturnLong() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/returnLong.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/returnLong.kt");
         }
 
         @TestMetadata("tryFinally.kt")
         public void testTryFinally() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/stackOnReturn/tryFinally.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/stackOnReturn/tryFinally.kt");
         }
     }
 
@@ -2924,77 +2924,77 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("capturedVariables.kt")
         public void testCapturedVariables() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/capturedVariables.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/capturedVariables.kt");
         }
 
         @TestMetadata("crossinlineSuspendLambdaInsideCrossinlineSuspendLambda.kt")
         public void testCrossinlineSuspendLambdaInsideCrossinlineSuspendLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/crossinlineSuspendLambdaInsideCrossinlineSuspendLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/crossinlineSuspendLambdaInsideCrossinlineSuspendLambda.kt");
         }
 
         @TestMetadata("inlineOrdinaryOfCrossinlineSuspend.kt")
         public void testInlineOrdinaryOfCrossinlineSuspend() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineOrdinaryOfCrossinlineSuspend.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineOrdinaryOfCrossinlineSuspend.kt");
         }
 
         @TestMetadata("inlineOrdinaryOfNoinlineSuspend.kt")
         public void testInlineOrdinaryOfNoinlineSuspend() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineOrdinaryOfNoinlineSuspend.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineOrdinaryOfNoinlineSuspend.kt");
         }
 
         @TestMetadata("inlineSuspendContinuation.kt")
         public void testInlineSuspendContinuation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendContinuation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendContinuation.kt");
         }
 
         @TestMetadata("inlineSuspendOfCrossinlineOrdinary.kt")
         public void testInlineSuspendOfCrossinlineOrdinary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendOfCrossinlineOrdinary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendOfCrossinlineOrdinary.kt");
         }
 
         @TestMetadata("inlineSuspendOfCrossinlineSuspend.kt")
         public void testInlineSuspendOfCrossinlineSuspend() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendOfCrossinlineSuspend.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendOfCrossinlineSuspend.kt");
         }
 
         @TestMetadata("inlineSuspendOfNoinlineOrdinary.kt")
         public void testInlineSuspendOfNoinlineOrdinary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendOfNoinlineOrdinary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendOfNoinlineOrdinary.kt");
         }
 
         @TestMetadata("inlineSuspendOfNoinlineSuspend.kt")
         public void testInlineSuspendOfNoinlineSuspend() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendOfNoinlineSuspend.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendOfNoinlineSuspend.kt");
         }
 
         @TestMetadata("inlineSuspendOfOrdinary.kt")
         public void testInlineSuspendOfOrdinary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendOfOrdinary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendOfOrdinary.kt");
         }
 
         @TestMetadata("inlineSuspendOfSuspend.kt")
         public void testInlineSuspendOfSuspend() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/inlineSuspendOfSuspend.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/inlineSuspendOfSuspend.kt");
         }
 
         @TestMetadata("multipleLocals.kt")
         public void testMultipleLocals() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/multipleLocals.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/multipleLocals.kt");
         }
 
         @TestMetadata("multipleSuspensionPoints.kt")
         public void testMultipleSuspensionPoints() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/multipleSuspensionPoints.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/multipleSuspensionPoints.kt");
         }
 
         @TestMetadata("returnValue.kt")
         public void testReturnValue() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/returnValue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/returnValue.kt");
         }
 
         @TestMetadata("tryCatchStackTransform.kt")
         public void testTryCatchStackTransform() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/tryCatchStackTransform.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/tryCatchStackTransform.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/suspend/defaultParameter")
@@ -3007,12 +3007,12 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("defaultValueCrossinline.kt")
             public void testDefaultValueCrossinline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/defaultParameter/defaultValueCrossinline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/defaultParameter/defaultValueCrossinline.kt");
             }
 
             @TestMetadata("defaultValueInline.kt")
             public void testDefaultValueInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/defaultParameter/defaultValueInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/defaultParameter/defaultValueInline.kt");
             }
         }
 
@@ -3026,42 +3026,42 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("inlineOrdinaryOfCrossinlineSuspend.kt")
             public void testInlineOrdinaryOfCrossinlineSuspend() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineOrdinaryOfCrossinlineSuspend.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineOrdinaryOfCrossinlineSuspend.kt");
             }
 
             @TestMetadata("inlineOrdinaryOfNoinlineSuspend.kt")
             public void testInlineOrdinaryOfNoinlineSuspend() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineOrdinaryOfNoinlineSuspend.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineOrdinaryOfNoinlineSuspend.kt");
             }
 
             @TestMetadata("inlineSuspendOfCrossinlineOrdinary.kt")
             public void testInlineSuspendOfCrossinlineOrdinary() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfCrossinlineOrdinary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfCrossinlineOrdinary.kt");
             }
 
             @TestMetadata("inlineSuspendOfCrossinlineSuspend.kt")
             public void testInlineSuspendOfCrossinlineSuspend() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfCrossinlineSuspend.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfCrossinlineSuspend.kt");
             }
 
             @TestMetadata("inlineSuspendOfNoinlineOrdinary.kt")
             public void testInlineSuspendOfNoinlineOrdinary() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfNoinlineOrdinary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfNoinlineOrdinary.kt");
             }
 
             @TestMetadata("inlineSuspendOfNoinlineSuspend.kt")
             public void testInlineSuspendOfNoinlineSuspend() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfNoinlineSuspend.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfNoinlineSuspend.kt");
             }
 
             @TestMetadata("inlineSuspendOfOrdinary.kt")
             public void testInlineSuspendOfOrdinary() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfOrdinary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfOrdinary.kt");
             }
 
             @TestMetadata("inlineSuspendOfSuspend.kt")
             public void testInlineSuspendOfSuspend() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfSuspend.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/receiver/inlineSuspendOfSuspend.kt");
             }
         }
 
@@ -3075,57 +3075,57 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("innerLambda.kt")
             public void testInnerLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerLambda.kt");
             }
 
             @TestMetadata("innerLambdaInsideLambda.kt")
             public void testInnerLambdaInsideLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerLambdaInsideLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerLambdaInsideLambda.kt");
             }
 
             @TestMetadata("innerLambdaWithoutCrossinline.kt")
             public void testInnerLambdaWithoutCrossinline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerLambdaWithoutCrossinline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerLambdaWithoutCrossinline.kt");
             }
 
             @TestMetadata("innerMadness.kt")
             public void testInnerMadness() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerMadness.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerMadness.kt");
             }
 
             @TestMetadata("innerMadnessCallSite.kt")
             public void testInnerMadnessCallSite() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerMadnessCallSite.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerMadnessCallSite.kt");
             }
 
             @TestMetadata("innerObject.kt")
             public void testInnerObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerObject.kt");
             }
 
             @TestMetadata("innerObjectInsideInnerObject.kt")
             public void testInnerObjectInsideInnerObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerObjectInsideInnerObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerObjectInsideInnerObject.kt");
             }
 
             @TestMetadata("innerObjectSeveralFunctions.kt")
             public void testInnerObjectSeveralFunctions() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerObjectSeveralFunctions.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerObjectSeveralFunctions.kt");
             }
 
             @TestMetadata("innerObjectWithoutCapturingCrossinline.kt")
             public void testInnerObjectWithoutCapturingCrossinline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/innerObjectWithoutCapturingCrossinline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/innerObjectWithoutCapturingCrossinline.kt");
             }
 
             @TestMetadata("normalInline.kt")
             public void testNormalInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/normalInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/normalInline.kt");
             }
 
             @TestMetadata("numberOfSuspentions.kt")
             public void testNumberOfSuspentions() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/suspend/stateMachine/numberOfSuspentions.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/suspend/stateMachine/numberOfSuspentions.kt");
             }
         }
     }
@@ -3140,37 +3140,37 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("constField.kt")
         public void testConstField() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/constField.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/constField.kt");
         }
 
         @TestMetadata("packagePrivateMembers.kt")
         public void testPackagePrivateMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/packagePrivateMembers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/packagePrivateMembers.kt");
         }
 
         @TestMetadata("propertyModifiers.kt")
         public void testPropertyModifiers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/propertyModifiers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/propertyModifiers.kt");
         }
 
         @TestMetadata("protectedMembers.kt")
         public void testProtectedMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/protectedMembers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/protectedMembers.kt");
         }
 
         @TestMetadata("protectedMembersFromSuper.kt")
         public void testProtectedMembersFromSuper() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/protectedMembersFromSuper.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/protectedMembersFromSuper.kt");
         }
 
         @TestMetadata("superCall.kt")
         public void testSuperCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/superCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/superCall.kt");
         }
 
         @TestMetadata("superProperty.kt")
         public void testSuperProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/superProperty.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/superProperty.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda")
@@ -3183,32 +3183,32 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
             @TestMetadata("directFieldAccess.kt")
             public void testDirectFieldAccess() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/directFieldAccess.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/directFieldAccess.kt");
             }
 
             @TestMetadata("directFieldAccessInCrossInline.kt")
             public void testDirectFieldAccessInCrossInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/directFieldAccessInCrossInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/directFieldAccessInCrossInline.kt");
             }
 
             @TestMetadata("privateCall.kt")
             public void testPrivateCall() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/privateCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/privateCall.kt");
             }
 
             @TestMetadata("privateInCrossInline.kt")
             public void testPrivateInCrossInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/privateInCrossInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/privateInCrossInline.kt");
             }
 
             @TestMetadata("superCall.kt")
             public void testSuperCall() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/superCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/superCall.kt");
             }
 
             @TestMetadata("superInCrossInline.kt")
             public void testSuperInCrossInline() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/superInCrossInline.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/syntheticAccessors/withinInlineLambda/superInCrossInline.kt");
             }
         }
     }
@@ -3223,7 +3223,7 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("trait.kt")
         public void testTrait() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/trait/trait.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/trait/trait.kt");
         }
     }
 
@@ -3237,22 +3237,22 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("kt5863.kt")
         public void testKt5863() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/tryCatchFinally/kt5863.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/tryCatchFinally/kt5863.kt");
         }
 
         @TestMetadata("tryCatch.kt")
         public void testTryCatch() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/tryCatchFinally/tryCatch.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/tryCatchFinally/tryCatch.kt");
         }
 
         @TestMetadata("tryCatch2.kt")
         public void testTryCatch2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/tryCatchFinally/tryCatch2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/tryCatchFinally/tryCatch2.kt");
         }
 
         @TestMetadata("tryCatchFinally.kt")
         public void testTryCatchFinally() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/tryCatchFinally/tryCatchFinally.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/tryCatchFinally/tryCatchFinally.kt");
         }
     }
 
@@ -3266,17 +3266,17 @@ public class IrCompileKotlinAgainstInlineKotlinTestGenerated extends AbstractIrC
 
         @TestMetadata("kt17653.kt")
         public void testKt17653() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/varargs/kt17653.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/varargs/kt17653.kt");
         }
 
         @TestMetadata("varargAndDefaultParameters.kt")
         public void testVarargAndDefaultParameters() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/varargs/varargAndDefaultParameters.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/varargs/varargAndDefaultParameters.kt");
         }
 
         @TestMetadata("varargAndDefaultParameters2.kt")
         public void testVarargAndDefaultParameters2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/varargs/varargAndDefaultParameters2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/boxInline/varargs/varargAndDefaultParameters2.kt");
         }
     }
 }

@@ -27,57 +27,57 @@ public class CopyTestGenerated extends AbstractCopyTest {
 
     @TestMetadata("copyClassCaretInside/copyClassCaretInside.test")
     public void testCopyClassCaretInside_CopyClassCaretInside() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyClassCaretInside/copyClassCaretInside.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyClassCaretInside/copyClassCaretInside.test");
     }
 
     @TestMetadata("copyClassToExistingFile/copyClassToExistingFile.test")
     public void testCopyClassToExistingFile_CopyClassToExistingFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyClassToExistingFile/copyClassToExistingFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyClassToExistingFile/copyClassToExistingFile.test");
     }
 
     @TestMetadata("copyClassToNewFile/copyClassToNewFile.test")
     public void testCopyClassToNewFile_CopyClassToNewFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyClassToNewFile/copyClassToNewFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyClassToNewFile/copyClassToNewFile.test");
     }
 
     @TestMetadata("copyClassToSamePackageWithRename/copyClassToSamePackageWithRename.test")
     public void testCopyClassToSamePackageWithRename_CopyClassToSamePackageWithRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyClassToSamePackageWithRename/copyClassToSamePackageWithRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyClassToSamePackageWithRename/copyClassToSamePackageWithRename.test");
     }
 
     @TestMetadata("copyClassWithCompanionRefs/copyClassWithCompanionRefs.test")
     public void testCopyClassWithCompanionRefs_CopyClassWithCompanionRefs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyClassWithCompanionRefs/copyClassWithCompanionRefs.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyClassWithCompanionRefs/copyClassWithCompanionRefs.test");
     }
 
     @TestMetadata("copyClassWithRename/copyClassWithRename.test")
     public void testCopyClassWithRename_CopyClassWithRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyClassWithRename/copyClassWithRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyClassWithRename/copyClassWithRename.test");
     }
 
     @TestMetadata("copyFIleFromDefaultPackage/copyFIleFromDefaultPackage.test")
     public void testCopyFIleFromDefaultPackage_CopyFIleFromDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyFIleFromDefaultPackage/copyFIleFromDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyFIleFromDefaultPackage/copyFIleFromDefaultPackage.test");
     }
 
     @TestMetadata("copyFIleRetainContent/copyFIleRetainContent.test")
     public void testCopyFIleRetainContent_CopyFIleRetainContent() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyFIleRetainContent/copyFIleRetainContent.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyFIleRetainContent/copyFIleRetainContent.test");
     }
 
     @TestMetadata("copyFIleToDefaultPackage/copyFIleToDefaultPackage.test")
     public void testCopyFIleToDefaultPackage_CopyFIleToDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyFIleToDefaultPackage/copyFIleToDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyFIleToDefaultPackage/copyFIleToDefaultPackage.test");
     }
 
     @TestMetadata("copyFIleWithPackageAndDirUnmatched/copyFIleWithPackageAndDirUnmatched.test")
     public void testCopyFIleWithPackageAndDirUnmatched_CopyFIleWithPackageAndDirUnmatched() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyFIleWithPackageAndDirUnmatched/copyFIleWithPackageAndDirUnmatched.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyFIleWithPackageAndDirUnmatched/copyFIleWithPackageAndDirUnmatched.test");
     }
 
     @TestMetadata("copyFunCallQualificationWithParentheses/copyFunCallQualificationWithParentheses.test")
     public void testCopyFunCallQualificationWithParentheses_CopyFunCallQualificationWithParentheses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyFunCallQualificationWithParentheses/copyFunCallQualificationWithParentheses.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyFunCallQualificationWithParentheses/copyFunCallQualificationWithParentheses.test");
     }
 
     @TestMetadata("copyKtFileToTextFile/copyKtFileToTextFile.test")
@@ -88,116 +88,116 @@ public class CopyTestGenerated extends AbstractCopyTest {
 
     @TestMetadata("copyLocalClass/copyLocalClass.test")
     public void testCopyLocalClass_CopyLocalClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyLocalClass/copyLocalClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyLocalClass/copyLocalClass.test");
     }
 
     @TestMetadata("copyLocalFunction/copyLocalFunction.test")
     public void testCopyLocalFunction_CopyLocalFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyLocalFunction/copyLocalFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyLocalFunction/copyLocalFunction.test");
     }
 
     @TestMetadata("copyLocalVariable/copyLocalVariable.test")
     public void testCopyLocalVariable_CopyLocalVariable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyLocalVariable/copyLocalVariable.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyLocalVariable/copyLocalVariable.test");
     }
 
     @TestMetadata("copyMemberFunction/copyMemberFunction.test")
     public void testCopyMemberFunction_CopyMemberFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyMemberFunction/copyMemberFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyMemberFunction/copyMemberFunction.test");
     }
 
     @TestMetadata("copyMemberProperty/copyMemberProperty.test")
     public void testCopyMemberProperty_CopyMemberProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyMemberProperty/copyMemberProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyMemberProperty/copyMemberProperty.test");
     }
 
     @TestMetadata("copyMultiClassFile/copyMultiClassFile.test")
     public void testCopyMultiClassFile_CopyMultiClassFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyMultiClassFile/copyMultiClassFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyMultiClassFile/copyMultiClassFile.test");
     }
 
     @TestMetadata("copyMultipleClassesToExistingFile/copyMultipleClassesToExistingFile.test")
     public void testCopyMultipleClassesToExistingFile_CopyMultipleClassesToExistingFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyMultipleClassesToExistingFile/copyMultipleClassesToExistingFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyMultipleClassesToExistingFile/copyMultipleClassesToExistingFile.test");
     }
 
     @TestMetadata("copyMultipleClassesToNewFile/copyMultipleClassesToNewFile.test")
     public void testCopyMultipleClassesToNewFile_CopyMultipleClassesToNewFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyMultipleClassesToNewFile/copyMultipleClassesToNewFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyMultipleClassesToNewFile/copyMultipleClassesToNewFile.test");
     }
 
     @TestMetadata("copyMultipleDeclarations/copyMultipleDeclarations.test")
     public void testCopyMultipleDeclarations_CopyMultipleDeclarations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyMultipleDeclarations/copyMultipleDeclarations.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyMultipleDeclarations/copyMultipleDeclarations.test");
     }
 
     @TestMetadata("copyNestedClass/copyNestedClass.test")
     public void testCopyNestedClass_CopyNestedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyNestedClass/copyNestedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyNestedClass/copyNestedClass.test");
     }
 
     @TestMetadata("copyObject/copyObject.test")
     public void testCopyObject_CopyObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyObject/copyObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyObject/copyObject.test");
     }
 
     @TestMetadata("copySingleClass/copySingleClass.test")
     public void testCopySingleClass_CopySingleClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copySingleClass/copySingleClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copySingleClass/copySingleClass.test");
     }
 
     @TestMetadata("copySingleClassFile/copySingleClassFile.test")
     public void testCopySingleClassFile_CopySingleClassFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copySingleClassFile/copySingleClassFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copySingleClassFile/copySingleClassFile.test");
     }
 
     @TestMetadata("copySingleClassWithRename/copySingleClassWithRename.test")
     public void testCopySingleClassWithRename_CopySingleClassWithRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copySingleClassWithRename/copySingleClassWithRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copySingleClassWithRename/copySingleClassWithRename.test");
     }
 
     @TestMetadata("copyTopLevelFunction/copyTopLevelFunction.test")
     public void testCopyTopLevelFunction_CopyTopLevelFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyTopLevelFunction/copyTopLevelFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyTopLevelFunction/copyTopLevelFunction.test");
     }
 
     @TestMetadata("copyTopLevelFunctionWithRename/copyTopLevelFunctionWithRename.test")
     public void testCopyTopLevelFunctionWithRename_CopyTopLevelFunctionWithRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyTopLevelFunctionWithRename/copyTopLevelFunctionWithRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyTopLevelFunctionWithRename/copyTopLevelFunctionWithRename.test");
     }
 
     @TestMetadata("copyTopLevelProperty/copyTopLevelProperty.test")
     public void testCopyTopLevelProperty_CopyTopLevelProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyTopLevelProperty/copyTopLevelProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyTopLevelProperty/copyTopLevelProperty.test");
     }
 
     @TestMetadata("copyTopLevelPropertyWithRename/copyTopLevelPropertyWithRename.test")
     public void testCopyTopLevelPropertyWithRename_CopyTopLevelPropertyWithRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyTopLevelPropertyWithRename/copyTopLevelPropertyWithRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyTopLevelPropertyWithRename/copyTopLevelPropertyWithRename.test");
     }
 
     @TestMetadata("copyWithImportInsertion/copyWithImportInsertion.test")
     public void testCopyWithImportInsertion_CopyWithImportInsertion() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/copyWithImportInsertion/copyWithImportInsertion.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/copyWithImportInsertion/copyWithImportInsertion.test");
     }
 
     @TestMetadata("kt18149/kt18149.test")
     public void testKt18149_Kt18149() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/kt18149/kt18149.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/kt18149/kt18149.test");
     }
 
     @TestMetadata("protectedConstructorRefInSuperListEntry/protectedConstructorRefInSuperListEntry.test")
     public void testProtectedConstructorRefInSuperListEntry_ProtectedConstructorRefInSuperListEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/protectedConstructorRefInSuperListEntry/protectedConstructorRefInSuperListEntry.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/protectedConstructorRefInSuperListEntry/protectedConstructorRefInSuperListEntry.test");
     }
 
     @TestMetadata("refToImportJavaStaticField/refToImportedJavaStaticField.test")
     public void testRefToImportJavaStaticField_RefToImportedJavaStaticField() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/refToImportJavaStaticField/refToImportedJavaStaticField.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/refToImportJavaStaticField/refToImportedJavaStaticField.test");
     }
 
     @TestMetadata("refToImportJavaStaticMethod/refToImportedJavaStaticMethod.test")
     public void testRefToImportJavaStaticMethod_RefToImportedJavaStaticMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/copy/refToImportJavaStaticMethod/refToImportedJavaStaticMethod.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/copy/refToImportJavaStaticMethod/refToImportedJavaStaticMethod.test");
     }
 }

@@ -23,67 +23,67 @@ import java.util.regex.Pattern;
 public class KeywordCompletionTestGenerated extends AbstractKeywordCompletionTest {
     @TestMetadata("AfterClassProperty.kt")
     public void testAfterClassProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClassProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterClassProperty.kt");
     }
 
     @TestMetadata("AfterClasses.kt")
     public void testAfterClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClasses.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterClasses.kt");
     }
 
     @TestMetadata("AfterClasses_LangLevel10.kt")
     public void testAfterClasses_LangLevel10() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClasses_LangLevel10.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterClasses_LangLevel10.kt");
     }
 
     @TestMetadata("AfterClasses_LangLevel11.kt")
     public void testAfterClasses_LangLevel11() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClasses_LangLevel11.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterClasses_LangLevel11.kt");
     }
 
     @TestMetadata("AfterDot.kt")
     public void testAfterDot() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterDot.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterDot.kt");
     }
 
     @TestMetadata("AfterFuns.kt")
     public void testAfterFuns() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterFuns.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterFuns.kt");
     }
 
     @TestMetadata("AfterIf.kt")
     public void testAfterIf() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterIf.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterIf.kt");
     }
 
     @TestMetadata("AfterSafeDot.kt")
     public void testAfterSafeDot() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterSafeDot.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterSafeDot.kt");
     }
 
     @TestMetadata("AfterSpaceAndDot.kt")
     public void testAfterSpaceAndDot() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterSpaceAndDot.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterSpaceAndDot.kt");
     }
 
     @TestMetadata("AfterTry.kt")
     public void testAfterTry() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTry.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterTry.kt");
     }
 
     @TestMetadata("AfterTryCatch.kt")
     public void testAfterTryCatch() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTryCatch.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterTryCatch.kt");
     }
 
     @TestMetadata("AfterTryFinally.kt")
     public void testAfterTryFinally() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTryFinally.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterTryFinally.kt");
     }
 
     @TestMetadata("AfterTryInAssignment.kt")
     public void testAfterTryInAssignment() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTryInAssignment.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/AfterTryInAssignment.kt");
     }
 
     public void testAllFilesPresentInKeywords() throws Exception {
@@ -92,431 +92,431 @@ public class KeywordCompletionTestGenerated extends AbstractKeywordCompletionTes
 
     @TestMetadata("BeforeClass.kt")
     public void testBeforeClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BeforeClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/BeforeClass.kt");
     }
 
     @TestMetadata("BeforeDelegationCall.kt")
     public void testBeforeDelegationCall() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BeforeDelegationCall.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/BeforeDelegationCall.kt");
     }
 
     @TestMetadata("BreakContinue.kt")
     public void testBreakContinue() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BreakContinue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/BreakContinue.kt");
     }
 
     @TestMetadata("BreakWithLabel.kt")
     public void testBreakWithLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BreakWithLabel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/BreakWithLabel.kt");
     }
 
     @TestMetadata("CommaExpected.kt")
     public void testCommaExpected() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/CommaExpected.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/CommaExpected.kt");
     }
 
     @TestMetadata("CompanionObjectBeforeObject.kt")
     public void testCompanionObjectBeforeObject() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/CompanionObjectBeforeObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/CompanionObjectBeforeObject.kt");
     }
 
     @TestMetadata("ContinueWithLabel.kt")
     public void testContinueWithLabel() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ContinueWithLabel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ContinueWithLabel.kt");
     }
 
     @TestMetadata("Else1.kt")
     public void testElse1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Else1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Else1.kt");
     }
 
     @TestMetadata("Else2.kt")
     public void testElse2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Else2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Else2.kt");
     }
 
     @TestMetadata("FileKeyword.kt")
     public void testFileKeyword() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/FileKeyword.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/FileKeyword.kt");
     }
 
     @TestMetadata("GlobalPropertyAccessors.kt")
     public void testGlobalPropertyAccessors() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/GlobalPropertyAccessors.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/GlobalPropertyAccessors.kt");
     }
 
     @TestMetadata("IfTry.kt")
     public void testIfTry() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/IfTry.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/IfTry.kt");
     }
 
     @TestMetadata("IfTryCatch.kt")
     public void testIfTryCatch() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/IfTryCatch.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/IfTryCatch.kt");
     }
 
     @TestMetadata("InAnnotationClassScope.kt")
     public void testInAnnotationClassScope() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InAnnotationClassScope.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InAnnotationClassScope.kt");
     }
 
     @TestMetadata("InArgumentList.kt")
     public void testInArgumentList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InArgumentList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InArgumentList.kt");
     }
 
     @TestMetadata("InBlockComment.kt")
     public void testInBlockComment() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InBlockComment.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InBlockComment.kt");
     }
 
     @TestMetadata("InChar.kt")
     public void testInChar() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InChar.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InChar.kt");
     }
 
     @TestMetadata("InClassBeforeFun.kt")
     public void testInClassBeforeFun() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassBeforeFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InClassBeforeFun.kt");
     }
 
     @TestMetadata("InClassNoCompletionInValName.kt")
     public void testInClassNoCompletionInValName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassNoCompletionInValName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InClassNoCompletionInValName.kt");
     }
 
     @TestMetadata("InClassProperty.kt")
     public void testInClassProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InClassProperty.kt");
     }
 
     @TestMetadata("InClassScope.kt")
     public void testInClassScope() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassScope.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InClassScope.kt");
     }
 
     @TestMetadata("InClassTypeParameters.kt")
     public void testInClassTypeParameters() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassTypeParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InClassTypeParameters.kt");
     }
 
     @TestMetadata("InCodeBlock.kt")
     public void testInCodeBlock() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InCodeBlock.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InCodeBlock.kt");
     }
 
     @TestMetadata("InElse.kt")
     public void testInElse() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InElse.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InElse.kt");
     }
 
     @TestMetadata("InEnumScope1.kt")
     public void testInEnumScope1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InEnumScope1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InEnumScope1.kt");
     }
 
     @TestMetadata("InEnumScope2.kt")
     public void testInEnumScope2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InEnumScope2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InEnumScope2.kt");
     }
 
     @TestMetadata("InFunctionExpressionBody.kt")
     public void testInFunctionExpressionBody() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionExpressionBody.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InFunctionExpressionBody.kt");
     }
 
     @TestMetadata("InFunctionName.kt")
     public void testInFunctionName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InFunctionName.kt");
     }
 
     @TestMetadata("InFunctionRecieverType.kt")
     public void testInFunctionRecieverType() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionRecieverType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InFunctionRecieverType.kt");
     }
 
     @TestMetadata("InFunctionTypePosition.kt")
     public void testInFunctionTypePosition() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionTypePosition.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InFunctionTypePosition.kt");
     }
 
     @TestMetadata("InGetterExpressionBody.kt")
     public void testInGetterExpressionBody() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InGetterExpressionBody.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InGetterExpressionBody.kt");
     }
 
     @TestMetadata("InIf.kt")
     public void testInIf() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InIf.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InIf.kt");
     }
 
     @TestMetadata("InInterfaceScope.kt")
     public void testInInterfaceScope() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InInterfaceScope.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InInterfaceScope.kt");
     }
 
     @TestMetadata("InMemberFunParametersList.kt")
     public void testInMemberFunParametersList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InMemberFunParametersList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InMemberFunParametersList.kt");
     }
 
     @TestMetadata("InModifierListInsideClass.kt")
     public void testInModifierListInsideClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InModifierListInsideClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InModifierListInsideClass.kt");
     }
 
     @TestMetadata("InNotFinishedGenericWithFunAfter.kt")
     public void testInNotFinishedGenericWithFunAfter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InNotFinishedGenericWithFunAfter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InNotFinishedGenericWithFunAfter.kt");
     }
 
     @TestMetadata("InObjectScope.kt")
     public void testInObjectScope() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InObjectScope.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InObjectScope.kt");
     }
 
     @TestMetadata("InParameterDefaultValue.kt")
     public void testInParameterDefaultValue() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InParameterDefaultValue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InParameterDefaultValue.kt");
     }
 
     @TestMetadata("InPrimaryConstructorParametersList.kt")
     public void testInPrimaryConstructorParametersList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InPrimaryConstructorParametersList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InPrimaryConstructorParametersList.kt");
     }
 
     @TestMetadata("InPropertyInitializer.kt")
     public void testInPropertyInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InPropertyInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InPropertyInitializer.kt");
     }
 
     @TestMetadata("InPropertyTypeReference.kt")
     public void testInPropertyTypeReference() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InPropertyTypeReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InPropertyTypeReference.kt");
     }
 
     @TestMetadata("InString.kt")
     public void testInString() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InString.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InString.kt");
     }
 
     @TestMetadata("InTopFunParametersList.kt")
     public void testInTopFunParametersList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InTopFunParametersList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InTopFunParametersList.kt");
     }
 
     @TestMetadata("InTopScopeAfterPackage.kt")
     public void testInTopScopeAfterPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InTopScopeAfterPackage.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InTopScopeAfterPackage.kt");
     }
 
     @TestMetadata("InTypePosition.kt")
     public void testInTypePosition() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InTypePosition.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/InTypePosition.kt");
     }
 
     @TestMetadata("LabeledLambdaThis.kt")
     public void testLabeledLambdaThis() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/LabeledLambdaThis.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/LabeledLambdaThis.kt");
     }
 
     @TestMetadata("LineComment.kt")
     public void testLineComment() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/LineComment.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/LineComment.kt");
     }
 
     @TestMetadata("NoBreak1.kt")
     public void testNoBreak1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoBreak1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NoBreak1.kt");
     }
 
     @TestMetadata("NoBreak2.kt")
     public void testNoBreak2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoBreak2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NoBreak2.kt");
     }
 
     @TestMetadata("NoCompanionThis.kt")
     public void testNoCompanionThis() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoCompanionThis.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NoCompanionThis.kt");
     }
 
     @TestMetadata("NoCompletionForCapitalPrefix.kt")
     public void testNoCompletionForCapitalPrefix() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoCompletionForCapitalPrefix.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NoCompletionForCapitalPrefix.kt");
     }
 
     @TestMetadata("NoContinue.kt")
     public void testNoContinue() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoContinue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NoContinue.kt");
     }
 
     @TestMetadata("NoFinalInParameterList.kt")
     public void testNoFinalInParameterList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoFinalInParameterList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NoFinalInParameterList.kt");
     }
 
     @TestMetadata("NotInNotIs.kt")
     public void testNotInNotIs() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NotInNotIs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NotInNotIs.kt");
     }
 
     @TestMetadata("NotInNotIs2.kt")
     public void testNotInNotIs2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NotInNotIs2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/NotInNotIs2.kt");
     }
 
     @TestMetadata("PrefixMatcher.kt")
     public void testPrefixMatcher() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PrefixMatcher.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/PrefixMatcher.kt");
     }
 
     @TestMetadata("PropertyAccessors.kt")
     public void testPropertyAccessors() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PropertyAccessors.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/PropertyAccessors.kt");
     }
 
     @TestMetadata("PropertyAccessors2.kt")
     public void testPropertyAccessors2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PropertyAccessors2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/PropertyAccessors2.kt");
     }
 
     @TestMetadata("PropertySetter.kt")
     public void testPropertySetter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PropertySetter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/PropertySetter.kt");
     }
 
     @TestMetadata("QualifiedThis.kt")
     public void testQualifiedThis() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/QualifiedThis.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/QualifiedThis.kt");
     }
 
     @TestMetadata("QualifiedThisInAccessor.kt")
     public void testQualifiedThisInAccessor() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/QualifiedThisInAccessor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/QualifiedThisInAccessor.kt");
     }
 
     @TestMetadata("Receiver.kt")
     public void testReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Receiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Receiver.kt");
     }
 
     @TestMetadata("Return1.kt")
     public void testReturn1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return1.kt");
     }
 
     @TestMetadata("Return2.kt")
     public void testReturn2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return2.kt");
     }
 
     @TestMetadata("Return3.kt")
     public void testReturn3() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return3.kt");
     }
 
     @TestMetadata("Return4.kt")
     public void testReturn4() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return4.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return4.kt");
     }
 
     @TestMetadata("Return5.kt")
     public void testReturn5() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return5.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return5.kt");
     }
 
     @TestMetadata("Return6.kt")
     public void testReturn6() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return6.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return6.kt");
     }
 
     @TestMetadata("Return7.kt")
     public void testReturn7() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return7.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return7.kt");
     }
 
     @TestMetadata("Return8.kt")
     public void testReturn8() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return8.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return8.kt");
     }
 
     @TestMetadata("Return9.kt")
     public void testReturn9() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return9.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/Return9.kt");
     }
 
     @TestMetadata("ReturnBoolean.kt")
     public void testReturnBoolean() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnBoolean.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnBoolean.kt");
     }
 
     @TestMetadata("ReturnCollection.kt")
     public void testReturnCollection() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnCollection.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnCollection.kt");
     }
 
     @TestMetadata("ReturnIterable.kt")
     public void testReturnIterable() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnIterable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnIterable.kt");
     }
 
     @TestMetadata("ReturnKeywordName.kt")
     public void testReturnKeywordName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnKeywordName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnKeywordName.kt");
     }
 
     @TestMetadata("ReturnList.kt")
     public void testReturnList() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnList.kt");
     }
 
     @TestMetadata("ReturnNotNull.kt")
     public void testReturnNotNull() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnNotNull.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnNotNull.kt");
     }
 
     @TestMetadata("ReturnNull.kt")
     public void testReturnNull() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnNull.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnNull.kt");
     }
 
     @TestMetadata("ReturnNullableBoolean.kt")
     public void testReturnNullableBoolean() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnNullableBoolean.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnNullableBoolean.kt");
     }
 
     @TestMetadata("ReturnSet.kt")
     public void testReturnSet() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnSet.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ReturnSet.kt");
     }
 
     @TestMetadata("SuspendInsideTypeArguments.kt")
     public void testSuspendInsideTypeArguments() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/SuspendInsideTypeArguments.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/SuspendInsideTypeArguments.kt");
     }
 
     @TestMetadata("SuspendInsideTypeArguments1.kt")
     public void testSuspendInsideTypeArguments1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/SuspendInsideTypeArguments1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/SuspendInsideTypeArguments1.kt");
     }
 
     @TestMetadata("This.kt")
     public void testThis() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/This.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/This.kt");
     }
 
     @TestMetadata("ThisPrefixMatching.kt")
     public void testThisPrefixMatching() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ThisPrefixMatching.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/ThisPrefixMatching.kt");
     }
 
     @TestMetadata("TopScope.kt")
     public void testTopScope() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/TopScope.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/TopScope.kt");
     }
 
     @TestMetadata("UseSiteTargetForPrimaryConstructorParameter.kt")
     public void testUseSiteTargetForPrimaryConstructorParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/UseSiteTargetForPrimaryConstructorParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/keywords/UseSiteTargetForPrimaryConstructorParameter.kt");
     }
 }

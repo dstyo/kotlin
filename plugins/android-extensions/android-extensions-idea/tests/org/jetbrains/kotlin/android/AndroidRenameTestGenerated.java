@@ -27,51 +27,51 @@ public class AndroidRenameTestGenerated extends AbstractAndroidRenameTest {
 
     @TestMetadata("commonElementId")
     public void testCommonElementId() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/commonElementId/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/commonElementId/");
     }
 
     @TestMetadata("fqNameInAttr")
     public void testFqNameInAttr() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInAttr/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInAttr/");
     }
 
     @TestMetadata("fqNameInAttrFragment")
     public void testFqNameInAttrFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInAttrFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInAttrFragment/");
     }
 
     @TestMetadata("fqNameInTag")
     public void testFqNameInTag() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInTag/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInTag/");
     }
 
     @TestMetadata("fqNameInTagFragment")
     public void testFqNameInTagFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInTagFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/fqNameInTagFragment/");
     }
 
     @TestMetadata("multiFile")
     public void testMultiFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/multiFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/multiFile/");
     }
 
     @TestMetadata("multiFileFragment")
     public void testMultiFileFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/multiFileFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/multiFileFragment/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/simple/");
     }
 
     @TestMetadata("simpleFragment")
     public void testSimpleFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/simpleFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/simpleFragment/");
     }
 
     @TestMetadata("simpleView")
     public void testSimpleView() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/rename/simpleView/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/rename/simpleView/");
     }
 }

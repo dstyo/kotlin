@@ -35,7 +35,7 @@ public class CompileKotlinAgainstKotlinTestGenerated extends AbstractCompileKotl
 
         @TestMetadata("jdk8Against6.kt")
         public void testJdk8Against6() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm6/jdk8Against6.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm6/jdk8Against6.kt");
         }
     }
 
@@ -57,22 +57,22 @@ public class CompileKotlinAgainstKotlinTestGenerated extends AbstractCompileKotl
 
             @TestMetadata("superCall.kt")
             public void testSuperCall() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superCall.kt");
             }
 
             @TestMetadata("superCallFromInterface.kt")
             public void testSuperCallFromInterface() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superCallFromInterface.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superCallFromInterface.kt");
             }
 
             @TestMetadata("superPropAccess.kt")
             public void testSuperPropAccess() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superPropAccess.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superPropAccess.kt");
             }
 
             @TestMetadata("superPropAccessFromInterface.kt")
             public void testSuperPropAccessFromInterface() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superPropAccessFromInterface.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8/defaults/superPropAccessFromInterface.kt");
             }
         }
     }
@@ -87,27 +87,27 @@ public class CompileKotlinAgainstKotlinTestGenerated extends AbstractCompileKotl
 
         @TestMetadata("simpleCall.kt")
         public void testSimpleCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleCall.kt");
         }
 
         @TestMetadata("simpleCallWithBigHierarchy.kt")
         public void testSimpleCallWithBigHierarchy() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleCallWithBigHierarchy.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleCallWithBigHierarchy.kt");
         }
 
         @TestMetadata("simpleCallWithHierarchy.kt")
         public void testSimpleCallWithHierarchy() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleCallWithHierarchy.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleCallWithHierarchy.kt");
         }
 
         @TestMetadata("simpleProp.kt")
         public void testSimpleProp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleProp.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simpleProp.kt");
         }
 
         @TestMetadata("simplePropWithHierarchy.kt")
         public void testSimplePropWithHierarchy() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simplePropWithHierarchy.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/simplePropWithHierarchy.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation")
@@ -120,17 +120,17 @@ public class CompileKotlinAgainstKotlinTestGenerated extends AbstractCompileKotl
 
             @TestMetadata("diamond.kt")
             public void testDiamond() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation/diamond.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation/diamond.kt");
             }
 
             @TestMetadata("diamond2.kt")
             public void testDiamond2() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation/diamond2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation/diamond2.kt");
             }
 
             @TestMetadata("diamond3.kt")
             public void testDiamond3() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation/diamond3.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/java8/compileKotlinAgainstKotlin/jvm8against6/delegation/diamond3.kt");
             }
         }
     }

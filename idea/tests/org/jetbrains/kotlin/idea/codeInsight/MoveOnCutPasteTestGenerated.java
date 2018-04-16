@@ -27,41 +27,41 @@ public class MoveOnCutPasteTestGenerated extends AbstractMoveOnCutPasteTest {
 
     @TestMetadata("ChangePackage.kt")
     public void testChangePackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/ChangePackage.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/ChangePackage.kt");
     }
 
     @TestMetadata("Copy.kt")
     public void testCopy() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/Copy.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/Copy.kt");
     }
 
     @TestMetadata("FromAnonymousObject.kt")
     public void testFromAnonymousObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/FromAnonymousObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/FromAnonymousObject.kt");
     }
 
     @TestMetadata("FromCompanionObjectToTopLevel.kt")
     public void testFromCompanionObjectToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/FromCompanionObjectToTopLevel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/FromCompanionObjectToTopLevel.kt");
     }
 
     @TestMetadata("FromObjectToSameFile.kt")
     public void testFromObjectToSameFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/FromObjectToSameFile.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/FromObjectToSameFile.kt");
     }
 
     @TestMetadata("FromObjectToTopLevel.kt")
     public void testFromObjectToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/FromObjectToTopLevel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/FromObjectToTopLevel.kt");
     }
 
     @TestMetadata("OptimizeImportsAfterCut.kt")
     public void testOptimizeImportsAfterCut() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/OptimizeImportsAfterCut.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/OptimizeImportsAfterCut.kt");
     }
 
     @TestMetadata("SamePackage.kt")
     public void testSamePackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/moveDeclarations/SamePackage.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/moveDeclarations/SamePackage.kt");
     }
 }

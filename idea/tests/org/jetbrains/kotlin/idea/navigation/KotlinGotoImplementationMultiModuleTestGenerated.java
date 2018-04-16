@@ -27,36 +27,36 @@ public class KotlinGotoImplementationMultiModuleTestGenerated extends AbstractKo
 
     @TestMetadata("expectClass")
     public void testExpectClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/expectClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/expectClass/");
     }
 
     @TestMetadata("expectClassFun")
     public void testExpectClassFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/expectClassFun/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/expectClassFun/");
     }
 
     @TestMetadata("expectClassProperty")
     public void testExpectClassProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/expectClassProperty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/expectClassProperty/");
     }
 
     @TestMetadata("expectClassSuperclass")
     public void testExpectClassSuperclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/expectClassSuperclass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/expectClassSuperclass/");
     }
 
     @TestMetadata("expectClassSuperclassFun")
     public void testExpectClassSuperclassFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/expectClassSuperclassFun/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/expectClassSuperclassFun/");
     }
 
     @TestMetadata("expectClassSuperclassProperty")
     public void testExpectClassSuperclassProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/expectClassSuperclassProperty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/expectClassSuperclassProperty/");
     }
 
     @TestMetadata("suspendFunImpl")
     public void testSuspendFunImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/implementations/multiModule/suspendFunImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/implementations/multiModule/suspendFunImpl/");
     }
 }

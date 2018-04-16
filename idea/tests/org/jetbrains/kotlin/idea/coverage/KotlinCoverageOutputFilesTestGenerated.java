@@ -27,6 +27,6 @@ public class KotlinCoverageOutputFilesTestGenerated extends AbstractKotlinCovera
 
     @TestMetadata("NotInlinedLambda.kt")
     public void testNotInlinedLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/coverage/outputFiles/NotInlinedLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/coverage/outputFiles/NotInlinedLambda.kt");
     }
 }

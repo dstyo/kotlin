@@ -27,61 +27,61 @@ public class ReferenceToCompiledKotlinResolveInJavaTestGenerated extends Abstrac
 
     @TestMetadata("Class.java")
     public void testClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Class.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/Class.java");
     }
 
     @TestMetadata("ClassObjectField.java")
     public void testClassObjectField() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/ClassObjectField.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/ClassObjectField.java");
     }
 
     @TestMetadata("Constructor.java")
     public void testConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Constructor.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/Constructor.java");
     }
 
     @TestMetadata("EnumEntry.java")
     public void testEnumEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/EnumEntry.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/EnumEntry.java");
     }
 
     @TestMetadata("Field.java")
     public void testField() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Field.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/Field.java");
     }
 
     @TestMetadata("FileFacade.java")
     public void testFileFacade() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/FileFacade.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/FileFacade.java");
     }
 
     @TestMetadata("Getter.java")
     public void testGetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Getter.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/Getter.java");
     }
 
     @TestMetadata("Method.java")
     public void testMethod() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Method.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/Method.java");
     }
 
     @TestMetadata("MethodOfDeeplyNested.java")
     public void testMethodOfDeeplyNested() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/MethodOfDeeplyNested.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/MethodOfDeeplyNested.java");
     }
 
     @TestMetadata("MethodWithParameters.java")
     public void testMethodWithParameters() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/MethodWithParameters.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/MethodWithParameters.java");
     }
 
     @TestMetadata("ObjectInstance.java")
     public void testObjectInstance() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/ObjectInstance.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/ObjectInstance.java");
     }
 
     @TestMetadata("PlatformStaticFun.java")
     public void testPlatformStaticFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/PlatformStaticFun.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInJava/binaryAndSource/PlatformStaticFun.java");
     }
 }

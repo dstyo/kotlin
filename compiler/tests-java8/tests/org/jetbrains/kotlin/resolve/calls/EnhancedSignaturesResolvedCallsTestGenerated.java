@@ -35,17 +35,17 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("collectionRemoveIf.kt")
         public void testCollectionRemoveIf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionRemoveIf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionRemoveIf.kt");
         }
 
         @TestMetadata("collectionSpliterator.kt")
         public void testCollectionSpliterator() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionSpliterator.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionSpliterator.kt");
         }
 
         @TestMetadata("collectionStream.kt")
         public void testCollectionStream() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionStream.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionStream.kt");
         }
     }
 
@@ -59,7 +59,7 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("iterableSpliterator.kt")
         public void testIterableSpliterator() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/iterable/iterableSpliterator.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/iterable/iterableSpliterator.kt");
         }
     }
 
@@ -73,7 +73,7 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("iteratorForEachRemaining.kt")
         public void testIteratorForEachRemaining() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/iterator/iteratorForEachRemaining.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/iterator/iteratorForEachRemaining.kt");
         }
     }
 
@@ -87,12 +87,12 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("listReplaceAll.kt")
         public void testListReplaceAll() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/list/listReplaceAll.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/list/listReplaceAll.kt");
         }
 
         @TestMetadata("listStream.kt")
         public void testListStream() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/list/listStream.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/list/listStream.kt");
         }
     }
 
@@ -106,37 +106,37 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("mapCompute.kt")
         public void testMapCompute() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapCompute.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapCompute.kt");
         }
 
         @TestMetadata("mapComputeIfAbsent.kt")
         public void testMapComputeIfAbsent() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfAbsent.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfAbsent.kt");
         }
 
         @TestMetadata("mapComputeIfPresent.kt")
         public void testMapComputeIfPresent() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfPresent.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfPresent.kt");
         }
 
         @TestMetadata("mapForEach.kt")
         public void testMapForEach() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapForEach.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapForEach.kt");
         }
 
         @TestMetadata("mapMerge.kt")
         public void testMapMerge() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapMerge.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapMerge.kt");
         }
 
         @TestMetadata("mapPutIfAbsent.kt")
         public void testMapPutIfAbsent() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapPutIfAbsent.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapPutIfAbsent.kt");
         }
 
         @TestMetadata("mapReplace.kt")
         public void testMapReplace() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapReplace.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/map/mapReplace.kt");
         }
     }
 
@@ -150,22 +150,22 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("optionalEmpty.kt")
         public void testOptionalEmpty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalEmpty.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalEmpty.kt");
         }
 
         @TestMetadata("optionalGet.kt")
         public void testOptionalGet() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalGet.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalGet.kt");
         }
 
         @TestMetadata("optionalIfPresent.kt")
         public void testOptionalIfPresent() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalIfPresent.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalIfPresent.kt");
         }
 
         @TestMetadata("optionalOf.kt")
         public void testOptionalOf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalOf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalOf.kt");
         }
     }
 
@@ -179,12 +179,12 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("softReference.kt")
         public void testSoftReference() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/references/softReference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/references/softReference.kt");
         }
 
         @TestMetadata("weakReference.kt")
         public void testWeakReference() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/references/weakReference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolvedCalls/enhancedSignatures/references/weakReference.kt");
         }
     }
 }

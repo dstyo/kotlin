@@ -27,21 +27,21 @@ public class ExpressionSelectionTestGenerated extends AbstractExpressionSelectio
 
     @TestMetadata("binaryExpr.kt")
     public void testBinaryExpr() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/expressionSelection/binaryExpr.kt", this::doTestExpressionSelection);
+        KotlinTestUtils.runTest(this::doTestExpressionSelection,TargetBackend.ANY, "idea/testData/expressionSelection/binaryExpr.kt");
     }
 
     @TestMetadata("labelledStatement.kt")
     public void testLabelledStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/expressionSelection/labelledStatement.kt", this::doTestExpressionSelection);
+        KotlinTestUtils.runTest(this::doTestExpressionSelection,TargetBackend.ANY, "idea/testData/expressionSelection/labelledStatement.kt");
     }
 
     @TestMetadata("labelledThis.kt")
     public void testLabelledThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/expressionSelection/labelledThis.kt", this::doTestExpressionSelection);
+        KotlinTestUtils.runTest(this::doTestExpressionSelection,TargetBackend.ANY, "idea/testData/expressionSelection/labelledThis.kt");
     }
 
     @TestMetadata("noExpression.kt")
     public void testNoExpression() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/expressionSelection/noExpression.kt", this::doTestExpressionSelection);
+        KotlinTestUtils.runTest(this::doTestExpressionSelection,TargetBackend.ANY, "idea/testData/expressionSelection/noExpression.kt");
     }
 }

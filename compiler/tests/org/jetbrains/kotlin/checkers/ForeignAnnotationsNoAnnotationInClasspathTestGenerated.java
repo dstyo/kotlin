@@ -27,47 +27,47 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
     @TestMetadata("android_support.kt")
     public void testAndroid_support() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/android_support.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/android_support.kt");
     }
 
     @TestMetadata("androidx.kt")
     public void testAndroidx() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/androidx.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/androidx.kt");
     }
 
     @TestMetadata("aosp.kt")
     public void testAosp() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/aosp.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/aosp.kt");
     }
 
     @TestMetadata("checkerFramework.kt")
     public void testCheckerFramework() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/checkerFramework.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/checkerFramework.kt");
     }
 
     @TestMetadata("eclipse.kt")
     public void testEclipse() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/eclipse.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/eclipse.kt");
     }
 
     @TestMetadata("findBugsSimple.kt")
     public void testFindBugsSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/findBugsSimple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/findBugsSimple.kt");
     }
 
     @TestMetadata("irrelevantQualifierNicknames.kt")
     public void testIrrelevantQualifierNicknames() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/irrelevantQualifierNicknames.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/irrelevantQualifierNicknames.kt");
     }
 
     @TestMetadata("lombokSimple.kt")
     public void testLombokSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/lombokSimple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/lombokSimple.kt");
     }
 
     @TestMetadata("rxjava.kt")
     public void testRxjava() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/rxjava.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/rxjava.kt");
     }
 
     @TestMetadata("compiler/testData/foreignAnnotations/tests/jsr305")
@@ -80,22 +80,22 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
         @TestMetadata("nonNullNever.kt")
         public void testNonNullNever() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nonNullNever.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nonNullNever.kt");
         }
 
         @TestMetadata("nullabilityNicknames.kt")
         public void testNullabilityNicknames() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityNicknames.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityNicknames.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/simple.kt");
         }
 
         @TestMetadata("strange.kt")
         public void testStrange() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/strange.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/strange.kt");
         }
 
         @TestMetadata("compiler/testData/foreignAnnotations/tests/jsr305/ignore")
@@ -108,7 +108,7 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
             @TestMetadata("parametersAreNonnullByDefault.kt")
             public void testParametersAreNonnullByDefault() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/ignore/parametersAreNonnullByDefault.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/ignore/parametersAreNonnullByDefault.kt");
             }
         }
 
@@ -122,37 +122,37 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
             @TestMetadata("elvis.kt")
             public void testElvis() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/elvis.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/elvis.kt");
             }
 
             @TestMetadata("localInference.kt")
             public void testLocalInference() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/localInference.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/localInference.kt");
             }
 
             @TestMetadata("nullabilityGenerics.kt")
             public void testNullabilityGenerics() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/nullabilityGenerics.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/nullabilityGenerics.kt");
             }
 
             @TestMetadata("nullabilityNicknames.kt")
             public void testNullabilityNicknames() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/nullabilityNicknames.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/nullabilityNicknames.kt");
             }
 
             @TestMetadata("safeCalls.kt")
             public void testSafeCalls() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/safeCalls.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/safeCalls.kt");
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/simple.kt");
             }
 
             @TestMetadata("strange.kt")
             public void testStrange() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/strange.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/strange.kt");
             }
 
             @TestMetadata("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes")
@@ -165,102 +165,102 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
                 @TestMetadata("arithmetic.kt")
                 public void testArithmetic() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/arithmetic.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/arithmetic.kt");
                 }
 
                 @TestMetadata("array.kt")
                 public void testArray() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/array.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/array.kt");
                 }
 
                 @TestMetadata("assignToVar.kt")
                 public void testAssignToVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/assignToVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/assignToVar.kt");
                 }
 
                 @TestMetadata("conditions.kt")
                 public void testConditions() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/conditions.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/conditions.kt");
                 }
 
                 @TestMetadata("dataFlowInfo.kt")
                 public void testDataFlowInfo() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/dataFlowInfo.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/dataFlowInfo.kt");
                 }
 
                 @TestMetadata("defaultParameters.kt")
                 public void testDefaultParameters() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/defaultParameters.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/defaultParameters.kt");
                 }
 
                 @TestMetadata("delegatedProperties.kt")
                 public void testDelegatedProperties() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/delegatedProperties.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/delegatedProperties.kt");
                 }
 
                 @TestMetadata("delegation.kt")
                 public void testDelegation() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/delegation.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/delegation.kt");
                 }
 
                 @TestMetadata("derefenceExtension.kt")
                 public void testDerefenceExtension() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/derefenceExtension.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/derefenceExtension.kt");
                 }
 
                 @TestMetadata("derefenceMember.kt")
                 public void testDerefenceMember() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/derefenceMember.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/derefenceMember.kt");
                 }
 
                 @TestMetadata("expectedType.kt")
                 public void testExpectedType() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/expectedType.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/expectedType.kt");
                 }
 
                 @TestMetadata("for.kt")
                 public void testFor() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/for.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/for.kt");
                 }
 
                 @TestMetadata("functionArguments.kt")
                 public void testFunctionArguments() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/functionArguments.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/functionArguments.kt");
                 }
 
                 @TestMetadata("invoke.kt")
                 public void testInvoke() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/invoke.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/invoke.kt");
                 }
 
                 @TestMetadata("kt6829.kt")
                 public void testKt6829() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/kt6829.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/kt6829.kt");
                 }
 
                 @TestMetadata("multiDeclaration.kt")
                 public void testMultiDeclaration() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/multiDeclaration.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/multiDeclaration.kt");
                 }
 
                 @TestMetadata("passToJava.kt")
                 public void testPassToJava() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/passToJava.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/passToJava.kt");
                 }
 
                 @TestMetadata("primitiveArray.kt")
                 public void testPrimitiveArray() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/primitiveArray.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/primitiveArray.kt");
                 }
 
                 @TestMetadata("throw.kt")
                 public void testThrow() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/throw.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/throw.kt");
                 }
 
                 @TestMetadata("uselessElvisRightIsNull.kt")
                 public void testUselessElvisRightIsNull() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/uselessElvisRightIsNull.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/fromPlatformTypes/uselessElvisRightIsNull.kt");
                 }
             }
 
@@ -274,42 +274,42 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
                 @TestMetadata("equalsOnNonNull.kt")
                 public void testEqualsOnNonNull() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/equalsOnNonNull.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/equalsOnNonNull.kt");
                 }
 
                 @TestMetadata("fieldsAreNullable.kt")
                 public void testFieldsAreNullable() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/fieldsAreNullable.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/fieldsAreNullable.kt");
                 }
 
                 @TestMetadata("nullabilityFromOverridden.kt")
                 public void testNullabilityFromOverridden() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/nullabilityFromOverridden.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/nullabilityFromOverridden.kt");
                 }
 
                 @TestMetadata("overridingDefaultQualifier.kt")
                 public void testOverridingDefaultQualifier() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/overridingDefaultQualifier.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/overridingDefaultQualifier.kt");
                 }
 
                 @TestMetadata("parametersAreNonnullByDefault.kt")
                 public void testParametersAreNonnullByDefault() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/parametersAreNonnullByDefault.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/parametersAreNonnullByDefault.kt");
                 }
 
                 @TestMetadata("parametersAreNonnullByDefaultPackage.kt")
                 public void testParametersAreNonnullByDefaultPackage() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/parametersAreNonnullByDefaultPackage.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/parametersAreNonnullByDefaultPackage.kt");
                 }
 
                 @TestMetadata("springNullable.kt")
                 public void testSpringNullable() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/springNullable.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/springNullable.kt");
                 }
 
                 @TestMetadata("springNullablePackage.kt")
                 public void testSpringNullablePackage() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/springNullablePackage.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/nullabilityWarnings/typeQualifierDefault/springNullablePackage.kt");
                 }
             }
         }
@@ -324,47 +324,47 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
             @TestMetadata("fieldsAreNullable.kt")
             public void testFieldsAreNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/fieldsAreNullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/fieldsAreNullable.kt");
             }
 
             @TestMetadata("forceFlexibility.kt")
             public void testForceFlexibility() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/forceFlexibility.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/forceFlexibility.kt");
             }
 
             @TestMetadata("forceFlexibleOverOverrides.kt")
             public void testForceFlexibleOverOverrides() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/forceFlexibleOverOverrides.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/forceFlexibleOverOverrides.kt");
             }
 
             @TestMetadata("nullabilityFromOverridden.kt")
             public void testNullabilityFromOverridden() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/nullabilityFromOverridden.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/nullabilityFromOverridden.kt");
             }
 
             @TestMetadata("overridingDefaultQualifier.kt")
             public void testOverridingDefaultQualifier() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/overridingDefaultQualifier.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/overridingDefaultQualifier.kt");
             }
 
             @TestMetadata("parametersAreNonnullByDefault.kt")
             public void testParametersAreNonnullByDefault() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/parametersAreNonnullByDefault.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/parametersAreNonnullByDefault.kt");
             }
 
             @TestMetadata("parametersAreNonnullByDefaultPackage.kt")
             public void testParametersAreNonnullByDefaultPackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/parametersAreNonnullByDefaultPackage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/parametersAreNonnullByDefaultPackage.kt");
             }
 
             @TestMetadata("springNullable.kt")
             public void testSpringNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/springNullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/springNullable.kt");
             }
 
             @TestMetadata("springNullablePackage.kt")
             public void testSpringNullablePackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/springNullablePackage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305/typeQualifierDefault/springNullablePackage.kt");
             }
         }
     }
@@ -387,47 +387,47 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
             @TestMetadata("customMigration.kt")
             public void testCustomMigration() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/customMigration.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/customMigration.kt");
             }
 
             @TestMetadata("globalIgnore.kt")
             public void testGlobalIgnore() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/globalIgnore.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/globalIgnore.kt");
             }
 
             @TestMetadata("globalWarningMigrationIgnore.kt")
             public void testGlobalWarningMigrationIgnore() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/globalWarningMigrationIgnore.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/globalWarningMigrationIgnore.kt");
             }
 
             @TestMetadata("migrationError.kt")
             public void testMigrationError() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/migrationError.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/migrationError.kt");
             }
 
             @TestMetadata("migrationIgnore.kt")
             public void testMigrationIgnore() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/migrationIgnore.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/migrationIgnore.kt");
             }
 
             @TestMetadata("migrationWarning.kt")
             public void testMigrationWarning() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/migrationWarning.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/migrationWarning.kt");
             }
 
             @TestMetadata("overrideConflicts.kt")
             public void testOverrideConflicts() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/overrideConflicts.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/overrideConflicts.kt");
             }
 
             @TestMetadata("specialCollision.kt")
             public void testSpecialCollision() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/specialCollision.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/specialCollision.kt");
             }
 
             @TestMetadata("stateRefinement.kt")
             public void testStateRefinement() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/stateRefinement.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/jsr305NullabilityWarnings/migration/stateRefinement.kt");
             }
         }
     }
@@ -442,7 +442,7 @@ public class ForeignAnnotationsNoAnnotationInClasspathTestGenerated extends Abst
 
         @TestMetadata("defaultAndNicknameMigrationPolicy.kt")
         public void testDefaultAndNicknameMigrationPolicy() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotations/tests/typeQualifierDefault/defaultAndNicknameMigrationPolicy.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotations/tests/typeQualifierDefault/defaultAndNicknameMigrationPolicy.kt");
         }
     }
 }

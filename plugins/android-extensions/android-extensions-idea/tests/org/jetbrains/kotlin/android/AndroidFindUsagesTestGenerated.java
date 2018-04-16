@@ -27,51 +27,51 @@ public class AndroidFindUsagesTestGenerated extends AbstractAndroidFindUsagesTes
 
     @TestMetadata("fqNameInAttr")
     public void testFqNameInAttr() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInAttr/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInAttr/");
     }
 
     @TestMetadata("fqNameInAttrFragment")
     public void testFqNameInAttrFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInAttrFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInAttrFragment/");
     }
 
     @TestMetadata("fqNameInTag")
     public void testFqNameInTag() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInTag/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInTag/");
     }
 
     @TestMetadata("fqNameInTagFragment")
     public void testFqNameInTagFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInTagFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/fqNameInTagFragment/");
     }
 
     @TestMetadata("multiFile")
     public void testMultiFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/multiFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/multiFile/");
     }
 
     @TestMetadata("multiFileFragment")
     public void testMultiFileFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/multiFileFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/multiFileFragment/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/simple/");
     }
 
     @TestMetadata("simpleFragment")
     public void testSimpleFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/simpleFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/simpleFragment/");
     }
 
     @TestMetadata("simpleView")
     public void testSimpleView() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/simpleView/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/simpleView/");
     }
 
     @TestMetadata("wrongIdFormat")
     public void testWrongIdFormat() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/findUsages/wrongIdFormat/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/findUsages/wrongIdFormat/");
     }
 }

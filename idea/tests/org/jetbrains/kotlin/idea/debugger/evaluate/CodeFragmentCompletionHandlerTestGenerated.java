@@ -27,31 +27,31 @@ public class CodeFragmentCompletionHandlerTestGenerated extends AbstractCodeFrag
 
     @TestMetadata("CastPrivateFun.kt")
     public void testCastPrivateFun() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/CastPrivateFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/handlers/runtimeCast/CastPrivateFun.kt");
     }
 
     @TestMetadata("CastPropertyWithSmartCast.kt")
     public void testCastPropertyWithSmartCast() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/CastPropertyWithSmartCast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/handlers/runtimeCast/CastPropertyWithSmartCast.kt");
     }
 
     @TestMetadata("InsertExtFunction.kt")
     public void testInsertExtFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/InsertExtFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/handlers/runtimeCast/InsertExtFunction.kt");
     }
 
     @TestMetadata("InsertFunction.kt")
     public void testInsertFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/InsertFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/handlers/runtimeCast/InsertFunction.kt");
     }
 
     @TestMetadata("InsertImport.kt")
     public void testInsertImport() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/InsertImport.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/handlers/runtimeCast/InsertImport.kt");
     }
 
     @TestMetadata("NotImportedExtension.kt")
     public void testNotImportedExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/NotImportedExtension.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/handlers/runtimeCast/NotImportedExtension.kt");
     }
 }

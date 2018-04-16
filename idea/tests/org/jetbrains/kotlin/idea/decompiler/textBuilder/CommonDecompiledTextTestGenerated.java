@@ -27,101 +27,101 @@ public class CommonDecompiledTextTestGenerated extends AbstractCommonDecompiledT
 
     @TestMetadata("AnnotatedEnumEntry")
     public void testAnnotatedEnumEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/AnnotatedEnumEntry/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/AnnotatedEnumEntry/");
     }
 
     @TestMetadata("Annotations")
     public void testAnnotations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/Annotations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/Annotations/");
     }
 
     @TestMetadata("AnnotationsOnPrimaryCtr")
     public void testAnnotationsOnPrimaryCtr() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/AnnotationsOnPrimaryCtr/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/AnnotationsOnPrimaryCtr/");
     }
 
     @TestMetadata("ClassWithClassObject")
     public void testClassWithClassObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/ClassWithClassObject/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/ClassWithClassObject/");
     }
 
     @TestMetadata("ClassWithNamedClassObject")
     public void testClassWithNamedClassObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/ClassWithNamedClassObject/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/ClassWithNamedClassObject/");
     }
 
     @TestMetadata("Const")
     public void testConst() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/Const/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/Const/");
     }
 
     @TestMetadata("DependencyOnNestedClasses")
     public void testDependencyOnNestedClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/DependencyOnNestedClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/DependencyOnNestedClasses/");
     }
 
     @TestMetadata("Enum")
     public void testEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/Enum/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/Enum/");
     }
 
     @TestMetadata("FlexibleTypes")
     public void testFlexibleTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/FlexibleTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/FlexibleTypes/");
     }
 
     @TestMetadata("FunctionTypes")
     public void testFunctionTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/FunctionTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/FunctionTypes/");
     }
 
     @TestMetadata("FunctionalTypeWithNamedArguments")
     public void testFunctionalTypeWithNamedArguments() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/FunctionalTypeWithNamedArguments/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/FunctionalTypeWithNamedArguments/");
     }
 
     @TestMetadata("Inherited")
     public void testInherited() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/Inherited/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/Inherited/");
     }
 
     @TestMetadata("InnerClasses")
     public void testInnerClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/InnerClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/InnerClasses/");
     }
 
     @TestMetadata("LocalClassAsTypeWithArgument")
     public void testLocalClassAsTypeWithArgument() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/LocalClassAsTypeWithArgument/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/LocalClassAsTypeWithArgument/");
     }
 
     @TestMetadata("Modifiers")
     public void testModifiers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/Modifiers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/Modifiers/");
     }
 
     @TestMetadata("NestedClasses")
     public void testNestedClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/NestedClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/NestedClasses/");
     }
 
     @TestMetadata("Object")
     public void testObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/Object/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/Object/");
     }
 
     @TestMetadata("SecondaryConstructors")
     public void testSecondaryConstructors() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/SecondaryConstructors/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/SecondaryConstructors/");
     }
 
     @TestMetadata("SimpleClass")
     public void testSimpleClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/SimpleClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/SimpleClass/");
     }
 
     @TestMetadata("TypeModifiers")
     public void testTypeModifiers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledText/TypeModifiers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledText/TypeModifiers/");
     }
 }

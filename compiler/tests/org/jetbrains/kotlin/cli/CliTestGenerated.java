@@ -29,497 +29,497 @@ public class CliTestGenerated extends AbstractCliTest {
 
         @TestMetadata("apiVersion.args")
         public void testApiVersion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/apiVersion.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/apiVersion.args");
         }
 
         @TestMetadata("apiVersion1.0.args")
         public void testApiVersion1_0() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/apiVersion1.0.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/apiVersion1.0.args");
         }
 
         @TestMetadata("apiVersionAndSinceNewerKotlin.args")
         public void testApiVersionAndSinceNewerKotlin() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/apiVersionAndSinceNewerKotlin.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/apiVersionAndSinceNewerKotlin.args");
         }
 
         @TestMetadata("apiVersionGreaterThanLanguage.args")
         public void testApiVersionGreaterThanLanguage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/apiVersionGreaterThanLanguage.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/apiVersionGreaterThanLanguage.args");
         }
 
         @TestMetadata("apiVersionInvalid.args")
         public void testApiVersionInvalid() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/apiVersionInvalid.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/apiVersionInvalid.args");
         }
 
         @TestMetadata("apiVersionLessThanLanguage.args")
         public void testApiVersionLessThanLanguage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/apiVersionLessThanLanguage.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/apiVersionLessThanLanguage.args");
         }
 
         @TestMetadata("argumentPassedMultipleTimes.args")
         public void testArgumentPassedMultipleTimes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/argumentPassedMultipleTimes.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/argumentPassedMultipleTimes.args");
         }
 
         @TestMetadata("classAndFileClassClash.args")
         public void testClassAndFileClassClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/classAndFileClassClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/classAndFileClassClash.args");
         }
 
         @TestMetadata("classAndOtherFileClassClash.args")
         public void testClassAndOtherFileClassClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/classAndOtherFileClassClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/classAndOtherFileClassClash.args");
         }
 
         @TestMetadata("classAndPartClash.args")
         public void testClassAndPartClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/classAndPartClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/classAndPartClash.args");
         }
 
         @TestMetadata("classAndTraitClash.args")
         public void testClassAndTraitClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/classAndTraitClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/classAndTraitClash.args");
         }
 
         @TestMetadata("classpath.args")
         public void testClasspath() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/classpath.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/classpath.args");
         }
 
         @TestMetadata("compatqualDefault.args")
         public void testCompatqualDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/compatqualDefault.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/compatqualDefault.args");
         }
 
         @TestMetadata("compatqualDisable.args")
         public void testCompatqualDisable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/compatqualDisable.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/compatqualDisable.args");
         }
 
         @TestMetadata("compatqualEnable.args")
         public void testCompatqualEnable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/compatqualEnable.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/compatqualEnable.args");
         }
 
         @TestMetadata("compatqualWrong.args")
         public void testCompatqualWrong() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/compatqualWrong.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/compatqualWrong.args");
         }
 
         @TestMetadata("conflictingOverloads.args")
         public void testConflictingOverloads() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/conflictingOverloads.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/conflictingOverloads.args");
         }
 
         @TestMetadata("coroutinesEnable.args")
         public void testCoroutinesEnable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/coroutinesEnable.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/coroutinesEnable.args");
         }
 
         @TestMetadata("coroutinesError.args")
         public void testCoroutinesError() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/coroutinesError.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/coroutinesError.args");
         }
 
         @TestMetadata("coroutinesErrorAndEnable.args")
         public void testCoroutinesErrorAndEnable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/coroutinesErrorAndEnable.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/coroutinesErrorAndEnable.args");
         }
 
         @TestMetadata("coroutinesWarn.args")
         public void testCoroutinesWarn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/coroutinesWarn.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/coroutinesWarn.args");
         }
 
         @TestMetadata("diagnosticsOrder.args")
         public void testDiagnosticsOrder() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/diagnosticsOrder.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/diagnosticsOrder.args");
         }
 
         @TestMetadata("duplicateSources.args")
         public void testDuplicateSources() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/duplicateSources.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/duplicateSources.args");
         }
 
         @TestMetadata("duplicateSourcesInModule.args")
         public void testDuplicateSourcesInModule() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/duplicateSourcesInModule.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/duplicateSourcesInModule.args");
         }
 
         @TestMetadata("emptySources.args")
         public void testEmptySources() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/emptySources.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/emptySources.args");
         }
 
         @TestMetadata("experimentalAndUseExperimentalWithSameAnnotation.args")
         public void testExperimentalAndUseExperimentalWithSameAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalAndUseExperimentalWithSameAnnotation.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalAndUseExperimentalWithSameAnnotation.args");
         }
 
         @TestMetadata("experimentalDeprecated.args")
         public void testExperimentalDeprecated() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalDeprecated.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalDeprecated.args");
         }
 
         @TestMetadata("experimentalDeprecatedWarning.args")
         public void testExperimentalDeprecatedWarning() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalDeprecatedWarning.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalDeprecatedWarning.args");
         }
 
         @TestMetadata("experimentalIsNotAnnotation.args")
         public void testExperimentalIsNotAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalIsNotAnnotation.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalIsNotAnnotation.args");
         }
 
         @TestMetadata("experimentalIsNotMarker.args")
         public void testExperimentalIsNotMarker() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalIsNotMarker.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalIsNotMarker.args");
         }
 
         @TestMetadata("experimentalNested.args")
         public void testExperimentalNested() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalNested.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalNested.args");
         }
 
         @TestMetadata("experimentalRuntimeScope.args")
         public void testExperimentalRuntimeScope() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalRuntimeScope.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalRuntimeScope.args");
         }
 
         @TestMetadata("experimentalUnresolved.args")
         public void testExperimentalUnresolved() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/experimentalUnresolved.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/experimentalUnresolved.args");
         }
 
         @TestMetadata("extraArgumentPassedInObsoleteForm.args")
         public void testExtraArgumentPassedInObsoleteForm() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/extraArgumentPassedInObsoleteForm.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/extraArgumentPassedInObsoleteForm.args");
         }
 
         @TestMetadata("extraHelp.args")
         public void testExtraHelp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/extraHelp.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/extraHelp.args");
         }
 
         @TestMetadata("fileClassAndMultifileClassClash.args")
         public void testFileClassAndMultifileClassClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/fileClassAndMultifileClassClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/fileClassAndMultifileClassClash.args");
         }
 
         @TestMetadata("fileClassAndTImplClash.args")
         public void testFileClassAndTImplClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/fileClassAndTImplClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/fileClassAndTImplClash.args");
         }
 
         @TestMetadata("fileClassClashMultipleFiles.args")
         public void testFileClassClashMultipleFiles() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/fileClassClashMultipleFiles.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/fileClassClashMultipleFiles.args");
         }
 
         @TestMetadata("help.args")
         public void testHelp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/help.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/help.args");
         }
 
         @TestMetadata("inlineCycle.args")
         public void testInlineCycle() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/inlineCycle.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/inlineCycle.args");
         }
 
         @TestMetadata("javaSrcWrongPackage.args")
         public void testJavaSrcWrongPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/javaSrcWrongPackage.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/javaSrcWrongPackage.args");
         }
 
         @TestMetadata("jdkPathDoesNotExist.args")
         public void testJdkPathDoesNotExist() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jdkPathDoesNotExist.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jdkPathDoesNotExist.args");
         }
 
         @TestMetadata("jsr305AllIgnore.args")
         public void testJsr305AllIgnore() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305AllIgnore.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305AllIgnore.args");
         }
 
         @TestMetadata("jsr305DefaultMigration.args")
         public void testJsr305DefaultMigration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305DefaultMigration.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305DefaultMigration.args");
         }
 
         @TestMetadata("jsr305DeprecatedEnable.args")
         public void testJsr305DeprecatedEnable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305DeprecatedEnable.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305DeprecatedEnable.args");
         }
 
         @TestMetadata("jsr305DeprecatedIgnore.args")
         public void testJsr305DeprecatedIgnore() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305DeprecatedIgnore.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305DeprecatedIgnore.args");
         }
 
         @TestMetadata("jsr305DeprecatedWarn.args")
         public void testJsr305DeprecatedWarn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305DeprecatedWarn.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305DeprecatedWarn.args");
         }
 
         @TestMetadata("jsr305FqNameIgnore.args")
         public void testJsr305FqNameIgnore() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305FqNameIgnore.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305FqNameIgnore.args");
         }
 
         @TestMetadata("jsr305FqNameStrict.args")
         public void testJsr305FqNameStrict() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305FqNameStrict.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305FqNameStrict.args");
         }
 
         @TestMetadata("jsr305Ignore.args")
         public void testJsr305Ignore() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305Ignore.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305Ignore.args");
         }
 
         @TestMetadata("jsr305MigrationDefault.args")
         public void testJsr305MigrationDefault() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305MigrationDefault.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305MigrationDefault.args");
         }
 
         @TestMetadata("jsr305MigrationFqNameIgnore.args")
         public void testJsr305MigrationFqNameIgnore() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305MigrationFqNameIgnore.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305MigrationFqNameIgnore.args");
         }
 
         @TestMetadata("jsr305MigrationIgnore.args")
         public void testJsr305MigrationIgnore() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305MigrationIgnore.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305MigrationIgnore.args");
         }
 
         @TestMetadata("jsr305MigrationWarn.args")
         public void testJsr305MigrationWarn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305MigrationWarn.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305MigrationWarn.args");
         }
 
         @TestMetadata("jsr305NoFlag.args")
         public void testJsr305NoFlag() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305NoFlag.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305NoFlag.args");
         }
 
         @TestMetadata("jsr305Strict.args")
         public void testJsr305Strict() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305Strict.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305Strict.args");
         }
 
         @TestMetadata("jsr305Warn.args")
         public void testJsr305Warn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jsr305Warn.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jsr305Warn.args");
         }
 
         @TestMetadata("jvm8Target.args")
         public void testJvm8Target() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/jvm8Target.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/jvm8Target.args");
         }
 
         @TestMetadata("kotlinHomeWithoutStdlib.args")
         public void testKotlinHomeWithoutStdlib() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/kotlinHomeWithoutStdlib.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/kotlinHomeWithoutStdlib.args");
         }
 
         @TestMetadata("kotlinPackage.args")
         public void testKotlinPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/kotlinPackage.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/kotlinPackage.args");
         }
 
         @TestMetadata("kt22304.args")
         public void testKt22304() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/kt22304.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/kt22304.args");
         }
 
         @TestMetadata("languageVersion.args")
         public void testLanguageVersion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/languageVersion.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/languageVersion.args");
         }
 
         @TestMetadata("languageVersionInvalid.args")
         public void testLanguageVersionInvalid() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/languageVersionInvalid.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/languageVersionInvalid.args");
         }
 
         @TestMetadata("legacySmartCastsAfterTry.args")
         public void testLegacySmartCastsAfterTry() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/legacySmartCastsAfterTry.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/legacySmartCastsAfterTry.args");
         }
 
         @TestMetadata("multipleTextRangesInDiagnosticsOrder.args")
         public void testMultipleTextRangesInDiagnosticsOrder() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/multipleTextRangesInDiagnosticsOrder.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/multipleTextRangesInDiagnosticsOrder.args");
         }
 
         @TestMetadata("noReflect.args")
         public void testNoReflect() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/noReflect.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/noReflect.args");
         }
 
         @TestMetadata("noStdlib.args")
         public void testNoStdlib() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/noStdlib.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/noStdlib.args");
         }
 
         @TestMetadata("nonExistingClassPathAndAnnotationsPath.args")
         public void testNonExistingClassPathAndAnnotationsPath() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/nonExistingClassPathAndAnnotationsPath.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/nonExistingClassPathAndAnnotationsPath.args");
         }
 
         @TestMetadata("nonExistingSourcePath.args")
         public void testNonExistingSourcePath() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/nonExistingSourcePath.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/nonExistingSourcePath.args");
         }
 
         @TestMetadata("nonLocalDisabled.args")
         public void testNonLocalDisabled() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/nonLocalDisabled.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/nonLocalDisabled.args");
         }
 
         @TestMetadata("nonexistentPathInModule.args")
         public void testNonexistentPathInModule() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/nonexistentPathInModule.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/nonexistentPathInModule.args");
         }
 
         @TestMetadata("nonexistentScript.args")
         public void testNonexistentScript() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/nonexistentScript.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/nonexistentScript.args");
         }
 
         @TestMetadata("pluginSimple.args")
         public void testPluginSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/pluginSimple.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/pluginSimple.args");
         }
 
         @TestMetadata("returnAsWhenKey.args")
         public void testReturnAsWhenKey() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/returnAsWhenKey.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/returnAsWhenKey.args");
         }
 
         @TestMetadata("sanitized-name.clash.args")
         public void testSanitized_name_clash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/sanitized-name.clash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/sanitized-name.clash.args");
         }
 
         @TestMetadata("signatureClash.args")
         public void testSignatureClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/signatureClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/signatureClash.args");
         }
 
         @TestMetadata("simple.args")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/simple.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/simple.args");
         }
 
         @TestMetadata("singleJavaFileRoots.args")
         public void testSingleJavaFileRoots() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/singleJavaFileRoots.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/singleJavaFileRoots.args");
         }
 
         @TestMetadata("suppressAllWarningsJvm.args")
         public void testSuppressAllWarningsJvm() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/suppressAllWarningsJvm.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/suppressAllWarningsJvm.args");
         }
 
         @TestMetadata("syntheticAccessorForPropertiesSignatureClash.args")
         public void testSyntheticAccessorForPropertiesSignatureClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/syntheticAccessorForPropertiesSignatureClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/syntheticAccessorForPropertiesSignatureClash.args");
         }
 
         @TestMetadata("syntheticAccessorPropertyAndFunSignatureClash.args")
         public void testSyntheticAccessorPropertyAndFunSignatureClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/syntheticAccessorPropertyAndFunSignatureClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/syntheticAccessorPropertyAndFunSignatureClash.args");
         }
 
         @TestMetadata("syntheticAccessorSignatureClash.args")
         public void testSyntheticAccessorSignatureClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/syntheticAccessorSignatureClash.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/syntheticAccessorSignatureClash.args");
         }
 
         @TestMetadata("unknownExtraFlags.args")
         public void testUnknownExtraFlags() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/unknownExtraFlags.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/unknownExtraFlags.args");
         }
 
         @TestMetadata("unsupportedTypeAlias.args")
         public void testUnsupportedTypeAlias() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/unsupportedTypeAlias.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/unsupportedTypeAlias.args");
         }
 
         @TestMetadata("warningJdkWithNoJdk.args")
         public void testWarningJdkWithNoJdk() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/warningJdkWithNoJdk.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/warningJdkWithNoJdk.args");
         }
 
         @TestMetadata("warningsInDummy.args")
         public void testWarningsInDummy() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/warningsInDummy.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/warningsInDummy.args");
         }
 
         @TestMetadata("werror.args")
         public void testWerror() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/werror.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/werror.args");
         }
 
         @TestMetadata("werrorWithExplicitError.args")
         public void testWerrorWithExplicitError() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/werrorWithExplicitError.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/werrorWithExplicitError.args");
         }
 
         @TestMetadata("werrorWithNoWarn.args")
         public void testWerrorWithNoWarn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/werrorWithNoWarn.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/werrorWithNoWarn.args");
         }
 
         @TestMetadata("werrorWithStrongWarning.args")
         public void testWerrorWithStrongWarning() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/werrorWithStrongWarning.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/werrorWithStrongWarning.args");
         }
 
         @TestMetadata("wrongAbiVersion.args")
         public void testWrongAbiVersion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongAbiVersion.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongAbiVersion.args");
         }
 
         @TestMetadata("wrongAbiVersionNoErrors.args")
         public void testWrongAbiVersionNoErrors() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongAbiVersionNoErrors.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongAbiVersionNoErrors.args");
         }
 
         @TestMetadata("wrongArgument.args")
         public void testWrongArgument() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongArgument.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongArgument.args");
         }
 
         @TestMetadata("wrongJdkPath.args")
         public void testWrongJdkPath() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongJdkPath.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongJdkPath.args");
         }
 
         @TestMetadata("wrongJvmTargetVersion.args")
         public void testWrongJvmTargetVersion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongJvmTargetVersion.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongJvmTargetVersion.args");
         }
 
         @TestMetadata("wrongScriptWithDirectory.args")
         public void testWrongScriptWithDirectory() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongScriptWithDirectory.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongScriptWithDirectory.args");
         }
 
         @TestMetadata("wrongScriptWithKtSource.args")
         public void testWrongScriptWithKtSource() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongScriptWithKtSource.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongScriptWithKtSource.args");
         }
 
         @TestMetadata("wrongScriptWithNoSource.args")
         public void testWrongScriptWithNoSource() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongScriptWithNoSource.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongScriptWithNoSource.args");
         }
 
         @TestMetadata("wrongXjsr305.args")
         public void testWrongXjsr305() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/jvm/wrongXjsr305.args", this::doJvmTest);
+            KotlinTestUtils.runTest(this::doJvmTest,TargetBackend.ANY, "compiler/testData/cli/jvm/wrongXjsr305.args");
         }
     }
 
@@ -533,162 +533,162 @@ public class CliTestGenerated extends AbstractCliTest {
 
         @TestMetadata("createMetadata.args")
         public void testCreateMetadata() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/createMetadata.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/createMetadata.args");
         }
 
         @TestMetadata("emptySources.args")
         public void testEmptySources() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/emptySources.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/emptySources.args");
         }
 
         @TestMetadata("inlineCycle.args")
         public void testInlineCycle() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/inlineCycle.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/inlineCycle.args");
         }
 
         @TestMetadata("jsExtraHelp.args")
         public void testJsExtraHelp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/jsExtraHelp.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/jsExtraHelp.args");
         }
 
         @TestMetadata("jsHelp.args")
         public void testJsHelp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/jsHelp.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/jsHelp.args");
         }
 
         @TestMetadata("kotlinHomeWithoutStdlib.args")
         public void testKotlinHomeWithoutStdlib() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/kotlinHomeWithoutStdlib.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/kotlinHomeWithoutStdlib.args");
         }
 
         @TestMetadata("kotlinPackage.args")
         public void testKotlinPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/kotlinPackage.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/kotlinPackage.args");
         }
 
         @TestMetadata("languageVersion.args")
         public void testLanguageVersion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/languageVersion.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/languageVersion.args");
         }
 
         @TestMetadata("libraryDirNotFound.args")
         public void testLibraryDirNotFound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/libraryDirNotFound.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/libraryDirNotFound.args");
         }
 
         @TestMetadata("modulesWithSameNames.args")
         public void testModulesWithSameNames() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/modulesWithSameNames.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/modulesWithSameNames.args");
         }
 
         @TestMetadata("modulesWithSameNamesAndFunc.args")
         public void testModulesWithSameNamesAndFunc() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/modulesWithSameNamesAndFunc.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/modulesWithSameNamesAndFunc.args");
         }
 
         @TestMetadata("nonExistingKotlinHome.args")
         public void testNonExistingKotlinHome() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/nonExistingKotlinHome.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/nonExistingKotlinHome.args");
         }
 
         @TestMetadata("nonExistingSourcePath.args")
         public void testNonExistingSourcePath() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/nonExistingSourcePath.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/nonExistingSourcePath.args");
         }
 
         @TestMetadata("notValidLibraryDir.args")
         public void testNotValidLibraryDir() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/notValidLibraryDir.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/notValidLibraryDir.args");
         }
 
         @TestMetadata("outputIsDirectory.args")
         public void testOutputIsDirectory() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/outputIsDirectory.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/outputIsDirectory.args");
         }
 
         @TestMetadata("outputPostfixFileNotFound.args")
         public void testOutputPostfixFileNotFound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/outputPostfixFileNotFound.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/outputPostfixFileNotFound.args");
         }
 
         @TestMetadata("outputPrefixFileNotFound.args")
         public void testOutputPrefixFileNotFound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/outputPrefixFileNotFound.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/outputPrefixFileNotFound.args");
         }
 
         @TestMetadata("simple2js.args")
         public void testSimple2js() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/simple2js.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/simple2js.args");
         }
 
         @TestMetadata("sourceMap.args")
         public void testSourceMap() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMap.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMap.args");
         }
 
         @TestMetadata("sourceMapCharEscape.args")
         public void testSourceMapCharEscape() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapCharEscape.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapCharEscape.args");
         }
 
         @TestMetadata("sourceMapDuplicateRelativePaths.args")
         public void testSourceMapDuplicateRelativePaths() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapDuplicateRelativePaths.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapDuplicateRelativePaths.args");
         }
 
         @TestMetadata("sourceMapEmbedSources.args")
         public void testSourceMapEmbedSources() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapEmbedSources.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapEmbedSources.args");
         }
 
         @TestMetadata("sourceMapPrefix.args")
         public void testSourceMapPrefix() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapPrefix.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapPrefix.args");
         }
 
         @TestMetadata("sourceMapRelativeRoot.args")
         public void testSourceMapRelativeRoot() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapRelativeRoot.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapRelativeRoot.args");
         }
 
         @TestMetadata("sourceMapRootAuto.args")
         public void testSourceMapRootAuto() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapRootAuto.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapRootAuto.args");
         }
 
         @TestMetadata("sourceMapRootManual.args")
         public void testSourceMapRootManual() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapRootManual.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapRootManual.args");
         }
 
         @TestMetadata("sourceMapRootMissing.args")
         public void testSourceMapRootMissing() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapRootMissing.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapRootMissing.args");
         }
 
         @TestMetadata("sourceMapRootMultiple.args")
         public void testSourceMapRootMultiple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/sourceMapRootMultiple.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/sourceMapRootMultiple.args");
         }
 
         @TestMetadata("suppressAllWarningsJS.args")
         public void testSuppressAllWarningsJS() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/suppressAllWarningsJS.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/suppressAllWarningsJS.args");
         }
 
         @TestMetadata("withFolderAsLib.args")
         public void testWithFolderAsLib() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/withFolderAsLib.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/withFolderAsLib.args");
         }
 
         @TestMetadata("withLib.args")
         public void testWithLib() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/withLib.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/withLib.args");
         }
 
         @TestMetadata("wrongAbiVersion.args")
         public void testWrongAbiVersion() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js/wrongAbiVersion.args", this::doJsTest);
+            KotlinTestUtils.runTest(this::doJsTest,TargetBackend.ANY, "compiler/testData/cli/js/wrongAbiVersion.args");
         }
     }
 
@@ -702,62 +702,62 @@ public class CliTestGenerated extends AbstractCliTest {
 
         @TestMetadata("dceHelp.args")
         public void testDceHelp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/dceHelp.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/dceHelp.args");
         }
 
         @TestMetadata("emptySources.args")
         public void testEmptySources() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/emptySources.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/emptySources.args");
         }
 
         @TestMetadata("includeDeclarations.args")
         public void testIncludeDeclarations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/includeDeclarations.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/includeDeclarations.args");
         }
 
         @TestMetadata("invalidFilename.args")
         public void testInvalidFilename() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/invalidFilename.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/invalidFilename.args");
         }
 
         @TestMetadata("jsExtraHelp.args")
         public void testJsExtraHelp() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/jsExtraHelp.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/jsExtraHelp.args");
         }
 
         @TestMetadata("nonExistingSourcePath.args")
         public void testNonExistingSourcePath() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/nonExistingSourcePath.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/nonExistingSourcePath.args");
         }
 
         @TestMetadata("notFile.args")
         public void testNotFile() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/notFile.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/notFile.args");
         }
 
         @TestMetadata("outputIsDirectory.args")
         public void testOutputIsDirectory() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/outputIsDirectory.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/outputIsDirectory.args");
         }
 
         @TestMetadata("parseError.args")
         public void testParseError() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/parseError.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/parseError.args");
         }
 
         @TestMetadata("printReachability.args")
         public void testPrintReachability() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/printReachability.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/printReachability.args");
         }
 
         @TestMetadata("simple.args")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/simple.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/simple.args");
         }
 
         @TestMetadata("withSourceMap.args")
         public void testWithSourceMap() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/js-dce/withSourceMap.args", this::doJsDceTest);
+            KotlinTestUtils.runTest(this::doJsDceTest,TargetBackend.ANY, "compiler/testData/cli/js-dce/withSourceMap.args");
         }
     }
 
@@ -771,7 +771,7 @@ public class CliTestGenerated extends AbstractCliTest {
 
         @TestMetadata("moduleName.args")
         public void testModuleName() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/cli/metadata/moduleName.args", this::doMetadataTest);
+            KotlinTestUtils.runTest(this::doMetadataTest,TargetBackend.ANY, "compiler/testData/cli/metadata/moduleName.args");
         }
     }
 }

@@ -27,36 +27,36 @@ public class InheritorsSearchTestGenerated extends AbstractInheritorsSearchTest 
 
     @TestMetadata("annotationClass.kt")
     public void testAnnotationClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/annotationClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/annotationClass.kt");
     }
 
     @TestMetadata("enum.kt")
     public void testEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/enum.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/enum.kt");
     }
 
     @TestMetadata("interfaces.kt")
     public void testInterfaces() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/interfaces.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/interfaces.kt");
     }
 
     @TestMetadata("object.kt")
     public void testObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/object.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/object.kt");
     }
 
     @TestMetadata("simpleClass.kt")
     public void testSimpleClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/simpleClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/simpleClass.kt");
     }
 
     @TestMetadata("testInheritanceFromJavaClass.kt")
     public void testTestInheritanceFromJavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/testInheritanceFromJavaClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/testInheritanceFromJavaClass.kt");
     }
 
     @TestMetadata("testInheritanceFromKotlinClass.kt")
     public void testTestInheritanceFromKotlinClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/inheritance/testInheritanceFromKotlinClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/inheritance/testInheritanceFromKotlinClass.kt");
     }
 }

@@ -27,26 +27,26 @@ public class BeforeExtractFunctionInsertionTestGenerated extends AbstractBeforeE
 
     @TestMetadata("emptyImportDirective.kt")
     public void testEmptyImportDirective() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective.kt");
     }
 
     @TestMetadata("emptyImportDirective2.kt")
     public void testEmptyImportDirective2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective2.kt");
     }
 
     @TestMetadata("emptyPackageDirective.kt")
     public void testEmptyPackageDirective() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective.kt");
     }
 
     @TestMetadata("emptyPackageDirective2.kt")
     public void testEmptyPackageDirective2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective2.kt");
     }
 
     @TestMetadata("manyImports.kt")
     public void testManyImports() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/manyImports.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/debugger/insertBeforeExtractFunction/manyImports.kt");
     }
 }

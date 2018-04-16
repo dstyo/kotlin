@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public class AndroidBytecodeShapeTestGenerated extends AbstractAndroidBytecodeShapeTest {
     @TestMetadata("activityWithEntityOptionsNoCache")
     public void testActivityWithEntityOptionsNoCache() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/activityWithEntityOptionsNoCache/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/activityWithEntityOptionsNoCache/");
     }
 
     public void testAllFilesPresentInBytecodeShape() throws Exception {
@@ -32,161 +32,161 @@ public class AndroidBytecodeShapeTestGenerated extends AbstractAndroidBytecodeSh
 
     @TestMetadata("baseClass")
     public void testBaseClass() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClass/");
     }
 
     @TestMetadata("baseClassFragment")
     public void testBaseClassFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClassFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClassFragment/");
     }
 
     @TestMetadata("clearCache")
     public void testClearCache() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCache/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCache/");
     }
 
     @TestMetadata("clearCacheBaseClass")
     public void testClearCacheBaseClass() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCacheBaseClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCacheBaseClass/");
     }
 
     @TestMetadata("dialog")
     public void testDialog() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/dialog/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/dialog/");
     }
 
     @TestMetadata("extensionFunctions")
     public void testExtensionFunctions() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctions/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctions/");
     }
 
     @TestMetadata("extensionFunctionsFragment")
     public void testExtensionFunctionsFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsFragment/");
     }
 
     @TestMetadata("extensionFunctionsView")
     public void testExtensionFunctionsView() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsView/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsView/");
     }
 
     @TestMetadata("fqNameInAttr")
     public void testFqNameInAttr() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttr/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttr/");
     }
 
     @TestMetadata("fqNameInAttrFragment")
     public void testFqNameInAttrFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttrFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttrFragment/");
     }
 
     @TestMetadata("fqNameInTag")
     public void testFqNameInTag() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTag/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTag/");
     }
 
     @TestMetadata("fqNameInTagFragment")
     public void testFqNameInTagFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTagFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTagFragment/");
     }
 
     @TestMetadata("fragmentWithEntityOptionsNoCache")
     public void testFragmentWithEntityOptionsNoCache() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fragmentWithEntityOptionsNoCache/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fragmentWithEntityOptionsNoCache/");
     }
 
     @TestMetadata("kt18545")
     public void testKt18545() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/kt18545/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/kt18545/");
     }
 
     @TestMetadata("multiFile")
     public void testMultiFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFile/");
     }
 
     @TestMetadata("multiFileFragment")
     public void testMultiFileFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFileFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFileFragment/");
     }
 
     @TestMetadata("onDestroyFragment")
     public void testOnDestroyFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/onDestroyFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/onDestroyFragment/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simple/");
     }
 
     @TestMetadata("simpleFragment")
     public void testSimpleFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragment/");
     }
 
     @TestMetadata("simpleFragmentProperty")
     public void testSimpleFragmentProperty() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragmentProperty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragmentProperty/");
     }
 
     @TestMetadata("simpleHashMapCacheImplementation")
     public void testSimpleHashMapCacheImplementation() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleHashMapCacheImplementation/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleHashMapCacheImplementation/");
     }
 
     @TestMetadata("simpleView")
     public void testSimpleView() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleView/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleView/");
     }
 
     @TestMetadata("supportExtensionFunctionsFragment")
     public void testSupportExtensionFunctionsFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragment/");
     }
 
     @TestMetadata("supportExtensionFunctionsFragmentAndroidx")
     public void testSupportExtensionFunctionsFragmentAndroidx() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragmentAndroidx/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragmentAndroidx/");
     }
 
     @TestMetadata("supportSimpleFragment")
     public void testSupportSimpleFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragment/");
     }
 
     @TestMetadata("supportSimpleFragmentAndroidx")
     public void testSupportSimpleFragmentAndroidx() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentAndroidx/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentAndroidx/");
     }
 
     @TestMetadata("supportSimpleFragmentProperty")
     public void testSupportSimpleFragmentProperty() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentProperty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentProperty/");
     }
 
     @TestMetadata("supportSimpleFragmentPropertyAndroidx")
     public void testSupportSimpleFragmentPropertyAndroidx() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentPropertyAndroidx/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentPropertyAndroidx/");
     }
 
     @TestMetadata("viewStub")
     public void testViewStub() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewStub/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewStub/");
     }
 
     @TestMetadata("viewWithCache")
     public void testViewWithCache() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithCache/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithCache/");
     }
 
     @TestMetadata("viewWithDefaultNoCache")
     public void testViewWithDefaultNoCache() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithDefaultNoCache/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithDefaultNoCache/");
     }
 
     @TestMetadata("viewWithEntityOptionsNoCache")
     public void testViewWithEntityOptionsNoCache() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithEntityOptionsNoCache/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithEntityOptionsNoCache/");
     }
 }

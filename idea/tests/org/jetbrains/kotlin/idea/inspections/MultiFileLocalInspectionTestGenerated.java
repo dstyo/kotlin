@@ -27,51 +27,51 @@ public class MultiFileLocalInspectionTestGenerated extends AbstractMultiFileLoca
 
     @TestMetadata("convertSealedSubClassToObject/convertCallableReferenceUsages/convertCallableReferenceUsages.test")
     public void testConvertSealedSubClassToObject_convertCallableReferenceUsages_ConvertCallableReferenceUsages() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/convertSealedSubClassToObject/convertCallableReferenceUsages/convertCallableReferenceUsages.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/convertSealedSubClassToObject/convertCallableReferenceUsages/convertCallableReferenceUsages.test");
     }
 
     @TestMetadata("convertSealedSubClassToObject/convertInOtherFiles/convertInOtherFiles.test")
     public void testConvertSealedSubClassToObject_convertInOtherFiles_ConvertInOtherFiles() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/convertSealedSubClassToObject/convertInOtherFiles/convertInOtherFiles.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/convertSealedSubClassToObject/convertInOtherFiles/convertInOtherFiles.test");
     }
 
     @TestMetadata("moveFileToPackageMatchingDirectory/moveToDefaultDirectory/moveToDefaultDirectory.test")
     public void testMoveFileToPackageMatchingDirectory_moveToDefaultDirectory_MoveToDefaultDirectory() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/moveFileToPackageMatchingDirectory/moveToDefaultDirectory/moveToDefaultDirectory.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/moveFileToPackageMatchingDirectory/moveToDefaultDirectory/moveToDefaultDirectory.test");
     }
 
     @TestMetadata("moveFileToPackageMatchingDirectory/moveToNonDefaultDirectory/moveToNonDefaultDirectory.test")
     public void testMoveFileToPackageMatchingDirectory_moveToNonDefaultDirectory_MoveToNonDefaultDirectory() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/moveFileToPackageMatchingDirectory/moveToNonDefaultDirectory/moveToNonDefaultDirectory.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/moveFileToPackageMatchingDirectory/moveToNonDefaultDirectory/moveToNonDefaultDirectory.test");
     }
 
     @TestMetadata("moveFileToPackageMatchingDirectory/packageMatchesDirectory/packageMatchesDirectory.test")
     public void testMoveFileToPackageMatchingDirectory_packageMatchesDirectory_PackageMatchesDirectory() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/moveFileToPackageMatchingDirectory/packageMatchesDirectory/packageMatchesDirectory.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/moveFileToPackageMatchingDirectory/packageMatchesDirectory/packageMatchesDirectory.test");
     }
 
     @TestMetadata("reconcilePackageWithDirectory/addQuotation/addQuotation.test")
     public void testReconcilePackageWithDirectory_addQuotation_AddQuotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/addQuotation/addQuotation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/addQuotation/addQuotation.test");
     }
 
     @TestMetadata("reconcilePackageWithDirectory/changeToDefaultPackage/changeToDefaultPackage.test")
     public void testReconcilePackageWithDirectory_changeToDefaultPackage_ChangeToDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/changeToDefaultPackage/changeToDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/changeToDefaultPackage/changeToDefaultPackage.test");
     }
 
     @TestMetadata("reconcilePackageWithDirectory/changeToNonDefaultPackage/changeToNonDefaultPackage.test")
     public void testReconcilePackageWithDirectory_changeToNonDefaultPackage_ChangeToNonDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/changeToNonDefaultPackage/changeToNonDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/changeToNonDefaultPackage/changeToNonDefaultPackage.test");
     }
 
     @TestMetadata("reconcilePackageWithDirectory/innerClass/innerClass.test")
     public void testReconcilePackageWithDirectory_innerClass_InnerClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/innerClass/innerClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/innerClass/innerClass.test");
     }
 
     @TestMetadata("reconcilePackageWithDirectory/packageMatchesDirectory/packageMatchesDirectory.test")
     public void testReconcilePackageWithDirectory_packageMatchesDirectory_PackageMatchesDirectory() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/packageMatchesDirectory/packageMatchesDirectory.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiFileLocalInspections/reconcilePackageWithDirectory/packageMatchesDirectory/packageMatchesDirectory.test");
     }
 }

@@ -27,31 +27,31 @@ public class JsLookupTrackerTestGenerated extends AbstractJsLookupTrackerTest {
 
     @TestMetadata("classifierMembers")
     public void testClassifierMembers() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/lookupTracker/js/classifierMembers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lookupTracker/js/classifierMembers/");
     }
 
     @TestMetadata("conventions")
     public void testConventions() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/lookupTracker/js/conventions/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lookupTracker/js/conventions/");
     }
 
     @TestMetadata("expressionType")
     public void testExpressionType() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/lookupTracker/js/expressionType/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lookupTracker/js/expressionType/");
     }
 
     @TestMetadata("localDeclarations")
     public void testLocalDeclarations() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/lookupTracker/js/localDeclarations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lookupTracker/js/localDeclarations/");
     }
 
     @TestMetadata("packageDeclarations")
     public void testPackageDeclarations() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/lookupTracker/js/packageDeclarations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lookupTracker/js/packageDeclarations/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("jps-plugin/testData/incremental/lookupTracker/js/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lookupTracker/js/simple/");
     }
 }

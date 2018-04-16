@@ -29,57 +29,57 @@ public class JvmProtoComparisonTestGenerated extends AbstractJvmProtoComparisonT
 
         @TestMetadata("classAnnotationListChanged")
         public void testClassAnnotationListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/classAnnotationListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/classAnnotationListChanged/");
         }
 
         @TestMetadata("classFlagsAndMembersChanged")
         public void testClassFlagsAndMembersChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/classFlagsAndMembersChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/classFlagsAndMembersChanged/");
         }
 
         @TestMetadata("classFlagsChanged")
         public void testClassFlagsChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/classFlagsChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/classFlagsChanged/");
         }
 
         @TestMetadata("classTypeParameterListChanged")
         public void testClassTypeParameterListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/classTypeParameterListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/classTypeParameterListChanged/");
         }
 
         @TestMetadata("classWithSuperTypeListChanged")
         public void testClassWithSuperTypeListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/classWithSuperTypeListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/classWithSuperTypeListChanged/");
         }
 
         @TestMetadata("nestedClassSignatureChanged")
         public void testNestedClassSignatureChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/nestedClassSignatureChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/nestedClassSignatureChanged/");
         }
 
         @TestMetadata("sealedClassImplAdded")
         public void testSealedClassImplAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/sealedClassImplAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/sealedClassImplAdded/");
         }
 
         @TestMetadata("sealedClassImplRemoved")
         public void testSealedClassImplRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/sealedClassImplRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/sealedClassImplRemoved/");
         }
 
         @TestMetadata("sealedClassNestedImplAdded")
         public void testSealedClassNestedImplAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/sealedClassNestedImplAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/sealedClassNestedImplAdded/");
         }
 
         @TestMetadata("sealedClassNestedImplAddedDeep")
         public void testSealedClassNestedImplAddedDeep() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/sealedClassNestedImplAddedDeep/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/sealedClassNestedImplAddedDeep/");
         }
 
         @TestMetadata("sealedClassNestedImplRemoved")
         public void testSealedClassNestedImplRemoved() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classSignatureChange/sealedClassNestedImplRemoved/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classSignatureChange/sealedClassNestedImplRemoved/");
         }
     }
 
@@ -93,27 +93,27 @@ public class JvmProtoComparisonTestGenerated extends AbstractJvmProtoComparisonT
 
         @TestMetadata("classWithPrivateFunChanged")
         public void testClassWithPrivateFunChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateFunChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateFunChanged/");
         }
 
         @TestMetadata("classWithPrivatePrimaryConstructorChanged")
         public void testClassWithPrivatePrimaryConstructorChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivatePrimaryConstructorChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivatePrimaryConstructorChanged/");
         }
 
         @TestMetadata("classWithPrivateSecondaryConstructorChanged")
         public void testClassWithPrivateSecondaryConstructorChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateSecondaryConstructorChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateSecondaryConstructorChanged/");
         }
 
         @TestMetadata("classWithPrivateValChanged")
         public void testClassWithPrivateValChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateValChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateValChanged/");
         }
 
         @TestMetadata("classWithPrivateVarChanged")
         public void testClassWithPrivateVarChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateVarChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classPrivateOnlyChange/classWithPrivateVarChanged/");
         }
     }
 
@@ -127,52 +127,52 @@ public class JvmProtoComparisonTestGenerated extends AbstractJvmProtoComparisonT
 
         @TestMetadata("classWithCompanionObjectChanged")
         public void testClassWithCompanionObjectChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/classWithCompanionObjectChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/classWithCompanionObjectChanged/");
         }
 
         @TestMetadata("classWithConstructorChanged")
         public void testClassWithConstructorChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/classWithConstructorChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/classWithConstructorChanged/");
         }
 
         @TestMetadata("classWithFunAndValChanged")
         public void testClassWithFunAndValChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/classWithFunAndValChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/classWithFunAndValChanged/");
         }
 
         @TestMetadata("classWithNestedClassesChanged")
         public void testClassWithNestedClassesChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/classWithNestedClassesChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/classWithNestedClassesChanged/");
         }
 
         @TestMetadata("classWitnEnumChanged")
         public void testClassWitnEnumChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/classWitnEnumChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/classWitnEnumChanged/");
         }
 
         @TestMetadata("defaultValues")
         public void testDefaultValues() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/defaultValues/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/defaultValues/");
         }
 
         @TestMetadata("membersAnnotationListChanged")
         public void testMembersAnnotationListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/membersAnnotationListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/membersAnnotationListChanged/");
         }
 
         @TestMetadata("membersFlagsChanged")
         public void testMembersFlagsChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/membersFlagsChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/membersFlagsChanged/");
         }
 
         @TestMetadata("nestedClassMembersChanged")
         public void testNestedClassMembersChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/nestedClassMembersChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/nestedClassMembersChanged/");
         }
 
         @TestMetadata("sealedClassImplAdded")
         public void testSealedClassImplAdded() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/classMembersOnlyChanged/sealedClassImplAdded/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/classMembersOnlyChanged/sealedClassImplAdded/");
         }
     }
 
@@ -186,27 +186,27 @@ public class JvmProtoComparisonTestGenerated extends AbstractJvmProtoComparisonT
 
         @TestMetadata("defaultValues")
         public void testDefaultValues() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/packageMembers/defaultValues/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/packageMembers/defaultValues/");
         }
 
         @TestMetadata("membersAnnotationListChanged")
         public void testMembersAnnotationListChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/packageMembers/membersAnnotationListChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/packageMembers/membersAnnotationListChanged/");
         }
 
         @TestMetadata("membersFlagsChanged")
         public void testMembersFlagsChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/packageMembers/membersFlagsChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/packageMembers/membersFlagsChanged/");
         }
 
         @TestMetadata("packageFacadePrivateOnlyChanges")
         public void testPackageFacadePrivateOnlyChanges() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/packageMembers/packageFacadePrivateOnlyChanges/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/packageMembers/packageFacadePrivateOnlyChanges/");
         }
 
         @TestMetadata("packageFacadePublicChanges")
         public void testPackageFacadePublicChanges() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/packageMembers/packageFacadePublicChanges/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/packageMembers/packageFacadePublicChanges/");
         }
     }
 
@@ -220,12 +220,12 @@ public class JvmProtoComparisonTestGenerated extends AbstractJvmProtoComparisonT
 
         @TestMetadata("unchangedClass")
         public void testUnchangedClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/unchanged/unchangedClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/unchanged/unchangedClass/");
         }
 
         @TestMetadata("unchangedPackageFacade")
         public void testUnchangedPackageFacade() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/unchanged/unchangedPackageFacade/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/unchanged/unchangedPackageFacade/");
         }
     }
 
@@ -239,22 +239,22 @@ public class JvmProtoComparisonTestGenerated extends AbstractJvmProtoComparisonT
 
         @TestMetadata("classToFileFacade")
         public void testClassToFileFacade() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/jvmOnly/classToFileFacade/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/jvmOnly/classToFileFacade/");
         }
 
         @TestMetadata("membersFlagsChanged")
         public void testMembersFlagsChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/jvmOnly/membersFlagsChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/jvmOnly/membersFlagsChanged/");
         }
 
         @TestMetadata("packageFacadeMultifileClassChanged")
         public void testPackageFacadeMultifileClassChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/jvmOnly/packageFacadeMultifileClassChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/jvmOnly/packageFacadeMultifileClassChanged/");
         }
 
         @TestMetadata("packageFacadeToClass")
         public void testPackageFacadeToClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/comparison/jvmOnly/packageFacadeToClass/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/comparison/jvmOnly/packageFacadeToClass/");
         }
     }
 }

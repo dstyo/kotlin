@@ -27,16 +27,16 @@ public class SourceMapGenerationSmokeTestGenerated extends AbstractSourceMapGene
 
     @TestMetadata("binaryOperation.kt")
     public void testBinaryOperation() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/sourcemap/binaryOperation.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/sourcemap/binaryOperation.kt");
     }
 
     @TestMetadata("emptyIfInsideInlineLambda.kt")
     public void testEmptyIfInsideInlineLambda() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/sourcemap/emptyIfInsideInlineLambda.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/sourcemap/emptyIfInsideInlineLambda.kt");
     }
 
     @TestMetadata("methodCallInMethod.kt")
     public void testMethodCallInMethod() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/sourcemap/methodCallInMethod.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/sourcemap/methodCallInMethod.kt");
     }
 }

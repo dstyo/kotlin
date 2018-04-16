@@ -27,32 +27,32 @@ public class AndroidGutterIconTestGenerated extends AbstractAndroidGutterIconTes
 
     @TestMetadata("color.kt")
     public void testColor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/color.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/gutterIcon/color.kt");
     }
 
     @TestMetadata("drawable.kt")
     public void testDrawable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/drawable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/gutterIcon/drawable.kt");
     }
 
     @TestMetadata("mipmap.kt")
     public void testMipmap() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/mipmap.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/gutterIcon/mipmap.kt");
     }
 
     @TestMetadata("relatedFiles.kt")
     public void testRelatedFiles() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/relatedFiles.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/gutterIcon/relatedFiles.kt");
     }
 
     @TestMetadata("systemColor.kt")
     public void testSystemColor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/systemColor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/gutterIcon/systemColor.kt");
     }
 
     @TestMetadata("systemDrawable.kt")
     public void testSystemDrawable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/systemDrawable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/gutterIcon/systemDrawable.kt");
     }
 
     @TestMetadata("idea/testData/android/gutterIcon/res")

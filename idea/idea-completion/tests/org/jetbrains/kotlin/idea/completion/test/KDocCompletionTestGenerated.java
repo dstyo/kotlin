@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public class KDocCompletionTestGenerated extends AbstractJvmBasicCompletionTest {
     @TestMetadata("AfterPackageName.kt")
     public void testAfterPackageName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/AfterPackageName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/AfterPackageName.kt");
     }
 
     public void testAllFilesPresentInKdoc() throws Exception {
@@ -32,101 +32,101 @@ public class KDocCompletionTestGenerated extends AbstractJvmBasicCompletionTest 
 
     @TestMetadata("ExtensionsFQLink.kt")
     public void testExtensionsFQLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/ExtensionsFQLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/ExtensionsFQLink.kt");
     }
 
     @TestMetadata("ExtensionsForNestedClassFQLink.kt")
     public void testExtensionsForNestedClassFQLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/ExtensionsForNestedClassFQLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/ExtensionsForNestedClassFQLink.kt");
     }
 
     @TestMetadata("FQLink.kt")
     public void testFQLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/FQLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/FQLink.kt");
     }
 
     @TestMetadata("FQLinkInTag1.kt")
     public void testFQLinkInTag1() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/FQLinkInTag1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/FQLinkInTag1.kt");
     }
 
     @TestMetadata("FQLinkInTag2.kt")
     public void testFQLinkInTag2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/FQLinkInTag2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/FQLinkInTag2.kt");
     }
 
     @TestMetadata("Link.kt")
     public void testLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/Link.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/Link.kt");
     }
 
     @TestMetadata("MemberEnumEntryFQLink.kt")
     public void testMemberEnumEntryFQLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/MemberEnumEntryFQLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/MemberEnumEntryFQLink.kt");
     }
 
     @TestMetadata("MemberEnumEntryLink.kt")
     public void testMemberEnumEntryLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/MemberEnumEntryLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/MemberEnumEntryLink.kt");
     }
 
     @TestMetadata("MemberLink.kt")
     public void testMemberLink() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/MemberLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/MemberLink.kt");
     }
 
     @TestMetadata("NoCompletionAfterFunName.kt")
     public void testNoCompletionAfterFunName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/NoCompletionAfterFunName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/NoCompletionAfterFunName.kt");
     }
 
     @TestMetadata("NoTopLevelForQualified.kt")
     public void testNoTopLevelForQualified() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/NoTopLevelForQualified.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/NoTopLevelForQualified.kt");
     }
 
     @TestMetadata("NotTagName.kt")
     public void testNotTagName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/NotTagName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/NotTagName.kt");
     }
 
     @TestMetadata("ParamTag.kt")
     public void testParamTag() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/ParamTag.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/ParamTag.kt");
     }
 
     @TestMetadata("SkipExistingParamTag.kt")
     public void testSkipExistingParamTag() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/SkipExistingParamTag.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/SkipExistingParamTag.kt");
     }
 
     @TestMetadata("TagName.kt")
     public void testTagName() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/TagName.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/TagName.kt");
     }
 
     @TestMetadata("TagNameAfterAt.kt")
     public void testTagNameAfterAt() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/TagNameAfterAt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/TagNameAfterAt.kt");
     }
 
     @TestMetadata("TagNameInClass.kt")
     public void testTagNameInClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/TagNameInClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/TagNameInClass.kt");
     }
 
     @TestMetadata("TagNameInExtensionFunction.kt")
     public void testTagNameInExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/TagNameInExtensionFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/TagNameInExtensionFunction.kt");
     }
 
     @TestMetadata("TagNameMiddle.kt")
     public void testTagNameMiddle() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/TagNameMiddle.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/TagNameMiddle.kt");
     }
 
     @TestMetadata("TagNameStart.kt")
     public void testTagNameStart() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/kdoc/TagNameStart.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/kdoc/TagNameStart.kt");
     }
 }

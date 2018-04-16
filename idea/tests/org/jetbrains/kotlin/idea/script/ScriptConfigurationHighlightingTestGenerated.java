@@ -23,12 +23,12 @@ import java.util.regex.Pattern;
 public class ScriptConfigurationHighlightingTestGenerated extends AbstractScriptConfigurationHighlightingTest {
     @TestMetadata("acceptedAnnotations")
     public void testAcceptedAnnotations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/acceptedAnnotations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/acceptedAnnotations/");
     }
 
     @TestMetadata("additionalImports")
     public void testAdditionalImports() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/additionalImports/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/additionalImports/");
     }
 
     public void testAllFilesPresentInHighlighting() throws Exception {
@@ -37,76 +37,76 @@ public class ScriptConfigurationHighlightingTestGenerated extends AbstractScript
 
     @TestMetadata("asyncResolver")
     public void testAsyncResolver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/asyncResolver/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/asyncResolver/");
     }
 
     @TestMetadata("conflictingModule")
     public void testConflictingModule() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/conflictingModule/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/conflictingModule/");
     }
 
     @TestMetadata("customBaseClass")
     public void testCustomBaseClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/customBaseClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/customBaseClass/");
     }
 
     @TestMetadata("customLibrary")
     public void testCustomLibrary() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/customLibrary/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/customLibrary/");
     }
 
     @TestMetadata("doNotSpeakAboutJava")
     public void testDoNotSpeakAboutJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/doNotSpeakAboutJava/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/doNotSpeakAboutJava/");
     }
 
     @TestMetadata("doNotSpeakAboutJavaLegacy")
     public void testDoNotSpeakAboutJavaLegacy() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/doNotSpeakAboutJavaLegacy/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/doNotSpeakAboutJavaLegacy/");
     }
 
     @TestMetadata("emptyAsyncResolver")
     public void testEmptyAsyncResolver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/emptyAsyncResolver/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/emptyAsyncResolver/");
     }
 
     @TestMetadata("errorResolver")
     public void testErrorResolver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/errorResolver/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/errorResolver/");
     }
 
     @TestMetadata("javaNestedClass")
     public void testJavaNestedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/javaNestedClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/javaNestedClass/");
     }
 
     @TestMetadata("multiModule")
     public void testMultiModule() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/multiModule/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/multiModule/");
     }
 
     @TestMetadata("noResolver")
     public void testNoResolver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/noResolver/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/noResolver/");
     }
 
     @TestMetadata("propertyAccessor")
     public void testPropertyAccessor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/propertyAccessor/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/propertyAccessor/");
     }
 
     @TestMetadata("propertyAccessorFromModule")
     public void testPropertyAccessorFromModule() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/propertyAccessorFromModule/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/propertyAccessorFromModule/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/simple/");
     }
 
     @TestMetadata("throwingResolver")
     public void testThrowingResolver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/script/definition/highlighting/throwingResolver/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/script/definition/highlighting/throwingResolver/");
     }
 }

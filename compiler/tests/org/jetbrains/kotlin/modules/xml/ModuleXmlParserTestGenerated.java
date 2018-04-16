@@ -27,41 +27,41 @@ public class ModuleXmlParserTestGenerated extends AbstractModuleXmlParserTest {
 
     @TestMetadata("allOnce.xml")
     public void testAllOnce() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/allOnce.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/allOnce.xml");
     }
 
     @TestMetadata("comments.xml")
     public void testComments() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/comments.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/comments.xml");
     }
 
     @TestMetadata("empty.xml")
     public void testEmpty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/empty.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/empty.xml");
     }
 
     @TestMetadata("emptyModule.xml")
     public void testEmptyModule() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/emptyModule.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/emptyModule.xml");
     }
 
     @TestMetadata("manyTimes.xml")
     public void testManyTimes() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/manyTimes.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/manyTimes.xml");
     }
 
     @TestMetadata("onlySources.xml")
     public void testOnlySources() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/onlySources.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/onlySources.xml");
     }
 
     @TestMetadata("twoModules.xml")
     public void testTwoModules() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/twoModules.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/twoModules.xml");
     }
 
     @TestMetadata("typeTestModule.xml")
     public void testTypeTestModule() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/modules.xml/typeTestModule.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/modules.xml/typeTestModule.xml");
     }
 }

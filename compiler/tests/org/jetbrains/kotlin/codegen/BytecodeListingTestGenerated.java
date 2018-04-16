@@ -27,122 +27,122 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
     @TestMetadata("callableNameIntrinsic.kt")
     public void testCallableNameIntrinsic() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/callableNameIntrinsic.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/callableNameIntrinsic.kt");
     }
 
     @TestMetadata("coroutineContextIntrinsic.kt")
     public void testCoroutineContextIntrinsic() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/coroutineContextIntrinsic.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/coroutineContextIntrinsic.kt");
     }
 
     @TestMetadata("coroutineFields.kt")
     public void testCoroutineFields() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/coroutineFields.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/coroutineFields.kt");
     }
 
     @TestMetadata("defaultImpls.kt")
     public void testDefaultImpls() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/defaultImpls.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/defaultImpls.kt");
     }
 
     @TestMetadata("emptyMultifileFacade.kt")
     public void testEmptyMultifileFacade() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/emptyMultifileFacade.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/emptyMultifileFacade.kt");
     }
 
     @TestMetadata("immutableCollection.kt")
     public void testImmutableCollection() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/immutableCollection.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/immutableCollection.kt");
     }
 
     @TestMetadata("inlineOnly.kt")
     public void testInlineOnly() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineOnly.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineOnly.kt");
     }
 
     @TestMetadata("InlineOnlyMultifile.kt")
     public void testInlineOnlyMultifile() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/InlineOnlyMultifile.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/InlineOnlyMultifile.kt");
     }
 
     @TestMetadata("inlineOnlyProperty.kt")
     public void testInlineOnlyProperty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineOnlyProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineOnlyProperty.kt");
     }
 
     @TestMetadata("InlineOnlyPropertyMultifile.kt")
     public void testInlineOnlyPropertyMultifile() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/InlineOnlyPropertyMultifile.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/InlineOnlyPropertyMultifile.kt");
     }
 
     @TestMetadata("invisibleCompanionObject.kt")
     public void testInvisibleCompanionObject() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/invisibleCompanionObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/invisibleCompanionObject.kt");
     }
 
     @TestMetadata("invisibleCompanionObject_lv11.kt")
     public void testInvisibleCompanionObject_lv11() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/invisibleCompanionObject_lv11.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/invisibleCompanionObject_lv11.kt");
     }
 
     @TestMetadata("invisibleCompanionObject_lv12.kt")
     public void testInvisibleCompanionObject_lv12() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/invisibleCompanionObject_lv12.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/invisibleCompanionObject_lv12.kt");
     }
 
     @TestMetadata("jvmOverloadsAndParametersAnnotations.kt")
     public void testJvmOverloadsAndParametersAnnotations() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/jvmOverloadsAndParametersAnnotations.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/jvmOverloadsAndParametersAnnotations.kt");
     }
 
     @TestMetadata("noCollectionStubMethodsInInterface.kt")
     public void testNoCollectionStubMethodsInInterface() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/noCollectionStubMethodsInInterface.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/noCollectionStubMethodsInInterface.kt");
     }
 
     @TestMetadata("noDelegationsToPrivateInterfaceMembers.kt")
     public void testNoDelegationsToPrivateInterfaceMembers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/noDelegationsToPrivateInterfaceMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/noDelegationsToPrivateInterfaceMembers.kt");
     }
 
     @TestMetadata("noReceiverInCallableReferenceClasses.kt")
     public void testNoReceiverInCallableReferenceClasses() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/noReceiverInCallableReferenceClasses.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/noReceiverInCallableReferenceClasses.kt");
     }
 
     @TestMetadata("noRemoveAtInReadOnly.kt")
     public void testNoRemoveAtInReadOnly() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/noRemoveAtInReadOnly.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/noRemoveAtInReadOnly.kt");
     }
 
     @TestMetadata("noToArrayInJava.kt")
     public void testNoToArrayInJava() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/noToArrayInJava.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/noToArrayInJava.kt");
     }
 
     @TestMetadata("oomInReturnUnit.kt")
     public void testOomInReturnUnit() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/oomInReturnUnit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/oomInReturnUnit.kt");
     }
 
     @TestMetadata("privateSuspendFun.kt")
     public void testPrivateSuspendFun() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/privateSuspendFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/privateSuspendFun.kt");
     }
 
     @TestMetadata("releaseCoroutines.kt")
     public void testReleaseCoroutines() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/releaseCoroutines.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/releaseCoroutines.kt");
     }
 
     @TestMetadata("samAdapterAndInlinedOne.kt")
     public void testSamAdapterAndInlinedOne() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/samAdapterAndInlinedOne.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/samAdapterAndInlinedOne.kt");
     }
 
     @TestMetadata("suspendReifiedFun.kt")
     public void testSuspendReifiedFun() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/suspendReifiedFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/suspendReifiedFun.kt");
     }
 
     @TestMetadata("compiler/testData/codegen/bytecodeListing/annotations")
@@ -155,37 +155,37 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
         @TestMetadata("defaultTargets.kt")
         public void testDefaultTargets() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/defaultTargets.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/defaultTargets.kt");
         }
 
         @TestMetadata("deprecatedJvmOverloads.kt")
         public void testDeprecatedJvmOverloads() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/deprecatedJvmOverloads.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/deprecatedJvmOverloads.kt");
         }
 
         @TestMetadata("JvmSynthetic.kt")
         public void testJvmSynthetic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/JvmSynthetic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/JvmSynthetic.kt");
         }
 
         @TestMetadata("kt9320.kt")
         public void testKt9320() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/kt9320.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/kt9320.kt");
         }
 
         @TestMetadata("literals.kt")
         public void testLiterals() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/literals.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/literals.kt");
         }
 
         @TestMetadata("onProperties.kt")
         public void testOnProperties() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/onProperties.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/onProperties.kt");
         }
 
         @TestMetadata("onReceiver.kt")
         public void testOnReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/annotations/onReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/annotations/onReceiver.kt");
         }
     }
 
@@ -199,17 +199,17 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
         @TestMetadata("noStubsInJavaSuperClass.kt")
         public void testNoStubsInJavaSuperClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/collectionStubs/noStubsInJavaSuperClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/collectionStubs/noStubsInJavaSuperClass.kt");
         }
 
         @TestMetadata("stubsFromSuperclass.kt")
         public void testStubsFromSuperclass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/collectionStubs/stubsFromSuperclass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/collectionStubs/stubsFromSuperclass.kt");
         }
 
         @TestMetadata("stubsFromSuperclassNoBridges.kt")
         public void testStubsFromSuperclassNoBridges() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/collectionStubs/stubsFromSuperclassNoBridges.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/collectionStubs/stubsFromSuperclassNoBridges.kt");
         }
     }
 
@@ -223,27 +223,27 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
         @TestMetadata("companionObjectInsideInlineClass.kt")
         public void testCompanionObjectInsideInlineClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineClasses/companionObjectInsideInlineClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineClasses/companionObjectInsideInlineClass.kt");
         }
 
         @TestMetadata("computablePropertiesInsideInlineClass.kt")
         public void testComputablePropertiesInsideInlineClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineClasses/computablePropertiesInsideInlineClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineClasses/computablePropertiesInsideInlineClass.kt");
         }
 
         @TestMetadata("noBridgesForErasedInlineClass.kt")
         public void testNoBridgesForErasedInlineClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineClasses/noBridgesForErasedInlineClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineClasses/noBridgesForErasedInlineClass.kt");
         }
 
         @TestMetadata("shapeOfInlineClassWithPrimitive.kt")
         public void testShapeOfInlineClassWithPrimitive() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineClasses/shapeOfInlineClassWithPrimitive.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineClasses/shapeOfInlineClassWithPrimitive.kt");
         }
 
         @TestMetadata("shapeOfInlineClassWithPrivateConstructor.kt")
         public void testShapeOfInlineClassWithPrivateConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/inlineClasses/shapeOfInlineClassWithPrivateConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/inlineClasses/shapeOfInlineClassWithPrivateConstructor.kt");
         }
     }
 
@@ -257,22 +257,22 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
         @TestMetadata("contains.kt")
         public void testContains() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/contains.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/contains.kt");
         }
 
         @TestMetadata("noSpecialBridgeIfPresentInSuperClass.kt")
         public void testNoSpecialBridgeIfPresentInSuperClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/noSpecialBridgeIfPresentInSuperClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/noSpecialBridgeIfPresentInSuperClass.kt");
         }
 
         @TestMetadata("redundantStubForSize.kt")
         public void testRedundantStubForSize() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/redundantStubForSize.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/redundantStubForSize.kt");
         }
 
         @TestMetadata("removeAtTwoSpecialBridges.kt")
         public void testRemoveAtTwoSpecialBridges() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/removeAtTwoSpecialBridges.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/removeAtTwoSpecialBridges.kt");
         }
 
         @TestMetadata("compiler/testData/codegen/bytecodeListing/specialBridges/signatures")
@@ -285,17 +285,17 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
             @TestMetadata("genericClass.kt")
             public void testGenericClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/signatures/genericClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/signatures/genericClass.kt");
             }
 
             @TestMetadata("nonGenericClass.kt")
             public void testNonGenericClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/signatures/nonGenericClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/signatures/nonGenericClass.kt");
             }
 
             @TestMetadata("partiallySpecializedClass.kt")
             public void testPartiallySpecializedClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/specialBridges/signatures/partiallySpecializedClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/specialBridges/signatures/partiallySpecializedClass.kt");
             }
         }
     }
@@ -310,27 +310,27 @@ public class BytecodeListingTestGenerated extends AbstractBytecodeListingTest {
 
         @TestMetadata("tailCallIntrinsics.kt")
         public void testTailCallIntrinsics() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/tailcall/tailCallIntrinsics.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/tailcall/tailCallIntrinsics.kt");
         }
 
         @TestMetadata("tailSuspendUnitFun.kt")
         public void testTailSuspendUnitFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/tailcall/tailSuspendUnitFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/tailcall/tailSuspendUnitFun.kt");
         }
 
         @TestMetadata("tryCatchTailCall.kt")
         public void testTryCatchTailCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/tailcall/tryCatchTailCall.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/tailcall/tryCatchTailCall.kt");
         }
 
         @TestMetadata("unreachable.kt")
         public void testUnreachable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/tailcall/unreachable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/tailcall/unreachable.kt");
         }
 
         @TestMetadata("whenUnit.kt")
         public void testWhenUnit() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeListing/tailcall/whenUnit.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/bytecodeListing/tailcall/whenUnit.kt");
         }
     }
 }

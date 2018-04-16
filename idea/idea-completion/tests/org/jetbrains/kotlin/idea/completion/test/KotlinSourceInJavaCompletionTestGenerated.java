@@ -27,146 +27,146 @@ public class KotlinSourceInJavaCompletionTestGenerated extends AbstractKotlinSou
 
     @TestMetadata("AnnotationParameter.java")
     public void testAnnotationParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/AnnotationParameter.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/AnnotationParameter.java");
     }
 
     @TestMetadata("Class.java")
     public void testClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/Class.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/Class.java");
     }
 
     @TestMetadata("ClassMembers.java")
     public void testClassMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/ClassMembers.java");
     }
 
     @TestMetadata("ClassObject.java")
     public void testClassObject() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassObject.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/ClassObject.java");
     }
 
     @TestMetadata("ClassObjectField.java")
     public void testClassObjectField() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassObjectField.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/ClassObjectField.java");
     }
 
     @TestMetadata("ClassesFromNamespace.java")
     public void testClassesFromNamespace() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassesFromNamespace.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/ClassesFromNamespace.java");
     }
 
     @TestMetadata("EnumConstants.java")
     public void testEnumConstants() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/EnumConstants.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/EnumConstants.java");
     }
 
     @TestMetadata("InterfaceDefaultImpl.java")
     public void testInterfaceDefaultImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImpl.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/InterfaceDefaultImpl.java");
     }
 
     @TestMetadata("InterfaceDefaultImplImportedMembers.java")
     public void testInterfaceDefaultImplImportedMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplImportedMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/InterfaceDefaultImplImportedMembers.java");
     }
 
     @TestMetadata("InterfaceDefaultImplMembers.java")
     public void testInterfaceDefaultImplMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/InterfaceDefaultImplMembers.java");
     }
 
     @TestMetadata("InterfaceDefaultImplStaticImportedMembers.java")
     public void testInterfaceDefaultImplStaticImportedMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplStaticImportedMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/InterfaceDefaultImplStaticImportedMembers.java");
     }
 
     @TestMetadata("InterfaceDefaultImplsNonImported.java")
     public void testInterfaceDefaultImplsNonImported() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplsNonImported.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/InterfaceDefaultImplsNonImported.java");
     }
 
     @TestMetadata("MultiFileFacade.java")
     public void testMultiFileFacade() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/MultiFileFacade.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/MultiFileFacade.java");
     }
 
     @TestMetadata("MultiFileFacadeMembers.java")
     public void testMultiFileFacadeMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/MultiFileFacadeMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/MultiFileFacadeMembers.java");
     }
 
     @TestMetadata("MultiFileFacadeNoImport.java")
     public void testMultiFileFacadeNoImport() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/MultiFileFacadeNoImport.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/MultiFileFacadeNoImport.java");
     }
 
     @TestMetadata("Nested.java")
     public void testNested() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/Nested.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/Nested.java");
     }
 
     @TestMetadata("NestedClassMembers.java")
     public void testNestedClassMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedClassMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/NestedClassMembers.java");
     }
 
     @TestMetadata("NestedClassMembers2.java")
     public void testNestedClassMembers2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedClassMembers2.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/NestedClassMembers2.java");
     }
 
     @TestMetadata("NestedNoImport.java")
     public void testNestedNoImport() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedNoImport.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/NestedNoImport.java");
     }
 
     @TestMetadata("NestedObjectInstance.java")
     public void testNestedObjectInstance() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedObjectInstance.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/NestedObjectInstance.java");
     }
 
     @TestMetadata("ObjectInClassObjects.java")
     public void testObjectInClassObjects() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ObjectInClassObjects.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/ObjectInClassObjects.java");
     }
 
     @TestMetadata("ObjectInstance.java")
     public void testObjectInstance() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ObjectInstance.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/ObjectInstance.java");
     }
 
     @TestMetadata("RenamedFacade.java")
     public void testRenamedFacade() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/RenamedFacade.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/RenamedFacade.java");
     }
 
     @TestMetadata("SingleFileFacade.java")
     public void testSingleFileFacade() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/SingleFileFacade.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/SingleFileFacade.java");
     }
 
     @TestMetadata("SingleFileFacadeMembers.java")
     public void testSingleFileFacadeMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/SingleFileFacadeMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/SingleFileFacadeMembers.java");
     }
 
     @TestMetadata("SingleFileFacadeNoImport.java")
     public void testSingleFileFacadeNoImport() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/SingleFileFacadeNoImport.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/SingleFileFacadeNoImport.java");
     }
 
     @TestMetadata("Subpackage.java")
     public void testSubpackage() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/Subpackage.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/Subpackage.java");
     }
 
     @TestMetadata("TopLevelMembers.java")
     public void testTopLevelMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/TopLevelMembers.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/TopLevelMembers.java");
     }
 
     @TestMetadata("TraitMember.java")
     public void testTraitMember() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/TraitMember.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/injava/TraitMember.java");
     }
 }

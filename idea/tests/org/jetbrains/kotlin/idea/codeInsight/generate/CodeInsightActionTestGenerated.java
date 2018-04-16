@@ -27,61 +27,61 @@ public class CodeInsightActionTestGenerated extends AbstractCodeInsightActionTes
 
     @TestMetadata("empty.kt")
     public void testEmpty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/empty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/empty.kt");
     }
 
     @TestMetadata("emptyExists.kt")
     public void testEmptyExists() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/emptyExists.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/emptyExists.kt");
     }
 
     @TestMetadata("javaSupers.kt")
     public void testJavaSupers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/javaSupers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/javaSupers.kt");
     }
 
     @TestMetadata("javaSupersWithGenerics.kt")
     public void testJavaSupersWithGenerics() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/javaSupersWithGenerics.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/javaSupersWithGenerics.kt");
     }
 
     @TestMetadata("primaryExists.kt")
     public void testPrimaryExists() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/primaryExists.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/primaryExists.kt");
     }
 
     @TestMetadata("properties.kt")
     public void testProperties() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/properties.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/properties.kt");
     }
 
     @TestMetadata("propertiesWithSupers.kt")
     public void testPropertiesWithSupers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/propertiesWithSupers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/propertiesWithSupers.kt");
     }
 
     @TestMetadata("supers.kt")
     public void testSupers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/supers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/supers.kt");
     }
 
     @TestMetadata("supersAllExist.kt")
     public void testSupersAllExist() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/supersAllExist.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/supersAllExist.kt");
     }
 
     @TestMetadata("supersSomeExist.kt")
     public void testSupersSomeExist() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/supersSomeExist.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/supersSomeExist.kt");
     }
 
     @TestMetadata("supersWithGenerics.kt")
     public void testSupersWithGenerics() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/supersWithGenerics.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/supersWithGenerics.kt");
     }
 
     @TestMetadata("supersWithVarargs.kt")
     public void testSupersWithVarargs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/secondaryConstructors/supersWithVarargs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/secondaryConstructors/supersWithVarargs.kt");
     }
 }

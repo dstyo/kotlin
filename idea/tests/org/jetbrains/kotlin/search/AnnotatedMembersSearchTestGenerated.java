@@ -27,51 +27,51 @@ public class AnnotatedMembersSearchTestGenerated extends AbstractAnnotatedMember
 
     @TestMetadata("annotationAliased.kt")
     public void testAnnotationAliased() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/annotationAliased.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/annotationAliased.kt");
     }
 
     @TestMetadata("testAmbiguousNestedNonAnnotationClass.kt")
     public void testTestAmbiguousNestedNonAnnotationClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testAmbiguousNestedNonAnnotationClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testAmbiguousNestedNonAnnotationClass.kt");
     }
 
     @TestMetadata("testAmbiguousNestedPrivateAnnotationClass.kt")
     public void testTestAmbiguousNestedPrivateAnnotationClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testAmbiguousNestedPrivateAnnotationClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testAmbiguousNestedPrivateAnnotationClass.kt");
     }
 
     @TestMetadata("testAnnotationsOnClass.kt")
     public void testTestAnnotationsOnClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testAnnotationsOnClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testAnnotationsOnClass.kt");
     }
 
     @TestMetadata("testAnnotationsOnFunction.kt")
     public void testTestAnnotationsOnFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testAnnotationsOnFunction.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testAnnotationsOnFunction.kt");
     }
 
     @TestMetadata("testAnnotationsWithParameters.kt")
     public void testTestAnnotationsWithParameters() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testAnnotationsWithParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testAnnotationsWithParameters.kt");
     }
 
     @TestMetadata("testDefaultImport.kt")
     public void testTestDefaultImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testDefaultImport.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testDefaultImport.kt");
     }
 
     @TestMetadata("testNestedClassAsAnnotation.kt")
     public void testTestNestedClassAsAnnotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testNestedClassAsAnnotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testNestedClassAsAnnotation.kt");
     }
 
     @TestMetadata("testNestedPrivateAnnotationClass.kt")
     public void testTestNestedPrivateAnnotationClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testNestedPrivateAnnotationClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testNestedPrivateAnnotationClass.kt");
     }
 
     @TestMetadata("testTypeAlias.kt")
     public void testTestTypeAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/search/annotations/testTypeAlias.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/search/annotations/testTypeAlias.kt");
     }
 }

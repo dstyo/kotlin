@@ -27,41 +27,41 @@ public class AdditionalResolveDescriptorRendererTestGenerated extends AbstractAd
 
     @TestMetadata("anonymousObjectInBaseConstructor.kt")
     public void testAnonymousObjectInBaseConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/anonymousObjectInBaseConstructor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/anonymousObjectInBaseConstructor.kt");
     }
 
     @TestMetadata("anonymousObjectInClassInitializer.kt")
     public void testAnonymousObjectInClassInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassInitializer.kt");
     }
 
     @TestMetadata("anonymousObjectInClassParameterInitializer.kt")
     public void testAnonymousObjectInClassParameterInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassParameterInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassParameterInitializer.kt");
     }
 
     @TestMetadata("functionLiteralInBaseConstructor.kt")
     public void testFunctionLiteralInBaseConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/functionLiteralInBaseConstructor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/functionLiteralInBaseConstructor.kt");
     }
 
     @TestMetadata("localClassInClassInitializer.kt")
     public void testLocalClassInClassInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localClassInClassInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/localClassInClassInitializer.kt");
     }
 
     @TestMetadata("localClassInClosureInClassParameterInitializer.kt")
     public void testLocalClassInClosureInClassParameterInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localClassInClosureInClassParameterInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/localClassInClosureInClassParameterInitializer.kt");
     }
 
     @TestMetadata("localObjectInClassInitializer.kt")
     public void testLocalObjectInClassInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localObjectInClassInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/localObjectInClassInitializer.kt");
     }
 
     @TestMetadata("localObjectInClosureInClassParameterInitializer.kt")
     public void testLocalObjectInClosureInClassParameterInitializer() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localObjectInClosureInClassParameterInitializer.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/additionalLazyResolve/localObjectInClosureInClassParameterInitializer.kt");
     }
 }

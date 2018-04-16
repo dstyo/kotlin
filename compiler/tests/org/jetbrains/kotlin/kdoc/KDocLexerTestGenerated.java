@@ -27,6 +27,6 @@ public class KDocLexerTestGenerated extends AbstractKDocLexerTest {
 
     @TestMetadata("codeBlocks.kt")
     public void testCodeBlocks() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/kdoc/lexer/codeBlocks.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/kdoc/lexer/codeBlocks.kt");
     }
 }

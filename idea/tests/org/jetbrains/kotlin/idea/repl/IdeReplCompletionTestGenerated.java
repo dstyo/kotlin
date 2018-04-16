@@ -27,36 +27,36 @@ public class IdeReplCompletionTestGenerated extends AbstractIdeReplCompletionTes
 
     @TestMetadata("builtInMember.kt")
     public void testBuiltInMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/builtInMember.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/builtInMember.kt");
     }
 
     @TestMetadata("definedClass.kt")
     public void testDefinedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/definedClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/definedClass.kt");
     }
 
     @TestMetadata("definedClassMember.kt")
     public void testDefinedClassMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/definedClassMember.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/definedClassMember.kt");
     }
 
     @TestMetadata("definedExtension.kt")
     public void testDefinedExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/definedExtension.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/definedExtension.kt");
     }
 
     @TestMetadata("functions.kt")
     public void testFunctions() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/functions.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/functions.kt");
     }
 
     @TestMetadata("stdlib.kt")
     public void testStdlib() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/stdlib.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/stdlib.kt");
     }
 
     @TestMetadata("variables.kt")
     public void testVariables() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/repl/completion/variables.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/repl/completion/variables.kt");
     }
 }

@@ -27,16 +27,16 @@ public class AndroidResourceFoldingTestGenerated extends AbstractAndroidResource
 
     @TestMetadata("dimensions.kt")
     public void testDimensions() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/folding/dimensions.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/folding/dimensions.kt");
     }
 
     @TestMetadata("getString.kt")
     public void testGetString() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/folding/getString.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/folding/getString.kt");
     }
 
     @TestMetadata("plurals.kt")
     public void testPlurals() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/android/folding/plurals.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/folding/plurals.kt");
     }
 }

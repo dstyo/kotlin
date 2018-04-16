@@ -27,97 +27,97 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
     @TestMetadata("analyzeErrors.repl")
     public void testAnalyzeErrors() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/analyzeErrors.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/analyzeErrors.repl");
     }
 
     @TestMetadata("constants.repl")
     public void testConstants() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/constants.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/constants.repl");
     }
 
     @TestMetadata("destructuringDeclaration.repl")
     public void testDestructuringDeclaration() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/destructuringDeclaration.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/destructuringDeclaration.repl");
     }
 
     @TestMetadata("empty.repl")
     public void testEmpty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/empty.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/empty.repl");
     }
 
     @TestMetadata("evaluationErrors.repl")
     public void testEvaluationErrors() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/evaluationErrors.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/evaluationErrors.repl");
     }
 
     @TestMetadata("exceptionInValueToString.repl")
     public void testExceptionInValueToString() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/exceptionInValueToString.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/exceptionInValueToString.repl");
     }
 
     @TestMetadata("exceptionInVariableInitializer.repl")
     public void testExceptionInVariableInitializer() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/exceptionInVariableInitializer.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/exceptionInVariableInitializer.repl");
     }
 
     @TestMetadata("function.repl")
     public void testFunction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/function.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/function.repl");
     }
 
     @TestMetadata("functionOverloadResolution.repl")
     public void testFunctionOverloadResolution() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/functionOverloadResolution.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/functionOverloadResolution.repl");
     }
 
     @TestMetadata("functionOverloadResolutionAnyBeatsString.repl")
     public void testFunctionOverloadResolutionAnyBeatsString() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/functionOverloadResolutionAnyBeatsString.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/functionOverloadResolutionAnyBeatsString.repl");
     }
 
     @TestMetadata("functionReferencesPrev.repl")
     public void testFunctionReferencesPrev() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/functionReferencesPrev.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/functionReferencesPrev.repl");
     }
 
     @TestMetadata("imports.repl")
     public void testImports() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/imports.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/imports.repl");
     }
 
     @TestMetadata("multipleImports.repl")
     public void testMultipleImports() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/multipleImports.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/multipleImports.repl");
     }
 
     @TestMetadata("noWarningsWithErrors.repl")
     public void testNoWarningsWithErrors() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/noWarningsWithErrors.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/noWarningsWithErrors.repl");
     }
 
     @TestMetadata("simple.repl")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/simple.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/simple.repl");
     }
 
     @TestMetadata("simpleTwoVals.repl")
     public void testSimpleTwoVals() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/simpleTwoVals.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/simpleTwoVals.repl");
     }
 
     @TestMetadata("syntaxErrors.repl")
     public void testSyntaxErrors() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/syntaxErrors.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/syntaxErrors.repl");
     }
 
     @TestMetadata("topLevelLocalDelegatedProperty.repl")
     public void testTopLevelLocalDelegatedProperty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/topLevelLocalDelegatedProperty.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/topLevelLocalDelegatedProperty.repl");
     }
 
     @TestMetadata("twoClosures.repl")
     public void testTwoClosures() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/repl/twoClosures.repl", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/twoClosures.repl");
     }
 
     @TestMetadata("compiler/testData/repl/classes")
@@ -130,52 +130,52 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("classInheritance.repl")
         public void testClassInheritance() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/classInheritance.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/classInheritance.repl");
         }
 
         @TestMetadata("classRedeclaration.repl")
         public void testClassRedeclaration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/classRedeclaration.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/classRedeclaration.repl");
         }
 
         @TestMetadata("classReferencesVal.repl")
         public void testClassReferencesVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/classReferencesVal.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/classReferencesVal.repl");
         }
 
         @TestMetadata("emptyClass.repl")
         public void testEmptyClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/emptyClass.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/emptyClass.repl");
         }
 
         @TestMetadata("emptyClassRedeclaration.repl")
         public void testEmptyClassRedeclaration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/emptyClassRedeclaration.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/emptyClassRedeclaration.repl");
         }
 
         @TestMetadata("enumEntrySubclass.repl")
         public void testEnumEntrySubclass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/enumEntrySubclass.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/enumEntrySubclass.repl");
         }
 
         @TestMetadata("import.repl")
         public void testImport() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/import.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/import.repl");
         }
 
         @TestMetadata("simpleClass.repl")
         public void testSimpleClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/simpleClass.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/simpleClass.repl");
         }
 
         @TestMetadata("simpleEnum.repl")
         public void testSimpleEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/simpleEnum.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/simpleEnum.repl");
         }
 
         @TestMetadata("simpleTrait.repl")
         public void testSimpleTrait() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/classes/simpleTrait.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/classes/simpleTrait.repl");
         }
     }
 
@@ -189,37 +189,37 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("functionWithoutReturn.repl")
         public void testFunctionWithoutReturn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/functionWithoutReturn.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/functionWithoutReturn.repl");
         }
 
         @TestMetadata("incompleteIf.repl")
         public void testIncompleteIf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/incompleteIf.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/incompleteIf.repl");
         }
 
         @TestMetadata("incompleteWhen.repl")
         public void testIncompleteWhen() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/incompleteWhen.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/incompleteWhen.repl");
         }
 
         @TestMetadata("kt15407.repl")
         public void testKt15407() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/kt15407.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/kt15407.repl");
         }
 
         @TestMetadata("loopWithWrongLabel.repl")
         public void testLoopWithWrongLabel() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/loopWithWrongLabel.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/loopWithWrongLabel.repl");
         }
 
         @TestMetadata("mutateVal.repl")
         public void testMutateVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/mutateVal.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/mutateVal.repl");
         }
 
         @TestMetadata("useUninitializedVal.repl")
         public void testUseUninitializedVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/useUninitializedVal.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/controlFlow/useUninitializedVal.repl");
         }
     }
 
@@ -233,7 +233,7 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("kt10001.repl")
         public void testKt10001() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/modules/kt10001.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/modules/kt10001.repl");
         }
     }
 
@@ -247,27 +247,27 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("blankLinesAndComments.repl")
         public void testBlankLinesAndComments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/multiline/blankLinesAndComments.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/multiline/blankLinesAndComments.repl");
         }
 
         @TestMetadata("functionOnSeveralLines.repl")
         public void testFunctionOnSeveralLines() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/multiline/functionOnSeveralLines.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/multiline/functionOnSeveralLines.repl");
         }
 
         @TestMetadata("multilineFunctionInvocation.repl")
         public void testMultilineFunctionInvocation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/multiline/multilineFunctionInvocation.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/multiline/multilineFunctionInvocation.repl");
         }
 
         @TestMetadata("openParenthesisIncomplete.repl")
         public void testOpenParenthesisIncomplete() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/multiline/openParenthesisIncomplete.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/multiline/openParenthesisIncomplete.repl");
         }
 
         @TestMetadata("simpleFunctionBodyOnNextLine.repl")
         public void testSimpleFunctionBodyOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/multiline/simpleFunctionBodyOnNextLine.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/multiline/simpleFunctionBodyOnNextLine.repl");
         }
     }
 
@@ -281,17 +281,17 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("emptyObject.repl")
         public void testEmptyObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/objects/emptyObject.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/objects/emptyObject.repl");
         }
 
         @TestMetadata("localObject.repl")
         public void testLocalObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/objects/localObject.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/objects/localObject.repl");
         }
 
         @TestMetadata("simpleObjectDeclaration.repl")
         public void testSimpleObjectDeclaration() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/objects/simpleObjectDeclaration.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/objects/simpleObjectDeclaration.repl");
         }
     }
 
@@ -305,12 +305,12 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("arrayOfBoxed.repl")
         public void testArrayOfBoxed() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/primitiveTypes/arrayOfBoxed.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/primitiveTypes/arrayOfBoxed.repl");
         }
 
         @TestMetadata("boxingOnPurpose.repl")
         public void testBoxingOnPurpose() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/primitiveTypes/boxingOnPurpose.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/primitiveTypes/boxingOnPurpose.repl");
         }
     }
 
@@ -324,7 +324,7 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("kt6843.repl")
         public void testKt6843() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/regressions/kt6843.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/regressions/kt6843.repl");
         }
     }
 
@@ -338,7 +338,7 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("syntheticProperty.repl")
         public void testSyntheticProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/repl/useJava/syntheticProperty.repl", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/repl/useJava/syntheticProperty.repl");
         }
     }
 }

@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletionWeigherTest {
     @TestMetadata("AfterNullable.kt")
     public void testAfterNullable() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/AfterNullable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/AfterNullable.kt");
     }
 
     public void testAllFilesPresentInBasic() throws Exception {
@@ -32,147 +32,147 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
 
     @TestMetadata("CallableReference_NothingLast.kt")
     public void testCallableReference_NothingLast() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/CallableReference_NothingLast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/CallableReference_NothingLast.kt");
     }
 
     @TestMetadata("Callables.kt")
     public void testCallables() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/Callables.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/Callables.kt");
     }
 
     @TestMetadata("DelegateToOtherObject.kt")
     public void testDelegateToOtherObject() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DelegateToOtherObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/DelegateToOtherObject.kt");
     }
 
     @TestMetadata("DeprecatedFun.kt")
     public void testDeprecatedFun() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DeprecatedFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/DeprecatedFun.kt");
     }
 
     @TestMetadata("DeprecatedJavaClass.kt")
     public void testDeprecatedJavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DeprecatedJavaClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/DeprecatedJavaClass.kt");
     }
 
     @TestMetadata("DslCallWithExpectedType.kt")
     public void testDslCallWithExpectedType() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DslCallWithExpectedType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/DslCallWithExpectedType.kt");
     }
 
     @TestMetadata("DslCalls.kt")
     public void testDslCalls() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DslCalls.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/DslCalls.kt");
     }
 
     @TestMetadata("DslCallsWithMultipleReceivers.kt")
     public void testDslCallsWithMultipleReceivers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DslCallsWithMultipleReceivers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/DslCallsWithMultipleReceivers.kt");
     }
 
     @TestMetadata("ExactMatchForKeyword.kt")
     public void testExactMatchForKeyword() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ExactMatchForKeyword.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/ExactMatchForKeyword.kt");
     }
 
     @TestMetadata("ImportedFirst.kt")
     public void testImportedFirst() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ImportedFirst.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/ImportedFirst.kt");
     }
 
     @TestMetadata("ImportedFirstForJavaClass.kt")
     public void testImportedFirstForJavaClass() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ImportedFirstForJavaClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/ImportedFirstForJavaClass.kt");
     }
 
     @TestMetadata("ImportedOrder.kt")
     public void testImportedOrder() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ImportedOrder.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/ImportedOrder.kt");
     }
 
     @TestMetadata("KeywordsLast.kt")
     public void testKeywordsLast() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/KeywordsLast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/KeywordsLast.kt");
     }
 
     @TestMetadata("LambdaSignature.kt")
     public void testLambdaSignature() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LambdaSignature.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/LambdaSignature.kt");
     }
 
     @TestMetadata("LocalFileBeforeImported.kt")
     public void testLocalFileBeforeImported() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalFileBeforeImported.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/LocalFileBeforeImported.kt");
     }
 
     @TestMetadata("LocalValuesAndParams.kt")
     public void testLocalValuesAndParams() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalValuesAndParams.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/LocalValuesAndParams.kt");
     }
 
     @TestMetadata("LocalsBeforeKeywords.kt")
     public void testLocalsBeforeKeywords() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalsBeforeKeywords.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/LocalsBeforeKeywords.kt");
     }
 
     @TestMetadata("LocalsPropertiesKeywords.kt")
     public void testLocalsPropertiesKeywords() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalsPropertiesKeywords.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/LocalsPropertiesKeywords.kt");
     }
 
     @TestMetadata("NamedParameters.kt")
     public void testNamedParameters() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/NamedParameters.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/NamedParameters.kt");
     }
 
     @TestMetadata("NamedParameters2.kt")
     public void testNamedParameters2() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/NamedParameters2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/NamedParameters2.kt");
     }
 
     @TestMetadata("NamedParameters3.kt")
     public void testNamedParameters3() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/NamedParameters3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/NamedParameters3.kt");
     }
 
     @TestMetadata("Packages.kt")
     public void testPackages() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/Packages.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/Packages.kt");
     }
 
     @TestMetadata("ParametersBeforeKeywords.kt")
     public void testParametersBeforeKeywords() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ParametersBeforeKeywords.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/ParametersBeforeKeywords.kt");
     }
 
     @TestMetadata("PreferFromJdk.kt")
     public void testPreferFromJdk() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/PreferFromJdk.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/PreferFromJdk.kt");
     }
 
     @TestMetadata("PreferGetMethodToProperty.kt")
     public void testPreferGetMethodToProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/PreferGetMethodToProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/PreferGetMethodToProperty.kt");
     }
 
     @TestMetadata("Prefix.kt")
     public void testPrefix() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/Prefix.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/Prefix.kt");
     }
 
     @TestMetadata("PropertiesBeforeKeywords.kt")
     public void testPropertiesBeforeKeywords() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/PropertiesBeforeKeywords.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/PropertiesBeforeKeywords.kt");
     }
 
     @TestMetadata("StaticMembers.kt")
     public void testStaticMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/StaticMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/StaticMembers.kt");
     }
 
     @TestMetadata("SuperMembers.kt")
     public void testSuperMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/SuperMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/SuperMembers.kt");
     }
 
     @TestMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo")
@@ -181,7 +181,7 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
     public static class ExpectedInfo extends AbstractBasicCompletionWeigherTest {
         @TestMetadata("AfterAs.kt")
         public void testAfterAs() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/AfterAs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/AfterAs.kt");
         }
 
         public void testAllFilesPresentInExpectedInfo() throws Exception {
@@ -190,72 +190,72 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
 
         @TestMetadata("CompanionObjectMethod.kt")
         public void testCompanionObjectMethod() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/CompanionObjectMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/CompanionObjectMethod.kt");
         }
 
         @TestMetadata("EnumEntries.kt")
         public void testEnumEntries() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/EnumEntries.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/EnumEntries.kt");
         }
 
         @TestMetadata("ExpectedType.kt")
         public void testExpectedType() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType.kt");
         }
 
         @TestMetadata("ExpectedType2.kt")
         public void testExpectedType2() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType2.kt");
         }
 
         @TestMetadata("LambdaValue.kt")
         public void testLambdaValue() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/LambdaValue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/LambdaValue.kt");
         }
 
         @TestMetadata("MultiArgsItem.kt")
         public void testMultiArgsItem() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/MultiArgsItem.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/MultiArgsItem.kt");
         }
 
         @TestMetadata("NameSimilarity.kt")
         public void testNameSimilarity() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarity.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarity.kt");
         }
 
         @TestMetadata("NameSimilarityAndNoExpectedType.kt")
         public void testNameSimilarityAndNoExpectedType() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType.kt");
         }
 
         @TestMetadata("NameSimilarityAndNoExpectedType2.kt")
         public void testNameSimilarityAndNoExpectedType2() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType2.kt");
         }
 
         @TestMetadata("NoStupidComparison.kt")
         public void testNoStupidComparison() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NoStupidComparison.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/NoStupidComparison.kt");
         }
 
         @TestMetadata("Null.kt")
         public void testNull() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/Null.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/Null.kt");
         }
 
         @TestMetadata("PreferMatchingThis.kt")
         public void testPreferMatchingThis() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/PreferMatchingThis.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/PreferMatchingThis.kt");
         }
 
         @TestMetadata("TrueFalse.kt")
         public void testTrueFalse() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/TrueFalse.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/TrueFalse.kt");
         }
 
         @TestMetadata("WhenByEnum.kt")
         public void testWhenByEnum() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/WhenByEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/expectedInfo/WhenByEnum.kt");
         }
     }
 
@@ -269,37 +269,37 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
 
         @TestMetadata("Deprecated.kt")
         public void testDeprecated() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/Deprecated.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/Deprecated.kt");
         }
 
         @TestMetadata("FromCurrentFilePriority.kt")
         public void testFromCurrentFilePriority() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/FromCurrentFilePriority.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/FromCurrentFilePriority.kt");
         }
 
         @TestMetadata("ImportedFirst.kt")
         public void testImportedFirst() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/ImportedFirst.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/ImportedFirst.kt");
         }
 
         @TestMetadata("MoreWordsMatchFirst.kt")
         public void testMoreWordsMatchFirst() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/MoreWordsMatchFirst.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/MoreWordsMatchFirst.kt");
         }
 
         @TestMetadata("ShorterFirst.kt")
         public void testShorterFirst() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/ShorterFirst.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/ShorterFirst.kt");
         }
 
         @TestMetadata("StartMatchFirst.kt")
         public void testStartMatchFirst() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/StartMatchFirst.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/StartMatchFirst.kt");
         }
 
         @TestMetadata("UserPrefix.kt")
         public void testUserPrefix() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/UserPrefix.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/weighers/basic/parameterNameAndType/UserPrefix.kt");
         }
     }
 }

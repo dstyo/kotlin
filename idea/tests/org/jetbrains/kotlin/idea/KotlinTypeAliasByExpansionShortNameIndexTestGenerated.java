@@ -27,16 +27,16 @@ public class KotlinTypeAliasByExpansionShortNameIndexTestGenerated extends Abstr
 
     @TestMetadata("functionalTypes.kt")
     public void testFunctionalTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/typealiasExpansionIndex/functionalTypes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/typealiasExpansionIndex/functionalTypes.kt");
     }
 
     @TestMetadata("generics.kt")
     public void testGenerics() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/typealiasExpansionIndex/generics.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/typealiasExpansionIndex/generics.kt");
     }
 
     @TestMetadata("simpleType.kt")
     public void testSimpleType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/typealiasExpansionIndex/simpleType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/typealiasExpansionIndex/simpleType.kt");
     }
 }

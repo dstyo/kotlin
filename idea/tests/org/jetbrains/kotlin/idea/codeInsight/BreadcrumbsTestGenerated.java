@@ -27,71 +27,71 @@ public class BreadcrumbsTestGenerated extends AbstractBreadcrumbsTest {
 
     @TestMetadata("AnonymousObjects.kt")
     public void testAnonymousObjects() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/AnonymousObjects.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/AnonymousObjects.kt");
     }
 
     @TestMetadata("Declarations.kt")
     public void testDeclarations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/Declarations.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/Declarations.kt");
     }
 
     @TestMetadata("For.kt")
     public void testFor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/For.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/For.kt");
     }
 
     @TestMetadata("FunctionalType.kt")
     public void testFunctionalType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/FunctionalType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/FunctionalType.kt");
     }
 
     @TestMetadata("If.kt")
     public void testIf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/If.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/If.kt");
     }
 
     @TestMetadata("LabeledStatements.kt")
     public void testLabeledStatements() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/LabeledStatements.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/LabeledStatements.kt");
     }
 
     @TestMetadata("Lambdas.kt")
     public void testLambdas() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/Lambdas.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/Lambdas.kt");
     }
 
     @TestMetadata("OnIfCondition.kt")
     public void testOnIfCondition() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/OnIfCondition.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/OnIfCondition.kt");
     }
 
     @TestMetadata("OnWhenEntryCondition.kt")
     public void testOnWhenEntryCondition() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/OnWhenEntryCondition.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/OnWhenEntryCondition.kt");
     }
 
     @TestMetadata("PropertyAccessor.kt")
     public void testPropertyAccessor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/PropertyAccessor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/PropertyAccessor.kt");
     }
 
     @TestMetadata("StarProjection.kt")
     public void testStarProjection() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/StarProjection.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/StarProjection.kt");
     }
 
     @TestMetadata("Try.kt")
     public void testTry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/Try.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/Try.kt");
     }
 
     @TestMetadata("When.kt")
     public void testWhen() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/When.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/When.kt");
     }
 
     @TestMetadata("While.kt")
     public void testWhile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/While.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/breadcrumbs/While.kt");
     }
 }

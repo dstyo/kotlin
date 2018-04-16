@@ -28,121 +28,121 @@ public class KdocResolveTestGenerated extends AbstractReferenceResolveTest {
 
     @TestMetadata("AmbiguousReference.kt")
     public void testAmbiguousReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/AmbiguousReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/AmbiguousReference.kt");
     }
 
     @TestMetadata("AmbiguousReferenceTypeParameter.kt")
     public void testAmbiguousReferenceTypeParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/AmbiguousReferenceTypeParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/AmbiguousReferenceTypeParameter.kt");
     }
 
     @TestMetadata("CheckExtensionReceiver.kt")
     public void testCheckExtensionReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/CheckExtensionReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/CheckExtensionReceiver.kt");
     }
 
     @TestMetadata("ClassSelfReference.kt")
     public void testClassSelfReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ClassSelfReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ClassSelfReference.kt");
     }
 
     @TestMetadata("CodeReference.kt")
     public void testCodeReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/CodeReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/CodeReference.kt");
     }
 
     @TestMetadata("CompanionObjectMember.kt")
     public void testCompanionObjectMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/CompanionObjectMember.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/CompanionObjectMember.kt");
     }
 
     @TestMetadata("ConstructorParamReference.kt")
     public void testConstructorParamReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ConstructorParamReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ConstructorParamReference.kt");
     }
 
     @TestMetadata("ExtensionFromImports.kt")
     public void testExtensionFromImports() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ExtensionFromImports.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ExtensionFromImports.kt");
     }
 
     @TestMetadata("ExtensionFun.kt")
     public void testExtensionFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ExtensionFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ExtensionFun.kt");
     }
 
     @TestMetadata("ExtensionNonQualified.kt")
     public void testExtensionNonQualified() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ExtensionNonQualified.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ExtensionNonQualified.kt");
     }
 
     @TestMetadata("ExtensionVal.kt")
     public void testExtensionVal() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ExtensionVal.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ExtensionVal.kt");
     }
 
     @TestMetadata("ImportAliasClass.kt")
     public void testImportAliasClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ImportAliasClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ImportAliasClass.kt");
     }
 
     @TestMetadata("ImportedClassReference.kt")
     public void testImportedClassReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ImportedClassReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ImportedClassReference.kt");
     }
 
     @TestMetadata("OnlyMembersFromClass.kt")
     public void testOnlyMembersFromClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/OnlyMembersFromClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/OnlyMembersFromClass.kt");
     }
 
     @TestMetadata("Overloads.kt")
     public void testOverloads() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/Overloads.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/Overloads.kt");
     }
 
     @TestMetadata("ParamReference.kt")
     public void testParamReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ParamReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ParamReference.kt");
     }
 
     @TestMetadata("PropertyTypeParamReference.kt")
     public void testPropertyTypeParamReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/PropertyTypeParamReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/PropertyTypeParamReference.kt");
     }
 
     @TestMetadata("QualifiedCodeReference.kt")
     public void testQualifiedCodeReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/QualifiedCodeReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/QualifiedCodeReference.kt");
     }
 
     @TestMetadata("QualifiedNameFunctionReference.kt")
     public void testQualifiedNameFunctionReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/QualifiedNameFunctionReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/QualifiedNameFunctionReference.kt");
     }
 
     @TestMetadata("QualifiedNameReference.kt")
     public void testQualifiedNameReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/QualifiedNameReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/QualifiedNameReference.kt");
     }
 
     @TestMetadata("ReceiverReference.kt")
     public void testReceiverReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/ReceiverReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/ReceiverReference.kt");
     }
 
     @TestMetadata("SeeReference.kt")
     public void testSeeReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/SeeReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/SeeReference.kt");
     }
 
     @TestMetadata("StaticMember.kt")
     public void testStaticMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/StaticMember.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/StaticMember.kt");
     }
 
     @TestMetadata("TypeParamReference.kt")
     public void testTypeParamReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/resolve/TypeParamReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/resolve/TypeParamReference.kt");
     }
 }

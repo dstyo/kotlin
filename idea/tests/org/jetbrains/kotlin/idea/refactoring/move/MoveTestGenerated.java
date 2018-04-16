@@ -27,711 +27,711 @@ public class MoveTestGenerated extends AbstractMoveTest {
 
     @TestMetadata("java/moveClass/callableReferences/nestedToAnotherClass/nestedToAnotherClass.test")
     public void testJava_moveClass_callableReferences_nestedToAnotherClass_NestedToAnotherClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToAnotherClass/nestedToAnotherClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToAnotherClass/nestedToAnotherClass.test");
     }
 
     @TestMetadata("java/moveClass/callableReferences/nestedToAnotherClassAndAnotherPackage/nestedToAnotherClassAndAnotherPackage.test")
     public void testJava_moveClass_callableReferences_nestedToAnotherClassAndAnotherPackage_NestedToAnotherClassAndAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToAnotherClassAndAnotherPackage/nestedToAnotherClassAndAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToAnotherClassAndAnotherPackage/nestedToAnotherClassAndAnotherPackage.test");
     }
 
     @TestMetadata("java/moveClass/callableReferences/nestedToTopLevel/nestedToTopLevel.test")
     public void testJava_moveClass_callableReferences_nestedToTopLevel_NestedToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToTopLevel/nestedToTopLevel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToTopLevel/nestedToTopLevel.test");
     }
 
     @TestMetadata("java/moveClass/callableReferences/nestedToTopLevelAndAnotherPackage/nestedToTopLevelAndAnotherPackage.test")
     public void testJava_moveClass_callableReferences_nestedToTopLevelAndAnotherPackage_NestedToTopLevelAndAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToTopLevelAndAnotherPackage/nestedToTopLevelAndAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/callableReferences/nestedToTopLevelAndAnotherPackage/nestedToTopLevelAndAnotherPackage.test");
     }
 
     @TestMetadata("java/moveClass/moveAsMember/moveClassToExternalNestedClass/moveClassToExternalNestedClass.test")
     public void testJava_moveClass_moveAsMember_moveClassToExternalNestedClass_MoveClassToExternalNestedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToExternalNestedClass/moveClassToExternalNestedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToExternalNestedClass/moveClassToExternalNestedClass.test");
     }
 
     @TestMetadata("java/moveClass/moveAsMember/moveClassToNestedSiblingClass/moveClassToNestedSiblingClass.test")
     public void testJava_moveClass_moveAsMember_moveClassToNestedSiblingClass_MoveClassToNestedSiblingClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToNestedSiblingClass/moveClassToNestedSiblingClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToNestedSiblingClass/moveClassToNestedSiblingClass.test");
     }
 
     @TestMetadata("java/moveClass/moveAsMember/moveClassToTopLevelClass/moveClassToTopLevelClass.test")
     public void testJava_moveClass_moveAsMember_moveClassToTopLevelClass_MoveClassToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClass/moveClassToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClass/moveClassToTopLevelClass.test");
     }
 
     @TestMetadata("java/moveClass/moveAsMember/moveClassToTopLevelClassAndMakePackageLocal/moveClassToTopLevelClassAndMakePackageLocal.test")
     public void testJava_moveClass_moveAsMember_moveClassToTopLevelClassAndMakePackageLocal_MoveClassToTopLevelClassAndMakePackageLocal() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClassAndMakePackageLocal/moveClassToTopLevelClassAndMakePackageLocal.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClassAndMakePackageLocal/moveClassToTopLevelClassAndMakePackageLocal.test");
     }
 
     @TestMetadata("java/moveClass/moveAsMember/moveClassToTopLevelClassAndMakePrivate/moveClassToTopLevelClassAndMakePrivate.test")
     public void testJava_moveClass_moveAsMember_moveClassToTopLevelClassAndMakePrivate_MoveClassToTopLevelClassAndMakePrivate() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClassAndMakePrivate/moveClassToTopLevelClassAndMakePrivate.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClassAndMakePrivate/moveClassToTopLevelClassAndMakePrivate.test");
     }
 
     @TestMetadata("java/moveClass/moveAsMember/moveClassToTopLevelClassOfAnotherPackage/moveClassToTopLevelClassOfAnotherPackage.test")
     public void testJava_moveClass_moveAsMember_moveClassToTopLevelClassOfAnotherPackage_MoveClassToTopLevelClassOfAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClassOfAnotherPackage/moveClassToTopLevelClassOfAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveAsMember/moveClassToTopLevelClassOfAnotherPackage/moveClassToTopLevelClassOfAnotherPackage.test");
     }
 
     @TestMetadata("java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInAnotherPackage/moveNestedClassToTopLevelInAnotherPackage.test")
     public void testJava_moveClass_moveInnerToTop_moveNestedClassToTopLevelInAnotherPackage_MoveNestedClassToTopLevelInAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInAnotherPackage/moveNestedClassToTopLevelInAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInAnotherPackage/moveNestedClassToTopLevelInAnotherPackage.test");
     }
 
     @TestMetadata("java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackage/moveNestedClassToTopLevelInTheSamePackage.test")
     public void testJava_moveClass_moveInnerToTop_moveNestedClassToTopLevelInTheSamePackage_MoveNestedClassToTopLevelInTheSamePackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackage/moveNestedClassToTopLevelInTheSamePackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackage/moveNestedClassToTopLevelInTheSamePackage.test");
     }
 
     @TestMetadata("java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance.test")
     public void testJava_moveClass_moveInnerToTop_moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance_MoveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstance.test");
     }
 
     @TestMetadata("java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda.test")
     public void testJava_moveClass_moveInnerToTop_moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda_MoveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda/moveNestedClassToTopLevelInTheSamePackageAndAddOuterInstanceWithLambda.test");
     }
 
     @TestMetadata("java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndRename/moveNestedClassToTopLevelInTheSamePackageAndRename.test")
     public void testJava_moveClass_moveInnerToTop_moveNestedClassToTopLevelInTheSamePackageAndRename_MoveNestedClassToTopLevelInTheSamePackageAndRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndRename/moveNestedClassToTopLevelInTheSamePackageAndRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveInnerToTop/moveNestedClassToTopLevelInTheSamePackageAndRename/moveNestedClassToTopLevelInTheSamePackageAndRename.test");
     }
 
     @TestMetadata("java/moveClass/moveTop/moveTopLevelClassToAnotherPackage/moveTopLevelClassToAnotherPackage.test")
     public void testJava_moveClass_moveTop_moveTopLevelClassToAnotherPackage_MoveTopLevelClassToAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveTop/moveTopLevelClassToAnotherPackage/moveTopLevelClassToAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveTop/moveTopLevelClassToAnotherPackage/moveTopLevelClassToAnotherPackage.test");
     }
 
     @TestMetadata("java/moveClass/moveTopToInner/moveTopLevelClassToNestedClass/moveTopLevelClassToTopLevelClass.test")
     public void testJava_moveClass_moveTopToInner_moveTopLevelClassToNestedClass_MoveTopLevelClassToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveTopToInner/moveTopLevelClassToNestedClass/moveTopLevelClassToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveTopToInner/moveTopLevelClassToNestedClass/moveTopLevelClassToTopLevelClass.test");
     }
 
     @TestMetadata("java/moveClass/moveTopToInner/moveTopLevelClassToTopLevelClass/moveTopLevelClassToTopLevelClass.test")
     public void testJava_moveClass_moveTopToInner_moveTopLevelClassToTopLevelClass_MoveTopLevelClassToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveTopToInner/moveTopLevelClassToTopLevelClass/moveTopLevelClassToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveTopToInner/moveTopLevelClassToTopLevelClass/moveTopLevelClassToTopLevelClass.test");
     }
 
     @TestMetadata("java/moveClass/moveTopToInner/moveTopLevelClassToTopLevelClassOfAnotherPackage/moveTopLevelClassToTopLevelClassOfAnotherPackage.test")
     public void testJava_moveClass_moveTopToInner_moveTopLevelClassToTopLevelClassOfAnotherPackage_MoveTopLevelClassToTopLevelClassOfAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveClass/moveTopToInner/moveTopLevelClassToTopLevelClassOfAnotherPackage/moveTopLevelClassToTopLevelClassOfAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveClass/moveTopToInner/moveTopLevelClassToTopLevelClassOfAnotherPackage/moveTopLevelClassToTopLevelClassOfAnotherPackage.test");
     }
 
     @TestMetadata("java/moveField/moveFieldToExternalNestedClass/moveFieldToExternalNestedClass.test")
     public void testJava_moveField_moveFieldToExternalNestedClass_MoveFieldToExternalNestedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveField/moveFieldToExternalNestedClass/moveFieldToExternalNestedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveField/moveFieldToExternalNestedClass/moveFieldToExternalNestedClass.test");
     }
 
     @TestMetadata("java/moveField/moveFieldToNestedSiblingClass/moveFieldToNestedSiblingClass.test")
     public void testJava_moveField_moveFieldToNestedSiblingClass_MoveFieldToNestedSiblingClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveField/moveFieldToNestedSiblingClass/moveFieldToNestedSiblingClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveField/moveFieldToNestedSiblingClass/moveFieldToNestedSiblingClass.test");
     }
 
     @TestMetadata("java/moveField/moveFieldToTopLevelClass/moveFieldToTopLevelClass.test")
     public void testJava_moveField_moveFieldToTopLevelClass_MoveFieldToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClass/moveFieldToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClass/moveFieldToTopLevelClass.test");
     }
 
     @TestMetadata("java/moveField/moveFieldToTopLevelClassAndMakePackageLocal/moveFieldToTopLevelClassAndMakePackageLocal.test")
     public void testJava_moveField_moveFieldToTopLevelClassAndMakePackageLocal_MoveFieldToTopLevelClassAndMakePackageLocal() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClassAndMakePackageLocal/moveFieldToTopLevelClassAndMakePackageLocal.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClassAndMakePackageLocal/moveFieldToTopLevelClassAndMakePackageLocal.test");
     }
 
     @TestMetadata("java/moveField/moveFieldToTopLevelClassAndMakePrivate/moveFieldToTopLevelClassAndMakePrivate.test")
     public void testJava_moveField_moveFieldToTopLevelClassAndMakePrivate_MoveFieldToTopLevelClassAndMakePrivate() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClassAndMakePrivate/moveFieldToTopLevelClassAndMakePrivate.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClassAndMakePrivate/moveFieldToTopLevelClassAndMakePrivate.test");
     }
 
     @TestMetadata("java/moveField/moveFieldToTopLevelClassOfAnotherPackage/moveFieldToTopLevelClassOfAnotherPackage.test")
     public void testJava_moveField_moveFieldToTopLevelClassOfAnotherPackage_MoveFieldToTopLevelClassOfAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClassOfAnotherPackage/moveFieldToTopLevelClassOfAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveField/moveFieldToTopLevelClassOfAnotherPackage/moveFieldToTopLevelClassOfAnotherPackage.test");
     }
 
     @TestMetadata("java/moveFile/moveFileToAnotherPackage/moveFileToAnotherPackage.test")
     public void testJava_moveFile_moveFileToAnotherPackage_MoveFileToAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveFile/moveFileToAnotherPackage/moveFileToAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveFile/moveFileToAnotherPackage/moveFileToAnotherPackage.test");
     }
 
     @TestMetadata("java/moveMethod/callableReferences/staticMethodToTopLevelClass/staticMethodToTopLevelClass.test")
     public void testJava_moveMethod_callableReferences_staticMethodToTopLevelClass_StaticMethodToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/callableReferences/staticMethodToTopLevelClass/staticMethodToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/callableReferences/staticMethodToTopLevelClass/staticMethodToTopLevelClass.test");
     }
 
     @TestMetadata("java/moveMethod/callableReferences/staticMethodToTopLevelClassInAnotherPackage/staticMethodToTopLevelClassInAnotherPackage.test")
     public void testJava_moveMethod_callableReferences_staticMethodToTopLevelClassInAnotherPackage_StaticMethodToTopLevelClassInAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/callableReferences/staticMethodToTopLevelClassInAnotherPackage/staticMethodToTopLevelClassInAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/callableReferences/staticMethodToTopLevelClassInAnotherPackage/staticMethodToTopLevelClassInAnotherPackage.test");
     }
 
     @TestMetadata("java/moveMethod/moveMethodToExternalNestedClass/moveMethodToExternalNestedClass.test")
     public void testJava_moveMethod_moveMethodToExternalNestedClass_MoveMethodToExternalNestedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/moveMethodToExternalNestedClass/moveMethodToExternalNestedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/moveMethodToExternalNestedClass/moveMethodToExternalNestedClass.test");
     }
 
     @TestMetadata("java/moveMethod/moveMethodToNestedSiblingClass/moveMethodToNestedSiblingClass.test")
     public void testJava_moveMethod_moveMethodToNestedSiblingClass_MoveMethodToNestedSiblingClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/moveMethodToNestedSiblingClass/moveMethodToNestedSiblingClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/moveMethodToNestedSiblingClass/moveMethodToNestedSiblingClass.test");
     }
 
     @TestMetadata("java/moveMethod/moveMethodToTopLevelClass/moveMethodToTopLevelClass.test")
     public void testJava_moveMethod_moveMethodToTopLevelClass_MoveMethodToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClass/moveMethodToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClass/moveMethodToTopLevelClass.test");
     }
 
     @TestMetadata("java/moveMethod/moveMethodToTopLevelClassAndMakePackageLocal/moveMethodToTopLevelClassAndMakePackageLocal.test")
     public void testJava_moveMethod_moveMethodToTopLevelClassAndMakePackageLocal_MoveMethodToTopLevelClassAndMakePackageLocal() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClassAndMakePackageLocal/moveMethodToTopLevelClassAndMakePackageLocal.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClassAndMakePackageLocal/moveMethodToTopLevelClassAndMakePackageLocal.test");
     }
 
     @TestMetadata("java/moveMethod/moveMethodToTopLevelClassAndMakePrivate/moveMethodToTopLevelClassAndMakePrivate.test")
     public void testJava_moveMethod_moveMethodToTopLevelClassAndMakePrivate_MoveMethodToTopLevelClassAndMakePrivate() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClassAndMakePrivate/moveMethodToTopLevelClassAndMakePrivate.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClassAndMakePrivate/moveMethodToTopLevelClassAndMakePrivate.test");
     }
 
     @TestMetadata("java/moveMethod/moveMethodToTopLevelClassOfAnotherPackage/moveMethodToTopLevelClassOfAnotherPackage.test")
     public void testJava_moveMethod_moveMethodToTopLevelClassOfAnotherPackage_MoveMethodToTopLevelClassOfAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClassOfAnotherPackage/moveMethodToTopLevelClassOfAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/moveMethod/moveMethodToTopLevelClassOfAnotherPackage/moveMethodToTopLevelClassOfAnotherPackage.test");
     }
 
     @TestMetadata("java/movePackage/movePackageToAnotherPackage/movePackageToAnotherPackage.test")
     public void testJava_movePackage_movePackageToAnotherPackage_MovePackageToAnotherPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/java/movePackage/movePackageToAnotherPackage/movePackageToAnotherPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/java/movePackage/movePackageToAnotherPackage/movePackageToAnotherPackage.test");
     }
 
     @TestMetadata("kotlin/changePackage/addExtensionImport/addExtensionImport.test")
     public void testKotlin_changePackage_addExtensionImport_AddExtensionImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/changePackage/addExtensionImport/addExtensionImport.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/changePackage/addExtensionImport/addExtensionImport.test");
     }
 
     @TestMetadata("kotlin/changePackage/changeToDefaultPackage/changeToDefaultPackage.test")
     public void testKotlin_changePackage_changeToDefaultPackage_ChangeToDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/changePackage/changeToDefaultPackage/changeToDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/changePackage/changeToDefaultPackage/changeToDefaultPackage.test");
     }
 
     @TestMetadata("kotlin/changePackage/changeToNonDefaultPackage/changeToNonDefaultPackage.test")
     public void testKotlin_changePackage_changeToNonDefaultPackage_ChangeToNonDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/changePackage/changeToNonDefaultPackage/changeToNonDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/changePackage/changeToNonDefaultPackage/changeToNonDefaultPackage.test");
     }
 
     @TestMetadata("kotlin/changePackage/headerClasses/headerClasses.test")
     public void testKotlin_changePackage_headerClasses_HeaderClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/changePackage/headerClasses/headerClasses.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/changePackage/headerClasses/headerClasses.test");
     }
 
     @TestMetadata("kotlin/moveDirectory/moveDirectoryWithPackageDirectiveChange/moveDirectoryWithPackageDirectiveChange.test")
     public void testKotlin_moveDirectory_moveDirectoryWithPackageDirectiveChange_MoveDirectoryWithPackageDirectiveChange() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveDirectory/moveDirectoryWithPackageDirectiveChange/moveDirectoryWithPackageDirectiveChange.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveDirectory/moveDirectoryWithPackageDirectiveChange/moveDirectoryWithPackageDirectiveChange.test");
     }
 
     @TestMetadata("kotlin/moveDirectoryWithQuotation/moveDirectoryWithQuotation.test")
     public void testKotlin_moveDirectoryWithQuotation_MoveDirectoryWithQuotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveDirectoryWithQuotation/moveDirectoryWithQuotation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveDirectoryWithQuotation/moveDirectoryWithQuotation.test");
     }
 
     @TestMetadata("kotlin/moveFile/addExtensionImport/addExtensionImport.test")
     public void testKotlin_moveFile_addExtensionImport_AddExtensionImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/addExtensionImport/addExtensionImport.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/addExtensionImport/addExtensionImport.test");
     }
 
     @TestMetadata("kotlin/moveFile/callableReferences/callableReferences.test")
     public void testKotlin_moveFile_callableReferences_CallableReferences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/callableReferences/callableReferences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/callableReferences/callableReferences.test");
     }
 
     @TestMetadata("kotlin/moveFile/internalReferences/internalReferences.test")
     public void testKotlin_moveFile_internalReferences_InternalReferences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/internalReferences/internalReferences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/internalReferences/internalReferences.test");
     }
 
     @TestMetadata("kotlin/moveFile/keepImportAliasRefs/keepImportAliasRefs.test")
     public void testKotlin_moveFile_keepImportAliasRefs_KeepImportAliasRefs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/keepImportAliasRefs/keepImportAliasRefs.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/keepImportAliasRefs/keepImportAliasRefs.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir/moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir.test")
     public void testKotlin_moveFile_moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir_MoveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir/moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir/moveFileAndDirWithJavaFileReferringToPackageFragementWithUnmatchedDir.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveFileToFile/moveFileToFile.test")
     public void testKotlin_moveFile_moveFileToFile_MoveFileToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveFileToFile/moveFileToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveFileToFile/moveFileToFile.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveFileWithoutDeclarations/moveFileWithoutDeclarations.test")
     public void testKotlin_moveFile_moveFileWithoutDeclarations_MoveFileWithoutDeclarations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveFileWithoutDeclarations/moveFileWithoutDeclarations.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveFileWithoutDeclarations/moveFileWithoutDeclarations.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveFileWithoutPackageRename/moveFileWithoutPackageRename.test")
     public void testKotlin_moveFile_moveFileWithoutPackageRename_MoveFileWithoutPackageRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveFileWithoutPackageRename/moveFileWithoutPackageRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveFileWithoutPackageRename/moveFileWithoutPackageRename.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveFileWithPackageRename/moveFileWithPackageRename.test")
     public void testKotlin_moveFile_moveFileWithPackageRename_MoveFileWithPackageRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveFileWithPackageRename/moveFileWithPackageRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveFileWithPackageRename/moveFileWithPackageRename.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveLastFileInPackageWithPackageRename/moveLastFileInPackageWithPackageRename.test")
     public void testKotlin_moveFile_moveLastFileInPackageWithPackageRename_MoveLastFileInPackageWithPackageRename() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveLastFileInPackageWithPackageRename/moveLastFileInPackageWithPackageRename.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveLastFileInPackageWithPackageRename/moveLastFileInPackageWithPackageRename.test");
     }
 
     @TestMetadata("kotlin/moveFile/moveMultipleFIles/moveMultipleFiles.test")
     public void testKotlin_moveFile_moveMultipleFIles_MoveMultipleFiles() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/moveMultipleFIles/moveMultipleFiles.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/moveMultipleFIles/moveMultipleFiles.test");
     }
 
     @TestMetadata("kotlin/moveFile/packageWithQuotation/moveFileToPackageWithQuotation.test")
     public void testKotlin_moveFile_packageWithQuotation_MoveFileToPackageWithQuotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/packageWithQuotation/moveFileToPackageWithQuotation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/packageWithQuotation/moveFileToPackageWithQuotation.test");
     }
 
     @TestMetadata("kotlin/moveFile/selfReferenceInImport/selfReferenceInImport.test")
     public void testKotlin_moveFile_selfReferenceInImport_SelfReferenceInImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/selfReferenceInImport/selfReferenceInImport.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/selfReferenceInImport/selfReferenceInImport.test");
     }
 
     @TestMetadata("kotlin/moveFile/typeRefWithArguments/typeRefWithArguments.test")
     public void testKotlin_moveFile_typeRefWithArguments_TypeRefWithArguments() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveFile/typeRefWithArguments/typeRefWithArguments.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveFile/typeRefWithArguments/typeRefWithArguments.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/callableReferences/nestedToAnotherClass/nestedToAnotherClass.test")
     public void testKotlin_moveNestedClass_callableReferences_nestedToAnotherClass_NestedToAnotherClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/callableReferences/nestedToAnotherClass/nestedToAnotherClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/callableReferences/nestedToAnotherClass/nestedToAnotherClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/callableReferences/nestedToTopLevel/nestedToTopLevel.test")
     public void testKotlin_moveNestedClass_callableReferences_nestedToTopLevel_NestedToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/callableReferences/nestedToTopLevel/nestedToTopLevel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/callableReferences/nestedToTopLevel/nestedToTopLevel.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/deepInnerToTopLevelWithOuterOuterThis/deepInnerToTopLevelWithOuterOuterThis.test")
     public void testKotlin_moveNestedClass_deepInnerToTopLevelWithOuterOuterThis_DeepInnerToTopLevelWithOuterOuterThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/deepInnerToTopLevelWithOuterOuterThis/deepInnerToTopLevelWithOuterOuterThis.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/deepInnerToTopLevelWithOuterOuterThis/deepInnerToTopLevelWithOuterOuterThis.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/deepInnerToTopLevelWithThis/deepInnerToTopLevelWithThis.test")
     public void testKotlin_moveNestedClass_deepInnerToTopLevelWithThis_DeepInnerToTopLevelWithThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/deepInnerToTopLevelWithThis/deepInnerToTopLevelWithThis.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/deepInnerToTopLevelWithThis/deepInnerToTopLevelWithThis.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/deepNonInnerToTopLevel/deepNonInnerToTopLevel.test")
     public void testKotlin_moveNestedClass_deepNonInnerToTopLevel_DeepNonInnerToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/deepNonInnerToTopLevel/deepNonInnerToTopLevel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/deepNonInnerToTopLevel/deepNonInnerToTopLevel.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/deepPrivateClass/deepPrivateClass.test")
     public void testKotlin_moveNestedClass_deepPrivateClass_DeepPrivateClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/deepPrivateClass/deepPrivateClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/deepPrivateClass/deepPrivateClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/deepProtectedClass/deepProtectedClass.test")
     public void testKotlin_moveNestedClass_deepProtectedClass_DeepProtectedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/deepProtectedClass/deepProtectedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/deepProtectedClass/deepProtectedClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/dropEmptyCompanion/dropEmptyCompanion.test")
     public void testKotlin_moveNestedClass_dropEmptyCompanion_DropEmptyCompanion() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/dropEmptyCompanion/dropEmptyCompanion.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/dropEmptyCompanion/dropEmptyCompanion.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/innerToTopLevelAddInstanceParam/innerToTopLevelAddInstanceParam.test")
     public void testKotlin_moveNestedClass_innerToTopLevelAddInstanceParam_InnerToTopLevelAddInstanceParam() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelAddInstanceParam/innerToTopLevelAddInstanceParam.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelAddInstanceParam/innerToTopLevelAddInstanceParam.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/innerToTopLevelNoThis/innerToTopLevelNoThis.test")
     public void testKotlin_moveNestedClass_innerToTopLevelNoThis_InnerToTopLevelNoThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelNoThis/innerToTopLevelNoThis.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelNoThis/innerToTopLevelNoThis.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/innerToTopLevelWithThis/innerToTopLevelWithThis.test")
     public void testKotlin_moveNestedClass_innerToTopLevelWithThis_InnerToTopLevelWithThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelWithThis/innerToTopLevelWithThis.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelWithThis/innerToTopLevelWithThis.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/innerToTopLevelWithThisOuterRefConflicts/innerToTopLevelWithThisOuterRefConflicts.test")
     public void testKotlin_moveNestedClass_innerToTopLevelWithThisOuterRefConflicts_InnerToTopLevelWithThisOuterRefConflicts() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelWithThisOuterRefConflicts/innerToTopLevelWithThisOuterRefConflicts.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/innerToTopLevelWithThisOuterRefConflicts/innerToTopLevelWithThisOuterRefConflicts.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToOuterClass1/nonInnerToOuterClass1.test")
     public void testKotlin_moveNestedClass_nonInnerToOuterClass1_NonInnerToOuterClass1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToOuterClass1/nonInnerToOuterClass1.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToOuterClass1/nonInnerToOuterClass1.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToOuterClass2/nonInnerToOuterClass2.test")
     public void testKotlin_moveNestedClass_nonInnerToOuterClass2_NonInnerToOuterClass2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToOuterClass2/nonInnerToOuterClass2.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToOuterClass2/nonInnerToOuterClass2.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver/nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver.test")
     public void testKotlin_moveNestedClass_nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver_NonInnerToSubclassWithCompanionAsImplicitDispatchReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver/nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver/nonInnerToSubclassWithCompanionAsImplicitDispatchReceiver.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToTopLevel/nonInnerToTopLevel.test")
     public void testKotlin_moveNestedClass_nonInnerToTopLevel_NonInnerToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevel/nonInnerToTopLevel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevel/nonInnerToTopLevel.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToTopLevelClass/nonInnerToTopLevelClass.test")
     public void testKotlin_moveNestedClass_nonInnerToTopLevelClass_NonInnerToTopLevelClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevelClass/nonInnerToTopLevelClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevelClass/nonInnerToTopLevelClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToTopLevelCompanionConflict/nonInnerToTopLevelCompanionConflict.test")
     public void testKotlin_moveNestedClass_nonInnerToTopLevelCompanionConflict_NonInnerToTopLevelCompanionConflict() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevelCompanionConflict/nonInnerToTopLevelCompanionConflict.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevelCompanionConflict/nonInnerToTopLevelCompanionConflict.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/nonInnerToTopLevelPrivateClass/nonInnerToTopLevelPrivateClass.test")
     public void testKotlin_moveNestedClass_nonInnerToTopLevelPrivateClass_NonInnerToTopLevelPrivateClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevelPrivateClass/nonInnerToTopLevelPrivateClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/nonInnerToTopLevelPrivateClass/nonInnerToTopLevelPrivateClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/objectToTopLevel/objectToTopLevel.test")
     public void testKotlin_moveNestedClass_objectToTopLevel_ObjectToTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/objectToTopLevel/objectToTopLevel.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/objectToTopLevel/objectToTopLevel.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/privateClass/privateClass.test")
     public void testKotlin_moveNestedClass_privateClass_PrivateClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/privateClass/privateClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/privateClass/privateClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/protectedClass/protectedClass.test")
     public void testKotlin_moveNestedClass_protectedClass_ProtectedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/protectedClass/protectedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/protectedClass/protectedClass.test");
     }
 
     @TestMetadata("kotlin/moveNestedClass/protectedClassNoConflicts/protectedClass.test")
     public void testKotlin_moveNestedClass_protectedClassNoConflicts_ProtectedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveNestedClass/protectedClassNoConflicts/protectedClass.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveNestedClass/protectedClassNoConflicts/protectedClass.test");
     }
 
     @TestMetadata("kotlin/movePackage/movePackage/movePackage.test")
     public void testKotlin_movePackage_movePackage_MovePackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/movePackage/movePackage/movePackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/movePackage/movePackage/movePackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceAndTargetWithFqNames/differentSourceAndTargetWithFqNames.test")
     public void testKotlin_moveTopLevelDeclarations_callsAndCallableRefs_internalUsages_differentSourceAndTargetWithFqNames_DifferentSourceAndTargetWithFqNames() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceAndTargetWithFqNames/differentSourceAndTargetWithFqNames.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceAndTargetWithFqNames/differentSourceAndTargetWithFqNames.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceAndTargetWithImports/differentSourceAndTargetWithImports.test")
     public void testKotlin_moveTopLevelDeclarations_callsAndCallableRefs_internalUsages_differentSourceAndTargetWithImports_DifferentSourceAndTargetWithImports() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceAndTargetWithImports/differentSourceAndTargetWithImports.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceAndTargetWithImports/differentSourceAndTargetWithImports.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceWithFqNames/differentSourceWithFqNames.test")
     public void testKotlin_moveTopLevelDeclarations_callsAndCallableRefs_internalUsages_differentSourceWithFqNames_DifferentSourceWithFqNames() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceWithFqNames/differentSourceWithFqNames.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceWithFqNames/differentSourceWithFqNames.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceWithImports/differentSourceWithImports.test")
     public void testKotlin_moveTopLevelDeclarations_callsAndCallableRefs_internalUsages_differentSourceWithImports_DifferentSourceWithImports() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceWithImports/differentSourceWithImports.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentSourceWithImports/differentSourceWithImports.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentTarget/differentTarget.test")
     public void testKotlin_moveTopLevelDeclarations_callsAndCallableRefs_internalUsages_differentTarget_DifferentTarget() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentTarget/differentTarget.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentTarget/differentTarget.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentTargetWithFqNames/differentTargetWithFqNames.test")
     public void testKotlin_moveTopLevelDeclarations_callsAndCallableRefs_internalUsages_differentTargetWithFqNames_DifferentTargetWithFqNames() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentTargetWithFqNames/differentTargetWithFqNames.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/callsAndCallableRefs/internalUsages/differentTargetWithFqNames/differentTargetWithFqNames.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/classAlreadyInaccessible/classAlreadyInaccessible.test")
     public void testKotlin_moveTopLevelDeclarations_classAlreadyInaccessible_ClassAlreadyInaccessible() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/classAlreadyInaccessible/classAlreadyInaccessible.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/classAlreadyInaccessible/classAlreadyInaccessible.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/functionAlreadyInaccessible/functionAlreadyInaccessible.test")
     public void testKotlin_moveTopLevelDeclarations_functionAlreadyInaccessible_FunctionAlreadyInaccessible() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/functionAlreadyInaccessible/functionAlreadyInaccessible.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/functionAlreadyInaccessible/functionAlreadyInaccessible.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentSource/differentSource.test")
     public void testKotlin_moveTopLevelDeclarations_implicitInvokeCalls_differentSource_DifferentSource() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentSource/differentSource.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentSource/differentSource.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentSourceAndTarget/differentSourceAndTarget.test")
     public void testKotlin_moveTopLevelDeclarations_implicitInvokeCalls_differentSourceAndTarget_DifferentSourceAndTarget() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentSourceAndTarget/differentSourceAndTarget.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentSourceAndTarget/differentSourceAndTarget.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentTarget/differentTarget.test")
     public void testKotlin_moveTopLevelDeclarations_implicitInvokeCalls_differentTarget_DifferentTarget() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentTarget/differentTarget.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/implicitInvokeCalls/differentTarget/differentTarget.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/classWithInitializer/delegateInObject.test")
     public void testKotlin_moveTopLevelDeclarations_misc_classWithInitializer_DelegateInObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/classWithInitializer/delegateInObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/classWithInitializer/delegateInObject.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/companionExtensionMemberRef/companionExtensionMemberRef.test")
     public void testKotlin_moveTopLevelDeclarations_misc_companionExtensionMemberRef_CompanionExtensionMemberRef() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionExtensionMemberRef/companionExtensionMemberRef.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionExtensionMemberRef/companionExtensionMemberRef.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/companionMemberRefDelegation/companionMemberRefDelegation.test")
     public void testKotlin_moveTopLevelDeclarations_misc_companionMemberRefDelegation_CompanionMemberRefDelegation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionMemberRefDelegation/companionMemberRefDelegation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionMemberRefDelegation/companionMemberRefDelegation.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/companionMemberRefFakeOverride/companionMemberRefFakeOverride.test")
     public void testKotlin_moveTopLevelDeclarations_misc_companionMemberRefFakeOverride_CompanionMemberRefFakeOverride() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionMemberRefFakeOverride/companionMemberRefFakeOverride.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionMemberRefFakeOverride/companionMemberRefFakeOverride.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/companionMemberRefWithJavaParent/companionMemberRefWithJavaParent.test")
     public void testKotlin_moveTopLevelDeclarations_misc_companionMemberRefWithJavaParent_CompanionMemberRefWithJavaParent() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionMemberRefWithJavaParent/companionMemberRefWithJavaParent.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/companionMemberRefWithJavaParent/companionMemberRefWithJavaParent.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/delegateInObject/delegateInObject.test")
     public void testKotlin_moveTopLevelDeclarations_misc_delegateInObject_DelegateInObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/delegateInObject/delegateInObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/delegateInObject/delegateInObject.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/facadeClassChangeInTheSamePackage/facadeClassChangeInTheSamePackage.test")
     public void testKotlin_moveTopLevelDeclarations_misc_facadeClassChangeInTheSamePackage_FacadeClassChangeInTheSamePackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/facadeClassChangeInTheSamePackage/facadeClassChangeInTheSamePackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/facadeClassChangeInTheSamePackage/facadeClassChangeInTheSamePackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/fakeOverrideInObject/fakeOverrideInObject.test")
     public void testKotlin_moveTopLevelDeclarations_misc_fakeOverrideInObject_FakeOverrideInObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/fakeOverrideInObject/fakeOverrideInObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/fakeOverrideInObject/fakeOverrideInObject.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/functionAndPropertyWithSameName/functionAndPropertyWithSameName.test")
     public void testKotlin_moveTopLevelDeclarations_misc_functionAndPropertyWithSameName_FunctionAndPropertyWithSameName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/functionAndPropertyWithSameName/functionAndPropertyWithSameName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/functionAndPropertyWithSameName/functionAndPropertyWithSameName.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/internalReferences/internalReferences.test")
     public void testKotlin_moveTopLevelDeclarations_misc_internalReferences_InternalReferences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/internalReferences/internalReferences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/internalReferences/internalReferences.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/kt17032/kt17032.test")
     public void testKotlin_moveTopLevelDeclarations_misc_kt17032_Kt17032() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/kt17032/kt17032.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/kt17032/kt17032.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/moveClassFromDefaultPackage/moveClassFromDefaultPackage.test")
     public void testKotlin_moveTopLevelDeclarations_misc_moveClassFromDefaultPackage_MoveClassFromDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveClassFromDefaultPackage/moveClassFromDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveClassFromDefaultPackage/moveClassFromDefaultPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/moveClassToDefaultPackage/moveClassToDefaultPackage.test")
     public void testKotlin_moveTopLevelDeclarations_misc_moveClassToDefaultPackage_MoveClassToDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveClassToDefaultPackage/moveClassToDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveClassToDefaultPackage/moveClassToDefaultPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/moveClassWithImportsRetained/moveClassWithImportsRetained.test")
     public void testKotlin_moveTopLevelDeclarations_misc_moveClassWithImportsRetained_MoveClassWithImportsRetained() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveClassWithImportsRetained/moveClassWithImportsRetained.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveClassWithImportsRetained/moveClassWithImportsRetained.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/moveFromDefaultPackage/moveFromDefaultPackage.test")
     public void testKotlin_moveTopLevelDeclarations_misc_moveFromDefaultPackage_MoveFromDefaultPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveFromDefaultPackage/moveFromDefaultPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveFromDefaultPackage/moveFromDefaultPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/moveFunctionWithImportsRetained/moveFunctionWithImportsRetained.test")
     public void testKotlin_moveTopLevelDeclarations_misc_moveFunctionWithImportsRetained_MoveFunctionWithImportsRetained() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveFunctionWithImportsRetained/moveFunctionWithImportsRetained.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/moveFunctionWithImportsRetained/moveFunctionWithImportsRetained.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/mutualDependency/mutualDependency.test")
     public void testKotlin_moveTopLevelDeclarations_misc_mutualDependency_MutualDependency() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/mutualDependency/mutualDependency.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/mutualDependency/mutualDependency.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/nonCodeUsagesWithQuotedName/nonCodeUsageWithQuotedName.test")
     public void testKotlin_moveTopLevelDeclarations_misc_nonCodeUsagesWithQuotedName_NonCodeUsageWithQuotedName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/nonCodeUsagesWithQuotedName/nonCodeUsageWithQuotedName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/nonCodeUsagesWithQuotedName/nonCodeUsageWithQuotedName.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/protectedConstructorRefInSuperListEntry/protectedConstructorRefInSuperListEntry.test")
     public void testKotlin_moveTopLevelDeclarations_misc_protectedConstructorRefInSuperListEntry_ProtectedConstructorRefInSuperListEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/protectedConstructorRefInSuperListEntry/protectedConstructorRefInSuperListEntry.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/protectedConstructorRefInSuperListEntry/protectedConstructorRefInSuperListEntry.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/protectedMembersExternalRefs/protectedMembersExternalRefs.test")
     public void testKotlin_moveTopLevelDeclarations_misc_protectedMembersExternalRefs_ProtectedMembersExternalRefs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/protectedMembersExternalRefs/protectedMembersExternalRefs.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/protectedMembersExternalRefs/protectedMembersExternalRefs.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/protectedMembersInternalRefs/protectedMembersInternalRefs.test")
     public void testKotlin_moveTopLevelDeclarations_misc_protectedMembersInternalRefs_ProtectedMembersInternalRefs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/protectedMembersInternalRefs/protectedMembersInternalRefs.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/protectedMembersInternalRefs/protectedMembersInternalRefs.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/sealedClassWithAllSubclasses/sealedClassWithAllSubclasses.test")
     public void testKotlin_moveTopLevelDeclarations_misc_sealedClassWithAllSubclasses_SealedClassWithAllSubclasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/sealedClassWithAllSubclasses/sealedClassWithAllSubclasses.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/sealedClassWithAllSubclasses/sealedClassWithAllSubclasses.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/sealedClassWithSkippedSubclasses/sealedClassWithSkippedSubclasses.test")
     public void testKotlin_moveTopLevelDeclarations_misc_sealedClassWithSkippedSubclasses_SealedClassWithSkippedSubclasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/sealedClassWithSkippedSubclasses/sealedClassWithSkippedSubclasses.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/sealedClassWithSkippedSubclasses/sealedClassWithSkippedSubclasses.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/sealedSubclassWithSkippedRoot/sealedSubclassWithSkippedRoot.test")
     public void testKotlin_moveTopLevelDeclarations_misc_sealedSubclassWithSkippedRoot_SealedSubclassWithSkippedRoot() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/sealedSubclassWithSkippedRoot/sealedSubclassWithSkippedRoot.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/sealedSubclassWithSkippedRoot/sealedSubclassWithSkippedRoot.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/selfReferences/selfReferences.test")
     public void testKotlin_moveTopLevelDeclarations_misc_selfReferences_SelfReferences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/selfReferences/selfReferences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/selfReferences/selfReferences.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/shortenCompanionObject2/shortenCompanionObject.test")
     public void testKotlin_moveTopLevelDeclarations_misc_shortenCompanionObject2_ShortenCompanionObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/shortenCompanionObject2/shortenCompanionObject.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/shortenCompanionObject2/shortenCompanionObject.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/shortenStringTemplateEntry/shortenStringTemplateEntry.test")
     public void testKotlin_moveTopLevelDeclarations_misc_shortenStringTemplateEntry_ShortenStringTemplateEntry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/shortenStringTemplateEntry/shortenStringTemplateEntry.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/shortenStringTemplateEntry/shortenStringTemplateEntry.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/singletonsAndStatics/singletonsAndStatics.test")
     public void testKotlin_moveTopLevelDeclarations_misc_singletonsAndStatics_SingletonsAndStatics() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/singletonsAndStatics/singletonsAndStatics.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/singletonsAndStatics/singletonsAndStatics.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/superReferences/superReferences.test")
     public void testKotlin_moveTopLevelDeclarations_misc_superReferences_SuperReferences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/superReferences/superReferences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/superReferences/superReferences.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/syntheticMembers/syntheticMembers.test")
     public void testKotlin_moveTopLevelDeclarations_misc_syntheticMembers_SyntheticMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/syntheticMembers/syntheticMembers.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/syntheticMembers/syntheticMembers.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/misc/unaffectedQualifiedReferences/unaffectedQualifiedReferences.test")
     public void testKotlin_moveTopLevelDeclarations_misc_unaffectedQualifiedReferences_UnaffectedQualifiedReferences() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/unaffectedQualifiedReferences/unaffectedQualifiedReferences.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/misc/unaffectedQualifiedReferences/unaffectedQualifiedReferences.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveClassToFile/moveClassToFile.test")
     public void testKotlin_moveTopLevelDeclarations_moveClassToFile_MoveClassToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveClassToFile/moveClassToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveClassToFile/moveClassToFile.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveClassToNewFileAndQuotePackage/moveClassToNewFileAndQuotePackage.test")
     public void testKotlin_moveTopLevelDeclarations_moveClassToNewFileAndQuotePackage_MoveClassToNewFileAndQuotePackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveClassToNewFileAndQuotePackage/moveClassToNewFileAndQuotePackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveClassToNewFileAndQuotePackage/moveClassToNewFileAndQuotePackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveClassToPackage/moveClassToPackage.test")
     public void testKotlin_moveTopLevelDeclarations_moveClassToPackage_MoveClassToPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveClassToPackage/moveClassToPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveClassToPackage/moveClassToPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveExtensionFunctionToFil/moveExtensionFunctionToFile.test")
     public void testKotlin_moveTopLevelDeclarations_moveExtensionFunctionToFil_MoveExtensionFunctionToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveExtensionFunctionToFil/moveExtensionFunctionToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveExtensionFunctionToFil/moveExtensionFunctionToFile.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveExtensionPropertyToFile/moveExtensionPropertyToFile.test")
     public void testKotlin_moveTopLevelDeclarations_moveExtensionPropertyToFile_MoveExtensionPropertyToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveExtensionPropertyToFile/moveExtensionPropertyToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveExtensionPropertyToFile/moveExtensionPropertyToFile.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveFunctionToFile/moveFunctionToFile.test")
     public void testKotlin_moveTopLevelDeclarations_moveFunctionToFile_MoveFunctionToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveFunctionToFile/moveFunctionToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveFunctionToFile/moveFunctionToFile.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveFunctionToPackage/moveFunctionToPackage.test")
     public void testKotlin_moveTopLevelDeclarations_moveFunctionToPackage_MoveFunctionToPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveFunctionToPackage/moveFunctionToPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveFunctionToPackage/moveFunctionToPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveFunctionToPackageUsedInJava/moveFunctionToPackageUsedInJava.test")
     public void testKotlin_moveTopLevelDeclarations_moveFunctionToPackageUsedInJava_MoveFunctionToPackageUsedInJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveFunctionToPackageUsedInJava/moveFunctionToPackageUsedInJava.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveFunctionToPackageUsedInJava/moveFunctionToPackageUsedInJava.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveObjectToFile/moveObjectToFile.test")
     public void testKotlin_moveTopLevelDeclarations_moveObjectToFile_MoveObjectToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveObjectToFile/moveObjectToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveObjectToFile/moveObjectToFile.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveObjectToPackage/moveObjectToPackage.test")
     public void testKotlin_moveTopLevelDeclarations_moveObjectToPackage_MoveObjectToPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveObjectToPackage/moveObjectToPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveObjectToPackage/moveObjectToPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/moveOnlyFunctionToPackageUsedInJava/moveOnlyFunctionToPackageUsedInJava.test")
     public void testKotlin_moveTopLevelDeclarations_moveOnlyFunctionToPackageUsedInJava_MoveOnlyFunctionToPackageUsedInJava() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveOnlyFunctionToPackageUsedInJava/moveOnlyFunctionToPackageUsedInJava.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/moveOnlyFunctionToPackageUsedInJava/moveOnlyFunctionToPackageUsedInJava.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/movePrivateClassWithUsagesInBothAccessors/movePrivateClassWithusagesInBothAccessors.test")
     public void testKotlin_moveTopLevelDeclarations_movePrivateClassWithUsagesInBothAccessors_MovePrivateClassWithusagesInBothAccessors() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivateClassWithUsagesInBothAccessors/movePrivateClassWithusagesInBothAccessors.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivateClassWithUsagesInBothAccessors/movePrivateClassWithusagesInBothAccessors.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/movePrivateFun/movePrivateFun.test")
     public void testKotlin_moveTopLevelDeclarations_movePrivateFun_MovePrivateFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivateFun/movePrivateFun.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivateFun/movePrivateFun.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/movePrivateProperty/movePrivateProperty.test")
     public void testKotlin_moveTopLevelDeclarations_movePrivateProperty_MovePrivateProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivateProperty/movePrivateProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivateProperty/movePrivateProperty.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/movePrivatePropertyWithDefaultAccessors/movePrivatePropertyWithDefaultAccessors.test")
     public void testKotlin_moveTopLevelDeclarations_movePrivatePropertyWithDefaultAccessors_MovePrivatePropertyWithDefaultAccessors() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivatePropertyWithDefaultAccessors/movePrivatePropertyWithDefaultAccessors.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePrivatePropertyWithDefaultAccessors/movePrivatePropertyWithDefaultAccessors.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/movePropertyToFile/movePropertyToFile.test")
     public void testKotlin_moveTopLevelDeclarations_movePropertyToFile_MovePropertyToFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePropertyToFile/movePropertyToFile.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePropertyToFile/movePropertyToFile.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/movePropertyToPackage/movePropertyToPackage.test")
     public void testKotlin_moveTopLevelDeclarations_movePropertyToPackage_MovePropertyToPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePropertyToPackage/movePropertyToPackage.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/movePropertyToPackage/movePropertyToPackage.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/objectAlreadyInaccessible/objectAlreadyInaccessible.test")
     public void testKotlin_moveTopLevelDeclarations_objectAlreadyInaccessible_ObjectAlreadyInaccessible() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/objectAlreadyInaccessible/objectAlreadyInaccessible.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/objectAlreadyInaccessible/objectAlreadyInaccessible.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/propertyAlreadyInaccessible/propertyAlreadyInaccessible.test")
     public void testKotlin_moveTopLevelDeclarations_propertyAlreadyInaccessible_PropertyAlreadyInaccessible() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/propertyAlreadyInaccessible/propertyAlreadyInaccessible.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/propertyAlreadyInaccessible/propertyAlreadyInaccessible.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/protectedMemberUsageWithSuper/protectedMemberUsageWithSuper.test")
     public void testKotlin_moveTopLevelDeclarations_protectedMemberUsageWithSuper_ProtectedMemberUsageWithSuper() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/protectedMemberUsageWithSuper/protectedMemberUsageWithSuper.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/protectedMemberUsageWithSuper/protectedMemberUsageWithSuper.test");
     }
 
     @TestMetadata("kotlin/moveTopLevelDeclarations/protectedMemberUsageWithThis/protectedMemberUsageWithThis.test")
     public void testKotlin_moveTopLevelDeclarations_protectedMemberUsageWithThis_ProtectedMemberUsageWithThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/protectedMemberUsageWithThis/protectedMemberUsageWithThis.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/move/kotlin/moveTopLevelDeclarations/protectedMemberUsageWithThis/protectedMemberUsageWithThis.test");
     }
 }

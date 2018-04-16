@@ -29,22 +29,22 @@ public class LoadJava8UsingJavacTestGenerated extends AbstractLoadJava8UsingJava
 
         @TestMetadata("InnerClassTypeAnnotation.java")
         public void testInnerClassTypeAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/InnerClassTypeAnnotation.java", this::doTestCompiledJava);
+            KotlinTestUtils.runTest(this::doTestCompiledJava,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/InnerClassTypeAnnotation.java");
         }
 
         @TestMetadata("MapRemove.java")
         public void testMapRemove() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/MapRemove.java", this::doTestCompiledJava);
+            KotlinTestUtils.runTest(this::doTestCompiledJava,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/MapRemove.java");
         }
 
         @TestMetadata("TypeAnnotations.java")
         public void testTypeAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/TypeAnnotations.java", this::doTestCompiledJava);
+            KotlinTestUtils.runTest(this::doTestCompiledJava,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/TypeAnnotations.java");
         }
 
         @TestMetadata("TypeParameterAnnotations.java")
         public void testTypeParameterAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/TypeParameterAnnotations.java", this::doTestCompiledJava);
+            KotlinTestUtils.runTest(this::doTestCompiledJava,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/TypeParameterAnnotations.java");
         }
     }
 
@@ -58,17 +58,17 @@ public class LoadJava8UsingJavacTestGenerated extends AbstractLoadJava8UsingJava
 
         @TestMetadata("MapRemove.java")
         public void testMapRemove() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/sourceJava/MapRemove.java", this::doTestSourceJava);
+            KotlinTestUtils.runTest(this::doTestSourceJava,TargetBackend.ANY, "compiler/testData/loadJava8/sourceJava/MapRemove.java");
         }
 
         @TestMetadata("TypeAnnotations.java")
         public void testTypeAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/sourceJava/TypeAnnotations.java", this::doTestSourceJava);
+            KotlinTestUtils.runTest(this::doTestSourceJava,TargetBackend.ANY, "compiler/testData/loadJava8/sourceJava/TypeAnnotations.java");
         }
 
         @TestMetadata("TypeParameterAnnotations.java")
         public void testTypeParameterAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava8/sourceJava/TypeParameterAnnotations.java", this::doTestSourceJava);
+            KotlinTestUtils.runTest(this::doTestSourceJava,TargetBackend.ANY, "compiler/testData/loadJava8/sourceJava/TypeParameterAnnotations.java");
         }
     }
 }

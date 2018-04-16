@@ -27,76 +27,76 @@ public class GotoTypeDeclarationTestGenerated extends AbstractGotoTypeDeclaratio
 
     @TestMetadata("builtinTypeStdlib.test")
     public void testBuiltinTypeStdlib() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/builtinTypeStdlib.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/builtinTypeStdlib.test");
     }
 
     @TestMetadata("explicitParameterInLambda.test")
     public void testExplicitParameterInLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/explicitParameterInLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/explicitParameterInLambda.test");
     }
 
     @TestMetadata("fromFunctionDeclarationName.test")
     public void testFromFunctionDeclarationName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/fromFunctionDeclarationName.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/fromFunctionDeclarationName.test");
     }
 
     @TestMetadata("fromFunctionDeclarationReturn.test")
     public void testFromFunctionDeclarationReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/fromFunctionDeclarationReturn.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/fromFunctionDeclarationReturn.test");
     }
 
     @TestMetadata("fromFunctionDeclrationExtension.test")
     public void testFromFunctionDeclrationExtension() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/fromFunctionDeclrationExtension.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/fromFunctionDeclrationExtension.test");
     }
 
     @TestMetadata("functionCall.test")
     public void testFunctionCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/functionCall.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/functionCall.test");
     }
 
     @TestMetadata("itExtensionLambda.test")
     public void testItExtensionLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/itExtensionLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/itExtensionLambda.test");
     }
 
     @TestMetadata("itParameterInLambda.test")
     public void testItParameterInLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/itParameterInLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/itParameterInLambda.test");
     }
 
     @TestMetadata("noParametersLambda.test")
     public void testNoParametersLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/noParametersLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/noParametersLambda.test");
     }
 
     @TestMetadata("thisExtensionFunction.test")
     public void testThisExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/thisExtensionFunction.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/thisExtensionFunction.test");
     }
 
     @TestMetadata("thisExtensionFunctionWithAnnotationOnReceiver.test")
     public void testThisExtensionFunctionWithAnnotationOnReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/thisExtensionFunctionWithAnnotationOnReceiver.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/thisExtensionFunctionWithAnnotationOnReceiver.test");
     }
 
     @TestMetadata("thisExtensionFunctionWithGenericReceiver.test")
     public void testThisExtensionFunctionWithGenericReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/thisExtensionFunctionWithGenericReceiver.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/thisExtensionFunctionWithGenericReceiver.test");
     }
 
     @TestMetadata("thisExtensionLambda.test")
     public void testThisExtensionLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/thisExtensionLambda.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/thisExtensionLambda.test");
     }
 
     @TestMetadata("thisInExtensionPropertyAccessor.test")
     public void testThisInExtensionPropertyAccessor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/thisInExtensionPropertyAccessor.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/thisInExtensionPropertyAccessor.test");
     }
 
     @TestMetadata("variableType.test")
     public void testVariableType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoTypeDeclaration/variableType.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoTypeDeclaration/variableType.test");
     }
 }

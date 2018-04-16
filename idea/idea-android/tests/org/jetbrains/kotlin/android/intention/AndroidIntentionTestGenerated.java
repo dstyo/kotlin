@@ -31,7 +31,7 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
     public static class AddActivityToManifest extends AbstractAndroidIntentionTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/abstract.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/abstract.kt");
         }
 
         public void testAllFilesPresentInAddActivityToManifest() throws Exception {
@@ -40,47 +40,47 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("alreadyExists.kt")
         public void testAlreadyExists() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/alreadyExists.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/alreadyExists.kt");
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/inner.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/inner.kt");
         }
 
         @TestMetadata("insideBody.kt")
         public void testInsideBody() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/insideBody.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/insideBody.kt");
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/local.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/local.kt");
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/nested.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/nested.kt");
         }
 
         @TestMetadata("notActivity.kt")
         public void testNotActivity() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/notActivity.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/notActivity.kt");
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/private.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/private.kt");
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/protected.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/protected.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addActivityToManifest/simple.kt");
         }
     }
 
@@ -90,7 +90,7 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
     public static class AddBroadcastReceiverToManifest extends AbstractAndroidIntentionTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/abstract.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/abstract.kt");
         }
 
         public void testAllFilesPresentInAddBroadcastReceiverToManifest() throws Exception {
@@ -99,47 +99,47 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("alreadyExists.kt")
         public void testAlreadyExists() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/alreadyExists.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/alreadyExists.kt");
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/inner.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/inner.kt");
         }
 
         @TestMetadata("insideBody.kt")
         public void testInsideBody() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/insideBody.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/insideBody.kt");
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/local.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/local.kt");
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/nested.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/nested.kt");
         }
 
         @TestMetadata("notReceiver.kt")
         public void testNotReceiver() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/notReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/notReceiver.kt");
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/private.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/private.kt");
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/protected.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/protected.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addBroadcastReceiverToManifest/simple.kt");
         }
     }
 
@@ -149,7 +149,7 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
     public static class AddServiceToManifest extends AbstractAndroidIntentionTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/abstract.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/abstract.kt");
         }
 
         public void testAllFilesPresentInAddServiceToManifest() throws Exception {
@@ -158,47 +158,47 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("alreadyExists.kt")
         public void testAlreadyExists() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/alreadyExists.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/alreadyExists.kt");
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/inner.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/inner.kt");
         }
 
         @TestMetadata("insideBody.kt")
         public void testInsideBody() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/insideBody.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/insideBody.kt");
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/local.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/local.kt");
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/nested.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/nested.kt");
         }
 
         @TestMetadata("notService.kt")
         public void testNotService() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/notService.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/notService.kt");
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/private.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/private.kt");
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/protected.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/protected.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/addServiceToManifest/simple.kt");
         }
     }
 
@@ -212,52 +212,52 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("allNullableTypes.kt")
         public void testAllNullableTypes() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/allNullableTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/allNullableTypes.kt");
         }
 
         @TestMetadata("allTypes.kt")
         public void testAllTypes() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/allTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/allTypes.kt");
         }
 
         @TestMetadata("alreadyImplemented.kt")
         public void testAlreadyImplemented() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/alreadyImplemented.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/alreadyImplemented.kt");
         }
 
         @TestMetadata("constructorProperties.kt")
         public void testConstructorProperties() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/constructorProperties.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/constructorProperties.kt");
         }
 
         @TestMetadata("constructorPropertiesWithParameters.kt")
         public void testConstructorPropertiesWithParameters() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/constructorPropertiesWithParameters.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/constructorPropertiesWithParameters.kt");
         }
 
         @TestMetadata("missingConstructor.kt")
         public void testMissingConstructor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/missingConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/missingConstructor.kt");
         }
 
         @TestMetadata("missingDescribeContents.kt")
         public void testMissingDescribeContents() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/missingDescribeContents.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/missingDescribeContents.kt");
         }
 
         @TestMetadata("missingWriteToParcel.kt")
         public void testMissingWriteToParcel() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/missingWriteToParcel.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/missingWriteToParcel.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/simple.kt");
         }
 
         @TestMetadata("withTransient.kt")
         public void testWithTransient() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/withTransient.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/implementParcelable/withTransient.kt");
         }
     }
 
@@ -271,42 +271,42 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("indirectParcelable.kt")
         public void testIndirectParcelable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/indirectParcelable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/indirectParcelable.kt");
         }
 
         @TestMetadata("init.kt")
         public void testInit() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/init.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/init.kt");
         }
 
         @TestMetadata("initWithExtraStatements.kt")
         public void testInitWithExtraStatements() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/initWithExtraStatements.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/initWithExtraStatements.kt");
         }
 
         @TestMetadata("noParcelable.kt")
         public void testNoParcelable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/noParcelable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/noParcelable.kt");
         }
 
         @TestMetadata("oldField.kt")
         public void testOldField() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/oldField.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/oldField.kt");
         }
 
         @TestMetadata("oldFieldSecondary.kt")
         public void testOldFieldSecondary() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/oldFieldSecondary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/oldFieldSecondary.kt");
         }
 
         @TestMetadata("parcelize.kt")
         public void testParcelize() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/parcelize.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/parcelize.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/redoParcelable/simple.kt");
         }
     }
 
@@ -320,32 +320,32 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("inderectParcelable.kt")
         public void testInderectParcelable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/inderectParcelable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/removeParcelable/inderectParcelable.kt");
         }
 
         @TestMetadata("init.kt")
         public void testInit() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/init.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/removeParcelable/init.kt");
         }
 
         @TestMetadata("initWithExtraStatements.kt")
         public void testInitWithExtraStatements() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/initWithExtraStatements.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/removeParcelable/initWithExtraStatements.kt");
         }
 
         @TestMetadata("noParcelable.kt")
         public void testNoParcelable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/noParcelable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/removeParcelable/noParcelable.kt");
         }
 
         @TestMetadata("parcelize.kt")
         public void testParcelize() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/parcelize.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/removeParcelable/parcelize.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/android/intention/removeParcelable/simple.kt");
         }
     }
 }

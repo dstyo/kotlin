@@ -27,171 +27,171 @@ public class ClsStubBuilderTestGenerated extends AbstractClsStubBuilderTest {
 
     @TestMetadata("AnnotatedFlexibleTypes")
     public void testAnnotatedFlexibleTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/AnnotatedFlexibleTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/AnnotatedFlexibleTypes/");
     }
 
     @TestMetadata("AnnotationClass")
     public void testAnnotationClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/AnnotationClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/AnnotationClass/");
     }
 
     @TestMetadata("Annotations")
     public void testAnnotations() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Annotations/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Annotations/");
     }
 
     @TestMetadata("AnnotationsOnNullableTypes")
     public void testAnnotationsOnNullableTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/AnnotationsOnNullableTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/AnnotationsOnNullableTypes/");
     }
 
     @TestMetadata("AnnotationsOnParenthesizedTypes")
     public void testAnnotationsOnParenthesizedTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/AnnotationsOnParenthesizedTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/AnnotationsOnParenthesizedTypes/");
     }
 
     @TestMetadata("AnonymousReturnWithGenericType")
     public void testAnonymousReturnWithGenericType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/AnonymousReturnWithGenericType/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/AnonymousReturnWithGenericType/");
     }
 
     @TestMetadata("ClassMembers")
     public void testClassMembers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/ClassMembers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/ClassMembers/");
     }
 
     @TestMetadata("ClassObject")
     public void testClassObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/ClassObject/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/ClassObject/");
     }
 
     @TestMetadata("Const")
     public void testConst() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Const/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Const/");
     }
 
     @TestMetadata("DataClass")
     public void testDataClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/DataClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/DataClass/");
     }
 
     @TestMetadata("Delegation")
     public void testDelegation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Delegation/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Delegation/");
     }
 
     @TestMetadata("DependencyOnNestedClasses")
     public void testDependencyOnNestedClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/DependencyOnNestedClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/DependencyOnNestedClasses/");
     }
 
     @TestMetadata("Enum")
     public void testEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Enum/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Enum/");
     }
 
     @TestMetadata("FlexibleTypes")
     public void testFlexibleTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/FlexibleTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/FlexibleTypes/");
     }
 
     @TestMetadata("InheritingClasses")
     public void testInheritingClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/InheritingClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/InheritingClasses/");
     }
 
     @TestMetadata("InnerTypes")
     public void testInnerTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/InnerTypes/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/InnerTypes/");
     }
 
     @TestMetadata("LocalClass")
     public void testLocalClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/LocalClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/LocalClass/");
     }
 
     @TestMetadata("Modifiers")
     public void testModifiers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Modifiers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Modifiers/");
     }
 
     @TestMetadata("MultifileClass")
     public void testMultifileClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/MultifileClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/MultifileClass/");
     }
 
     @TestMetadata("NamedCompanionObject")
     public void testNamedCompanionObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/NamedCompanionObject/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/NamedCompanionObject/");
     }
 
     @TestMetadata("NestedClasses")
     public void testNestedClasses() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/NestedClasses/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/NestedClasses/");
     }
 
     @TestMetadata("Objects")
     public void testObjects() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Objects/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Objects/");
     }
 
     @TestMetadata("PrivateToThis")
     public void testPrivateToThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/PrivateToThis/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/PrivateToThis/");
     }
 
     @TestMetadata("Sealed")
     public void testSealed() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Sealed/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Sealed/");
     }
 
     @TestMetadata("SecondaryConstructors")
     public void testSecondaryConstructors() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/SecondaryConstructors/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/SecondaryConstructors/");
     }
 
     @TestMetadata("SuspendLambda")
     public void testSuspendLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/SuspendLambda/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/SuspendLambda/");
     }
 
     @TestMetadata("TopJvmPackageName")
     public void testTopJvmPackageName() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TopJvmPackageName/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TopJvmPackageName/");
     }
 
     @TestMetadata("TopLevelMembersAnnotatedKt")
     public void testTopLevelMembersAnnotatedKt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TopLevelMembersAnnotatedKt/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TopLevelMembersAnnotatedKt/");
     }
 
     @TestMetadata("TopLevelMembersKt")
     public void testTopLevelMembersKt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TopLevelMembersKt/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TopLevelMembersKt/");
     }
 
     @TestMetadata("TypeAliases")
     public void testTypeAliases() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TypeAliases/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TypeAliases/");
     }
 
     @TestMetadata("TypeBoundsAndDelegationSpecifiers")
     public void testTypeBoundsAndDelegationSpecifiers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TypeBoundsAndDelegationSpecifiers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TypeBoundsAndDelegationSpecifiers/");
     }
 
     @TestMetadata("TypeModifiers")
     public void testTypeModifiers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TypeModifiers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TypeModifiers/");
     }
 
     @TestMetadata("TypeParams")
     public void testTypeParams() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/TypeParams/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/TypeParams/");
     }
 
     @TestMetadata("Types")
     public void testTypes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/stubBuilder/Types/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/stubBuilder/Types/");
     }
 }

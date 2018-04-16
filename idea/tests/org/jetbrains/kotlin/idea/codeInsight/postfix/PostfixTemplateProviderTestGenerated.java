@@ -27,186 +27,186 @@ public class PostfixTemplateProviderTestGenerated extends AbstractPostfixTemplat
 
     @TestMetadata("assert.kt")
     public void testAssert() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/assert.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/assert.kt");
     }
 
     @TestMetadata("assertNonTopLevel.kt")
     public void testAssertNonTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/assertNonTopLevel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/assertNonTopLevel.kt");
     }
 
     @TestMetadata("doNotProposeWrappingIncrement.kt")
     public void testDoNotProposeWrappingIncrement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/doNotProposeWrappingIncrement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/doNotProposeWrappingIncrement.kt");
     }
 
     @TestMetadata("else.kt")
     public void testElse() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/else.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/else.kt");
     }
 
     @TestMetadata("for.kt")
     public void testFor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/for.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/for.kt");
     }
 
     @TestMetadata("forOnMap.kt")
     public void testForOnMap() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/forOnMap.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/forOnMap.kt");
     }
 
     @TestMetadata("forOnString.kt")
     public void testForOnString() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/forOnString.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/forOnString.kt");
     }
 
     @TestMetadata("if.kt")
     public void testIf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/if.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/if.kt");
     }
 
     @TestMetadata("iter.kt")
     public void testIter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/iter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/iter.kt");
     }
 
     @TestMetadata("noParOnLoop.kt")
     public void testNoParOnLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/noParOnLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/noParOnLoop.kt");
     }
 
     @TestMetadata("noReturnForNonStatement.kt")
     public void testNoReturnForNonStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/noReturnForNonStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/noReturnForNonStatement.kt");
     }
 
     @TestMetadata("notBoolean.kt")
     public void testNotBoolean() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/notBoolean.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/notBoolean.kt");
     }
 
     @TestMetadata("notString.kt")
     public void testNotString() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/notString.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/notString.kt");
     }
 
     @TestMetadata("notnull.kt")
     public void testNotnull() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/notnull.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/notnull.kt");
     }
 
     @TestMetadata("null.kt")
     public void testNull() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/null.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/null.kt");
     }
 
     @TestMetadata("par.kt")
     public void testPar() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/par.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/par.kt");
     }
 
     @TestMetadata("parAfterUserType.kt")
     public void testParAfterUserType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/parAfterUserType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/parAfterUserType.kt");
     }
 
     @TestMetadata("parAssignment.kt")
     public void testParAssignment() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/parAssignment.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/parAssignment.kt");
     }
 
     @TestMetadata("return.kt")
     public void testReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/return.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/return.kt");
     }
 
     @TestMetadata("returnFromLoop.kt")
     public void testReturnFromLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/returnFromLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/returnFromLoop.kt");
     }
 
     @TestMetadata("sout.kt")
     public void testSout() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/sout.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/sout.kt");
     }
 
     @TestMetadata("soutInIf.kt")
     public void testSoutInIf() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/soutInIf.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/soutInIf.kt");
     }
 
     @TestMetadata("soutInLoop.kt")
     public void testSoutInLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/soutInLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/soutInLoop.kt");
     }
 
     @TestMetadata("try.kt")
     public void testTry() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/try.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/try.kt");
     }
 
     @TestMetadata("tryInLocalClass.kt")
     public void testTryInLocalClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/tryInLocalClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/tryInLocalClass.kt");
     }
 
     @TestMetadata("tryOnFor.kt")
     public void testTryOnFor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/tryOnFor.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/tryOnFor.kt");
     }
 
     @TestMetadata("tryOnImportStatement.kt")
     public void testTryOnImportStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/tryOnImportStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/tryOnImportStatement.kt");
     }
 
     @TestMetadata("tryOnStatement.kt")
     public void testTryOnStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/tryOnStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/tryOnStatement.kt");
     }
 
     @TestMetadata("val.kt")
     public void testVal() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/val.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/val.kt");
     }
 
     @TestMetadata("valAfterReceiver.kt")
     public void testValAfterReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/valAfterReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/valAfterReceiver.kt");
     }
 
     @TestMetadata("valAfterSelector.kt")
     public void testValAfterSelector() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/valAfterSelector.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/valAfterSelector.kt");
     }
 
     @TestMetadata("valAtLamba.kt")
     public void testValAtLamba() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/valAtLamba.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/valAtLamba.kt");
     }
 
     @TestMetadata("valAtLambaArgumentInCall.kt")
     public void testValAtLambaArgumentInCall() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/valAtLambaArgumentInCall.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/valAtLambaArgumentInCall.kt");
     }
 
     @TestMetadata("var.kt")
     public void testVar() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/var.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/var.kt");
     }
 
     @TestMetadata("when.kt")
     public void testWhen() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/when.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/when.kt");
     }
 
     @TestMetadata("whenExpression.kt")
     public void testWhenExpression() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/whenExpression.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/whenExpression.kt");
     }
 
     @TestMetadata("while.kt")
     public void testWhile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/postfix/while.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/postfix/while.kt");
     }
 }

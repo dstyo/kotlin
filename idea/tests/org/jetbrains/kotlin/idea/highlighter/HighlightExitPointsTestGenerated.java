@@ -27,86 +27,86 @@ public class HighlightExitPointsTestGenerated extends AbstractHighlightExitPoint
 
     @TestMetadata("getter.kt")
     public void testGetter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/getter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/getter.kt");
     }
 
     @TestMetadata("inline1.kt")
     public void testInline1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/inline1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/inline1.kt");
     }
 
     @TestMetadata("inline2.kt")
     public void testInline2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/inline2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/inline2.kt");
     }
 
     @TestMetadata("inline3.kt")
     public void testInline3() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/inline3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/inline3.kt");
     }
 
     @TestMetadata("inlineLocalReturn1.kt")
     public void testInlineLocalReturn1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/inlineLocalReturn1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/inlineLocalReturn1.kt");
     }
 
     @TestMetadata("inlineLocalReturn2.kt")
     public void testInlineLocalReturn2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/inlineLocalReturn2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/inlineLocalReturn2.kt");
     }
 
     @TestMetadata("inlineWithNoInlineParam.kt")
     public void testInlineWithNoInlineParam() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/inlineWithNoInlineParam.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/inlineWithNoInlineParam.kt");
     }
 
     @TestMetadata("invalidReturn.kt")
     public void testInvalidReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/invalidReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/invalidReturn.kt");
     }
 
     @TestMetadata("invalidThrow.kt")
     public void testInvalidThrow() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/invalidThrow.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/invalidThrow.kt");
     }
 
     @TestMetadata("localFunction1.kt")
     public void testLocalFunction1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/localFunction1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/localFunction1.kt");
     }
 
     @TestMetadata("localFunction2.kt")
     public void testLocalFunction2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/localFunction2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/localFunction2.kt");
     }
 
     @TestMetadata("localFunctionThrow.kt")
     public void testLocalFunctionThrow() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/localFunctionThrow.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/localFunctionThrow.kt");
     }
 
     @TestMetadata("notInline1.kt")
     public void testNotInline1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/notInline1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/notInline1.kt");
     }
 
     @TestMetadata("notInline2.kt")
     public void testNotInline2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/notInline2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/notInline2.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/simple.kt");
     }
 
     @TestMetadata("throw1.kt")
     public void testThrow1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/throw1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/throw1.kt");
     }
 
     @TestMetadata("throw2.kt")
     public void testThrow2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/exitPoints/throw2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/exitPoints/throw2.kt");
     }
 }

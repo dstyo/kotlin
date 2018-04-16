@@ -27,366 +27,366 @@ public class PartialBodyResolveTestGenerated extends AbstractPartialBodyResolveT
 
     @TestMetadata("AnonymousObjects.kt")
     public void testAnonymousObjects() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/AnonymousObjects.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/AnonymousObjects.kt");
     }
 
     @TestMetadata("As.kt")
     public void testAs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/As.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/As.kt");
     }
 
     @TestMetadata("BangBang.kt")
     public void testBangBang() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/BangBang.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/BangBang.kt");
     }
 
     @TestMetadata("BangBangHasPlatformTypeBug.kt")
     public void testBangBangHasPlatformTypeBug() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/BangBangHasPlatformTypeBug.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/BangBangHasPlatformTypeBug.kt");
     }
 
     @TestMetadata("BangBangInIfCondition.kt")
     public void testBangBangInIfCondition() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/BangBangInIfCondition.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/BangBangInIfCondition.kt");
     }
 
     @TestMetadata("ClassInitializerHasNoValue.kt")
     public void testClassInitializerHasNoValue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/ClassInitializerHasNoValue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/ClassInitializerHasNoValue.kt");
     }
 
     @TestMetadata("DeclarationsBefore.kt")
     public void testDeclarationsBefore() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/DeclarationsBefore.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/DeclarationsBefore.kt");
     }
 
     @TestMetadata("DoWhile.kt")
     public void testDoWhile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/DoWhile.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/DoWhile.kt");
     }
 
     @TestMetadata("Elvis.kt")
     public void testElvis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/Elvis.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/Elvis.kt");
     }
 
     @TestMetadata("ElvisReturn.kt")
     public void testElvisReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/ElvisReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/ElvisReturn.kt");
     }
 
     @TestMetadata("ExpressionBodyExplicitType.kt")
     public void testExpressionBodyExplicitType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/ExpressionBodyExplicitType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/ExpressionBodyExplicitType.kt");
     }
 
     @TestMetadata("For1.kt")
     public void testFor1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/For1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/For1.kt");
     }
 
     @TestMetadata("For2.kt")
     public void testFor2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/For2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/For2.kt");
     }
 
     @TestMetadata("IfBranchesAutoCasts.kt")
     public void testIfBranchesAutoCasts() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfBranchesAutoCasts.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfBranchesAutoCasts.kt");
     }
 
     @TestMetadata("IfBranchesAutoCasts2.kt")
     public void testIfBranchesAutoCasts2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfBranchesAutoCasts2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfBranchesAutoCasts2.kt");
     }
 
     @TestMetadata("IfBranchesSmartCast.kt")
     public void testIfBranchesSmartCast() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfBranchesSmartCast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfBranchesSmartCast.kt");
     }
 
     @TestMetadata("IfCallWithConditionReturn.kt")
     public void testIfCallWithConditionReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfCallWithConditionReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfCallWithConditionReturn.kt");
     }
 
     @TestMetadata("IfEqAutoCast.kt")
     public void testIfEqAutoCast() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfEqAutoCast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfEqAutoCast.kt");
     }
 
     @TestMetadata("IfIsReturn.kt")
     public void testIfIsReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfIsReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfIsReturn.kt");
     }
 
     @TestMetadata("IfNegatedNotNullReturn.kt")
     public void testIfNegatedNotNullReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNegatedNotNullReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNegatedNotNullReturn.kt");
     }
 
     @TestMetadata("IfNotIsError.kt")
     public void testIfNotIsError() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsError.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsError.kt");
     }
 
     @TestMetadata("IfNotIsErrorQualifier.kt")
     public void testIfNotIsErrorQualifier() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsErrorQualifier.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsErrorQualifier.kt");
     }
 
     @TestMetadata("IfNotIsErrorVariable.kt")
     public void testIfNotIsErrorVariable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsErrorVariable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsErrorVariable.kt");
     }
 
     @TestMetadata("IfNotIsMyError.kt")
     public void testIfNotIsMyError() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsMyError.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsMyError.kt");
     }
 
     @TestMetadata("IfNotIsMyErrorWithAliasImport.kt")
     public void testIfNotIsMyErrorWithAliasImport() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsMyErrorWithAliasImport.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsMyErrorWithAliasImport.kt");
     }
 
     @TestMetadata("IfNotIsNothingProp.kt")
     public void testIfNotIsNothingProp() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsNothingProp.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsNothingProp.kt");
     }
 
     @TestMetadata("IfNotIsReturn.kt")
     public void testIfNotIsReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsReturn.kt");
     }
 
     @TestMetadata("IfNotIsReturn2.kt")
     public void testIfNotIsReturn2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsReturn2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsReturn2.kt");
     }
 
     @TestMetadata("IfNotIsThrow.kt")
     public void testIfNotIsThrow() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotIsThrow.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotIsThrow.kt");
     }
 
     @TestMetadata("IfNotNullElseReturn.kt")
     public void testIfNotNullElseReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNotNullElseReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNotNullElseReturn.kt");
     }
 
     @TestMetadata("IfNullAlwaysExits.kt")
     public void testIfNullAlwaysExits() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullAlwaysExits.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullAlwaysExits.kt");
     }
 
     @TestMetadata("IfNullAndNullReturn.kt")
     public void testIfNullAndNullReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullAndNullReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullAndNullReturn.kt");
     }
 
     @TestMetadata("IfNullBreak.kt")
     public void testIfNullBreak() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullBreak.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullBreak.kt");
     }
 
     @TestMetadata("IfNullConditionalReturn.kt")
     public void testIfNullConditionalReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullConditionalReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullConditionalReturn.kt");
     }
 
     @TestMetadata("IfNullConditionalReturnWithElse.kt")
     public void testIfNullConditionalReturnWithElse() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullConditionalReturnWithElse.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullConditionalReturnWithElse.kt");
     }
 
     @TestMetadata("IfNullContinue.kt")
     public void testIfNullContinue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullContinue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullContinue.kt");
     }
 
     @TestMetadata("IfNullDoWhileWithBreak.kt")
     public void testIfNullDoWhileWithBreak() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullDoWhileWithBreak.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullDoWhileWithBreak.kt");
     }
 
     @TestMetadata("IfNullElseReturn.kt")
     public void testIfNullElseReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullElseReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullElseReturn.kt");
     }
 
     @TestMetadata("IfNullElvisReturn.kt")
     public void testIfNullElvisReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullElvisReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullElvisReturn.kt");
     }
 
     @TestMetadata("IfNullForWithReturn.kt")
     public void testIfNullForWithReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullForWithReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullForWithReturn.kt");
     }
 
     @TestMetadata("IfNullOrNullReturn.kt")
     public void testIfNullOrNullReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullOrNullReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullOrNullReturn.kt");
     }
 
     @TestMetadata("IfNullPrint.kt")
     public void testIfNullPrint() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullPrint.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullPrint.kt");
     }
 
     @TestMetadata("IfNullReturn.kt")
     public void testIfNullReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullReturn.kt");
     }
 
     @TestMetadata("IfNullWhileTrueWithBreak.kt")
     public void testIfNullWhileTrueWithBreak() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullWhileTrueWithBreak.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullWhileTrueWithBreak.kt");
     }
 
     @TestMetadata("IfNullWhileWithReturn.kt")
     public void testIfNullWhileWithReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfNullWhileWithReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfNullWhileWithReturn.kt");
     }
 
     @TestMetadata("IfReturn.kt")
     public void testIfReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IfReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IfReturn.kt");
     }
 
     @TestMetadata("InIfExpressionElse.kt")
     public void testInIfExpressionElse() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/InIfExpressionElse.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/InIfExpressionElse.kt");
     }
 
     @TestMetadata("InsideAnonymousObject.kt")
     public void testInsideAnonymousObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/InsideAnonymousObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/InsideAnonymousObject.kt");
     }
 
     @TestMetadata("IntConstantTypeBug.kt")
     public void testIntConstantTypeBug() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/IntConstantTypeBug.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/IntConstantTypeBug.kt");
     }
 
     @TestMetadata("LabeledBreak.kt")
     public void testLabeledBreak() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LabeledBreak.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LabeledBreak.kt");
     }
 
     @TestMetadata("LabeledContinue.kt")
     public void testLabeledContinue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LabeledContinue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LabeledContinue.kt");
     }
 
     @TestMetadata("Lambda.kt")
     public void testLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/Lambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/Lambda.kt");
     }
 
     @TestMetadata("LambdaInCurrentStatement.kt")
     public void testLambdaInCurrentStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LambdaInCurrentStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LambdaInCurrentStatement.kt");
     }
 
     @TestMetadata("LambdaReturnsNothing2.kt")
     public void testLambdaReturnsNothing2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LambdaReturnsNothing2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LambdaReturnsNothing2.kt");
     }
 
     @TestMetadata("LocalClass.kt")
     public void testLocalClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LocalClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LocalClass.kt");
     }
 
     @TestMetadata("LocalFun.kt")
     public void testLocalFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LocalFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LocalFun.kt");
     }
 
     @TestMetadata("LocalNothingFun.kt")
     public void testLocalNothingFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/LocalNothingFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/LocalNothingFun.kt");
     }
 
     @TestMetadata("MutliDeclaration.kt")
     public void testMutliDeclaration() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/MutliDeclaration.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/MutliDeclaration.kt");
     }
 
     @TestMetadata("NestedLoop.kt")
     public void testNestedLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/NestedLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/NestedLoop.kt");
     }
 
     @TestMetadata("OutOfBodyResolve.kt")
     public void testOutOfBodyResolve() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/OutOfBodyResolve.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/OutOfBodyResolve.kt");
     }
 
     @TestMetadata("PropertyAccessorBody.kt")
     public void testPropertyAccessorBody() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/PropertyAccessorBody.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/PropertyAccessorBody.kt");
     }
 
     @TestMetadata("PropertyByDelegate.kt")
     public void testPropertyByDelegate() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/PropertyByDelegate.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/PropertyByDelegate.kt");
     }
 
     @TestMetadata("ReturnLambda.kt")
     public void testReturnLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/ReturnLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/ReturnLambda.kt");
     }
 
     @TestMetadata("Simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/Simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/Simple.kt");
     }
 
     @TestMetadata("SmartCastInTheSameStatement.kt")
     public void testSmartCastInTheSameStatement() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/SmartCastInTheSameStatement.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/SmartCastInTheSameStatement.kt");
     }
 
     @TestMetadata("SmartCastOfThis1.kt")
     public void testSmartCastOfThis1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/SmartCastOfThis1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/SmartCastOfThis1.kt");
     }
 
     @TestMetadata("SmartCastOfThis2.kt")
     public void testSmartCastOfThis2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/SmartCastOfThis2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/SmartCastOfThis2.kt");
     }
 
     @TestMetadata("SmartCastPointsResolveRequired1.kt")
     public void testSmartCastPointsResolveRequired1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/SmartCastPointsResolveRequired1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/SmartCastPointsResolveRequired1.kt");
     }
 
     @TestMetadata("SmartCastPointsResolveRequired2.kt")
     public void testSmartCastPointsResolveRequired2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/SmartCastPointsResolveRequired2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/SmartCastPointsResolveRequired2.kt");
     }
 
     @TestMetadata("ThisQualifiedAutoCast.kt")
     public void testThisQualifiedAutoCast() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/ThisQualifiedAutoCast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/ThisQualifiedAutoCast.kt");
     }
 
     @TestMetadata("While.kt")
     public void testWhile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/While.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/While.kt");
     }
 
     @TestMetadata("WhileTrue.kt")
     public void testWhileTrue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/WhileTrue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/WhileTrue.kt");
     }
 
     @TestMetadata("WhileTrueCondition.kt")
     public void testWhileTrueCondition() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/partialBodyResolve/WhileTrueCondition.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/partialBodyResolve/WhileTrueCondition.kt");
     }
 }

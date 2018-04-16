@@ -27,71 +27,71 @@ public class KotlinMavenInspectionTestGenerated extends AbstractKotlinMavenInspe
 
     @TestMetadata("bothCompileAndTestCompileInTheSameExecution.xml")
     public void testBothCompileAndTestCompileInTheSameExecution() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/bothCompileAndTestCompileInTheSameExecution.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/bothCompileAndTestCompileInTheSameExecution.xml");
     }
 
     @TestMetadata("dependencyWithNoExecution.xml")
     public void testDependencyWithNoExecution() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/dependencyWithNoExecution.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/dependencyWithNoExecution.xml");
     }
 
     @TestMetadata("deprecatedJre.xml")
     public void testDeprecatedJre() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/deprecatedJre.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/deprecatedJre.xml");
     }
 
     @TestMetadata("deprecatedJreWithDependencyManagement.xml")
     public void testDeprecatedJreWithDependencyManagement() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/deprecatedJreWithDependencyManagement.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/deprecatedJreWithDependencyManagement.xml");
     }
 
     @TestMetadata("ideAndMavenVersions.xml")
     public void testIdeAndMavenVersions() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/ideAndMavenVersions.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/ideAndMavenVersions.xml");
     }
 
     @TestMetadata("ideAndMavenVersionsSuppression.xml")
     public void testIdeAndMavenVersionsSuppression() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/ideAndMavenVersionsSuppression.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/ideAndMavenVersionsSuppression.xml");
     }
 
     @TestMetadata("kotlinTestWithJunit.xml")
     public void testKotlinTestWithJunit() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/kotlinTestWithJunit.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/kotlinTestWithJunit.xml");
     }
 
     @TestMetadata("missingDependencies.xml")
     public void testMissingDependencies() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/missingDependencies.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/missingDependencies.xml");
     }
 
     @TestMetadata("noExecutions.xml")
     public void testNoExecutions() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/noExecutions.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/noExecutions.xml");
     }
 
     @TestMetadata("oldVersionWithJre.xml")
     public void testOldVersionWithJre() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/oldVersionWithJre.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/oldVersionWithJre.xml");
     }
 
     @TestMetadata("sameVersionPluginLibrary.xml")
     public void testSameVersionPluginLibrary() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/sameVersionPluginLibrary.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/sameVersionPluginLibrary.xml");
     }
 
     @TestMetadata("sameVersionPluginLibrarySuppression.xml")
     public void testSameVersionPluginLibrarySuppression() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/sameVersionPluginLibrarySuppression.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/sameVersionPluginLibrarySuppression.xml");
     }
 
     @TestMetadata("wrongJsExecution.xml")
     public void testWrongJsExecution() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/wrongJsExecution.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/wrongJsExecution.xml");
     }
 
     @TestMetadata("wrongPhaseExecution.xml")
     public void testWrongPhaseExecution() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-maven/testData/maven-inspections/wrongPhaseExecution.xml", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-maven/testData/maven-inspections/wrongPhaseExecution.xml");
     }
 }

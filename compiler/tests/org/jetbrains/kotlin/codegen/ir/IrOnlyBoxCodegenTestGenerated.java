@@ -27,37 +27,37 @@ public class IrOnlyBoxCodegenTestGenerated extends AbstractIrBlackBoxCodegenTest
 
     @TestMetadata("classInitializers.kt")
     public void testClassInitializers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/classInitializers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/classInitializers.kt");
     }
 
     @TestMetadata("enumClass.kt")
     public void testEnumClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/enumClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/enumClass.kt");
     }
 
     @TestMetadata("enumClass2.kt")
     public void testEnumClass2() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/enumClass2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/enumClass2.kt");
     }
 
     @TestMetadata("enumClass3.kt")
     public void testEnumClass3() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/enumClass3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/enumClass3.kt");
     }
 
     @TestMetadata("fileClassInitializers.kt")
     public void testFileClassInitializers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/fileClassInitializers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/fileClassInitializers.kt");
     }
 
     @TestMetadata("objectClass.kt")
     public void testObjectClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/objectClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/objectClass.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/box/simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/simple.kt");
     }
 
     @TestMetadata("compiler/testData/ir/box/closureConversion")
@@ -70,42 +70,42 @@ public class IrOnlyBoxCodegenTestGenerated extends AbstractIrBlackBoxCodegenTest
 
         @TestMetadata("closureConversion1.kt")
         public void testClosureConversion1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/closureConversion1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/closureConversion1.kt");
         }
 
         @TestMetadata("closureConversion2.kt")
         public void testClosureConversion2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/closureConversion2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/closureConversion2.kt");
         }
 
         @TestMetadata("closureConversion3.kt")
         public void testClosureConversion3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/closureConversion3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/closureConversion3.kt");
         }
 
         @TestMetadata("closureConversion4.kt")
         public void testClosureConversion4() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/closureConversion4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/closureConversion4.kt");
         }
 
         @TestMetadata("innerClass1.kt")
         public void testInnerClass1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/innerClass1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/innerClass1.kt");
         }
 
         @TestMetadata("innerClass2.kt")
         public void testInnerClass2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/innerClass2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/innerClass2.kt");
         }
 
         @TestMetadata("mutable1.kt")
         public void testMutable1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/mutable1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/mutable1.kt");
         }
 
         @TestMetadata("mutablePrimitives.kt")
         public void testMutablePrimitives() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/closureConversion/mutablePrimitives.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/closureConversion/mutablePrimitives.kt");
         }
     }
 
@@ -119,22 +119,22 @@ public class IrOnlyBoxCodegenTestGenerated extends AbstractIrBlackBoxCodegenTest
 
         @TestMetadata("comparableToDouble.kt")
         public void testComparableToDouble() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/primitiveNumberComparisons/comparableToDouble.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/primitiveNumberComparisons/comparableToDouble.kt");
         }
 
         @TestMetadata("doubleEqeq.kt")
         public void testDoubleEqeq() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/primitiveNumberComparisons/doubleEqeq.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/primitiveNumberComparisons/doubleEqeq.kt");
         }
 
         @TestMetadata("floatEqeq.kt")
         public void testFloatEqeq() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/primitiveNumberComparisons/floatEqeq.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/primitiveNumberComparisons/floatEqeq.kt");
         }
 
         @TestMetadata("mixedNumberTypes.kt")
         public void testMixedNumberTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/ir/box/primitiveNumberComparisons/mixedNumberTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "compiler/testData/ir/box/primitiveNumberComparisons/mixedNumberTypes.kt");
         }
     }
 }

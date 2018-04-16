@@ -27,51 +27,51 @@ public class AndroidGotoTestGenerated extends AbstractAndroidGotoTest {
 
     @TestMetadata("customNamespaceName")
     public void testCustomNamespaceName() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/customNamespaceName/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/customNamespaceName/");
     }
 
     @TestMetadata("fqNameInAttr")
     public void testFqNameInAttr() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInAttr/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInAttr/");
     }
 
     @TestMetadata("fqNameInAttrFragment")
     public void testFqNameInAttrFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInAttrFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInAttrFragment/");
     }
 
     @TestMetadata("fqNameInTag")
     public void testFqNameInTag() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInTag/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInTag/");
     }
 
     @TestMetadata("fqNameInTagFragment")
     public void testFqNameInTagFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInTagFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/fqNameInTagFragment/");
     }
 
     @TestMetadata("multiFile")
     public void testMultiFile() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/multiFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/multiFile/");
     }
 
     @TestMetadata("multiFileFragment")
     public void testMultiFileFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/multiFileFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/multiFileFragment/");
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/simple/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/simple/");
     }
 
     @TestMetadata("simpleFragment")
     public void testSimpleFragment() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/simpleFragment/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/simpleFragment/");
     }
 
     @TestMetadata("simpleView")
     public void testSimpleView() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/goto/simpleView/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/goto/simpleView/");
     }
 }

@@ -27,31 +27,31 @@ public class FunctionDescriptorInExpressionRendererTestGenerated extends Abstrac
 
     @TestMetadata("basicFunExpr.kt")
     public void testBasicFunExpr() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/basicFunExpr.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/renderFunctionDescriptorInExpression/basicFunExpr.kt");
     }
 
     @TestMetadata("basicFunExprArgs.kt")
     public void testBasicFunExprArgs() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/basicFunExprArgs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/renderFunctionDescriptorInExpression/basicFunExprArgs.kt");
     }
 
     @TestMetadata("basicLambda.kt")
     public void testBasicLambda() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/basicLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/renderFunctionDescriptorInExpression/basicLambda.kt");
     }
 
     @TestMetadata("labeledLambda.kt")
     public void testLabeledLambda() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/labeledLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/renderFunctionDescriptorInExpression/labeledLambda.kt");
     }
 
     @TestMetadata("parenthesizedFunExpr.kt")
     public void testParenthesizedFunExpr() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/parenthesizedFunExpr.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/renderFunctionDescriptorInExpression/parenthesizedFunExpr.kt");
     }
 
     @TestMetadata("parenthesizedLambda.kt")
     public void testParenthesizedLambda() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/parenthesizedLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/renderFunctionDescriptorInExpression/parenthesizedLambda.kt");
     }
 }

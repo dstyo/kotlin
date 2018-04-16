@@ -27,31 +27,31 @@ public class UsageHighlightingTestGenerated extends AbstractUsageHighlightingTes
 
     @TestMetadata("implicitIt.kt")
     public void testImplicitIt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/usageHighlighter/implicitIt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/usageHighlighter/implicitIt.kt");
     }
 
     @TestMetadata("importAlias.kt")
     public void testImportAlias() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/usageHighlighter/importAlias.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/usageHighlighter/importAlias.kt");
     }
 
     @TestMetadata("labeledAnonymousFun.kt")
     public void testLabeledAnonymousFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/usageHighlighter/labeledAnonymousFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/usageHighlighter/labeledAnonymousFun.kt");
     }
 
     @TestMetadata("labeledLambda.kt")
     public void testLabeledLambda() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/usageHighlighter/labeledLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/usageHighlighter/labeledLambda.kt");
     }
 
     @TestMetadata("labeledLoop.kt")
     public void testLabeledLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/usageHighlighter/labeledLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/usageHighlighter/labeledLoop.kt");
     }
 
     @TestMetadata("localVal.kt")
     public void testLocalVal() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/usageHighlighter/localVal.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/usageHighlighter/localVal.kt");
     }
 }

@@ -27,36 +27,36 @@ public class NoInlineTestsGenerated extends AbstractNoInlineTests {
 
     @TestMetadata("extensionReceiver.kt")
     public void testExtensionReceiver() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/extensionReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/extensionReceiver.kt");
     }
 
     @TestMetadata("lambdaAsGeneric.kt")
     public void testLambdaAsGeneric() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/lambdaAsGeneric.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/lambdaAsGeneric.kt");
     }
 
     @TestMetadata("lambdaAsNonFunction.kt")
     public void testLambdaAsNonFunction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/lambdaAsNonFunction.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/lambdaAsNonFunction.kt");
     }
 
     @TestMetadata("noInline.kt")
     public void testNoInline() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/noInline.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/noInline.kt");
     }
 
     @TestMetadata("noInlineLambdaChain.kt")
     public void testNoInlineLambdaChain() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/noInlineLambdaChain.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/noInlineLambdaChain.kt");
     }
 
     @TestMetadata("noInlineLambdaChainWithCapturedInline.kt")
     public void testNoInlineLambdaChainWithCapturedInline() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/noInlineLambdaChainWithCapturedInline.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/noInlineLambdaChainWithCapturedInline.kt");
     }
 
     @TestMetadata("withoutInline.kt")
     public void testWithoutInline() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/noInline/withoutInline.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/noInline/withoutInline.kt");
     }
 }

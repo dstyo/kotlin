@@ -25,7 +25,7 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
     public static class Formatter extends AbstractFormatterTest {
         @TestMetadata("AfterSemiColonInEnumClass.after.kt")
         public void testAfterSemiColonInEnumClass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/AfterSemiColonInEnumClass.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/AfterSemiColonInEnumClass.after.kt");
         }
 
         public void testAllFilesPresentInFormatter() throws Exception {
@@ -34,742 +34,742 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
         @TestMetadata("AnnotationBeforeExpression.after.kt")
         public void testAnnotationBeforeExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/AnnotationBeforeExpression.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/AnnotationBeforeExpression.after.kt");
         }
 
         @TestMetadata("AnonymousInitializers.after.kt")
         public void testAnonymousInitializers() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/AnonymousInitializers.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/AnonymousInitializers.after.kt");
         }
 
         @TestMetadata("AnonymousInitializersLineBreak.after.kt")
         public void testAnonymousInitializersLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/AnonymousInitializersLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/AnonymousInitializersLineBreak.after.kt");
         }
 
         @TestMetadata("ArrayAccess.after.kt")
         public void testArrayAccess() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ArrayAccess.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ArrayAccess.after.kt");
         }
 
         @TestMetadata("ArrayLiteral.after.kt")
         public void testArrayLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ArrayLiteral.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ArrayLiteral.after.kt");
         }
 
         @TestMetadata("AssignmentWrap.after.kt")
         public void testAssignmentWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/AssignmentWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/AssignmentWrap.after.kt");
         }
 
         @TestMetadata("BinaryExpressionAlignmentSpread.after.kt")
         public void testBinaryExpressionAlignmentSpread() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressionAlignmentSpread.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressionAlignmentSpread.after.kt");
         }
 
         @TestMetadata("BinaryExpressions.after.kt")
         public void testBinaryExpressions() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressions.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressions.after.kt");
         }
 
         @TestMetadata("BinaryExpressionsBoolean.after.kt")
         public void testBinaryExpressionsBoolean() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressionsBoolean.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressionsBoolean.after.kt");
         }
 
         @TestMetadata("BinaryExpressionsWithoutAlignment.after.kt")
         public void testBinaryExpressionsWithoutAlignment() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressionsWithoutAlignment.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressionsWithoutAlignment.after.kt");
         }
 
         @TestMetadata("BlankLinesAfterClassHeader.after.kt")
         public void testBlankLinesAfterClassHeader() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BlankLinesAfterClassHeader.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BlankLinesAfterClassHeader.after.kt");
         }
 
         @TestMetadata("BlankLinesBeforeRBrace.after.kt")
         public void testBlankLinesBeforeRBrace() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BlankLinesBeforeRBrace.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BlankLinesBeforeRBrace.after.kt");
         }
 
         @TestMetadata("BlankLinesBeforeRBrace2.after.kt")
         public void testBlankLinesBeforeRBrace2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BlankLinesBeforeRBrace2.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BlankLinesBeforeRBrace2.after.kt");
         }
 
         @TestMetadata("BlockFor.after.kt")
         public void testBlockFor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BlockFor.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/BlockFor.after.kt");
         }
 
         @TestMetadata("By.after.kt")
         public void testBy() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/By.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/By.after.kt");
         }
 
         @TestMetadata("CallLParenthOnNextLine.after.kt")
         public void testCallLParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CallLParenthOnNextLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/CallLParenthOnNextLine.after.kt");
         }
 
         @TestMetadata("CallRParenthOnNextLine.after.kt")
         public void testCallRParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CallRParenthOnNextLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/CallRParenthOnNextLine.after.kt");
         }
 
         @TestMetadata("Cast.after.kt")
         public void testCast() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Cast.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Cast.after.kt");
         }
 
         @TestMetadata("CatchFinallyOnNewLine.after.kt")
         public void testCatchFinallyOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CatchFinallyOnNewLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/CatchFinallyOnNewLine.after.kt");
         }
 
         @TestMetadata("Class.after.kt")
         public void testClass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Class.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Class.after.kt");
         }
 
         @TestMetadata("ClassAnnotationWrapping.after.kt")
         public void testClassAnnotationWrapping() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ClassAnnotationWrapping.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ClassAnnotationWrapping.after.kt");
         }
 
         @TestMetadata("ClassInBody.after.kt")
         public void testClassInBody() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ClassInBody.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ClassInBody.after.kt");
         }
 
         @TestMetadata("ClassLineBreak.after.kt")
         public void testClassLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ClassLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ClassLineBreak.after.kt");
         }
 
         @TestMetadata("ClassTypeParam.after.kt")
         public void testClassTypeParam() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ClassTypeParam.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ClassTypeParam.after.kt");
         }
 
         @TestMetadata("ColonSpaces.after.kt")
         public void testColonSpaces() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ColonSpaces.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ColonSpaces.after.kt");
         }
 
         @TestMetadata("CommentInFunctionLiteral.after.kt")
         public void testCommentInFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CommentInFunctionLiteral.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/CommentInFunctionLiteral.after.kt");
         }
 
         @TestMetadata("ContinuationIndentInParameterLists.after.kt")
         public void testContinuationIndentInParameterLists() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ContinuationIndentInParameterLists.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ContinuationIndentInParameterLists.after.kt");
         }
 
         @TestMetadata("ContinuationIndentInSupertypeLists.after.kt")
         public void testContinuationIndentInSupertypeLists() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ContinuationIndentInSupertypeLists.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ContinuationIndentInSupertypeLists.after.kt");
         }
 
         @TestMetadata("CurlyBraceStringInterpolation.after.kt")
         public void testCurlyBraceStringInterpolation() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CurlyBraceStringInterpolation.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/CurlyBraceStringInterpolation.after.kt");
         }
 
         @TestMetadata("DanglingComments.after.kt")
         public void testDanglingComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DanglingComments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/DanglingComments.after.kt");
         }
 
         @TestMetadata("DelegationList.after.kt")
         public void testDelegationList() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DelegationList.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/DelegationList.after.kt");
         }
 
         @TestMetadata("DoWhileLineBreak.after.kt")
         public void testDoWhileLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DoWhileLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/DoWhileLineBreak.after.kt");
         }
 
         @TestMetadata("DoWhileSpacing.after.kt")
         public void testDoWhileSpacing() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DoWhileSpacing.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/DoWhileSpacing.after.kt");
         }
 
         @TestMetadata("DocComments.after.kt")
         public void testDocComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DocComments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/DocComments.after.kt");
         }
 
         @TestMetadata("ElseOnNewLine.after.kt")
         public void testElseOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ElseOnNewLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ElseOnNewLine.after.kt");
         }
 
         @TestMetadata("Elvis.after.kt")
         public void testElvis() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Elvis.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Elvis.after.kt");
         }
 
         @TestMetadata("ElvisIndent.after.kt")
         public void testElvisIndent() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ElvisIndent.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ElvisIndent.after.kt");
         }
 
         @TestMetadata("ElvisWrap.after.kt")
         public void testElvisWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ElvisWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ElvisWrap.after.kt");
         }
 
         @TestMetadata("EmptyLineAfterObjectDeclaration.after.kt")
         public void testEmptyLineAfterObjectDeclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineAfterObjectDeclaration.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineAfterObjectDeclaration.after.kt");
         }
 
         @TestMetadata("EmptyLineAfterPackage.after.kt")
         public void testEmptyLineAfterPackage() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineAfterPackage.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineAfterPackage.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweeAbstractFunctions.after.kt")
         public void testEmptyLineBetweeAbstractFunctions() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweeAbstractFunctions.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweeAbstractFunctions.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweenClassAndFunction.after.kt")
         public void testEmptyLineBetweenClassAndFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenClassAndFunction.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenClassAndFunction.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweenClasses.after.kt")
         public void testEmptyLineBetweenClasses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenClasses.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenClasses.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweenEnumEntries.after.kt")
         public void testEmptyLineBetweenEnumEntries() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenEnumEntries.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenEnumEntries.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweenFunAndProperty.after.kt")
         public void testEmptyLineBetweenFunAndProperty() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenFunAndProperty.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenFunAndProperty.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweenFunctions.after.kt")
         public void testEmptyLineBetweenFunctions() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenFunctions.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenFunctions.after.kt");
         }
 
         @TestMetadata("EmptyLineBetweenProperties.after.kt")
         public void testEmptyLineBetweenProperties() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenProperties.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenProperties.after.kt");
         }
 
         @TestMetadata("EnumArguments.after.kt")
         public void testEnumArguments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EnumArguments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EnumArguments.after.kt");
         }
 
         @TestMetadata("EnumWrapping.after.kt")
         public void testEnumWrapping() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EnumWrapping.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/EnumWrapping.after.kt");
         }
 
         @TestMetadata("ExpressionBodyWrap.after.kt")
         public void testExpressionBodyWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ExpressionBodyWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ExpressionBodyWrap.after.kt");
         }
 
         @TestMetadata("ExtendsListWrap.after.kt")
         public void testExtendsListWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ExtendsListWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ExtendsListWrap.after.kt");
         }
 
         @TestMetadata("ForLineBreak.after.kt")
         public void testForLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ForLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ForLineBreak.after.kt");
         }
 
         @TestMetadata("ForNoBraces.after.kt")
         public void testForNoBraces() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ForNoBraces.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ForNoBraces.after.kt");
         }
 
         @TestMetadata("ForSpacing.after.kt")
         public void testForSpacing() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ForSpacing.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ForSpacing.after.kt");
         }
 
         @TestMetadata("FormatFirstColumnComments.after.kt")
         public void testFormatFirstColumnComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FormatFirstColumnComments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FormatFirstColumnComments.after.kt");
         }
 
         @TestMetadata("FormatFirstColumnCommentsBeforeDeclaration.after.kt")
         public void testFormatFirstColumnCommentsBeforeDeclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FormatFirstColumnCommentsBeforeDeclaration.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FormatFirstColumnCommentsBeforeDeclaration.after.kt");
         }
 
         @TestMetadata("FunctionCallParametersAlign.after.kt")
         public void testFunctionCallParametersAlign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionCallParametersAlign.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionCallParametersAlign.after.kt");
         }
 
         @TestMetadata("FunctionDefParametersAlign.after.kt")
         public void testFunctionDefParametersAlign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionDefParametersAlign.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionDefParametersAlign.after.kt");
         }
 
         @TestMetadata("FunctionExpression.after.kt")
         public void testFunctionExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionExpression.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionExpression.after.kt");
         }
 
         @TestMetadata("FunctionLineBreak.after.kt")
         public void testFunctionLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionLineBreak.after.kt");
         }
 
         @TestMetadata("FunctionReferenceOperator.after.kt")
         public void testFunctionReferenceOperator() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionReferenceOperator.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionReferenceOperator.after.kt");
         }
 
         @TestMetadata("FunctionWithInference.after.kt")
         public void testFunctionWithInference() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionWithInference.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionWithInference.after.kt");
         }
 
         @TestMetadata("FunctionalType.after.kt")
         public void testFunctionalType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionalType.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/FunctionalType.after.kt");
         }
 
         @TestMetadata("GetterAndSetter.after.kt")
         public void testGetterAndSetter() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/GetterAndSetter.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/GetterAndSetter.after.kt");
         }
 
         @TestMetadata("If.after.kt")
         public void testIf() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/If.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/If.after.kt");
         }
 
         @TestMetadata("IfClosingParen.after.kt")
         public void testIfClosingParen() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfClosingParen.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfClosingParen.after.kt");
         }
 
         @TestMetadata("IfConditionIndent.after.kt")
         public void testIfConditionIndent() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfConditionIndent.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfConditionIndent.after.kt");
         }
 
         @TestMetadata("IfElseRemoveLineBreak.after.kt")
         public void testIfElseRemoveLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfElseRemoveLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfElseRemoveLineBreak.after.kt");
         }
 
         @TestMetadata("IfElseWithLineBreak.after.kt")
         public void testIfElseWithLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfElseWithLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfElseWithLineBreak.after.kt");
         }
 
         @TestMetadata("IfElseWithTrickyComments.after.kt")
         public void testIfElseWithTrickyComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfElseWithTrickyComments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfElseWithTrickyComments.after.kt");
         }
 
         @TestMetadata("IfRParen.after.kt")
         public void testIfRParen() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfRParen.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfRParen.after.kt");
         }
 
         @TestMetadata("IfSpacing.after.kt")
         public void testIfSpacing() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfSpacing.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/IfSpacing.after.kt");
         }
 
         @TestMetadata("In.after.kt")
         public void testIn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/In.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/In.after.kt");
         }
 
         @TestMetadata("InfixCall.after.kt")
         public void testInfixCall() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/InfixCall.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/InfixCall.after.kt");
         }
 
         @TestMetadata("Is.after.kt")
         public void testIs() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Is.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Is.after.kt");
         }
 
         @TestMetadata("KDoc.after.kt")
         public void testKDoc() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/KDoc.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/KDoc.after.kt");
         }
 
         @TestMetadata("KT22230.after.kt")
         public void testKT22230() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/KT22230.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/KT22230.after.kt");
         }
 
         @TestMetadata("KeepLineBreak.after.kt")
         public void testKeepLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/KeepLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/KeepLineBreak.after.kt");
         }
 
         @TestMetadata("LabeledExpression.after.kt")
         public void testLabeledExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LabeledExpression.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/LabeledExpression.after.kt");
         }
 
         @TestMetadata("LambdaArrow.after.kt")
         public void testLambdaArrow() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LambdaArrow.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/LambdaArrow.after.kt");
         }
 
         @TestMetadata("LineBreakBeforeExtendsColon.after.kt")
         public void testLineBreakBeforeExtendsColon() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LineBreakBeforeExtendsColon.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/LineBreakBeforeExtendsColon.after.kt");
         }
 
         @TestMetadata("LineBreakBeforeExtendsColonWrap.after.kt")
         public void testLineBreakBeforeExtendsColonWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LineBreakBeforeExtendsColonWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/LineBreakBeforeExtendsColonWrap.after.kt");
         }
 
         @TestMetadata("LocalVariableAnnotationWrap.after.kt")
         public void testLocalVariableAnnotationWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LocalVariableAnnotationWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/LocalVariableAnnotationWrap.after.kt");
         }
 
         @TestMetadata("LoopParameterWithExplicitType.after.kt")
         public void testLoopParameterWithExplicitType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LoopParameterWithExplicitType.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/LoopParameterWithExplicitType.after.kt");
         }
 
         @TestMetadata("MethodAnnotationWrapping.after.kt")
         public void testMethodAnnotationWrapping() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MethodAnnotationWrapping.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/MethodAnnotationWrapping.after.kt");
         }
 
         @TestMetadata("MethodCall.after.kt")
         public void testMethodCall() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MethodCall.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/MethodCall.after.kt");
         }
 
         @TestMetadata("MethodLParenthOnNextLine.after.kt")
         public void testMethodLParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MethodLParenthOnNextLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/MethodLParenthOnNextLine.after.kt");
         }
 
         @TestMetadata("MethodRParenthOnNextLine.after.kt")
         public void testMethodRParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MethodRParenthOnNextLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/MethodRParenthOnNextLine.after.kt");
         }
 
         @TestMetadata("Multideclaration.after.kt")
         public void testMultideclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Multideclaration.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Multideclaration.after.kt");
         }
 
         @TestMetadata("MultilineFunctionLiteral.after.kt")
         public void testMultilineFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MultilineFunctionLiteral.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/MultilineFunctionLiteral.after.kt");
         }
 
         @TestMetadata("MultilineFunctionLiteralWithParams.after.kt")
         public void testMultilineFunctionLiteralWithParams() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MultilineFunctionLiteralWithParams.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/MultilineFunctionLiteralWithParams.after.kt");
         }
 
         @TestMetadata("NewLineForRBrace.after.kt")
         public void testNewLineForRBrace() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/NewLineForRBrace.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/NewLineForRBrace.after.kt");
         }
 
         @TestMetadata("NotIn.after.kt")
         public void testNotIn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/NotIn.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/NotIn.after.kt");
         }
 
         @TestMetadata("NotIs.after.kt")
         public void testNotIs() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/NotIs.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/NotIs.after.kt");
         }
 
         @TestMetadata("NullableType.after.kt")
         public void testNullableType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/NullableType.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/NullableType.after.kt");
         }
 
         @TestMetadata("ObjectInBody.after.kt")
         public void testObjectInBody() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ObjectInBody.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ObjectInBody.after.kt");
         }
 
         @TestMetadata("ParameterAnnotationWrap.after.kt")
         public void testParameterAnnotationWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ParameterAnnotationWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ParameterAnnotationWrap.after.kt");
         }
 
         @TestMetadata("ParameterDocComments.after.kt")
         public void testParameterDocComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ParameterDocComments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ParameterDocComments.after.kt");
         }
 
         @TestMetadata("Parameters.after.kt")
         public void testParameters() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Parameters.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Parameters.after.kt");
         }
 
         @TestMetadata("PrimaryConstructor.after.kt")
         public void testPrimaryConstructor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PrimaryConstructor.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PrimaryConstructor.after.kt");
         }
 
         @TestMetadata("PropertyAccessorLineBreak.after.kt")
         public void testPropertyAccessorLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PropertyAccessorLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PropertyAccessorLineBreak.after.kt");
         }
 
         @TestMetadata("PropertyAccessors.after.kt")
         public void testPropertyAccessors() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PropertyAccessors.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PropertyAccessors.after.kt");
         }
 
         @TestMetadata("PropertyAnnotationWrap.after.kt")
         public void testPropertyAnnotationWrap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PropertyAnnotationWrap.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PropertyAnnotationWrap.after.kt");
         }
 
         @TestMetadata("PropertyInitializerLineBreak.after.kt")
         public void testPropertyInitializerLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PropertyInitializerLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PropertyInitializerLineBreak.after.kt");
         }
 
         @TestMetadata("PropertyTypeParameterList.after.kt")
         public void testPropertyTypeParameterList() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PropertyTypeParameterList.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PropertyTypeParameterList.after.kt");
         }
 
         @TestMetadata("PropertyWithInference.after.kt")
         public void testPropertyWithInference() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/PropertyWithInference.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/PropertyWithInference.after.kt");
         }
 
         @TestMetadata("ReferenceExpressionFunctionLiteral.after.kt")
         public void testReferenceExpressionFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ReferenceExpressionFunctionLiteral.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ReferenceExpressionFunctionLiteral.after.kt");
         }
 
         @TestMetadata("RemoveSpacesAroundOperations.after.kt")
         public void testRemoveSpacesAroundOperations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/RemoveSpacesAroundOperations.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/RemoveSpacesAroundOperations.after.kt");
         }
 
         @TestMetadata("ReturnExpression.after.kt")
         public void testReturnExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ReturnExpression.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ReturnExpression.after.kt");
         }
 
         @TestMetadata("RightBracketOnNewLine.after.kt")
         public void testRightBracketOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/RightBracketOnNewLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/RightBracketOnNewLine.after.kt");
         }
 
         @TestMetadata("SaveSpacesInDocComments.after.kt")
         public void testSaveSpacesInDocComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SaveSpacesInDocComments.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SaveSpacesInDocComments.after.kt");
         }
 
         @TestMetadata("Script.after.kts")
         public void testScript() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Script.after.kts", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Script.after.kts");
         }
 
         @TestMetadata("SecondaryConstructors.after.kt")
         public void testSecondaryConstructors() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SecondaryConstructors.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SecondaryConstructors.after.kt");
         }
 
         @TestMetadata("secondaryCtorLineBreak.after.kt")
         public void testSecondaryCtorLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/secondaryCtorLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/secondaryCtorLineBreak.after.kt");
         }
 
         @TestMetadata("Semicolon.after.kt")
         public void testSemicolon() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Semicolon.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/Semicolon.after.kt");
         }
 
         @TestMetadata("SingleLineFunctionLiteral.after.kt")
         public void testSingleLineFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SingleLineFunctionLiteral.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SingleLineFunctionLiteral.after.kt");
         }
 
         @TestMetadata("SpaceAroundDotInUserReference.after.kt")
         public void testSpaceAroundDotInUserReference() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundDotInUserReference.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundDotInUserReference.after.kt");
         }
 
         @TestMetadata("SpaceAroundExtendColon.after.kt")
         public void testSpaceAroundExtendColon() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundExtendColon.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundExtendColon.after.kt");
         }
 
         @TestMetadata("SpaceAroundExtendColonInObjects.after.kt")
         public void testSpaceAroundExtendColonInObjects() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundExtendColonInObjects.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundExtendColonInObjects.after.kt");
         }
 
         @TestMetadata("SpaceAroundExtendColonInSecondaryCtr.after.kt")
         public void testSpaceAroundExtendColonInSecondaryCtr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundExtendColonInSecondaryCtr.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundExtendColonInSecondaryCtr.after.kt");
         }
 
         @TestMetadata("SpaceBeforeCatchParentheses.after.kt")
         public void testSpaceBeforeCatchParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeCatchParentheses.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeCatchParentheses.after.kt");
         }
 
         @TestMetadata("SpaceBeforeForParentheses.after.kt")
         public void testSpaceBeforeForParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeForParentheses.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeForParentheses.after.kt");
         }
 
         @TestMetadata("SpaceBeforeFunctionLiteral.after.kt")
         public void testSpaceBeforeFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeFunctionLiteral.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeFunctionLiteral.after.kt");
         }
 
         @TestMetadata("SpaceBeforeIfParentheses.after.kt")
         public void testSpaceBeforeIfParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeIfParentheses.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeIfParentheses.after.kt");
         }
 
         @TestMetadata("SpaceBeforeIndices.after.kt")
         public void testSpaceBeforeIndices() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeIndices.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeIndices.after.kt");
         }
 
         @TestMetadata("SpaceBeforeTypeArgumentList.after.kt")
         public void testSpaceBeforeTypeArgumentList() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeTypeArgumentList.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeTypeArgumentList.after.kt");
         }
 
         @TestMetadata("SpaceBeforeWhenParentheses.after.kt")
         public void testSpaceBeforeWhenParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeWhenParentheses.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeWhenParentheses.after.kt");
         }
 
         @TestMetadata("SpaceBeforeWhileParentheses.after.kt")
         public void testSpaceBeforeWhileParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeWhileParentheses.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeWhileParentheses.after.kt");
         }
 
         @TestMetadata("SpacedInsideParans.after.kt")
         public void testSpacedInsideParans() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacedInsideParans.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpacedInsideParans.after.kt");
         }
 
         @TestMetadata("SpacesAroundOperations.after.kt")
         public void testSpacesAroundOperations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacesAroundOperations.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpacesAroundOperations.after.kt");
         }
 
         @TestMetadata("SpacesAroundUnaryOperations.after.kt")
         public void testSpacesAroundUnaryOperations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacesAroundUnaryOperations.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpacesAroundUnaryOperations.after.kt");
         }
 
         @TestMetadata("SpacesInDeclarations.after.kt")
         public void testSpacesInDeclarations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacesInDeclarations.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpacesInDeclarations.after.kt");
         }
 
         @TestMetadata("SpacesInQualifiedExpressions.after.kt")
         public void testSpacesInQualifiedExpressions() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacesInQualifiedExpressions.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SpacesInQualifiedExpressions.after.kt");
         }
 
         @TestMetadata("SuperListIndent.after.kt")
         public void testSuperListIndent() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SuperListIndent.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/SuperListIndent.after.kt");
         }
 
         @TestMetadata("TryCatchLineBreak.after.kt")
         public void testTryCatchLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/TryCatchLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/TryCatchLineBreak.after.kt");
         }
 
         @TestMetadata("TypeAliasSpacing.after.kt")
         public void testTypeAliasSpacing() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/TypeAliasSpacing.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/TypeAliasSpacing.after.kt");
         }
 
         @TestMetadata("UnnecessarySpacesInParametersLists.after.kt")
         public void testUnnecessarySpacesInParametersLists() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/UnnecessarySpacesInParametersLists.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/UnnecessarySpacesInParametersLists.after.kt");
         }
 
         @TestMetadata("ValVarSpaces.after.kt")
         public void testValVarSpaces() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ValVarSpaces.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/ValVarSpaces.after.kt");
         }
 
         @TestMetadata("When.after.kt")
         public void testWhen() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/When.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/When.after.kt");
         }
 
         @TestMetadata("WhenArrow.after.kt")
         public void testWhenArrow() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenArrow.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhenArrow.after.kt");
         }
 
         @TestMetadata("WhenBlockBlankLines.after.kt")
         public void testWhenBlockBlankLines() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenBlockBlankLines.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhenBlockBlankLines.after.kt");
         }
 
         @TestMetadata("WhenEntryExpr.after.kt")
         public void testWhenEntryExpr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenEntryExpr.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhenEntryExpr.after.kt");
         }
 
         @TestMetadata("WhenLineBreak.after.kt")
         public void testWhenLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhenLineBreak.after.kt");
         }
 
         @TestMetadata("WhenLinesBeforeLbrace.after.kt")
         public void testWhenLinesBeforeLbrace() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenLinesBeforeLbrace.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhenLinesBeforeLbrace.after.kt");
         }
 
         @TestMetadata("WhereClause.after.kt")
         public void testWhereClause() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhereClause.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhereClause.after.kt");
         }
 
         @TestMetadata("WhileLineBreak.after.kt")
         public void testWhileLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhileLineBreak.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhileLineBreak.after.kt");
         }
 
         @TestMetadata("WhileOnNewLine.after.kt")
         public void testWhileOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhileOnNewLine.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhileOnNewLine.after.kt");
         }
 
         @TestMetadata("WhileSpacing.after.kt")
         public void testWhileSpacing() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhileSpacing.after.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/WhileSpacing.after.kt");
         }
 
         @TestMetadata("idea/testData/formatter/callChain")
@@ -782,57 +782,57 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
             @TestMetadata("CallChainWrapping.after.kt")
             public void testCallChainWrapping() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/CallChainWrapping.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/CallChainWrapping.after.kt");
             }
 
             @TestMetadata("ConsecutiveCalls.after.kt")
             public void testConsecutiveCalls() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/ConsecutiveCalls.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/ConsecutiveCalls.after.kt");
             }
 
             @TestMetadata("ConsecutiveSafeCallsIndent.after.kt")
             public void testConsecutiveSafeCallsIndent() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/ConsecutiveSafeCallsIndent.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/ConsecutiveSafeCallsIndent.after.kt");
             }
 
             @TestMetadata("ContinuationIndentForChainedCalls.after.kt")
             public void testContinuationIndentForChainedCalls() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/ContinuationIndentForChainedCalls.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/ContinuationIndentForChainedCalls.after.kt");
             }
 
             @TestMetadata("FunctionLiteralsInChainCalls.after.kt")
             public void testFunctionLiteralsInChainCalls() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/FunctionLiteralsInChainCalls.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/FunctionLiteralsInChainCalls.after.kt");
             }
 
             @TestMetadata("KT15099.after.kt")
             public void testKT15099() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/KT15099.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/KT15099.after.kt");
             }
 
             @TestMetadata("KT20362.after.kt")
             public void testKT20362() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/KT20362.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/KT20362.after.kt");
             }
 
             @TestMetadata("KT22071.after.kt")
             public void testKT22071() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/KT22071.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/KT22071.after.kt");
             }
 
             @TestMetadata("KT22115.after.kt")
             public void testKT22115() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/KT22115.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/KT22115.after.kt");
             }
 
             @TestMetadata("KT22148.after.kt")
             public void testKT22148() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/KT22148.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/KT22148.after.kt");
             }
 
             @TestMetadata("KT22346.after.kt")
             public void testKT22346() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/KT22346.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/callChain/KT22346.after.kt");
             }
         }
 
@@ -842,7 +842,7 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
         public static class FileAnnotations extends AbstractFormatterTest {
             @TestMetadata("afterComment.after.kt")
             public void testAfterComment() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/fileAnnotations/afterComment.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/fileAnnotations/afterComment.after.kt");
             }
 
             public void testAllFilesPresentInFileAnnotations() throws Exception {
@@ -851,27 +851,27 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
             @TestMetadata("beforeDeclaration.after.kt")
             public void testBeforeDeclaration() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/fileAnnotations/beforeDeclaration.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/fileAnnotations/beforeDeclaration.after.kt");
             }
 
             @TestMetadata("beforeImportList.after.kt")
             public void testBeforeImportList() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/fileAnnotations/beforeImportList.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/fileAnnotations/beforeImportList.after.kt");
             }
 
             @TestMetadata("beforePackage.after.kt")
             public void testBeforePackage() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/fileAnnotations/beforePackage.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/fileAnnotations/beforePackage.after.kt");
             }
 
             @TestMetadata("inEmptyFile.after.kt")
             public void testInEmptyFile() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/fileAnnotations/inEmptyFile.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/fileAnnotations/inEmptyFile.after.kt");
             }
 
             @TestMetadata("manyLinesFromFileBegin.after.kt")
             public void testManyLinesFromFileBegin() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/fileAnnotations/manyLinesFromFileBegin.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/fileAnnotations/manyLinesFromFileBegin.after.kt");
             }
         }
 
@@ -885,82 +885,82 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
             @TestMetadata("funAnnotationBeforeAnnotation.after.kt")
             public void testFunAnnotationBeforeAnnotation() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funAnnotationBeforeAnnotation.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funAnnotationBeforeAnnotation.after.kt");
             }
 
             @TestMetadata("funAnnotationBeforeAnnotationEntry.after.kt")
             public void testFunAnnotationBeforeAnnotationEntry() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funAnnotationBeforeAnnotationEntry.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funAnnotationBeforeAnnotationEntry.after.kt");
             }
 
             @TestMetadata("funAnnotationBeforeModifiers.after.kt")
             public void testFunAnnotationBeforeModifiers() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funAnnotationBeforeModifiers.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funAnnotationBeforeModifiers.after.kt");
             }
 
             @TestMetadata("funAnnotationEntryBeforeAnnotation.after.kt")
             public void testFunAnnotationEntryBeforeAnnotation() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funAnnotationEntryBeforeAnnotation.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funAnnotationEntryBeforeAnnotation.after.kt");
             }
 
             @TestMetadata("funAnnotationEntryBeforeAnnotationEntry.after.kt")
             public void testFunAnnotationEntryBeforeAnnotationEntry() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funAnnotationEntryBeforeAnnotationEntry.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funAnnotationEntryBeforeAnnotationEntry.after.kt");
             }
 
             @TestMetadata("funAnnotationEntryBeforeModifiers.after.kt")
             public void testFunAnnotationEntryBeforeModifiers() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funAnnotationEntryBeforeModifiers.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funAnnotationEntryBeforeModifiers.after.kt");
             }
 
             @TestMetadata("funModifierBeforeAnnotation.after.kt")
             public void testFunModifierBeforeAnnotation() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funModifierBeforeAnnotation.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funModifierBeforeAnnotation.after.kt");
             }
 
             @TestMetadata("funModifierBeforeAnnotationEntry.after.kt")
             public void testFunModifierBeforeAnnotationEntry() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funModifierBeforeAnnotationEntry.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funModifierBeforeAnnotationEntry.after.kt");
             }
 
             @TestMetadata("funModifierBeforeModifiers.after.kt")
             public void testFunModifierBeforeModifiers() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funModifierBeforeModifiers.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funModifierBeforeModifiers.after.kt");
             }
 
             @TestMetadata("funTheOnlyModifier.after.kt")
             public void testFunTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/funTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/funTheOnlyModifier.after.kt");
             }
 
             @TestMetadata("memberFunTheOnlyModifier.after.kt")
             public void testMemberFunTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/memberFunTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/memberFunTheOnlyModifier.after.kt");
             }
 
             @TestMetadata("memberValTheOnlyModifier.after.kt")
             public void testMemberValTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/memberValTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/memberValTheOnlyModifier.after.kt");
             }
 
             @TestMetadata("memberVarTheOnlyModifier.after.kt")
             public void testMemberVarTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/memberVarTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/memberVarTheOnlyModifier.after.kt");
             }
 
             @TestMetadata("secondMemberFunTheOnlyModifier.after.kt")
             public void testSecondMemberFunTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/secondMemberFunTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/secondMemberFunTheOnlyModifier.after.kt");
             }
 
             @TestMetadata("secondMemberValTheOnlyModifier.after.kt")
             public void testSecondMemberValTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/secondMemberValTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/secondMemberValTheOnlyModifier.after.kt");
             }
 
             @TestMetadata("secondMemberVarTheOnlyModifier.after.kt")
             public void testSecondMemberVarTheOnlyModifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/modifierList/secondMemberVarTheOnlyModifier.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/modifierList/secondMemberVarTheOnlyModifier.after.kt");
             }
         }
 
@@ -974,57 +974,57 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
             @TestMetadata("ArgumentListChopAsNeeded.after.kt")
             public void testArgumentListChopAsNeeded() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ArgumentListChopAsNeeded.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ArgumentListChopAsNeeded.after.kt");
             }
 
             @TestMetadata("ArgumentListDoNotWrap.after.kt")
             public void testArgumentListDoNotWrap() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ArgumentListDoNotWrap.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ArgumentListDoNotWrap.after.kt");
             }
 
             @TestMetadata("ArgumentListWrapAlways.after.kt")
             public void testArgumentListWrapAlways() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ArgumentListWrapAlways.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ArgumentListWrapAlways.after.kt");
             }
 
             @TestMetadata("ArgumentListWrapAsNeeded.after.kt")
             public void testArgumentListWrapAsNeeded() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ArgumentListWrapAsNeeded.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ArgumentListWrapAsNeeded.after.kt");
             }
 
             @TestMetadata("ArgumentListWrapLParen.after.kt")
             public void testArgumentListWrapLParen() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ArgumentListWrapLParen.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ArgumentListWrapLParen.after.kt");
             }
 
             @TestMetadata("DefaultParameterValues.after.kt")
             public void testDefaultParameterValues() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/DefaultParameterValues.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/DefaultParameterValues.after.kt");
             }
 
             @TestMetadata("KT19727.after.kt")
             public void testKT19727() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/KT19727.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/KT19727.after.kt");
             }
 
             @TestMetadata("ParameterListChopAsNeeded.after.kt")
             public void testParameterListChopAsNeeded() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ParameterListChopAsNeeded.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ParameterListChopAsNeeded.after.kt");
             }
 
             @TestMetadata("ParameterListDoNotWrap.after.kt")
             public void testParameterListDoNotWrap() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ParameterListDoNotWrap.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ParameterListDoNotWrap.after.kt");
             }
 
             @TestMetadata("ParameterListWrapAlways.after.kt")
             public void testParameterListWrapAlways() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ParameterListWrapAlways.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ParameterListWrapAlways.after.kt");
             }
 
             @TestMetadata("ParameterListWrapAsNeeded.after.kt")
             public void testParameterListWrapAsNeeded() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/ParameterListWrapAsNeeded.after.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/formatter/parameterList/ParameterListWrapAsNeeded.after.kt");
             }
         }
     }
@@ -1039,242 +1039,242 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
         @TestMetadata("AnonymousInitializersLineBreak.after.inv.kt")
         public void testAnonymousInitializersLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/AnonymousInitializersLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/AnonymousInitializersLineBreak.after.inv.kt");
         }
 
         @TestMetadata("BinaryExpressions.after.inv.kt")
         public void testBinaryExpressions() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressions.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressions.after.inv.kt");
         }
 
         @TestMetadata("BinaryExpressionsBoolean.after.inv.kt")
         public void testBinaryExpressionsBoolean() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressionsBoolean.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressionsBoolean.after.inv.kt");
         }
 
         @TestMetadata("BinaryExpressionsWithoutAlignment.after.inv.kt")
         public void testBinaryExpressionsWithoutAlignment() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/BinaryExpressionsWithoutAlignment.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/BinaryExpressionsWithoutAlignment.after.inv.kt");
         }
 
         @TestMetadata("CallLParenthOnNextLine.after.inv.kt")
         public void testCallLParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CallLParenthOnNextLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/CallLParenthOnNextLine.after.inv.kt");
         }
 
         @TestMetadata("CallRParenthOnNextLine.after.inv.kt")
         public void testCallRParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CallRParenthOnNextLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/CallRParenthOnNextLine.after.inv.kt");
         }
 
         @TestMetadata("CatchFinallyOnNewLine.after.inv.kt")
         public void testCatchFinallyOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/CatchFinallyOnNewLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/CatchFinallyOnNewLine.after.inv.kt");
         }
 
         @TestMetadata("ClassLineBreak.after.inv.kt")
         public void testClassLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ClassLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/ClassLineBreak.after.inv.kt");
         }
 
         @TestMetadata("ColonSpaces.after.inv.kt")
         public void testColonSpaces() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ColonSpaces.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/ColonSpaces.after.inv.kt");
         }
 
         @TestMetadata("ContinuationIndentForExpressionBodies.after.inv.kt")
         public void testContinuationIndentForExpressionBodies() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ContinuationIndentForExpressionBodies.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/ContinuationIndentForExpressionBodies.after.inv.kt");
         }
 
         @TestMetadata("DelegationList.after.inv.kt")
         public void testDelegationList() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DelegationList.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/DelegationList.after.inv.kt");
         }
 
         @TestMetadata("DoWhileLineBreak.after.inv.kt")
         public void testDoWhileLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/DoWhileLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/DoWhileLineBreak.after.inv.kt");
         }
 
         @TestMetadata("ElseOnNewLine.after.inv.kt")
         public void testElseOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ElseOnNewLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/ElseOnNewLine.after.inv.kt");
         }
 
         @TestMetadata("Elvis.after.inv.kt")
         public void testElvis() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Elvis.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/Elvis.after.inv.kt");
         }
 
         @TestMetadata("EmptyBlocks.after.inv.kt")
         public void testEmptyBlocks() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyBlocks.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/EmptyBlocks.after.inv.kt");
         }
 
         @TestMetadata("EmptyLineBetweenEnumEntries.after.inv.kt")
         public void testEmptyLineBetweenEnumEntries() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/EmptyLineBetweenEnumEntries.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/EmptyLineBetweenEnumEntries.after.inv.kt");
         }
 
         @TestMetadata("ForLineBreak.after.inv.kt")
         public void testForLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/ForLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/ForLineBreak.after.inv.kt");
         }
 
         @TestMetadata("FormatFirstColumnComments.after.inv.kt")
         public void testFormatFirstColumnComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FormatFirstColumnComments.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/FormatFirstColumnComments.after.inv.kt");
         }
 
         @TestMetadata("FormatFirstColumnCommentsBeforeDeclaration.after.inv.kt")
         public void testFormatFirstColumnCommentsBeforeDeclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FormatFirstColumnCommentsBeforeDeclaration.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/FormatFirstColumnCommentsBeforeDeclaration.after.inv.kt");
         }
 
         @TestMetadata("FunctionLineBreak.after.inv.kt")
         public void testFunctionLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/FunctionLineBreak.after.inv.kt");
         }
 
         @TestMetadata("FunctionalType.after.inv.kt")
         public void testFunctionalType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/FunctionalType.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/FunctionalType.after.inv.kt");
         }
 
         @TestMetadata("IfConditionIndent.after.inv.kt")
         public void testIfConditionIndent() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfConditionIndent.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/IfConditionIndent.after.inv.kt");
         }
 
         @TestMetadata("IfElseWithTrickyComments.after.inv.kt")
         public void testIfElseWithTrickyComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/IfElseWithTrickyComments.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/IfElseWithTrickyComments.after.inv.kt");
         }
 
         @TestMetadata("KeepLineBreak.after.inv.kt")
         public void testKeepLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/KeepLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/KeepLineBreak.after.inv.kt");
         }
 
         @TestMetadata("LambdaArrow.after.inv.kt")
         public void testLambdaArrow() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/LambdaArrow.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/LambdaArrow.after.inv.kt");
         }
 
         @TestMetadata("MethodLParenthOnNextLine.after.inv.kt")
         public void testMethodLParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MethodLParenthOnNextLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/MethodLParenthOnNextLine.after.inv.kt");
         }
 
         @TestMetadata("MethodRParenthOnNextLine.after.inv.kt")
         public void testMethodRParenthOnNextLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MethodRParenthOnNextLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/MethodRParenthOnNextLine.after.inv.kt");
         }
 
         @TestMetadata("MultilineFunctionLiteralWithParams.after.inv.kt")
         public void testMultilineFunctionLiteralWithParams() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/MultilineFunctionLiteralWithParams.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/MultilineFunctionLiteralWithParams.after.inv.kt");
         }
 
         @TestMetadata("Parameters.after.inv.kt")
         public void testParameters() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/Parameters.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/Parameters.after.inv.kt");
         }
 
         @TestMetadata("RightBracketOnNewLine.after.inv.kt")
         public void testRightBracketOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/RightBracketOnNewLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/RightBracketOnNewLine.after.inv.kt");
         }
 
         @TestMetadata("secondaryCtorLineBreak.after.inv.kt")
         public void testSecondaryCtorLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/secondaryCtorLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/secondaryCtorLineBreak.after.inv.kt");
         }
 
         @TestMetadata("SingleLineFunctionLiteral.after.inv.kt")
         public void testSingleLineFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SingleLineFunctionLiteral.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SingleLineFunctionLiteral.after.inv.kt");
         }
 
         @TestMetadata("SpaceAroundExtendColon.after.inv.kt")
         public void testSpaceAroundExtendColon() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundExtendColon.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundExtendColon.after.inv.kt");
         }
 
         @TestMetadata("SpaceAroundExtendColonInObjects.after.inv.kt")
         public void testSpaceAroundExtendColonInObjects() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundExtendColonInObjects.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundExtendColonInObjects.after.inv.kt");
         }
 
         @TestMetadata("SpaceAroundExtendColonInSecondaryCtr.after.inv.kt")
         public void testSpaceAroundExtendColonInSecondaryCtr() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceAroundExtendColonInSecondaryCtr.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceAroundExtendColonInSecondaryCtr.after.inv.kt");
         }
 
         @TestMetadata("SpaceBeforeCatchParentheses.after.inv.kt")
         public void testSpaceBeforeCatchParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeCatchParentheses.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeCatchParentheses.after.inv.kt");
         }
 
         @TestMetadata("SpaceBeforeForParentheses.after.inv.kt")
         public void testSpaceBeforeForParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeForParentheses.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeForParentheses.after.inv.kt");
         }
 
         @TestMetadata("SpaceBeforeIfParentheses.after.inv.kt")
         public void testSpaceBeforeIfParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeIfParentheses.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeIfParentheses.after.inv.kt");
         }
 
         @TestMetadata("SpaceBeforeWhenParentheses.after.inv.kt")
         public void testSpaceBeforeWhenParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeWhenParentheses.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeWhenParentheses.after.inv.kt");
         }
 
         @TestMetadata("SpaceBeforeWhileParentheses.after.inv.kt")
         public void testSpaceBeforeWhileParentheses() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpaceBeforeWhileParentheses.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpaceBeforeWhileParentheses.after.inv.kt");
         }
 
         @TestMetadata("SpacesAroundOperations.after.inv.kt")
         public void testSpacesAroundOperations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacesAroundOperations.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpacesAroundOperations.after.inv.kt");
         }
 
         @TestMetadata("SpacesAroundUnaryOperations.after.inv.kt")
         public void testSpacesAroundUnaryOperations() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/SpacesAroundUnaryOperations.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/SpacesAroundUnaryOperations.after.inv.kt");
         }
 
         @TestMetadata("TryCatchLineBreak.after.inv.kt")
         public void testTryCatchLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/TryCatchLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/TryCatchLineBreak.after.inv.kt");
         }
 
         @TestMetadata("When.after.inv.kt")
         public void testWhen() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/When.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/When.after.inv.kt");
         }
 
         @TestMetadata("WhenArrow.after.inv.kt")
         public void testWhenArrow() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenArrow.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/WhenArrow.after.inv.kt");
         }
 
         @TestMetadata("WhenLineBreak.after.inv.kt")
         public void testWhenLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhenLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/WhenLineBreak.after.inv.kt");
         }
 
         @TestMetadata("WhileLineBreak.after.inv.kt")
         public void testWhileLineBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhileLineBreak.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/WhileLineBreak.after.inv.kt");
         }
 
         @TestMetadata("WhileOnNewLine.after.inv.kt")
         public void testWhileOnNewLine() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/formatter/WhileOnNewLine.after.inv.kt", this::doTestInverted);
+            KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/WhileOnNewLine.after.inv.kt");
         }
 
         @TestMetadata("idea/testData/formatter/callChain")
@@ -1287,22 +1287,22 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
             @TestMetadata("CallChainWrapping.after.inv.kt")
             public void testCallChainWrapping() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/CallChainWrapping.after.inv.kt", this::doTestInverted);
+                KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/callChain/CallChainWrapping.after.inv.kt");
             }
 
             @TestMetadata("ConsecutiveSafeCallsIndent.after.inv.kt")
             public void testConsecutiveSafeCallsIndent() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/ConsecutiveSafeCallsIndent.after.inv.kt", this::doTestInverted);
+                KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/callChain/ConsecutiveSafeCallsIndent.after.inv.kt");
             }
 
             @TestMetadata("ContinuationIndentForChainedCalls.after.inv.kt")
             public void testContinuationIndentForChainedCalls() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/ContinuationIndentForChainedCalls.after.inv.kt", this::doTestInverted);
+                KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/callChain/ContinuationIndentForChainedCalls.after.inv.kt");
             }
 
             @TestMetadata("FunctionLiteralsInChainCalls.after.inv.kt")
             public void testFunctionLiteralsInChainCalls() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/callChain/FunctionLiteralsInChainCalls.after.inv.kt", this::doTestInverted);
+                KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/callChain/FunctionLiteralsInChainCalls.after.inv.kt");
             }
         }
 
@@ -1316,7 +1316,7 @@ public class FormatterTestGenerated extends AbstractFormatterTest {
 
             @TestMetadata("DefaultParameterValues.after.inv.kt")
             public void testDefaultParameterValues() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/formatter/parameterList/DefaultParameterValues.after.inv.kt", this::doTestInverted);
+                KotlinTestUtils.runTest(this::doTestInverted,TargetBackend.ANY, "idea/testData/formatter/parameterList/DefaultParameterValues.after.inv.kt");
             }
         }
     }

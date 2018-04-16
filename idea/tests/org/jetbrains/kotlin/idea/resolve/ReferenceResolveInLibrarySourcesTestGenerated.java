@@ -27,21 +27,21 @@ public class ReferenceResolveInLibrarySourcesTestGenerated extends AbstractRefer
 
     @TestMetadata("builtInNumber.kt")
     public void testBuiltInNumber() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInLib/builtInNumber.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInLib/builtInNumber.kt");
     }
 
     @TestMetadata("inLibrarySource.kt")
     public void testInLibrarySource() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInLib/inLibrarySource.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInLib/inLibrarySource.kt");
     }
 
     @TestMetadata("toFunParameter.kt")
     public void testToFunParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInLib/toFunParameter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInLib/toFunParameter.kt");
     }
 
     @TestMetadata("toLocalFun.kt")
     public void testToLocalFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/resolve/referenceInLib/toLocalFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/resolve/referenceInLib/toLocalFun.kt");
     }
 }

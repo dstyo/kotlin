@@ -43,22 +43,22 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("functionReference.kt")
             public void testFunctionReference() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/callableReference/visibility/functionReference.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/callableReference/visibility/functionReference.kt");
             }
 
             @TestMetadata("functionReferenceInInlineFunction.kt")
             public void testFunctionReferenceInInlineFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/callableReference/visibility/functionReferenceInInlineFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/callableReference/visibility/functionReferenceInInlineFunction.kt");
             }
 
             @TestMetadata("propertyReference.kt")
             public void testPropertyReference() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/callableReference/visibility/propertyReference.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/callableReference/visibility/propertyReference.kt");
             }
 
             @TestMetadata("propertyReferenceInInlineFunction.kt")
             public void testPropertyReferenceInInlineFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/callableReference/visibility/propertyReferenceInInlineFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/callableReference/visibility/propertyReferenceInInlineFunction.kt");
             }
         }
     }
@@ -81,47 +81,47 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("defaultImpls.kt")
             public void testDefaultImpls() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/defaultImpls.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/defaultImpls.kt");
             }
 
             @TestMetadata("innerSealed.kt")
             public void testInnerSealed() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/innerSealed.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/innerSealed.kt");
             }
 
             @TestMetadata("mappingWhen.kt")
             public void testMappingWhen() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/mappingWhen.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/mappingWhen.kt");
             }
 
             @TestMetadata("objectLiteral.kt")
             public void testObjectLiteral() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/objectLiteral.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/objectLiteral.kt");
             }
 
             @TestMetadata("publicFinalClass.kt")
             public void testPublicFinalClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/publicFinalClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/publicFinalClass.kt");
             }
 
             @TestMetadata("publicFinalInnerClass.kt")
             public void testPublicFinalInnerClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/publicFinalInnerClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/publicFinalInnerClass.kt");
             }
 
             @TestMetadata("publicInnerInterface.kt")
             public void testPublicInnerInterface() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/publicInnerInterface.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/publicInnerInterface.kt");
             }
 
             @TestMetadata("publicInterface.kt")
             public void testPublicInterface() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/publicInterface.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/publicInterface.kt");
             }
 
             @TestMetadata("simpleFilePackageFacade.kt")
             public void testSimpleFilePackageFacade() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/accessFlags/simpleFilePackageFacade.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/accessFlags/simpleFilePackageFacade.kt");
             }
         }
 
@@ -135,27 +135,27 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("class.kt")
             public void testClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/deprecatedFlag/class.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/deprecatedFlag/class.kt");
             }
 
             @TestMetadata("classObject.kt")
             public void testClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/deprecatedFlag/classObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/deprecatedFlag/classObject.kt");
             }
 
             @TestMetadata("enumClass.kt")
             public void testEnumClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/deprecatedFlag/enumClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/deprecatedFlag/enumClass.kt");
             }
 
             @TestMetadata("innerClass.kt")
             public void testInnerClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/deprecatedFlag/innerClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/deprecatedFlag/innerClass.kt");
             }
 
             @TestMetadata("trait.kt")
             public void testTrait() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/class/deprecatedFlag/trait.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/deprecatedFlag/trait.kt");
             }
         }
 
@@ -177,42 +177,42 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
                 @TestMetadata("class.kt")
                 public void testClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/class.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/class.kt");
                 }
 
                 @TestMetadata("enum.kt")
                 public void testEnum() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/enum.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/enum.kt");
                 }
 
                 @TestMetadata("innerClass.kt")
                 public void testInnerClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/innerClass.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/innerClass.kt");
                 }
 
                 @TestMetadata("innerEnum.kt")
                 public void testInnerEnum() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/innerEnum.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/innerEnum.kt");
                 }
 
                 @TestMetadata("innerObject.kt")
                 public void testInnerObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/innerObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/innerObject.kt");
                 }
 
                 @TestMetadata("innerTrait.kt")
                 public void testInnerTrait() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/innerTrait.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/innerTrait.kt");
                 }
 
                 @TestMetadata("object.kt")
                 public void testObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/object.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/object.kt");
                 }
 
                 @TestMetadata("trait.kt")
                 public void testTrait() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/internal/trait.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/internal/trait.kt");
                 }
             }
 
@@ -226,42 +226,42 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
                 @TestMetadata("class.kt")
                 public void testClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/class.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/class.kt");
                 }
 
                 @TestMetadata("enum.kt")
                 public void testEnum() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/enum.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/enum.kt");
                 }
 
                 @TestMetadata("innerClass.kt")
                 public void testInnerClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/innerClass.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/innerClass.kt");
                 }
 
                 @TestMetadata("innerEnum.kt")
                 public void testInnerEnum() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/innerEnum.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/innerEnum.kt");
                 }
 
                 @TestMetadata("innerObject.kt")
                 public void testInnerObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/innerObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/innerObject.kt");
                 }
 
                 @TestMetadata("innerTrait.kt")
                 public void testInnerTrait() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/innerTrait.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/innerTrait.kt");
                 }
 
                 @TestMetadata("object.kt")
                 public void testObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/object.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/object.kt");
                 }
 
                 @TestMetadata("trait.kt")
                 public void testTrait() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/private/trait.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/private/trait.kt");
                 }
             }
 
@@ -275,42 +275,42 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
                 @TestMetadata("class.kt")
                 public void testClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/class.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/class.kt");
                 }
 
                 @TestMetadata("enum.kt")
                 public void testEnum() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/enum.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/enum.kt");
                 }
 
                 @TestMetadata("innerClass.kt")
                 public void testInnerClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/innerClass.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/innerClass.kt");
                 }
 
                 @TestMetadata("innerEnum.kt")
                 public void testInnerEnum() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/innerEnum.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/innerEnum.kt");
                 }
 
                 @TestMetadata("innerObject.kt")
                 public void testInnerObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/innerObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/innerObject.kt");
                 }
 
                 @TestMetadata("innerTrait.kt")
                 public void testInnerTrait() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/innerTrait.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/innerTrait.kt");
                 }
 
                 @TestMetadata("object.kt")
                 public void testObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/object.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/object.kt");
                 }
 
                 @TestMetadata("trait.kt")
                 public void testTrait() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/class/visibility/public/trait.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/class/visibility/public/trait.kt");
                 }
             }
         }
@@ -334,7 +334,7 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("privateSet.kt")
             public void testPrivateSet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/delegatedProperty/visibility/privateSet.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/delegatedProperty/visibility/privateSet.kt");
             }
         }
     }
@@ -357,17 +357,17 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("privateFun.kt")
             public void testPrivateFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/classObjectPrivate/privateFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/classObjectPrivate/privateFun.kt");
             }
 
             @TestMetadata("privateVal.kt")
             public void testPrivateVal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/classObjectPrivate/privateVal.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/classObjectPrivate/privateVal.kt");
             }
 
             @TestMetadata("privateVar.kt")
             public void testPrivateVar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/classObjectPrivate/privateVar.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/classObjectPrivate/privateVar.kt");
             }
         }
 
@@ -381,22 +381,22 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("classObject.kt")
             public void testClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/constructors/classObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/constructors/classObject.kt");
             }
 
             @TestMetadata("objectInClass.kt")
             public void testObjectInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/constructors/objectInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/constructors/objectInClass.kt");
             }
 
             @TestMetadata("objectLiteral.kt")
             public void testObjectLiteral() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/constructors/objectLiteral.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/constructors/objectLiteral.kt");
             }
 
             @TestMetadata("topLevelObject.kt")
             public void testTopLevelObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/constructors/topLevelObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/constructors/topLevelObject.kt");
             }
         }
 
@@ -410,62 +410,62 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("emptyGetter.kt")
             public void testEmptyGetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/emptyGetter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/emptyGetter.kt");
             }
 
             @TestMetadata("emptySetter.kt")
             public void testEmptySetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/emptySetter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/emptySetter.kt");
             }
 
             @TestMetadata("extentionFun.kt")
             public void testExtentionFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/extentionFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/extentionFun.kt");
             }
 
             @TestMetadata("funInClass.kt")
             public void testFunInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/funInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/funInClass.kt");
             }
 
             @TestMetadata("funInClassObject.kt")
             public void testFunInClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/funInClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/funInClassObject.kt");
             }
 
             @TestMetadata("getter.kt")
             public void testGetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/getter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/getter.kt");
             }
 
             @TestMetadata("getterAnnotationOnProperty.kt")
             public void testGetterAnnotationOnProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/getterAnnotationOnProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/getterAnnotationOnProperty.kt");
             }
 
             @TestMetadata("getterForPropertyInConstructor.kt")
             public void testGetterForPropertyInConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/getterForPropertyInConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/getterForPropertyInConstructor.kt");
             }
 
             @TestMetadata("setter.kt")
             public void testSetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/setter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/setter.kt");
             }
 
             @TestMetadata("setterAnnotationOnProperty.kt")
             public void testSetterAnnotationOnProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/setterAnnotationOnProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/setterAnnotationOnProperty.kt");
             }
 
             @TestMetadata("setterForPropertyInConstructor.kt")
             public void testSetterForPropertyInConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/setterForPropertyInConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/setterForPropertyInConstructor.kt");
             }
 
             @TestMetadata("topLevelFun.kt")
             public void testTopLevelFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/deprecatedFlag/topLevelFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/deprecatedFlag/topLevelFun.kt");
             }
         }
 
@@ -479,27 +479,27 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("funInClass.kt")
             public void testFunInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/withDefaultArguments/funInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/withDefaultArguments/funInClass.kt");
             }
 
             @TestMetadata("funInClassObject.kt")
             public void testFunInClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/withDefaultArguments/funInClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/withDefaultArguments/funInClassObject.kt");
             }
 
             @TestMetadata("inlineOnlyFunInClass.kt")
             public void testInlineOnlyFunInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/withDefaultArguments/inlineOnlyFunInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/withDefaultArguments/inlineOnlyFunInClass.kt");
             }
 
             @TestMetadata("reifiedFunInClass.kt")
             public void testReifiedFunInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/withDefaultArguments/reifiedFunInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/withDefaultArguments/reifiedFunInClass.kt");
             }
 
             @TestMetadata("topLevelFun.kt")
             public void testTopLevelFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/function/withDefaultArguments/topLevelFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/function/withDefaultArguments/topLevelFun.kt");
             }
         }
     }
@@ -514,17 +514,17 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/hidden/function.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/hidden/function.kt");
         }
 
         @TestMetadata("propertyGetter.kt")
         public void testPropertyGetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/hidden/propertyGetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/hidden/propertyGetter.kt");
         }
 
         @TestMetadata("propertySetter.kt")
         public void testPropertySetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/hidden/propertySetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/hidden/propertySetter.kt");
         }
     }
 
@@ -538,17 +538,17 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
         @TestMetadata("lostInnerClass.kt")
         public void testLostInnerClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/inline/lostInnerClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/inline/lostInnerClass.kt");
         }
 
         @TestMetadata("lostInnerClass2.kt")
         public void testLostInnerClass2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/inline/lostInnerClass2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/inline/lostInnerClass2.kt");
         }
 
         @TestMetadata("lostInnerClass3.kt")
         public void testLostInnerClass3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/inline/lostInnerClass3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/inline/lostInnerClass3.kt");
         }
     }
 
@@ -570,32 +570,32 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("internal.kt")
             public void testInternal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/innerClass/visibility/internal.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/innerClass/visibility/internal.kt");
             }
 
             @TestMetadata("internalClassObject.kt")
             public void testInternalClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/innerClass/visibility/internalClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/innerClass/visibility/internalClassObject.kt");
             }
 
             @TestMetadata("private.kt")
             public void testPrivate() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/innerClass/visibility/private.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/innerClass/visibility/private.kt");
             }
 
             @TestMetadata("privateClassObject.kt")
             public void testPrivateClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/innerClass/visibility/privateClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/innerClass/visibility/privateClassObject.kt");
             }
 
             @TestMetadata("public.kt")
             public void testPublic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/innerClass/visibility/public.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/innerClass/visibility/public.kt");
             }
 
             @TestMetadata("publicClassObject.kt")
             public void testPublicClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/innerClass/visibility/publicClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/innerClass/visibility/publicClassObject.kt");
             }
         }
     }
@@ -610,12 +610,12 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
         @TestMetadata("lambdaInInlineFunction.kt")
         public void testLambdaInInlineFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/lambda/lambdaInInlineFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/lambda/lambdaInInlineFunction.kt");
         }
 
         @TestMetadata("simpleLambda.kt")
         public void testSimpleLambda() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/lambda/simpleLambda.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/lambda/simpleLambda.kt");
         }
     }
 
@@ -629,17 +629,17 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
         @TestMetadata("lateinitGetter.kt")
         public void testLateinitGetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/lateinit/lateinitGetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/lateinit/lateinitGetter.kt");
         }
 
         @TestMetadata("lateinitProperty.kt")
         public void testLateinitProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/lateinit/lateinitProperty.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/lateinit/lateinitProperty.kt");
         }
 
         @TestMetadata("lateinitPropertyNoSetter.kt")
         public void testLateinitPropertyNoSetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeFlags/lateinit/lateinitPropertyNoSetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/lateinit/lateinitPropertyNoSetter.kt");
         }
     }
 
@@ -669,87 +669,87 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
                 @TestMetadata("delegatedProtectedVar.kt")
                 public void testDelegatedProtectedVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/delegatedProtectedVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/delegatedProtectedVar.kt");
                 }
 
                 @TestMetadata("delegatedPublicVal.kt")
                 public void testDelegatedPublicVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/delegatedPublicVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/delegatedPublicVal.kt");
                 }
 
                 @TestMetadata("internalVal.kt")
                 public void testInternalVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/internalVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/internalVal.kt");
                 }
 
                 @TestMetadata("internalVar.kt")
                 public void testInternalVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/internalVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/internalVar.kt");
                 }
 
                 @TestMetadata("internalVarPrivateSet.kt")
                 public void testInternalVarPrivateSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/internalVarPrivateSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/internalVarPrivateSet.kt");
                 }
 
                 @TestMetadata("noBackingField.kt")
                 public void testNoBackingField() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/noBackingField.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/noBackingField.kt");
                 }
 
                 @TestMetadata("privateVal.kt")
                 public void testPrivateVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/privateVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/privateVal.kt");
                 }
 
                 @TestMetadata("privateVar.kt")
                 public void testPrivateVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/privateVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/privateVar.kt");
                 }
 
                 @TestMetadata("protectedVal.kt")
                 public void testProtectedVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/protectedVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/protectedVal.kt");
                 }
 
                 @TestMetadata("protectedVarPrivateSet.kt")
                 public void testProtectedVarPrivateSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/protectedVarPrivateSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/protectedVarPrivateSet.kt");
                 }
 
                 @TestMetadata("publicVal.kt")
                 public void testPublicVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicVal.kt");
                 }
 
                 @TestMetadata("publicValNonDefault.kt")
                 public void testPublicValNonDefault() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicValNonDefault.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicValNonDefault.kt");
                 }
 
                 @TestMetadata("publicVar.kt")
                 public void testPublicVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicVar.kt");
                 }
 
                 @TestMetadata("publicVarNonDefault.kt")
                 public void testPublicVarNonDefault() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicVarNonDefault.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicVarNonDefault.kt");
                 }
 
                 @TestMetadata("publicVarPrivateSet.kt")
                 public void testPublicVarPrivateSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicVarPrivateSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicVarPrivateSet.kt");
                 }
 
                 @TestMetadata("publicVarProtectedSet.kt")
                 public void testPublicVarProtectedSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicVarProtectedSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicVarProtectedSet.kt");
                 }
 
                 @TestMetadata("publicVarPublicSet.kt")
                 public void testPublicVarPublicSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/class/publicVarPublicSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/class/publicVarPublicSet.kt");
                 }
             }
 
@@ -763,22 +763,22 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
                 @TestMetadata("constructorAndClassObject.kt")
                 public void testConstructorAndClassObject() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/rename/constructorAndClassObject.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/rename/constructorAndClassObject.kt");
                 }
 
                 @TestMetadata("delegatedAndDelegated.kt")
                 public void testDelegatedAndDelegated() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/rename/delegatedAndDelegated.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/rename/delegatedAndDelegated.kt");
                 }
 
                 @TestMetadata("delegatedAndProperty.kt")
                 public void testDelegatedAndProperty() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/rename/delegatedAndProperty.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/rename/delegatedAndProperty.kt");
                 }
 
                 @TestMetadata("propertyAndProperty.kt")
                 public void testPropertyAndProperty() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/rename/propertyAndProperty.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/rename/propertyAndProperty.kt");
                 }
             }
 
@@ -792,102 +792,102 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
                 @TestMetadata("delegatedProtectedVar.kt")
                 public void testDelegatedProtectedVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/delegatedProtectedVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/delegatedProtectedVar.kt");
                 }
 
                 @TestMetadata("delegatedPublicVal.kt")
                 public void testDelegatedPublicVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/delegatedPublicVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/delegatedPublicVal.kt");
                 }
 
                 @TestMetadata("internalConstVal.kt")
                 public void testInternalConstVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/internalConstVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/internalConstVal.kt");
                 }
 
                 @TestMetadata("internalVal.kt")
                 public void testInternalVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/internalVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/internalVal.kt");
                 }
 
                 @TestMetadata("internalVar.kt")
                 public void testInternalVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/internalVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/internalVar.kt");
                 }
 
                 @TestMetadata("internalVarPrivateSet.kt")
                 public void testInternalVarPrivateSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/internalVarPrivateSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/internalVarPrivateSet.kt");
                 }
 
                 @TestMetadata("noBackingField.kt")
                 public void testNoBackingField() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/noBackingField.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/noBackingField.kt");
                 }
 
                 @TestMetadata("privateVal.kt")
                 public void testPrivateVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/privateVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/privateVal.kt");
                 }
 
                 @TestMetadata("privateVar.kt")
                 public void testPrivateVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/privateVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/privateVar.kt");
                 }
 
                 @TestMetadata("protectedConstVal.kt")
                 public void testProtectedConstVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/protectedConstVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/protectedConstVal.kt");
                 }
 
                 @TestMetadata("protectedVal.kt")
                 public void testProtectedVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/protectedVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/protectedVal.kt");
                 }
 
                 @TestMetadata("protectedVarPrivateSet.kt")
                 public void testProtectedVarPrivateSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/protectedVarPrivateSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/protectedVarPrivateSet.kt");
                 }
 
                 @TestMetadata("publicConstVal.kt")
                 public void testPublicConstVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicConstVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicConstVal.kt");
                 }
 
                 @TestMetadata("publicVal.kt")
                 public void testPublicVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicVal.kt");
                 }
 
                 @TestMetadata("publicValNonDefault.kt")
                 public void testPublicValNonDefault() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicValNonDefault.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicValNonDefault.kt");
                 }
 
                 @TestMetadata("publicVar.kt")
                 public void testPublicVar() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicVar.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicVar.kt");
                 }
 
                 @TestMetadata("publicVarNonDefault.kt")
                 public void testPublicVarNonDefault() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicVarNonDefault.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicVarNonDefault.kt");
                 }
 
                 @TestMetadata("publicVarPrivateSet.kt")
                 public void testPublicVarPrivateSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicVarPrivateSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicVarPrivateSet.kt");
                 }
 
                 @TestMetadata("publicVarProtectedSet.kt")
                 public void testPublicVarProtectedSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicVarProtectedSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicVarProtectedSet.kt");
                 }
 
                 @TestMetadata("publicVarPublicSet.kt")
                 public void testPublicVarPublicSet() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/writeFlags/property/classObject/trait/publicVarPublicSet.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/classObject/trait/publicVarPublicSet.kt");
                 }
             }
         }
@@ -902,12 +902,12 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("propertyInClass.kt")
             public void testPropertyInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/deprecatedFlag/propertyInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/deprecatedFlag/propertyInClass.kt");
             }
 
             @TestMetadata("topLevelProperty.kt")
             public void testTopLevelProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/deprecatedFlag/topLevelProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/deprecatedFlag/topLevelProperty.kt");
             }
         }
 
@@ -921,17 +921,17 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("privateProperty.kt")
             public void testPrivateProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/syntheticAnnotationsMethod/privateProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/syntheticAnnotationsMethod/privateProperty.kt");
             }
 
             @TestMetadata("protectedProperty.kt")
             public void testProtectedProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/syntheticAnnotationsMethod/protectedProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/syntheticAnnotationsMethod/protectedProperty.kt");
             }
 
             @TestMetadata("publicProperty.kt")
             public void testPublicProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/syntheticAnnotationsMethod/publicProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/syntheticAnnotationsMethod/publicProperty.kt");
             }
         }
 
@@ -945,17 +945,17 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("internal.kt")
             public void testInternal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/visibility/internal.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/visibility/internal.kt");
             }
 
             @TestMetadata("private.kt")
             public void testPrivate() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/visibility/private.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/visibility/private.kt");
             }
 
             @TestMetadata("public.kt")
             public void testPublic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/property/visibility/public.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/property/visibility/public.kt");
             }
         }
     }
@@ -978,12 +978,12 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
             @TestMetadata("privateTypealias.kt")
             public void testPrivateTypealias() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/typealias/syntheticAnnotationsMethod/privateTypealias.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/typealias/syntheticAnnotationsMethod/privateTypealias.kt");
             }
 
             @TestMetadata("publicTypealias.kt")
             public void testPublicTypealias() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeFlags/typealias/syntheticAnnotationsMethod/publicTypealias.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeFlags/typealias/syntheticAnnotationsMethod/publicTypealias.kt");
             }
         }
     }

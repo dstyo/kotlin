@@ -27,51 +27,51 @@ public class DataFlowValueRenderingTestGenerated extends AbstractDataFlowValueRe
 
     @TestMetadata("classProperty.kt")
     public void testClassProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/classProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/classProperty.kt");
     }
 
     @TestMetadata("complexIdentifier.kt")
     public void testComplexIdentifier() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifier.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/complexIdentifier.kt");
     }
 
     @TestMetadata("complexIdentifierWithImplicitReceiver.kt")
     public void testComplexIdentifierWithImplicitReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifierWithImplicitReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/complexIdentifierWithImplicitReceiver.kt");
     }
 
     @TestMetadata("complexIdentifierWithInitiallyNullableReceiver.kt")
     public void testComplexIdentifierWithInitiallyNullableReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifierWithInitiallyNullableReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/complexIdentifierWithInitiallyNullableReceiver.kt");
     }
 
     @TestMetadata("complexIdentifierWithReceiver.kt")
     public void testComplexIdentifierWithReceiver() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifierWithReceiver.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/complexIdentifierWithReceiver.kt");
     }
 
     @TestMetadata("multipleVariables.kt")
     public void testMultipleVariables() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/multipleVariables.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/multipleVariables.kt");
     }
 
     @TestMetadata("packageProperty.kt")
     public void testPackageProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/packageProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/packageProperty.kt");
     }
 
     @TestMetadata("receivers.kt")
     public void testReceivers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/receivers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/receivers.kt");
     }
 
     @TestMetadata("smartCast.kt")
     public void testSmartCast() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/smartCast.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/smartCast.kt");
     }
 
     @TestMetadata("smartNotNull.kt")
     public void testSmartNotNull() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/smartNotNull.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/dataFlowValueRendering/smartNotNull.kt");
     }
 }

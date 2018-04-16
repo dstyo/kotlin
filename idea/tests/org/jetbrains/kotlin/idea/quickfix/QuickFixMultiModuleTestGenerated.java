@@ -23,32 +23,32 @@ import java.util.regex.Pattern;
 public class QuickFixMultiModuleTestGenerated extends AbstractQuickFixMultiModuleTest {
     @TestMetadata("abstract")
     public void testAbstract() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/abstract/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/abstract/");
     }
 
     @TestMetadata("addActualToClass")
     public void testAddActualToClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/addActualToClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/addActualToClass/");
     }
 
     @TestMetadata("addActualToClassMember")
     public void testAddActualToClassMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/addActualToClassMember/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/addActualToClassMember/");
     }
 
     @TestMetadata("addActualToTopLevelMember")
     public void testAddActualToTopLevelMember() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/addActualToTopLevelMember/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/addActualToTopLevelMember/");
     }
 
     @TestMetadata("addOperatorByHeader")
     public void testAddOperatorByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/addOperatorByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/addOperatorByHeader/");
     }
 
     @TestMetadata("addOperatorByImpl")
     public void testAddOperatorByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/addOperatorByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/addOperatorByImpl/");
     }
 
     public void testAllFilesPresentInMultiModuleQuickFix() throws Exception {
@@ -57,256 +57,256 @@ public class QuickFixMultiModuleTestGenerated extends AbstractQuickFixMultiModul
 
     @TestMetadata("annotation")
     public void testAnnotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/annotation/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/annotation/");
     }
 
     @TestMetadata("class")
     public void testClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/class/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/class/");
     }
 
     @TestMetadata("classFunction")
     public void testClassFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/classFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/classFunction/");
     }
 
     @TestMetadata("classOverloadedFunction")
     public void testClassOverloadedFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/classOverloadedFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/classOverloadedFunction/");
     }
 
     @TestMetadata("classSomeProperties")
     public void testClassSomeProperties() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/classSomeProperties/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/classSomeProperties/");
     }
 
     @TestMetadata("companionAbsence")
     public void testCompanionAbsence() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/companionAbsence/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/companionAbsence/");
     }
 
     @TestMetadata("convertActualEnumToSealedClass")
     public void testConvertActualEnumToSealedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/convertActualEnumToSealedClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/convertActualEnumToSealedClass/");
     }
 
     @TestMetadata("convertActualSealedClassToEnum")
     public void testConvertActualSealedClassToEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/convertActualSealedClassToEnum/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/convertActualSealedClassToEnum/");
     }
 
     @TestMetadata("convertExpectEnumToSealedClass")
     public void testConvertExpectEnumToSealedClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/convertExpectEnumToSealedClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/convertExpectEnumToSealedClass/");
     }
 
     @TestMetadata("convertExpectSealedClassToEnum")
     public void testConvertExpectSealedClassToEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/convertExpectSealedClassToEnum/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/convertExpectSealedClassToEnum/");
     }
 
     @TestMetadata("createFunInExpectClass")
     public void testCreateFunInExpectClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/createFunInExpectClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/createFunInExpectClass/");
     }
 
     @TestMetadata("createValInExpectClass")
     public void testCreateValInExpectClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/createValInExpectClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/createValInExpectClass/");
     }
 
     @TestMetadata("createVarInExpectClass")
     public void testCreateVarInExpectClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/createVarInExpectClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/createVarInExpectClass/");
     }
 
     @TestMetadata("deprecatedHeader")
     public void testDeprecatedHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/deprecatedHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/deprecatedHeader/");
     }
 
     @TestMetadata("deprecatedHeaderImpl")
     public void testDeprecatedHeaderImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/deprecatedHeaderImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/deprecatedHeaderImpl/");
     }
 
     @TestMetadata("deprecatedImpl")
     public void testDeprecatedImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/deprecatedImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/deprecatedImpl/");
     }
 
     @TestMetadata("deprecatedImplHeader")
     public void testDeprecatedImplHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/deprecatedImplHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/deprecatedImplHeader/");
     }
 
     @TestMetadata("enum")
     public void testEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/enum/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/enum/");
     }
 
     @TestMetadata("function")
     public void testFunction() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/function/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/function/");
     }
 
     @TestMetadata("functionSameFile")
     public void testFunctionSameFile() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/functionSameFile/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/functionSameFile/");
     }
 
     @TestMetadata("functionTypeParameterToReceiverByHeader")
     public void testFunctionTypeParameterToReceiverByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/functionTypeParameterToReceiverByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/functionTypeParameterToReceiverByHeader/");
     }
 
     @TestMetadata("functionTypeParameterToReceiverByImpl")
     public void testFunctionTypeParameterToReceiverByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/functionTypeParameterToReceiverByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/functionTypeParameterToReceiverByImpl/");
     }
 
     @TestMetadata("functionTypeReceiverToParameterByHeader")
     public void testFunctionTypeReceiverToParameterByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/functionTypeReceiverToParameterByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/functionTypeReceiverToParameterByHeader/");
     }
 
     @TestMetadata("functionTypeReceiverToParameterByImpl")
     public void testFunctionTypeReceiverToParameterByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/functionTypeReceiverToParameterByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/functionTypeReceiverToParameterByImpl/");
     }
 
     @TestMetadata("implementMembersInImplClassNonImplInheritor")
     public void testImplementMembersInImplClassNonImplInheritor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/implementMembersInImplClassNonImplInheritor/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/implementMembersInImplClassNonImplInheritor/");
     }
 
     @TestMetadata("interface")
     public void testInterface() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/interface/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/interface/");
     }
 
     @TestMetadata("memberFunParameterToReceiverByHeader")
     public void testMemberFunParameterToReceiverByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberFunParameterToReceiverByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberFunParameterToReceiverByHeader/");
     }
 
     @TestMetadata("memberFunParameterToReceiverByImpl")
     public void testMemberFunParameterToReceiverByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberFunParameterToReceiverByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberFunParameterToReceiverByImpl/");
     }
 
     @TestMetadata("memberFunReceiverToParameterByHeader")
     public void testMemberFunReceiverToParameterByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberFunReceiverToParameterByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberFunReceiverToParameterByHeader/");
     }
 
     @TestMetadata("memberFunReceiverToParameterByImpl")
     public void testMemberFunReceiverToParameterByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberFunReceiverToParameterByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberFunReceiverToParameterByImpl/");
     }
 
     @TestMetadata("memberFunToExtensionByHeader")
     public void testMemberFunToExtensionByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberFunToExtensionByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberFunToExtensionByHeader/");
     }
 
     @TestMetadata("memberFunToExtensionByImpl")
     public void testMemberFunToExtensionByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberFunToExtensionByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberFunToExtensionByImpl/");
     }
 
     @TestMetadata("memberValToExtensionByHeader")
     public void testMemberValToExtensionByHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberValToExtensionByHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberValToExtensionByHeader/");
     }
 
     @TestMetadata("memberValToExtensionByHeaderWithInapplicableImpl")
     public void testMemberValToExtensionByHeaderWithInapplicableImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberValToExtensionByHeaderWithInapplicableImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberValToExtensionByHeaderWithInapplicableImpl/");
     }
 
     @TestMetadata("memberValToExtensionByImpl")
     public void testMemberValToExtensionByImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/memberValToExtensionByImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/memberValToExtensionByImpl/");
     }
 
     @TestMetadata("nested")
     public void testNested() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/nested/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/nested/");
     }
 
     @TestMetadata("object")
     public void testObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/object/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/object/");
     }
 
     @TestMetadata("orderHeader")
     public void testOrderHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/orderHeader/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/orderHeader/");
     }
 
     @TestMetadata("orderImpl")
     public void testOrderImpl() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/orderImpl/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/orderImpl/");
     }
 
     @TestMetadata("package")
     public void testPackage() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/package/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/package/");
     }
 
     @TestMetadata("packageIncorrect")
     public void testPackageIncorrect() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/packageIncorrect/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/packageIncorrect/");
     }
 
     @TestMetadata("packageIncorrectEmpty")
     public void testPackageIncorrectEmpty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/packageIncorrectEmpty/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/packageIncorrectEmpty/");
     }
 
     @TestMetadata("primaryConstructor")
     public void testPrimaryConstructor() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/primaryConstructor/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/primaryConstructor/");
     }
 
     @TestMetadata("primaryConstructorAbsence")
     public void testPrimaryConstructorAbsence() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/primaryConstructorAbsence/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/primaryConstructorAbsence/");
     }
 
     @TestMetadata("property")
     public void testProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/property/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/property/");
     }
 
     @TestMetadata("sealed")
     public void testSealed() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/sealed/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/sealed/");
     }
 
     @TestMetadata("sealedSubclass")
     public void testSealedSubclass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/sealedSubclass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/sealedSubclass/");
     }
 
     @TestMetadata("secondaryConstructorAbsence")
     public void testSecondaryConstructorAbsence() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/secondaryConstructorAbsence/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/secondaryConstructorAbsence/");
     }
 
     @TestMetadata("withFakeJvm")
     public void testWithFakeJvm() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/withFakeJvm/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/withFakeJvm/");
     }
 
     @TestMetadata("withTest")
     public void testWithTest() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/withTest/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/withTest/");
     }
 
     @TestMetadata("withTestDummy")
     public void testWithTestDummy() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/multiModuleQuickFix/withTestDummy/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/multiModuleQuickFix/withTestDummy/");
     }
 }

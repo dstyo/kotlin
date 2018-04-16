@@ -27,67 +27,67 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
     @TestMetadata("array.kt")
     public void testArray() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/array.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/array.kt");
     }
 
     @TestMetadata("asSequenceOnly.kt")
     public void testAsSequenceOnly() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/asSequenceOnly.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/asSequenceOnly.kt");
     }
 
     @TestMetadata("customTypeWithIterator.kt")
     public void testCustomTypeWithIterator() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/customTypeWithIterator.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/customTypeWithIterator.kt");
     }
 
     @TestMetadata("embeddedBreak1.kt")
     public void testEmbeddedBreak1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/embeddedBreak1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/embeddedBreak1.kt");
     }
 
     @TestMetadata("embeddedBreak2.kt")
     public void testEmbeddedBreak2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/embeddedBreak2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/embeddedBreak2.kt");
     }
 
     @TestMetadata("embeddedContinue.kt")
     public void testEmbeddedContinue() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/embeddedContinue.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/embeddedContinue.kt");
     }
 
     @TestMetadata("intArray.kt")
     public void testIntArray() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/intArray.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/intArray.kt");
     }
 
     @TestMetadata("itAlreadyUsed.kt")
     public void testItAlreadyUsed() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/itAlreadyUsed.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/itAlreadyUsed.kt");
     }
 
     @TestMetadata("KT14191.kt")
     public void testKT14191() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/KT14191.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/KT14191.kt");
     }
 
     @TestMetadata("lastOrNull_ifAssign.kt")
     public void testLastOrNull_ifAssign() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/lastOrNull_ifAssign.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/lastOrNull_ifAssign.kt");
     }
 
     @TestMetadata("moveInitializationsCloserToLoop.kt")
     public void testMoveInitializationsCloserToLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/moveInitializationsCloserToLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/moveInitializationsCloserToLoop.kt");
     }
 
     @TestMetadata("range.kt")
     public void testRange() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/range.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/range.kt");
     }
 
     @TestMetadata("twoInitializationsBeforeLoop.kt")
     public void testTwoInitializationsBeforeLoop() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/twoInitializationsBeforeLoop.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/twoInitializationsBeforeLoop.kt");
     }
 
     @TestMetadata("idea/testData/intentions/loopToCallChain/any")
@@ -100,82 +100,82 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("anyNotNull.kt")
         public void testAnyNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/anyNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/anyNotNull.kt");
         }
 
         @TestMetadata("ifAssign.kt")
         public void testIfAssign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifAssign.kt");
         }
 
         @TestMetadata("ifAssign_moveDeclaration.kt")
         public void testIfAssign_moveDeclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_moveDeclaration.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifAssign_moveDeclaration.kt");
         }
 
         @TestMetadata("ifAssign_moveInitialization.kt")
         public void testIfAssign_moveInitialization() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_moveInitialization.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifAssign_moveInitialization.kt");
         }
 
         @TestMetadata("ifAssign_noBreak.kt")
         public void testIfAssign_noBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_noBreak.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifAssign_noBreak.kt");
         }
 
         @TestMetadata("ifAssign_nonBooleanResult.kt")
         public void testIfAssign_nonBooleanResult() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult.kt");
         }
 
         @TestMetadata("ifAssign_nonBooleanResult2.kt")
         public void testIfAssign_nonBooleanResult2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult2.kt");
         }
 
         @TestMetadata("ifReturn.kt")
         public void testIfReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifReturn.kt");
         }
 
         @TestMetadata("ifReturn_nonBooleanResult.kt")
         public void testIfReturn_nonBooleanResult() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifReturn_nonBooleanResult.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/ifReturn_nonBooleanResult.kt");
         }
 
         @TestMetadata("indexNeeded.kt")
         public void testIndexNeeded() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/indexNeeded.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/indexNeeded.kt");
         }
 
         @TestMetadata("KT13998.kt")
         public void testKT13998() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/KT13998.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/KT13998.kt");
         }
 
         @TestMetadata("KT13998_1.kt")
         public void testKT13998_1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/KT13998_1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/KT13998_1.kt");
         }
 
         @TestMetadata("kt17730.kt")
         public void testKt17730() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/kt17730.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/kt17730.kt");
         }
 
         @TestMetadata("kt17730_1.kt")
         public void testKt17730_1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/kt17730_1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/kt17730_1.kt");
         }
 
         @TestMetadata("none.kt")
         public void testNone() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/none.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/none.kt");
         }
 
         @TestMetadata("return.kt")
         public void testReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/return.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/any/return.kt");
         }
     }
 
@@ -185,22 +185,22 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
     public static class Contains extends AbstractIntentionTest2 {
         @TestMetadata("1.kt")
         public void test1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/contains/1.kt");
         }
 
         @TestMetadata("2.kt")
         public void test2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/contains/2.kt");
         }
 
         @TestMetadata("3.kt")
         public void test3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/contains/3.kt");
         }
 
         @TestMetadata("4.kt")
         public void test4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/contains/4.kt");
         }
 
         public void testAllFilesPresentInContains() throws Exception {
@@ -214,12 +214,12 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
     public static class Count extends AbstractIntentionTest2 {
         @TestMetadata("1.kt")
         public void test1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/1.kt");
         }
 
         @TestMetadata("2.kt")
         public void test2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/2.kt");
         }
 
         public void testAllFilesPresentInCount() throws Exception {
@@ -228,42 +228,42 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("countIsInstance.kt")
         public void testCountIsInstance() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/countIsInstance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/countIsInstance.kt");
         }
 
         @TestMetadata("countNotNull.kt")
         public void testCountNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/countNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/countNotNull.kt");
         }
 
         @TestMetadata("countSomethingAndNotNull.kt")
         public void testCountSomethingAndNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/countSomethingAndNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/countSomethingAndNotNull.kt");
         }
 
         @TestMetadata("long.kt")
         public void testLong() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/long.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/long.kt");
         }
 
         @TestMetadata("nonConstantInitial.kt")
         public void testNonConstantInitial() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/nonConstantInitial.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/nonConstantInitial.kt");
         }
 
         @TestMetadata("nonZeroInitial.kt")
         public void testNonZeroInitial() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/nonZeroInitial.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/nonZeroInitial.kt");
         }
 
         @TestMetadata("prefix.kt")
         public void testPrefix() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/prefix.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/prefix.kt");
         }
 
         @TestMetadata("variableUsedBefore.kt")
         public void testVariableUsedBefore() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/variableUsedBefore.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/count/variableUsedBefore.kt");
         }
     }
 
@@ -277,252 +277,252 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("assign.kt")
         public void testAssign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign.kt");
         }
 
         @TestMetadata("assign2.kt")
         public void testAssign2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign2.kt");
         }
 
         @TestMetadata("assignFilterIndexed.kt")
         public void testAssignFilterIndexed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assignFilterIndexed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assignFilterIndexed.kt");
         }
 
         @TestMetadata("assignFilterNotNull.kt")
         public void testAssignFilterNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assignFilterNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assignFilterNotNull.kt");
         }
 
         @TestMetadata("assign_ArrayListRequired.kt")
         public void testAssign_ArrayListRequired() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired.kt");
         }
 
         @TestMetadata("assign_ArrayListRequired2.kt")
         public void testAssign_ArrayListRequired2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired2.kt");
         }
 
         @TestMetadata("assign_ArrayListRequired3.kt")
         public void testAssign_ArrayListRequired3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired3.kt");
         }
 
         @TestMetadata("assign_MutableListRequired.kt")
         public void testAssign_MutableListRequired() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_MutableListRequired.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign_MutableListRequired.kt");
         }
 
         @TestMetadata("assign_breakAndContinue.kt")
         public void testAssign_breakAndContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_breakAndContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/assign_breakAndContinue.kt");
         }
 
         @TestMetadata("cannotSplitOutFilterIsInstance.kt")
         public void testCannotSplitOutFilterIsInstance() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/cannotSplitOutFilterIsInstance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/cannotSplitOutFilterIsInstance.kt");
         }
 
         @TestMetadata("doNotSplitOutFilterIsInstance.kt")
         public void testDoNotSplitOutFilterIsInstance() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterIsInstance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterIsInstance.kt");
         }
 
         @TestMetadata("doNotSplitOutFilterNotNull.kt")
         public void testDoNotSplitOutFilterNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterNotNull.kt");
         }
 
         @TestMetadata("filterIndexed.kt")
         public void testFilterIndexed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed.kt");
         }
 
         @TestMetadata("filterIndexed2.kt")
         public void testFilterIndexed2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed2.kt");
         }
 
         @TestMetadata("filterIndexedAndFlatMapWithContinue.kt")
         public void testFilterIndexedAndFlatMapWithContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexedAndFlatMapWithContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexedAndFlatMapWithContinue.kt");
         }
 
         @TestMetadata("filterIndexedTo.kt")
         public void testFilterIndexedTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexedTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexedTo.kt");
         }
 
         @TestMetadata("filterIndexedTo2.kt")
         public void testFilterIndexedTo2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexedTo2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexedTo2.kt");
         }
 
         @TestMetadata("filterIndexed_indexChangedTwice.kt")
         public void testFilterIndexed_indexChangedTwice() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexChangedTwice.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexChangedTwice.kt");
         }
 
         @TestMetadata("filterIndexed_indexStartNotZero.kt")
         public void testFilterIndexed_indexStartNotZero() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexStartNotZero.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexStartNotZero.kt");
         }
 
         @TestMetadata("filterIndexed_indexUsedAfter.kt")
         public void testFilterIndexed_indexUsedAfter() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedAfter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedAfter.kt");
         }
 
         @TestMetadata("filterIndexed_indexUsedEarlierInLoop.kt")
         public void testFilterIndexed_indexUsedEarlierInLoop() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedEarlierInLoop.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedEarlierInLoop.kt");
         }
 
         @TestMetadata("filterIndexed_merge1.kt")
         public void testFilterIndexed_merge1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge1.kt");
         }
 
         @TestMetadata("filterIndexed_merge2.kt")
         public void testFilterIndexed_merge2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge2.kt");
         }
 
         @TestMetadata("filterIndexed_merge3.kt")
         public void testFilterIndexed_merge3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge3.kt");
         }
 
         @TestMetadata("filterIndexed_merge4.kt")
         public void testFilterIndexed_merge4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge4.kt");
         }
 
         @TestMetadata("filterIndexed_twoIndices.kt")
         public void testFilterIndexed_twoIndices() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndices.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndices.kt");
         }
 
         @TestMetadata("filterIndexed_twoIndicesUsed.kt")
         public void testFilterIndexed_twoIndicesUsed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndicesUsed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndicesUsed.kt");
         }
 
         @TestMetadata("filterIsInstance.kt")
         public void testFilterIsInstance() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIsInstance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIsInstance.kt");
         }
 
         @TestMetadata("filterIsInstanceTo.kt")
         public void testFilterIsInstanceTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIsInstanceTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIsInstanceTo.kt");
         }
 
         @TestMetadata("filterIsInstance_ifContinue.kt")
         public void testFilterIsInstance_ifContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIsInstance_ifContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterIsInstance_ifContinue.kt");
         }
 
         @TestMetadata("filterNotNull.kt")
         public void testFilterNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterNotNull.kt");
         }
 
         @TestMetadata("filterNotNullTo.kt")
         public void testFilterNotNullTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNullTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterNotNullTo.kt");
         }
 
         @TestMetadata("filterNotNullTo2.kt")
         public void testFilterNotNullTo2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNullTo2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterNotNullTo2.kt");
         }
 
         @TestMetadata("filterNotNull_ifContinue.kt")
         public void testFilterNotNull_ifContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNull_ifContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterNotNull_ifContinue.kt");
         }
 
         @TestMetadata("filterNotTo.kt")
         public void testFilterNotTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterNotTo.kt");
         }
 
         @TestMetadata("filterNot_ifContinue.kt")
         public void testFilterNot_ifContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNot_ifContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterNot_ifContinue.kt");
         }
 
         @TestMetadata("filterTo.kt")
         public void testFilterTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterTo.kt");
         }
 
         @TestMetadata("filterTo2.kt")
         public void testFilterTo2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterTo2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/filterTo2.kt");
         }
 
         @TestMetadata("glueTogetherFilterNotNull.kt")
         public void testGlueTogetherFilterNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/glueTogetherFilterNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/glueTogetherFilterNotNull.kt");
         }
 
         @TestMetadata("ifContinue.kt")
         public void testIfContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/ifContinue.kt");
         }
 
         @TestMetadata("ifContinue2.kt")
         public void testIfContinue2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinue2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/ifContinue2.kt");
         }
 
         @TestMetadata("ifContinueInBlock.kt")
         public void testIfContinueInBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinueInBlock.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/ifContinueInBlock.kt");
         }
 
         @TestMetadata("ifContinueWithLabel.kt")
         public void testIfContinueWithLabel() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinueWithLabel.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/ifContinueWithLabel.kt");
         }
 
         @TestMetadata("ifElse.kt")
         public void testIfElse() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifElse.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/ifElse.kt");
         }
 
         @TestMetadata("inputVarNotUsed.kt")
         public void testInputVarNotUsed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/inputVarNotUsed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/inputVarNotUsed.kt");
         }
 
         @TestMetadata("inputVariableNotUsed.kt")
         public void testInputVariableNotUsed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/inputVariableNotUsed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/inputVariableNotUsed.kt");
         }
 
         @TestMetadata("mergeMultiple.kt")
         public void testMergeMultiple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/mergeMultiple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/mergeMultiple.kt");
         }
 
         @TestMetadata("splitOutFilterIsInstance.kt")
         public void testSplitOutFilterIsInstance() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/splitOutFilterIsInstance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/splitOutFilterIsInstance.kt");
         }
 
         @TestMetadata("splitOutFilterNotNull.kt")
         public void testSplitOutFilterNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull.kt");
         }
 
         @TestMetadata("splitOutFilterNotNull2.kt")
         public void testSplitOutFilterNotNull2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull2.kt");
         }
     }
 
@@ -536,102 +536,102 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("assignmentInitialization.kt")
         public void testAssignmentInitialization() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/assignmentInitialization.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/assignmentInitialization.kt");
         }
 
         @TestMetadata("cannotUseLet.kt")
         public void testCannotUseLet() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/cannotUseLet.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/cannotUseLet.kt");
         }
 
         @TestMetadata("ifAssign.kt")
         public void testIfAssign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign.kt");
         }
 
         @TestMetadata("ifAssign_breakWithLabel.kt")
         public void testIfAssign_breakWithLabel() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_breakWithLabel.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_breakWithLabel.kt");
         }
 
         @TestMetadata("ifAssign_cannotBeVal.kt")
         public void testIfAssign_cannotBeVal() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_cannotBeVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_cannotBeVal.kt");
         }
 
         @TestMetadata("ifAssign_preserveComments.kt")
         public void testIfAssign_preserveComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_preserveComments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_preserveComments.kt");
         }
 
         @TestMetadata("ifAssign_variableUsedBefore.kt")
         public void testIfAssign_variableUsedBefore() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_variableUsedBefore.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_variableUsedBefore.kt");
         }
 
         @TestMetadata("ifReturn.kt")
         public void testIfReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/ifReturn.kt");
         }
 
         @TestMetadata("KT14292.kt")
         public void testKT14292() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/KT14292.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/KT14292.kt");
         }
 
         @TestMetadata("let.kt")
         public void testLet() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/let.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/let.kt");
         }
 
         @TestMetadata("let2.kt")
         public void testLet2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/let2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/let2.kt");
         }
 
         @TestMetadata("letOrNotNull.kt")
         public void testLetOrNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/letOrNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/letOrNotNull.kt");
         }
 
         @TestMetadata("return.kt")
         public void testReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/return.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/return.kt");
         }
 
         @TestMetadata("returnExpression.kt")
         public void testReturnExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnExpression.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/returnExpression.kt");
         }
 
         @TestMetadata("returnExpressionOrNotNull.kt")
         public void testReturnExpressionOrNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnExpressionOrNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/returnExpressionOrNotNull.kt");
         }
 
         @TestMetadata("returnNotNullIfNone.kt")
         public void testReturnNotNullIfNone() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone.kt");
         }
 
         @TestMetadata("returnNotNullIfNone2.kt")
         public void testReturnNotNullIfNone2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone2.kt");
         }
 
         @TestMetadata("return_comment.kt")
         public void testReturn_comment() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/return_comment.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/return_comment.kt");
         }
 
         @TestMetadata("safeDotExpression.kt")
         public void testSafeDotExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/safeDotExpression.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/safeDotExpression.kt");
         }
 
         @TestMetadata("withMergedFilter.kt")
         public void testWithMergedFilter() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/withMergedFilter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/firstOrNull/withMergedFilter.kt");
         }
     }
 
@@ -645,57 +645,57 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("break.kt")
         public void testBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/break.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/break.kt");
         }
 
         @TestMetadata("continue.kt")
         public void testContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/continue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/continue.kt");
         }
 
         @TestMetadata("flatMapTo.kt")
         public void testFlatMapTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/flatMapTo.kt");
         }
 
         @TestMetadata("flatMapTo2.kt")
         public void testFlatMapTo2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/flatMapTo2.kt");
         }
 
         @TestMetadata("flatMapTo3.kt")
         public void testFlatMapTo3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/flatMapTo3.kt");
         }
 
         @TestMetadata("indexUsed.kt")
         public void testIndexUsed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/indexUsed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/indexUsed.kt");
         }
 
         @TestMetadata("inputVarStillNeeded.kt")
         public void testInputVarStillNeeded() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/inputVarStillNeeded.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/inputVarStillNeeded.kt");
         }
 
         @TestMetadata("notIterable.kt")
         public void testNotIterable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/notIterable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/notIterable.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/simple.kt");
         }
 
         @TestMetadata("wrongBreak.kt")
         public void testWrongBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/wrongBreak.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/wrongBreak.kt");
         }
 
         @TestMetadata("wrongContinue.kt")
         public void testWrongContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/wrongContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/flatMap/wrongContinue.kt");
         }
     }
 
@@ -709,37 +709,37 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("indexed.kt")
         public void testIndexed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/indexed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/indexed.kt");
         }
 
         @TestMetadata("indexed_nothingElse.kt")
         public void testIndexed_nothingElse() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/indexed_nothingElse.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/indexed_nothingElse.kt");
         }
 
         @TestMetadata("KT14341.kt")
         public void testKT14341() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/KT14341.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/KT14341.kt");
         }
 
         @TestMetadata("KT21083.kt")
         public void testKT21083() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/KT21083.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/KT21083.kt");
         }
 
         @TestMetadata("notAvailable.kt")
         public void testNotAvailable() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/notAvailable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/notAvailable.kt");
         }
 
         @TestMetadata("notIndexed.kt")
         public void testNotIndexed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/notIndexed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/notIndexed.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/forEach/simple.kt");
         }
     }
 
@@ -753,37 +753,37 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("indexOf.kt")
         public void testIndexOf() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/indexOf.kt");
         }
 
         @TestMetadata("indexOfFirst_ifAssign.kt")
         public void testIndexOfFirst_ifAssign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifAssign.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifAssign.kt");
         }
 
         @TestMetadata("indexOfFirst_ifReturn.kt")
         public void testIndexOfFirst_ifReturn() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifReturn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifReturn.kt");
         }
 
         @TestMetadata("indexOfFirst_mustBeNoIndexInCondition.kt")
         public void testIndexOfFirst_mustBeNoIndexInCondition() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_mustBeNoIndexInCondition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_mustBeNoIndexInCondition.kt");
         }
 
         @TestMetadata("indexOfLast_ifAssign.kt")
         public void testIndexOfLast_ifAssign() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfLast_ifAssign.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/indexOfLast_ifAssign.kt");
         }
 
         @TestMetadata("KT14303.kt")
         public void testKT14303() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/KT14303.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/KT14303.kt");
         }
 
         @TestMetadata("lastIndexOf.kt")
         public void testLastIndexOf() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/lastIndexOf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/indexOf/lastIndexOf.kt");
         }
     }
 
@@ -797,42 +797,42 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("indexPlusPlusInsideExpression.kt")
         public void testIndexPlusPlusInsideExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression.kt");
         }
 
         @TestMetadata("indexPlusPlusInsideExpression_indexUsedAfterIncrement.kt")
         public void testIndexPlusPlusInsideExpression_indexUsedAfterIncrement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedAfterIncrement.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedAfterIncrement.kt");
         }
 
         @TestMetadata("indexPlusPlusInsideExpression_indexUsedBeforeIncrement.kt")
         public void testIndexPlusPlusInsideExpression_indexUsedBeforeIncrement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement.kt");
         }
 
         @TestMetadata("indexPlusPlusInsideExpression_indexUsedBeforeIncrement2.kt")
         public void testIndexPlusPlusInsideExpression_indexUsedBeforeIncrement2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement2.kt");
         }
 
         @TestMetadata("indexPlusPlusIsNotLastStatement.kt")
         public void testIndexPlusPlusIsNotLastStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement.kt");
         }
 
         @TestMetadata("indexPlusPlusIsNotLastStatement_indexUsedAfterIncrement.kt")
         public void testIndexPlusPlusIsNotLastStatement_indexUsedAfterIncrement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement_indexUsedAfterIncrement.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement_indexUsedAfterIncrement.kt");
         }
 
         @TestMetadata("indexWithNestedLoop.kt")
         public void testIndexWithNestedLoop() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexWithNestedLoop.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/indexWithNestedLoop.kt");
         }
 
         @TestMetadata("prefixIndexPlusPlusInsideExpression.kt")
         public void testPrefixIndexPlusPlusInsideExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/prefixIndexPlusPlusInsideExpression.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/introduceIndex/prefixIndexPlusPlusInsideExpression.kt");
         }
     }
 
@@ -846,142 +846,142 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("assignMap.kt")
         public void testAssignMap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/assignMap.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/assignMap.kt");
         }
 
         @TestMetadata("assignMap2.kt")
         public void testAssignMap2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/assignMap2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/assignMap2.kt");
         }
 
         @TestMetadata("KT18816.kt")
         public void testKT18816() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/KT18816.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/KT18816.kt");
         }
 
         @TestMetadata("map.kt")
         public void testMap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/map.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/map.kt");
         }
 
         @TestMetadata("mapAndFilterIndexed.kt")
         public void testMapAndFilterIndexed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapAndFilterIndexed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapAndFilterIndexed.kt");
         }
 
         @TestMetadata("mapIndexed.kt")
         public void testMapIndexed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexed.kt");
         }
 
         @TestMetadata("mapIndexedNotNull.kt")
         public void testMapIndexedNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull.kt");
         }
 
         @TestMetadata("mapIndexedNotNullTo.kt")
         public void testMapIndexedNotNullTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo.kt");
         }
 
         @TestMetadata("mapIndexedNotNullTo_elvisContinue.kt")
         public void testMapIndexedNotNullTo_elvisContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo_elvisContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo_elvisContinue.kt");
         }
 
         @TestMetadata("mapIndexedNotNull_elvisContinue.kt")
         public void testMapIndexedNotNull_elvisContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull_elvisContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull_elvisContinue.kt");
         }
 
         @TestMetadata("mapIndexedTo.kt")
         public void testMapIndexedTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexedTo.kt");
         }
 
         @TestMetadata("mapIndexed_afterFilter.kt")
         public void testMapIndexed_afterFilter() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexed_afterFilter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexed_afterFilter.kt");
         }
 
         @TestMetadata("mapIndexed_twice.kt")
         public void testMapIndexed_twice() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexed_twice.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapIndexed_twice.kt");
         }
 
         @TestMetadata("mapNotNull.kt")
         public void testMapNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapNotNull.kt");
         }
 
         @TestMetadata("mapNotNullTo.kt")
         public void testMapNotNullTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNullTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapNotNullTo.kt");
         }
 
         @TestMetadata("mapNotNullTo_elvisContinue.kt")
         public void testMapNotNullTo_elvisContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNullTo_elvisContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapNotNullTo_elvisContinue.kt");
         }
 
         @TestMetadata("mapNotNull_elvisContinue.kt")
         public void testMapNotNull_elvisContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull_elvisContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapNotNull_elvisContinue.kt");
         }
 
         @TestMetadata("mapNotNull_nestedLoopElvisContinue.kt")
         public void testMapNotNull_nestedLoopElvisContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull_nestedLoopElvisContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapNotNull_nestedLoopElvisContinue.kt");
         }
 
         @TestMetadata("mapNotNull_wrongElvisContinue.kt")
         public void testMapNotNull_wrongElvisContinue() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull_wrongElvisContinue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapNotNull_wrongElvisContinue.kt");
         }
 
         @TestMetadata("mapTo.kt")
         public void testMapTo() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapTo.kt");
         }
 
         @TestMetadata("mapTo2.kt")
         public void testMapTo2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapTo2.kt");
         }
 
         @TestMetadata("mapTo3.kt")
         public void testMapTo3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapTo3.kt");
         }
 
         @TestMetadata("mapTo4.kt")
         public void testMapTo4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapTo4.kt");
         }
 
         @TestMetadata("mapTo_inputVarNotUsed.kt")
         public void testMapTo_inputVarNotUsed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo_inputVarNotUsed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapTo_inputVarNotUsed.kt");
         }
 
         @TestMetadata("mapUsesOldIndexAfterFilter.kt")
         public void testMapUsesOldIndexAfterFilter() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapUsesOldIndexAfterFilter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapUsesOldIndexAfterFilter.kt");
         }
 
         @TestMetadata("mapVar.kt")
         public void testMapVar() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/mapVar.kt");
         }
 
         @TestMetadata("map_var.kt")
         public void testMap_var() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/map_var.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/map_var.kt");
         }
 
         @TestMetadata("map_variableStillNeeded.kt")
         public void testMap_variableStillNeeded() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/map_variableStillNeeded.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/map/map_variableStillNeeded.kt");
         }
     }
 
@@ -995,67 +995,67 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("KT14210.kt")
         public void testKT14210() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/KT14210.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/KT14210.kt");
         }
 
         @TestMetadata("max1.kt")
         public void testMax1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max1.kt");
         }
 
         @TestMetadata("max2.kt")
         public void testMax2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max2.kt");
         }
 
         @TestMetadata("max3.kt")
         public void testMax3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max3.kt");
         }
 
         @TestMetadata("max4.kt")
         public void testMax4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max4.kt");
         }
 
         @TestMetadata("max5.kt")
         public void testMax5() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max5.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max5.kt");
         }
 
         @TestMetadata("max6.kt")
         public void testMax6() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max6.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max6.kt");
         }
 
         @TestMetadata("max7.kt")
         public void testMax7() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max7.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/max7.kt");
         }
 
         @TestMetadata("min1.kt")
         public void testMin1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/min1.kt");
         }
 
         @TestMetadata("min2.kt")
         public void testMin2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/min2.kt");
         }
 
         @TestMetadata("min3.kt")
         public void testMin3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/min3.kt");
         }
 
         @TestMetadata("min4.kt")
         public void testMin4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/min4.kt");
         }
 
         @TestMetadata("min5.kt")
         public void testMin5() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min5.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/maxMin/min5.kt");
         }
     }
 
@@ -1069,77 +1069,77 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("errorOutsideLoop.kt")
         public void testErrorOutsideLoop() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/errorOutsideLoop.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/errorOutsideLoop.kt");
         }
 
         @TestMetadata("smartCastNotBroken.kt")
         public void testSmartCastNotBroken() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken.kt");
         }
 
         @TestMetadata("smartCastNotBroken2.kt")
         public void testSmartCastNotBroken2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken2.kt");
         }
 
         @TestMetadata("smartCastNotBroken3.kt")
         public void testSmartCastNotBroken3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken3.kt");
         }
 
         @TestMetadata("smartCastNotBroken4.kt")
         public void testSmartCastNotBroken4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken4.kt");
         }
 
         @TestMetadata("smartCastNotBroken5.kt")
         public void testSmartCastNotBroken5() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken5.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken5.kt");
         }
 
         @TestMetadata("smartCastNotNullRequired.kt")
         public void testSmartCastNotNullRequired() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotNullRequired.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotNullRequired.kt");
         }
 
         @TestMetadata("smartCastNotRequired.kt")
         public void testSmartCastNotRequired() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotRequired.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotRequired.kt");
         }
 
         @TestMetadata("smartCastRequired.kt")
         public void testSmartCastRequired() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired.kt");
         }
 
         @TestMetadata("smartCastRequired2.kt")
         public void testSmartCastRequired2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired2.kt");
         }
 
         @TestMetadata("smartCastRequired3.kt")
         public void testSmartCastRequired3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired3.kt");
         }
 
         @TestMetadata("smartCastRequired4.kt")
         public void testSmartCastRequired4() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired4.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired4.kt");
         }
 
         @TestMetadata("smartCastRequired5.kt")
         public void testSmartCastRequired5() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired5.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired5.kt");
         }
 
         @TestMetadata("smartCastRequired6.kt")
         public void testSmartCastRequired6() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired6.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired6.kt");
         }
 
         @TestMetadata("smartCastThisRequired.kt")
         public void testSmartCastThisRequired() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastThisRequired.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/smartCasts/smartCastThisRequired.kt");
         }
     }
 
@@ -1153,87 +1153,87 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("bytes.kt")
         public void testBytes() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/bytes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/bytes.kt");
         }
 
         @TestMetadata("doubles.kt")
         public void testDoubles() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/doubles.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/doubles.kt");
         }
 
         @TestMetadata("floats.kt")
         public void testFloats() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/floats.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/floats.kt");
         }
 
         @TestMetadata("floatsIntoDouble.kt")
         public void testFloatsIntoDouble() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/floatsIntoDouble.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/floatsIntoDouble.kt");
         }
 
         @TestMetadata("indexUsed.kt")
         public void testIndexUsed() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/indexUsed.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/indexUsed.kt");
         }
 
         @TestMetadata("indexUsed2.kt")
         public void testIndexUsed2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/indexUsed2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/indexUsed2.kt");
         }
 
         @TestMetadata("ints.kt")
         public void testInts() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/ints.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/ints.kt");
         }
 
         @TestMetadata("longs.kt")
         public void testLongs() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/longs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/longs.kt");
         }
 
         @TestMetadata("nonNumbers.kt")
         public void testNonNumbers() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/nonNumbers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/nonNumbers.kt");
         }
 
         @TestMetadata("nonZeroInitial.kt")
         public void testNonZeroInitial() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/nonZeroInitial.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/nonZeroInitial.kt");
         }
 
         @TestMetadata("short.kt")
         public void testShort() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/short.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/short.kt");
         }
 
         @TestMetadata("smartCast.kt")
         public void testSmartCast() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/smartCast.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/smartCast.kt");
         }
 
         @TestMetadata("smartCastNotNull.kt")
         public void testSmartCastNotNull() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/smartCastNotNull.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/smartCastNotNull.kt");
         }
 
         @TestMetadata("sumByDouble.kt")
         public void testSumByDouble() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByDouble.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/sumByDouble.kt");
         }
 
         @TestMetadata("sumByInts.kt")
         public void testSumByInts() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByInts.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/sumByInts.kt");
         }
 
         @TestMetadata("sumByIntsIntoLong.kt")
         public void testSumByIntsIntoLong() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByIntsIntoLong.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/sumByIntsIntoLong.kt");
         }
 
         @TestMetadata("sumByShorts.kt")
         public void testSumByShorts() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByShorts.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/sum/sumByShorts.kt");
         }
     }
 
@@ -1247,27 +1247,27 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("ifElse1.kt")
         public void testIfElse1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/ifElse1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/takeWhile/ifElse1.kt");
         }
 
         @TestMetadata("ifElse2.kt")
         public void testIfElse2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/ifElse2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/takeWhile/ifElse2.kt");
         }
 
         @TestMetadata("nestedLoop.kt")
         public void testNestedLoop() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/nestedLoop.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/takeWhile/nestedLoop.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/takeWhile/simple.kt");
         }
 
         @TestMetadata("wrongBreak.kt")
         public void testWrongBreak() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/wrongBreak.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/takeWhile/wrongBreak.kt");
         }
     }
 
@@ -1277,12 +1277,12 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
     public static class ToCollection extends AbstractIntentionTest2 {
         @TestMetadata("addAfterLoop.kt")
         public void testAddAfterLoop() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/addAfterLoop.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/addAfterLoop.kt");
         }
 
         @TestMetadata("addToCollection.kt")
         public void testAddToCollection() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/addToCollection.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/addToCollection.kt");
         }
 
         public void testAllFilesPresentInToCollection() throws Exception {
@@ -1291,72 +1291,72 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("badReceiver1.kt")
         public void testBadReceiver1() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/badReceiver1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/badReceiver1.kt");
         }
 
         @TestMetadata("badReceiver2.kt")
         public void testBadReceiver2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/badReceiver2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/badReceiver2.kt");
         }
 
         @TestMetadata("explicitValType.kt")
         public void testExplicitValType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/explicitValType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/explicitValType.kt");
         }
 
         @TestMetadata("goodReceiver.kt")
         public void testGoodReceiver() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/goodReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/goodReceiver.kt");
         }
 
         @TestMetadata("KT18881.kt")
         public void testKT18881() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/KT18881.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/KT18881.kt");
         }
 
         @TestMetadata("resultCollectionUsedInsideLoop.kt")
         public void testResultCollectionUsedInsideLoop() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/resultCollectionUsedInsideLoop.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/resultCollectionUsedInsideLoop.kt");
         }
 
         @TestMetadata("toList.kt")
         public void testToList() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toList.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toList.kt");
         }
 
         @TestMetadata("toList2.kt")
         public void testToList2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toList2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toList2.kt");
         }
 
         @TestMetadata("toList3.kt")
         public void testToList3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toList3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toList3.kt");
         }
 
         @TestMetadata("toMutableSet.kt")
         public void testToMutableSet() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toMutableSet.kt");
         }
 
         @TestMetadata("toMutableSet2.kt")
         public void testToMutableSet2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toMutableSet2.kt");
         }
 
         @TestMetadata("toMutableSet3.kt")
         public void testToMutableSet3() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet3.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toMutableSet3.kt");
         }
 
         @TestMetadata("toSet.kt")
         public void testToSet() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toSet.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toSet.kt");
         }
 
         @TestMetadata("toSetWithMap.kt")
         public void testToSetWithMap() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toSetWithMap.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/intentions/loopToCallChain/toCollection/toSetWithMap.kt");
         }
     }
 }

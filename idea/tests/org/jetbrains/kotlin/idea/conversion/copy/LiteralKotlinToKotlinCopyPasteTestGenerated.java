@@ -27,31 +27,31 @@ public class LiteralKotlinToKotlinCopyPasteTestGenerated extends AbstractLiteral
 
     @TestMetadata("CollectionLiteralReference.kt")
     public void testCollectionLiteralReference() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/CollectionLiteralReference.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/literal/CollectionLiteralReference.kt");
     }
 
     @TestMetadata("DontEscapeEntries.kt")
     public void testDontEscapeEntries() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontEscapeEntries.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/literal/DontEscapeEntries.kt");
     }
 
     @TestMetadata("DontEscapeEntries2.kt")
     public void testDontEscapeEntries2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontEscapeEntries2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/literal/DontEscapeEntries2.kt");
     }
 
     @TestMetadata("DontEscapeThis.kt")
     public void testDontEscapeThis() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontEscapeThis.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/literal/DontEscapeThis.kt");
     }
 
     @TestMetadata("DontUnescapeLiteralWIthCode.kt")
     public void testDontUnescapeLiteralWIthCode() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontUnescapeLiteralWIthCode.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/literal/DontUnescapeLiteralWIthCode.kt");
     }
 
     @TestMetadata("UnescapeFullSelection.kt")
     public void testUnescapeFullSelection() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/UnescapeFullSelection.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/literal/UnescapeFullSelection.kt");
     }
 }

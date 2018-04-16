@@ -27,7 +27,7 @@ public class BackspaceHandlerTestGenerated extends AbstractBackspaceHandlerTest 
 
     @TestMetadata("typeArguments.kt")
     public void testTypeArguments() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/editor/backspaceHandler/typeArguments.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/backspaceHandler/typeArguments.kt");
     }
 
     @TestMetadata("idea/testData/editor/backspaceHandler/stringTemplate")
@@ -40,12 +40,12 @@ public class BackspaceHandlerTestGenerated extends AbstractBackspaceHandlerTest 
 
         @TestMetadata("escapedStringTemplate.kt")
         public void testEscapedStringTemplate() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/backspaceHandler/stringTemplate/escapedStringTemplate.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/backspaceHandler/stringTemplate/escapedStringTemplate.kt");
         }
 
         @TestMetadata("stringTemplateBrackets.kt")
         public void testStringTemplateBrackets() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/editor/backspaceHandler/stringTemplate/stringTemplateBrackets.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/editor/backspaceHandler/stringTemplate/stringTemplateBrackets.kt");
         }
     }
 }

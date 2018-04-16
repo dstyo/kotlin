@@ -27,21 +27,21 @@ public class OutputPrefixPostfixTestGenerated extends AbstractOutputPrefixPostfi
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/outputPrefixPostfix/simple.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/outputPrefixPostfix/simple.kt");
     }
 
     @TestMetadata("simpleWithPostfix.kt")
     public void testSimpleWithPostfix() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/outputPrefixPostfix/simpleWithPostfix.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/outputPrefixPostfix/simpleWithPostfix.kt");
     }
 
     @TestMetadata("simpleWithPrefix.kt")
     public void testSimpleWithPrefix() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/outputPrefixPostfix/simpleWithPrefix.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/outputPrefixPostfix/simpleWithPrefix.kt");
     }
 
     @TestMetadata("simpleWithPrefixAndPostfix.kt")
     public void testSimpleWithPrefixAndPostfix() throws Exception {
-        KotlinTestUtils.runTest("js/js.translator/testData/outputPrefixPostfix/simpleWithPrefixAndPostfix.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "js/js.translator/testData/outputPrefixPostfix/simpleWithPrefixAndPostfix.kt");
     }
 }

@@ -29,47 +29,47 @@ public class MavenConfigureProjectByChangingFileTestGenerated extends AbstractMa
 
         @TestMetadata("fixExisting")
         public void testFixExisting() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/fixExisting/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/fixExisting/");
         }
 
         @TestMetadata("jreLib")
         public void testJreLib() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/jreLib/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/jreLib/");
         }
 
         @TestMetadata("libraryMissed")
         public void testLibraryMissed() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/libraryMissed/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/libraryMissed/");
         }
 
         @TestMetadata("pluginMissed")
         public void testPluginMissed() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/pluginMissed/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/pluginMissed/");
         }
 
         @TestMetadata("simpleProject")
         public void testSimpleProject() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProject/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/simpleProject/");
         }
 
         @TestMetadata("simpleProjectEAP")
         public void testSimpleProjectEAP() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProjectEAP/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/simpleProjectEAP/");
         }
 
         @TestMetadata("simpleProjectRc")
         public void testSimpleProjectRc() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProjectRc/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/simpleProjectRc/");
         }
 
         @TestMetadata("simpleProjectSnapshot")
         public void testSimpleProjectSnapshot() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProjectSnapshot/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/simpleProjectSnapshot/");
         }
 
         @TestMetadata("withJava9ModuleInfo")
         public void testWithJava9ModuleInfo() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/withJava9ModuleInfo/", this::doTestWithMaven);
+            KotlinTestUtils.runTest(this::doTestWithMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/jvm/withJava9ModuleInfo/");
         }
     }
 
@@ -83,22 +83,22 @@ public class MavenConfigureProjectByChangingFileTestGenerated extends AbstractMa
 
         @TestMetadata("libraryMissed")
         public void testLibraryMissed() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/libraryMissed/", this::doTestWithJSMaven);
+            KotlinTestUtils.runTest(this::doTestWithJSMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/js/libraryMissed/");
         }
 
         @TestMetadata("pluginMissed")
         public void testPluginMissed() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/pluginMissed/", this::doTestWithJSMaven);
+            KotlinTestUtils.runTest(this::doTestWithJSMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/js/pluginMissed/");
         }
 
         @TestMetadata("simpleProject")
         public void testSimpleProject() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/simpleProject/", this::doTestWithJSMaven);
+            KotlinTestUtils.runTest(this::doTestWithJSMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/js/simpleProject/");
         }
 
         @TestMetadata("simpleProjectSnapshot")
         public void testSimpleProjectSnapshot() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/simpleProjectSnapshot/", this::doTestWithJSMaven);
+            KotlinTestUtils.runTest(this::doTestWithJSMaven,TargetBackend.ANY, "idea/idea-maven/testData/configurator/js/simpleProjectSnapshot/");
         }
     }
 }

@@ -27,36 +27,36 @@ public class TopLevelMembersInvocationTestGenerated extends AbstractTopLevelMemb
 
     @TestMetadata("extensionFunction")
     public void testExtensionFunction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/extensionFunction/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/extensionFunction/");
     }
 
     @TestMetadata("functionDifferentPackage")
     public void testFunctionDifferentPackage() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/functionDifferentPackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/functionDifferentPackage/");
     }
 
     @TestMetadata("functionInMultiFilePackage")
     public void testFunctionInMultiFilePackage() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/functionInMultiFilePackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/functionInMultiFilePackage/");
     }
 
     @TestMetadata("functionSamePackage")
     public void testFunctionSamePackage() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/functionSamePackage/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/functionSamePackage/");
     }
 
     @TestMetadata("property")
     public void testProperty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/property/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/property/");
     }
 
     @TestMetadata("propertyWithGetter")
     public void testPropertyWithGetter() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/propertyWithGetter/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/propertyWithGetter/");
     }
 
     @TestMetadata("twoModules")
     public void testTwoModules() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/twoModules/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/topLevelMemberInvocation/twoModules/");
     }
 }

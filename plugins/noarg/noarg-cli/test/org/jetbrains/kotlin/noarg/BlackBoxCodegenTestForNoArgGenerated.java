@@ -27,31 +27,31 @@ public class BlackBoxCodegenTestForNoArgGenerated extends AbstractBlackBoxCodege
 
     @TestMetadata("initializers.kt")
     public void testInitializers() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/initializers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "plugins/noarg/noarg-cli/testData/box/initializers.kt");
     }
 
     @TestMetadata("initializersWithoutInvokeInitializers.kt")
     public void testInitializersWithoutInvokeInitializers() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/initializersWithoutInvokeInitializers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "plugins/noarg/noarg-cli/testData/box/initializersWithoutInvokeInitializers.kt");
     }
 
     @TestMetadata("kt18245.kt")
     public void testKt18245() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/kt18245.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "plugins/noarg/noarg-cli/testData/box/kt18245.kt");
     }
 
     @TestMetadata("kt18667.kt")
     public void testKt18667() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/kt18667.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "plugins/noarg/noarg-cli/testData/box/kt18667.kt");
     }
 
     @TestMetadata("kt18668.kt")
     public void testKt18668() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/kt18668.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "plugins/noarg/noarg-cli/testData/box/kt18668.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.JVM, "plugins/noarg/noarg-cli/testData/box/simple.kt");
     }
 }

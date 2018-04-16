@@ -27,17 +27,17 @@ public class ForeignJava8AnnotationsNoAnnotationInClasspathWithFastClassReadingT
 
     @TestMetadata("checkerFramework.kt")
     public void testCheckerFramework() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/checkerFramework.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/checkerFramework.kt");
     }
 
     @TestMetadata("eclipse.kt")
     public void testEclipse() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/eclipse.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/eclipse.kt");
     }
 
     @TestMetadata("typeUseOnObject.kt")
     public void testTypeUseOnObject() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeUseOnObject.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeUseOnObject.kt");
     }
 
     @TestMetadata("compiler/testData/foreignAnnotationsJava8/tests/jsr305")
@@ -50,27 +50,27 @@ public class ForeignJava8AnnotationsNoAnnotationInClasspathWithFastClassReadingT
 
         @TestMetadata("defaultAnnotationAppliedToType.kt")
         public void testDefaultAnnotationAppliedToType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/jsr305/defaultAnnotationAppliedToType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/jsr305/defaultAnnotationAppliedToType.kt");
         }
 
         @TestMetadata("defaultAnnotationAppliedToTypeForCompiledJava.kt")
         public void testDefaultAnnotationAppliedToTypeForCompiledJava() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/jsr305/defaultAnnotationAppliedToTypeForCompiledJava.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/jsr305/defaultAnnotationAppliedToTypeForCompiledJava.kt");
         }
 
         @TestMetadata("springNullableWithTypeUse.kt")
         public void testSpringNullableWithTypeUse() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/jsr305/springNullableWithTypeUse.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/jsr305/springNullableWithTypeUse.kt");
         }
 
         @TestMetadata("typeArguments.kt")
         public void testTypeArguments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/jsr305/typeArguments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/jsr305/typeArguments.kt");
         }
 
         @TestMetadata("typeUseVsMethodConflict.kt")
         public void testTypeUseVsMethodConflict() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/jsr305/typeUseVsMethodConflict.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/jsr305/typeUseVsMethodConflict.kt");
         }
     }
 
@@ -84,37 +84,37 @@ public class ForeignJava8AnnotationsNoAnnotationInClasspathWithFastClassReadingT
 
         @TestMetadata("annotatedTypeArguments.kt")
         public void testAnnotatedTypeArguments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/annotatedTypeArguments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/annotatedTypeArguments.kt");
         }
 
         @TestMetadata("methodWithTypeParameter.kt")
         public void testMethodWithTypeParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/methodWithTypeParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/methodWithTypeParameter.kt");
         }
 
         @TestMetadata("notNullVarargsOverrides.kt")
         public void testNotNullVarargsOverrides() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/notNullVarargsOverrides.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/notNullVarargsOverrides.kt");
         }
 
         @TestMetadata("nullableVarargsOverrides.kt")
         public void testNullableVarargsOverrides() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/nullableVarargsOverrides.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/nullableVarargsOverrides.kt");
         }
 
         @TestMetadata("returnTypeDifferentConstructor.kt")
         public void testReturnTypeDifferentConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/returnTypeDifferentConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/returnTypeDifferentConstructor.kt");
         }
 
         @TestMetadata("returnTypeOverrideInKotlin.kt")
         public void testReturnTypeOverrideInKotlin() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/returnTypeOverrideInKotlin.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/returnTypeOverrideInKotlin.kt");
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/foreignAnnotationsJava8/tests/typeEnhancement/simple.kt");
         }
     }
 }

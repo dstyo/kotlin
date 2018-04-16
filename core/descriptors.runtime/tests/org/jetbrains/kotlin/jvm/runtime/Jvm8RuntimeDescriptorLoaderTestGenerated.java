@@ -27,21 +27,21 @@ public class Jvm8RuntimeDescriptorLoaderTestGenerated extends AbstractJvm8Runtim
 
     @TestMetadata("InnerClassTypeAnnotation.java")
     public void testInnerClassTypeAnnotation() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/InnerClassTypeAnnotation.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/InnerClassTypeAnnotation.java");
     }
 
     @TestMetadata("MapRemove.java")
     public void testMapRemove() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/MapRemove.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/MapRemove.java");
     }
 
     @TestMetadata("TypeAnnotations.java")
     public void testTypeAnnotations() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/TypeAnnotations.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/TypeAnnotations.java");
     }
 
     @TestMetadata("TypeParameterAnnotations.java")
     public void testTypeParameterAnnotations() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/TypeParameterAnnotations.java", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava8/compiledJava/TypeParameterAnnotations.java");
     }
 }

@@ -27,56 +27,56 @@ public class PropertyAccessorsInlineTestsGenerated extends AbstractPropertyAcces
 
     @TestMetadata("augAssignmentAndInc.kt")
     public void testAugAssignmentAndInc() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndInc.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/augAssignmentAndInc.kt");
     }
 
     @TestMetadata("augAssignmentAndIncInClass.kt")
     public void testAugAssignmentAndIncInClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClass.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClass.kt");
     }
 
     @TestMetadata("augAssignmentAndIncInClassViaConvention.kt")
     public void testAugAssignmentAndIncInClassViaConvention() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClassViaConvention.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClassViaConvention.kt");
     }
 
     @TestMetadata("augAssignmentAndIncOnExtension.kt")
     public void testAugAssignmentAndIncOnExtension() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtension.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtension.kt");
     }
 
     @TestMetadata("augAssignmentAndIncOnExtensionInClass.kt")
     public void testAugAssignmentAndIncOnExtensionInClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtensionInClass.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtensionInClass.kt");
     }
 
     @TestMetadata("augAssignmentAndIncViaConvention.kt")
     public void testAugAssignmentAndIncViaConvention() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncViaConvention.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/augAssignmentAndIncViaConvention.kt");
     }
 
     @TestMetadata("property.kt")
     public void testProperty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/property.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/property.kt");
     }
 
     @TestMetadata("reifiedVal.kt")
     public void testReifiedVal() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/reifiedVal.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/reifiedVal.kt");
     }
 
     @TestMetadata("reifiedVar.kt")
     public void testReifiedVar() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/reifiedVar.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/reifiedVar.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/simple.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/simple.kt");
     }
 
     @TestMetadata("simpleExtension.kt")
     public void testSimpleExtension() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/simpleExtension.kt", this::doTest);
+        KotlinTestUtils.runTest0(this::doTest,TargetBackend.JS, "compiler/testData/codegen/boxInline/property/simpleExtension.kt");
     }
 }

@@ -29,52 +29,52 @@ public class AndroidBoxTestGenerated extends AbstractAndroidBoxTest {
 
         @TestMetadata("androidEntity")
         public void testAndroidEntity() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntity/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntity/");
         }
 
         @TestMetadata("androidEntityInnerClass")
         public void testAndroidEntityInnerClass() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntityInnerClass/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntityInnerClass/");
         }
 
         @TestMetadata("fqNameInAttr")
         public void testFqNameInAttr() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInAttr/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInAttr/");
         }
 
         @TestMetadata("fqNameInTag")
         public void testFqNameInTag() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInTag/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInTag/");
         }
 
         @TestMetadata("fragment")
         public void testFragment() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragment/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragment/");
         }
 
         @TestMetadata("fragmentNoGetView")
         public void testFragmentNoGetView() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragmentNoGetView/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragmentNoGetView/");
         }
 
         @TestMetadata("manyWidgets")
         public void testManyWidgets() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/manyWidgets/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/manyWidgets/");
         }
 
         @TestMetadata("multiFile")
         public void testMultiFile() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/multiFile/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/multiFile/");
         }
 
         @TestMetadata("singleFile")
         public void testSingleFile() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/singleFile/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/singleFile/");
         }
 
         @TestMetadata("view")
         public void testView() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/view/", this::doCompileAgainstAndroidSdkTest);
+            KotlinTestUtils.runTest(this::doCompileAgainstAndroidSdkTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/view/");
         }
     }
 
@@ -88,52 +88,52 @@ public class AndroidBoxTestGenerated extends AbstractAndroidBoxTest {
 
         @TestMetadata("androidEntity")
         public void testAndroidEntity() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntity/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntity/");
         }
 
         @TestMetadata("androidEntityInnerClass")
         public void testAndroidEntityInnerClass() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntityInnerClass/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/androidEntityInnerClass/");
         }
 
         @TestMetadata("fqNameInAttr")
         public void testFqNameInAttr() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInAttr/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInAttr/");
         }
 
         @TestMetadata("fqNameInTag")
         public void testFqNameInTag() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInTag/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fqNameInTag/");
         }
 
         @TestMetadata("fragment")
         public void testFragment() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragment/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragment/");
         }
 
         @TestMetadata("fragmentNoGetView")
         public void testFragmentNoGetView() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragmentNoGetView/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/fragmentNoGetView/");
         }
 
         @TestMetadata("manyWidgets")
         public void testManyWidgets() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/manyWidgets/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/manyWidgets/");
         }
 
         @TestMetadata("multiFile")
         public void testMultiFile() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/multiFile/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/multiFile/");
         }
 
         @TestMetadata("singleFile")
         public void testSingleFile() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/singleFile/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/singleFile/");
         }
 
         @TestMetadata("view")
         public void testView() throws Exception {
-            KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/android/view/", this::doFakeInvocationTest);
+            KotlinTestUtils.runTest(this::doFakeInvocationTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/codegen/android/view/");
         }
     }
 }

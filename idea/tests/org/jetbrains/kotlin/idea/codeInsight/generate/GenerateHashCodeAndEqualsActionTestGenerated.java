@@ -27,141 +27,141 @@ public class GenerateHashCodeAndEqualsActionTestGenerated extends AbstractGenera
 
     @TestMetadata("annotation.kt")
     public void testAnnotation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/annotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/annotation.kt");
     }
 
     @TestMetadata("arrays.kt")
     public void testArrays() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/arrays.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/arrays.kt");
     }
 
     @TestMetadata("customAccessors.kt")
     public void testCustomAccessors() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/customAccessors.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/customAccessors.kt");
     }
 
     @TestMetadata("dataClass.kt")
     public void testDataClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/dataClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/dataClass.kt");
     }
 
     @TestMetadata("dataClassHasArrayProperty.kt")
     public void testDataClassHasArrayProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/dataClassHasArrayProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/dataClassHasArrayProperty.kt");
     }
 
     @TestMetadata("enum.kt")
     public void testEnum() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/enum.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/enum.kt");
     }
 
     @TestMetadata("explicitDefaultAccessors.kt")
     public void testExplicitDefaultAccessors() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/explicitDefaultAccessors.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/explicitDefaultAccessors.kt");
     }
 
     @TestMetadata("genericClass.kt")
     public void testGenericClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/genericClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/genericClass.kt");
     }
 
     @TestMetadata("genericClassWithIsCheck.kt")
     public void testGenericClassWithIsCheck() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/genericClassWithIsCheck.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/genericClassWithIsCheck.kt");
     }
 
     @TestMetadata("interface.kt")
     public void testInterface() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/interface.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/interface.kt");
     }
 
     @TestMetadata("keepQuotes.kt")
     public void testKeepQuotes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/keepQuotes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/keepQuotes.kt");
     }
 
     @TestMetadata("multipleVars.kt")
     public void testMultipleVars() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/multipleVars.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/multipleVars.kt");
     }
 
     @TestMetadata("multipleVarsCommon.kt")
     public void testMultipleVarsCommon() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsCommon.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsCommon.kt");
     }
 
     @TestMetadata("multipleVarsJS.kt")
     public void testMultipleVarsJS() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsJS.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsJS.kt");
     }
 
     @TestMetadata("multipleVarsNullable.kt")
     public void testMultipleVarsNullable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsNullable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsNullable.kt");
     }
 
     @TestMetadata("multipleVarsWithSuperClass.kt")
     public void testMultipleVarsWithSuperClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsWithSuperClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/multipleVarsWithSuperClass.kt");
     }
 
     @TestMetadata("nameClash.kt")
     public void testNameClash() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/nameClash.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/nameClash.kt");
     }
 
     @TestMetadata("noVars.kt")
     public void testNoVars() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/noVars.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/noVars.kt");
     }
 
     @TestMetadata("noVarsCommon.kt")
     public void testNoVarsCommon() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/noVarsCommon.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/noVarsCommon.kt");
     }
 
     @TestMetadata("noVarsJS.kt")
     public void testNoVarsJS() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/noVarsJS.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/noVarsJS.kt");
     }
 
     @TestMetadata("noVarsWithSuperClass.kt")
     public void testNoVarsWithSuperClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/noVarsWithSuperClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/noVarsWithSuperClass.kt");
     }
 
     @TestMetadata("nullableArrays.kt")
     public void testNullableArrays() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/nullableArrays.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/nullableArrays.kt");
     }
 
     @TestMetadata("object.kt")
     public void testObject() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/object.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/object.kt");
     }
 
     @TestMetadata("singleVar.kt")
     public void testSingleVar() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/singleVar.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/singleVar.kt");
     }
 
     @TestMetadata("singleVarNullable.kt")
     public void testSingleVarNullable() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/singleVarNullable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/singleVarNullable.kt");
     }
 
     @TestMetadata("singleVarWithIsCheck.kt")
     public void testSingleVarWithIsCheck() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/singleVarWithIsCheck.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/singleVarWithIsCheck.kt");
     }
 
     @TestMetadata("singleVarWithJavaSuperClass.kt")
     public void testSingleVarWithJavaSuperClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/singleVarWithJavaSuperClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/singleVarWithJavaSuperClass.kt");
     }
 
     @TestMetadata("singleVarWithSuperClass.kt")
     public void testSingleVarWithSuperClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/generate/equalsWithHashCode/singleVarWithSuperClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/generate/equalsWithHashCode/singleVarWithSuperClass.kt");
     }
 }

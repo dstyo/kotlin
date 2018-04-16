@@ -27,76 +27,76 @@ public class ParcelBytecodeListingTestGenerated extends AbstractParcelBytecodeLi
 
     @TestMetadata("customDescribeContents.kt")
     public void testCustomDescribeContents() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customDescribeContents.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customDescribeContents.kt");
     }
 
     @TestMetadata("customParcelablesDifferentModule.kt")
     public void testCustomParcelablesDifferentModule() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customParcelablesDifferentModule.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customParcelablesDifferentModule.kt");
     }
 
     @TestMetadata("customParcelablesSameModule.kt")
     public void testCustomParcelablesSameModule() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customParcelablesSameModule.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customParcelablesSameModule.kt");
     }
 
     @TestMetadata("customSimple.kt")
     public void testCustomSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customSimple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customSimple.kt");
     }
 
     @TestMetadata("customSimpleWithNewArray.kt")
     public void testCustomSimpleWithNewArray() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customSimpleWithNewArray.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/customSimpleWithNewArray.kt");
     }
 
     @TestMetadata("describeContentsFromSuperType.kt")
     public void testDescribeContentsFromSuperType() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/describeContentsFromSuperType.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/describeContentsFromSuperType.kt");
     }
 
     @TestMetadata("duplicatingClinit.kt")
     public void testDuplicatingClinit() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/duplicatingClinit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/duplicatingClinit.kt");
     }
 
     @TestMetadata("IBinderIInterface.kt")
     public void testIBinderIInterface() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/IBinderIInterface.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/IBinderIInterface.kt");
     }
 
     @TestMetadata("listInsideList.kt")
     public void testListInsideList() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/listInsideList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/listInsideList.kt");
     }
 
     @TestMetadata("nullableNotNullSize.kt")
     public void testNullableNotNullSize() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/nullableNotNullSize.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/nullableNotNullSize.kt");
     }
 
     @TestMetadata("parcelable.kt")
     public void testParcelable() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/parcelable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/parcelable.kt");
     }
 
     @TestMetadata("serializable.kt")
     public void testSerializable() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/serializable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/serializable.kt");
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/simple.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/simple.kt");
     }
 
     @TestMetadata("simpleList.kt")
     public void testSimpleList() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/simpleList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/simpleList.kt");
     }
 
     @TestMetadata("size.kt")
     public void testSize() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/size.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-compiler/testData/parcel/codegen/size.kt");
     }
 }

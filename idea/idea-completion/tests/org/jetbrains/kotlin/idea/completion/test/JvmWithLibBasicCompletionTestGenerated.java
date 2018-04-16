@@ -27,41 +27,41 @@ public class JvmWithLibBasicCompletionTestGenerated extends AbstractJvmWithLibBa
 
     @TestMetadata("NamedArgumentsJava.kt")
     public void testNamedArgumentsJava() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/NamedArgumentsJava.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/NamedArgumentsJava.kt");
     }
 
     @TestMetadata("NamedArgumentsKotlin.kt")
     public void testNamedArgumentsKotlin() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/NamedArgumentsKotlin.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/NamedArgumentsKotlin.kt");
     }
 
     @TestMetadata("SamAdapter.kt")
     public void testSamAdapter() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/SamAdapter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/SamAdapter.kt");
     }
 
     @TestMetadata("SamAdapterAndGenerics.kt")
     public void testSamAdapterAndGenerics() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/SamAdapterAndGenerics.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/SamAdapterAndGenerics.kt");
     }
 
     @TestMetadata("TopLevelNonImportedExtFun.kt")
     public void testTopLevelNonImportedExtFun() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtFun.kt");
     }
 
     @TestMetadata("TopLevelNonImportedExtProp.kt")
     public void testTopLevelNonImportedExtProp() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtProp.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtProp.kt");
     }
 
     @TestMetadata("TopLevelNonImportedFun.kt")
     public void testTopLevelNonImportedFun() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedFun.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/TopLevelNonImportedFun.kt");
     }
 
     @TestMetadata("TopLevelNonImportedProperty.kt")
     public void testTopLevelNonImportedProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedProperty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/withLib/TopLevelNonImportedProperty.kt");
     }
 }

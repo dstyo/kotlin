@@ -37,52 +37,52 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("ArrayAccess.kt")
             public void testArrayAccess() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/ArrayAccess.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/ArrayAccess.kt");
             }
 
             @TestMetadata("arrayAccessExpression.kt")
             public void testArrayAccessExpression() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arrayAccessExpression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arrayAccessExpression.kt");
             }
 
             @TestMetadata("arrayInc.kt")
             public void testArrayInc() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arrayInc.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arrayInc.kt");
             }
 
             @TestMetadata("arrayIncUnresolved.kt")
             public void testArrayIncUnresolved() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arrayIncUnresolved.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arrayIncUnresolved.kt");
             }
 
             @TestMetadata("ArrayOfFunctions.kt")
             public void testArrayOfFunctions() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/ArrayOfFunctions.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/ArrayOfFunctions.kt");
             }
 
             @TestMetadata("arraySet.kt")
             public void testArraySet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arraySet.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arraySet.kt");
             }
 
             @TestMetadata("arraySetNoRHS.kt")
             public void testArraySetNoRHS() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arraySetNoRHS.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arraySetNoRHS.kt");
             }
 
             @TestMetadata("arraySetPlusAssign.kt")
             public void testArraySetPlusAssign() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arraySetPlusAssign.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arraySetPlusAssign.kt");
             }
 
             @TestMetadata("arraySetPlusAssignUnresolved.kt")
             public void testArraySetPlusAssignUnresolved() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arraySetPlusAssignUnresolved.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arraySetPlusAssignUnresolved.kt");
             }
 
             @TestMetadata("arraySetUnresolved.kt")
             public void testArraySetUnresolved() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/arrays/arraySetUnresolved.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/arrays/arraySetUnresolved.kt");
             }
         }
 
@@ -96,17 +96,17 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("Basic.kt")
             public void testBasic() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/basic/Basic.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/basic/Basic.kt");
             }
 
             @TestMetadata("EmptyFunction.kt")
             public void testEmptyFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/basic/EmptyFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/basic/EmptyFunction.kt");
             }
 
             @TestMetadata("ShortFunction.kt")
             public void testShortFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/basic/ShortFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/basic/ShortFunction.kt");
             }
         }
 
@@ -120,32 +120,32 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("functionalCallInEnumEntry.kt")
             public void testFunctionalCallInEnumEntry() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/bugs/functionalCallInEnumEntry.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/bugs/functionalCallInEnumEntry.kt");
             }
 
             @TestMetadata("jumpToOuterScope.kt")
             public void testJumpToOuterScope() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/bugs/jumpToOuterScope.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/bugs/jumpToOuterScope.kt");
             }
 
             @TestMetadata("kt10105.kt")
             public void testKt10105() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/bugs/kt10105.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/bugs/kt10105.kt");
             }
 
             @TestMetadata("kt7761.kt")
             public void testKt7761() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/bugs/kt7761.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/bugs/kt7761.kt");
             }
 
             @TestMetadata("setWithTypeMismatch.kt")
             public void testSetWithTypeMismatch() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/bugs/setWithTypeMismatch.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/bugs/setWithTypeMismatch.kt");
             }
 
             @TestMetadata("unresolvedInvokeOnResolvedVar.kt")
             public void testUnresolvedInvokeOnResolvedVar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/bugs/unresolvedInvokeOnResolvedVar.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/bugs/unresolvedInvokeOnResolvedVar.kt");
             }
         }
 
@@ -159,87 +159,87 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("breakContinueInTryFinally.kt")
             public void testBreakContinueInTryFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/breakContinueInTryFinally.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/breakContinueInTryFinally.kt");
             }
 
             @TestMetadata("breakInsideLocal.kt")
             public void testBreakInsideLocal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/breakInsideLocal.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/breakInsideLocal.kt");
             }
 
             @TestMetadata("continueInDoWhile.kt")
             public void testContinueInDoWhile() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/continueInDoWhile.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/continueInDoWhile.kt");
             }
 
             @TestMetadata("continueInFor.kt")
             public void testContinueInFor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/continueInFor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/continueInFor.kt");
             }
 
             @TestMetadata("continueInWhile.kt")
             public void testContinueInWhile() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/continueInWhile.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/continueInWhile.kt");
             }
 
             @TestMetadata("Finally.kt")
             public void testFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/Finally.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/Finally.kt");
             }
 
             @TestMetadata("FinallyTestCopy.kt")
             public void testFinallyTestCopy() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/FinallyTestCopy.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/FinallyTestCopy.kt");
             }
 
             @TestMetadata("For.kt")
             public void testFor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/For.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/For.kt");
             }
 
             @TestMetadata("If.kt")
             public void testIf() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/If.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/If.kt");
             }
 
             @TestMetadata("incorrectIndex.kt")
             public void testIncorrectIndex() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/incorrectIndex.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/incorrectIndex.kt");
             }
 
             @TestMetadata("InfiniteLoops.kt")
             public void testInfiniteLoops() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/InfiniteLoops.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/InfiniteLoops.kt");
             }
 
             @TestMetadata("localAndNonlocalReturnsWithFinally.kt")
             public void testLocalAndNonlocalReturnsWithFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/localAndNonlocalReturnsWithFinally.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/localAndNonlocalReturnsWithFinally.kt");
             }
 
             @TestMetadata("localFunctionInFinally.kt")
             public void testLocalFunctionInFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/localFunctionInFinally.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/localFunctionInFinally.kt");
             }
 
             @TestMetadata("OnlyWhileInFunctionBody.kt")
             public void testOnlyWhileInFunctionBody() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/OnlyWhileInFunctionBody.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/OnlyWhileInFunctionBody.kt");
             }
 
             @TestMetadata("returnsInWhen.kt")
             public void testReturnsInWhen() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/returnsInWhen.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/returnsInWhen.kt");
             }
 
             @TestMetadata("whenConditions.kt")
             public void testWhenConditions() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/whenConditions.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/whenConditions.kt");
             }
 
             @TestMetadata("whenExhaustive.kt")
             public void testWhenExhaustive() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/controlStructures/whenExhaustive.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/controlStructures/whenExhaustive.kt");
             }
         }
 
@@ -253,27 +253,27 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("bothReceivers.kt")
             public void testBothReceivers() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/conventions/bothReceivers.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/conventions/bothReceivers.kt");
             }
 
             @TestMetadata("equals.kt")
             public void testEquals() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/conventions/equals.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/conventions/equals.kt");
             }
 
             @TestMetadata("incrementAtTheEnd.kt")
             public void testIncrementAtTheEnd() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/conventions/incrementAtTheEnd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/conventions/incrementAtTheEnd.kt");
             }
 
             @TestMetadata("invoke.kt")
             public void testInvoke() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/conventions/invoke.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/conventions/invoke.kt");
             }
 
             @TestMetadata("notEqual.kt")
             public void testNotEqual() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/conventions/notEqual.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/conventions/notEqual.kt");
             }
         }
 
@@ -287,27 +287,27 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("DeadCode.kt")
             public void testDeadCode() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/deadCode/DeadCode.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/deadCode/DeadCode.kt");
             }
 
             @TestMetadata("notLocalReturn.kt")
             public void testNotLocalReturn() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/deadCode/notLocalReturn.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/deadCode/notLocalReturn.kt");
             }
 
             @TestMetadata("returnInElvis.kt")
             public void testReturnInElvis() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/deadCode/returnInElvis.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/deadCode/returnInElvis.kt");
             }
 
             @TestMetadata("stringTemplate.kt")
             public void testStringTemplate() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/deadCode/stringTemplate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/deadCode/stringTemplate.kt");
             }
 
             @TestMetadata("throwInLambda.kt")
             public void testThrowInLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/deadCode/throwInLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/deadCode/throwInLambda.kt");
             }
         }
 
@@ -329,32 +329,32 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
                 @TestMetadata("AnonymousInitializers.kt")
                 public void testAnonymousInitializers() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/classesAndObjects/AnonymousInitializers.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/classesAndObjects/AnonymousInitializers.kt");
                 }
 
                 @TestMetadata("delegationByExpression.kt")
                 public void testDelegationByExpression() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/classesAndObjects/delegationByExpression.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/classesAndObjects/delegationByExpression.kt");
                 }
 
                 @TestMetadata("delegationBySuperCall.kt")
                 public void testDelegationBySuperCall() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/classesAndObjects/delegationBySuperCall.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/classesAndObjects/delegationBySuperCall.kt");
                 }
 
                 @TestMetadata("EnumEntryRefersCompanion.kt")
                 public void testEnumEntryRefersCompanion() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/classesAndObjects/EnumEntryRefersCompanion.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/classesAndObjects/EnumEntryRefersCompanion.kt");
                 }
 
                 @TestMetadata("ObjectEnumQualifiers.kt")
                 public void testObjectEnumQualifiers() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/classesAndObjects/ObjectEnumQualifiers.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/classesAndObjects/ObjectEnumQualifiers.kt");
                 }
 
                 @TestMetadata("QualifierReceiverWithOthers.kt")
                 public void testQualifierReceiverWithOthers() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/classesAndObjects/QualifierReceiverWithOthers.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/classesAndObjects/QualifierReceiverWithOthers.kt");
                 }
             }
 
@@ -368,7 +368,7 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
                 @TestMetadata("unusedFunctionLiteral.kt")
                 public void testUnusedFunctionLiteral() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/functionLiterals/unusedFunctionLiteral.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/functionLiterals/unusedFunctionLiteral.kt");
                 }
             }
 
@@ -382,27 +382,27 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
                 @TestMetadata("anonymousFunctionInBlock.kt")
                 public void testAnonymousFunctionInBlock() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/functions/anonymousFunctionInBlock.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/functions/anonymousFunctionInBlock.kt");
                 }
 
                 @TestMetadata("FailFunction.kt")
                 public void testFailFunction() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/functions/FailFunction.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/functions/FailFunction.kt");
                 }
 
                 @TestMetadata("functionAsExpression.kt")
                 public void testFunctionAsExpression() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/functions/functionAsExpression.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/functions/functionAsExpression.kt");
                 }
 
                 @TestMetadata("namedFunctionInBlock.kt")
                 public void testNamedFunctionInBlock() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/functions/namedFunctionInBlock.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/functions/namedFunctionInBlock.kt");
                 }
 
                 @TestMetadata("typeParameter.kt")
                 public void testTypeParameter() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/functions/typeParameter.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/functions/typeParameter.kt");
                 }
             }
 
@@ -416,32 +416,32 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
                 @TestMetadata("localClass.kt")
                 public void testLocalClass() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/local/localClass.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/local/localClass.kt");
                 }
 
                 @TestMetadata("LocalDeclarations.kt")
                 public void testLocalDeclarations() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/local/LocalDeclarations.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/local/LocalDeclarations.kt");
                 }
 
                 @TestMetadata("localDelegatedVal.kt")
                 public void testLocalDelegatedVal() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/local/localDelegatedVal.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/local/localDelegatedVal.kt");
                 }
 
                 @TestMetadata("localFunction.kt")
                 public void testLocalFunction() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/local/localFunction.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/local/localFunction.kt");
                 }
 
                 @TestMetadata("localProperty.kt")
                 public void testLocalProperty() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/local/localProperty.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/local/localProperty.kt");
                 }
 
                 @TestMetadata("ObjectExpression.kt")
                 public void testObjectExpression() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/local/ObjectExpression.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/local/ObjectExpression.kt");
                 }
             }
 
@@ -455,12 +455,12 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
                 @TestMetadata("MultiDecl.kt")
                 public void testMultiDecl() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/multiDeclaration/MultiDecl.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/multiDeclaration/MultiDecl.kt");
                 }
 
                 @TestMetadata("multiDeclarationWithError.kt")
                 public void testMultiDeclarationWithError() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/multiDeclaration/multiDeclarationWithError.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/multiDeclaration/multiDeclarationWithError.kt");
                 }
             }
 
@@ -474,12 +474,12 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
                 @TestMetadata("DelegatedProperty.kt")
                 public void testDelegatedProperty() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/properties/DelegatedProperty.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/properties/DelegatedProperty.kt");
                 }
 
                 @TestMetadata("unreachableDelegation.kt")
                 public void testUnreachableDelegation() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/cfg/declarations/properties/unreachableDelegation.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/declarations/properties/unreachableDelegation.kt");
                 }
             }
         }
@@ -494,117 +494,117 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("assignmentToThis.kt")
             public void testAssignmentToThis() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/assignmentToThis.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/assignmentToThis.kt");
             }
 
             @TestMetadata("Assignments.kt")
             public void testAssignments() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/Assignments.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/Assignments.kt");
             }
 
             @TestMetadata("callableReferences.kt")
             public void testCallableReferences() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/callableReferences.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/callableReferences.kt");
             }
 
             @TestMetadata("casts.kt")
             public void testCasts() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/casts.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/casts.kt");
             }
 
             @TestMetadata("chainedQualifiedExpression.kt")
             public void testChainedQualifiedExpression() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/chainedQualifiedExpression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/chainedQualifiedExpression.kt");
             }
 
             @TestMetadata("expressionAsFunction.kt")
             public void testExpressionAsFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/expressionAsFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/expressionAsFunction.kt");
             }
 
             @TestMetadata("incdec.kt")
             public void testIncdec() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/incdec.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/incdec.kt");
             }
 
             @TestMetadata("invalidVariableCall.kt")
             public void testInvalidVariableCall() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/invalidVariableCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/invalidVariableCall.kt");
             }
 
             @TestMetadata("labeledExpression.kt")
             public void testLabeledExpression() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/labeledExpression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/labeledExpression.kt");
             }
 
             @TestMetadata("LazyBooleans.kt")
             public void testLazyBooleans() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/LazyBooleans.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/LazyBooleans.kt");
             }
 
             @TestMetadata("nothingExpr.kt")
             public void testNothingExpr() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/nothingExpr.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/nothingExpr.kt");
             }
 
             @TestMetadata("parenthesizedSelector.kt")
             public void testParenthesizedSelector() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/parenthesizedSelector.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/parenthesizedSelector.kt");
             }
 
             @TestMetadata("propertySafeCall.kt")
             public void testPropertySafeCall() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/propertySafeCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/propertySafeCall.kt");
             }
 
             @TestMetadata("qualifiedExpressionWithoutSelector.kt")
             public void testQualifiedExpressionWithoutSelector() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/qualifiedExpressionWithoutSelector.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/qualifiedExpressionWithoutSelector.kt");
             }
 
             @TestMetadata("ReturnFromExpression.kt")
             public void testReturnFromExpression() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/ReturnFromExpression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/ReturnFromExpression.kt");
             }
 
             @TestMetadata("thisExpression.kt")
             public void testThisExpression() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/thisExpression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/thisExpression.kt");
             }
 
             @TestMetadata("unresolvedCall.kt")
             public void testUnresolvedCall() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unresolvedCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unresolvedCall.kt");
             }
 
             @TestMetadata("unresolvedCalls.kt")
             public void testUnresolvedCalls() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unresolvedCalls.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unresolvedCalls.kt");
             }
 
             @TestMetadata("unresolvedCallsWithReceiver.kt")
             public void testUnresolvedCallsWithReceiver() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unresolvedCallsWithReceiver.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unresolvedCallsWithReceiver.kt");
             }
 
             @TestMetadata("unresolvedProperty.kt")
             public void testUnresolvedProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unresolvedProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unresolvedProperty.kt");
             }
 
             @TestMetadata("unresolvedWriteLHS.kt")
             public void testUnresolvedWriteLHS() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unresolvedWriteLHS.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unresolvedWriteLHS.kt");
             }
 
             @TestMetadata("unsupportedReturns.kt")
             public void testUnsupportedReturns() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unsupportedReturns.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unsupportedReturns.kt");
             }
 
             @TestMetadata("unusedExpressionSimpleName.kt")
             public void testUnusedExpressionSimpleName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/expressions/unusedExpressionSimpleName.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/expressions/unusedExpressionSimpleName.kt");
             }
         }
 
@@ -618,12 +618,12 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("DefaultValuesForArguments.kt")
             public void testDefaultValuesForArguments() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/functions/DefaultValuesForArguments.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/functions/DefaultValuesForArguments.kt");
             }
 
             @TestMetadata("unmappedArgs.kt")
             public void testUnmappedArgs() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/functions/unmappedArgs.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/functions/unmappedArgs.kt");
             }
         }
 
@@ -637,27 +637,27 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("withPrimary.kt")
             public void testWithPrimary() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/secondaryConstructors/withPrimary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/secondaryConstructors/withPrimary.kt");
             }
 
             @TestMetadata("withPrimarySuper.kt")
             public void testWithPrimarySuper() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/secondaryConstructors/withPrimarySuper.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/secondaryConstructors/withPrimarySuper.kt");
             }
 
             @TestMetadata("withReturn.kt")
             public void testWithReturn() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/secondaryConstructors/withReturn.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/secondaryConstructors/withReturn.kt");
             }
 
             @TestMetadata("withoutPrimary.kt")
             public void testWithoutPrimary() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/secondaryConstructors/withoutPrimary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/secondaryConstructors/withoutPrimary.kt");
             }
 
             @TestMetadata("withoutPrimarySuper.kt")
             public void testWithoutPrimarySuper() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/secondaryConstructors/withoutPrimarySuper.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/secondaryConstructors/withoutPrimarySuper.kt");
             }
         }
 
@@ -671,27 +671,27 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("finally.kt")
             public void testFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/tailCalls/finally.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/tailCalls/finally.kt");
             }
 
             @TestMetadata("finallyWithReturn.kt")
             public void testFinallyWithReturn() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/tailCalls/finallyWithReturn.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/tailCalls/finallyWithReturn.kt");
             }
 
             @TestMetadata("sum.kt")
             public void testSum() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/tailCalls/sum.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/tailCalls/sum.kt");
             }
 
             @TestMetadata("try.kt")
             public void testTry() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/tailCalls/try.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/tailCalls/try.kt");
             }
 
             @TestMetadata("tryCatchFinally.kt")
             public void testTryCatchFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfg/tailCalls/tryCatchFinally.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/cfg/tailCalls/tryCatchFinally.kt");
             }
         }
     }
@@ -714,27 +714,27 @@ public class ControlFlowTestGenerated extends AbstractControlFlowTest {
 
             @TestMetadata("labeledReturns.kt")
             public void testLabeledReturns() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfgWithStdLib/contracts/labeledReturns.kt", this::doTestWithStdLib);
+                KotlinTestUtils.runTest(this::doTestWithStdLib,TargetBackend.ANY, "compiler/testData/cfgWithStdLib/contracts/labeledReturns.kt");
             }
 
             @TestMetadata("nonReturningInlinedLambda.kt")
             public void testNonReturningInlinedLambda() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfgWithStdLib/contracts/nonReturningInlinedLambda.kt", this::doTestWithStdLib);
+                KotlinTestUtils.runTest(this::doTestWithStdLib,TargetBackend.ANY, "compiler/testData/cfgWithStdLib/contracts/nonReturningInlinedLambda.kt");
             }
 
             @TestMetadata("returnsAndCalls.kt")
             public void testReturnsAndCalls() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfgWithStdLib/contracts/returnsAndCalls.kt", this::doTestWithStdLib);
+                KotlinTestUtils.runTest(this::doTestWithStdLib,TargetBackend.ANY, "compiler/testData/cfgWithStdLib/contracts/returnsAndCalls.kt");
             }
 
             @TestMetadata("throwIfNotCalled.kt")
             public void testThrowIfNotCalled() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfgWithStdLib/contracts/throwIfNotCalled.kt", this::doTestWithStdLib);
+                KotlinTestUtils.runTest(this::doTestWithStdLib,TargetBackend.ANY, "compiler/testData/cfgWithStdLib/contracts/throwIfNotCalled.kt");
             }
 
             @TestMetadata("tryCatchFinally.kt")
             public void testTryCatchFinally() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/cfgWithStdLib/contracts/tryCatchFinally.kt", this::doTestWithStdLib);
+                KotlinTestUtils.runTest(this::doTestWithStdLib,TargetBackend.ANY, "compiler/testData/cfgWithStdLib/contracts/tryCatchFinally.kt");
             }
         }
     }

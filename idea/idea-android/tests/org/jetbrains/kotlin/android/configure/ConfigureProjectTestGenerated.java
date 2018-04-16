@@ -29,57 +29,57 @@ public class ConfigureProjectTestGenerated extends AbstractConfigureProjectTest 
 
         @TestMetadata("androidStudioDefault_before.gradle")
         public void testAndroidStudioDefault() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/androidStudioDefault_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/androidStudioDefault_before.gradle");
         }
 
         @TestMetadata("androidStudioDefaultShapshot_before.gradle")
         public void testAndroidStudioDefaultShapshot() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/androidStudioDefaultShapshot_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/androidStudioDefaultShapshot_before.gradle");
         }
 
         @TestMetadata("buildConfigs_before.gradle")
         public void testBuildConfigs() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/buildConfigs_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/buildConfigs_before.gradle");
         }
 
         @TestMetadata("emptyDependencyList_before.gradle")
         public void testEmptyDependencyList() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/emptyDependencyList_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/emptyDependencyList_before.gradle");
         }
 
         @TestMetadata("emptyFile_before.gradle")
         public void testEmptyFile() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/emptyFile_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/emptyFile_before.gradle");
         }
 
         @TestMetadata("helloWorld_before.gradle")
         public void testHelloWorld() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/helloWorld_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/helloWorld_before.gradle");
         }
 
         @TestMetadata("libraryFile_before.gradle")
         public void testLibraryFile() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/libraryFile_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/libraryFile_before.gradle");
         }
 
         @TestMetadata("missedApplyAndroidStatement_before.gradle")
         public void testMissedApplyAndroidStatement() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/missedApplyAndroidStatement_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/missedApplyAndroidStatement_before.gradle");
         }
 
         @TestMetadata("missedBuildscriptBlock_before.gradle")
         public void testMissedBuildscriptBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/missedBuildscriptBlock_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/missedBuildscriptBlock_before.gradle");
         }
 
         @TestMetadata("missedRepositoriesInBuildscriptBlock_before.gradle")
         public void testMissedRepositoriesInBuildscriptBlock() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/missedRepositoriesInBuildscriptBlock_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/missedRepositoriesInBuildscriptBlock_before.gradle");
         }
 
         @TestMetadata("productFlavor_before.gradle")
         public void testProductFlavor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/productFlavor_before.gradle", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/productFlavor_before.gradle");
         }
 
         @TestMetadata("idea/testData/configuration/android-gradle/gradleExamples")
@@ -92,47 +92,47 @@ public class ConfigureProjectTestGenerated extends AbstractConfigureProjectTest 
 
             @TestMetadata("gradleExample0_before.gradle")
             public void testGradleExample0() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample0_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample0_before.gradle");
             }
 
             @TestMetadata("gradleExample18_before.gradle")
             public void testGradleExample18() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample18_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample18_before.gradle");
             }
 
             @TestMetadata("gradleExample22_before.gradle")
             public void testGradleExample22() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample22_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample22_before.gradle");
             }
 
             @TestMetadata("gradleExample44_before.gradle")
             public void testGradleExample44() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample44_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample44_before.gradle");
             }
 
             @TestMetadata("gradleExample5_before.gradle")
             public void testGradleExample5() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample5_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample5_before.gradle");
             }
 
             @TestMetadata("gradleExample50_before.gradle")
             public void testGradleExample50() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample50_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample50_before.gradle");
             }
 
             @TestMetadata("gradleExample58_before.gradle")
             public void testGradleExample58() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample58_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample58_before.gradle");
             }
 
             @TestMetadata("gradleExample65_before.gradle")
             public void testGradleExample65() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample65_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample65_before.gradle");
             }
 
             @TestMetadata("gradleExample8_before.gradle")
             public void testGradleExample8() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/configuration/android-gradle/gradleExamples/gradleExample8_before.gradle", this::doTestAndroidGradle);
+                KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gradle/gradleExamples/gradleExample8_before.gradle");
             }
         }
     }
@@ -147,12 +147,12 @@ public class ConfigureProjectTestGenerated extends AbstractConfigureProjectTest 
 
         @TestMetadata("emptyFile_before.gradle.kts")
         public void testEmptyFile() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gsk/emptyFile_before.gradle.kts", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gsk/emptyFile_before.gradle.kts");
         }
 
         @TestMetadata("helloWorld_before.gradle.kts")
         public void testHelloWorld() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/configuration/android-gsk/helloWorld_before.gradle.kts", this::doTestAndroidGradle);
+            KotlinTestUtils.runTest(this::doTestAndroidGradle,TargetBackend.ANY, "idea/testData/configuration/android-gsk/helloWorld_before.gradle.kts");
         }
     }
 }

@@ -27,6 +27,6 @@ public class AndroidExtractionTestGenerated extends AbstractAndroidExtractionTes
 
     @TestMetadata("toTopLevelFun")
     public void testToTopLevelFun() throws Exception {
-        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/extraction/toTopLevelFun/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "plugins/android-extensions/android-extensions-idea/testData/android/extraction/toTopLevelFun/");
     }
 }

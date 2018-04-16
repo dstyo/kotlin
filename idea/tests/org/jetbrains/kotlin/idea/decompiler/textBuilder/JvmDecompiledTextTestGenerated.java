@@ -27,21 +27,21 @@ public class JvmDecompiledTextTestGenerated extends AbstractJvmDecompiledTextTes
 
     @TestMetadata("Modifiers")
     public void testModifiers() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/Modifiers/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledTextJvm/Modifiers/");
     }
 
     @TestMetadata("MultifileClass")
     public void testMultifileClass() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/MultifileClass/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledTextJvm/MultifileClass/");
     }
 
     @TestMetadata("TestKt")
     public void testTestKt() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/TestKt/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledTextJvm/TestKt/");
     }
 
     @TestMetadata("TypeAliases")
     public void testTypeAliases() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/TypeAliases/", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/decompiler/decompiledTextJvm/TypeAliases/");
     }
 }

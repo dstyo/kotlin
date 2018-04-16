@@ -27,66 +27,66 @@ public class GotoSuperTestGenerated extends AbstractGotoSuperTest {
 
     @TestMetadata("BadPositionLambdaParameter.test")
     public void testBadPositionLambdaParameter() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/BadPositionLambdaParameter.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/BadPositionLambdaParameter.test");
     }
 
     @TestMetadata("ClassSimple.test")
     public void testClassSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/ClassSimple.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/ClassSimple.test");
     }
 
     @TestMetadata("DelegatedFun.test")
     public void testDelegatedFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/DelegatedFun.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/DelegatedFun.test");
     }
 
     @TestMetadata("DelegatedProperty.test")
     public void testDelegatedProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/DelegatedProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/DelegatedProperty.test");
     }
 
     @TestMetadata("FakeOverrideFun.test")
     public void testFakeOverrideFun() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FakeOverrideFun.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/FakeOverrideFun.test");
     }
 
     @TestMetadata("FakeOverrideFunWithMostRelevantImplementation.test")
     public void testFakeOverrideFunWithMostRelevantImplementation() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FakeOverrideFunWithMostRelevantImplementation.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/FakeOverrideFunWithMostRelevantImplementation.test");
     }
 
     @TestMetadata("FakeOverrideProperty.test")
     public void testFakeOverrideProperty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FakeOverrideProperty.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/FakeOverrideProperty.test");
     }
 
     @TestMetadata("FunctionSimple.test")
     public void testFunctionSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FunctionSimple.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/FunctionSimple.test");
     }
 
     @TestMetadata("ObjectSimple.test")
     public void testObjectSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/ObjectSimple.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/ObjectSimple.test");
     }
 
     @TestMetadata("PropertySimple.test")
     public void testPropertySimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/PropertySimple.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/PropertySimple.test");
     }
 
     @TestMetadata("SuperWithNativeToGenericMapping.test")
     public void testSuperWithNativeToGenericMapping() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/SuperWithNativeToGenericMapping.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/SuperWithNativeToGenericMapping.test");
     }
 
     @TestMetadata("TraitSimple.test")
     public void testTraitSimple() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/TraitSimple.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/TraitSimple.test");
     }
 
     @TestMetadata("TypeAliasInSuperType.test")
     public void testTypeAliasInSuperType() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/TypeAliasInSuperType.test", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/navigation/gotoSuper/TypeAliasInSuperType.test");
     }
 }

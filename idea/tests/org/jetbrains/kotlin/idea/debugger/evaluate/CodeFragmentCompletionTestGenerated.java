@@ -27,52 +27,52 @@ public class CodeFragmentCompletionTestGenerated extends AbstractCodeFragmentCom
 
     @TestMetadata("blockCodeFragment.kt")
     public void testBlockCodeFragment() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/blockCodeFragment.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/blockCodeFragment.kt");
     }
 
     @TestMetadata("classHeader.kt")
     public void testClassHeader() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/classHeader.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/classHeader.kt");
     }
 
     @TestMetadata("elementAt.kt")
     public void testElementAt() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/elementAt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/elementAt.kt");
     }
 
     @TestMetadata("elementAtFirstInBlock.kt")
     public void testElementAtFirstInBlock() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/elementAtFirstInBlock.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/elementAtFirstInBlock.kt");
     }
 
     @TestMetadata("localVal.kt")
     public void testLocalVal() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/localVal.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/localVal.kt");
     }
 
     @TestMetadata("localVariables.kt")
     public void testLocalVariables() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/localVariables.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/localVariables.kt");
     }
 
     @TestMetadata("localVariablesOnReturn.kt")
     public void testLocalVariablesOnReturn() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/localVariablesOnReturn.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/localVariablesOnReturn.kt");
     }
 
     @TestMetadata("noDuplicatesForSyntheticProperties.kt")
     public void testNoDuplicatesForSyntheticProperties() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/noDuplicatesForSyntheticProperties.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/noDuplicatesForSyntheticProperties.kt");
     }
 
     @TestMetadata("privatesInSecondPressCompletion.kt")
     public void testPrivatesInSecondPressCompletion() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/privatesInSecondPressCompletion.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/privatesInSecondPressCompletion.kt");
     }
 
     @TestMetadata("topLevel.kt")
     public void testTopLevel() throws Exception {
-        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/topLevel.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/topLevel.kt");
     }
 
     @TestMetadata("idea/idea-completion/testData/basic/codeFragments/runtimeType")
@@ -85,32 +85,32 @@ public class CodeFragmentCompletionTestGenerated extends AbstractCodeFragmentCom
 
         @TestMetadata("castWithGenerics.kt")
         public void testCastWithGenerics() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/runtimeType/castWithGenerics.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/runtimeType/castWithGenerics.kt");
         }
 
         @TestMetadata("complexHierarchy.kt")
         public void testComplexHierarchy() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/runtimeType/complexHierarchy.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/runtimeType/complexHierarchy.kt");
         }
 
         @TestMetadata("extensionMethod.kt")
         public void testExtensionMethod() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/runtimeType/extensionMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/runtimeType/extensionMethod.kt");
         }
 
         @TestMetadata("notImportedExtension.kt")
         public void testNotImportedExtension() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/runtimeType/notImportedExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/runtimeType/notImportedExtension.kt");
         }
 
         @TestMetadata("runtimeCast.kt")
         public void testRuntimeCast() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/runtimeType/runtimeCast.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/runtimeType/runtimeCast.kt");
         }
 
         @TestMetadata("smartCompletion.kt")
         public void testSmartCompletion() throws Exception {
-            KotlinTestUtils.runTest("idea/idea-completion/testData/basic/codeFragments/runtimeType/smartCompletion.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/idea-completion/testData/basic/codeFragments/runtimeType/smartCompletion.kt");
         }
     }
 }

@@ -27,106 +27,106 @@ public class ResolvedConstructorDelegationCallsTestsGenerated extends AbstractRe
 
     @TestMetadata("classWithGenerics.kt")
     public void testClassWithGenerics() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/classWithGenerics.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/classWithGenerics.kt");
     }
 
     @TestMetadata("generics2.kt")
     public void testGenerics2() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/generics2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/generics2.kt");
     }
 
     @TestMetadata("generics3.kt")
     public void testGenerics3() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/generics3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/generics3.kt");
     }
 
     @TestMetadata("generics4.kt")
     public void testGenerics4() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/generics4.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/generics4.kt");
     }
 
     @TestMetadata("generics5.kt")
     public void testGenerics5() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/generics5.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/generics5.kt");
     }
 
     @TestMetadata("inheritanceWithGeneric.kt")
     public void testInheritanceWithGeneric() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/inheritanceWithGeneric.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/inheritanceWithGeneric.kt");
     }
 
     @TestMetadata("innerClassDelegatingPrimary.kt")
     public void testInnerClassDelegatingPrimary() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/innerClassDelegatingPrimary.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/innerClassDelegatingPrimary.kt");
     }
 
     @TestMetadata("innerClassDelegatingSecondary.kt")
     public void testInnerClassDelegatingSecondary() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/innerClassDelegatingSecondary.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/innerClassDelegatingSecondary.kt");
     }
 
     @TestMetadata("superAnyEmpty.kt")
     public void testSuperAnyEmpty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superAnyEmpty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superAnyEmpty.kt");
     }
 
     @TestMetadata("superAnyImplicit.kt")
     public void testSuperAnyImplicit() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superAnyImplicit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superAnyImplicit.kt");
     }
 
     @TestMetadata("superPrimary.kt")
     public void testSuperPrimary() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superPrimary.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superPrimary.kt");
     }
 
     @TestMetadata("superPrimaryEmpty.kt")
     public void testSuperPrimaryEmpty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superPrimaryEmpty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superPrimaryEmpty.kt");
     }
 
     @TestMetadata("superPrimaryImplicit.kt")
     public void testSuperPrimaryImplicit() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superPrimaryImplicit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superPrimaryImplicit.kt");
     }
 
     @TestMetadata("superSecondary.kt")
     public void testSuperSecondary() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superSecondary.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superSecondary.kt");
     }
 
     @TestMetadata("superSecondaryImplicit.kt")
     public void testSuperSecondaryImplicit() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superSecondaryImplicit.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superSecondaryImplicit.kt");
     }
 
     @TestMetadata("superSecondaryOverload.kt")
     public void testSuperSecondaryOverload() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/superSecondaryOverload.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/superSecondaryOverload.kt");
     }
 
     @TestMetadata("thisPrimary.kt")
     public void testThisPrimary() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/thisPrimary.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/thisPrimary.kt");
     }
 
     @TestMetadata("thisPrimaryEmpty.kt")
     public void testThisPrimaryEmpty() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/thisPrimaryEmpty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/thisPrimaryEmpty.kt");
     }
 
     @TestMetadata("thisSecondary.kt")
     public void testThisSecondary() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/thisSecondary.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/thisSecondary.kt");
     }
 
     @TestMetadata("thisSecondaryOverload.kt")
     public void testThisSecondaryOverload() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/thisSecondaryOverload.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/thisSecondaryOverload.kt");
     }
 
     @TestMetadata("varargs.kt")
     public void testVarargs() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveConstructorDelegationCalls/varargs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveConstructorDelegationCalls/varargs.kt");
     }
 }

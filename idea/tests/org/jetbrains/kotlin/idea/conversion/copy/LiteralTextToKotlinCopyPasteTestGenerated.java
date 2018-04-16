@@ -27,51 +27,51 @@ public class LiteralTextToKotlinCopyPasteTestGenerated extends AbstractLiteralTe
 
     @TestMetadata("BrokenEntries.txt")
     public void testBrokenEntries() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/BrokenEntries.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/BrokenEntries.txt");
     }
 
     @TestMetadata("MultiLine.txt")
     public void testMultiLine() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/MultiLine.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/MultiLine.txt");
     }
 
     @TestMetadata("MultiLineToTripleQuotes.txt")
     public void testMultiLineToTripleQuotes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/MultiLineToTripleQuotes.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/MultiLineToTripleQuotes.txt");
     }
 
     @TestMetadata("MultiQuotesToTripleQuotes.txt")
     public void testMultiQuotesToTripleQuotes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/MultiQuotesToTripleQuotes.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/MultiQuotesToTripleQuotes.txt");
     }
 
     @TestMetadata("NoSpecialCharsToSingleQuote.txt")
     public void testNoSpecialCharsToSingleQuote() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/NoSpecialCharsToSingleQuote.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/NoSpecialCharsToSingleQuote.txt");
     }
 
     @TestMetadata("TrailingLines.txt")
     public void testTrailingLines() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/TrailingLines.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/TrailingLines.txt");
     }
 
     @TestMetadata("WithBackslashes.txt")
     public void testWithBackslashes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/WithBackslashes.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/WithBackslashes.txt");
     }
 
     @TestMetadata("WithDollarSignToTripleQuotes.txt")
     public void testWithDollarSignToTripleQuotes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/WithDollarSignToTripleQuotes.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/WithDollarSignToTripleQuotes.txt");
     }
 
     @TestMetadata("WithEntries.txt")
     public void testWithEntries() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/WithEntries.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/WithEntries.txt");
     }
 
     @TestMetadata("WithQuotes.txt")
     public void testWithQuotes() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/copyPaste/plainTextLiteral/WithQuotes.txt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/copyPaste/plainTextLiteral/WithQuotes.txt");
     }
 }

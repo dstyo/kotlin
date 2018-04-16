@@ -27,142 +27,142 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
     @TestMetadata("Basic.resolve")
     public void testBasic() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/Basic.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/Basic.resolve");
     }
 
     @TestMetadata("ClassObjects.resolve")
     public void testClassObjects() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ClassObjects.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ClassObjects.resolve");
     }
 
     @TestMetadata("Classifiers.resolve")
     public void testClassifiers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/Classifiers.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/Classifiers.resolve");
     }
 
     @TestMetadata("DefaultParamsOfLocalFunctions.resolve")
     public void testDefaultParamsOfLocalFunctions() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/DefaultParamsOfLocalFunctions.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/DefaultParamsOfLocalFunctions.resolve");
     }
 
     @TestMetadata("ErrorSupertype.resolve")
     public void testErrorSupertype() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ErrorSupertype.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ErrorSupertype.resolve");
     }
 
     @TestMetadata("ExtensionFunctions.resolve")
     public void testExtensionFunctions() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ExtensionFunctions.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ExtensionFunctions.resolve");
     }
 
     @TestMetadata("FunctionVariable.resolve")
     public void testFunctionVariable() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/FunctionVariable.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/FunctionVariable.resolve");
     }
 
     @TestMetadata("ImportFromRootScope.resolve")
     public void testImportFromRootScope() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ImportFromRootScope.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ImportFromRootScope.resolve");
     }
 
     @TestMetadata("ImportingRootScopeWhenProcessingImports.resolve")
     public void testImportingRootScopeWhenProcessingImports() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ImportingRootScopeWhenProcessingImports.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ImportingRootScopeWhenProcessingImports.resolve");
     }
 
     @TestMetadata("kt304.resolve")
     public void testKt304() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/kt304.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/kt304.resolve");
     }
 
     @TestMetadata("LocalObjects.resolve")
     public void testLocalObjects() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/LocalObjects.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/LocalObjects.resolve");
     }
 
     @TestMetadata("NestedObjects.resolve")
     public void testNestedObjects() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/NestedObjects.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/NestedObjects.resolve");
     }
 
     @TestMetadata("NoReferenceForErrorAnnotation.resolve")
     public void testNoReferenceForErrorAnnotation() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/NoReferenceForErrorAnnotation.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/NoReferenceForErrorAnnotation.resolve");
     }
 
     @TestMetadata("Objects.resolve")
     public void testObjects() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/Objects.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/Objects.resolve");
     }
 
     @TestMetadata("Packages.resolve")
     public void testPackages() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/Packages.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/Packages.resolve");
     }
 
     @TestMetadata("PrimaryConstructorParameters.resolve")
     public void testPrimaryConstructorParameters() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/PrimaryConstructorParameters.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/PrimaryConstructorParameters.resolve");
     }
 
     @TestMetadata("PrimaryConstructors.resolve")
     public void testPrimaryConstructors() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/PrimaryConstructors.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/PrimaryConstructors.resolve");
     }
 
     @TestMetadata("Projections.resolve")
     public void testProjections() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/Projections.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/Projections.resolve");
     }
 
     @TestMetadata("PropertyAndFunctionNameClash.resolve")
     public void testPropertyAndFunctionNameClash() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/PropertyAndFunctionNameClash.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/PropertyAndFunctionNameClash.resolve");
     }
 
     @TestMetadata("ResolveOfInfixExpressions.resolve")
     public void testResolveOfInfixExpressions() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveOfInfixExpressions.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ResolveOfInfixExpressions.resolve");
     }
 
     @TestMetadata("ResolveToJava.resolve")
     public void testResolveToJava() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJava.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ResolveToJava.resolve");
     }
 
     @TestMetadata("ResolveToJava2.resolve")
     public void testResolveToJava2() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJava2.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ResolveToJava2.resolve");
     }
 
     @TestMetadata("ResolveToJava3.resolve")
     public void testResolveToJava3() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJava3.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ResolveToJava3.resolve");
     }
 
     @TestMetadata("ResolveToJavaTypeTransform.resolve")
     public void testResolveToJavaTypeTransform() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJavaTypeTransform.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ResolveToJavaTypeTransform.resolve");
     }
 
     @TestMetadata("ScopeInteraction.resolve")
     public void testScopeInteraction() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/ScopeInteraction.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/ScopeInteraction.resolve");
     }
 
     @TestMetadata("StringTemplates.resolve")
     public void testStringTemplates() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/StringTemplates.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/StringTemplates.resolve");
     }
 
     @TestMetadata("Super.resolve")
     public void testSuper() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/Super.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/Super.resolve");
     }
 
     @TestMetadata("TryCatch.resolve")
     public void testTryCatch() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolve/TryCatch.resolve", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/TryCatch.resolve");
     }
 
     @TestMetadata("compiler/testData/resolve/candidatesPriority")
@@ -175,87 +175,87 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("classObjectOuterResolve.resolve")
         public void testClassObjectOuterResolve() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/classObjectOuterResolve.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/classObjectOuterResolve.resolve");
         }
 
         @TestMetadata("closerReceiver1.resolve")
         public void testCloserReceiver1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerReceiver1.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/closerReceiver1.resolve");
         }
 
         @TestMetadata("closerReceiver2.resolve")
         public void testCloserReceiver2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerReceiver2.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/closerReceiver2.resolve");
         }
 
         @TestMetadata("closerReceiver3.resolve")
         public void testCloserReceiver3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerReceiver3.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/closerReceiver3.resolve");
         }
 
         @TestMetadata("closerScope.resolve")
         public void testCloserScope() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerScope.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/closerScope.resolve");
         }
 
         @TestMetadata("dispatchReceiverVsExtensionReceiver.resolve")
         public void testDispatchReceiverVsExtensionReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver.resolve");
         }
 
         @TestMetadata("dispatchReceiverVsExtensionReceiver2.resolve")
         public void testDispatchReceiverVsExtensionReceiver2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver2.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver2.resolve");
         }
 
         @TestMetadata("extensionToCloserReceiverVsMember.resolve")
         public void testExtensionToCloserReceiverVsMember() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/extensionToCloserReceiverVsMember.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/extensionToCloserReceiverVsMember.resolve");
         }
 
         @TestMetadata("implicitThisVsNoReceiver.resolve")
         public void testImplicitThisVsNoReceiver() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver.resolve");
         }
 
         @TestMetadata("implicitThisVsNoReceiver2.resolve")
         public void testImplicitThisVsNoReceiver2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver2.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver2.resolve");
         }
 
         @TestMetadata("localVsImplicitThis.resolve")
         public void testLocalVsImplicitThis() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/localVsImplicitThis.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/localVsImplicitThis.resolve");
         }
 
         @TestMetadata("memberVsExtension1.resolve")
         public void testMemberVsExtension1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsExtension1.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/memberVsExtension1.resolve");
         }
 
         @TestMetadata("memberVsExtension2.resolve")
         public void testMemberVsExtension2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsExtension2.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/memberVsExtension2.resolve");
         }
 
         @TestMetadata("memberVsExtension3.resolve")
         public void testMemberVsExtension3() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsExtension3.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/memberVsExtension3.resolve");
         }
 
         @TestMetadata("memberVsLocalExtension.resolve")
         public void testMemberVsLocalExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsLocalExtension.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/memberVsLocalExtension.resolve");
         }
 
         @TestMetadata("memberWithInvokeVsNonLocal.resolve")
         public void testMemberWithInvokeVsNonLocal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberWithInvokeVsNonLocal.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/memberWithInvokeVsNonLocal.resolve");
         }
 
         @TestMetadata("wrongReceiverVsOtherError.resolve")
         public void testWrongReceiverVsOtherError() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/wrongReceiverVsOtherError.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/candidatesPriority/wrongReceiverVsOtherError.resolve");
         }
     }
 
@@ -269,37 +269,37 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("delegationByCall.resolve")
         public void testDelegationByCall() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByCall.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/delegationByCall.resolve");
         }
 
         @TestMetadata("delegationByConstructor.resolve")
         public void testDelegationByConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByConstructor.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/delegationByConstructor.resolve");
         }
 
         @TestMetadata("delegationByFun.resolve")
         public void testDelegationByFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByFun.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/delegationByFun.resolve");
         }
 
         @TestMetadata("delegationByObject.resolve")
         public void testDelegationByObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByObject.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/delegationByObject.resolve");
         }
 
         @TestMetadata("delegationByProperty.resolve")
         public void testDelegationByProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByProperty.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/delegationByProperty.resolve");
         }
 
         @TestMetadata("delegationInClass.resolve")
         public void testDelegationInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationInClass.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/delegationInClass.resolve");
         }
 
         @TestMetadata("localDelegation.resolve")
         public void testLocalDelegation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/localDelegation.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/delegatedProperty/localDelegation.resolve");
         }
     }
 
@@ -313,62 +313,62 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("ImportConflictAllPackage.resolve")
         public void testImportConflictAllPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictAllPackage.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictAllPackage.resolve");
         }
 
         @TestMetadata("ImportConflictBetweenImportedAndRootPackage.resolve")
         public void testImportConflictBetweenImportedAndRootPackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictBetweenImportedAndRootPackage.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictBetweenImportedAndRootPackage.resolve");
         }
 
         @TestMetadata("ImportConflictBetweenImportedAndSamePackage.resolve")
         public void testImportConflictBetweenImportedAndSamePackage() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictBetweenImportedAndSamePackage.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictBetweenImportedAndSamePackage.resolve");
         }
 
         @TestMetadata("ImportConflictForFunctions.resolve")
         public void testImportConflictForFunctions() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictForFunctions.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictForFunctions.resolve");
         }
 
         @TestMetadata("ImportConflictPackageAndClass.resolve")
         public void testImportConflictPackageAndClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictPackageAndClass.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictPackageAndClass.resolve");
         }
 
         @TestMetadata("ImportConflictSameNameClass.resolve")
         public void testImportConflictSameNameClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictSameNameClass.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictSameNameClass.resolve");
         }
 
         @TestMetadata("ImportConflictWithClassObject.resolve")
         public void testImportConflictWithClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictWithClassObject.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictWithClassObject.resolve");
         }
 
         @TestMetadata("ImportConflictWithInFileClass.resolve")
         public void testImportConflictWithInFileClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictWithInFileClass.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictWithInFileClass.resolve");
         }
 
         @TestMetadata("ImportConflictWithInnerClass.resolve")
         public void testImportConflictWithInnerClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictWithInnerClass.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictWithInnerClass.resolve");
         }
 
         @TestMetadata("ImportConflictsWithMappedToJava.resolve")
         public void testImportConflictsWithMappedToJava() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictsWithMappedToJava.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportConflictsWithMappedToJava.resolve");
         }
 
         @TestMetadata("ImportNonBlockingAnalysis.resolve")
         public void testImportNonBlockingAnalysis() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportNonBlockingAnalysis.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportNonBlockingAnalysis.resolve");
         }
 
         @TestMetadata("ImportResolveOrderStable.resolve")
         public void testImportResolveOrderStable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportResolveOrderStable.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/imports/ImportResolveOrderStable.resolve");
         }
     }
 
@@ -382,12 +382,12 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("labelForPropertyInGetter.resolve")
         public void testLabelForPropertyInGetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/labels/labelForPropertyInGetter.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/labels/labelForPropertyInGetter.resolve");
         }
 
         @TestMetadata("labelForPropertyInSetter.resolve")
         public void testLabelForPropertyInSetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/labels/labelForPropertyInSetter.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/labels/labelForPropertyInSetter.resolve");
         }
     }
 
@@ -401,12 +401,12 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("kt300.resolve")
         public void testKt300() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/regressions/kt300.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/regressions/kt300.resolve");
         }
 
         @TestMetadata("objectInsideFun.resolve")
         public void testObjectInsideFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/regressions/objectInsideFun.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/regressions/objectInsideFun.resolve");
         }
     }
 
@@ -420,17 +420,17 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("MoreSpecificVarargsOfEqualLength.resolve")
         public void testMoreSpecificVarargsOfEqualLength() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/varargs/MoreSpecificVarargsOfEqualLength.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/varargs/MoreSpecificVarargsOfEqualLength.resolve");
         }
 
         @TestMetadata("NilaryVsVararg.resolve")
         public void testNilaryVsVararg() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/varargs/NilaryVsVararg.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/varargs/NilaryVsVararg.resolve");
         }
 
         @TestMetadata("UnaryVsVararg.resolve")
         public void testUnaryVsVararg() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolve/varargs/UnaryVsVararg.resolve", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolve/varargs/UnaryVsVararg.resolve");
         }
     }
 }

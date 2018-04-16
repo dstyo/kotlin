@@ -27,41 +27,41 @@ public class KDocTypingTestGenerated extends AbstractKDocTypingTest {
 
     @TestMetadata("closingBracketNotInLink.kt")
     public void testClosingBracketNotInLink() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketNotInLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/closingBracketNotInLink.kt");
     }
 
     @TestMetadata("closingBracketOvertype.kt")
     public void testClosingBracketOvertype() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketOvertype.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/closingBracketOvertype.kt");
     }
 
     @TestMetadata("closingBracketOvertypeEmpty.kt")
     public void testClosingBracketOvertypeEmpty() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketOvertypeEmpty.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/closingBracketOvertypeEmpty.kt");
     }
 
     @TestMetadata("closingBracketRefLinkOvertype.kt")
     public void testClosingBracketRefLinkOvertype() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketRefLinkOvertype.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/closingBracketRefLinkOvertype.kt");
     }
 
     @TestMetadata("closingParenOvertype.kt")
     public void testClosingParenOvertype() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingParenOvertype.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/closingParenOvertype.kt");
     }
 
     @TestMetadata("openingBracket.kt")
     public void testOpeningBracket() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/openingBracket.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/openingBracket.kt");
     }
 
     @TestMetadata("openingBracketRefLink.kt")
     public void testOpeningBracketRefLink() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/openingBracketRefLink.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/openingBracketRefLink.kt");
     }
 
     @TestMetadata("openingParen.kt")
     public void testOpeningParen() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/kdoc/typing/openingParen.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/kdoc/typing/openingParen.kt");
     }
 }

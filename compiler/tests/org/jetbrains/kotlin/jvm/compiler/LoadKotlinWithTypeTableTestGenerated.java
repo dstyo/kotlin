@@ -35,42 +35,42 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("AnnotatedAnnotation.kt")
         public void testAnnotatedAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/AnnotatedAnnotation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/AnnotatedAnnotation.kt");
         }
 
         @TestMetadata("AnnotatedMethod.kt")
         public void testAnnotatedMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/AnnotatedMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/AnnotatedMethod.kt");
         }
 
         @TestMetadata("AnnotationInAnnotationArguments.kt")
         public void testAnnotationInAnnotationArguments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/AnnotationInAnnotationArguments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/AnnotationInAnnotationArguments.kt");
         }
 
         @TestMetadata("EnumArgumentWithCustomToString.kt")
         public void testEnumArgumentWithCustomToString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/EnumArgumentWithCustomToString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/EnumArgumentWithCustomToString.kt");
         }
 
         @TestMetadata("MultiDimensionalArrayMethod.kt")
         public void testMultiDimensionalArrayMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/MultiDimensionalArrayMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/MultiDimensionalArrayMethod.kt");
         }
 
         @TestMetadata("PrimitiveArrayArguments.kt")
         public void testPrimitiveArrayArguments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/PrimitiveArrayArguments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/PrimitiveArrayArguments.kt");
         }
 
         @TestMetadata("SimpleAnnotation.kt")
         public void testSimpleAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/SimpleAnnotation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/SimpleAnnotation.kt");
         }
 
         @TestMetadata("TargetedAnnotation.kt")
         public void testTargetedAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/TargetedAnnotation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/TargetedAnnotation.kt");
         }
 
         @TestMetadata("compiler/testData/loadJava/compiledKotlin/annotations/classMembers")
@@ -83,47 +83,47 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ClassObjectPropertyField.kt")
             public void testClassObjectPropertyField() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/ClassObjectPropertyField.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/ClassObjectPropertyField.kt");
             }
 
             @TestMetadata("Constructor.kt")
             public void testConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Constructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Constructor.kt");
             }
 
             @TestMetadata("DelegatedProperty.kt")
             public void testDelegatedProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/DelegatedProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/DelegatedProperty.kt");
             }
 
             @TestMetadata("EnumArgument.kt")
             public void testEnumArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/EnumArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/EnumArgument.kt");
             }
 
             @TestMetadata("EnumEntry.kt")
             public void testEnumEntry() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/EnumEntry.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/EnumEntry.kt");
             }
 
             @TestMetadata("Function.kt")
             public void testFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Function.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Function.kt");
             }
 
             @TestMetadata("Getter.kt")
             public void testGetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Getter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Getter.kt");
             }
 
             @TestMetadata("PropertyField.kt")
             public void testPropertyField() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/PropertyField.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/PropertyField.kt");
             }
 
             @TestMetadata("Setter.kt")
             public void testSetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Setter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classMembers/Setter.kt");
             }
         }
 
@@ -137,77 +137,77 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("AnnotationInClassObject.kt")
             public void testAnnotationInClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/AnnotationInClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/AnnotationInClassObject.kt");
             }
 
             @TestMetadata("ClassInClassObject.kt")
             public void testClassInClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/ClassInClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/ClassInClassObject.kt");
             }
 
             @TestMetadata("ClassObject.kt")
             public void testClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/ClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/ClassObject.kt");
             }
 
             @TestMetadata("ClassObjectInStaticNestedClass.kt")
             public void testClassObjectInStaticNestedClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/ClassObjectInStaticNestedClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/ClassObjectInStaticNestedClass.kt");
             }
 
             @TestMetadata("DataClass.kt")
             public void testDataClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/DataClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/DataClass.kt");
             }
 
             @TestMetadata("Deprecated.kt")
             public void testDeprecated() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/Deprecated.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/Deprecated.kt");
             }
 
             @TestMetadata("DollarsInAnnotationName.kt")
             public void testDollarsInAnnotationName() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/DollarsInAnnotationName.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/DollarsInAnnotationName.kt");
             }
 
             @TestMetadata("EnumArgument.kt")
             public void testEnumArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/EnumArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/EnumArgument.kt");
             }
 
             @TestMetadata("MultipleAnnotations.kt")
             public void testMultipleAnnotations() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/MultipleAnnotations.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/MultipleAnnotations.kt");
             }
 
             @TestMetadata("NestedAnnotation.kt")
             public void testNestedAnnotation() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/NestedAnnotation.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/NestedAnnotation.kt");
             }
 
             @TestMetadata("NestedClass.kt")
             public void testNestedClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/NestedClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/NestedClass.kt");
             }
 
             @TestMetadata("Retention.kt")
             public void testRetention() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/Retention.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/Retention.kt");
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/Simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/Simple.kt");
             }
 
             @TestMetadata("WithArgument.kt")
             public void testWithArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/WithArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/WithArgument.kt");
             }
 
             @TestMetadata("WithMultipleArguments.kt")
             public void testWithMultipleArguments() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/classes/WithMultipleArguments.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/classes/WithMultipleArguments.kt");
             }
         }
 
@@ -221,42 +221,42 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("DelegatedProperty.kt")
             public void testDelegatedProperty() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/DelegatedProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/DelegatedProperty.kt");
             }
 
             @TestMetadata("EnumArgument.kt")
             public void testEnumArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/EnumArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/EnumArgument.kt");
             }
 
             @TestMetadata("EnumArrayArgument.kt")
             public void testEnumArrayArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/EnumArrayArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/EnumArrayArgument.kt");
             }
 
             @TestMetadata("Function.kt")
             public void testFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/Function.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/Function.kt");
             }
 
             @TestMetadata("Getter.kt")
             public void testGetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/Getter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/Getter.kt");
             }
 
             @TestMetadata("PropertyField.kt")
             public void testPropertyField() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/PropertyField.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/PropertyField.kt");
             }
 
             @TestMetadata("Setter.kt")
             public void testSetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/Setter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/Setter.kt");
             }
 
             @TestMetadata("StringArrayArgument.kt")
             public void testStringArrayArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/StringArrayArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/packageMembers/StringArrayArgument.kt");
             }
         }
 
@@ -270,62 +270,62 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("Constructor.kt")
             public void testConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/Constructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/Constructor.kt");
             }
 
             @TestMetadata("EnumConstructor.kt")
             public void testEnumConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/EnumConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/EnumConstructor.kt");
             }
 
             @TestMetadata("ExtensionFunction.kt")
             public void testExtensionFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/ExtensionFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/ExtensionFunction.kt");
             }
 
             @TestMetadata("ExtensionFunctionInClass.kt")
             public void testExtensionFunctionInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/ExtensionFunctionInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/ExtensionFunctionInClass.kt");
             }
 
             @TestMetadata("ExtensionPropertySetter.kt")
             public void testExtensionPropertySetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/ExtensionPropertySetter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/ExtensionPropertySetter.kt");
             }
 
             @TestMetadata("FunctionInClass.kt")
             public void testFunctionInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/FunctionInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/FunctionInClass.kt");
             }
 
             @TestMetadata("FunctionInTrait.kt")
             public void testFunctionInTrait() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/FunctionInTrait.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/FunctionInTrait.kt");
             }
 
             @TestMetadata("InnerClassConstructor.kt")
             public void testInnerClassConstructor() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/InnerClassConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/InnerClassConstructor.kt");
             }
 
             @TestMetadata("ManyAnnotations.kt")
             public void testManyAnnotations() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/ManyAnnotations.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/ManyAnnotations.kt");
             }
 
             @TestMetadata("PropertySetterInClass.kt")
             public void testPropertySetterInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/PropertySetterInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/PropertySetterInClass.kt");
             }
 
             @TestMetadata("TopLevelFunction.kt")
             public void testTopLevelFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/TopLevelFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/TopLevelFunction.kt");
             }
 
             @TestMetadata("TopLevelPropertySetter.kt")
             public void testTopLevelPropertySetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/parameters/TopLevelPropertySetter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/parameters/TopLevelPropertySetter.kt");
             }
         }
 
@@ -339,42 +339,42 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("Class.kt")
             public void testClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/Class.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/Class.kt");
             }
 
             @TestMetadata("ClassObject.kt")
             public void testClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/ClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/ClassObject.kt");
             }
 
             @TestMetadata("ExtensionsWithSameNameClass.kt")
             public void testExtensionsWithSameNameClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/ExtensionsWithSameNameClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/ExtensionsWithSameNameClass.kt");
             }
 
             @TestMetadata("ExtensionsWithSameNamePackage.kt")
             public void testExtensionsWithSameNamePackage() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/ExtensionsWithSameNamePackage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/ExtensionsWithSameNamePackage.kt");
             }
 
             @TestMetadata("NestedTrait.kt")
             public void testNestedTrait() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/NestedTrait.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/NestedTrait.kt");
             }
 
             @TestMetadata("TopLevel.kt")
             public void testTopLevel() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/TopLevel.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/TopLevel.kt");
             }
 
             @TestMetadata("Trait.kt")
             public void testTrait() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/Trait.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/Trait.kt");
             }
 
             @TestMetadata("TraitClassObject.kt")
             public void testTraitClassObject() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/TraitClassObject.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/propertiesWithoutBackingFields/TraitClassObject.kt");
             }
         }
 
@@ -388,42 +388,42 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ClassLiteralArgument.kt")
             public void testClassLiteralArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/ClassLiteralArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/ClassLiteralArgument.kt");
             }
 
             @TestMetadata("ReceiverParameter.kt")
             public void testReceiverParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/ReceiverParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/ReceiverParameter.kt");
             }
 
             @TestMetadata("SimpleTypeAnnotation.kt")
             public void testSimpleTypeAnnotation() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/SimpleTypeAnnotation.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/SimpleTypeAnnotation.kt");
             }
 
             @TestMetadata("SupertypesAndBounds.kt")
             public void testSupertypesAndBounds() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/SupertypesAndBounds.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/SupertypesAndBounds.kt");
             }
 
             @TestMetadata("TypeAnnotationWithArguments.kt")
             public void testTypeAnnotationWithArguments() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/TypeAnnotationWithArguments.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/TypeAnnotationWithArguments.kt");
             }
 
             @TestMetadata("TypeArgument.kt")
             public void testTypeArgument() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/TypeArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/TypeArgument.kt");
             }
 
             @TestMetadata("TypeParameterAnnotation.kt")
             public void testTypeParameterAnnotation() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/TypeParameterAnnotation.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/TypeParameterAnnotation.kt");
             }
 
             @TestMetadata("TypeParameterAnnotationWithArguments.kt")
             public void testTypeParameterAnnotationWithArguments() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/types/TypeParameterAnnotationWithArguments.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/types/TypeParameterAnnotationWithArguments.kt");
             }
         }
 
@@ -437,17 +437,17 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("DelegateTarget.kt")
             public void testDelegateTarget() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/withUseSiteTarget/DelegateTarget.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/withUseSiteTarget/DelegateTarget.kt");
             }
 
             @TestMetadata("FieldTarget.kt")
             public void testFieldTarget() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/withUseSiteTarget/FieldTarget.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/withUseSiteTarget/FieldTarget.kt");
             }
 
             @TestMetadata("ReceiverTarget.kt")
             public void testReceiverTarget() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/annotations/withUseSiteTarget/ReceiverTarget.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/annotations/withUseSiteTarget/ReceiverTarget.kt");
             }
         }
     }
@@ -462,177 +462,177 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("Class.kt")
         public void testClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/Class.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/Class.kt");
         }
 
         @TestMetadata("ClassInParam.kt")
         public void testClassInParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassInParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassInParam.kt");
         }
 
         @TestMetadata("ClassInnerClass.kt")
         public void testClassInnerClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassInnerClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassInnerClass.kt");
         }
 
         @TestMetadata("ClassMemberConflict.kt")
         public void testClassMemberConflict() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassMemberConflict.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassMemberConflict.kt");
         }
 
         @TestMetadata("ClassOutParam.kt")
         public void testClassOutParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassOutParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassOutParam.kt");
         }
 
         @TestMetadata("ClassParam.kt")
         public void testClassParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParam.kt");
         }
 
         @TestMetadata("ClassParamReferencesParam.kt")
         public void testClassParamReferencesParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParamReferencesParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParamReferencesParam.kt");
         }
 
         @TestMetadata("ClassParamReferencesParam2.kt")
         public void testClassParamReferencesParam2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParamReferencesParam2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParamReferencesParam2.kt");
         }
 
         @TestMetadata("ClassParamReferencesSelf.kt")
         public void testClassParamReferencesSelf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParamReferencesSelf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParamReferencesSelf.kt");
         }
 
         @TestMetadata("ClassParamUpperClassBound.kt")
         public void testClassParamUpperClassBound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParamUpperClassBound.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParamUpperClassBound.kt");
         }
 
         @TestMetadata("ClassParamUpperClassInterfaceBound.kt")
         public void testClassParamUpperClassInterfaceBound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParamUpperClassInterfaceBound.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParamUpperClassInterfaceBound.kt");
         }
 
         @TestMetadata("ClassParamUpperInterfaceBound.kt")
         public void testClassParamUpperInterfaceBound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassParamUpperInterfaceBound.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassParamUpperInterfaceBound.kt");
         }
 
         @TestMetadata("ClassTwoParams.kt")
         public void testClassTwoParams() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassTwoParams.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassTwoParams.kt");
         }
 
         @TestMetadata("ClassTwoParams2.kt")
         public void testClassTwoParams2() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/ClassTwoParams2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/ClassTwoParams2.kt");
         }
 
         @TestMetadata("EnumWithGenericConstructorParameter.kt")
         public void testEnumWithGenericConstructorParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/EnumWithGenericConstructorParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/EnumWithGenericConstructorParameter.kt");
         }
 
         @TestMetadata("EnumWithPrimitiveConstructorParameter.kt")
         public void testEnumWithPrimitiveConstructorParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/EnumWithPrimitiveConstructorParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/EnumWithPrimitiveConstructorParameter.kt");
         }
 
         @TestMetadata("InheritClassSimple.kt")
         public void testInheritClassSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InheritClassSimple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InheritClassSimple.kt");
         }
 
         @TestMetadata("InheritClassWithParam.kt")
         public void testInheritClassWithParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InheritClassWithParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InheritClassWithParam.kt");
         }
 
         @TestMetadata("InheritSubstitutedMethod.kt")
         public void testInheritSubstitutedMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InheritSubstitutedMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InheritSubstitutedMethod.kt");
         }
 
         @TestMetadata("InheritTraitWithFunctionParam.kt")
         public void testInheritTraitWithFunctionParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InheritTraitWithFunctionParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InheritTraitWithFunctionParam.kt");
         }
 
         @TestMetadata("InheritTraitWithParam.kt")
         public void testInheritTraitWithParam() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InheritTraitWithParam.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InheritTraitWithParam.kt");
         }
 
         @TestMetadata("InnerClassExtendInnerClass.kt")
         public void testInnerClassExtendInnerClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InnerClassExtendInnerClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InnerClassExtendInnerClass.kt");
         }
 
         @TestMetadata("InnerGenericClass.kt")
         public void testInnerGenericClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InnerGenericClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InnerGenericClass.kt");
         }
 
         @TestMetadata("InnerTypes.kt")
         public void testInnerTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/InnerTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/InnerTypes.kt");
         }
 
         @TestMetadata("NamedObject.kt")
         public void testNamedObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NamedObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NamedObject.kt");
         }
 
         @TestMetadata("NamedObjectInClass.kt")
         public void testNamedObjectInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NamedObjectInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NamedObjectInClass.kt");
         }
 
         @TestMetadata("NamedObjectInClassObject.kt")
         public void testNamedObjectInClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NamedObjectInClassObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NamedObjectInClassObject.kt");
         }
 
         @TestMetadata("NamedObjectInNamedObject.kt")
         public void testNamedObjectInNamedObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NamedObjectInNamedObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NamedObjectInNamedObject.kt");
         }
 
         @TestMetadata("NamedObjectWithAnotherTopLevelProperty.kt")
         public void testNamedObjectWithAnotherTopLevelProperty() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NamedObjectWithAnotherTopLevelProperty.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NamedObjectWithAnotherTopLevelProperty.kt");
         }
 
         @TestMetadata("NestedClass.kt")
         public void testNestedClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NestedClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NestedClass.kt");
         }
 
         @TestMetadata("NestedClassExtendNestedClass.kt")
         public void testNestedClassExtendNestedClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NestedClassExtendNestedClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NestedClassExtendNestedClass.kt");
         }
 
         @TestMetadata("NestedGenericClass.kt")
         public void testNestedGenericClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/NestedGenericClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/NestedGenericClass.kt");
         }
 
         @TestMetadata("RecursiveGeneric.kt")
         public void testRecursiveGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/RecursiveGeneric.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/RecursiveGeneric.kt");
         }
 
         @TestMetadata("SingleAbstractMethod.kt")
         public void testSingleAbstractMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/SingleAbstractMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/SingleAbstractMethod.kt");
         }
 
         @TestMetadata("Trait.kt")
         public void testTrait() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/Trait.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/Trait.kt");
         }
 
         @TestMetadata("compiler/testData/loadJava/compiledKotlin/class/javaBean")
@@ -645,32 +645,32 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("DifferentGetterAndSetter.kt")
             public void testDifferentGetterAndSetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/javaBean/DifferentGetterAndSetter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/javaBean/DifferentGetterAndSetter.kt");
             }
 
             @TestMetadata("JavaBeanAbstractGetter.kt")
             public void testJavaBeanAbstractGetter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanAbstractGetter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanAbstractGetter.kt");
             }
 
             @TestMetadata("JavaBeanVal.kt")
             public void testJavaBeanVal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanVal.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanVal.kt");
             }
 
             @TestMetadata("JavaBeanVar.kt")
             public void testJavaBeanVar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanVar.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanVar.kt");
             }
 
             @TestMetadata("JavaBeanVarOfGenericType.kt")
             public void testJavaBeanVarOfGenericType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanVarOfGenericType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/javaBean/JavaBeanVarOfGenericType.kt");
             }
 
             @TestMetadata("TwoSetters.kt")
             public void testTwoSetters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/class/javaBean/TwoSetters.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/class/javaBean/TwoSetters.kt");
             }
         }
     }
@@ -685,27 +685,27 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("ClassInParamUsedInFun.kt")
         public void testClassInParamUsedInFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classFun/ClassInParamUsedInFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classFun/ClassInParamUsedInFun.kt");
         }
 
         @TestMetadata("ClassParamUsedInFun.kt")
         public void testClassParamUsedInFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classFun/ClassParamUsedInFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classFun/ClassParamUsedInFun.kt");
         }
 
         @TestMetadata("FunDelegationToTraitImpl.kt")
         public void testFunDelegationToTraitImpl() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classFun/FunDelegationToTraitImpl.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classFun/FunDelegationToTraitImpl.kt");
         }
 
         @TestMetadata("FunInParamSuper.kt")
         public void testFunInParamSuper() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classFun/FunInParamSuper.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classFun/FunInParamSuper.kt");
         }
 
         @TestMetadata("TraitOpenFun.kt")
         public void testTraitOpenFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classFun/TraitOpenFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classFun/TraitOpenFun.kt");
         }
     }
 
@@ -719,67 +719,67 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("ClassObjectDeclaresVal.kt")
         public void testClassObjectDeclaresVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectDeclaresVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectDeclaresVal.kt");
         }
 
         @TestMetadata("ClassObjectDeclaresVar.kt")
         public void testClassObjectDeclaresVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectDeclaresVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectDeclaresVar.kt");
         }
 
         @TestMetadata("ClassObjectDefaultVisibility.kt")
         public void testClassObjectDefaultVisibility() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectDefaultVisibility.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectDefaultVisibility.kt");
         }
 
         @TestMetadata("ClassObjectExplicitVisibility.kt")
         public void testClassObjectExplicitVisibility() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectExplicitVisibility.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectExplicitVisibility.kt");
         }
 
         @TestMetadata("ClassObjectExtendsTrait.kt")
         public void testClassObjectExtendsTrait() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectExtendsTrait.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectExtendsTrait.kt");
         }
 
         @TestMetadata("ClassObjectExtendsTraitWithTP.kt")
         public void testClassObjectExtendsTraitWithTP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectExtendsTraitWithTP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectExtendsTraitWithTP.kt");
         }
 
         @TestMetadata("classObjectInClassStaticFields.kt")
         public void testClassObjectInClassStaticFields() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/classObjectInClassStaticFields.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/classObjectInClassStaticFields.kt");
         }
 
         @TestMetadata("classObjectInTraitStaticFields.kt")
         public void testClassObjectInTraitStaticFields() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/classObjectInTraitStaticFields.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/classObjectInTraitStaticFields.kt");
         }
 
         @TestMetadata("ClassObjectPropertyInClass.kt")
         public void testClassObjectPropertyInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectPropertyInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/ClassObjectPropertyInClass.kt");
         }
 
         @TestMetadata("Delegation.kt")
         public void testDelegation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/Delegation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/Delegation.kt");
         }
 
         @TestMetadata("InnerClassInClassObject.kt")
         public void testInnerClassInClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/InnerClassInClassObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/InnerClassInClassObject.kt");
         }
 
         @TestMetadata("NamedClassObject.kt")
         public void testNamedClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/NamedClassObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/NamedClassObject.kt");
         }
 
         @TestMetadata("SimpleClassObject.kt")
         public void testSimpleClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/classObject/SimpleClassObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/classObject/SimpleClassObject.kt");
         }
     }
 
@@ -793,82 +793,82 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("Constructor0.kt")
         public void testConstructor0() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/Constructor0.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/Constructor0.kt");
         }
 
         @TestMetadata("Constructor1.kt")
         public void testConstructor1() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/Constructor1.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/Constructor1.kt");
         }
 
         @TestMetadata("Constructor1WithParamDefaultValue.kt")
         public void testConstructor1WithParamDefaultValue() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/Constructor1WithParamDefaultValue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/Constructor1WithParamDefaultValue.kt");
         }
 
         @TestMetadata("Constructor2WithOneParamDefaultValue.kt")
         public void testConstructor2WithOneParamDefaultValue() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/Constructor2WithOneParamDefaultValue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/Constructor2WithOneParamDefaultValue.kt");
         }
 
         @TestMetadata("ConstructorCollectionParameter.kt")
         public void testConstructorCollectionParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorCollectionParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorCollectionParameter.kt");
         }
 
         @TestMetadata("ConstructorGenericDeep.kt")
         public void testConstructorGenericDeep() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorGenericDeep.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorGenericDeep.kt");
         }
 
         @TestMetadata("ConstructorGenericSimple.kt")
         public void testConstructorGenericSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorGenericSimple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorGenericSimple.kt");
         }
 
         @TestMetadata("ConstructorGenericUpperBound.kt")
         public void testConstructorGenericUpperBound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorGenericUpperBound.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorGenericUpperBound.kt");
         }
 
         @TestMetadata("ConstructorWithTwoDefArgs.kt")
         public void testConstructorWithTwoDefArgs() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoDefArgs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoDefArgs.kt");
         }
 
         @TestMetadata("ConstructorWithTwoTypeParameters.kt")
         public void testConstructorWithTwoTypeParameters() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoTypeParameters.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoTypeParameters.kt");
         }
 
         @TestMetadata("ConstructorWithTwoTypeParametersAndOneIntValueParameter.kt")
         public void testConstructorWithTwoTypeParametersAndOneIntValueParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoTypeParametersAndOneIntValueParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoTypeParametersAndOneIntValueParameter.kt");
         }
 
         @TestMetadata("ConstructorWithTwoTypeParametersAndOnePValueParameter.kt")
         public void testConstructorWithTwoTypeParametersAndOnePValueParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoTypeParametersAndOnePValueParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTwoTypeParametersAndOnePValueParameter.kt");
         }
 
         @TestMetadata("ConstructorWithTypeParameter.kt")
         public void testConstructorWithTypeParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTypeParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTypeParameter.kt");
         }
 
         @TestMetadata("ConstructorWithTypeParametersEAndOnePValueParameter.kt")
         public void testConstructorWithTypeParametersEAndOnePValueParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTypeParametersEAndOnePValueParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/ConstructorWithTypeParametersEAndOnePValueParameter.kt");
         }
 
         @TestMetadata("InnerClassConstructorWithDefArgs.kt")
         public void testInnerClassConstructorWithDefArgs() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/InnerClassConstructorWithDefArgs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/InnerClassConstructorWithDefArgs.kt");
         }
 
         @TestMetadata("PrivateConstructor1WithParamDefaultValue.kt")
         public void testPrivateConstructor1WithParamDefaultValue() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/PrivateConstructor1WithParamDefaultValue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/PrivateConstructor1WithParamDefaultValue.kt");
         }
 
         @TestMetadata("compiler/testData/loadJava/compiledKotlin/constructor/vararg")
@@ -881,12 +881,12 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ConstructorNonLastVararg.kt")
             public void testConstructorNonLastVararg() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/vararg/ConstructorNonLastVararg.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/vararg/ConstructorNonLastVararg.kt");
             }
 
             @TestMetadata("ConstructorVararg.kt")
             public void testConstructorVararg() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/constructor/vararg/ConstructorVararg.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/constructor/vararg/ConstructorVararg.kt");
             }
         }
     }
@@ -901,7 +901,7 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("Basic.kt")
         public void testBasic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/coroutines/Basic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/coroutines/Basic.kt");
         }
     }
 
@@ -915,22 +915,22 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("MixedComponents.kt")
         public void testMixedComponents() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/dataClass/MixedComponents.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/dataClass/MixedComponents.kt");
         }
 
         @TestMetadata("OneVal.kt")
         public void testOneVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/dataClass/OneVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/dataClass/OneVal.kt");
         }
 
         @TestMetadata("TwoVals.kt")
         public void testTwoVals() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/dataClass/TwoVals.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/dataClass/TwoVals.kt");
         }
 
         @TestMetadata("TwoVars.kt")
         public void testTwoVars() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/dataClass/TwoVars.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/dataClass/TwoVars.kt");
         }
     }
 
@@ -944,32 +944,32 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("enumVisibility.kt")
         public void testEnumVisibility() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/enum/enumVisibility.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/enum/enumVisibility.kt");
         }
 
         @TestMetadata("enumWithConstuctor.kt")
         public void testEnumWithConstuctor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/enum/enumWithConstuctor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/enum/enumWithConstuctor.kt");
         }
 
         @TestMetadata("enumWithInnerClasses.kt")
         public void testEnumWithInnerClasses() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/enum/enumWithInnerClasses.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/enum/enumWithInnerClasses.kt");
         }
 
         @TestMetadata("innerEnum.kt")
         public void testInnerEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/enum/innerEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/enum/innerEnum.kt");
         }
 
         @TestMetadata("innerEnumExistingClassObject.kt")
         public void testInnerEnumExistingClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/enum/innerEnumExistingClassObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/enum/innerEnumExistingClassObject.kt");
         }
 
         @TestMetadata("simpleEnum.kt")
         public void testSimpleEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/enum/simpleEnum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/enum/simpleEnum.kt");
         }
     }
 
@@ -983,172 +983,172 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("ArrayTypeVariance.kt")
         public void testArrayTypeVariance() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ArrayTypeVariance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ArrayTypeVariance.kt");
         }
 
         @TestMetadata("ClassDoesNotOverrideMethod.kt")
         public void testClassDoesNotOverrideMethod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassDoesNotOverrideMethod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassDoesNotOverrideMethod.kt");
         }
 
         @TestMetadata("ClassObject.kt")
         public void testClassObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassObject.kt");
         }
 
         @TestMetadata("classObjectAnnotation.kt")
         public void testClassObjectAnnotation() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/classObjectAnnotation.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/classObjectAnnotation.kt");
         }
 
         @TestMetadata("ClassWithConstVal.kt")
         public void testClassWithConstVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithConstVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithConstVal.kt");
         }
 
         @TestMetadata("ClassWithTypeP.kt")
         public void testClassWithTypeP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypeP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypeP.kt");
         }
 
         @TestMetadata("ClassWithTypePExtendsIterableP.kt")
         public void testClassWithTypePExtendsIterableP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePExtendsIterableP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePExtendsIterableP.kt");
         }
 
         @TestMetadata("ClassWithTypePP.kt")
         public void testClassWithTypePP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePP.kt");
         }
 
         @TestMetadata("ClassWithTypePRefNext.kt")
         public void testClassWithTypePRefNext() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePRefNext.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePRefNext.kt");
         }
 
         @TestMetadata("ClassWithTypePRefSelf.kt")
         public void testClassWithTypePRefSelf() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePRefSelf.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePRefSelf.kt");
         }
 
         @TestMetadata("ClassWithTypePRefSelfAndClass.kt")
         public void testClassWithTypePRefSelfAndClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePRefSelfAndClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/ClassWithTypePRefSelfAndClass.kt");
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/enum.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/enum.kt");
         }
 
         @TestMetadata("FieldAsVar.kt")
         public void testFieldAsVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/FieldAsVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/FieldAsVar.kt");
         }
 
         @TestMetadata("FieldOfArrayType.kt")
         public void testFieldOfArrayType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/FieldOfArrayType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/FieldOfArrayType.kt");
         }
 
         @TestMetadata("FinalFieldAsVal.kt")
         public void testFinalFieldAsVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/FinalFieldAsVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/FinalFieldAsVal.kt");
         }
 
         @TestMetadata("genericFunction.kt")
         public void testGenericFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/genericFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/genericFunction.kt");
         }
 
         @TestMetadata("InheritMethodsDifferentReturnTypes.kt")
         public void testInheritMethodsDifferentReturnTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/InheritMethodsDifferentReturnTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/InheritMethodsDifferentReturnTypes.kt");
         }
 
         @TestMetadata("InheritMethodsDifferentReturnTypesGeneric.kt")
         public void testInheritMethodsDifferentReturnTypesGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/InheritMethodsDifferentReturnTypesGeneric.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/InheritMethodsDifferentReturnTypesGeneric.kt");
         }
 
         @TestMetadata("InnerClass.kt")
         public void testInnerClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/InnerClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/InnerClass.kt");
         }
 
         @TestMetadata("MethodTypePOneUpperBound.kt")
         public void testMethodTypePOneUpperBound() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodTypePOneUpperBound.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodTypePOneUpperBound.kt");
         }
 
         @TestMetadata("MethodTypePTwoUpperBounds.kt")
         public void testMethodTypePTwoUpperBounds() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodTypePTwoUpperBounds.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodTypePTwoUpperBounds.kt");
         }
 
         @TestMetadata("MethodWithTypeP.kt")
         public void testMethodWithTypeP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodWithTypeP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodWithTypeP.kt");
         }
 
         @TestMetadata("MethodWithTypePP.kt")
         public void testMethodWithTypePP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodWithTypePP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodWithTypePP.kt");
         }
 
         @TestMetadata("MethodWithTypePRefClassP.kt")
         public void testMethodWithTypePRefClassP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodWithTypePRefClassP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethodWithTypePRefClassP.kt");
         }
 
         @TestMetadata("MethosWithPRefTP.kt")
         public void testMethosWithPRefTP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethosWithPRefTP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MethosWithPRefTP.kt");
         }
 
         @TestMetadata("MyException.kt")
         public void testMyException() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/MyException.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/MyException.kt");
         }
 
         @TestMetadata("NestedClass.kt")
         public void testNestedClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/NestedClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/NestedClass.kt");
         }
 
         @TestMetadata("objectInClass.kt")
         public void testObjectInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/objectInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/objectInClass.kt");
         }
 
         @TestMetadata("objectMembers.kt")
         public void testObjectMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/objectMembers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/objectMembers.kt");
         }
 
         @TestMetadata("packageLevelObject.kt")
         public void testPackageLevelObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/packageLevelObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/packageLevelObject.kt");
         }
 
         @TestMetadata("RemoveRedundantProjectionKind.kt")
         public void testRemoveRedundantProjectionKind() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/RemoveRedundantProjectionKind.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/RemoveRedundantProjectionKind.kt");
         }
 
         @TestMetadata("Simple.kt")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/Simple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/Simple.kt");
         }
 
         @TestMetadata("TwoFields.kt")
         public void testTwoFields() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/TwoFields.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/TwoFields.kt");
         }
 
         @TestMetadata("UnboundWildcard.kt")
         public void testUnboundWildcard() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/UnboundWildcard.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/UnboundWildcard.kt");
         }
 
         @TestMetadata("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature")
@@ -1157,7 +1157,7 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
         public static class KotlinSignature extends AbstractLoadKotlinWithTypeTableTest {
             @TestMetadata("AllBoundsInWhen.kt")
             public void testAllBoundsInWhen() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/AllBoundsInWhen.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/AllBoundsInWhen.kt");
             }
 
             public void testAllFilesPresentInKotlinSignature() throws Exception {
@@ -1166,77 +1166,77 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ArrayType.kt")
             public void testArrayType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ArrayType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ArrayType.kt");
             }
 
             @TestMetadata("ConstructorWithNewTypeParams.kt")
             public void testConstructorWithNewTypeParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithNewTypeParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithNewTypeParams.kt");
             }
 
             @TestMetadata("ConstructorWithParentTypeParams.kt")
             public void testConstructorWithParentTypeParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithParentTypeParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithParentTypeParams.kt");
             }
 
             @TestMetadata("ConstructorWithSeveralParams.kt")
             public void testConstructorWithSeveralParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithSeveralParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithSeveralParams.kt");
             }
 
             @TestMetadata("ConstructorWithoutParams.kt")
             public void testConstructorWithoutParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithoutParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/ConstructorWithoutParams.kt");
             }
 
             @TestMetadata("CustomProjectionKind.kt")
             public void testCustomProjectionKind() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/CustomProjectionKind.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/CustomProjectionKind.kt");
             }
 
             @TestMetadata("MethodWithFunctionTypes.kt")
             public void testMethodWithFunctionTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithFunctionTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithFunctionTypes.kt");
             }
 
             @TestMetadata("MethodWithGenerics.kt")
             public void testMethodWithGenerics() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithGenerics.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithGenerics.kt");
             }
 
             @TestMetadata("MethodWithMappedClasses.kt")
             public void testMethodWithMappedClasses() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithMappedClasses.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithMappedClasses.kt");
             }
 
             @TestMetadata("MethodWithTypeParameters.kt")
             public void testMethodWithTypeParameters() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithTypeParameters.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithTypeParameters.kt");
             }
 
             @TestMetadata("MethodWithVararg.kt")
             public void testMethodWithVararg() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithVararg.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/MethodWithVararg.kt");
             }
 
             @TestMetadata("PropertyArrayTypes.kt")
             public void testPropertyArrayTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/PropertyArrayTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/PropertyArrayTypes.kt");
             }
 
             @TestMetadata("PropertyComplexTypes.kt")
             public void testPropertyComplexTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/PropertyComplexTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/PropertyComplexTypes.kt");
             }
 
             @TestMetadata("PropertySimpleType.kt")
             public void testPropertySimpleType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/PropertySimpleType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/PropertySimpleType.kt");
             }
 
             @TestMetadata("StarProjection.kt")
             public void testStarProjection() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/StarProjection.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/StarProjection.kt");
             }
 
             @TestMetadata("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error")
@@ -1245,7 +1245,7 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
             public static class Error extends AbstractLoadKotlinWithTypeTableTest {
                 @TestMetadata("AddingNullability.kt")
                 public void testAddingNullability() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/AddingNullability.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/AddingNullability.kt");
                 }
 
                 public void testAllFilesPresentInError() throws Exception {
@@ -1254,132 +1254,132 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
                 @TestMetadata("ConflictingProjectionKind.kt")
                 public void testConflictingProjectionKind() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ConflictingProjectionKind.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ConflictingProjectionKind.kt");
                 }
 
                 @TestMetadata("ExplicitFieldGettersAndSetters.kt")
                 public void testExplicitFieldGettersAndSetters() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ExplicitFieldGettersAndSetters.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ExplicitFieldGettersAndSetters.kt");
                 }
 
                 @TestMetadata("ExtraUpperBound.kt")
                 public void testExtraUpperBound() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ExtraUpperBound.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ExtraUpperBound.kt");
                 }
 
                 @TestMetadata("MissingUpperBound.kt")
                 public void testMissingUpperBound() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/MissingUpperBound.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/MissingUpperBound.kt");
                 }
 
                 @TestMetadata("NoFieldTypeRef.kt")
                 public void testNoFieldTypeRef() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/NoFieldTypeRef.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/NoFieldTypeRef.kt");
                 }
 
                 @TestMetadata("NotVarargReplacedWithVararg.kt")
                 public void testNotVarargReplacedWithVararg() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/NotVarargReplacedWithVararg.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/NotVarargReplacedWithVararg.kt");
                 }
 
                 @TestMetadata("RedundantProjectionKind.kt")
                 public void testRedundantProjectionKind() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/RedundantProjectionKind.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/RedundantProjectionKind.kt");
                 }
 
                 @TestMetadata("ReturnTypeMissing.kt")
                 public void testReturnTypeMissing() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ReturnTypeMissing.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/ReturnTypeMissing.kt");
                 }
 
                 @TestMetadata("SyntaxError.kt")
                 public void testSyntaxError() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/SyntaxError.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/SyntaxError.kt");
                 }
 
                 @TestMetadata("SyntaxErrorInFieldAnnotation.kt")
                 public void testSyntaxErrorInFieldAnnotation() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/SyntaxErrorInFieldAnnotation.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/SyntaxErrorInFieldAnnotation.kt");
                 }
 
                 @TestMetadata("VarargReplacedWithNotVararg.kt")
                 public void testVarargReplacedWithNotVararg() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/VarargReplacedWithNotVararg.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/VarargReplacedWithNotVararg.kt");
                 }
 
                 @TestMetadata("WrongFieldInitializer.kt")
                 public void testWrongFieldInitializer() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongFieldInitializer.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongFieldInitializer.kt");
                 }
 
                 @TestMetadata("WrongFieldMutability.kt")
                 public void testWrongFieldMutability() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongFieldMutability.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongFieldMutability.kt");
                 }
 
                 @TestMetadata("WrongFieldName.kt")
                 public void testWrongFieldName() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongFieldName.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongFieldName.kt");
                 }
 
                 @TestMetadata("WrongMethodName.kt")
                 public void testWrongMethodName() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongMethodName.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongMethodName.kt");
                 }
 
                 @TestMetadata("WrongProjectionKind.kt")
                 public void testWrongProjectionKind() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongProjectionKind.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongProjectionKind.kt");
                 }
 
                 @TestMetadata("WrongReturnTypeStructure.kt")
                 public void testWrongReturnTypeStructure() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongReturnTypeStructure.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongReturnTypeStructure.kt");
                 }
 
                 @TestMetadata("WrongTypeName1.kt")
                 public void testWrongTypeName1() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeName1.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeName1.kt");
                 }
 
                 @TestMetadata("WrongTypeName2.kt")
                 public void testWrongTypeName2() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeName2.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeName2.kt");
                 }
 
                 @TestMetadata("WrongTypeName3.kt")
                 public void testWrongTypeName3() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeName3.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeName3.kt");
                 }
 
                 @TestMetadata("WrongTypeParameterBoundStructure1.kt")
                 public void testWrongTypeParameterBoundStructure1() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeParameterBoundStructure1.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeParameterBoundStructure1.kt");
                 }
 
                 @TestMetadata("WrongTypeParameterBoundStructure2.kt")
                 public void testWrongTypeParameterBoundStructure2() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeParameterBoundStructure2.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeParameterBoundStructure2.kt");
                 }
 
                 @TestMetadata("WrongTypeParametersCount.kt")
                 public void testWrongTypeParametersCount() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeParametersCount.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongTypeParametersCount.kt");
                 }
 
                 @TestMetadata("WrongValueParameterStructure1.kt")
                 public void testWrongValueParameterStructure1() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongValueParameterStructure1.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongValueParameterStructure1.kt");
                 }
 
                 @TestMetadata("WrongValueParameterStructure2.kt")
                 public void testWrongValueParameterStructure2() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongValueParameterStructure2.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongValueParameterStructure2.kt");
                 }
 
                 @TestMetadata("WrongValueParametersCount.kt")
                 public void testWrongValueParametersCount() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongValueParametersCount.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/error/WrongValueParametersCount.kt");
                 }
             }
 
@@ -1393,7 +1393,7 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
                 @TestMetadata("PropagateTypeArgumentNullable.kt")
                 public void testPropagateTypeArgumentNullable() throws Exception {
-                    KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/PropagateTypeArgumentNullable.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/PropagateTypeArgumentNullable.kt");
                 }
 
                 @TestMetadata("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter")
@@ -1406,132 +1406,132 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
                     @TestMetadata("ChangeProjectionKind1.kt")
                     public void testChangeProjectionKind1() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/ChangeProjectionKind1.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/ChangeProjectionKind1.kt");
                     }
 
                     @TestMetadata("ChangeProjectionKind2.kt")
                     public void testChangeProjectionKind2() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/ChangeProjectionKind2.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/ChangeProjectionKind2.kt");
                     }
 
                     @TestMetadata("DeeplySubstitutedClassParameter.kt")
                     public void testDeeplySubstitutedClassParameter() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/DeeplySubstitutedClassParameter.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/DeeplySubstitutedClassParameter.kt");
                     }
 
                     @TestMetadata("DeeplySubstitutedClassParameter2.kt")
                     public void testDeeplySubstitutedClassParameter2() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/DeeplySubstitutedClassParameter2.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/DeeplySubstitutedClassParameter2.kt");
                     }
 
                     @TestMetadata("InheritMutability.kt")
                     public void testInheritMutability() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritMutability.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritMutability.kt");
                     }
 
                     @TestMetadata("InheritNotVararg.kt")
                     public void testInheritNotVararg() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVararg.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVararg.kt");
                     }
 
                     @TestMetadata("InheritNotVarargInteger.kt")
                     public void testInheritNotVarargInteger() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVarargInteger.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVarargInteger.kt");
                     }
 
                     @TestMetadata("InheritNotVarargNotNull.kt")
                     public void testInheritNotVarargNotNull() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVarargNotNull.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVarargNotNull.kt");
                     }
 
                     @TestMetadata("InheritNotVarargPrimitive.kt")
                     public void testInheritNotVarargPrimitive() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVarargPrimitive.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNotVarargPrimitive.kt");
                     }
 
                     @TestMetadata("InheritNullability.kt")
                     public void testInheritNullability() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNullability.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritNullability.kt");
                     }
 
                     @TestMetadata("InheritProjectionKind.kt")
                     public void testInheritProjectionKind() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritProjectionKind.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritProjectionKind.kt");
                     }
 
                     @TestMetadata("InheritReadOnliness.kt")
                     public void testInheritReadOnliness() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritReadOnliness.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritReadOnliness.kt");
                     }
 
                     @TestMetadata("InheritVararg.kt")
                     public void testInheritVararg() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVararg.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVararg.kt");
                     }
 
                     @TestMetadata("InheritVarargInteger.kt")
                     public void testInheritVarargInteger() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVarargInteger.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVarargInteger.kt");
                     }
 
                     @TestMetadata("InheritVarargNotNull.kt")
                     public void testInheritVarargNotNull() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVarargNotNull.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVarargNotNull.kt");
                     }
 
                     @TestMetadata("InheritVarargPrimitive.kt")
                     public void testInheritVarargPrimitive() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVarargPrimitive.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/InheritVarargPrimitive.kt");
                     }
 
                     @TestMetadata("Kt3302.kt")
                     public void testKt3302() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/Kt3302.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/Kt3302.kt");
                     }
 
                     @TestMetadata("MutableToReadOnly.kt")
                     public void testMutableToReadOnly() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/MutableToReadOnly.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/MutableToReadOnly.kt");
                     }
 
                     @TestMetadata("NotNullToNullable.kt")
                     public void testNotNullToNullable() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/NotNullToNullable.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/NotNullToNullable.kt");
                     }
 
                     @TestMetadata("NullableToNotNull.kt")
                     public void testNullableToNotNull() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/NullableToNotNull.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/NullableToNotNull.kt");
                     }
 
                     @TestMetadata("NullableToNotNullKotlinSignature.kt")
                     public void testNullableToNotNullKotlinSignature() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/NullableToNotNullKotlinSignature.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/NullableToNotNullKotlinSignature.kt");
                     }
 
                     @TestMetadata("OverrideWithErasedParameter.kt")
                     public void testOverrideWithErasedParameter() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/OverrideWithErasedParameter.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/OverrideWithErasedParameter.kt");
                     }
 
                     @TestMetadata("ReadOnlyToMutable.kt")
                     public void testReadOnlyToMutable() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/ReadOnlyToMutable.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/ReadOnlyToMutable.kt");
                     }
 
                     @TestMetadata("SubclassFromGenericAndNot.kt")
                     public void testSubclassFromGenericAndNot() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/SubclassFromGenericAndNot.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/SubclassFromGenericAndNot.kt");
                     }
 
                     @TestMetadata("SubstitutedClassParameter.kt")
                     public void testSubstitutedClassParameter() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/SubstitutedClassParameter.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/SubstitutedClassParameter.kt");
                     }
 
                     @TestMetadata("SubstitutedClassParameters.kt")
                     public void testSubstitutedClassParameters() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/SubstitutedClassParameters.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/parameter/SubstitutedClassParameters.kt");
                     }
                 }
 
@@ -1541,32 +1541,32 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
                 public static class Return extends AbstractLoadKotlinWithTypeTableTest {
                     @TestMetadata("AddNotNullJavaSubtype.kt")
                     public void testAddNotNullJavaSubtype() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNotNullJavaSubtype.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNotNullJavaSubtype.kt");
                     }
 
                     @TestMetadata("AddNotNullSameJavaType.kt")
                     public void testAddNotNullSameJavaType() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNotNullSameJavaType.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNotNullSameJavaType.kt");
                     }
 
                     @TestMetadata("AddNullabilityJavaSubtype.kt")
                     public void testAddNullabilityJavaSubtype() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilityJavaSubtype.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilityJavaSubtype.kt");
                     }
 
                     @TestMetadata("AddNullabilitySameGenericType1.kt")
                     public void testAddNullabilitySameGenericType1() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilitySameGenericType1.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilitySameGenericType1.kt");
                     }
 
                     @TestMetadata("AddNullabilitySameGenericType2.kt")
                     public void testAddNullabilitySameGenericType2() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilitySameGenericType2.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilitySameGenericType2.kt");
                     }
 
                     @TestMetadata("AddNullabilitySameJavaType.kt")
                     public void testAddNullabilitySameJavaType() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilitySameJavaType.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/AddNullabilitySameJavaType.kt");
                     }
 
                     public void testAllFilesPresentInReturn() throws Exception {
@@ -1575,142 +1575,142 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
                     @TestMetadata("CantMakeImmutableInSubclass.kt")
                     public void testCantMakeImmutableInSubclass() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/CantMakeImmutableInSubclass.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/CantMakeImmutableInSubclass.kt");
                     }
 
                     @TestMetadata("DeeplySubstitutedClassParameter.kt")
                     public void testDeeplySubstitutedClassParameter() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/DeeplySubstitutedClassParameter.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/DeeplySubstitutedClassParameter.kt");
                     }
 
                     @TestMetadata("DeeplySubstitutedClassParameter2.kt")
                     public void testDeeplySubstitutedClassParameter2() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/DeeplySubstitutedClassParameter2.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/DeeplySubstitutedClassParameter2.kt");
                     }
 
                     @TestMetadata("HalfSubstitutedTypeParameters.kt")
                     public void testHalfSubstitutedTypeParameters() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/HalfSubstitutedTypeParameters.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/HalfSubstitutedTypeParameters.kt");
                     }
 
                     @TestMetadata("InheritNullabilityGenericSubclassSimple.kt")
                     public void testInheritNullabilityGenericSubclassSimple() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilityGenericSubclassSimple.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilityGenericSubclassSimple.kt");
                     }
 
                     @TestMetadata("InheritNullabilityJavaSubtype.kt")
                     public void testInheritNullabilityJavaSubtype() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilityJavaSubtype.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilityJavaSubtype.kt");
                     }
 
                     @TestMetadata("InheritNullabilitySameGenericType.kt")
                     public void testInheritNullabilitySameGenericType() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilitySameGenericType.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilitySameGenericType.kt");
                     }
 
                     @TestMetadata("InheritNullabilitySameJavaType.kt")
                     public void testInheritNullabilitySameJavaType() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilitySameJavaType.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritNullabilitySameJavaType.kt");
                     }
 
                     @TestMetadata("InheritProjectionKind.kt")
                     public void testInheritProjectionKind() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritProjectionKind.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritProjectionKind.kt");
                     }
 
                     @TestMetadata("InheritReadOnlinessOfArgument.kt")
                     public void testInheritReadOnlinessOfArgument() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritReadOnlinessOfArgument.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritReadOnlinessOfArgument.kt");
                     }
 
                     @TestMetadata("InheritReadOnlinessSameClass.kt")
                     public void testInheritReadOnlinessSameClass() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritReadOnlinessSameClass.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritReadOnlinessSameClass.kt");
                     }
 
                     @TestMetadata("InheritReadOnlinessSubclass.kt")
                     public void testInheritReadOnlinessSubclass() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritReadOnlinessSubclass.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/InheritReadOnlinessSubclass.kt");
                     }
 
                     @TestMetadata("SameProjectionKind.kt")
                     public void testSameProjectionKind() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SameProjectionKind.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SameProjectionKind.kt");
                     }
 
                     @TestMetadata("SubclassFromGenericAndNot.kt")
                     public void testSubclassFromGenericAndNot() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubclassFromGenericAndNot.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubclassFromGenericAndNot.kt");
                     }
 
                     @TestMetadata("SubclassOfCollection.kt")
                     public void testSubclassOfCollection() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubclassOfCollection.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubclassOfCollection.kt");
                     }
 
                     @TestMetadata("SubclassOfMapEntry.kt")
                     public void testSubclassOfMapEntry() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubclassOfMapEntry.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubclassOfMapEntry.kt");
                     }
 
                     @TestMetadata("SubstitutedClassParameter.kt")
                     public void testSubstitutedClassParameter() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubstitutedClassParameter.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubstitutedClassParameter.kt");
                     }
 
                     @TestMetadata("SubstitutedClassParameters.kt")
                     public void testSubstitutedClassParameters() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubstitutedClassParameters.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/SubstitutedClassParameters.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesConflictingProjectionKinds.kt")
                     public void testTwoSuperclassesConflictingProjectionKinds() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesConflictingProjectionKinds.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesConflictingProjectionKinds.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesInvariantAndCovariantInferMutability.kt")
                     public void testTwoSuperclassesInvariantAndCovariantInferMutability() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesInvariantAndCovariantInferMutability.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesInvariantAndCovariantInferMutability.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesInvariantAndCovariantInferNullability.kt")
                     public void testTwoSuperclassesInvariantAndCovariantInferNullability() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesInvariantAndCovariantInferNullability.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesInvariantAndCovariantInferNullability.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesMutableAndNot.kt")
                     public void testTwoSuperclassesMutableAndNot() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesMutableAndNot.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesMutableAndNot.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesReturnJavaSubtype.kt")
                     public void testTwoSuperclassesReturnJavaSubtype() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesReturnJavaSubtype.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesReturnJavaSubtype.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesReturnSameJavaType.kt")
                     public void testTwoSuperclassesReturnSameJavaType() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesReturnSameJavaType.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesReturnSameJavaType.kt");
                     }
 
                     @TestMetadata("TwoSuperclassesSupplementNotNull.kt")
                     public void testTwoSuperclassesSupplementNotNull() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesSupplementNotNull.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TwoSuperclassesSupplementNotNull.kt");
                     }
 
                     @TestMetadata("TypeParamOfClass.kt")
                     public void testTypeParamOfClass() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TypeParamOfClass.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TypeParamOfClass.kt");
                     }
 
                     @TestMetadata("TypeParamOfClassSubstituted.kt")
                     public void testTypeParamOfClassSubstituted() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TypeParamOfClassSubstituted.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TypeParamOfClassSubstituted.kt");
                     }
 
                     @TestMetadata("TypeParamOfFun.kt")
                     public void testTypeParamOfFun() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TypeParamOfFun.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/return/TypeParamOfFun.kt");
                     }
                 }
 
@@ -1724,47 +1724,47 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
                     @TestMetadata("InheritMutability.kt")
                     public void testInheritMutability() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/InheritMutability.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/InheritMutability.kt");
                     }
 
                     @TestMetadata("InheritNullability.kt")
                     public void testInheritNullability() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/InheritNullability.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/InheritNullability.kt");
                     }
 
                     @TestMetadata("InheritReadOnliness.kt")
                     public void testInheritReadOnliness() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/InheritReadOnliness.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/InheritReadOnliness.kt");
                     }
 
                     @TestMetadata("TwoBounds.kt")
                     public void testTwoBounds() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/TwoBounds.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/TwoBounds.kt");
                     }
 
                     @TestMetadata("TwoSuperclasses.kt")
                     public void testTwoSuperclasses() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/TwoSuperclasses.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/TwoSuperclasses.kt");
                     }
 
                     @TestMetadata("TwoTypeParameters.kt")
                     public void testTwoTypeParameters() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/TwoTypeParameters.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/TwoTypeParameters.kt");
                     }
 
                     @TestMetadata("UseParameterAsUpperBound.kt")
                     public void testUseParameterAsUpperBound() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/UseParameterAsUpperBound.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/UseParameterAsUpperBound.kt");
                     }
 
                     @TestMetadata("UseParameterInUpperBound.kt")
                     public void testUseParameterInUpperBound() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/UseParameterInUpperBound.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/UseParameterInUpperBound.kt");
                     }
 
                     @TestMetadata("UseParameterInUpperBoundWithKotlinSignature.kt")
                     public void testUseParameterInUpperBoundWithKotlinSignature() throws Exception {
-                        KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/UseParameterInUpperBoundWithKotlinSignature.kt", this::doTest);
+                        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/kotlinSignature/propagation/typeParameter/UseParameterInUpperBoundWithKotlinSignature.kt");
                     }
                 }
             }
@@ -1780,17 +1780,17 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("LoadIterable.kt")
             public void testLoadIterable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/library/LoadIterable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/library/LoadIterable.kt");
             }
 
             @TestMetadata("LoadIterator.kt")
             public void testLoadIterator() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/library/LoadIterator.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/library/LoadIterator.kt");
             }
 
             @TestMetadata("Max.kt")
             public void testMax() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/library/Max.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/library/Max.kt");
             }
         }
 
@@ -1804,7 +1804,7 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ModalityOfFakeOverrides.kt")
             public void testModalityOfFakeOverrides() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/modality/ModalityOfFakeOverrides.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/modality/ModalityOfFakeOverrides.kt");
             }
         }
 
@@ -1818,27 +1818,27 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("NotNullField.kt")
             public void testNotNullField() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullField.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullField.kt");
             }
 
             @TestMetadata("NotNullIntArray.kt")
             public void testNotNullIntArray() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullIntArray.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullIntArray.kt");
             }
 
             @TestMetadata("NotNullMethod.kt")
             public void testNotNullMethod() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullMethod.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullMethod.kt");
             }
 
             @TestMetadata("NotNullObjectArray.kt")
             public void testNotNullObjectArray() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullObjectArray.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullObjectArray.kt");
             }
 
             @TestMetadata("NotNullParameter.kt")
             public void testNotNullParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fromLoadJava/notNull/NotNullParameter.kt");
             }
         }
     }
@@ -1853,57 +1853,57 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("Assert.kt")
         public void testAssert() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/Assert.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/Assert.kt");
         }
 
         @TestMetadata("DeclaredMemberOverridesDelegated.kt")
         public void testDeclaredMemberOverridesDelegated() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/DeclaredMemberOverridesDelegated.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/DeclaredMemberOverridesDelegated.kt");
         }
 
         @TestMetadata("InfixKeyword.kt")
         public void testInfixKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/InfixKeyword.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/InfixKeyword.kt");
         }
 
         @TestMetadata("InheritMethodsDifferentReturnTypesAndVisibilities.kt")
         public void testInheritMethodsDifferentReturnTypesAndVisibilities() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/InheritMethodsDifferentReturnTypesAndVisibilities.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/InheritMethodsDifferentReturnTypesAndVisibilities.kt");
         }
 
         @TestMetadata("InheritValAndVar.kt")
         public void testInheritValAndVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/InheritValAndVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/InheritValAndVar.kt");
         }
 
         @TestMetadata("InheritValsDifferentTypes.kt")
         public void testInheritValsDifferentTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/InheritValsDifferentTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/InheritValsDifferentTypes.kt");
         }
 
         @TestMetadata("NoSamAdapter.kt")
         public void testNoSamAdapter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/NoSamAdapter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/NoSamAdapter.kt");
         }
 
         @TestMetadata("NoSamConstructor.kt")
         public void testNoSamConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/NoSamConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/NoSamConstructor.kt");
         }
 
         @TestMetadata("OperatorKeyword.kt")
         public void testOperatorKeyword() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/OperatorKeyword.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/OperatorKeyword.kt");
         }
 
         @TestMetadata("PropagateDeepSubclass.kt")
         public void testPropagateDeepSubclass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/PropagateDeepSubclass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/PropagateDeepSubclass.kt");
         }
 
         @TestMetadata("PropagateSubclassOfComparable.kt")
         public void testPropagateSubclassOfComparable() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/PropagateSubclassOfComparable.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/PropagateSubclassOfComparable.kt");
         }
 
         @TestMetadata("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables")
@@ -1916,52 +1916,52 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("FunGenericParam.kt")
             public void testFunGenericParam() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunGenericParam.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunGenericParam.kt");
             }
 
             @TestMetadata("FunParamParam.kt")
             public void testFunParamParam() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamParam.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamParam.kt");
             }
 
             @TestMetadata("FunParamParamErased.kt")
             public void testFunParamParamErased() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamParamErased.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamParamErased.kt");
             }
 
             @TestMetadata("FunParamReferencesParam.kt")
             public void testFunParamReferencesParam() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamReferencesParam.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamReferencesParam.kt");
             }
 
             @TestMetadata("FunParamTwoUpperBounds.kt")
             public void testFunParamTwoUpperBounds() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamTwoUpperBounds.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamTwoUpperBounds.kt");
             }
 
             @TestMetadata("FunParamUpperClassBound.kt")
             public void testFunParamUpperClassBound() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamUpperClassBound.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamUpperClassBound.kt");
             }
 
             @TestMetadata("FunParamUpperClassInterfaceBound.kt")
             public void testFunParamUpperClassInterfaceBound() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamUpperClassInterfaceBound.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamUpperClassInterfaceBound.kt");
             }
 
             @TestMetadata("FunParamUpperInterfaceBound.kt")
             public void testFunParamUpperInterfaceBound() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamUpperInterfaceBound.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamUpperInterfaceBound.kt");
             }
 
             @TestMetadata("FunParamVaragParam.kt")
             public void testFunParamVaragParam() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamVaragParam.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunParamVaragParam.kt");
             }
 
             @TestMetadata("FunTwoTypeParams.kt")
             public void testFunTwoTypeParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunTwoTypeParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithTypeVariables/FunTwoTypeParams.kt");
             }
         }
 
@@ -1975,27 +1975,27 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("FunClassParamNotNull.kt")
             public void testFunClassParamNotNull() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/FunClassParamNotNull.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/FunClassParamNotNull.kt");
             }
 
             @TestMetadata("FunClassParamNullable.kt")
             public void testFunClassParamNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/FunClassParamNullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/FunClassParamNullable.kt");
             }
 
             @TestMetadata("FunParamNullable.kt")
             public void testFunParamNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/FunParamNullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/FunParamNullable.kt");
             }
 
             @TestMetadata("ReturnTypeClassParamNotNull.kt")
             public void testReturnTypeClassParamNotNull() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/ReturnTypeClassParamNotNull.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/ReturnTypeClassParamNotNull.kt");
             }
 
             @TestMetadata("ReturnTypeClassParamNullable.kt")
             public void testReturnTypeClassParamNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/ReturnTypeClassParamNullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/genericWithoutTypeVariables/ReturnTypeClassParamNullable.kt");
             }
         }
 
@@ -2009,82 +2009,82 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ClassFun.kt")
             public void testClassFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFun.kt");
             }
 
             @TestMetadata("ClassFunGetFoo.kt")
             public void testClassFunGetFoo() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFunGetFoo.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFunGetFoo.kt");
             }
 
             @TestMetadata("ClassFunGetFooSetFoo.kt")
             public void testClassFunGetFooSetFoo() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFunGetFooSetFoo.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFunGetFooSetFoo.kt");
             }
 
             @TestMetadata("ClassFunSetFoo.kt")
             public void testClassFunSetFoo() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFunSetFoo.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ClassFunSetFoo.kt");
             }
 
             @TestMetadata("ExtFun.kt")
             public void testExtFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ExtFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ExtFun.kt");
             }
 
             @TestMetadata("ExtFunInClass.kt")
             public void testExtFunInClass() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ExtFunInClass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ExtFunInClass.kt");
             }
 
             @TestMetadata("FunDefaultArg.kt")
             public void testFunDefaultArg() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunDefaultArg.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunDefaultArg.kt");
             }
 
             @TestMetadata("FunParamNotNull.kt")
             public void testFunParamNotNull() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunParamNotNull.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunParamNotNull.kt");
             }
 
             @TestMetadata("FunVarargInt.kt")
             public void testFunVarargInt() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunVarargInt.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunVarargInt.kt");
             }
 
             @TestMetadata("FunVarargInteger.kt")
             public void testFunVarargInteger() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunVarargInteger.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/FunVarargInteger.kt");
             }
 
             @TestMetadata("ModifierAbstract.kt")
             public void testModifierAbstract() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ModifierAbstract.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ModifierAbstract.kt");
             }
 
             @TestMetadata("ModifierOpen.kt")
             public void testModifierOpen() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ModifierOpen.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ModifierOpen.kt");
             }
 
             @TestMetadata("NsFun.kt")
             public void testNsFun() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/NsFun.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/NsFun.kt");
             }
 
             @TestMetadata("NsFunGetFoo.kt")
             public void testNsFunGetFoo() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/NsFunGetFoo.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/NsFunGetFoo.kt");
             }
 
             @TestMetadata("ReturnTypeNotNull.kt")
             public void testReturnTypeNotNull() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ReturnTypeNotNull.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ReturnTypeNotNull.kt");
             }
 
             @TestMetadata("ReturnTypeNullable.kt")
             public void testReturnTypeNullable() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ReturnTypeNullable.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/nonGeneric/ReturnTypeNullable.kt");
             }
         }
 
@@ -2098,17 +2098,17 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("nonLastVararg.kt")
             public void testNonLastVararg() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/vararg/nonLastVararg.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/vararg/nonLastVararg.kt");
             }
 
             @TestMetadata("VarargInt.kt")
             public void testVarargInt() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/vararg/VarargInt.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/vararg/VarargInt.kt");
             }
 
             @TestMetadata("VarargString.kt")
             public void testVarargString() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/fun/vararg/VarargString.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/fun/vararg/VarargString.kt");
             }
         }
     }
@@ -2123,7 +2123,7 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("inlineFunction.kt")
         public void testInlineFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/inline/inlineFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/inline/inlineFunction.kt");
         }
     }
 
@@ -2137,32 +2137,32 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("callablesNameClash.kt")
         public void testCallablesNameClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/memberOrder/callablesNameClash.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/memberOrder/callablesNameClash.kt");
         }
 
         @TestMetadata("enumEntries.kt")
         public void testEnumEntries() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/memberOrder/enumEntries.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/memberOrder/enumEntries.kt");
         }
 
         @TestMetadata("extensionMembers.kt")
         public void testExtensionMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/memberOrder/extensionMembers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/memberOrder/extensionMembers.kt");
         }
 
         @TestMetadata("extensionPropertiesNameClash.kt")
         public void testExtensionPropertiesNameClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/memberOrder/extensionPropertiesNameClash.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/memberOrder/extensionPropertiesNameClash.kt");
         }
 
         @TestMetadata("innerClasses.kt")
         public void testInnerClasses() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/memberOrder/innerClasses.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/memberOrder/innerClasses.kt");
         }
 
         @TestMetadata("topLevelCallables.kt")
         public void testTopLevelCallables() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/memberOrder/topLevelCallables.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/memberOrder/topLevelCallables.kt");
         }
     }
 
@@ -2176,17 +2176,17 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("deepInnerGeneric.kt")
         public void testDeepInnerGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/nested/deepInnerGeneric.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/nested/deepInnerGeneric.kt");
         }
 
         @TestMetadata("innerClassReferencesOuterTP.kt")
         public void testInnerClassReferencesOuterTP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/nested/innerClassReferencesOuterTP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/nested/innerClassReferencesOuterTP.kt");
         }
 
         @TestMetadata("membersReferenceOuterTP.kt")
         public void testMembersReferenceOuterTP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/nested/membersReferenceOuterTP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/nested/membersReferenceOuterTP.kt");
         }
     }
 
@@ -2200,12 +2200,12 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("notnullTypeArgument.kt")
         public void testNotnullTypeArgument() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/platformTypes/notnullTypeArgument.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/platformTypes/notnullTypeArgument.kt");
         }
 
         @TestMetadata("nullableTypeArgument.kt")
         public void testNullableTypeArgument() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/platformTypes/nullableTypeArgument.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/platformTypes/nullableTypeArgument.kt");
         }
     }
 
@@ -2219,167 +2219,167 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("ClassVal.kt")
         public void testClassVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ClassVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ClassVal.kt");
         }
 
         @TestMetadata("ClassValAbstract.kt")
         public void testClassValAbstract() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ClassValAbstract.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ClassValAbstract.kt");
         }
 
         @TestMetadata("ClassVar.kt")
         public void testClassVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ClassVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ClassVar.kt");
         }
 
         @TestMetadata("CollectionSize.kt")
         public void testCollectionSize() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/CollectionSize.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/CollectionSize.kt");
         }
 
         @TestMetadata("Const.kt")
         public void testConst() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/Const.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/Const.kt");
         }
 
         @TestMetadata("Constants.kt")
         public void testConstants() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/Constants.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/Constants.kt");
         }
 
         @TestMetadata("ExtValClass.kt")
         public void testExtValClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValClass.kt");
         }
 
         @TestMetadata("ExtValInClass.kt")
         public void testExtValInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValInClass.kt");
         }
 
         @TestMetadata("ExtValInt.kt")
         public void testExtValInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValInt.kt");
         }
 
         @TestMetadata("ExtValIntCharSequence.kt")
         public void testExtValIntCharSequence() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValIntCharSequence.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValIntCharSequence.kt");
         }
 
         @TestMetadata("ExtValIntCharSequenceQ.kt")
         public void testExtValIntCharSequenceQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValIntCharSequenceQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValIntCharSequenceQ.kt");
         }
 
         @TestMetadata("ExtValIntListQOfIntInClass.kt")
         public void testExtValIntListQOfIntInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValIntListQOfIntInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValIntListQOfIntInClass.kt");
         }
 
         @TestMetadata("ExtValIntTInClass.kt")
         public void testExtValIntTInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValIntTInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValIntTInClass.kt");
         }
 
         @TestMetadata("ExtValIntTQInClass.kt")
         public void testExtValIntTQInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValIntTQInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValIntTQInClass.kt");
         }
 
         @TestMetadata("ExtValTIntInClass.kt")
         public void testExtValTIntInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtValTIntInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtValTIntInClass.kt");
         }
 
         @TestMetadata("ExtVarClass.kt")
         public void testExtVarClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarClass.kt");
         }
 
         @TestMetadata("ExtVarInClass.kt")
         public void testExtVarInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarInClass.kt");
         }
 
         @TestMetadata("ExtVarInt.kt")
         public void testExtVarInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarInt.kt");
         }
 
         @TestMetadata("ExtVarIntTInClass.kt")
         public void testExtVarIntTInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarIntTInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarIntTInClass.kt");
         }
 
         @TestMetadata("ExtVarIntTQInClass.kt")
         public void testExtVarIntTQInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarIntTQInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarIntTQInClass.kt");
         }
 
         @TestMetadata("ExtVarMapPQInt.kt")
         public void testExtVarMapPQInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarMapPQInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarMapPQInt.kt");
         }
 
         @TestMetadata("ExtVarTIntInClass.kt")
         public void testExtVarTIntInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarTIntInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarTIntInClass.kt");
         }
 
         @TestMetadata("ExtVarTQIntInClass.kt")
         public void testExtVarTQIntInClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarTQIntInClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarTQIntInClass.kt");
         }
 
         @TestMetadata("ExtVarl.kt")
         public void testExtVarl() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/ExtVarl.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/ExtVarl.kt");
         }
 
         @TestMetadata("NsVal.kt")
         public void testNsVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/NsVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/NsVal.kt");
         }
 
         @TestMetadata("NsVar.kt")
         public void testNsVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/NsVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/NsVar.kt");
         }
 
         @TestMetadata("OverrideClassVal.kt")
         public void testOverrideClassVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/OverrideClassVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/OverrideClassVal.kt");
         }
 
         @TestMetadata("OverrideTraitVal.kt")
         public void testOverrideTraitVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/OverrideTraitVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/OverrideTraitVal.kt");
         }
 
         @TestMetadata("PropFromSuperclass.kt")
         public void testPropFromSuperclass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/PropFromSuperclass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/PropFromSuperclass.kt");
         }
 
         @TestMetadata("TraitFinalVar.kt")
         public void testTraitFinalVar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/TraitFinalVar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/TraitFinalVar.kt");
         }
 
         @TestMetadata("TraitOpenVal.kt")
         public void testTraitOpenVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/TraitOpenVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/TraitOpenVal.kt");
         }
 
         @TestMetadata("VarDelegationToTraitImpl.kt")
         public void testVarDelegationToTraitImpl() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/VarDelegationToTraitImpl.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/VarDelegationToTraitImpl.kt");
         }
 
         @TestMetadata("VarWithDelegated.kt")
         public void testVarWithDelegated() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/VarWithDelegated.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/VarWithDelegated.kt");
         }
 
         @TestMetadata("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors")
@@ -2392,52 +2392,52 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
             @TestMetadata("ClassVal.kt")
             public void testClassVal() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVal.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVal.kt");
             }
 
             @TestMetadata("ClassValParams.kt")
             public void testClassValParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassValParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassValParams.kt");
             }
 
             @TestMetadata("ClassValWithGet.kt")
             public void testClassValWithGet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassValWithGet.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassValWithGet.kt");
             }
 
             @TestMetadata("ClassVar.kt")
             public void testClassVar() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVar.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVar.kt");
             }
 
             @TestMetadata("ClassVarModality.kt")
             public void testClassVarModality() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarModality.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarModality.kt");
             }
 
             @TestMetadata("ClassVarParams.kt")
             public void testClassVarParams() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarParams.kt");
             }
 
             @TestMetadata("ClassVarWithGet.kt")
             public void testClassVarWithGet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarWithGet.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarWithGet.kt");
             }
 
             @TestMetadata("ClassVarWithSet.kt")
             public void testClassVarWithSet() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarWithSet.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ClassVarWithSet.kt");
             }
 
             @TestMetadata("ExtValLong.kt")
             public void testExtValLong() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ExtValLong.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ExtValLong.kt");
             }
 
             @TestMetadata("ExtVarLong.kt")
             public void testExtVarLong() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ExtVarLong.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/prop/defaultAccessors/ExtVarLong.kt");
             }
         }
     }
@@ -2452,157 +2452,157 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("Any.kt")
         public void testAny() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/Any.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/Any.kt");
         }
 
         @TestMetadata("AnyQ.kt")
         public void testAnyQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/AnyQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/AnyQ.kt");
         }
 
         @TestMetadata("ArrayOfInNumber.kt")
         public void testArrayOfInNumber() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ArrayOfInNumber.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ArrayOfInNumber.kt");
         }
 
         @TestMetadata("ArrayOfInt.kt")
         public void testArrayOfInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ArrayOfInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ArrayOfInt.kt");
         }
 
         @TestMetadata("ArrayOfInteger.kt")
         public void testArrayOfInteger() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ArrayOfInteger.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ArrayOfInteger.kt");
         }
 
         @TestMetadata("ArrayOfOutNumber.kt")
         public void testArrayOfOutNumber() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ArrayOfOutNumber.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ArrayOfOutNumber.kt");
         }
 
         @TestMetadata("ArrayOfOutT.kt")
         public void testArrayOfOutT() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ArrayOfOutT.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ArrayOfOutT.kt");
         }
 
         @TestMetadata("ArrayOfString.kt")
         public void testArrayOfString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ArrayOfString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ArrayOfString.kt");
         }
 
         @TestMetadata("Function1IntString.kt")
         public void testFunction1IntString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/Function1IntString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/Function1IntString.kt");
         }
 
         @TestMetadata("Int.kt")
         public void testInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/Int.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/Int.kt");
         }
 
         @TestMetadata("IntArray.kt")
         public void testIntArray() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/IntArray.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/IntArray.kt");
         }
 
         @TestMetadata("IntQ.kt")
         public void testIntQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/IntQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/IntQ.kt");
         }
 
         @TestMetadata("jlInteger.kt")
         public void testJlInteger() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlInteger.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlInteger.kt");
         }
 
         @TestMetadata("jlIntegerQ.kt")
         public void testJlIntegerQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlIntegerQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlIntegerQ.kt");
         }
 
         @TestMetadata("jlNumber.kt")
         public void testJlNumber() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlNumber.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlNumber.kt");
         }
 
         @TestMetadata("jlObject.kt")
         public void testJlObject() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlObject.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlObject.kt");
         }
 
         @TestMetadata("jlObjectQ.kt")
         public void testJlObjectQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlObjectQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlObjectQ.kt");
         }
 
         @TestMetadata("jlString.kt")
         public void testJlString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlString.kt");
         }
 
         @TestMetadata("jlStringQ.kt")
         public void testJlStringQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/jlStringQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/jlStringQ.kt");
         }
 
         @TestMetadata("ListOfAny.kt")
         public void testListOfAny() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ListOfAny.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ListOfAny.kt");
         }
 
         @TestMetadata("ListOfAnyQ.kt")
         public void testListOfAnyQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ListOfAnyQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ListOfAnyQ.kt");
         }
 
         @TestMetadata("ListOfStar.kt")
         public void testListOfStar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ListOfStar.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ListOfStar.kt");
         }
 
         @TestMetadata("ListOfString.kt")
         public void testListOfString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ListOfString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ListOfString.kt");
         }
 
         @TestMetadata("ListOfjlString.kt")
         public void testListOfjlString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/ListOfjlString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/ListOfjlString.kt");
         }
 
         @TestMetadata("Nothing.kt")
         public void testNothing() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/Nothing.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/Nothing.kt");
         }
 
         @TestMetadata("NothingQ.kt")
         public void testNothingQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/NothingQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/NothingQ.kt");
         }
 
         @TestMetadata("platform.kt")
         public void testPlatform() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/platform.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/platform.kt");
         }
 
         @TestMetadata("String.kt")
         public void testString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/String.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/String.kt");
         }
 
         @TestMetadata("StringQ.kt")
         public void testStringQ() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/StringQ.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/StringQ.kt");
         }
 
         @TestMetadata("SuspendFunction.kt")
         public void testSuspendFunction() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/SuspendFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/SuspendFunction.kt");
         }
 
         @TestMetadata("Unit.kt")
         public void testUnit() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/type/Unit.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/type/Unit.kt");
         }
     }
 
@@ -2616,22 +2616,22 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("Annotations.kt")
         public void testAnnotations() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/typealias/Annotations.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/typealias/Annotations.kt");
         }
 
         @TestMetadata("Basic.kt")
         public void testBasic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/typealias/Basic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/typealias/Basic.kt");
         }
 
         @TestMetadata("Generic.kt")
         public void testGeneric() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/typealias/Generic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/typealias/Generic.kt");
         }
 
         @TestMetadata("TypeAliasToExtension.kt")
         public void testTypeAliasToExtension() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/typealias/TypeAliasToExtension.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/typealias/TypeAliasToExtension.kt");
         }
     }
 
@@ -2645,57 +2645,57 @@ public class LoadKotlinWithTypeTableTestGenerated extends AbstractLoadKotlinWith
 
         @TestMetadata("InternalClass.kt")
         public void testInternalClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/InternalClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/InternalClass.kt");
         }
 
         @TestMetadata("InternalConstructor.kt")
         public void testInternalConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/InternalConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/InternalConstructor.kt");
         }
 
         @TestMetadata("InternalTopLevelMembers.kt")
         public void testInternalTopLevelMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/InternalTopLevelMembers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/InternalTopLevelMembers.kt");
         }
 
         @TestMetadata("PrivateClass.kt")
         public void testPrivateClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PrivateClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PrivateClass.kt");
         }
 
         @TestMetadata("PrivateClassMembers.kt")
         public void testPrivateClassMembers() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PrivateClassMembers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PrivateClassMembers.kt");
         }
 
         @TestMetadata("PrivateToThis.kt")
         public void testPrivateToThis() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PrivateToThis.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PrivateToThis.kt");
         }
 
         @TestMetadata("PrivateTopLevelFun.kt")
         public void testPrivateTopLevelFun() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PrivateTopLevelFun.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PrivateTopLevelFun.kt");
         }
 
         @TestMetadata("PrivateTopLevelVal.kt")
         public void testPrivateTopLevelVal() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PrivateTopLevelVal.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PrivateTopLevelVal.kt");
         }
 
         @TestMetadata("PropertyInConstructor.kt")
         public void testPropertyInConstructor() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PropertyInConstructor.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PropertyInConstructor.kt");
         }
 
         @TestMetadata("PropertyInConstructorExplicitVisibility.kt")
         public void testPropertyInConstructorExplicitVisibility() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/PropertyInConstructorExplicitVisibility.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/PropertyInConstructorExplicitVisibility.kt");
         }
 
         @TestMetadata("TopLevelVarWithPrivateSetter.kt")
         public void testTopLevelVarWithPrivateSetter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/loadJava/compiledKotlin/visibility/TopLevelVarWithPrivateSetter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/loadJava/compiledKotlin/visibility/TopLevelVarWithPrivateSetter.kt");
         }
     }
 }

@@ -27,37 +27,37 @@ public class AnnotationParameterTestGenerated extends AbstractAnnotationParamete
 
     @TestMetadata("byte.kt")
     public void testByte() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/byte.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/byte.kt");
     }
 
     @TestMetadata("char.kt")
     public void testChar() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/char.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/char.kt");
     }
 
     @TestMetadata("double.kt")
     public void testDouble() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/double.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/double.kt");
     }
 
     @TestMetadata("float.kt")
     public void testFloat() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/float.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/float.kt");
     }
 
     @TestMetadata("int.kt")
     public void testInt() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/int.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/int.kt");
     }
 
     @TestMetadata("long.kt")
     public void testLong() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/long.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/long.kt");
     }
 
     @TestMetadata("short.kt")
     public void testShort() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/short.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/short.kt");
     }
 
     @TestMetadata("compiler/testData/resolveAnnotations/parameters/expressions")
@@ -70,172 +70,172 @@ public class AnnotationParameterTestGenerated extends AbstractAnnotationParamete
 
         @TestMetadata("andAnd.kt")
         public void testAndAnd() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/andAnd.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/andAnd.kt");
         }
 
         @TestMetadata("boolean.kt")
         public void testBoolean() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/boolean.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/boolean.kt");
         }
 
         @TestMetadata("char.kt")
         public void testChar() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/char.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/char.kt");
         }
 
         @TestMetadata("compositeCallBinary.kt")
         public void testCompositeCallBinary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/compositeCallBinary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/compositeCallBinary.kt");
         }
 
         @TestMetadata("divide.kt")
         public void testDivide() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/divide.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/divide.kt");
         }
 
         @TestMetadata("double.kt")
         public void testDouble() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/double.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/double.kt");
         }
 
         @TestMetadata("eqeq.kt")
         public void testEqeq() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/eqeq.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/eqeq.kt");
         }
 
         @TestMetadata("escapedString.kt")
         public void testEscapedString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/escapedString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/escapedString.kt");
         }
 
         @TestMetadata("float.kt")
         public void testFloat() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/float.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/float.kt");
         }
 
         @TestMetadata("gt.kt")
         public void testGt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/gt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/gt.kt");
         }
 
         @TestMetadata("gteq.kt")
         public void testGteq() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/gteq.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/gteq.kt");
         }
 
         @TestMetadata("intrincics.kt")
         public void testIntrincics() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/intrincics.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/intrincics.kt");
         }
 
         @TestMetadata("labeled.kt")
         public void testLabeled() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/labeled.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/labeled.kt");
         }
 
         @TestMetadata("long.kt")
         public void testLong() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/long.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/long.kt");
         }
 
         @TestMetadata("lt.kt")
         public void testLt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/lt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/lt.kt");
         }
 
         @TestMetadata("lteq.kt")
         public void testLteq() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/lteq.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/lteq.kt");
         }
 
         @TestMetadata("maxValue.kt")
         public void testMaxValue() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/maxValue.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/maxValue.kt");
         }
 
         @TestMetadata("maxValueByte.kt")
         public void testMaxValueByte() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/maxValueByte.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/maxValueByte.kt");
         }
 
         @TestMetadata("maxValueInt.kt")
         public void testMaxValueInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/maxValueInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/maxValueInt.kt");
         }
 
         @TestMetadata("miltiply.kt")
         public void testMiltiply() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/miltiply.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/miltiply.kt");
         }
 
         @TestMetadata("minus.kt")
         public void testMinus() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/minus.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/minus.kt");
         }
 
         @TestMetadata("mod.kt")
         public void testMod() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/mod.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/mod.kt");
         }
 
         @TestMetadata("multilineString.kt")
         public void testMultilineString() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/multilineString.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/multilineString.kt");
         }
 
         @TestMetadata("not.kt")
         public void testNot() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/not.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/not.kt");
         }
 
         @TestMetadata("noteq.kt")
         public void testNoteq() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/noteq.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/noteq.kt");
         }
 
         @TestMetadata("orOr.kt")
         public void testOrOr() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/orOr.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/orOr.kt");
         }
 
         @TestMetadata("paranthesized.kt")
         public void testParanthesized() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/paranthesized.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/paranthesized.kt");
         }
 
         @TestMetadata("plus.kt")
         public void testPlus() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/plus.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/plus.kt");
         }
 
         @TestMetadata("simpleCallBinary.kt")
         public void testSimpleCallBinary() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/simpleCallBinary.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/simpleCallBinary.kt");
         }
 
         @TestMetadata("stringPlusInt.kt")
         public void testStringPlusInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/stringPlusInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/stringPlusInt.kt");
         }
 
         @TestMetadata("stringTemplate.kt")
         public void testStringTemplate() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/stringTemplate.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/stringTemplate.kt");
         }
 
         @TestMetadata("strings.kt")
         public void testStrings() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/strings.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/strings.kt");
         }
 
         @TestMetadata("unaryMinus.kt")
         public void testUnaryMinus() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/unaryMinus.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/unaryMinus.kt");
         }
 
         @TestMetadata("unaryPlus.kt")
         public void testUnaryPlus() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/unaryPlus.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/resolveAnnotations/parameters/expressions/unaryPlus.kt");
         }
     }
 }

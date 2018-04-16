@@ -29,52 +29,52 @@ public class ScratchRunActionTestGenerated extends AbstractScratchRunActionTest 
 
         @TestMetadata("for.kts")
         public void testFor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/for.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/for.kts");
         }
 
         @TestMetadata("generics.kts")
         public void testGenerics() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/generics.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/generics.kts");
         }
 
         @TestMetadata("klass.kts")
         public void testKlass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/klass.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/klass.kts");
         }
 
         @TestMetadata("simple.kts")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/simple.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/simple.kts");
         }
 
         @TestMetadata("simpleFun.kts")
         public void testSimpleFun() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/simpleFun.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/simpleFun.kts");
         }
 
         @TestMetadata("stdlibFun.kts")
         public void testStdlibFun() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/stdlibFun.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/stdlibFun.kts");
         }
 
         @TestMetadata("unresolved.kts")
         public void testUnresolved() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/unresolved.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/unresolved.kts");
         }
 
         @TestMetadata("userOutput.kts")
         public void testUserOutput() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/userOutput.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/userOutput.kts");
         }
 
         @TestMetadata("var.kts")
         public void testVar() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/var.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/var.kts");
         }
 
         @TestMetadata("when.kts")
         public void testWhen() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/when.kts", this::doCompilingTest);
+            KotlinTestUtils.runTest(this::doCompilingTest,TargetBackend.ANY, "idea/testData/scratch/when.kts");
         }
     }
 
@@ -88,52 +88,52 @@ public class ScratchRunActionTestGenerated extends AbstractScratchRunActionTest 
 
         @TestMetadata("for.kts")
         public void testFor() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/for.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/for.kts");
         }
 
         @TestMetadata("generics.kts")
         public void testGenerics() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/generics.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/generics.kts");
         }
 
         @TestMetadata("klass.kts")
         public void testKlass() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/klass.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/klass.kts");
         }
 
         @TestMetadata("simple.kts")
         public void testSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/simple.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/simple.kts");
         }
 
         @TestMetadata("simpleFun.kts")
         public void testSimpleFun() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/simpleFun.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/simpleFun.kts");
         }
 
         @TestMetadata("stdlibFun.kts")
         public void testStdlibFun() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/stdlibFun.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/stdlibFun.kts");
         }
 
         @TestMetadata("unresolved.kts")
         public void testUnresolved() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/unresolved.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/unresolved.kts");
         }
 
         @TestMetadata("userOutput.kts")
         public void testUserOutput() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/userOutput.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/userOutput.kts");
         }
 
         @TestMetadata("var.kts")
         public void testVar() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/var.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/var.kts");
         }
 
         @TestMetadata("when.kts")
         public void testWhen() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/when.kts", this::doReplTest);
+            KotlinTestUtils.runTest(this::doReplTest,TargetBackend.ANY, "idea/testData/scratch/when.kts");
         }
     }
 
@@ -147,12 +147,12 @@ public class ScratchRunActionTestGenerated extends AbstractScratchRunActionTest 
 
         @TestMetadata("inlineFun")
         public void testInlineFun() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/multiFile/inlineFun/", this::doMultiFileTest);
+            KotlinTestUtils.runTest(this::doMultiFileTest,TargetBackend.ANY, "idea/testData/scratch/multiFile/inlineFun/");
         }
 
         @TestMetadata("javaDep")
         public void testJavaDep() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/scratch/multiFile/javaDep/", this::doMultiFileTest);
+            KotlinTestUtils.runTest(this::doMultiFileTest,TargetBackend.ANY, "idea/testData/scratch/multiFile/javaDep/");
         }
     }
 }

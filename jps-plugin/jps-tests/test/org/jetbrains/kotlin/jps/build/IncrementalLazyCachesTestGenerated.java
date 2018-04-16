@@ -29,42 +29,42 @@ public class IncrementalLazyCachesTestGenerated extends AbstractIncrementalLazyC
 
         @TestMetadata("class")
         public void testClass() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/class/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/class/");
         }
 
         @TestMetadata("classInheritance")
         public void testClassInheritance() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/classInheritance/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/classInheritance/");
         }
 
         @TestMetadata("constant")
         public void testConstant() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/constant/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/constant/");
         }
 
         @TestMetadata("function")
         public void testFunction() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/function/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/function/");
         }
 
         @TestMetadata("inlineFunctionWithUsage")
         public void testInlineFunctionWithUsage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithUsage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithUsage/");
         }
 
         @TestMetadata("inlineFunctionWithoutUsage")
         public void testInlineFunctionWithoutUsage() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithoutUsage/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithoutUsage/");
         }
 
         @TestMetadata("noKotlin")
         public void testNoKotlin() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/noKotlin/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/noKotlin/");
         }
 
         @TestMetadata("topLevelPropertyAccess")
         public void testTopLevelPropertyAccess() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/topLevelPropertyAccess/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/lazyKotlinCaches/topLevelPropertyAccess/");
         }
     }
 
@@ -78,22 +78,22 @@ public class IncrementalLazyCachesTestGenerated extends AbstractIncrementalLazyC
 
         @TestMetadata("incrementalOff")
         public void testIncrementalOff() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOff/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/changeIncrementalOption/incrementalOff/");
         }
 
         @TestMetadata("incrementalOffOn")
         public void testIncrementalOffOn() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOn/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOn/");
         }
 
         @TestMetadata("incrementalOffOnJavaChanged")
         public void testIncrementalOffOnJavaChanged() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaChanged/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaChanged/");
         }
 
         @TestMetadata("incrementalOffOnJavaOnly")
         public void testIncrementalOffOnJavaOnly() throws Exception {
-            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaOnly/", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaOnly/");
         }
     }
 }

@@ -27,16 +27,16 @@ public class IrSourceRangesTestCaseGenerated extends AbstractIrSourceRangesTestC
 
     @TestMetadata("augmentedAssignmentWithExpression.kt")
     public void testAugmentedAssignmentWithExpression() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/sourceRanges/augmentedAssignmentWithExpression.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/sourceRanges/augmentedAssignmentWithExpression.kt");
     }
 
     @TestMetadata("kt17108.kt")
     public void testKt17108() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/sourceRanges/kt17108.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/sourceRanges/kt17108.kt");
     }
 
     @TestMetadata("synthesizedDataClassMembers.kt")
     public void testSynthesizedDataClassMembers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/ir/sourceRanges/synthesizedDataClassMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/ir/sourceRanges/synthesizedDataClassMembers.kt");
     }
 }

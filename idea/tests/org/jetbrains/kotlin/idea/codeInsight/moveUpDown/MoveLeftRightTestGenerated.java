@@ -27,71 +27,71 @@ public class MoveLeftRightTestGenerated extends AbstractMoveLeftRightTest {
 
     @TestMetadata("annotationParams.kt")
     public void testAnnotationParams() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/annotationParams.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/annotationParams.kt");
     }
 
     @TestMetadata("basesList.kt")
     public void testBasesList() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/basesList.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/basesList.kt");
     }
 
     @TestMetadata("callArgs1.kt")
     public void testCallArgs1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/callArgs1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/callArgs1.kt");
     }
 
     @TestMetadata("callArgs2.kt")
     public void testCallArgs2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/callArgs2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/callArgs2.kt");
     }
 
     @TestMetadata("callArgs3.kt")
     public void testCallArgs3() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/callArgs3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/callArgs3.kt");
     }
 
     @TestMetadata("callArgs4.kt")
     public void testCallArgs4() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/callArgs4.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/callArgs4.kt");
     }
 
     @TestMetadata("callArgs5.kt")
     public void testCallArgs5() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/callArgs5.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/callArgs5.kt");
     }
 
     @TestMetadata("funParams1.kt")
     public void testFunParams1() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/funParams1.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/funParams1.kt");
     }
 
     @TestMetadata("funParams2.kt")
     public void testFunParams2() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/funParams2.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/funParams2.kt");
     }
 
     @TestMetadata("funParams3.kt")
     public void testFunParams3() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/funParams3.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/funParams3.kt");
     }
 
     @TestMetadata("funParams4.kt")
     public void testFunParams4() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/funParams4.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/funParams4.kt");
     }
 
     @TestMetadata("indexArgs.kt")
     public void testIndexArgs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/indexArgs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/indexArgs.kt");
     }
 
     @TestMetadata("lambdaParams.kt")
     public void testLambdaParams() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/lambdaParams.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/lambdaParams.kt");
     }
 
     @TestMetadata("typeArgs.kt")
     public void testTypeArgs() throws Exception {
-        KotlinTestUtils.runTest("idea/testData/codeInsight/moveLeftRight/typeArgs.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/codeInsight/moveLeftRight/typeArgs.kt");
     }
 }

@@ -27,112 +27,112 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
     @TestMetadata("ArrayOfCharSequence.kt")
     public void testArrayOfCharSequence() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/ArrayOfCharSequence.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/ArrayOfCharSequence.kt");
     }
 
     @TestMetadata("ArrayOfInt.kt")
     public void testArrayOfInt() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/ArrayOfInt.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/ArrayOfInt.kt");
     }
 
     @TestMetadata("backingFieldForGenericDelegated.kt")
     public void testBackingFieldForGenericDelegated() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/backingFieldForGenericDelegated.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/backingFieldForGenericDelegated.kt");
     }
 
     @TestMetadata("Comparable.kt")
     public void testComparable() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/Comparable.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/Comparable.kt");
     }
 
     @TestMetadata("DeepGenericInnerClass.kt")
     public void testDeepGenericInnerClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/DeepGenericInnerClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/DeepGenericInnerClass.kt");
     }
 
     @TestMetadata("GenericInnerClass.kt")
     public void testGenericInnerClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/GenericInnerClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/GenericInnerClass.kt");
     }
 
     @TestMetadata("GenericInnerClassWithSimpleOuter.kt")
     public void testGenericInnerClassWithSimpleOuter() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/GenericInnerClassWithSimpleOuter.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/GenericInnerClassWithSimpleOuter.kt");
     }
 
     @TestMetadata("Int.kt")
     public void testInt() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/Int.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/Int.kt");
     }
 
     @TestMetadata("IntArray.kt")
     public void testIntArray() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/IntArray.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/IntArray.kt");
     }
 
     @TestMetadata("IntQ.kt")
     public void testIntQ() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/IntQ.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/IntQ.kt");
     }
 
     @TestMetadata("jlString.kt")
     public void testJlString() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/jlString.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/jlString.kt");
     }
 
     @TestMetadata("ListOfCharSequence.kt")
     public void testListOfCharSequence() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/ListOfCharSequence.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/ListOfCharSequence.kt");
     }
 
     @TestMetadata("ListOfStar.kt")
     public void testListOfStar() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/ListOfStar.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/ListOfStar.kt");
     }
 
     @TestMetadata("MapEntry.kt")
     public void testMapEntry() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/MapEntry.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/MapEntry.kt");
     }
 
     @TestMetadata("MutableMapEntry.kt")
     public void testMutableMapEntry() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/MutableMapEntry.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/MutableMapEntry.kt");
     }
 
     @TestMetadata("NonGeneric.kt")
     public void testNonGeneric() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/NonGeneric.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/NonGeneric.kt");
     }
 
     @TestMetadata("StarProjectionInClass.kt")
     public void testStarProjectionInClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/StarProjectionInClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/StarProjectionInClass.kt");
     }
 
     @TestMetadata("StarProjectionInSuper.kt")
     public void testStarProjectionInSuper() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/StarProjectionInSuper.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/StarProjectionInSuper.kt");
     }
 
     @TestMetadata("StarProjectionOutsideClass.kt")
     public void testStarProjectionOutsideClass() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/StarProjectionOutsideClass.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/StarProjectionOutsideClass.kt");
     }
 
     @TestMetadata("syntheticAccessorForGeneric.kt")
     public void testSyntheticAccessorForGeneric() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/syntheticAccessorForGeneric.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/syntheticAccessorForGeneric.kt");
     }
 
     @TestMetadata("VarargCharSequence.kt")
     public void testVarargCharSequence() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/VarargCharSequence.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/VarargCharSequence.kt");
     }
 
     @TestMetadata("VarargGeneric.kt")
     public void testVarargGeneric() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/writeSignature/VarargGeneric.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/VarargGeneric.kt");
     }
 
     @TestMetadata("compiler/testData/writeSignature/annotations")
@@ -145,22 +145,22 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("kArrayClassOfJClass.kt")
         public void testKArrayClassOfJClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/annotations/kArrayClassOfJClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/annotations/kArrayClassOfJClass.kt");
         }
 
         @TestMetadata("kArrayClassOfKClass.kt")
         public void testKArrayClassOfKClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/annotations/kArrayClassOfKClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/annotations/kArrayClassOfKClass.kt");
         }
 
         @TestMetadata("kClassBasic.kt")
         public void testKClassBasic() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/annotations/kClassBasic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/annotations/kClassBasic.kt");
         }
 
         @TestMetadata("kClassInt.kt")
         public void testKClassInt() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/annotations/kClassInt.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/annotations/kClassInt.kt");
         }
     }
 
@@ -174,17 +174,17 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("constructorReferenceInReturnType.kt")
         public void testConstructorReferenceInReturnType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/callableReference/constructorReferenceInReturnType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/callableReference/constructorReferenceInReturnType.kt");
         }
 
         @TestMetadata("functionReferenceInvoke.kt")
         public void testFunctionReferenceInvoke() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/callableReference/functionReferenceInvoke.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/callableReference/functionReferenceInvoke.kt");
         }
 
         @TestMetadata("propertyReferenceGet.kt")
         public void testPropertyReferenceGet() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/callableReference/propertyReferenceGet.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/callableReference/propertyReferenceGet.kt");
         }
     }
 
@@ -198,22 +198,22 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("Constructor0.kt")
         public void testConstructor0() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/constructor/Constructor0.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/constructor/Constructor0.kt");
         }
 
         @TestMetadata("ConstructorCollectionParameter.kt")
         public void testConstructorCollectionParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/constructor/ConstructorCollectionParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/constructor/ConstructorCollectionParameter.kt");
         }
 
         @TestMetadata("ConstructorWithTypeParameter.kt")
         public void testConstructorWithTypeParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/constructor/ConstructorWithTypeParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/constructor/ConstructorWithTypeParameter.kt");
         }
 
         @TestMetadata("ConstructorWithTypeParameterAndValueParameterP.kt")
         public void testConstructorWithTypeParameterAndValueParameterP() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/constructor/ConstructorWithTypeParameterAndValueParameterP.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/constructor/ConstructorWithTypeParameterAndValueParameterP.kt");
         }
     }
 
@@ -227,137 +227,137 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("FunctionTwoTypeParameters.kt")
         public void testFunctionTwoTypeParameters() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/FunctionTwoTypeParameters.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/FunctionTwoTypeParameters.kt");
         }
 
         @TestMetadata("GenericOverrides.kt")
         public void testGenericOverrides() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/GenericOverrides.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/GenericOverrides.kt");
         }
 
         @TestMetadata("InInInPosition.kt")
         public void testInInInPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/InInInPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/InInInPosition.kt");
         }
 
         @TestMetadata("InInOutPosition.kt")
         public void testInInOutPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/InInOutPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/InInOutPosition.kt");
         }
 
         @TestMetadata("InOfInInInPosition.kt")
         public void testInOfInInInPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/InOfInInInPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/InOfInInInPosition.kt");
         }
 
         @TestMetadata("InOfInInOutPosition.kt")
         public void testInOfInInOutPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/InOfInInOutPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/InOfInInOutPosition.kt");
         }
 
         @TestMetadata("InOfOutInInPosition.kt")
         public void testInOfOutInInPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/InOfOutInInPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/InOfOutInInPosition.kt");
         }
 
         @TestMetadata("InOfOutInOutPosition.kt")
         public void testInOfOutInOutPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/InOfOutInOutPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/InOfOutInOutPosition.kt");
         }
 
         @TestMetadata("MappedSupertypeWithVariance.kt")
         public void testMappedSupertypeWithVariance() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/MappedSupertypeWithVariance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/MappedSupertypeWithVariance.kt");
         }
 
         @TestMetadata("OpenMembersReturnType.kt")
         public void testOpenMembersReturnType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OpenMembersReturnType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OpenMembersReturnType.kt");
         }
 
         @TestMetadata("OpenMembersValueParameter.kt")
         public void testOpenMembersValueParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OpenMembersValueParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OpenMembersValueParameter.kt");
         }
 
         @TestMetadata("OutInField.kt")
         public void testOutInField() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutInField.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutInField.kt");
         }
 
         @TestMetadata("OutInInPosition.kt")
         public void testOutInInPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutInInPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutInInPosition.kt");
         }
 
         @TestMetadata("OutInOutPosition.kt")
         public void testOutInOutPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutInOutPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutInOutPosition.kt");
         }
 
         @TestMetadata("OutOfInInInPosition.kt")
         public void testOutOfInInInPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutOfInInInPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutOfInInInPosition.kt");
         }
 
         @TestMetadata("OutOfInInOutPosition.kt")
         public void testOutOfInInOutPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutOfInInOutPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutOfInInOutPosition.kt");
         }
 
         @TestMetadata("OutOfOutInInPosition.kt")
         public void testOutOfOutInInPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutOfOutInInPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutOfOutInInPosition.kt");
         }
 
         @TestMetadata("OutOfOutInOutPosition.kt")
         public void testOutOfOutInOutPosition() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/OutOfOutInOutPosition.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/OutOfOutInOutPosition.kt");
         }
 
         @TestMetadata("PropertyGetterIn.kt")
         public void testPropertyGetterIn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/PropertyGetterIn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/PropertyGetterIn.kt");
         }
 
         @TestMetadata("PropertyGetterOut.kt")
         public void testPropertyGetterOut() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/PropertyGetterOut.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/PropertyGetterOut.kt");
         }
 
         @TestMetadata("PropertyGetterTwoParams.kt")
         public void testPropertyGetterTwoParams() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/PropertyGetterTwoParams.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/PropertyGetterTwoParams.kt");
         }
 
         @TestMetadata("PropertySetterIn.kt")
         public void testPropertySetterIn() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/PropertySetterIn.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/PropertySetterIn.kt");
         }
 
         @TestMetadata("PropertySetterOut.kt")
         public void testPropertySetterOut() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/PropertySetterOut.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/PropertySetterOut.kt");
         }
 
         @TestMetadata("RedundantProjections.kt")
         public void testRedundantProjections() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/RedundantProjections.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/RedundantProjections.kt");
         }
 
         @TestMetadata("SuperClassWithVariance.kt")
         public void testSuperClassWithVariance() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/SuperClassWithVariance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/SuperClassWithVariance.kt");
         }
 
         @TestMetadata("SuperTraitWithVariance.kt")
         public void testSuperTraitWithVariance() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/SuperTraitWithVariance.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/SuperTraitWithVariance.kt");
         }
 
         @TestMetadata("SuperTypeWithVarianceInArguments.kt")
         public void testSuperTypeWithVarianceInArguments() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/SuperTypeWithVarianceInArguments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/SuperTypeWithVarianceInArguments.kt");
         }
 
         @TestMetadata("compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations")
@@ -370,17 +370,17 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
             @TestMetadata("onFunction.kt")
             public void testOnFunction() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations/onFunction.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations/onFunction.kt");
             }
 
             @TestMetadata("onTypes.kt")
             public void testOnTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations/onTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations/onTypes.kt");
             }
 
             @TestMetadata("primitiveTypes.kt")
             public void testPrimitiveTypes() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations/primitiveTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/jvmWildcardAnnotations/primitiveTypes.kt");
             }
         }
 
@@ -394,57 +394,57 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
             @TestMetadata("argumentOverridability.kt")
             public void testArgumentOverridability() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/argumentOverridability.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/argumentOverridability.kt");
             }
 
             @TestMetadata("arrays.kt")
             public void testArrays() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/arrays.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/arrays.kt");
             }
 
             @TestMetadata("complicatedInBounds.kt")
             public void testComplicatedInBounds() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/complicatedInBounds.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/complicatedInBounds.kt");
             }
 
             @TestMetadata("deepOut.kt")
             public void testDeepOut() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/deepOut.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/deepOut.kt");
             }
 
             @TestMetadata("fields.kt")
             public void testFields() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/fields.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/fields.kt");
             }
 
             @TestMetadata("finalReturnType.kt")
             public void testFinalReturnType() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/finalReturnType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/finalReturnType.kt");
             }
 
             @TestMetadata("outIn.kt")
             public void testOutIn() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/outIn.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/outIn.kt");
             }
 
             @TestMetadata("outInv.kt")
             public void testOutInv() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/outInv.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/outInv.kt");
             }
 
             @TestMetadata("topLevelIn.kt")
             public void testTopLevelIn() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/topLevelIn.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/topLevelIn.kt");
             }
 
             @TestMetadata("topLevelInv.kt")
             public void testTopLevelInv() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/topLevelInv.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/topLevelInv.kt");
             }
 
             @TestMetadata("typeParameter.kt")
             public void testTypeParameter() throws Exception {
-                KotlinTestUtils.runTest("compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/typeParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/declarationSiteVariance/wildcardOptimization/typeParameter.kt");
             }
         }
     }
@@ -459,17 +459,17 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("functionTypeParameterClash.kt")
         public void testFunctionTypeParameterClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/defaultImpls/functionTypeParameterClash.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/defaultImpls/functionTypeParameterClash.kt");
         }
 
         @TestMetadata("functionTypeParameterClashWith_I.kt")
         public void testFunctionTypeParameterClashWith_I() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/defaultImpls/functionTypeParameterClashWith_I.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/defaultImpls/functionTypeParameterClashWith_I.kt");
         }
 
         @TestMetadata("propertyTypeParameterClash.kt")
         public void testPropertyTypeParameterClash() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/defaultImpls/propertyTypeParameterClash.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/defaultImpls/propertyTypeParameterClash.kt");
         }
     }
 
@@ -483,57 +483,57 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("basicInlineClassDeclarationCodegen.kt")
         public void testBasicInlineClassDeclarationCodegen() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/basicInlineClassDeclarationCodegen.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/basicInlineClassDeclarationCodegen.kt");
         }
 
         @TestMetadata("genericInlineClassBasedOnGenericType.kt")
         public void testGenericInlineClassBasedOnGenericType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/genericInlineClassBasedOnGenericType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/genericInlineClassBasedOnGenericType.kt");
         }
 
         @TestMetadata("genericInlineClassWithDefaultTypeParameter.kt")
         public void testGenericInlineClassWithDefaultTypeParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/genericInlineClassWithDefaultTypeParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/genericInlineClassWithDefaultTypeParameter.kt");
         }
 
         @TestMetadata("genericInlineClassWithNotNullTypeParameter.kt")
         public void testGenericInlineClassWithNotNullTypeParameter() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/genericInlineClassWithNotNullTypeParameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/genericInlineClassWithNotNullTypeParameter.kt");
         }
 
         @TestMetadata("inlineClassAsGenericArgument.kt")
         public void testInlineClassAsGenericArgument() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/inlineClassAsGenericArgument.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/inlineClassAsGenericArgument.kt");
         }
 
         @TestMetadata("inlineClassBasedOnOtherInlineClass.kt")
         public void testInlineClassBasedOnOtherInlineClass() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/inlineClassBasedOnOtherInlineClass.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/inlineClassBasedOnOtherInlineClass.kt");
         }
 
         @TestMetadata("inlineClassWithComplexSubstitutedType.kt")
         public void testInlineClassWithComplexSubstitutedType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/inlineClassWithComplexSubstitutedType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/inlineClassWithComplexSubstitutedType.kt");
         }
 
         @TestMetadata("inlineClassesInsideFunctionalTypes.kt")
         public void testInlineClassesInsideFunctionalTypes() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/inlineClassesInsideFunctionalTypes.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/inlineClassesInsideFunctionalTypes.kt");
         }
 
         @TestMetadata("nullableInlineClassType.kt")
         public void testNullableInlineClassType() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/nullableInlineClassType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/nullableInlineClassType.kt");
         }
 
         @TestMetadata("simpleSignatureWithInlineClassTypesAsPrimitive.kt")
         public void testSimpleSignatureWithInlineClassTypesAsPrimitive() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/simpleSignatureWithInlineClassTypesAsPrimitive.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/simpleSignatureWithInlineClassTypesAsPrimitive.kt");
         }
 
         @TestMetadata("simpleSignatureWithInlineClassTypesAsReference.kt")
         public void testSimpleSignatureWithInlineClassTypesAsReference() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/inlineClasses/simpleSignatureWithInlineClassTypesAsReference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/inlineClasses/simpleSignatureWithInlineClassTypesAsReference.kt");
         }
     }
 
@@ -547,12 +547,12 @@ public class WriteSignatureTestGenerated extends AbstractWriteSignatureTest {
 
         @TestMetadata("nothing.kt")
         public void testNothing() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/nothing/nothing.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/nothing/nothing.kt");
         }
 
         @TestMetadata("nullableNothing.kt")
         public void testNullableNothing() throws Exception {
-            KotlinTestUtils.runTest("compiler/testData/writeSignature/nothing/nullableNothing.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/writeSignature/nothing/nullableNothing.kt");
         }
     }
 }

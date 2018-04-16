@@ -35,57 +35,57 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
         @TestMetadata("EmptyFunction.kt")
         public void testEmptyFunction() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/EmptyFunction.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/EmptyFunction.kt");
         }
 
         @TestMetadata("ExtensionAndDispatchReceivers.kt")
         public void testExtensionAndDispatchReceivers() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/ExtensionAndDispatchReceivers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/ExtensionAndDispatchReceivers.kt");
         }
 
         @TestMetadata("InStringTemplates.kt")
         public void testInStringTemplates() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/InStringTemplates.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/InStringTemplates.kt");
         }
 
         @TestMetadata("LocalCapturing.kt")
         public void testLocalCapturing() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/LocalCapturing.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/LocalCapturing.kt");
         }
 
         @TestMetadata("LocalSimple.kt")
         public void testLocalSimple() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/LocalSimple.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/LocalSimple.kt");
         }
 
         @TestMetadata("MultipleReturns.kt")
         public void testMultipleReturns() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/MultipleReturns.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/MultipleReturns.kt");
         }
 
         @TestMetadata("OuterClassReceiver.kt")
         public void testOuterClassReceiver() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/OuterClassReceiver.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/OuterClassReceiver.kt");
         }
 
         @TestMetadata("Reference.kt")
         public void testReference() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/Reference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/Reference.kt");
         }
 
         @TestMetadata("ReturnNotInTheEnd.kt")
         public void testReturnNotInTheEnd() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/ReturnNotInTheEnd.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/ReturnNotInTheEnd.kt");
         }
 
         @TestMetadata("UnitReturnType.kt")
         public void testUnitReturnType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/UnitReturnType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/UnitReturnType.kt");
         }
 
         @TestMetadata("UnitReturnType2.kt")
         public void testUnitReturnType2() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/UnitReturnType2.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/UnitReturnType2.kt");
         }
 
         @TestMetadata("idea/testData/refactoring/inline/function/expressionBody")
@@ -98,117 +98,117 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("ComplexArgumentNotUsed.kt")
             public void testComplexArgumentNotUsed() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/ComplexArgumentNotUsed.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/ComplexArgumentNotUsed.kt");
             }
 
             @TestMetadata("ComplexArgumentUsedTwice.kt")
             public void testComplexArgumentUsedTwice() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/ComplexArgumentUsedTwice.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/ComplexArgumentUsedTwice.kt");
             }
 
             @TestMetadata("Constant.kt")
             public void testConstant() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/Constant.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/Constant.kt");
             }
 
             @TestMetadata("DoNotKeepString.kt")
             public void testDoNotKeepString() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/DoNotKeepString.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/DoNotKeepString.kt");
             }
 
             @TestMetadata("ExplicitReturnType.kt")
             public void testExplicitReturnType() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/ExplicitReturnType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/ExplicitReturnType.kt");
             }
 
             @TestMetadata("explicitTypeArgument.kt")
             public void testExplicitTypeArgument() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/explicitTypeArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/explicitTypeArgument.kt");
             }
 
             @TestMetadata("explicitTypeArgumentComplex.kt")
             public void testExplicitTypeArgumentComplex() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/explicitTypeArgumentComplex.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/explicitTypeArgumentComplex.kt");
             }
 
             @TestMetadata("explicitTypeArgumentNotNeeded.kt")
             public void testExplicitTypeArgumentNotNeeded() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/explicitTypeArgumentNotNeeded.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/explicitTypeArgumentNotNeeded.kt");
             }
 
             @TestMetadata("FromUsage.kt")
             public void testFromUsage() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/FromUsage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/FromUsage.kt");
             }
 
             @TestMetadata("FunctionalParameterPassed.kt")
             public void testFunctionalParameterPassed() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/FunctionalParameterPassed.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/FunctionalParameterPassed.kt");
             }
 
             @TestMetadata("FunctionalType.kt")
             public void testFunctionalType() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/FunctionalType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/FunctionalType.kt");
             }
 
             @TestMetadata("Lambda.kt")
             public void testLambda() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/Lambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/Lambda.kt");
             }
 
             @TestMetadata("Lambda1.kt")
             public void testLambda1() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/Lambda1.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/Lambda1.kt");
             }
 
             @TestMetadata("Lambda2.kt")
             public void testLambda2() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/Lambda2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/Lambda2.kt");
             }
 
             @TestMetadata("LambdaGeneric.kt")
             public void testLambdaGeneric() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/LambdaGeneric.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/LambdaGeneric.kt");
             }
 
             @TestMetadata("ManyParams.kt")
             public void testManyParams() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/ManyParams.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/ManyParams.kt");
             }
 
             @TestMetadata("MultipleInComposition.kt")
             public void testMultipleInComposition() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/MultipleInComposition.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/MultipleInComposition.kt");
             }
 
             @TestMetadata("MultipleInExpression.kt")
             public void testMultipleInExpression() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/MultipleInExpression.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/MultipleInExpression.kt");
             }
 
             @TestMetadata("Recursive.kt")
             public void testRecursive() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/Recursive.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/Recursive.kt");
             }
 
             @TestMetadata("SafeCall.kt")
             public void testSafeCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/SafeCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/SafeCall.kt");
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/Simple.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/Simple.kt");
             }
 
             @TestMetadata("StringTemplate.kt")
             public void testStringTemplate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/StringTemplate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/StringTemplate.kt");
             }
 
             @TestMetadata("WithReference.kt")
             public void testWithReference() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/expressionBody/WithReference.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/expressionBody/WithReference.kt");
             }
         }
 
@@ -222,97 +222,97 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("ArrayAccess.kt")
             public void testArrayAccess() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/ArrayAccess.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/ArrayAccess.kt");
             }
 
             @TestMetadata("AvoidMultipleSubstitutionsInParameterTypes.kt")
             public void testAvoidMultipleSubstitutionsInParameterTypes() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/AvoidMultipleSubstitutionsInParameterTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/AvoidMultipleSubstitutionsInParameterTypes.kt");
             }
 
             @TestMetadata("CallInFor.kt")
             public void testCallInFor() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/CallInFor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/CallInFor.kt");
             }
 
             @TestMetadata("CallUnderIf.kt")
             public void testCallUnderIf() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/CallUnderIf.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/CallUnderIf.kt");
             }
 
             @TestMetadata("EnumConstructor.kt")
             public void testEnumConstructor() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/EnumConstructor.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/EnumConstructor.kt");
             }
 
             @TestMetadata("FieldInitializer.kt")
             public void testFieldInitializer() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/FieldInitializer.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/FieldInitializer.kt");
             }
 
             @TestMetadata("FlatVarargs.kt")
             public void testFlatVarargs() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/FlatVarargs.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/FlatVarargs.kt");
             }
 
             @TestMetadata("InaccessibleFieldInSuperclass.kt")
             public void testInaccessibleFieldInSuperclass() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/InaccessibleFieldInSuperclass.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/InaccessibleFieldInSuperclass.kt");
             }
 
             @TestMetadata("InferredType.kt")
             public void testInferredType() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/InferredType.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/InferredType.kt");
             }
 
             @TestMetadata("InlineAnonymousClassWithPrivateMethod.kt")
             public void testInlineAnonymousClassWithPrivateMethod() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/InlineAnonymousClassWithPrivateMethod.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/InlineAnonymousClassWithPrivateMethod.kt");
             }
 
             @TestMetadata("InlineMultipleOccurrencesInFieldInitializer.kt")
             public void testInlineMultipleOccurrencesInFieldInitializer() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/InlineMultipleOccurrencesInFieldInitializer.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/InlineMultipleOccurrencesInFieldInitializer.kt");
             }
 
             @TestMetadata("InlineWithQualifier.kt")
             public void testInlineWithQualifier() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/InlineWithQualifier.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/InlineWithQualifier.kt");
             }
 
             @TestMetadata("InlineWithTry.kt")
             public void testInlineWithTry() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/InlineWithTry.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/InlineWithTry.kt");
             }
 
             @TestMetadata("NotAStatement.kt")
             public void testNotAStatement() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/NotAStatement.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/NotAStatement.kt");
             }
 
             @TestMetadata("ParamNameConflictsWithLocalVar.kt")
             public void testParamNameConflictsWithLocalVar() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/ParamNameConflictsWithLocalVar.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/ParamNameConflictsWithLocalVar.kt");
             }
 
             @TestMetadata("SideEffect.kt")
             public void testSideEffect() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/SideEffect.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/SideEffect.kt");
             }
 
             @TestMetadata("Substitution.kt")
             public void testSubstitution() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/Substitution.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/Substitution.kt");
             }
 
             @TestMetadata("VoidWithReturn.kt")
             public void testVoidWithReturn() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/VoidWithReturn.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/VoidWithReturn.kt");
             }
 
             @TestMetadata("WithSuperInside.kt")
             public void testWithSuperInside() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/fromIntellij/WithSuperInside.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/fromIntellij/WithSuperInside.kt");
             }
         }
 
@@ -322,7 +322,7 @@ public class InlineTestGenerated extends AbstractInlineTest {
         public static class ReturnAtEnd extends AbstractInlineTest {
             @TestMetadata("AddBlockToControlStatement.kt")
             public void testAddBlockToControlStatement() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/AddBlockToControlStatement.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/AddBlockToControlStatement.kt");
             }
 
             public void testAllFilesPresentInReturnAtEnd() throws Exception {
@@ -331,92 +331,92 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("Bug1.kt")
             public void testBug1() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/Bug1.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/Bug1.kt");
             }
 
             @TestMetadata("CallArgument.kt")
             public void testCallArgument() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/CallArgument.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/CallArgument.kt");
             }
 
             @TestMetadata("ClassDelegate.kt")
             public void testClassDelegate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/ClassDelegate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/ClassDelegate.kt");
             }
 
             @TestMetadata("ConvertToBlockBody.kt")
             public void testConvertToBlockBody() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/ConvertToBlockBody.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/ConvertToBlockBody.kt");
             }
 
             @TestMetadata("DefaultParameter.kt")
             public void testDefaultParameter() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/DefaultParameter.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/DefaultParameter.kt");
             }
 
             @TestMetadata("MultipleStatements.kt")
             public void testMultipleStatements() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/MultipleStatements.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/MultipleStatements.kt");
             }
 
             @TestMetadata("OnLocalMemberLevel.kt")
             public void testOnLocalMemberLevel() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/OnLocalMemberLevel.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/OnLocalMemberLevel.kt");
             }
 
             @TestMetadata("OnMemberLevel.kt")
             public void testOnMemberLevel() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/OnMemberLevel.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/OnMemberLevel.kt");
             }
 
             @TestMetadata("OnTopLevel.kt")
             public void testOnTopLevel() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/OnTopLevel.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/OnTopLevel.kt");
             }
 
             @TestMetadata("PrivateMember.kt")
             public void testPrivateMember() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/PrivateMember.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/PrivateMember.kt");
             }
 
             @TestMetadata("PublicMember.kt")
             public void testPublicMember() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/PublicMember.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/PublicMember.kt");
             }
 
             @TestMetadata("Recursive.kt")
             public void testRecursive() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/Recursive.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/Recursive.kt");
             }
 
             @TestMetadata("ReturnFromLambda.kt")
             public void testReturnFromLambda() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/ReturnFromLambda.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/ReturnFromLambda.kt");
             }
 
             @TestMetadata("SafeCall.kt")
             public void testSafeCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/SafeCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/SafeCall.kt");
             }
 
             @TestMetadata("SingleStatement.kt")
             public void testSingleStatement() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/SingleStatement.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/SingleStatement.kt");
             }
 
             @TestMetadata("UnusedComplicatedReturnValue.kt")
             public void testUnusedComplicatedReturnValue() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/UnusedComplicatedReturnValue.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/UnusedComplicatedReturnValue.kt");
             }
 
             @TestMetadata("UnusedReturnValue.kt")
             public void testUnusedReturnValue() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/UnusedReturnValue.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/UnusedReturnValue.kt");
             }
 
             @TestMetadata("ValIntializer.kt")
             public void testValIntializer() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/function/returnAtEnd/ValIntializer.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/function/returnAtEnd/ValIntializer.kt");
             }
         }
     }
@@ -431,32 +431,32 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
         @TestMetadata("extensionFunctionTypeToFunctionType.kt")
         public void testExtensionFunctionTypeToFunctionType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineTypeAlias/extensionFunctionTypeToFunctionType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineTypeAlias/extensionFunctionTypeToFunctionType.kt");
         }
 
         @TestMetadata("functionTypeToFunctionType.kt")
         public void testFunctionTypeToFunctionType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineTypeAlias/functionTypeToFunctionType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineTypeAlias/functionTypeToFunctionType.kt");
         }
 
         @TestMetadata("functionTypeToNullableType.kt")
         public void testFunctionTypeToNullableType() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineTypeAlias/functionTypeToNullableType.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineTypeAlias/functionTypeToNullableType.kt");
         }
 
         @TestMetadata("keepImports.kt")
         public void testKeepImports() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineTypeAlias/keepImports.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineTypeAlias/keepImports.kt");
         }
 
         @TestMetadata("replaceImports.kt")
         public void testReplaceImports() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineTypeAlias/replaceImports.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineTypeAlias/replaceImports.kt");
         }
 
         @TestMetadata("simpleAlias.kt")
         public void testSimpleAlias() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineTypeAlias/simpleAlias.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineTypeAlias/simpleAlias.kt");
         }
     }
 
@@ -470,102 +470,102 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
         @TestMetadata("AppendToCollection.kt")
         public void testAppendToCollection() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/AppendToCollection.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/AppendToCollection.kt");
         }
 
         @TestMetadata("Basic.kt")
         public void testBasic() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/Basic.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/Basic.kt");
         }
 
         @TestMetadata("BasicCaretOnDeclaration.kt")
         public void testBasicCaretOnDeclaration() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/BasicCaretOnDeclaration.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/BasicCaretOnDeclaration.kt");
         }
 
         @TestMetadata("ifInQualifiedExpression.kt")
         public void testIfInQualifiedExpression() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/ifInQualifiedExpression.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/ifInQualifiedExpression.kt");
         }
 
         @TestMetadata("InFunctionLiteral.kt")
         public void testInFunctionLiteral() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/InFunctionLiteral.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/InFunctionLiteral.kt");
         }
 
         @TestMetadata("lessAndGreaterInCallArgs.kt")
         public void testLessAndGreaterInCallArgs() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/lessAndGreaterInCallArgs.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/lessAndGreaterInCallArgs.kt");
         }
 
         @TestMetadata("MethodReference.kt")
         public void testMethodReference() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/MethodReference.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/MethodReference.kt");
         }
 
         @TestMetadata("MultipleInitializers.kt")
         public void testMultipleInitializers() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/MultipleInitializers.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/MultipleInitializers.kt");
         }
 
         @TestMetadata("MultipleUsages.kt")
         public void testMultipleUsages() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/MultipleUsages.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/MultipleUsages.kt");
         }
 
         @TestMetadata("noUsages.kt")
         public void testNoUsages() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/noUsages.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/noUsages.kt");
         }
 
         @TestMetadata("Parameter.kt")
         public void testParameter() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/Parameter.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/Parameter.kt");
         }
 
         @TestMetadata("semicolon.kt")
         public void testSemicolon() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/semicolon.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/semicolon.kt");
         }
 
         @TestMetadata("semicolonWithSpacesAndComments.kt")
         public void testSemicolonWithSpacesAndComments() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/semicolonWithSpacesAndComments.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/semicolonWithSpacesAndComments.kt");
         }
 
         @TestMetadata("SeparateInitializer.kt")
         public void testSeparateInitializer() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/SeparateInitializer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/SeparateInitializer.kt");
         }
 
         @TestMetadata("SeparateInitializerInTry.kt")
         public void testSeparateInitializerInTry() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/SeparateInitializerInTry.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/SeparateInitializerInTry.kt");
         }
 
         @TestMetadata("UsedInAssignment.kt")
         public void testUsedInAssignment() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/UsedInAssignment.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/UsedInAssignment.kt");
         }
 
         @TestMetadata("ValWithoutInitializer.kt")
         public void testValWithoutInitializer() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/ValWithoutInitializer.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/ValWithoutInitializer.kt");
         }
 
         @TestMetadata("varNoWrite.kt")
         public void testVarNoWrite() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/varNoWrite.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/varNoWrite.kt");
         }
 
         @TestMetadata("varWithAssignment.kt")
         public void testVarWithAssignment() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/varWithAssignment.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/varWithAssignment.kt");
         }
 
         @TestMetadata("varWithInc.kt")
         public void testVarWithInc() throws Exception {
-            KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/varWithInc.kt", this::doTest);
+            KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/varWithInc.kt");
         }
 
         @TestMetadata("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis")
@@ -578,162 +578,162 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("ArrayAccess.kt")
             public void testArrayAccess() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/ArrayAccess.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/ArrayAccess.kt");
             }
 
             @TestMetadata("ArrayAccessDontAdd.kt")
             public void testArrayAccessDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/ArrayAccessDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/ArrayAccessDontAdd.kt");
             }
 
             @TestMetadata("Binary.kt")
             public void testBinary() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Binary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Binary.kt");
             }
 
             @TestMetadata("BinaryDontAdd.kt")
             public void testBinaryDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/BinaryDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/BinaryDontAdd.kt");
             }
 
             @TestMetadata("Call.kt")
             public void testCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Call.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Call.kt");
             }
 
             @TestMetadata("CallCorrected.kt")
             public void testCallCorrected() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/CallCorrected.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/CallCorrected.kt");
             }
 
             @TestMetadata("CallDontAdd.kt")
             public void testCallDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/CallDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/CallDontAdd.kt");
             }
 
             @TestMetadata("Callee.kt")
             public void testCallee() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Callee.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Callee.kt");
             }
 
             @TestMetadata("ColonDontAdd.kt")
             public void testColonDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/ColonDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/ColonDontAdd.kt");
             }
 
             @TestMetadata("If.kt")
             public void testIf() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/If.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/If.kt");
             }
 
             @TestMetadata("IfIntoArrayAccess.kt")
             public void testIfIntoArrayAccess() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoArrayAccess.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoArrayAccess.kt");
             }
 
             @TestMetadata("IfIntoArrayAccessBrackets.kt")
             public void testIfIntoArrayAccessBrackets() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoArrayAccessBrackets.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoArrayAccessBrackets.kt");
             }
 
             @TestMetadata("IfIntoBinaryLeft.kt")
             public void testIfIntoBinaryLeft() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryLeft.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryLeft.kt");
             }
 
             @TestMetadata("IfIntoBinaryRight.kt")
             public void testIfIntoBinaryRight() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryRight.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryRight.kt");
             }
 
             @TestMetadata("IfIntoBinaryRightLeft.kt")
             public void testIfIntoBinaryRightLeft() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryRightLeft.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryRightLeft.kt");
             }
 
             @TestMetadata("IfIntoBinaryRightLeftDontAdd.kt")
             public void testIfIntoBinaryRightLeftDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryRightLeftDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoBinaryRightLeftDontAdd.kt");
             }
 
             @TestMetadata("IfIntoPostfix.kt")
             public void testIfIntoPostfix() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoPostfix.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoPostfix.kt");
             }
 
             @TestMetadata("IfIntoPrefix.kt")
             public void testIfIntoPrefix() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoPrefix.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IfIntoPrefix.kt");
             }
 
             @TestMetadata("IndexedCorrected.kt")
             public void testIndexedCorrected() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IndexedCorrected.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IndexedCorrected.kt");
             }
 
             @TestMetadata("IsDontAdd.kt")
             public void testIsDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IsDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IsDontAdd.kt");
             }
 
             @TestMetadata("IsIntoCall.kt")
             public void testIsIntoCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IsIntoCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/IsIntoCall.kt");
             }
 
             @TestMetadata("LeftAssociative.kt")
             public void testLeftAssociative() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/LeftAssociative.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/LeftAssociative.kt");
             }
 
             @TestMetadata("LeftAssociativeBoolean.kt")
             public void testLeftAssociativeBoolean() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/LeftAssociativeBoolean.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/LeftAssociativeBoolean.kt");
             }
 
             @TestMetadata("LeftAssociativeDontAdd.kt")
             public void testLeftAssociativeDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/LeftAssociativeDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/LeftAssociativeDontAdd.kt");
             }
 
             @TestMetadata("PostfixIntoPrefix.kt")
             public void testPostfixIntoPrefix() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/PostfixIntoPrefix.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/PostfixIntoPrefix.kt");
             }
 
             @TestMetadata("PrefixIntoPostfix.kt")
             public void testPrefixIntoPostfix() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/PrefixIntoPostfix.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/PrefixIntoPostfix.kt");
             }
 
             @TestMetadata("Qualified.kt")
             public void testQualified() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Qualified.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/Qualified.kt");
             }
 
             @TestMetadata("QualifiedDontAdd.kt")
             public void testQualifiedDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/QualifiedDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/QualifiedDontAdd.kt");
             }
 
             @TestMetadata("StringTemplate.kt")
             public void testStringTemplate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/StringTemplate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/StringTemplate.kt");
             }
 
             @TestMetadata("StringTemplateAlreadyInBraces.kt")
             public void testStringTemplateAlreadyInBraces() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/StringTemplateAlreadyInBraces.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/StringTemplateAlreadyInBraces.kt");
             }
 
             @TestMetadata("StringTemplateDontAdd.kt")
             public void testStringTemplateDontAdd() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/StringTemplateDontAdd.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/StringTemplateDontAdd.kt");
             }
 
             @TestMetadata("UnaryIntoBinary.kt")
             public void testUnaryIntoBinary() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/UnaryIntoBinary.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/addParenthesis/UnaryIntoBinary.kt");
             }
         }
 
@@ -747,37 +747,37 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("EnoughDontExplicate.kt")
             public void testEnoughDontExplicate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/EnoughDontExplicate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/EnoughDontExplicate.kt");
             }
 
             @TestMetadata("ErrorTypes.kt")
             public void testErrorTypes() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/ErrorTypes.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/ErrorTypes.kt");
             }
 
             @TestMetadata("It.kt")
             public void testIt() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/It.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/It.kt");
             }
 
             @TestMetadata("ItMultiLine.kt")
             public void testItMultiLine() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/ItMultiLine.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/ItMultiLine.kt");
             }
 
             @TestMetadata("Parenthesized.kt")
             public void testParenthesized() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/Parenthesized.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/Parenthesized.kt");
             }
 
             @TestMetadata("Simplest.kt")
             public void testSimplest() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/Simplest.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/Simplest.kt");
             }
 
             @TestMetadata("TrivialDontExplicate.kt")
             public void testTrivialDontExplicate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/TrivialDontExplicate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateParameterTypes/TrivialDontExplicate.kt");
             }
         }
 
@@ -791,52 +791,52 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("DeeperNestedCall.kt")
             public void testDeeperNestedCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/DeeperNestedCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/DeeperNestedCall.kt");
             }
 
             @TestMetadata("DeeperNestedCall2.kt")
             public void testDeeperNestedCall2() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/DeeperNestedCall2.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/DeeperNestedCall2.kt");
             }
 
             @TestMetadata("EnoughDontExplicate.kt")
             public void testEnoughDontExplicate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/EnoughDontExplicate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/EnoughDontExplicate.kt");
             }
 
             @TestMetadata("ExplicateForSome.kt")
             public void testExplicateForSome() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/ExplicateForSome.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/ExplicateForSome.kt");
             }
 
             @TestMetadata("InStringTemplate.kt")
             public void testInStringTemplate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/InStringTemplate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/InStringTemplate.kt");
             }
 
             @TestMetadata("NestedCall.kt")
             public void testNestedCall() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/NestedCall.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/NestedCall.kt");
             }
 
             @TestMetadata("Parenthesized.kt")
             public void testParenthesized() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/Parenthesized.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/Parenthesized.kt");
             }
 
             @TestMetadata("Qualified.kt")
             public void testQualified() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/Qualified.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/Qualified.kt");
             }
 
             @TestMetadata("Simplest.kt")
             public void testSimplest() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/Simplest.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/Simplest.kt");
             }
 
             @TestMetadata("TrivialDontExplicate.kt")
             public void testTrivialDontExplicate() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/TrivialDontExplicate.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/explicateTypeArgument/TrivialDontExplicate.kt");
             }
         }
 
@@ -850,57 +850,57 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("Basic.kt")
             public void testBasic() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/Basic.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/Basic.kt");
             }
 
             @TestMetadata("ClassObjectProperty.kt")
             public void testClassObjectProperty() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/ClassObjectProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/ClassObjectProperty.kt");
             }
 
             @TestMetadata("InstanceProperty.kt")
             public void testInstanceProperty() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/InstanceProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/InstanceProperty.kt");
             }
 
             @TestMetadata("KT17489.kt")
             public void testKT17489() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/KT17489.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/KT17489.kt");
             }
 
             @TestMetadata("keepImport.kt")
             public void testKeepImport() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/keepImport.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/keepImport.kt");
             }
 
             @TestMetadata("Library.kt")
             public void testLibrary() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/Library.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/Library.kt");
             }
 
             @TestMetadata("multiplePackages.kt")
             public void testMultiplePackages() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/multiplePackages.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/multiplePackages.kt");
             }
 
             @TestMetadata("ObjectProperty.kt")
             public void testObjectProperty() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/ObjectProperty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/ObjectProperty.kt");
             }
 
             @TestMetadata("PrivateSet.kt")
             public void testPrivateSet() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/PrivateSet.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/PrivateSet.kt");
             }
 
             @TestMetadata("QualifiedUsage.kt")
             public void testQualifiedUsage() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/QualifiedUsage.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/QualifiedUsage.kt");
             }
 
             @TestMetadata("removeImport.kt")
             public void testRemoveImport() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/removeImport.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/removeImport.kt");
             }
 
             @TestMetadata("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors")
@@ -913,32 +913,32 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
                 @TestMetadata("BlockBody.kt")
                 public void testBlockBody() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/BlockBody.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/BlockBody.kt");
                 }
 
                 @TestMetadata("ExpressionBody.kt")
                 public void testExpressionBody() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/ExpressionBody.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/ExpressionBody.kt");
                 }
 
                 @TestMetadata("ExtensionProperty.kt")
                 public void testExtensionProperty() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/ExtensionProperty.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/ExtensionProperty.kt");
                 }
 
                 @TestMetadata("GetterAndSetter.kt")
                 public void testGetterAndSetter() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/GetterAndSetter.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/GetterAndSetter.kt");
                 }
 
                 @TestMetadata("PlusPlus.kt")
                 public void testPlusPlus() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/PlusPlus.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/PlusPlus.kt");
                 }
 
                 @TestMetadata("WithInitializer.kt")
                 public void testWithInitializer() throws Exception {
-                    KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/WithInitializer.kt", this::doTest);
+                    KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/property/accessors/WithInitializer.kt");
                 }
             }
         }
@@ -949,7 +949,7 @@ public class InlineTestGenerated extends AbstractInlineTest {
         public static class StringTemplates extends AbstractInlineTest {
             @TestMetadata("addBraces.kt")
             public void testAddBraces() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/addBraces.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/addBraces.kt");
             }
 
             public void testAllFilesPresentInStringTemplates() throws Exception {
@@ -958,32 +958,32 @@ public class InlineTestGenerated extends AbstractInlineTest {
 
             @TestMetadata("blockEntry.kt")
             public void testBlockEntry() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/blockEntry.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/blockEntry.kt");
             }
 
             @TestMetadata("empty.kt")
             public void testEmpty() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/empty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/empty.kt");
             }
 
             @TestMetadata("nonEmpty.kt")
             public void testNonEmpty() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/nonEmpty.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/nonEmpty.kt");
             }
 
             @TestMetadata("nonRawToRaw.kt")
             public void testNonRawToRaw() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/nonRawToRaw.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/nonRawToRaw.kt");
             }
 
             @TestMetadata("rawString.kt")
             public void testRawString() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/rawString.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/rawString.kt");
             }
 
             @TestMetadata("rawToNonRaw.kt")
             public void testRawToNonRaw() throws Exception {
-                KotlinTestUtils.runTest("idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/rawToNonRaw.kt", this::doTest);
+                KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "idea/testData/refactoring/inline/inlineVariableOrProperty/stringTemplates/rawToNonRaw.kt");
             }
         }
     }

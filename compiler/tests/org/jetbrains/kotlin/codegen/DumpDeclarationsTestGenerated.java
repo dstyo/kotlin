@@ -27,46 +27,46 @@ public class DumpDeclarationsTestGenerated extends AbstractDumpDeclarationsTest 
 
     @TestMetadata("annotation.kt")
     public void testAnnotation() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/annotation.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/annotation.kt");
     }
 
     @TestMetadata("classMembers.kt")
     public void testClassMembers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/classMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/classMembers.kt");
     }
 
     @TestMetadata("classes.kt")
     public void testClasses() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/classes.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/classes.kt");
     }
 
     @TestMetadata("interfaces.kt")
     public void testInterfaces() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/interfaces.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/interfaces.kt");
     }
 
     @TestMetadata("localClasses.kt")
     public void testLocalClasses() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/localClasses.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/localClasses.kt");
     }
 
     @TestMetadata("multifileFacadeMembers.kt")
     public void testMultifileFacadeMembers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/multifileFacadeMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/multifileFacadeMembers.kt");
     }
 
     @TestMetadata("suspendLambda.kt")
     public void testSuspendLambda() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/suspendLambda.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/suspendLambda.kt");
     }
 
     @TestMetadata("suspendOverride.kt")
     public void testSuspendOverride() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/suspendOverride.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/suspendOverride.kt");
     }
 
     @TestMetadata("topLevelMembers.kt")
     public void testTopLevelMembers() throws Exception {
-        KotlinTestUtils.runTest("compiler/testData/codegen/dumpDeclarations/topLevelMembers.kt", this::doTest);
+        KotlinTestUtils.runTest(this::doTest,TargetBackend.ANY, "compiler/testData/codegen/dumpDeclarations/topLevelMembers.kt");
     }
 }
